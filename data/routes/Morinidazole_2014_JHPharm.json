@@ -1,0 +1,103 @@
+{
+  "background": {
+    "name": "Morinidazole",
+    "author": null,
+    "year": 2014,
+    "drug_name": "Morinidazole",
+    "manufacturer": "JHPharm",
+    "citation": "Bioorg. Med. Chem. 2016, 24, 1937",
+    "doi": "10.1016/j.bmc.2016.03.004"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Morinidazole_2014_JHPharm_1",
+      "reaction_smiles": "Cc1ncc([N+](=O)[O-])[nH]1.ClCC1CO1.CC(=O)O.O=S(=O)(O)O>>Cc1ncc([N+](=O)[O-])n1CC(O)CCl",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[n:3][cH:4][c:5]([N+:6](=[O:7])[O-:8])[nH:9]1.[CH2:10]1[CH:11]([CH2:13][Cl:14])[O:12]1>CC(=O)O.O=S(=O)(O)O>[CH3:1][c:2]1[n:3][cH:4][c:5]([N+:6](=[O:7])[O-:8])[n:9]1[CH2:10][CH:11]([OH:12])[CH2:13][Cl:14]",
+      "mapping_confidence": 0.979531716417938,
+      "conditions": {
+        "raw_description": "HOAc; H2SO4; 0 \u00b0C; 51%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morinidazole_2014_JHPharm_2",
+      "reaction_smiles": "Cc1ncc([N+](=O)[O-])n1CC(O)CCl.CCCC[N+](CCCC)(CCCC)CCCC.[F-].[Na+].[OH-].ClCCl>>Cc1ncc([N+](=O)[O-])n1CC1CO1",
+      "reaction_smiles_mapped": "Cl[CH2:12][CH:11]([CH2:10][n:9]1[c:2]([CH3:1])[n:3][cH:4][c:5]1[N+:6](=[O:7])[O-:8])[OH:13]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].[Na+].[OH-].ClCCl>[CH3:1][c:2]1[n:3][cH:4][c:5]([N+:6](=[O:7])[O-:8])[n:9]1[CH2:10][CH:11]1[CH2:12][O:13]1",
+      "mapping_confidence": 0.9815221528052842,
+      "conditions": {
+        "raw_description": "TBAF; aq. NaOH; CH2Cl2; 84%",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morinidazole_2014_JHPharm_3",
+      "reaction_smiles": "Cc1ncc([N+](=O)[O-])n1CC1CO1.C1COCCN1.CC#N>>Cc1ncc([N+](=O)[O-])n1CC(O)CN1CCOCC1",
+      "reaction_smiles_mapped": "[NH:14]1[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1.[CH3:1][c:2]1[n:3][cH:4][c:5]([N+:6](=[O:7])[O-:8])[n:9]1[CH2:10][CH:11]1[O:12][CH2:13]1>CC#N>[CH3:1][c:2]1[n:3][cH:4][c:5]([N+:6](=[O:7])[O-:8])[n:9]1[CH2:10][CH:11]([OH:12])[CH2:13][N:14]1[CH2:15][CH2:16][O:17][CH2:18][CH2:19]1",
+      "mapping_confidence": 0.5085969627115196,
+      "conditions": {
+        "raw_description": "MeCN; 75 %",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    }
+  ]
+}

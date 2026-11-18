@@ -1,0 +1,616 @@
+{
+  "background": {
+    "name": "(+/-)-Merrilactone A",
+    "author": "Zhai",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2012, 51, 5897",
+    "doi": "10.1002/anie.201200378"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_1",
+      "reaction_smiles": "CC(=O)CO.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)c1ccncc1>>CC(=O)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[CH2:4][OH:5].Cl[Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12]>c1c[nH]cn1.CN(C)c1ccncc1>[CH3:1][C:2](=[O:3])[CH2:4][O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.36797580346842296,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMAP",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_2",
+      "reaction_smiles": "CC(=O)CO[Si](C)(C)C(C)(C)C.CCOC(=O)CP(=O)(OCC)OCC.[H-].[Na+]>>CCOC(=O)/C=C(\\C)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=[C:7]([CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17].CCOP(=O)(OCC)[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>[H-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7](\\[CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.31162221727062384,
+      "conditions": {
+        "raw_description": "NaH",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_3",
+      "reaction_smiles": "CCOC(=O)/C=C(\\C)CO[Si](C)(C)C(C)(C)C.CC(C)C[AlH]CC(C)C>>C/C(=C\\CO)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CCO[C:4](/[CH:3]=[C:2](\\[CH3:1])[CH2:6][O:7][Si:8]([CH3:9])([CH3:10])[C:11]([CH3:12])([CH3:13])[CH3:14])=[O:5]>CC(C)C[AlH]CC(C)C>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][OH:5])[CH2:6][O:7][Si:8]([CH3:9])([CH3:10])[C:11]([CH3:12])([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.29485636837383666,
+      "conditions": {
+        "raw_description": "DIBALH",
+        "GENERAL_REAGENTS": [
+          "DIBALH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_4",
+      "reaction_smiles": "C/C(=C\\CO)CO[Si](C)(C)C(C)(C)C.CCC(=O)O.CCOC(CC)(OCC)OCC>>C=C[C@](C)(CO[Si](C)(C)C(C)(C)C)[C@@H](C)C(=O)OCC",
+      "reaction_smiles_mapped": "O[CH2:1]/[CH:2]=[C:3](\\[CH3:4])[CH2:5][O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13].CCO[C:16]([CH2:14][CH3:15])([O:17]CC)[O:18][CH2:19][CH3:20]>CCC(=O)O>[CH2:1]=[CH:2][C@:3]([CH3:4])([CH2:5][O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13])[C@@H:14]([CH3:15])[C:16](=[O:17])[O:18][CH2:19][CH3:20]",
+      "mapping_confidence": 0.050724062852640056,
+      "conditions": {
+        "raw_description": "EtC(OEt)3; 135 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "EtC(OEt)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(OCC)(OCC)(OCC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "135"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_5",
+      "reaction_smiles": "C=C[C@](C)(CO[Si](C)(C)C(C)(C)C)[C@@H](C)C(=O)OCC.Cc1ccc(S(=O)(=O)O)cc1.CO>>C=C[C@]1(C)COC(=O)[C@@H]1C",
+      "reaction_smiles_mapped": "CCO[C:7](=[O:8])[C@@H:9]([C@@:3]([CH:2]=[CH2:1])([CH3:4])[CH2:5][O:6][Si](C)(C)C(C)(C)C)[CH3:10]>Cc1ccc(S(=O)(=O)O)cc1.CO>[CH2:1]=[CH:2][C@:3]1([CH3:4])[CH2:5][O:6][C:7](=[O:8])[C@@H:9]1[CH3:10]",
+      "mapping_confidence": 0.8885082581926088,
+      "conditions": {
+        "raw_description": "TsOH\u2022H2O; MeOH; 20 \u00b0C; 89% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": [
+          "89% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_6",
+      "reaction_smiles": "C=C[C@]1(C)COC(=O)[C@@H]1C.C[Si](C)(C)C#CC=O.[Li]N(C(C)C)C(C)C.CC(C)O.[Cl-].[Cl-].[Cl-].[Ti].C1CCOC1>>C=CC1(C)COC(=O)[C@]1(C)[C@@H](O)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@:3]1([CH3:4])[CH2:5][O:6][C:7](=[O:8])[C@@H:9]1[CH3:10].[CH:11](=[O:12])[C:13]#[C:14][Si:15]([CH3:16])([CH3:17])[CH3:18]>[Li]N(C(C)C)C(C)C.CC(C)O.[Cl-].[Cl-].[Cl-].[Ti].C1CCOC1>[CH2:1]=[CH:2][C:3]1([CH3:4])[CH2:5][O:6][C:7](=[O:8])[C@:9]1([CH3:10])[C@@H:11]([OH:12])[C:13]#[C:14][Si:15]([CH3:16])([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.40261254054432344,
+      "conditions": {
+        "raw_description": "LDA; Ti(OiPr)3Cl; THF; -78 \u00b0C; 81%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "Ti(OiPr)3Cl"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ti].[Cl-].[Cl-].[Cl-].CC(C)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_7",
+      "reaction_smiles": "C=CC1(C)COC(=O)[C@]1(C)[C@@H](O)C#C[Si](C)(C)C.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>C=CC1(C)COC(=O)[C@]1(C)[C@H](C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C:3]1([CH3:4])[CH2:5][O:6][C:7](=[O:8])[C@:9]1([CH3:10])[C@H:11]([C:12]#[C:13][Si:14]([CH3:15])([CH3:16])[CH3:17])[OH:18].O=S(=O)(O[Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25])C(F)(F)F>ClCCl.Cc1cccc(C)n1>[CH2:1]=[CH:2][C:3]1([CH3:4])[CH2:5][O:6][C:7](=[O:8])[C@:9]1([CH3:10])[C@H:11]([C:12]#[C:13][Si:14]([CH3:15])([CH3:16])[CH3:17])[O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.16498032108106694,
+      "conditions": {
+        "raw_description": "TBSOTf; 2,6-lutidine; CH2Cl2; 30 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "2,6-lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "Cc1cccc(C)n1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_8",
+      "reaction_smiles": "C=CC1(C)COC(=O)[C@]1(C)[C@H](C#C[Si](C)(C)C)O[Si](C)(C)C(C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>C#C[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OCC1(C)C=C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][C@H:3]([O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[C@@:12]1([CH3:13])[C:14](=[O:15])[O:16][CH2:17][C:18]1([CH3:19])[CH:20]=[CH2:21]>O=C([O-])[O-].[K+].[K+].CO>[CH:1]#[C:2][C@H:3]([O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[C@@:12]1([CH3:13])[C:14](=[O:15])[O:16][CH2:17][C:18]1([CH3:19])[CH:20]=[CH2:21]",
+      "mapping_confidence": 0.315414037569215,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; rt; 96%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_9",
+      "reaction_smiles": "C#C[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OCC1(C)C=C.O=[O+][O-].CSC.CO.ClCCl>>C#C[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OC[C@@]1(C)C=O",
+      "reaction_smiles_mapped": "C=[CH:20][C:18]1([CH3:19])[C@:12]([C@H:3]([C:2]#[CH:1])[O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])([CH3:13])[C:14](=[O:15])[O:16][CH2:17]1.[O-][O+]=[O:21]>CSC.CO.ClCCl>[CH:1]#[C:2][C@H:3]([O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[C@@:12]1([CH3:13])[C:14](=[O:15])[O:16][CH2:17][C@@:18]1([CH3:19])[CH:20]=[O:21]",
+      "mapping_confidence": 0.09890552808753267,
+      "conditions": {
+        "raw_description": "1) O3; MeOH; CH2Cl2; -78\u00b0C; 2) Me2S; -78 \u00b0C to rt; 49%",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "Me2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_10",
+      "reaction_smiles": "C#C[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OC[C@@]1(C)C=O.[C-]#[O+].CN(C)C=O.CN(C)C=O.CN(C)C=O.[C-]#[O+].[C-]#[O+].[C-]#[O+].[Mo].C1CCOC1>>CC(C)(C)[Si](C)(C)O[C@H]1C2=CC(=O)O[C@@H]2[C@]2(C)COC(=O)[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@@H:9]([C:10]#[CH:11])[C@:22]1([CH3:23])[C@@:16]([CH:15]=[O:14])([CH3:17])[CH2:18][O:19][C:20]1=[O:21].CN(C)[CH:12]=[O:13]>[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].CN(C)C=O.CN(C)C=O.[Mo].C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[C:10]2=[CH:11][C:12](=[O:13])[O:14][C@@H:15]2[C@:16]2([CH3:17])[CH2:18][O:19][C:20](=[O:21])[C@:22]12[CH3:23]",
+      "mapping_confidence": 0.07329166097938743,
+      "conditions": {
+        "raw_description": "1) Mo(CO)3(DMF)3; THF; ty; 2) CO; 69%",
+        "GENERAL_REAGENTS": [
+          "CO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#[O+]"
+        ],
+        "CATALYSTS": [
+          "Mo(CO)3(DMF)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#[O+].[C-]#[O+].[C-]#[O+].[Mo].O=CN(C)C.O=CN(C)C.O=CN(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "ty"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_11",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1C2=CC(=O)O[C@@H]2[C@]2(C)COC(=O)[C@]12C.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(CC)CC.ClCCl>>CC(C)(C)[Si](C)(C)Oc1cc2c(o1)[C@]1(C)COC(=O)[C@]1(C)[C@H]2O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(C(F)(F)F)[O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7].O=[C:9]1[CH:10]=[C:11]2[C@H:12]([O:13]1)[C@:14]1([CH3:15])[CH2:16][O:17][C:18](=[O:19])[C@:20]1([CH3:21])[C@H:22]2[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]>CCN(CC)CC.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][c:11]2[c:12]([o:13]1)[C@:14]1([CH3:15])[CH2:16][O:17][C:18](=[O:19])[C@:20]1([CH3:21])[C@H:22]2[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.06952527706071707,
+      "conditions": {
+        "raw_description": "TBSOTf; Et3N; CH2Cl2; rt; rt; 87%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "rt"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_12",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)Oc1cc2c(o1)[C@]1(C)COC(=O)[C@]1(C)[C@H]2O[Si](C)(C)C(C)(C)C.C=CC(C)=O.O=S(=O)(CCCS(=O)(=O)C(F)(F)F)C(F)(F)F.Cl.ClCCl>>CC(=O)CC[C@@]12OC(=O)C=C1[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OC[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[CH:4]=[CH2:5].CC(C)(C)[Si](C)(C)[O:9][c:8]1[o:7][c:6]2[c:11]([cH:10]1)[C@H:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@:21]1([CH3:22])[C:23](=[O:24])[O:25][CH2:26][C@@:27]21[CH3:28]>O=S(=O)(CCCS(=O)(=O)C(F)(F)F)C(F)(F)F.Cl.ClCCl>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][C@@:6]12[O:7][C:8](=[O:9])[CH:10]=[C:11]1[C@H:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@:21]1([CH3:22])[C:23](=[O:24])[O:25][CH2:26][C@@:27]21[CH3:28]",
+      "mapping_confidence": 0.06792682773402825,
+      "conditions": {
+        "raw_description": "1) Tf2CHCH2CHTf2; CH2Cl2; -78 to -20 \u00b0C; 2) HCl; 61%",
+        "GENERAL_REAGENTS": [
+          "Tf2CHCH2CHTf2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "FC(F)(F)S(=O)(=O)CCCS(=O)(=O)C(F)(F)F",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-20"
+        ],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_13",
+      "reaction_smiles": "CC(=O)CC[C@@]12OC(=O)C=C1[C@H](O[Si](C)(C)C(C)(C)C)[C@@]1(C)C(=O)OC[C@@]21C.I[Sm]I.C1CCOC1>>CC(C)(C)[Si](C)(C)O[C@H]1[C@@]23CC(=O)O[C@@]2(CC[C@@]3(C)O)[C@]2(C)COC(=O)[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[C:10]2=[CH:11][C:12](=[O:13])[O:14][C@@:15]2([CH2:16][CH2:17][C:18]([CH3:19])=[O:20])[C@:21]2([CH3:22])[CH2:23][O:24][C:25](=[O:26])[C@:27]12[CH3:28]>I[Sm]I.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[C@@:10]23[CH2:11][C:12](=[O:13])[O:14][C@@:15]2([CH2:16][CH2:17][C@@:18]3([CH3:19])[OH:20])[C@:21]2([CH3:22])[CH2:23][O:24][C:25](=[O:26])[C@:27]12[CH3:28]",
+      "mapping_confidence": 0.20160917556935534,
+      "conditions": {
+        "raw_description": "SmI2; THF; rt; 84%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_14",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1[C@@]23CC(=O)O[C@@]2(CC[C@@]3(C)O)[C@]2(C)COC(=O)[C@]12C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>>C[C@@]12COC(=O)[C@]1(C)[C@@H](O)[C@@]13CC(=O)O[C@@]21CC[C@@]3(C)O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:10][C@@H:9]1[C@:7]2([CH3:8])[C@@:2]([CH3:1])([CH2:3][O:4][C:5]2=[O:6])[C@@:16]23[C@@:11]1([CH2:12][C:13](=[O:14])[O:15]2)[C@:19]([CH3:20])([OH:21])[CH2:18][CH2:17]3>CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>[CH3:1][C@@:2]12[CH2:3][O:4][C:5](=[O:6])[C@:7]1([CH3:8])[C@@H:9]([OH:10])[C@@:11]13[CH2:12][C:13](=[O:14])[O:15][C@@:16]21[CH2:17][CH2:18][C@@:19]3([CH3:20])[OH:21]",
+      "mapping_confidence": 0.9731524617431986,
+      "conditions": {
+        "raw_description": "TBAF; AcOH; THF; 0 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_15",
+      "reaction_smiles": "C[C@@]12COC(=O)[C@]1(C)[C@@H](O)[C@@]13CC(=O)O[C@@]21CC[C@@]3(C)O.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>CC1=CC[C@@]23OC(=O)C[C@@]12[C@H](O)[C@@]1(C)C(=O)OC[C@@]31C",
+      "reaction_smiles_mapped": "O[C@:2]1([CH3:1])[CH2:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C@H:11]([OH:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C@H:11]([OH:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]",
+      "mapping_confidence": 0.9603233319313248,
+      "conditions": {
+        "raw_description": "TsOH\u2022H2O; benzene; reflux; 91%",
+        "GENERAL_REAGENTS": [
+          "TsOH\u2022H2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_16",
+      "reaction_smiles": "CC1=CC[C@@]23OC(=O)C[C@@]12[C@H](O)[C@@]1(C)C(=O)OC[C@@]31C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>CC1=CC[C@@]23OC(=O)C[C@@]12C(=O)[C@@]1(C)C(=O)OC[C@]13C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C@H:11]([OH:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C:11](=[O:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]",
+      "mapping_confidence": 0.9642874806605117,
+      "conditions": {
+        "raw_description": "DMP; CH2Cl2; rt; 94%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_17",
+      "reaction_smiles": "CC1=CC[C@@]23OC(=O)C[C@@]12C(=O)[C@@]1(C)C(=O)OC[C@]13C.[BH4-].[Na+].CO>>CC1=CC[C@@]23OC(=O)C[C@@]12[C@@H](O)[C@@]1(C)C(=O)OC[C@@]31C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C:11](=[O:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]>[BH4-].[Na+].CO>[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]23[O:6][C:7](=[O:8])[CH2:9][C@@:10]12[C@@H:11]([OH:12])[C@@:13]1([CH3:14])[C:15](=[O:16])[O:17][CH2:18][C@@:19]31[CH3:20]",
+      "mapping_confidence": 0.987554907681085,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C; 26%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "26%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_18",
+      "reaction_smiles": "CC1=CC[C@@]23OC(=O)C[C@@]12[C@@H](O)[C@@]1(C)C(=O)OC[C@@]31C.CC1(C)OO1.ClCCl.CC(C)=O>>C[C@@]12COC(=O)[C@]1(C)[C@H](O)[C@@]13CC(=O)O[C@@]21C[C@@H]1O[C@@]13C",
+      "reaction_smiles_mapped": "CC1(C)O[O:19]1.[CH3:1][C@@:2]12[CH2:3][O:4][C:5](=[O:6])[C@:7]1([CH3:8])[C@H:9]([OH:10])[C@@:11]13[CH2:12][C:13](=[O:14])[O:15][C@@:16]21[CH2:17][CH:18]=[C:20]3[CH3:21]>ClCCl.CC(C)=O>[CH3:1][C@@:2]12[CH2:3][O:4][C:5](=[O:6])[C@:7]1([CH3:8])[C@H:9]([OH:10])[C@@:11]13[CH2:12][C:13](=[O:14])[O:15][C@@:16]21[CH2:17][C@@H:18]1[O:19][C@:20]31[CH3:21]",
+      "mapping_confidence": 0.5324813112321591,
+      "conditions": {
+        "raw_description": "DMDO; CH2Cl2; acetone; rt",
+        "GENERAL_REAGENTS": [
+          "DMDO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(OO1)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Merrilactone_A_2012_Zhai_19",
+      "reaction_smiles": "C[C@@]12COC(=O)[C@]1(C)[C@H](O)[C@@]13CC(=O)O[C@@]21C[C@@H]1O[C@@]13C.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>>C[C@@]12COC(=O)[C@]1(C)[C@@H]1O[C@]3(C)[C@@H](O)C[C@]24OC(=O)C[C@]143",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][O:4][C:5](=[O:6])[C@:7]1([CH3:8])[C@H:9]([OH:10])[C@:21]13[C@:11]4([CH3:12])[C@@H:13]([O:14]4)[CH2:15][C@:16]21[O:17][C:18](=[O:19])[CH2:20]3>Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH3:1][C@@:2]12[CH2:3][O:4][C:5](=[O:6])[C@:7]1([CH3:8])[C@@H:9]1[O:10][C@:11]3([CH3:12])[C@@H:13]([OH:14])[CH2:15][C@:16]24[O:17][C:18](=[O:19])[CH2:20][C@@:21]134",
+      "mapping_confidence": 0.8203669113814149,
+      "conditions": {
+        "raw_description": "TsOH; CH2Cl2; rt; 74% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "74% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "background": {
+    "name": "Urea",
+    "author": "Wohler",
+    "year": 1828,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ann. Phys. Chem. 1828, 12, 253",
+    "doi": "10.1002/andp.18280880206"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Urea_1828_Wohler_1",
+      "reaction_smiles": "N#C[K].O=[Pb]=O>>N#CO[K]",
+      "reaction_smiles_mapped": "[N:1]#[C:2][K:4].O=[Pb]=[O:3]>>[N:1]#[C:2][O:3][K:4]",
+      "mapping_confidence": 0.5630424085310561,
+      "conditions": {
+        "raw_description": "PbO2",
+        "GENERAL_REAGENTS": [
+          "PbO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Pb](=O)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Urea_1828_Wohler_2",
+      "reaction_smiles": "N#CO[K].O=S(=O)([O-])[O-].[NH4+].[NH4+]>>N#C[O-].[NH4+]",
+      "reaction_smiles_mapped": "[K][O:3][C:2]#[N:1].[NH4+:4]>O=S(=O)([O-])[O-].[NH4+]>[N:1]#[C:2][O-:3].[NH4+:4]",
+      "mapping_confidence": 0.5464444928642225,
+      "conditions": {
+        "raw_description": "(NH4)2SO4",
+        "GENERAL_REAGENTS": [
+          "(NH4)2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[NH4+].[O-]S(=O)(=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Urea_1828_Wohler_3",
+      "reaction_smiles": "N#C[O-].[NH4+]>>NC(N)=O",
+      "reaction_smiles_mapped": "[C:2](#[N:3])[O-:4].[NH4+:1]>>[NH2:1][C:2]([NH2:3])=[O:4]",
+      "mapping_confidence": 0.9949830593521426,
+      "conditions": {
+        "raw_description": "heat",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "heat"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

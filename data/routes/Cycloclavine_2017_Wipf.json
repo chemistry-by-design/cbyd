@@ -1,0 +1,450 @@
+{
+  "background": {
+    "name": "(-)-Cycloclavine",
+    "author": "Wipf",
+    "year": 2017,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2017, 56, 324",
+    "doi": "10.1002/anie.201608820"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_1",
+      "reaction_smiles": "C=C=C.CC(=[N+]=[N-])C(=O)Oc1c(F)c(F)c(F)c(F)c1F.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CCOC(C)=O.CCOC(C)=O.[Rh+2].[Rh+2].ClCCl>>C=C1C[C@@]1(C)C(=O)Oc1c(F)c(F)c(F)c(F)c1F",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]=[CH2:3].[N-]=[N+]=[C:4]([CH3:5])[C:6](=[O:7])[O:8][c:9]1[c:10]([F:11])[c:12]([F:13])[c:14]([F:15])[c:16]([F:17])[c:18]1[F:19]>CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CC(C)(C)[C@@H](C(=O)[O-])N1C(=O)c2c(F)c(F)c(F)c(F)c2C1=O.CCOC(C)=O.CCOC(C)=O.[Rh+2].[Rh+2].ClCCl>[CH2:1]=[C:2]1[CH2:3][C@@:4]1([CH3:5])[C:6](=[O:7])[O:8][c:9]1[c:10]([F:11])[c:12]([F:13])[c:14]([F:15])[c:16]([F:17])[c:18]1[F:19]",
+      "mapping_confidence": 0.3101842637493143,
+      "conditions": {
+        "raw_description": "Rh2(S-TBPTTL)4; CH2Cl2; -78 \u00b0C to RT; 86%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Rh2(S-TBPTTL)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCOC(C)=O.CCOC(C)=O.CC(C)([C@H](N1C(C2=C(C(F)=C(F)C(F)=C2F)C1=O)=O)C([O-])=O)C.CC(C)([C@H](N3C(C4=C(C(F)=C(F)C(F)=C4F)C3=O)=O)C([O-])=O)C.CC(C)([C@H](N5C(C6=C(C(F)=C(F)C(F)=C6F)C5=O)=O)C([O-])=O)C.CC(C)([C@H](N7C(C8=C(C(F)=C(F)C(F)=C8F)C7=O)=O)C([O-])=O)C.[Rh+2].[Rh+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_2",
+      "reaction_smiles": "C=C1C[C@@]1(C)C(=O)Oc1c(F)c(F)c(F)c(F)c1F.CNC=CC(C)=O.[Li]CCCC.CN(C)c1ccncc1.C1CCOC1>>C=C1C[C@@]1(C)C(=O)N(C)/C=C/C(C)=O",
+      "reaction_smiles_mapped": "Fc1c(F)c(F)c(O[C:6]([C@@:4]2([CH3:5])[C:2](=[CH2:1])[CH2:3]2)=[O:7])c(F)c1F.[NH:8]([CH3:9])[CH:10]=[CH:11][C:12]([CH3:13])=[O:14]>[Li]CCCC.CN(C)c1ccncc1.C1CCOC1>[CH2:1]=[C:2]1[CH2:3][C@@:4]1([CH3:5])[C:6](=[O:7])[N:8]([CH3:9])/[CH:10]=[CH:11]/[C:12]([CH3:13])=[O:14]",
+      "mapping_confidence": 0.9830260734473141,
+      "conditions": {
+        "raw_description": "nBuLi; DMAP; THF; -78 \u00b0C to RT; 75%",
+        "GENERAL_REAGENTS": [
+          "nBuLi",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_3",
+      "reaction_smiles": "C=C1C[C@@]1(C)C(=O)N(C)/C=C/C(C)=O.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CC(C)(C)[Si](C)(C)Cl.C1CCOC1>>C=C(/C=C/N(C)C(=O)[C@]1(C)CC1=C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](/[CH:3]=[CH:4]/[N:5]([CH3:6])[C:7](=[O:8])[C@:9]1([CH3:10])[CH2:11][C:12]1=[CH2:13])=[O:14].Cl[Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21]>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C1CCOC1>[CH2:1]=[C:2](/[CH:3]=[CH:4]/[N:5]([CH3:6])[C:7](=[O:8])[C@:9]1([CH3:10])[CH2:11][C:12]1=[CH2:13])[O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.2453901546198245,
+      "conditions": {
+        "raw_description": "NaHMDS; TBSCl; THF; -78 to -50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "TBSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "CC(C)(C)[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_4",
+      "reaction_smiles": "C=C(/C=C/N(C)C(=O)[C@]1(C)CC1=C)O[Si](C)(C)C(C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CN1C(=O)[C@]2(C)C[C@@]23CCC(=O)C[C@H]13",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:12][C:11](=[CH2:10])/[CH:13]=[CH:14]/[N:2]([CH3:1])[C:3](=[O:4])[C@:5]1([CH3:6])[CH2:7][C:8]1=[CH2:9]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[CH2:9][CH2:10][C:11](=[O:12])[CH2:13][C@H:14]13",
+      "mapping_confidence": 0.8900219970750285,
+      "conditions": {
+        "raw_description": "1) THF; 95 \u00b0C; 2) TBAF; 74% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": [
+          "74% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_5",
+      "reaction_smiles": "CN1C(=O)[C@]2(C)C[C@@]23CCC(=O)C[C@H]13.O=O.CC(=O)O.O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2].CS(C)=O>>CN1C(=O)[C@]2(C)C[C@@]23C=CC(=O)C[C@H]13",
+      "reaction_smiles_mapped": "[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[CH2:9][CH2:10][C:11](=[O:12])[CH2:13][C@H:14]13>O=O.CC(=O)O.O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2].CS(C)=O>[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[CH:9]=[CH:10][C:11](=[O:12])[CH2:13][C@H:14]13",
+      "mapping_confidence": 0.9431066201573052,
+      "conditions": {
+        "raw_description": "Pd(TFA)2; DMSO; O2; AcOH; 55 \u00b0C; 76%",
+        "GENERAL_REAGENTS": [
+          "O2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "Pd(TFA)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(=O)(C(F)(F)F)[O-].C(=O)(C(F)(F)F)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_6",
+      "reaction_smiles": "CN1C(=O)[C@]2(C)C[C@@]23C=CC(=O)C[C@H]13.CCCC[Sn](CCCC)(CCCC)CN(C(=O)ON1C(C)(C)CCCC1(C)C)c1ccco1.[Li]CCCC.CCOCC>>CN1C(=O)[C@]2(C)C[C@@]23C=C[C@@](O)(CN(C(=O)ON2C(C)(C)CCCC2(C)C)c2ccco2)C[C@H]13",
+      "reaction_smiles_mapped": "CCCC[Sn](CCCC)(CCCC)[CH2:13][N:14]([C:15](=[O:16])[O:17][N:18]1[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][CH2:24][C:25]1([CH3:26])[CH3:27])[c:28]1[cH:29][cH:30][cH:31][o:32]1.[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[CH:9]=[CH:10][C:11](=[O:12])[CH2:33][C@H:34]13>[Li]CCCC.CCOCC>[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[CH:9]=[CH:10][C@@:11]([OH:12])([CH2:13][N:14]([C:15](=[O:16])[O:17][N:18]2[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][CH2:24][C:25]2([CH3:26])[CH3:27])[c:28]2[cH:29][cH:30][cH:31][o:32]2)[CH2:33][C@H:34]13",
+      "mapping_confidence": 0.38128639335965336,
+      "conditions": {
+        "raw_description": "nBuLi; Et2O; -95 \u00b0C; 59%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-95"
+        ],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_7",
+      "reaction_smiles": "CN1C(=O)[C@]2(C)C[C@@]23C=C[C@@](O)(CN(C(=O)ON2C(C)(C)CCCC2(C)C)c2ccco2)C[C@H]13.Cc1ccccc1>>CN1C(=O)[C@]2(C)C[C@@]23c2cccc4[nH]cc(c24)C[C@H]13",
+      "reaction_smiles_mapped": "CC1(C)CCCC(C)(C)N1OC(=O)[N:14]([c:13]1o[cH:10][cH:11][cH:12]1)[CH2:15][C@:16]1(O)[CH:17]=[CH:9][C@:8]23[C@:5]([CH3:6])([C:3](=[O:4])[N:2]([CH3:1])[C@H:19]2[CH2:18]1)[CH2:7]3>Cc1ccccc1>[CH3:1][N:2]1[C:3](=[O:4])[C@:5]2([CH3:6])[CH2:7][C@@:8]23[c:9]2[cH:10][cH:11][cH:12][c:13]4[nH:14][cH:15][c:16]([c:17]24)[CH2:18][C@H:19]13",
+      "mapping_confidence": 0.8946579590952649,
+      "conditions": {
+        "raw_description": "toluene; 135 \u00b0C; 68h; Diels-Alder",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "135"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_8",
+      "reaction_smiles": "CN1C(=O)[C@]2(C)C[C@@]23c2cccc4[nH]cc(c24)C[C@H]13.[AlH4-].[Li+].C1CCOC1>>CN1C[C@]2(C)C[C@@]23c2cccc4[nH]cc(c24)C[C@H]13",
+      "reaction_smiles_mapped": "O=[C:3]1[N:2]([CH3:1])[C@@H:18]2[C@@:7]3([C@@:4]1([CH3:5])[CH2:6]3)[c:8]1[cH:9][cH:10][cH:11][c:12]3[nH:13][cH:14][c:15]([c:16]13)[CH2:17]2>[AlH4-].[Li+].C1CCOC1>[CH3:1][N:2]1[CH2:3][C@:4]2([CH3:5])[CH2:6][C@@:7]23[c:8]2[cH:9][cH:10][cH:11][c:12]4[nH:13][cH:14][c:15]([c:16]24)[CH2:17][C@H:18]13",
+      "mapping_confidence": 0.993758562476291,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux; 48% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "48% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_9",
+      "reaction_smiles": "CC(=O)C(=O)O.Cc1ccc(S(=O)(=O)NN)cc1.Cl>>C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)O",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:1])[C:15](=[O:16])[OH:17].[NH2:3][NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1>Cl>[CH3:1]/[C:2](=[N:3]\\[NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)[C:15](=[O:16])[OH:17]",
+      "mapping_confidence": 0.46532370100313636,
+      "conditions": {
+        "raw_description": "TsHNH2; HCl; 100 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "TsHNH2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)NN",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_10",
+      "reaction_smiles": "C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)O.O=C(Cl)C(=O)Cl.CN(C)C=O>>C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)Cl",
+      "reaction_smiles_mapped": "O[C:15](/[C:2]([CH3:1])=[N:3]/[NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)=[O:16].O=C(Cl)C(=O)[Cl:17]>CN(C)C=O>[CH3:1]/[C:2](=[N:3]\\[NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)[C:15](=[O:16])[Cl:17]",
+      "mapping_confidence": 0.3390304175662267,
+      "conditions": {
+        "raw_description": "(COCl)2; DMF",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_11",
+      "reaction_smiles": "C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)Cl.Oc1c(F)c(F)c(F)c(F)c1F.ClCCl>>C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)Oc1c(F)c(F)c(F)c(F)c1F",
+      "reaction_smiles_mapped": "Cl[C:15](/[C:2]([CH3:1])=[N:3]/[NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)=[O:16].[OH:17][c:18]1[c:19]([F:20])[c:21]([F:22])[c:23]([F:24])[c:25]([F:26])[c:27]1[F:28]>ClCCl>[CH3:1]/[C:2](=[N:3]\\[NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)[C:15](=[O:16])[O:17][c:18]1[c:19]([F:20])[c:21]([F:22])[c:23]([F:24])[c:25]([F:26])[c:27]1[F:28]",
+      "mapping_confidence": 0.3884859371199914,
+      "conditions": {
+        "raw_description": "CH2Cl2; RT",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_12",
+      "reaction_smiles": "C/C(=N\\NS(=O)(=O)c1ccc(C)cc1)C(=O)Oc1c(F)c(F)c(F)c(F)c1F.CCN(CC)CC.ClCCl>>CC(=[N+]=[N-])C(=O)Oc1c(F)c(F)c(F)c(F)c1F",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[NH:4]/[N:3]=[C:2](\\[CH3:1])[C:5](=[O:6])[O:7][c:8]2[c:9]([F:10])[c:11]([F:12])[c:13]([F:14])[c:15]([F:16])[c:17]2[F:18])cc1>CCN(CC)CC.ClCCl>[CH3:1][C:2](=[N+:3]=[N-:4])[C:5](=[O:6])[O:7][c:8]1[c:9]([F:10])[c:11]([F:12])[c:13]([F:14])[c:15]([F:16])[c:17]1[F:18]",
+      "mapping_confidence": 0.814974407325475,
+      "conditions": {
+        "raw_description": "Et3N; CH2Cl2; RT; 21% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "21% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_13",
+      "reaction_smiles": "[N-]=[N+]=NC(=O)c1ccco1.CC1(C)CCCC(C)(C)N1[O].O=C1O[C@H]([C@@H](O)CO)C(O)=C1O.CO>>CC1(C)CCCC(C)(C)N1OC(=O)Nc1ccco1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[N:10]1[O:11].[N-]=[N+]=[N:14][C:12](=[O:13])[c:15]1[cH:16][cH:17][cH:18][o:19]1>O=C1O[C@H]([C@@H](O)CO)C(O)=C1O.CO>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[N:10]1[O:11][C:12](=[O:13])[NH:14][c:15]1[cH:16][cH:17][cH:18][o:19]1",
+      "mapping_confidence": 0.6084408275157744,
+      "conditions": {
+        "raw_description": "TEMPO; ascorbic acid; MeOH",
+        "GENERAL_REAGENTS": [
+          "TEMPO",
+          "ascorbic acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(CCCC(N1[O])(C)C)C",
+          "C([C@@H]([C@@H]1C(=C(C(=O)O1)O)O)O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cycloclavine_2017_Wipf_14",
+      "reaction_smiles": "CC1(C)CCCC(C)(C)N1OC(=O)Nc1ccco1.CCCC[Sn](CI)(CCCC)CCCC.[H-].[Na+].CN(C)C=O>>CCCC[Sn](CCCC)(CCCC)CN(C(=O)ON1C(C)(C)CCCC1(C)C)c1ccco1",
+      "reaction_smiles_mapped": "[NH:15]([C:16](=[O:17])[O:18][N:19]1[C:20]([CH3:21])([CH3:22])[CH2:23][CH2:24][CH2:25][C:26]1([CH3:27])[CH3:28])[c:29]1[cH:30][cH:31][cH:32][o:33]1.I[CH2:14][Sn:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][CH2:11][CH2:12][CH3:13]>[H-].[Na+].CN(C)C=O>[CH3:1][CH2:2][CH2:3][CH2:4][Sn:5]([CH2:6][CH2:7][CH2:8][CH3:9])([CH2:10][CH2:11][CH2:12][CH3:13])[CH2:14][N:15]([C:16](=[O:17])[O:18][N:19]1[C:20]([CH3:21])([CH3:22])[CH2:23][CH2:24][CH2:25][C:26]1([CH3:27])[CH3:28])[c:29]1[cH:30][cH:31][cH:32][o:33]1",
+      "mapping_confidence": 0.21382038182161173,
+      "conditions": {
+        "raw_description": "NaH; DMF; RT; 70%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    }
+  ]
+}

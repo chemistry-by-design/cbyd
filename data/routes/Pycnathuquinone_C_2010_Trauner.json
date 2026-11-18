@@ -1,0 +1,207 @@
+{
+  "background": {
+    "name": "(-)-Pycnathuquinone C",
+    "author": "Trauner",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2010, 49, 6199",
+    "doi": "10.1002/anie.201001862"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_1",
+      "reaction_smiles": "Cc1ccccc1O.BrBr.CC(=O)O>>Cc1cc(Br)cc(Br)c1O",
+      "reaction_smiles_mapped": "[Br:5][Br:8].[CH3:1][c:2]1[cH:3][cH:4][cH:6][cH:7][c:9]1[OH:10]>CC(=O)O>[CH3:1][c:2]1[cH:3][c:4]([Br:5])[cH:6][c:7]([Br:8])[c:9]1[OH:10]",
+      "mapping_confidence": 0.5241500310606005,
+      "conditions": {
+        "raw_description": "Br2; HOAc; rt; 1h; 96%",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_2",
+      "reaction_smiles": "Cc1cc(Br)cc(Br)c1O.O=[Cr](=O)=O.CC(=O)OC(C)=O.CC#N.O>>CC1=CC(=O)C=C(Br)C1=O",
+      "reaction_smiles_mapped": "Br[c:4]1[cH:3][c:2]([CH3:1])[c:9]([OH:10])[c:7]([Br:8])[cH:6]1.O=[Cr](=O)=[O:5]>CC(=O)OC(C)=O.CC#N.O>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[CH:6]=[C:7]([Br:8])[C:9]1=[O:10]",
+      "mapping_confidence": 0.33249761952224394,
+      "conditions": {
+        "raw_description": "CrO3; Ac2O; MeCN; H2O; 60\u00b0C; 1.5h; 99%",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_3",
+      "reaction_smiles": "CC1=CC(=O)C=C(Br)C1=O.O=S([O-])([O-])=S.[Na+].[Na+].CCO>>Cc1cc(O)cc(Br)c1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[CH:6]=[C:7]([Br:8])[C:9]1=[O:10]>O=S([O-])([O-])=S.[Na+].[Na+].CCO>[CH3:1][c:2]1[cH:3][c:4]([OH:5])[cH:6][c:7]([Br:8])[c:9]1[OH:10]",
+      "mapping_confidence": 0.9833479425304154,
+      "conditions": {
+        "raw_description": "Na2S2O3; EtOH; rt; 1.5h; 71%",
+        "GENERAL_REAGENTS": [
+          "Na2S2O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]S(=O)(=S)[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_4",
+      "reaction_smiles": "Cc1cc(O)cc(Br)c1O.C=C[C@](C)(O)CCC=C(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[Cl-].CC(=O)[O-].CC(=O)[O-].[Pd+2].CN(C)C=O>>CC(C)=CCC[C@@](C)(O)/C=C/c1cc(O)cc(C)c1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]([CH3:8])([OH:9])[CH:10]=[CH2:11].Br[c:12]1[cH:13][c:14]([OH:15])[cH:16][c:17]([CH3:18])[c:19]1[OH:20]>CCCC[N+](CCCC)(CCCC)CCCC.[Cl-].CC(=O)[O-].CC(=O)[O-].[Pd+2].CN(C)C=O>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]([CH3:8])([OH:9])/[CH:10]=[CH:11]/[c:12]1[cH:13][c:14]([OH:15])[cH:16][c:17]([CH3:18])[c:19]1[OH:20]",
+      "mapping_confidence": 0.7257001653493738,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; nBu4NCl; DMF; Heck Reaction",
+        "GENERAL_REAGENTS": [
+          "nBu4NCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_5",
+      "reaction_smiles": "CC(C)=CCC[C@@](C)(O)/C=C/c1cc(O)cc(C)c1O.O=[Mn]=O.ClCCl>>CC(C)=CCC[C@@](C)(O)/C=C/C1=CC(=O)C=C(C)C1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]([CH3:8])([OH:9])/[CH:10]=[CH:11]/[c:12]1[cH:13][c:14]([OH:15])[cH:16][c:17]([CH3:18])[c:19]1[OH:20]>O=[Mn]=O.ClCCl>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]([CH3:8])([OH:9])/[CH:10]=[CH:11]/[C:12]1=[CH:13][C:14](=[O:15])[CH:16]=[C:17]([CH3:18])[C:19]1=[O:20]",
+      "mapping_confidence": 0.7879285705742142,
+      "conditions": {
+        "raw_description": "MnO2; DCM; rt; 0.2h; 75% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pycnathuquinone_C_2010_Trauner_6",
+      "reaction_smiles": "CC(C)=CCC[C@@](C)(O)/C=C/C1=CC(=O)C=C(C)C1=O.O.Cc1ccccc1>>CC1=CC(=O)C2=C(C1=O)[C@H](O)[C@H]1[C@@H](CC[C@@]1(C)O)C2(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[CH:6]=[C:7](/[CH:10]=[CH:12]/[C@:16]([CH2:15][CH2:14][CH:13]=[C:19]([CH3:20])[CH3:21])([CH3:17])[OH:18])[C:8]1=[O:9].[OH2:11]>Cc1ccccc1>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[C:6]2=[C:7]([C:8]1=[O:9])[C@H:10]([OH:11])[C@H:12]1[C@@H:13]([CH2:14][CH2:15][C@@:16]1([CH3:17])[OH:18])[C:19]2([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.7929311107993898,
+      "conditions": {
+        "raw_description": "air; H2O; PhCH3; 60\u00b0C; 16h; 21%; Vinyl quinone; Diels-Alder",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "PhCH3"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "21%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "background": {
+    "name": "(-)-Isoincarvilline",
+    "author": "Uyeda",
+    "year": 2025,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2025, 147, 17510",
+    "doi": "10.1021/jacs.5c04607"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_1",
+      "reaction_smiles": "CC(CCl)=C(Cl)Cl.Cc1ccc(S(=O)(=O)NC(=O)OC(C)(C)C)cc1.O=C([O-])[O-].[K+].[K+].[I-].[K+].CN(C)C=O>>CC(CN(C(=O)OC(C)(C)C)S(=O)(=O)c1ccc(C)cc1)=C(Cl)Cl",
+      "reaction_smiles_mapped": "Cl[CH2:3][C:2]([CH3:1])=[C:22]([Cl:23])[Cl:24].[NH:4]([C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[S:12](=[O:13])(=[O:14])[c:15]1[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]1>CN(C)C=O.O=C([O-])[O-].[I-].[K+].[K+].[K+]>[CH3:1][C:2]([CH2:3][N:4]([C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[S:12](=[O:13])(=[O:14])[c:15]1[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]1)=[C:22]([Cl:23])[Cl:24]",
+      "mapping_confidence": 0.15081259493981178,
+      "conditions": {
+        "raw_description": "K2CO3; KI; DMF; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "KI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "[K+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_2",
+      "reaction_smiles": "CC(CN(C(=O)OC(C)(C)C)S(=O)(=O)c1ccc(C)cc1)=C(Cl)Cl.O=C(O)C(F)(F)F.ClCCl>>CC(CNS(=O)(=O)c1ccc(C)cc1)=C(Cl)Cl",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:4]([CH2:3][C:2]([CH3:1])=[C:15]([Cl:16])[Cl:17])[S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][C:2]([CH2:3][NH:4][S:5](=[O:6])(=[O:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1)=[C:15]([Cl:16])[Cl:17]",
+      "mapping_confidence": 0.3714478086421261,
+      "conditions": {
+        "raw_description": "TFA; DCM; 0 \u00b0C; 89% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "89% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_3",
+      "reaction_smiles": "CC(CNS(=O)(=O)c1ccc(C)cc1)=C(Cl)Cl.C=C/C(C)=C/CO.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C=C/C(C)=C/CN(CC(C)=C(Cl)Cl)S(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "O[CH2:6]/[CH:5]=[C:3](/[CH:2]=[CH2:1])[CH3:4].[NH:7]([CH2:8][C:9]([CH3:10])=[C:11]([Cl:12])[Cl:13])[S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][c:20]([CH3:21])[cH:22][cH:23]1>C1CCOC1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2]/[C:3]([CH3:4])=[CH:5]/[CH2:6][N:7]([CH2:8][C:9]([CH3:10])=[C:11]([Cl:12])[Cl:13])[S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][c:20]([CH3:21])[cH:22][cH:23]1",
+      "mapping_confidence": 0.3690554801154821,
+      "conditions": {
+        "raw_description": "DIAD; PPh3; THF; 85%",
+        "GENERAL_REAGENTS": [
+          "DIAD",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_4",
+      "reaction_smiles": "C=C/C(C)=C/CN(CC(C)=C(Cl)Cl)S(=O)(=O)c1ccc(C)cc1.c1cc(C2=N[C@H]3c4ccccc4C[C@H]3O2)nc(C2=N[C@H]3c4ccccc4C[C@H]3O2)c1.[Cl][Ni][Cl].[Zn].CN1CCCC1=O.C1CCOC1>>CC1=CCC2=C(C)CN(S(=O)(=O)c3ccc(C)cc3)C[C@@H]12",
+      "reaction_smiles_mapped": "Cl[C:5](Cl)=[C:6]([CH3:7])[CH2:8][N:9]([S:10](=[O:11])(=[O:12])[c:13]1[cH:14][cH:15][c:16]([CH3:17])[cH:18][cH:19]1)[CH2:20]/[CH:21]=[C:2](\\[CH3:1])[CH:3]=[CH2:4]>C1CCOC1.CN1CCCC1=O.[Cl][Ni][Cl].[Zn].c1cc(C2=N[C@H]3c4ccccc4C[C@H]3O2)nc(C2=N[C@H]3c4ccccc4C[C@H]3O2)c1>[CH3:1][C:2]1=[CH:3][CH2:4][C:5]2=[C:6]([CH3:7])[CH2:8][N:9]([S:10](=[O:11])(=[O:12])[c:13]3[cH:14][cH:15][c:16]([CH3:17])[cH:18][cH:19]3)[CH2:20][C@@H:21]12",
+      "mapping_confidence": 0.21707109392555354,
+      "conditions": {
+        "raw_description": "Zn; NMP; THF; 0 \u00b0C; 52%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_5",
+      "reaction_smiles": "CC1=CCC2=C(C)CN(S(=O)(=O)c3ccc(C)cc3)C[C@@H]12.BC(C)(C)C(C)C.O=BO[O-].[Na+].O.C1CCOC1>>CC1=C2C[C@H](O)[C@@H](C)[C@@H]2CN(S(=O)(=O)c2ccc(C)cc2)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C:5]2=[C:7]([CH3:8])[CH2:22][N:11]([S:12](=[O:13])(=[O:14])[c:15]3[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]3)[CH2:10][C@@H:9]12.O=B[O:6][O-]>BC(C)(C)C(C)C.C1CCOC1.O.[Na+]>[CH3:1][C:2]1=[C:3]2[CH2:4][C@H:5]([OH:6])[C@@H:7]([CH3:8])[C@@H:9]2[CH2:10][N:11]([S:12](=[O:13])(=[O:14])[c:15]2[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]2)[CH2:22]1",
+      "mapping_confidence": 0.18174389147746567,
+      "conditions": {
+        "raw_description": "NaBO3; H2O; THF; 0 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "NaBO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].B(=O)O[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_6",
+      "reaction_smiles": "CC1=C2C[C@H](O)[C@@H](C)[C@@H]2CN(S(=O)(=O)c2ccc(C)cc2)C1.CC(=O)O.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>CC(=O)O[C@@H]1CC2=C(C)CN(S(=O)(=O)c3ccc(C)cc3)C[C@H]2[C@@H]1C",
+      "reaction_smiles_mapped": "O[C:2]([CH3:1])=[O:3].[OH:4][C@H:5]1[CH2:6][C:7]2=[C:8]([CH3:9])[CH2:10][N:11]([S:12](=[O:13])(=[O:14])[c:15]3[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]3)[CH2:22][C@H:23]2[C@@H:24]1[CH3:25]>C1CCOC1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C:7]2=[C:8]([CH3:9])[CH2:10][N:11]([S:12](=[O:13])(=[O:14])[c:15]3[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]3)[CH2:22][C@H:23]2[C@@H:24]1[CH3:25]",
+      "mapping_confidence": 0.4646307091358065,
+      "conditions": {
+        "raw_description": "DIAD; PPh3; THF; 0 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "DIAD",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_7",
+      "reaction_smiles": "CC(=O)O[C@@H]1CC2=C(C)CN(S(=O)(=O)c3ccc(C)cc3)C[C@H]2[C@@H]1C.[HH].[C].[OH-].[OH-].[Pd+2].CO>>CC(=O)O[C@@H]1C[C@@H]2[C@@H](CN(S(=O)(=O)c3ccc(C)cc3)C[C@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C:7]2=[C:22]([CH3:23])[CH2:21][N:10]([S:11](=[O:12])(=[O:13])[c:14]3[cH:15][cH:16][c:17]([CH3:18])[cH:19][cH:20]3)[CH2:9][C@H:8]2[C@@H:24]1[CH3:25]>CO.[C].[HH].[OH-].[OH-].[Pd+2]>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C@@H:7]2[C@@H:8]([CH2:9][N:10]([S:11](=[O:12])(=[O:13])[c:14]3[cH:15][cH:16][c:17]([CH3:18])[cH:19][cH:20]3)[CH2:21][C@H:22]2[CH3:23])[C@@H:24]1[CH3:25]",
+      "mapping_confidence": 0.4415318843932245,
+      "conditions": {
+        "raw_description": "H2; Pd(OH)2/C; MeOH; 55%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_8",
+      "reaction_smiles": "CC(=O)O[C@@H]1C[C@@H]2[C@@H](CN(S(=O)(=O)c3ccc(C)cc3)C[C@H]2C)[C@@H]1C.[Na].c1ccc2ccccc2c1.COCCOC>>C[C@H]1[C@@H]2CNC[C@@H](C)[C@@H]2C[C@H]1O",
+      "reaction_smiles_mapped": "CC(=O)[O:12][C@H:11]1[C@@H:2]([CH3:1])[C@@H:3]2[CH2:4][N:5](S(=O)(=O)c3ccc(C)cc3)[CH2:6][C@@H:7]([CH3:8])[C@@H:9]2[CH2:10]1>COCCOC.[Na].c1ccc2ccccc2c1>[CH3:1][C@H:2]1[C@@H:3]2[CH2:4][NH:5][CH2:6][C@@H:7]([CH3:8])[C@@H:9]2[CH2:10][C@H:11]1[OH:12]",
+      "mapping_confidence": 0.9729482213904131,
+      "conditions": {
+        "raw_description": "Na; naphthalene; DME; -45 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "naphthalene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "C1=CC=C2C=CC=CC2=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-45"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Isoincarvilline_2025_Uyeda_9",
+      "reaction_smiles": "C[C@H]1[C@@H]2CNC[C@@H](C)[C@@H]2C[C@H]1O.C=O.[BH3-]C#N.[Na+].CC(=O)O.CC#N>>C[C@H]1[C@@H]2CN(C)C[C@@H](C)[C@@H]2C[C@H]1O",
+      "reaction_smiles_mapped": "O=[CH2:6].[CH3:1][C@H:2]1[C@@H:3]2[CH2:4][NH:5][CH2:7][C@@H:8]([CH3:9])[C@@H:10]2[CH2:11][C@H:12]1[OH:13]>CC#N.CC(=O)O.[BH3-]C#N.[Na+]>[CH3:1][C@H:2]1[C@@H:3]2[CH2:4][N:5]([CH3:6])[CH2:7][C@@H:8]([CH3:9])[C@@H:10]2[CH2:11][C@H:12]1[OH:13]",
+      "mapping_confidence": 0.938160316706771,
+      "conditions": {
+        "raw_description": "HCHO; NaBH3CN; AcOH; MeCN; 64% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCHO",
+          "AcOH",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=O",
+          "CC(=O)O",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

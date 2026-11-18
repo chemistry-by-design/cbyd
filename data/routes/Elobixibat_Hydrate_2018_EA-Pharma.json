@@ -1,0 +1,337 @@
+{
+  "background": {
+    "name": "Elobixibat Hydrate",
+    "author": null,
+    "year": 2018,
+    "drug_name": "Goofice",
+    "manufacturer": "EA-Pharma",
+    "citation": "J. Med. Chem. 2020, 63, 10652",
+    "doi": "10.1021/acs.jmedchem.0c00345"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_1",
+      "reaction_smiles": "Nc1nc2cc(Br)c(O)cc2s1.[K+].[OH-].O>>Nc1cc(Br)c(O)cc1S",
+      "reaction_smiles_mapped": "Nc1[n:1][c:2]2[cH:3][c:4]([Br:5])[c:6]([OH:7])[cH:8][c:9]2[s:10]1>[K+].[OH-].O>[NH2:1][c:2]1[cH:3][c:4]([Br:5])[c:6]([OH:7])[cH:8][c:9]1[SH:10]",
+      "mapping_confidence": 0.989524377266181,
+      "conditions": {
+        "raw_description": "KOH; H2O",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_2",
+      "reaction_smiles": "Nc1cc(Br)c(O)cc1S.CCCCC(CCl)(CCCC)C(=O)O>>CCCCC1(CCCC)CSc2cc(O)c(Br)cc2NC1=O",
+      "reaction_smiles_mapped": "O[C:21]([C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10]Cl)=[O:22].[SH:11][c:12]1[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]1[NH2:20]>>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][S:11][c:12]2[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]2[NH:20][C:21]1=[O:22]",
+      "mapping_confidence": 0.663978691110823,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_3",
+      "reaction_smiles": "CCCCC1(CCCC)CSc2cc(O)c(Br)cc2NC1=O.Brc1ccccc1.O=C([O-])[O-].[K+].[K+].[Cu]>>CCCCC1(CCCC)CSc2cc(O)c(Br)cc2N(c2ccccc2)C1=O",
+      "reaction_smiles_mapped": "Br[c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1.[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][S:11][c:12]2[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]2[NH:20][C:27]1=[O:28]>O=C([O-])[O-].[K+].[K+].[Cu]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][S:11][c:12]2[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]2[N:20]([c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[C:27]1=[O:28]",
+      "mapping_confidence": 0.8917032943762315,
+      "conditions": {
+        "raw_description": "K2CO3; Cu",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_4",
+      "reaction_smiles": "CCCCC1(CCCC)CSc2cc(O)c(Br)cc2N(c2ccccc2)C1=O.[AlH4-].[Li+]>>CCCCC1(CCCC)CSc2cc(O)c(Br)cc2N(c2ccccc2)C1",
+      "reaction_smiles_mapped": "O=[C:27]1[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][S:11][c:12]2[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]2[N:20]1[c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1>[AlH4-].[Li+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][S:11][c:12]2[cH:13][c:14]([OH:15])[c:16]([Br:17])[cH:18][c:19]2[N:20]([c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[CH2:27]1",
+      "mapping_confidence": 0.9110553182744806,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_5",
+      "reaction_smiles": "CCCCC1(CCCC)CSc2cc(O)c(Br)cc2N(c2ccccc2)C1.OO.OO>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(O)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([OH:23])[cH:24][c:25]2[S:26][CH2:29]1.O[OH:27].O[OH:28]>>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([OH:23])[cH:24][c:25]2[S:26](=[O:27])(=[O:28])[CH2:29]1",
+      "mapping_confidence": 0.1967545366000911,
+      "conditions": {
+        "raw_description": "H2O2",
+        "GENERAL_REAGENTS": [
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_6",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(O)cc2S(=O)(=O)C1.CCOC(=O)CBr.O=C([O-])[O-].[Na+].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].CC#N.ClCCl>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OCC(=O)OCC)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([OH:23])[cH:30][c:31]2[S:32](=[O:33])(=[O:34])[CH2:35]1.Br[CH2:24][C:25](=[O:26])[O:27][CH2:28][CH3:29]>O=C([O-])[O-].[Na+].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].CC#N.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([O:23][CH2:24][C:25](=[O:26])[O:27][CH2:28][CH3:29])[cH:30][c:31]2[S:32](=[O:33])(=[O:34])[CH2:35]1",
+      "mapping_confidence": 0.5609391133917616,
+      "conditions": {
+        "raw_description": "1) Na2CO3; TBAB; MeCN; 2) DCM; 93%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3",
+          "TBAB"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_7",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OCC(=O)OCC)cc2S(=O)(=O)C1.[Na+].[OH-].CCO.CC(=O)O.CCOC(C)=O>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OCC(=O)O)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "CCO[C:25]([CH2:24][O:23][c:22]1[c:20]([Br:21])[cH:19][c:18]2[c:29]([cH:28]1)[S:30](=[O:31])(=[O:32])[CH2:33][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:26].[OH-:27]>[Na+].CCO.CC(=O)O.CCOC(C)=O>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([O:23][CH2:24][C:25](=[O:26])[OH:27])[cH:28][c:29]2[S:30](=[O:31])(=[O:32])[CH2:33]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) NaOH; EtOH; 2) HOAc; EtOAc; 95%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc",
+          "EtOH",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "CCO",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_8",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OCC(=O)O)cc2S(=O)(=O)C1.CN(C)C=O.CC(=O)O.CCOC(C)=O.C[S-].[Na+]>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "Br[c:20]1[cH:19][c:18]2[c:30]([cH:29][c:23]1[O:24][CH2:25][C:26](=[O:27])[OH:28])[S:31](=[O:32])(=[O:33])[CH2:34][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[S-:21][CH3:22]>CN(C)C=O.CC(=O)O.CCOC(C)=O.[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[OH:28])[cH:29][c:30]2[S:31](=[O:32])(=[O:33])[CH2:34]1",
+      "mapping_confidence": 0.5680885992144697,
+      "conditions": {
+        "raw_description": "1) DMF; NaSMe; 50 \u00b0C; 2) HOAc; EtOAc; 96%",
+        "GENERAL_REAGENTS": [
+          "NaSMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[S-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc",
+          "EtOAc",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "CCOC(=O)C",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_9",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)C1.N[C@@H](C(=O)O)c1ccccc1.CCN(C(C)C)C(C)C.F[B-](F)(F)F.CN(C)C(=[O+]n1nnc2ccccc21)N(C)C.ClCCl.CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[B-](F)(F)F>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)O)c3ccccc3)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "O[C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:40]([cH:39]1)[S:41](=[O:42])(=[O:43])[CH2:44][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27].[NH2:28][C@@H:29]([C:30](=[O:31])[OH:32])[c:33]1[cH:34][cH:35][cH:36][cH:37][cH:38]1>CCN(C(C)C)C(C)C.F[B-](F)(F)F.F[B-](F)(F)F.CN(C)C(=[O+]n1nnc2ccccc21)N(C)C.ClCCl.CN(C)C(On1nnc2ccccc21)=[N+](C)C>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[NH:28][C@@H:29]([C:30](=[O:31])[OH:32])[c:33]3[cH:34][cH:35][cH:36][cH:37][cH:38]3)[cH:39][c:40]2[S:41](=[O:42])(=[O:43])[CH2:44]1",
+      "mapping_confidence": 0.4593178829280422,
+      "conditions": {
+        "raw_description": "DIPEA; TBTU; DCM; 95%",
+        "GENERAL_REAGENTS": [
+          "TBTU",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_10",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)O)c3ccccc3)cc2S(=O)(=O)C1.CC(C)(C)OC(=O)CN.CCN(C(C)C)C(C)C.F[B-](F)(F)F.CN(C)C(=[O+]n1nnc2ccccc21)N(C)C.ClCCl.CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[B-](F)(F)F>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)NCC(=O)OC(C)(C)C)c3ccccc3)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "[NH2:32][CH2:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40].O[C:30]([C@H:29]([NH:28][C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:48]([cH:47]1)[S:49](=[O:50])(=[O:51])[CH2:52][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27])[c:41]1[cH:42][cH:43][cH:44][cH:45][cH:46]1)=[O:31]>CCN(C(C)C)C(C)C.F[B-](F)(F)F.F[B-](F)(F)F.CN(C)C(=[O+]n1nnc2ccccc21)N(C)C.ClCCl.CN(C)C(On1nnc2ccccc21)=[N+](C)C>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[NH:28][C@@H:29]([C:30](=[O:31])[NH:32][CH2:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40])[c:41]3[cH:42][cH:43][cH:44][cH:45][cH:46]3)[cH:47][c:48]2[S:49](=[O:50])(=[O:51])[CH2:52]1",
+      "mapping_confidence": 0.1619163576184223,
+      "conditions": {
+        "raw_description": "DIPEA; TBTU; DCM; 94%",
+        "GENERAL_REAGENTS": [
+          "TBTU",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elobixibat_Hydrate_2018_EA-Pharma_11",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)NCC(=O)OC(C)(C)C)c3ccccc3)cc2S(=O)(=O)C1.ClCCl.O=C(O)C(F)(F)F>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)NCC(=O)O)c3ccccc3)cc2S(=O)(=O)C1",
+      "reaction_smiles_mapped": "CC(C)(C)[O:36][C:34]([CH2:33][NH:32][C:30]([C@H:29]([NH:28][C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:44]([cH:43]1)[S:45](=[O:46])(=[O:47])[CH2:48][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27])[c:37]1[cH:38][cH:39][cH:40][cH:41][cH:42]1)=[O:31])=[O:35]>ClCCl.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[NH:28][C@@H:29]([C:30](=[O:31])[NH:32][CH2:33][C:34](=[O:35])[OH:36])[c:37]3[cH:38][cH:39][cH:40][cH:41][cH:42]3)[cH:43][c:44]2[S:45](=[O:46])(=[O:47])[CH2:48]1",
+      "mapping_confidence": 0.526899500776628,
+      "conditions": {
+        "raw_description": "TFA; DCM; rt; 85%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    }
+  ]
+}

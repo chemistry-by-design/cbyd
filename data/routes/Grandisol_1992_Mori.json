@@ -1,0 +1,515 @@
+{
+  "background": {
+    "name": "(+)-Grandisol",
+    "author": "Mori",
+    "year": 1992,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Liebiga. Ann. Chem. 1992, 489",
+    "doi": "10.1002/jlac.199219920187"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Grandisol_1992_Mori_1",
+      "reaction_smiles": "C=C(C)[C@@H]1CC[C@]1(C)C(=O)O.[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>>C=C(C)[C@@H]1CC[C@]1(C)CO",
+      "reaction_smiles_mapped": "O=[C:9]([C@:7]1([CH3:8])[C@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:5][CH2:6]1)[OH:10]>[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][OH:10]",
+      "mapping_confidence": 0.6042433033161325,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 83%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_2",
+      "reaction_smiles": "C=C(C)[C@@H]1CC[C@]1(C)CO.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>C=C(C)[C@@H]1CC[C@]1(C)COS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][OH:10].Cl[S:11](=[O:12])(=[O:13])[c:14]1[cH:15][cH:16][c:17]([CH3:18])[cH:19][cH:20]1>c1ccncc1>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][O:10][S:11](=[O:12])(=[O:13])[c:14]1[cH:15][cH:16][c:17]([CH3:18])[cH:19][cH:20]1",
+      "mapping_confidence": 0.45084126745141495,
+      "conditions": {
+        "raw_description": "TsCl; pyridine; 99%",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_3",
+      "reaction_smiles": "C=C(C)[C@@H]1CC[C@]1(C)COS(=O)(=O)c1ccc(C)cc1.[C-]#N.[Na+].CN(C)P(=O)(N(C)C)N(C)C.O>>C=C(C)[C@@H]1CC[C@]1(C)CC#N",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:9][C@:7]2([CH3:8])[C@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:5][CH2:6]2)cc1.[C-:10]#[N:11]>[Na+].CN(C)P(=O)(N(C)C)N(C)C.O>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][C:10]#[N:11]",
+      "mapping_confidence": 0.5105699840473693,
+      "conditions": {
+        "raw_description": "NaCN; HMPA; H2O; 79%",
+        "GENERAL_REAGENTS": [
+          "NaCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_4",
+      "reaction_smiles": "C=C(C)[C@@H]1CC[C@]1(C)CC#N.CC(C)C[Al+]CC(C)C.[H-].[H-].[H-].[H-].[Li].[Al+3].CC(C)C[AlH]CC(C)C.[AlH4-].[Li+].CCCCC>>C=C(C)[C@@H]1CC[C@]1(C)CCO",
+      "reaction_smiles_mapped": "N#[C:10][CH2:9][C@:7]1([CH3:8])[C@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:5][CH2:6]1>CC(C)C[Al+]CC(C)C.[H-].[H-].[H-].[H-].[Li].[Al+3].CC(C)C[AlH]CC(C)C.[AlH4-].[Li+].CCCCC>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][CH2:10][OH:11]",
+      "mapping_confidence": 0.9870771442793627,
+      "conditions": {
+        "raw_description": "DIBAL-H; petnane; LiAlH4; 44%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H",
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C",
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "petnane"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_5",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)C(C)(O)C(O)C1.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.CO.Cc1ccc(S(=O)(=O)O)cc1.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].c1ccccc1>>C=C(C)[C@@H](CC(=O)OC)CC(OC)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[C:15]([CH3:13])([OH:14])[CH:11]([OH:12])[CH2:10]1.[OH:8][CH3:9]>O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.Cc1ccc(S(=O)(=O)O)cc1.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].c1ccccc1>[CH2:1]=[C:2]([CH3:3])[C@@H:4]([CH2:5][C:6](=[O:7])[O:8][CH3:9])[CH2:10][CH:11]([O:12][CH3:13])[O:14][CH3:15]",
+      "mapping_confidence": 0.22666418964730736,
+      "conditions": {
+        "raw_description": "1) Pb(OAc)4; PhH/MeOH; 2) PTSA; MeOH; 55%",
+        "GENERAL_REAGENTS": [
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_6",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)C(=O)C1.OO.[Na+].[OH-].CO>>C=C(C)[C@H]1CC(=O)[C@]2(C)O[C@@H]2C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[C:8]([CH3:9])=[CH:11][CH2:12]1.O[OH:10]>[Na+].[OH-].CO>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[C@:8]2([CH3:9])[O:10][C@@H:11]2[CH2:12]1",
+      "mapping_confidence": 0.4407118251230939,
+      "conditions": {
+        "raw_description": "H2O2; 6 N NaOH; MeOH; 75%",
+        "GENERAL_REAGENTS": [
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_7",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)[C@]2(C)O[C@@H]2C1.[O-][Cl+3]([O-])([O-])O.C1CCOC1>>C=C(C)[C@H]1CC(=O)C(C)(O)C(O)C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[C@@:8]2([CH3:9])[C@H:11]([O:12]2)[CH2:13]1.[O-][Cl+3]([O-])([O-])[OH:10]> O.C1CCOC1 >[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[C:8]([CH3:9])([OH:10])[CH:11]([OH:12])[CH2:13]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "30% HClO4; THF; 69%",
+        "GENERAL_REAGENTS": [
+          "HClO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OCl(=O)(=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_8",
+      "reaction_smiles": "C=C(C)[C@@H](CC(=O)OC)CC(OC)OC.CC(=O)O.O>>C=C(C)[C@H](CC=O)CC(=O)OC",
+      "reaction_smiles_mapped": "CO[CH:6]([CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:8][C:9](=[O:10])[O:11][CH3:12])[O:7]C>CC(=O)O.O>[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH:6]=[O:7])[CH2:8][C:9](=[O:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.749743901780697,
+      "conditions": {
+        "raw_description": "AcOH; H2O; 90%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_9",
+      "reaction_smiles": "C=C(C)[C@H](CC=O)CC(=O)OC.[Na+].[BH4-].CO>>C=C(C)[C@H](CCO)CC(=O)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH:6]=[O:7])[CH2:8][C:9](=[O:10])[O:11][CH3:12]>[Na+].[BH4-].CO>[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH2:6][OH:7])[CH2:8][C:9](=[O:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.9705749574253854,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 91%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_10",
+      "reaction_smiles": "C=C(C)[C@H](CCO)CC(=O)OC.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>C=C(C)[C@H](CCOS(=O)(=O)c1ccc(C)cc1)CC(=O)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH2:6][OH:7])[CH2:18][C:19](=[O:20])[O:21][CH3:22].Cl[S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1>c1ccncc1>[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH2:6][O:7][S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1)[CH2:18][C:19](=[O:20])[O:21][CH3:22]",
+      "mapping_confidence": 0.4709098314558182,
+      "conditions": {
+        "raw_description": "TsCl; pyridine; 88%",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_11",
+      "reaction_smiles": "C=C(C)[C@H](CCOS(=O)(=O)c1ccc(C)cc1)CC(=O)OC.[Na+].[I-].CC(C)=O>>C=C(C)[C@H](CCI)CC(=O)OC",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:6][CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:8][C:9](=[O:10])[O:11][CH3:12])cc1.[I-:7]>[Na+].CC(C)=O>[CH2:1]=[C:2]([CH3:3])[C@H:4]([CH2:5][CH2:6][I:7])[CH2:8][C:9](=[O:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.6216363147425297,
+      "conditions": {
+        "raw_description": "NaI; acetone; 98%",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_12",
+      "reaction_smiles": "C=C(C)[C@H](CCI)CC(=O)OC.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1.[Li]N(C(C)C)C(C)C>>C=C(C)[C@@H]1CCC1C(=O)OC",
+      "reaction_smiles_mapped": "I[CH2:6][CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:7][C:8](=[O:9])[O:10][CH3:11]>CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1.[Li]N(C(C)C)C(C)C>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][CH:7]1[C:8](=[O:9])[O:10][CH3:11]",
+      "mapping_confidence": 0.9855457441245458,
+      "conditions": {
+        "raw_description": "LDA; HMPA; THF; 78%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_13",
+      "reaction_smiles": "C=C(C)[C@@H]1CCC1C(=O)OC.C1CCOC1.CI.[Li]N(C(C)C)C(C)C>>C=C(C)[C@@H]1CCC1(C)C(=O)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][CH:7]1[C:9](=[O:10])[O:11][CH3:12].I[CH3:8]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C:7]1([CH3:8])[C:9](=[O:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.9658981853817646,
+      "conditions": {
+        "raw_description": "LDA; MeI; THF; 83%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_14",
+      "reaction_smiles": "C=C(C)[C@@H]1CCC1(C)C(=O)OC.[Na+].[OH-].CO>>C=C(C)[C@@H]1CCC1(C)C(=O)O",
+      "reaction_smiles_mapped": "C[O:11][C:9]([C:7]1([CH3:8])[C@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:5][CH2:6]1)=[O:10]>[Na+].[OH-].CO>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C:7]1([CH3:8])[C:9](=[O:10])[OH:11]",
+      "mapping_confidence": 0.9647909513214553,
+      "conditions": {
+        "raw_description": "2 N NaOH; MeOH; 94%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_15",
+      "reaction_smiles": "C=C(C)[C@@H]1CCC1(C)C(=O)O.[K+].[I-].II.O=C([O-])O.[Na+].ClCCl>>CC1(CI)OC(=O)[C@]2(C)CC[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[CH2:3])[C@H:12]1[C:8]([C:6]([OH:5])=[O:7])([CH3:9])[CH2:10][CH2:11]1.I[I:4]>[K+].[I-].O=C([O-])O.[Na+].ClCCl>[CH3:1][C:2]1([CH2:3][I:4])[O:5][C:6](=[O:7])[C@:8]2([CH3:9])[CH2:10][CH2:11][C@H:12]12",
+      "mapping_confidence": 0.4572272479603711,
+      "conditions": {
+        "raw_description": "KI; I2; aq. NaHCO3; CH2Cl2; 78%",
+        "GENERAL_REAGENTS": [
+          "KI",
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[I-]",
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "aq. NaHCO3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Grandisol_1992_Mori_16",
+      "reaction_smiles": "CC1(CI)OC(=O)[C@]2(C)CC[C@H]12.[Zn].CCO>>C=C(C)[C@@H]1CC[C@]1(C)C(=O)O",
+      "reaction_smiles_mapped": "I[CH2:1][C:2]1([CH3:3])[C@H:4]2[CH2:5][CH2:6][C@@:7]2([CH3:8])[C:9](=[O:10])[O:11]1>[Zn].CCO>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH2:6][C@:7]1([CH3:8])[C:9](=[O:10])[OH:11]",
+      "mapping_confidence": 0.7357684995357067,
+      "conditions": {
+        "raw_description": "Zn; satd. NH2Cl; EtOH; 98%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    }
+  ]
+}

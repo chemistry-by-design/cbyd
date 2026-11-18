@@ -1,0 +1,777 @@
+{
+  "background": {
+    "name": "(+)-Trewianin aglycone",
+    "author": "Nagorny",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2016, 138, 7194",
+    "doi": "10.1021/jacs6b04029"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_1",
+      "reaction_smiles": "CC1C(=O)CCC1=O.C=CC=O.O>>CC1(CCC=O)C(=O)CCC1=O",
+      "reaction_smiles_mapped": "[CH2:3]=[CH:4][CH:5]=[O:6].[CH3:1][CH:2]1[C:7](=[O:8])[CH2:9][CH2:10][C:11]1=[O:12]>O>[CH3:1][C:2]1([CH2:3][CH2:4][CH:5]=[O:6])[C:7](=[O:8])[CH2:9][CH2:10][C:11]1=[O:12]",
+      "mapping_confidence": 0.7752321554469129,
+      "conditions": {
+        "raw_description": "97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_2",
+      "reaction_smiles": "CC1(CCC=O)C(=O)CCC1=O.O=COCc1ccccc1.Oc1ccc(O)cc1.C1CCOC1.O.C[Si](C)(C)OC(c1ccccc1)(c1ccccc1)[C@@H]1CCCN1>>CC1(C[C@@H](C=O)OC(=O)c2ccccc2)C(=O)CCC1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH2:3][CH2:4][CH:5]=[O:6])[C:16](=[O:17])[CH2:18][CH2:19][C:20]1=[O:21].C([O:7][CH:8]=[O:9])[c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>C1CCOC1.O.Oc1ccc(O)cc1.C[Si](C)(C)OC(c1ccccc1)(c1ccccc1)[C@@H]1CCCN1>[CH3:1][C:2]1([CH2:3][C@@H:4]([CH:5]=[O:6])[O:7][C:8](=[O:9])[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[C:16](=[O:17])[CH2:18][CH2:19][C:20]1=[O:21]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "(BzO)2; Hydroquinone; THF; H2O; 79%",
+        "GENERAL_REAGENTS": [
+          "(BzO)",
+          "Hydroquinone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)COC=O",
+          "C1=CC(=CC=C1O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_3",
+      "reaction_smiles": "CC1(C[C@@H](C=O)OC(=O)c2ccccc2)C(=O)CCC1=O.CC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1.Cc1ccccc1>>CC(=O)/C=C/[C@H](CC1(C)C(=O)CCC1=O)OC(=O)c1ccccc1",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[CH:4][C:2]([CH3:1])=[O:3])cc1.O=[CH:5][C@H:6]([CH2:7][C:8]1([CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C:14]1=[O:15])[O:16][C:17](=[O:18])[c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1>Cc1ccccc1>[CH3:1][C:2](=[O:3])/[CH:4]=[CH:5]/[C@H:6]([CH2:7][C:8]1([CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C:14]1=[O:15])[O:16][C:17](=[O:18])[c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1",
+      "mapping_confidence": 0.7495297812950024,
+      "conditions": {
+        "raw_description": "Toluene; rt; 75%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_4",
+      "reaction_smiles": "CC(=O)/C=C/[C@H](CC1(C)C(=O)CCC1=O)OC(=O)c1ccccc1.CCOC(=O)C1CCC(Cl)=CC1=O.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Cu+2].ClCCl>>CCOC(=O)[C@]1(C2C(C(C)=O)[C@]3(O)CCC(=O)[C@]3(C)C[C@@H]2OC(=O)c2ccccc2)CCC(Cl)=CC1=O",
+      "reaction_smiles_mapped": "[CH:7](=[CH:8]/[C:9]([CH3:10])=[O:11])\\[C@H:21]([CH2:20][C:18]1([CH3:19])[C:12](=[O:13])[CH2:14][CH2:15][C:16]1=[O:17])[O:22][C:23](=[O:24])[c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1.[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:31][CH2:32][C:33]([Cl:34])=[CH:35][C:36]1=[O:37]>ClCCl.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Cu+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@:6]1([CH:7]2[CH:8]([C:9]([CH3:10])=[O:11])[C@:12]3([OH:13])[CH2:14][CH2:15][C:16](=[O:17])[C@:18]3([CH3:19])[CH2:20][C@@H:21]2[O:22][C:23](=[O:24])[c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[CH2:31][CH2:32][C:33]([Cl:34])=[CH:35][C:36]1=[O:37]",
+      "mapping_confidence": 0.7301291426440769,
+      "conditions": {
+        "raw_description": "Cu(OTf)2; DCM; rt; 70%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Cu(OTf)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)[O-].C(F)(F)(F)S(=O)(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_5",
+      "reaction_smiles": "CCOC(=O)[C@]1(C2C(C(C)=O)[C@]3(O)CCC(=O)[C@]3(C)C[C@@H]2OC(=O)c2ccccc2)CCC(Cl)=CC1=O.CC#N>>CCOC(=O)[C@]12CCC(Cl)=CC1=CC(=O)[C@@H]1[C@@H]2[C@@H](OC(=O)c2ccccc2)C[C@@]2(C)C(=O)CC[C@@]12O",
+      "reaction_smiles_mapped": "O=[C:12]1[C@@:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])([CH:17]2[CH:16]([C:14]([CH3:13])=[O:15])[C@@:35]3([OH:36])[C@@:29]([CH3:30])([CH2:28][C@@H:18]2[O:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[C:31](=[O:32])[CH2:33][CH2:34]3)[CH2:7][CH2:8][C:9]([Cl:10])=[CH:11]1>CC#N>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@:6]12[CH2:7][CH2:8][C:9]([Cl:10])=[CH:11][C:12]1=[CH:13][C:14](=[O:15])[C@@H:16]1[C@@H:17]2[C@@H:18]([O:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[CH2:28][C@@:29]2([CH3:30])[C:31](=[O:32])[CH2:33][CH2:34][C@@:35]12[OH:36]",
+      "mapping_confidence": 0.7507525123687414,
+      "conditions": {
+        "raw_description": "pTSA; MeCN; 55 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_6",
+      "reaction_smiles": "CCOC(=O)[C@]12CCC(Cl)=CC1=CC(=O)[C@@H]1[C@@H]2[C@@H](OC(=O)c2ccccc2)C[C@@]2(C)C(=O)CC[C@@]12O.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].Cc1ccccc1>>CCOC(=O)[C@]12CCC(Cl)=CC1=CC(=O)[C@@H]1[C@@H]2[C@@H](OC(=O)c2ccccc2)C[C@]2(C)C(=O)CC[C@]12O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@:6]12[CH2:7][CH2:8][C:9]([Cl:10])=[CH:11][C:12]1=[CH:13][C:14](=[O:15])[C@@H:16]1[C@@H:17]2[C@@H:18]([O:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[CH2:28][C@@:29]2([CH3:30])[C:31](=[O:32])[CH2:33][CH2:34][C@@:35]12[OH:36]>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@:6]12[CH2:7][CH2:8][C:9]([Cl:10])=[CH:11][C:12]1=[CH:13][C:14](=[O:15])[C@@H:16]1[C@@H:17]2[C@@H:18]([O:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[CH2:28][C@:29]2([CH3:30])[C:31](=[O:32])[CH2:33][CH2:34][C@:35]12[OH:36]",
+      "mapping_confidence": 0.8154990114494264,
+      "conditions": {
+        "raw_description": "NaHMDS; toluene; -78 \u00b0C to 42 \u00b0C; 48% / 68% (brsm); >20 : 1",
+        "GENERAL_REAGENTS": [
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "42"
+        ],
+        "YIELD": [
+          "48% (brsm)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_7",
+      "reaction_smiles": "CCOC(=O)[C@]12CCC(Cl)=CC1=CC(=O)[C@@H]1[C@@H]2[C@@H](OC(=O)c2ccccc2)C[C@]2(C)C(=O)CC[C@]12O.CC(C)C[AlH]CC(C)C.C1CCOC1>>C[C@]12C[C@H](O)[C@H]3[C@@H](C(O)C=C4C=C(Cl)CC[C@@]43CO)[C@@]1(O)CC[C@H]2O",
+      "reaction_smiles_mapped": "CCO[C:18]([C@@:17]12[C@H:6]3[C@@H:4]([O:5]C(=O)c4ccccc4)[CH2:3][C@@:2]4([CH3:1])[C@@:20]([OH:21])([C@@H:7]3[C:8](=[O:9])[CH:10]=[C:11]1[CH:12]=[C:13]([Cl:14])[CH2:15][CH2:16]2)[CH2:22][CH2:23][C:24]4=[O:25])=[O:19]>CC(C)C[AlH]CC(C)C.C1CCOC1>[CH3:1][C@:2]12[CH2:3][C@H:4]([OH:5])[C@H:6]3[C@@H:7]([CH:8]([OH:9])[CH:10]=[C:11]4[CH:12]=[C:13]([Cl:14])[CH2:15][CH2:16][C@:17]34[CH2:18][OH:19])[C@@:20]1([OH:21])[CH2:22][CH2:23][C@H:24]2[OH:25]",
+      "mapping_confidence": 0.559610203402671,
+      "conditions": {
+        "raw_description": "DIBAL-H; 60 \u00b0C; THF",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_8",
+      "reaction_smiles": "C[C@]12C[C@H](O)[C@H]3[C@@H](C(O)C=C4C=C(Cl)CC[C@@]43CO)[C@@]1(O)CC[C@H]2O.O=CO.O>>C[C@]12C[C@H](O)[C@H]3[C@@H](C=CC4=CC(=O)CC[C@@]43CO)[C@@]1(O)CC[C@H]2O",
+      "reaction_smiles_mapped": "Cl[C:12]1=[CH:11][C:10]2=[CH:9][CH:8]([OH:13])[C@@H:7]3[C@H:6]([C@@H:4]([OH:5])[CH2:3][C@@:2]4([CH3:1])[C@:19]3([OH:20])[CH2:21][CH2:22][C@H:23]4[OH:24])[C@@:16]2([CH2:17][OH:18])[CH2:15][CH2:14]1>O=CO.O>[CH3:1][C@:2]12[CH2:3][C@H:4]([OH:5])[C@H:6]3[C@@H:7]([CH:8]=[CH:9][C:10]4=[CH:11][C:12](=[O:13])[CH2:14][CH2:15][C@:16]34[CH2:17][OH:18])[C@@:19]1([OH:20])[CH2:21][CH2:22][C@H:23]2[OH:24]",
+      "mapping_confidence": 0.7464346279188252,
+      "conditions": {
+        "raw_description": "72% (2 steps); 8:1 dr; HCO2H; H2O; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HCO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "72% (dr=8:1) (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_9",
+      "reaction_smiles": "C[C@]12C[C@H](O)[C@H]3[C@@H](C=CC4=CC(=O)CC[C@@]43CO)[C@@]1(O)CC[C@H]2O.CC(C)[Si](Cl)(C(C)C)C(C)C.c1c[n-]cn1.CN(C)C=O>>CC(C)[Si](OC[C@]12CCC(=O)C=C1C=C[C@@H]1[C@@H]2[C@@H](O)C[C@]2(C)[C@H](O)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "Cl[Si:4]([CH:2]([CH3:1])[CH3:3])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34].[OH:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH:12]=[C:13]1[CH:14]=[CH:15][C@@H:16]1[C@@H:17]2[C@@H:18]([OH:19])[CH2:20][C@:21]2([CH3:22])[C@H:23]([OH:24])[CH2:25][CH2:26][C@:27]12[OH:28]>c1c[n-]cn1.CN(C)C=O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH:12]=[C:13]1[CH:14]=[CH:15][C@@H:16]1[C@@H:17]2[C@@H:18]([OH:19])[CH2:20][C@:21]2([CH3:22])[C@H:23]([OH:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]",
+      "mapping_confidence": 0.15742568338760277,
+      "conditions": {
+        "raw_description": "TIPSCl; Im; DMF; 81%",
+        "GENERAL_REAGENTS": [
+          "TIPSCl",
+          "Im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Si](C(C)C)(C(C)C)Cl",
+          "[n-]1ccnc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_10",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CCC(=O)C=C1C=C[C@@H]1[C@@H]2[C@@H](O)C[C@]2(C)[C@H](O)CC[C@]12O)(C(C)C)C(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.c1ccncc1>>CC(C)[Si](OC[C@]12CCC(=O)C=C1C=C[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH:12]=[C:13]1[CH:14]=[CH:15][C@@H:16]1[C@@H:17]2[C@@H:18]([OH:19])[CH2:20][C@:21]2([CH3:22])[C@H:23]([OH:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.c1ccncc1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH:12]=[C:13]1[CH:14]=[CH:15][C@@H:16]1[C@@H:17]2[C:18](=[O:19])[CH2:20][C@:21]2([CH3:22])[C:23](=[O:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]",
+      "mapping_confidence": 0.2589332459124456,
+      "conditions": {
+        "raw_description": "DMP; Py; DCM; 91%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "Py"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_11",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CCC(=O)C=C1C=C[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C.[HH].[C].[Pd].CO.c1ccncc1>>CC(C)[Si](OC[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH:12]=[C:13]1[CH:14]=[CH:15][C@@H:16]1[C@@H:17]2[C:18](=[O:19])[CH2:20][C@:21]2([CH3:22])[C:23](=[O:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]>[HH].[C].[Pd].CO.c1ccncc1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]1[CH2:14][CH2:15][C@@H:16]1[C@@H:17]2[C:18](=[O:19])[CH2:20][C@:21]2([CH3:22])[C:23](=[O:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]",
+      "mapping_confidence": 0.22217262817284167,
+      "conditions": {
+        "raw_description": "H2; Pd/C; pyridine; MeOH; 83% / > 20:1 dr",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (dr=20:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_12",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CCC(=O)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C.CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+].C1CCOC1>>CC(C)[Si](OC[C@]12CC[C@H](O)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]1[CH2:14][CH2:15][C@@H:16]1[C@@H:17]2[C:18](=[O:19])[CH2:20][C@:21]2([CH3:22])[C:23](=[O:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]>CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+].C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([OH:11])[CH2:12][C@@H:13]1[CH2:14][CH2:15][C@@H:16]1[C@@H:17]2[C:18](=[O:19])[CH2:20][C@:21]2([CH3:22])[C:23](=[O:24])[CH2:25][CH2:26][C@:27]12[OH:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34]",
+      "mapping_confidence": 0.27766835851437116,
+      "conditions": {
+        "raw_description": "LiAlH(OtBu)3; THF; -78 \u00b0C to -40 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "LiAlH(OtBu)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-40"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_13",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(CC)CC.ClCCl>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(O[Si](C)(C)C(C)(C)C)=CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:32]([CH3:33])([CH3:34])[C:35]([CH3:36])([CH3:37])[CH3:38])C(F)(F)F.O=S(=O)(O[Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])C(F)(F)F.[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([OH:11])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C:25](=[O:26])[CH2:27][C@:28]2([CH3:29])[C:30](=[O:31])[CH2:39][CH2:40][C@:41]12[OH:42])([CH:43]([CH3:44])[CH3:45])[CH:46]([CH3:47])[CH3:48]>CCN(CC)CC.ClCCl>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C:25](=[O:26])[CH2:27][C@:28]2([CH3:29])[C:30]([O:31][Si:32]([CH3:33])([CH3:34])[C:35]([CH3:36])([CH3:37])[CH3:38])=[CH:39][CH2:40][C@:41]12[OH:42])([CH:43]([CH3:44])[CH3:45])[CH:46]([CH3:47])[CH3:48]",
+      "mapping_confidence": 0.027173401335497078,
+      "conditions": {
+        "raw_description": "TBSOTf; Et3N; DCM; -78 \u00b0C to 30 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "30"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_14",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2C(=O)C[C@]2(C)C(O[Si](C)(C)C(C)(C)C)=CC[C@]12O)(C(C)C)C(C)C.N.[Li].C1CCOC1>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(O[Si](C)(C)C(C)(C)C)=CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C:25](=[O:26])[CH2:27][C@:28]2([CH3:29])[C:30]([O:31][Si:32]([CH3:33])([CH3:34])[C:35]([CH3:36])([CH3:37])[CH3:38])=[CH:39][CH2:40][C@:41]12[OH:42])([CH:43]([CH3:44])[CH3:45])[CH:46]([CH3:47])[CH3:48]>N.[Li].C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:27][C@:28]2([CH3:29])[C:30]([O:31][Si:32]([CH3:33])([CH3:34])[C:35]([CH3:36])([CH3:37])[CH3:38])=[CH:39][CH2:40][C@:41]12[OH:42])([CH:43]([CH3:44])[CH3:45])[CH:46]([CH3:47])[CH3:48]",
+      "mapping_confidence": 0.039861750987435204,
+      "conditions": {
+        "raw_description": "Li; NH3; THF; -78 \u00b0C to 30 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NH3",
+          "Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N",
+          "[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "30"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_15",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(O[Si](C)(C)C(C)(C)C)=CC[C@]12O)(C(C)C)C(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:31][C:30]1=[CH:32][CH2:33][C@:34]2([OH:35])[C@@H:23]3[CH2:22][CH2:21][C@@H:20]4[C@:7]([CH2:6][O:5][Si:4]([CH:2]([CH3:1])[CH3:3])([CH:36]([CH3:37])[CH3:38])[CH:39]([CH3:40])[CH3:41])([CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19]4)[C@H:24]3[C@H:25]([OH:26])[CH2:27][C@:28]12[CH3:29]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:27][C@:28]2([CH3:29])[C:30](=[O:31])[CH2:32][CH2:33][C@:34]12[OH:35])([CH:36]([CH3:37])[CH3:38])[CH:39]([CH3:40])[CH3:41]",
+      "mapping_confidence": 0.10505463382103461,
+      "conditions": {
+        "raw_description": "91% (2 steps); TBAF; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "91% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_16",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(=O)CC[C@]12O)(C(C)C)C(C)C.NN.CCN(CC)CC.CCO>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)/C(=N\\N)CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "O=[C:30]1[C@@:28]2([CH3:29])[CH2:27][C@@H:25]([OH:26])[C@@H:24]3[C@@:7]4([CH2:6][O:5][Si:4]([CH:2]([CH3:1])[CH3:3])([CH:37]([CH3:38])[CH3:39])[CH:40]([CH3:41])[CH3:42])[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]4[CH2:21][CH2:22][C@H:23]3[C@@:35]2([OH:36])[CH2:34][CH2:33]1.[NH2:31][NH2:32]>CCN(CC)CC.CCO>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:27][C@:28]2([CH3:29])/[C:30](=[N:31]\\[NH2:32])[CH2:33][CH2:34][C@:35]12[OH:36])([CH:37]([CH3:38])[CH3:39])[CH:40]([CH3:41])[CH3:42]",
+      "mapping_confidence": 0.05929822375984637,
+      "conditions": {
+        "raw_description": "N2H4.H2O; Et3N; EtOH; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "N2H4.H2O",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_17",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)/C(=N\\N)CC[C@]12O)(C(C)C)C(C)C.II.CCN(CC)CC.C1CCOC1>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(I)=CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "N/N=[C:30]1\\[C@@:28]2([CH3:29])[CH2:27][C@@H:25]([OH:26])[C@@H:24]3[C@@:7]4([CH2:6][O:5][Si:4]([CH:2]([CH3:1])[CH3:3])([CH:36]([CH3:37])[CH3:38])[CH:39]([CH3:40])[CH3:41])[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]4[CH2:21][CH2:22][C@H:23]3[C@@:34]2([OH:35])[CH2:33][CH2:32]1.I[I:31]>CCN(CC)CC.C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:27][C@:28]2([CH3:29])[C:30]([I:31])=[CH:32][CH2:33][C@:34]12[OH:35])([CH:36]([CH3:37])[CH3:38])[CH:39]([CH3:40])[CH3:41]",
+      "mapping_confidence": 0.06755008757266767,
+      "conditions": {
+        "raw_description": "83% (2 steps); I2; Et3N; THF; rt",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_18",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(I)=CC[C@]12O)(C(C)C)C(C)C.CCCC[Sn](CCCC)(CCCC)C1=CC(=O)OC1.[Cl-].[Li+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cl[Cu].CS(C)=O>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(C3=CC(=O)OC3)=CC[C@]12O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "I[C:30]1=[CH:37][CH2:38][C@:39]2([OH:40])[C@@H:23]3[CH2:22][CH2:21][C@@H:20]4[C@:7]([CH2:6][O:5][Si:4]([CH:2]([CH3:1])[CH3:3])([CH:41]([CH3:42])[CH3:43])[CH:44]([CH3:45])[CH3:46])([CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19]4)[C@H:24]3[C@H:25]([OH:26])[CH2:27][C@:28]12[CH3:29].CCCC[Sn](CCCC)(CCCC)[C:31]1=[CH:32][C:33](=[O:34])[O:35][CH2:36]1>[Cl-].[Li+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cl[Cu].CS(C)=O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:27][C@:28]2([CH3:29])[C:30]([C:31]3=[CH:32][C:33](=[O:34])[O:35][CH2:36]3)=[CH:37][CH2:38][C@:39]12[OH:40])([CH:41]([CH3:42])[CH3:43])[CH:44]([CH3:45])[CH3:46]",
+      "mapping_confidence": 0.07401167066449645,
+      "conditions": {
+        "raw_description": "93%; Pd(PPh3)4; CuCl; LiCl; DMSO; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4",
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_19",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O)C[C@]2(C)C(C3=CC(=O)OC3)=CC[C@]12O)(C(C)C)C(C)C.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.O=[Si]=O.ClCCl.Cc1cccc(C)n1>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O[Si](C)(C)C)C[C@]2(C)C(C3=CC(=O)OC3)=CC[C@]12O[Si](C)(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([OH:26])[CH2:31][C@:32]2([CH3:33])[C:34]([C:35]3=[CH:36][C:37](=[O:38])[O:39][CH2:40]3)=[CH:41][CH2:42][C@:43]12[OH:44])([CH:49]([CH3:50])[CH3:51])[CH:52]([CH3:53])[CH3:54].O=S(=O)(O[Si:45]([CH3:46])([CH3:47])[CH3:48])C(F)(F)F.O=S(=O)(O[Si:27]([CH3:28])([CH3:29])[CH3:30])C(F)(F)F>Cc1cccc(C)n1.ClCCl.O=[Si]=O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([O:26][Si:27]([CH3:28])([CH3:29])[CH3:30])[CH2:31][C@:32]2([CH3:33])[C:34]([C:35]3=[CH:36][C:37](=[O:38])[O:39][CH2:40]3)=[CH:41][CH2:42][C@:43]12[O:44][Si:45]([CH3:46])([CH3:47])[CH3:48])([CH:49]([CH3:50])[CH3:51])[CH:52]([CH3:53])[CH3:54]",
+      "mapping_confidence": 0.014818412264113371,
+      "conditions": {
+        "raw_description": "1) TMSOTf; 2,6-lutidine; DCM; -78 \u00b0C; 2) SiO2; dry; 10 h; 79%",
+        "GENERAL_REAGENTS": [
+          "TMSOTf",
+          "SiO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "O=[Si]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "2,6-lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "Cc1cccc(C)n1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_20",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O[Si](C)(C)C)C[C@]2(C)C(C3=CC(=O)OC3)=CC[C@]12O[Si](C)(C)C)(C(C)C)C(C)C.[HH].[C].[Pd].CCOC(C)=O>>CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O[Si](C)(C)C)C[C@]2(C)[C@@H](C3=CC(=O)OC3)CC[C@]12O[Si](C)(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([O:26][Si:27]([CH3:28])([CH3:29])[CH3:30])[CH2:31][C@:32]2([CH3:33])[C:34]([C:35]3=[CH:36][C:37](=[O:38])[O:39][CH2:40]3)=[CH:41][CH2:42][C@:43]12[O:44][Si:45]([CH3:46])([CH3:47])[CH3:48])([CH:49]([CH3:50])[CH3:51])[CH:52]([CH3:53])[CH3:54]>[HH].[C].[Pd].CCOC(C)=O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][C@:7]12[CH2:8][CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@@H:20]1[CH2:21][CH2:22][C@@H:23]1[C@@H:24]2[C@H:25]([O:26][Si:27]([CH3:28])([CH3:29])[CH3:30])[CH2:31][C@:32]2([CH3:33])[C@@H:34]([C:35]3=[CH:36][C:37](=[O:38])[O:39][CH2:40]3)[CH2:41][CH2:42][C@:43]12[O:44][Si:45]([CH3:46])([CH3:47])[CH3:48])([CH:49]([CH3:50])[CH3:51])[CH:52]([CH3:53])[CH3:54]",
+      "mapping_confidence": 0.03335094372278899,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOAc; 54%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_21",
+      "reaction_smiles": "CC(C)[Si](OC[C@]12CC[C@H](O[Si](C)(C)C(C)(C)C)C[C@@H]1CC[C@@H]1[C@@H]2[C@H](O[Si](C)(C)C)C[C@]2(C)[C@@H](C3=CC(=O)OC3)CC[C@]12O[Si](C)(C)C)(C(C)C)C(C)C.F.CC#N.ClCCl.O>>C[C@]12C[C@@H](O)[C@H]3[C@@H](CC[C@H]4C[C@@H](O)CC[C@@]43CO)[C@@]1(O)CC[C@@H]2C1=CC(=O)OC1",
+      "reaction_smiles_mapped": "CC(C)[Si](C(C)C)(C(C)C)[O:18][CH2:17][C@@:16]12[C@H:6]3[C@H:4]([O:5][Si](C)(C)C)[CH2:3][C@@:2]4([CH3:1])[C@@:19]([O:20][Si](C)(C)C)([C@@H:7]3[CH2:8][CH2:9][C@H:10]1[CH2:11][C@@H:12]([O:13][Si](C)(C)C(C)(C)C)[CH2:14][CH2:15]2)[CH2:21][CH2:22][C@@H:23]4[C:24]1=[CH:25][C:26](=[O:27])[O:28][CH2:29]1>CC#N.ClCCl.F.O>[CH3:1][C@:2]12[CH2:3][C@@H:4]([OH:5])[C@H:6]3[C@@H:7]([CH2:8][CH2:9][C@H:10]4[CH2:11][C@@H:12]([OH:13])[CH2:14][CH2:15][C@:16]34[CH2:17][OH:18])[C@@:19]1([OH:20])[CH2:21][CH2:22][C@@H:23]2[C:24]1=[CH:25][C:26](=[O:27])[O:28][CH2:29]1",
+      "mapping_confidence": 0.9341965953174102,
+      "conditions": {
+        "raw_description": "HF; MeCN; DCM; H2O; rt; 3 d; 91%",
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_22",
+      "reaction_smiles": "C=CC(C)=O.CCOC(=O)CC(=O)OCC.O=C([O-])[O-].[K+].[K+]>>CCOC(=O)C(CCC(C)=O)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH2:7]=[CH:8][C:9]([CH3:10])=[O:11].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:12](=[O:13])[O:14][CH2:15][CH3:16]>O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([CH2:7][CH2:8][C:9]([CH3:10])=[O:11])[C:12](=[O:13])[O:14][CH2:15][CH3:16]",
+      "mapping_confidence": 0.9282641204041219,
+      "conditions": {
+        "raw_description": "K2CO3; neat; 63%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_23",
+      "reaction_smiles": "CCOC(=O)C(CCC(C)=O)C(=O)OCC.CC[O-].[Na+].CCO>>CCOC(=O)C1CCC(=O)CC1=O",
+      "reaction_smiles_mapped": "CCO[C:12]([CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH2:7][CH2:8][C:9](=[O:10])[CH3:11])=[O:13]>CC[O-].[Na+].CCO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][C:9](=[O:10])[CH2:11][C:12]1=[O:13]",
+      "mapping_confidence": 0.7067989791708027,
+      "conditions": {
+        "raw_description": "NaOEt; EtOH; 94%",
+        "GENERAL_REAGENTS": [
+          "NaOEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trewianin_aglycone_2016_Nagorny_24",
+      "reaction_smiles": "CCOC(=O)C1CCC(=O)CC1=O.ClP(Cl)Cl.ClC(Cl)Cl>>CCOC(=O)C1CCC(Cl)=CC1=O",
+      "reaction_smiles_mapped": "O=[C:9]1[CH2:8][CH2:7][CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:12](=[O:13])[CH2:11]1.ClP(Cl)[Cl:10]>ClC(Cl)Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][C:9]([Cl:10])=[CH:11][C:12]1=[O:13]",
+      "mapping_confidence": 0.2925637583093881,
+      "conditions": {
+        "raw_description": "PCl3; CHCl3",
+        "GENERAL_REAGENTS": [
+          "PCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

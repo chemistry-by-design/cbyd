@@ -1,0 +1,1308 @@
+{
+  "background": {
+    "name": "(-)-Tetrodotoxin",
+    "author": "Fukuyama",
+    "year": 2017,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2017, 56, 1549",
+    "doi": "10.1002/anie.201611574"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_1",
+      "reaction_smiles": "O=C1C=CC(=O)C=C1.C[Si](C)(C)C1C=CC=C1.ClCCl.CO>>C[Si](C)(C)[C@H]1[C@@H]2C=C[C@H]1[C@H]1C(=O)C=CC(=O)[C@@H]21",
+      "reaction_smiles_mapped": "[CH3:1][Si:2]([CH3:3])([CH3:4])[CH:5]1[CH:6]=[CH:7][CH:8]=[CH:9]1.[CH:10]1=[CH:17][C:15](=[O:16])[CH:14]=[CH:13][C:11]1=[O:12]>CO.ClCCl>[CH3:1][Si:2]([CH3:3])([CH3:4])[C@H:5]1[C@@H:6]2[CH:7]=[CH:8][C@H:9]1[C@H:10]1[C:11](=[O:12])[CH:13]=[CH:14][C:15](=[O:16])[C@@H:17]21",
+      "mapping_confidence": 0.1798619207049584,
+      "conditions": {
+        "raw_description": "DCM; MeOH; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_2",
+      "reaction_smiles": "C[Si](C)(C)[C@H]1[C@@H]2C=C[C@H]1[C@H]1C(=O)C=CC(=O)[C@@H]21.[BH4-].[Na+].Cl[Ce](Cl)Cl.CO>>C[Si](C)(C)[C@@H]1[C@@H]2C=C[C@H]1[C@@H]1[C@H]2[C@H](O)C=C[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][Si:2]([CH3:3])([CH3:4])[C@H:5]1[C@@H:6]2[CH:7]=[CH:8][C@H:9]1[C@@H:10]1[C@H:11]2[C:12](=[O:13])[CH:14]=[CH:15][C:16]1=[O:17]>CO.Cl[Ce](Cl)Cl.[BH4-].[Na+]>[CH3:1][Si:2]([CH3:3])([CH3:4])[C@@H:5]1[C@@H:6]2[CH:7]=[CH:8][C@H:9]1[C@@H:10]1[C@H:11]2[C@H:12]([OH:13])[CH:14]=[CH:15][C@@H:16]1[OH:17]",
+      "mapping_confidence": 0.5114637900267136,
+      "conditions": {
+        "raw_description": "62% (2 steps); NaBH4; CeCl3; MeOH; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_3",
+      "reaction_smiles": "C[Si](C)(C)[C@@H]1[C@@H]2C=C[C@H]1[C@@H]1[C@H]2[C@H](O)C=C[C@@H]1O.C=C(C)OC(C)=O.CCN(CC)CC>>CC(=O)O[C@@H]1C=C[C@H](O)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "C=C(C)[O:4][C:2]([CH3:1])=[O:3].O[C@H:5]1[CH:6]=[CH:7][C@@H:8]([OH:9])[C@H:10]2[C@H:11]3[CH:12]=[CH:13][C@@H:14]([C@@H:15]12)[C@@H:16]3[Si:17]([CH3:18])([CH3:19])[CH3:20]>CCN(CC)CC>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([OH:9])[C@@H:10]2[C@@H:11]3[CH:12]=[CH:13][C@H:14]([C@H:15]12)[C@H:16]3[Si:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.44306073452246936,
+      "conditions": {
+        "raw_description": "Amano PS IM; Et3N; rt; 89%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "Amano PS IM"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_4",
+      "reaction_smiles": "CC(=O)O[C@@H]1C=C[C@H](O)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>CC(=O)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([OH:9])[C@@H:17]2[C@@H:18]3[CH:19]=[CH:20][C@H:21]([C@H:22]12)[C@H:23]3[Si:24]([CH3:25])([CH3:26])[CH3:27].Cl[Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16]>CN(C)C=O.c1c[nH]cn1>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[C@@H:17]2[C@@H:18]3[CH:19]=[CH:20][C@H:21]([C@H:22]12)[C@H:23]3[Si:24]([CH3:25])([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.14964519684743754,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_5",
+      "reaction_smiles": "CC(=O)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>CC(C)(C)[Si](C)(C)O[C@H]1C=C[C@@H](O)[C@H]2[C@H]3C=C[C@@H]([C@H]21)[C@@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "CC(=O)[O:13][C@@H:12]1[CH:11]=[CH:10][C@H:9]([O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[C@H:19]2[C@@H:14]1[C@H:15]1[CH:16]=[CH:17][C@@H:18]2[C@@H:20]1[Si:21]([CH3:22])([CH3:23])[CH3:24]>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[CH:10]=[CH:11][C@@H:12]([OH:13])[C@H:14]2[C@H:15]3[CH:16]=[CH:17][C@@H:18]([C@@H:19]12)[C@@H:20]3[Si:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.1498239150547041,
+      "conditions": {
+        "raw_description": "99% (2 steps); K2CO3; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_6",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1C=C[C@@H](O)[C@H]2[C@H]3C=C[C@@H]([C@H]21)[C@@H]3[Si](C)(C)C.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.CN(C)C=O>>CC(C)(C)[Si](C)(C)O[C@H]1C=CC(=O)[C@H]2[C@H]3C=C[C@@H]([C@H]21)[C@@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[CH:10]=[CH:11][C@@H:12]([OH:13])[C@H:14]2[C@H:15]3[CH:16]=[CH:17][C@@H:18]([C@@H:19]12)[C@@H:20]3[Si:21]([CH3:22])([CH3:23])[CH3:24]>CN(C)C=O.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[CH:10]=[CH:11][C:12](=[O:13])[C@H:14]2[C@H:15]3[CH:16]=[CH:17][C@@H:18]([C@@H:19]12)[C@@H:20]3[Si:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.15495026145155538,
+      "conditions": {
+        "raw_description": "PDC; celite; DMF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_7",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1C=CC(=O)[C@H]2[C@H]3C=C[C@@H]([C@H]21)[C@@H]3[Si](C)(C)C.CCCC[Sn](CCCC)(CCCC)COCOC.[Li]CCCC.C1CCOC1>>COCOC[C@@]1(O)C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "[C:6]1(=[O:7])[CH:8]=[CH:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[C@@H:19]2[C@@H:20]3[CH:21]=[CH:22][C@H:23]([C@H:24]12)[C@H:25]3[Si:26]([CH3:27])([CH3:28])[CH3:29].CCCC[Sn](CCCC)(CCCC)[CH2:5][O:4][CH2:3][O:2][CH3:1]>C1CCOC1.[Li]CCCC>[CH3:1][O:2][CH2:3][O:4][CH2:5][C@@:6]1([OH:7])[CH:8]=[CH:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[C@@H:19]2[C@@H:20]3[CH:21]=[CH:22][C@H:23]([C@H:24]12)[C@H:25]3[Si:26]([CH3:27])([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.1249960289188998,
+      "conditions": {
+        "raw_description": "Bu3SnCH2OMOM; nBuLi; THF; -98 \u00b0C; 73% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Bu3SnCH2OMOM",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[Sn](CCCC)(CCCC)COCOC",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-98"
+        ],
+        "YIELD": [
+          "73% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_8",
+      "reaction_smiles": "COCOC[C@@]1(O)C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]2[C@@H]3C=C[C@H]([C@@H]21)[C@H]3[Si](C)(C)C.O=[Os](=O)(=O)=O.C[N+]1([O-])CCOCC1.O>>COCOC[C@]1(O)[C@H]2[C@H]3C=C[C@@H]([C@H]2[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)[C@@H]1O)[C@@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][CH2:5][C@:6]1([OH:7])[C@H:8]2[C@H:9]3[CH:10]=[CH:11][C@@H:12]([C@H:13]2[C@@H:14]([O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[CH:23]=[CH:25]1)[C@@H:27]3[Si:28]([CH3:29])([CH3:30])[CH3:31].C[N+]1([O-:24])CCOCC1.[OH2:26]>O=[Os](=O)(=O)=O>[CH3:1][O:2][CH2:3][O:4][CH2:5][C@:6]1([OH:7])[C@H:8]2[C@H:9]3[CH:10]=[CH:11][C@@H:12]([C@H:13]2[C@@H:14]([O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[C@H:23]([OH:24])[C@@H:25]1[OH:26])[C@@H:27]3[Si:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4; NMO; quinclidine; H2O; reflux; 90%",
+        "GENERAL_REAGENTS": [
+          "quinclidine",
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_9",
+      "reaction_smiles": "COCOC[C@]1(O)[C@H]2[C@H]3C=C[C@@H]([C@H]2[C@@H](O[Si](C)(C)C(C)(C)C)[C@H](O)[C@@H]1O)[C@@H]3[Si](C)(C)C.CC(C)=O.CC(C)=O.Cc1ccc(S(=O)(=O)O)cc1.O=S(=O)([O-])[O-].[Cu+2]>>CC1(C)O[C@H]2[C@H](O)[C@@H]3[C@@H]4C=C[C@H]([C@@H]3[C@@]3(COC(C)(C)O3)[C@H]2O1)[C@H]4[Si](C)(C)C",
+      "reaction_smiles_mapped": "COC[O:1][CH2:2][C@:3]1([OH:4])[C@H:5]2[C@H:6]3[CH:7]=[CH:8][C@@H:9]([C@H:10]2[C@@H:11]([O:12][Si](C)(C)C(C)(C)C)[C@H:13]([OH:14])[C@@H:15]1[OH:16])[C@@H:17]3[Si:18]([CH3:19])([CH3:20])[CH3:21].[CH3:23][C:22]([CH3:24])=O.[CH3:26][C:25]([CH3:27])=O>Cc1ccc(S(=O)(=O)O)cc1.O=S(=O)([O-])[O-].[Cu+2]>[CH3:23][C:22]1([CH3:24])[O:14][C@H:13]2[C@H:11]([OH:12])[C@@H:10]3[C@@H:9]4[CH:8]=[CH:7][C@H:6]([C@@H:5]3[C@@:3]3([CH2:2][O:1][C:25]([CH3:26])([CH3:27])[O:4]3)[C@H:15]2[O:16]1)[C@H:17]4[Si:18]([CH3:19])([CH3:20])[CH3:21]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "pTsOH; CuSO4; acetone; reflux",
+        "GENERAL_REAGENTS": [
+          "pTsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [
+          "CuSO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_10",
+      "reaction_smiles": "CC1(C)O[C@H]2[C@H](O)[C@@H]3[C@@H]4C=C[C@H]([C@@H]3[C@@]3(COC(C)(C)O3)[C@H]2O1)[C@H]4[Si](C)(C)C.CC(C)=O.O=S(=O)(O)O.O=[Cr](=O)=O>>CC1(C)O[C@H]2C(=O)[C@@H]3[C@@H]4C=C[C@H]([C@@H]3[C@@]3(COC(C)(C)O3)[C@H]2O1)[C@H]4[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2[C@H:6]([OH:7])[C@@H:8]3[C@@H:9]4[CH:10]=[CH:11][C@H:12]([C@@H:13]3[C@@:14]3([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]3)[C@H:21]2[O:22]1)[C@H:23]4[Si:24]([CH3:25])([CH3:26])[CH3:27]>CC(C)=O.O=S(=O)(O)O.O=[Cr](=O)=O>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2[C:6](=[O:7])[C@@H:8]3[C@@H:9]4[CH:10]=[CH:11][C@H:12]([C@@H:13]3[C@@:14]3([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]3)[C@H:21]2[O:22]1)[C@H:23]4[Si:24]([CH3:25])([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.2972738853430264,
+      "conditions": {
+        "raw_description": "Jones Reagent; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Jones Reagent"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)C.OS(=O)(=O)O.O=[Cr](=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_11",
+      "reaction_smiles": "CC1(C)O[C@H]2C(=O)[C@@H]3[C@@H]4C=C[C@H]([C@@H]3[C@@]3(COC(C)(C)O3)[C@H]2O1)[C@H]4[Si](C)(C)C.CCOC(=O)C[Si](C)(C)C.[Li]N(C(C)C)C(C)C.C1CCOC1>>CCOC(=O)/C=C1/[C@@H]2[C@@H]3C=C[C@H]([C@@H]2[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@@H]12)[C@H]3[Si](C)(C)C",
+      "reaction_smiles_mapped": "O=[C:7]1[C@@H:8]2[C@@H:9]3[CH:10]=[CH:11][C@H:12]([C@@H:13]2[C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12)[C@H:28]3[Si:29]([CH3:30])([CH3:31])[CH3:32].C[Si](C)(C)[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7]1/[C@@H:8]2[C@@H:9]3[CH:10]=[CH:11][C@H:12]([C@@H:13]2[C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12)[C@H:28]3[Si:29]([CH3:30])([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.2651279372262623,
+      "conditions": {
+        "raw_description": "TMSCH2CO2Et; LDA; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TMSCH2CO2Et",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)CC(=O)OCC",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_12",
+      "reaction_smiles": "CCOC(=O)/C=C1/[C@@H]2[C@@H]3C=C[C@H]([C@@H]2[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@@H]12)[C@H]3[Si](C)(C)C.Clc1ccccc1Cl>>CCOC(=O)/C=C1/C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@@H]12",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C@H]1[C@H]2C=C[C@@H]1[C@H:9]1[C@@H:8]2/[C:7](=[CH:6]/[C:4]([O:3][CH2:2][CH3:1])=[O:5])[C@H:23]2[C@@H:17]([C@:10]13[CH2:11][O:12][C:13]([CH3:14])([CH3:15])[O:16]3)[O:18][C:19]([CH3:20])([CH3:21])[O:22]2>Clc1ccccc1Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7]1/[CH:8]=[CH:9][C@@:10]2([CH2:11][O:12][C:13]([CH3:14])([CH3:15])[O:16]2)[C@H:17]2[O:18][C:19]([CH3:20])([CH3:21])[O:22][C@@H:23]12",
+      "mapping_confidence": 0.3092047892771063,
+      "conditions": {
+        "raw_description": "o-dichlorobenzene; 160 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "o-dichlorobenzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C(C(=C1)Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "160"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_13",
+      "reaction_smiles": "CCOC(=O)/C=C1/C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@@H]12.CC(C)C[AlH]CC(C)C.Cc1ccccc1>>CC1(C)O[C@H]2/C(=C\\CO)C=C[C@@]3(COC(C)(C)O3)[C@H]2O1",
+      "reaction_smiles_mapped": "CCO[C:8](/[CH:7]=[C:6]1\\[C@@H:5]2[O:4][C:2]([CH3:1])([CH3:3])[O:20][C@@H:19]2[C@@:12]2([CH:11]=[CH:10]1)[CH2:13][O:14][C:15]([CH3:16])([CH3:17])[O:18]2)=[O:9]>CC(C)C[AlH]CC(C)C.Cc1ccccc1>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2/[C:6](=[CH:7]\\[CH2:8][OH:9])[CH:10]=[CH:11][C@@:12]3([CH2:13][O:14][C:15]([CH3:16])([CH3:17])[O:18]3)[C@H:19]2[O:20]1",
+      "mapping_confidence": 0.42982964807990187,
+      "conditions": {
+        "raw_description": "DIBAL-H; toluene; -78 \u00b0C to 0 \u00b0C; 38% (5 steps)",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "38% (5 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_14",
+      "reaction_smiles": "CC1(C)O[C@H]2/C(=C\\CO)C=C[C@@]3(COC(C)(C)O3)[C@H]2O1.O=C=NC(=O)C(Cl)(Cl)Cl.CCN(CC)CC.ClCCl.CO>>CC1(C)O[C@H]2/C(=C\\COC(N)=O)C=C[C@@]3(COC(C)(C)O3)[C@H]2O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2/[C:6](=[CH:7]\\[CH2:8][OH:9])[CH:13]=[CH:14][C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]2[O:23]1.O=C(C(Cl)(Cl)Cl)[N:11]=[C:10]=[O:12]>CCN(CC)CC.CO.ClCCl>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2/[C:6](=[CH:7]\\[CH2:8][O:9][C:10]([NH2:11])=[O:12])[CH:13]=[CH:14][C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]2[O:23]1",
+      "mapping_confidence": 0.6263732155685994,
+      "conditions": {
+        "raw_description": "98%; Et3N; DCM; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_15",
+      "reaction_smiles": "CC1(C)O[C@H]2/C(=C\\COC(N)=O)C=C[C@@]3(COC(C)(C)O3)[C@H]2O1.O=C(OC(=O)C(F)(F)F)C(F)(F)F.CCN(C(C)C)C(C)C.ClCCl>>C=C[C@@]1(N=C=O)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21",
+      "reaction_smiles_mapped": "O([CH2:1]/[CH:2]=[C:3]1/[CH:7]=[CH:8][C@@:9]2([CH2:10][O:11][C:12]([CH3:13])([CH3:14])[O:15]2)[C@H:16]2[O:17][C:18]([CH3:19])([CH3:20])[O:21][C@@H:22]12)[C:5]([NH2:4])=[O:6]>CCN(C(C)C)C(C)C.ClCCl.O=C(OC(=O)C(F)(F)F)C(F)(F)F>[CH2:1]=[CH:2][C@@:3]1([N:4]=[C:5]=[O:6])[CH:7]=[CH:8][C@@:9]2([CH2:10][O:11][C:12]([CH3:13])([CH3:14])[O:15]2)[C@H:16]2[O:17][C:18]([CH3:19])([CH3:20])[O:21][C@@H:22]12",
+      "mapping_confidence": 0.39560214397666243,
+      "conditions": {
+        "raw_description": "TFAA; iPr2NEt; DCM; -78 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPr2NEt",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(C(C)C)C(C)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_16",
+      "reaction_smiles": "C=C[C@@]1(N=C=O)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21.[Li]OC(C)(C)C.ClCCl>>C=C[C@@]1(NC(=O)OC(C)(C)C)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]1([N:4]=[C:5]=[O:6])[CH:12]=[CH:13][C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12.[Li][O:7][C:8]([CH3:9])([CH3:10])[CH3:11]>ClCCl>[CH2:1]=[CH:2][C@@:3]1([NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[CH:12]=[CH:13][C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12",
+      "mapping_confidence": 0.21688405124577742,
+      "conditions": {
+        "raw_description": "LiOt-Bu; DCM; -78 to 0 \u00b0C; 79% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiOt-Bu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "79% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_17",
+      "reaction_smiles": "C=C[C@@]1(NC(=O)OC(C)(C)C)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21.C[N+]1([O-])CCOCC1.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].O=[Os](=O)(=O)=O.CC(C)=O>>CC(C)(C)OC(=O)N[C@]1(C=O)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21",
+      "reaction_smiles_mapped": "C=[CH:10][C@@:9]1([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH:12]=[CH:13][C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12.O=[Os](=O)(=O)=[O:11]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(C)=O.C[N+]1([O-])CCOCC1.[Pb+4]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]1([CH:10]=[O:11])[CH:12]=[CH:13][C@@:14]2([CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]2)[C@H:21]2[O:22][C:23]([CH3:24])([CH3:25])[O:26][C@@H:27]12",
+      "mapping_confidence": 0.043044856535587595,
+      "conditions": {
+        "raw_description": "OsO4; NMO; acetone; rt; then; Pb(OAc)4; rt; 75%",
+        "GENERAL_REAGENTS": [
+          "NMO",
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]",
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_18",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]1(C=O)C=C[C@@]2(COC(C)(C)O2)[C@H]2OC(C)(C)O[C@H]21.C#CCN(O[Si](C)(C)C(C)(C)C)S(=O)(=O)c1ccc(C)cc1.CC[Mg]Br.C1CCOC1>>Cc1ccc(S(=O)(=O)N(CC#C[C@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C(C)(C)C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10][C:11]#[CH:12])[O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[cH:48][cH:49]1.[CH:13](=[O:14])[C@@:15]1([NH:16][C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[CH:24]=[CH:25][C@@:26]2([CH2:27][O:28][C:29]([CH3:30])([CH3:31])[O:32]2)[C@H:33]2[O:34][C:35]([CH3:36])([CH3:37])[O:38][C@@H:39]12>C1CCOC1.CC[Mg]Br>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10][C:11]#[C:12][C@H:13]([OH:14])[C@@:15]2([NH:16][C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[CH:24]=[CH:25][C@@:26]3([CH2:27][O:28][C:29]([CH3:30])([CH3:31])[O:32]3)[C@H:33]3[O:34][C:35]([CH3:36])([CH3:37])[O:38][C@@H:39]23)[O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[cH:48][cH:49]1",
+      "mapping_confidence": 0.045882956188656815,
+      "conditions": {
+        "raw_description": "EtMgBr; THF; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "EtMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_19",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)N(CC#C[C@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C(C)(C)C)cc1.[HH].[C].[Pd].c1ccc2ncccc2c1.CCO.CCOC(C)=O>>Cc1ccc(S(=O)(=O)N(C/C=C\\[C@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C(C)(C)C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10][C:11]#[C:12][C@H:13]([OH:14])[C@@:15]2([NH:16][C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[CH:24]=[CH:25][C@@:26]3([CH2:27][O:28][C:29]([CH3:30])([CH3:31])[O:32]3)[C@H:33]3[O:34][C:35]([CH3:36])([CH3:37])[O:38][C@@H:39]23)[O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[cH:48][cH:49]1>CCO.CCOC(C)=O.[C].[HH].[Pd].c1ccc2ncccc2c1>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10]/[CH:11]=[CH:12]\\[C@H:13]([OH:14])[C@@:15]2([NH:16][C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[CH:24]=[CH:25][C@@:26]3([CH2:27][O:28][C:29]([CH3:30])([CH3:31])[O:32]3)[C@H:33]3[O:34][C:35]([CH3:36])([CH3:37])[O:38][C@@H:39]23)[O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[cH:48][cH:49]1",
+      "mapping_confidence": 0.024935360981955423,
+      "conditions": {
+        "raw_description": "H2; Pd/C; quinoline; EtOH; EtOAc; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "quinoline",
+          "EtOH",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C2C(=C1)C=CC=N2",
+          "CCO",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_20",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)N(C/C=C\\[C@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C(C)(C)C)cc1.[Cs+].[F-].CC#N>>Cc1ccc(S(=O)(=O)N(O)C/C=C\\[C@@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)cc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:10][N:9]([S:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:42][cH:41]1)(=[O:7])=[O:8])[CH2:11]/[CH:12]=[CH:13]\\[C@H:14]([OH:15])[C@@:16]1([NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]=[CH:26][C@@:27]2([CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]2)[C@H:34]2[O:35][C:36]([CH3:37])([CH3:38])[O:39][C@@H:40]12>CC#N.[Cs+].[F-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([OH:10])[CH2:11]/[CH:12]=[CH:13]\\[C@@H:14]([OH:15])[C@@:16]2([NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]=[CH:26][C@@:27]3([CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]3)[C@H:34]3[O:35][C:36]([CH3:37])([CH3:38])[O:39][C@@H:40]23)[cH:41][cH:42]1",
+      "mapping_confidence": 0.10349210085210866,
+      "conditions": {
+        "raw_description": "CsF; MeCN; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "CsF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cs+].[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_21",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)N(O)C/C=C\\[C@@H](O)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)cc1.C[Si](C)(C)Cl.C[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>Cc1ccc(S(=O)(=O)N(C/C=C\\[C@@H](O[Si](C)(C)C)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C)cc1",
+      "reaction_smiles_mapped": "Cl[Si:15]([CH3:16])([CH3:17])[CH3:18].Cl[Si:45]([CH3:46])([CH3:47])[CH3:48].[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10]/[CH:11]=[CH:12]\\[C@@H:13]([OH:14])[C@@:19]2([NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[CH:28]=[CH:29][C@@:30]3([CH2:31][O:32][C:33]([CH3:34])([CH3:35])[O:36]3)[C@H:37]3[O:38][C:39]([CH3:40])([CH3:41])[O:42][C@@H:43]23)[OH:44])[cH:49][cH:50]1>CN(C)C=O.c1c[nH]cn1>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]([CH2:10]/[CH:11]=[CH:12]\\[C@@H:13]([O:14][Si:15]([CH3:16])([CH3:17])[CH3:18])[C@@:19]2([NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[CH:28]=[CH:29][C@@:30]3([CH2:31][O:32][C:33]([CH3:34])([CH3:35])[O:36]3)[C@H:37]3[O:38][C:39]([CH3:40])([CH3:41])[O:42][C@@H:43]23)[O:44][Si:45]([CH3:46])([CH3:47])[CH3:48])[cH:49][cH:50]1",
+      "mapping_confidence": 0.010031741342006876,
+      "conditions": {
+        "raw_description": "TMSCl; imidazole; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_22",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)N(C/C=C\\[C@@H](O[Si](C)(C)C)[C@@]2(NC(=O)OC(C)(C)C)C=C[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]32)O[Si](C)(C)C)cc1.CS(=O)(=O)N([Na])Cl.Cl.CC(=O)O.CCO.O>>CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)C=C[C@H]2O",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[N:12]([CH2:11]/[CH:29]=[CH:30]\\[C@H:31]([C@@:9]2([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH:10]=[CH:14][C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]23)[O:32][Si](C)(C)C)[O:13][Si](C)(C)C)cc1>CC(=O)O.CCO.CS(=O)(=O)N([Na])Cl.Cl.O>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:13][C@H:14]3[C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]13)[CH:29]=[CH:30][C@H:31]2[OH:32]",
+      "mapping_confidence": 0.18279410351784106,
+      "conditions": {
+        "raw_description": "68% (4 steps); AcOH; EtOH; HCl; H2O; rt",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "68% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_23",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)C=C[C@H]2O.O=[O+][O-].[Na+].[O-][Cl+][O-].O=P([O-])(O)O.[Na+].CCCCP(CCCC)CCCC.ClCCl.CC(C)(C)O.O>>CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)[C@H](O)O[C@@H]2C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:13][C@H:14]3[C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]13)[CH:29]=[CH:30][C@H:31]2[OH:32].[O:33]=[O+][O-:34].[O-:35][Cl+][O-]>[Na+].[Na+].O=P([O-])(O)O.CCCCP(CCCC)CCCC.ClCCl.CC(C)(C)O.O>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:13][C@H:14]3[C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]13)[C@H:29]([OH:33])[O:32][C@@H:31]2[C:30](=[O:34])[OH:35]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "O3; DCM; -78 \u00b0C; then; NaClO2; NaH2PO4; t-BuOH; H2O; rt; then n-Bu3P; rt",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "NaClO2",
+          "NaH2PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "[O-]Cl=O.[Na+]",
+          "OP(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "n-Bu3P"
+        ],
+        "LIGANDS_SMILES": [
+          "CCCCP(CCCC)CCCC"
+        ],
+        "SOLVENTS": [
+          "DCM",
+          "t-BuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_24",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)[C@H](O)O[C@@H]2C(=O)O.BrCc1ccccc1.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)C(O)O[C@@H]2C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:36][c:37]1[cH:38][cH:39][cH:40][cH:41][cH:42]1.[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:13][C@H:14]3[C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]13)[C@H:29]([OH:30])[O:31][C@@H:32]2[C:33](=[O:34])[OH:35]>CN(C)C=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:13][C@H:14]3[C@@:15]3([CH2:16][O:17][C:18]([CH3:19])([CH3:20])[O:21]3)[C@H:22]3[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@@H:28]13)[CH:29]([OH:30])[O:31][C@@H:32]2[C:33](=[O:34])[O:35][CH2:36][c:37]1[cH:38][cH:39][cH:40][cH:41][cH:42]1",
+      "mapping_confidence": 0.19335172268465617,
+      "conditions": {
+        "raw_description": "60% (2 steps); BnBr; K2CO3; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "BnBr",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_25",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]12C3C(=NO[C@H]3[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)C(O)O[C@@H]2C(=O)OCc1ccccc1.[BH4-].[Na+].Cl[Ni]Cl.CO.ClCCl>>CC(C)(C)OC(=O)N[C@@]12[C@@H]([C@H](N)C(O)O[C@@H]1C(=O)OCc1ccccc1)[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[CH:10]3[C:11](=[N:12][O:28][C@H:27]3[C@@:29]3([CH2:30][O:31][C:32]([CH3:33])([CH3:34])[O:35]3)[C@H:36]3[O:37][C:38]([CH3:39])([CH3:40])[O:41][C@@H:42]13)[CH:13]([OH:14])[O:15][C@@H:16]2[C:17](=[O:18])[O:19][CH2:20][c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1>CO.ClCCl.Cl[Ni]Cl.[BH4-].[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@@:9]12[C@@H:10]([C@H:11]([NH2:12])[CH:13]([OH:14])[O:15][C@@H:16]1[C:17](=[O:18])[O:19][CH2:20][c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[C@@H:27]([OH:28])[C@@:29]1([CH2:30][O:31][C:32]([CH3:33])([CH3:34])[O:35]1)[C@H:36]1[O:37][C:38]([CH3:39])([CH3:40])[O:41][C@@H:42]21",
+      "mapping_confidence": 0.18833877976699318,
+      "conditions": {
+        "raw_description": "NiCl2; NaBH4; MeOH-DCM; -40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "NiCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ni]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_26",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@@]12[C@@H]([C@H](N)C(O)O[C@@H]1C(=O)OCc1ccccc1)[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.C=CCOC(=O)Cl.O=C([O-])O.[Na+].ClCCl>>C=CCOC(=O)N[C@@H]1C(O)O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "Cl[C:5]([O:4][CH2:3][CH:2]=[CH2:1])=[O:6].[NH2:7][C@@H:8]1[CH:9]([OH:10])[O:11][C@H:12]([C:13](=[O:14])[O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@@:23]2([NH:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[C@@H:32]1[C@@H:33]([OH:34])[C@@:35]1([CH2:36][O:37][C:38]([CH3:39])([CH3:40])[O:41]1)[C@H:42]1[O:43][C:44]([CH3:45])([CH3:46])[O:47][C@@H:48]21>ClCCl.O=C([O-])O.[Na+]>[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[NH:7][C@@H:8]1[CH:9]([OH:10])[O:11][C@H:12]([C:13](=[O:14])[O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@@:23]2([NH:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[C@@H:32]1[C@@H:33]([OH:34])[C@@:35]1([CH2:36][O:37][C:38]([CH3:39])([CH3:40])[O:41]1)[C@H:42]1[O:43][C:44]([CH3:45])([CH3:46])[O:47][C@@H:48]21",
+      "mapping_confidence": 0.1903841024414295,
+      "conditions": {
+        "raw_description": "NaHCO3; DCM; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_27",
+      "reaction_smiles": "C=CCOC(=O)N[C@@H]1C(O)O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].CO>>C=CCOC(=O)N[C@@H]1O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "OC1[C@@H:8]([NH:7][C:5]([O:4][CH2:3][CH:2]=[CH2:1])=[O:6])[C@@H:30]2[C@:21]([NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])([C@@H:10]([C:11](=[O:12])[O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[O:9]1)[C@H:46]1[C@@H:40]([C@@:33]3([C@@H:31]2[OH:32])[CH2:34][O:35][C:36]([CH3:37])([CH3:38])[O:39]3)[O:41][C:42]([CH3:43])([CH3:44])[O:45]1>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CO.[Pb+4]>[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[NH:7][C@@H:8]1[O:9][C@H:10]([C:11](=[O:12])[O:13][CH2:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[C@@:21]2([NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[C@@H:30]1[C@@H:31]([OH:32])[C@@:33]1([CH2:34][O:35][C:36]([CH3:37])([CH3:38])[O:39]1)[C@H:40]1[O:41][C:42]([CH3:43])([CH3:44])[O:45][C@@H:46]21",
+      "mapping_confidence": 0.1410350251802726,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; MeOH; reflux",
+        "GENERAL_REAGENTS": [
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_28",
+      "reaction_smiles": "C=CCOC(=O)N[C@@H]1O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[SiH3]c1ccccc1.ClCCl>>CC(C)(C)OC(=O)N[C@]12[C@@H](C(=O)OCc3ccccc3)OC(N)[C@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "C=CCOC(=O)[NH:23][C@@H:22]1[O:21][C@H:10]([C:11](=[O:12])[O:13][CH2:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[C@@:9]2([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C@@H:24]1[C@@H:25]([OH:26])[C@@:27]1([CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]1)[C@H:34]1[O:35][C:36]([CH3:37])([CH3:38])[O:39][C@@H:40]21>ClCCl.[Pd].[SiH3]c1ccccc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[C@@H:10]([C:11](=[O:12])[O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[O:21][CH:22]([NH2:23])[C@H:24]1[C@@H:25]([OH:26])[C@@:27]1([CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]1)[C@H:34]1[O:35][C:36]([CH3:37])([CH3:38])[O:39][C@@H:40]21",
+      "mapping_confidence": 0.11194495362875193,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; PhSiH3; DCM; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [
+          "PhSiH3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)[SiH3]"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_29",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]12[C@@H](C(=O)OCc3ccccc3)OC(N)[C@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.O=N[O-].[Na+].Cl.O.C1COCCO1>>CC(C)(C)OC(=O)N[C@]12[C@H]([C@@H](O)[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)[C@@H](O)O[C@@H]2C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "N[CH:27]1[C@@H:10]2[C@@:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])([C@H:26]3[C@@H:20]([C@@:13]4([C@@H:11]2[OH:12])[CH2:14][O:15][C:16]([CH3:17])([CH3:18])[O:19]4)[O:21][C:22]([CH3:23])([CH3:24])[O:25]3)[C@@H:30]([C:31](=[O:32])[O:33][CH2:34][c:35]2[cH:36][cH:37][cH:38][cH:39][cH:40]2)[O:29]1.O=N[O-:28]>C1COCCO1.Cl.O.[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@:9]12[C@H:10]([C@@H:11]([OH:12])[C@@:13]3([CH2:14][O:15][C:16]([CH3:17])([CH3:18])[O:19]3)[C@H:20]3[O:21][C:22]([CH3:23])([CH3:24])[O:25][C@@H:26]13)[C@@H:27]([OH:28])[O:29][C@@H:30]2[C:31](=[O:32])[O:33][CH2:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1",
+      "mapping_confidence": 0.08326219753054001,
+      "conditions": {
+        "raw_description": "NaNO2; HCl; H2O; dioxane; rt; 40% (5 steps)",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "40% (5 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_30",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@]12[C@H]([C@@H](O)[C@@]3(COC(C)(C)O3)[C@H]3OC(C)(C)O[C@H]31)[C@@H](O)O[C@@H]2C(=O)OCc1ccccc1.COC(C)(OC)OC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.CO>>CO[C@@H]1O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "[OH:2][C@H:3]1[O:4][C@H:5]([C:6](=[O:7])[O:8][CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[C@@:16]2([NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[C@@H:25]1[C@@H:26]([OH:27])[C@@:28]1([CH2:29][O:30][C:31]([CH3:32])([CH3:33])[O:34]1)[C@H:35]1[O:36][C:37]([CH3:38])([CH3:39])[O:40][C@@H:41]21.O[CH3:1]>COC(C)(OC)OC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH3:1][O:2][C@@H:3]1[O:4][C@H:5]([C:6](=[O:7])[O:8][CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[C@@:16]2([NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[C@@H:25]1[C@@H:26]([OH:27])[C@@:28]1([CH2:29][O:30][C:31]([CH3:32])([CH3:33])[O:34]1)[C@H:35]1[O:36][C:37]([CH3:38])([CH3:39])[O:40][C@@H:41]21",
+      "mapping_confidence": 0.13014828479952903,
+      "conditions": {
+        "raw_description": "PPTS; MeC(OMe)3; MeOH; rt; 78%",
+        "GENERAL_REAGENTS": [
+          "MeC(OMe)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OC)(OC)OC"
+        ],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_31",
+      "reaction_smiles": "CO[C@@H]1O[C@H](C(=O)OCc2ccccc2)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.[HH].[C].[Pd].CO>>CO[C@@H]1O[C@H](C(=O)O)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12",
+      "reaction_smiles_mapped": "c1ccc(C[O:8][C:6]([C@H:5]2[O:4][C@@H:3]([O:2][CH3:1])[C@@H:18]3[C@@:9]2([NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[C@H:34]2[C@@H:28]([C@@:21]4([C@@H:19]3[OH:20])[CH2:22][O:23][C:24]([CH3:25])([CH3:26])[O:27]4)[O:29][C:30]([CH3:31])([CH3:32])[O:33]2)=[O:7])cc1>CO.[C].[HH].[Pd]>[CH3:1][O:2][C@@H:3]1[O:4][C@H:5]([C:6](=[O:7])[OH:8])[C@@:9]2([NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]1[C@@H:19]([OH:20])[C@@:21]1([CH2:22][O:23][C:24]([CH3:25])([CH3:26])[O:27]1)[C@H:28]1[O:29][C:30]([CH3:31])([CH3:32])[O:33][C@@H:34]21",
+      "mapping_confidence": 0.21298459306750056,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_32",
+      "reaction_smiles": "CO[C@@H]1O[C@H](C(=O)O)[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1[C@@H](O)[C@@]1(COC(C)(C)O1)[C@H]1OC(C)(C)O[C@H]12.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.Cc1ccccc1.CN(C)c1ccncc1>>CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1",
+      "reaction_smiles_mapped": "O[C:6]([C@H:5]1[O:4][C@@H:3]([O:2][CH3:1])[C@H:10]2[C@@H:9]([OH:8])[C@:27]3([C@@H:26]4[C@H:20]([C@@:11]12[NH:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19])[O:21][C:22]([CH3:23])([CH3:24])[O:25]4)[CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]3)=[O:7]>CCN(CC)CC.CN(C)c1ccncc1.Cc1ccccc1.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]2[C:6](=[O:7])[O:8][C@@H:9]3[C@H:10]1[C@@:11]2([NH:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19])[C@@H:20]1[O:21][C:22]([CH3:23])([CH3:24])[O:25][C@@H:26]1[C@:27]31[CH2:28][O:29][C:30]([CH3:31])([CH3:32])[O:33]1",
+      "mapping_confidence": 0.14927167836477076,
+      "conditions": {
+        "raw_description": "Et3N; DMAP; toluene; rt; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_33",
+      "reaction_smiles": "CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(NC(=O)OC(C)(C)C)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1.C[Si](C)(C)I.CC#N>>CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(N)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:12][C@:11]12[C@@H:5]3[O:4][C@H:3]([O:2][CH3:1])[C@H:10]1[C@@H:9]([O:8][C:6]3=[O:7])[C@:20]1([C@@H:19]3[C@H:13]2[O:14][C:15]([CH3:16])([CH3:17])[O:18]3)[CH2:21][O:22][C:23]([CH3:24])([CH3:25])[O:26]1>CC#N.C[Si](C)(C)I>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]2[C:6](=[O:7])[O:8][C@@H:9]3[C@H:10]1[C@@:11]2([NH2:12])[C@@H:13]1[O:14][C:15]([CH3:16])([CH3:17])[O:18][C@@H:19]1[C@:20]31[CH2:21][O:22][C:23]([CH3:24])([CH3:25])[O:26]1",
+      "mapping_confidence": 0.5254093091423844,
+      "conditions": {
+        "raw_description": "TMSI; MeCN; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TMSI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_34",
+      "reaction_smiles": "CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(N)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1.CS/C(=N\\C(=O)OCc1ccccc1)NC(=O)OCc1ccccc1.CCN(CC)CC.Cl[Hg]Cl.ClCCl>>CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(N/C(=N\\C(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]2[C:6](=[O:7])[O:8][C@@H:9]3[C@H:10]1[C@@:11]2([NH2:12])[C@@H:36]1[O:37][C:38]([CH3:39])([CH3:40])[O:41][C@@H:42]1[C@:43]31[CH2:44][O:45][C:46]([CH3:47])([CH3:48])[O:49]1.CS/[C:13](=[N:14]\\[C:15](=[O:16])[O:17][CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[NH:25][C:26](=[O:27])[O:28][CH2:29][c:30]1[cH:31][cH:32][cH:33][cH:34][cH:35]1>CCN(CC)CC.ClCCl.Cl[Hg]Cl>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]2[C:6](=[O:7])[O:8][C@@H:9]3[C@H:10]1[C@@:11]2([NH:12]/[C:13](=[N:14]\\[C:15](=[O:16])[O:17][CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[NH:25][C:26](=[O:27])[O:28][CH2:29][c:30]1[cH:31][cH:32][cH:33][cH:34][cH:35]1)[C@@H:36]1[O:37][C:38]([CH3:39])([CH3:40])[O:41][C@@H:42]1[C@:43]31[CH2:44][O:45][C:46]([CH3:47])([CH3:48])[O:49]1",
+      "mapping_confidence": 0.32941723531059414,
+      "conditions": {
+        "raw_description": "HgCl2; Et3N; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "HgCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Hg]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_35",
+      "reaction_smiles": "CO[C@H]1O[C@@H]2C(=O)O[C@@H]3[C@H]1[C@@]2(N/C(=N\\C(=O)OCc1ccccc1)NC(=O)OCc1ccccc1)[C@@H]1OC(C)(C)O[C@@H]1[C@]31COC(C)(C)O1.O=C(O)C(F)(F)F.O>>O=C(/N=C1/N[C@H](O)[C@H]2[C@H]3O[C@]4(O)O[C@@H]([C@@H](O)[C@@]2(N1)[C@@H]4O)[C@]3(O)CO)OCc1ccccc1",
+      "reaction_smiles_mapped": "CO[C@@H]1[C@H:8]2[C@H:9]3[O:10][C:11](=[O:12])[C@H:19]([C@:17]2([NH:18]/[C:4](=[N:3]\\[C:2](=[O:1])[O:25][CH2:26][c:27]2[cH:28][cH:29][cH:30][cH:31][cH:32]2)[NH:5][C:6](OCc2ccccc2)=[O:7])[C@H:15]2[C@H:14]([O:13]C(C)(C)[O:16]2)[C@@:21]32[O:22]C(C)(C)[O:24][CH2:23]2)[O:20]1>O.O=C(O)C(F)(F)F>[O:1]=[C:2](/[N:3]=[C:4]1/[NH:5][C@H:6]([OH:7])[C@H:8]2[C@H:9]3[O:10][C@:11]4([OH:12])[O:13][C@@H:14]([C@@H:15]([OH:16])[C@@:17]2([NH:18]1)[C@@H:19]4[OH:20])[C@:21]3([OH:22])[CH2:23][OH:24])[O:25][CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1",
+      "mapping_confidence": 0.35717637306295796,
+      "conditions": {
+        "raw_description": "TFA; H2O; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_36",
+      "reaction_smiles": "O=C(/N=C1/N[C@H](O)[C@H]2[C@H]3O[C@]4(O)O[C@@H]([C@@H](O)[C@@]2(N1)[C@@H]4O)[C@]3(O)CO)OCc1ccccc1.[HH].[C].[Pd].CO>>[NH2+]=C1N[C@H](O)[C@H]2[C@H]3O[C@]4([O-])O[C@@H]([C@@H](O)[C@@]2(N1)[C@@H]4O)[C@]3(O)CO",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)/[N:1]=[C:2]1/[NH:3][C@H:4]([OH:5])[C@H:6]2[C@H:7]3[O:8][C@:9]4([OH:10])[O:11][C@@H:12]([C@@H:13]([OH:14])[C@@:15]2([NH:16]1)[C@@H:17]4[OH:18])[C@:19]3([OH:20])[CH2:21][OH:22]>CO.[C].[HH].[Pd]>[NH2+:1]=[C:2]1[NH:3][C@H:4]([OH:5])[C@H:6]2[C@H:7]3[O:8][C@:9]4([O-:10])[O:11][C@@H:12]([C@@H:13]([OH:14])[C@@:15]2([NH:16]1)[C@@H:17]4[OH:18])[C@:19]3([OH:20])[CH2:21][OH:22]",
+      "mapping_confidence": 0.9825653184026263,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_37",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)Cl)cc1.NO.Cl.[Mg+2].[O-2].CO.O>>Cc1ccc(S(=O)(=O)NO)cc1",
+      "reaction_smiles_mapped": "Cl[S:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:12][cH:11]1)(=[O:7])=[O:8].[NH2:9][OH:10]>CO.Cl.O.[Mg+2].[O-2]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH:9][OH:10])[cH:11][cH:12]1",
+      "mapping_confidence": 0.5816361564643059,
+      "conditions": {
+        "raw_description": "NH2OH; HCl; MgO; MeOH; H2O; rt; 88%",
+        "GENERAL_REAGENTS": [
+          "NH2OH",
+          "HCl",
+          "MgO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO",
+          "Cl",
+          "[Mg+2].[O-2]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_38",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)NO)cc1.CC(C)(C)[Si](C)(C)Cl.CCN(CC)CC.ClCCl>>Cc1ccc(S(=O)(=O)NO[Si](C)(C)C(C)(C)C)cc1",
+      "reaction_smiles_mapped": "Cl[Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17].[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH:9][OH:10])[cH:18][cH:19]1>CCN(CC)CC.ClCCl>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.19983002574275577,
+      "conditions": {
+        "raw_description": "TBSCl; Et3N; DCM; 0 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrodotoxin_2017_Fukuyama_39",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)NO[Si](C)(C)C(C)(C)C)cc1.C#CCBr.O=C([O-])[O-].[Cs+].[Cs+].CC#N>>C#CCN(O[Si](C)(C)C(C)(C)C)S(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "Br[CH2:3][C:2]#[CH:1].[NH:4]([O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12])[S:13](=[O:14])(=[O:15])[c:16]1[cH:17][cH:18][c:19]([CH3:20])[cH:21][cH:22]1>CC#N.O=C([O-])[O-].[Cs+].[Cs+]>[CH:1]#[C:2][CH2:3][N:4]([O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12])[S:13](=[O:14])(=[O:15])[c:16]1[cH:17][cH:18][c:19]([CH3:20])[cH:21][cH:22]1",
+      "mapping_confidence": 0.15240979402170557,
+      "conditions": {
+        "raw_description": "Cs2CO3; MeCN; rt; 97%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    }
+  ]
+}

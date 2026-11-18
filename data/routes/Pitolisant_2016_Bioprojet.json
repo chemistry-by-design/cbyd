@@ -1,0 +1,111 @@
+{
+  "background": {
+    "name": "Pitolisant",
+    "author": null,
+    "year": 2016,
+    "drug_name": "Wakix",
+    "manufacturer": "Bioprojet",
+    "citation": "J. Med. Chem. 2018, 61, 16, 7004",
+    "doi": "10.1021/acs.jmedchem.8b00260"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pitolisant_2016_Bioprojet_1",
+      "reaction_smiles": "OCCCc1ccc(Cl)cc1.CCN(CC)CC.ClCCl.CS(=O)(=O)Cl>>CS(=O)(=O)OCCCc1ccc(Cl)cc1",
+      "reaction_smiles_mapped": "Cl[S:2]([CH3:1])(=[O:3])=[O:4].[OH:5][CH2:6][CH2:7][CH2:8][c:9]1[cH:10][cH:11][c:12]([Cl:13])[cH:14][cH:15]1>CCN(CC)CC.ClCCl>[CH3:1][S:2](=[O:3])(=[O:4])[O:5][CH2:6][CH2:7][CH2:8][c:9]1[cH:10][cH:11][c:12]([Cl:13])[cH:14][cH:15]1",
+      "mapping_confidence": 0.5683809292987316,
+      "conditions": {
+        "raw_description": "MsCl; TEA; DCM; 0 \u00b0C to 23 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pitolisant_2016_Bioprojet_2",
+      "reaction_smiles": "CS(=O)(=O)OCCCc1ccc(Cl)cc1.OCCCN1CCCCC1.[H-].[Na+].CC(=O)N(C)C.[H-].[Na+]>>Clc1ccc(CCCOCCCN2CCCCC2)cc1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:8][CH2:7][CH2:6][c:5]1[cH:4][cH:3][c:2]([Cl:1])[cH:20][cH:19]1.[OH:9][CH2:10][CH2:11][CH2:12][N:13]1[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18]1>CC(=O)N(C)C.[H-].[H-].[Na+].[Na+]>[Cl:1][c:2]1[cH:3][cH:4][c:5]([CH2:6][CH2:7][CH2:8][O:9][CH2:10][CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18]2)[cH:19][cH:20]1",
+      "mapping_confidence": 0.8154848851028899,
+      "conditions": {
+        "raw_description": "NaH; DMA; 50 \u00b0C; 97% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)N(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "97% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pitolisant_2016_Bioprojet_3",
+      "reaction_smiles": "Clc1ccc(CCCOCCCN2CCCCC2)cc1.CCOC(C)=O.Cl>>Clc1ccc(CCCOCCCN2CCCCC2)cc1",
+      "reaction_smiles_mapped": "[Cl:1][c:2]1[cH:3][cH:4][c:5]([CH2:6][CH2:7][CH2:8][O:9][CH2:10][CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18]2)[cH:19][cH:20]1>CCOC(C)=O.Cl>[Cl:1][c:2]1[cH:3][cH:4][c:5]([CH2:6][CH2:7][CH2:8][O:9][CH2:10][CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18]2)[cH:19][cH:20]1",
+      "mapping_confidence": 0.9255444990911215,
+      "conditions": {
+        "raw_description": "HCl(g); EtOAc; 20 \u00b0C to 25 \u00b0C; 78% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl(g)"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20",
+          "25"
+        ],
+        "YIELD": [
+          "78% (3 steps)"
+        ]
+      }
+    }
+  ]
+}

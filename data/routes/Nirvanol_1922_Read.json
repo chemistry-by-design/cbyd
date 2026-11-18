@@ -1,0 +1,129 @@
+{
+  "background": {
+    "name": "Nirvanol",
+    "author": "Read",
+    "year": 1922,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1922, 44, 1746",
+    "doi": "10.1021/ja01429a017"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Nirvanol_1922_Read_1",
+      "reaction_smiles": "c1ccccc1.CCC(=O)Cl.Cl[Al](Cl)Cl>>CCC(=O)c1ccccc1",
+      "reaction_smiles_mapped": "Cl[C:3]([CH2:2][CH3:1])=[O:4].[cH:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1>Cl[Al](Cl)Cl>[CH3:1][CH2:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1",
+      "mapping_confidence": 0.43492811808230175,
+      "conditions": {
+        "raw_description": "AlCl3; 50 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nirvanol_1922_Read_2",
+      "reaction_smiles": "CCC(=O)c1ccccc1.CCO.[C-]#N.[NH4+]>>CCC(N)(C#N)c1ccccc1",
+      "reaction_smiles_mapped": "O=[C:3]([CH2:2][CH3:1])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1.[C-:5]#[N:6].[NH4+:4]>CCO>[CH3:1][CH2:2][C:3]([NH2:4])([C:5]#[N:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1",
+      "mapping_confidence": 0.8944649831783014,
+      "conditions": {
+        "raw_description": "NH4CN; EtOH; rt; 55%",
+        "GENERAL_REAGENTS": [
+          "NH4CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[NH4+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nirvanol_1922_Read_3",
+      "reaction_smiles": "CCC(N)(C#N)c1ccccc1.[C-]#N.[K+].CC(=O)O>>CCC(C#N)(NC(N)=O)c1ccccc1",
+      "reaction_smiles_mapped": "C[C:7](O)=[O:9].[CH3:1][CH2:2][C:3]([C:4]#[N:5])([NH2:6])[c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1.[C-]#[N:8]>[K+]>[CH3:1][CH2:2][C:3]([C:4]#[N:5])([NH:6][C:7]([NH2:8])=[O:9])[c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.29959077312529026,
+      "conditions": {
+        "raw_description": "KCN; AcOH; 60 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "KCN",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[K+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nirvanol_1922_Read_4",
+      "reaction_smiles": "CCC(C#N)(NC(N)=O)c1ccccc1.Cl>>CCC1(c2ccccc2)NC(=O)NC1=O",
+      "reaction_smiles_mapped": "N#[C:14][C:3]([CH2:2][CH3:1])([c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)[NH:10][C:11](=[O:12])[NH2:13]>Cl>[CH3:1][CH2:2][C:3]1([c:4]2[cH:5][cH:6][cH:7][cH:8][cH:9]2)[NH:10][C:11](=[O:12])[NH:13][C:14]1=[O:15]",
+      "mapping_confidence": 0.8958840145067672,
+      "conditions": {
+        "raw_description": "HCl; 85%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    }
+  ]
+}

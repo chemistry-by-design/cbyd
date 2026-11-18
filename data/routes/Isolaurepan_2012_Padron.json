@@ -1,0 +1,149 @@
+{
+  "background": {
+    "name": "(+)-Isolaurepan",
+    "author": "Padron",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2012, 14, 5904",
+    "doi": "10.1021/ol3028016"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Isolaurepan_2012_Padron_1",
+      "reaction_smiles": "CCCCCCC1CO1.O.CC(C)(C)c1cc2c(c(C(C)(C)C)c1)O[Co]13(Cl)Oc4c(cc(C(C)(C)C)cc4C(C)(C)C)C=[N+]1[C@H]1CCCC[C@@H]1[N+]3=C2>>CCCCCC[C@H]1CO1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH:7]1[CH2:8][O:9]1>O.CC(C)(C)c1cc2c(c(C(C)(C)C)c1)O[Co]13(Cl)Oc4c(cc(C(C)(C)C)cc4C(C)(C)C)C=[N+]1[C@H]1CCCC[C@@H]1[N+]3=C2>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][O:9]1",
+      "mapping_confidence": 0.9232681267863196,
+      "conditions": {
+        "raw_description": "Jacobsen's Co-cat; H2O; 49%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Jacobsen's Co-cat"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(c1cc(C(C)(C)C)c2c(C=[N+]3[C@H]4CCCC[C@@H]4[N+]5=Cc6c(O[Co]35(O2)Cl)c(C(C)(C)C)cc(C(C)(C)C)c6)c1)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isolaurepan_2012_Padron_2",
+      "reaction_smiles": "CCCCCC[C@H]1CO1.[Cu+].[I-].C1CCOC1.C=CC[Mg]Br>>C=CCC[C@@H](O)CCCCCC",
+      "reaction_smiles_mapped": "Br[Mg][CH2:3][CH:2]=[CH2:1].[CH2:4]1[C@H:5]([CH2:7][CH2:8][CH2:9][CH2:10][CH2:11][CH3:12])[O:6]1>[Cu+].[I-].C1CCOC1>[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]([OH:6])[CH2:7][CH2:8][CH2:9][CH2:10][CH2:11][CH3:12]",
+      "mapping_confidence": 0.8876513631999275,
+      "conditions": {
+        "raw_description": "allylMgBr; CuI; THF; - 40\u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "allylMgBr",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CC[Mg]Br",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isolaurepan_2012_Padron_3",
+      "reaction_smiles": "C=CCC[C@@H](O)CCCCCC.ClCCl.C[Si](C)(C)Cl.CCCC=O.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].[Fe+3]>>CCCCCC[C@H]1CCC(Cl)C[C@@H](CCC)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]([CH2:8][CH2:9][CH:10]=[CH2:12])[OH:17].O=[CH:13][CH2:14][CH2:15][CH3:16].C[Si](C)(C)[Cl:11]>ClCCl.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].[Fe+3]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][CH2:9][CH:10]([Cl:11])[CH2:12][C@@H:13]([CH2:14][CH2:15][CH3:16])[O:17]1",
+      "mapping_confidence": 0.5164145183116345,
+      "conditions": {
+        "raw_description": "Fe(acac)3; TMSCl; butyraldehyde; CH2Cl2; 95%",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "butyraldehyde"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "CCCC=O"
+        ],
+        "CATALYSTS": [
+          "Fe(acac)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].[Fe+3]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isolaurepan_2012_Padron_4",
+      "reaction_smiles": "CCCCCC[C@H]1CCC(Cl)C[C@@H](CCC)O1.CCCC[Sn](CCCC)CCCC.CC(C)(C#N)/N=N/C(C)(C)C#N.Cc1ccccc1.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>>CCCCCC[C@H]1CCCC[C@@H](CCC)O1",
+      "reaction_smiles_mapped": "Cl[CH:10]1[CH2:9][CH2:8][C@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[O:16][C@H:12]([CH2:13][CH2:14][CH3:15])[CH2:11]1>CCCC[Sn](CCCC)CCCC.CC(C)(C#N)/N=N/C(C)(C)C#N.Cc1ccccc1.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][CH2:9][CH2:10][CH2:11][C@@H:12]([CH2:13][CH2:14][CH3:15])[O:16]1",
+      "mapping_confidence": 0.8990716402732601,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN; toluene; 110\u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    }
+  ]
+}

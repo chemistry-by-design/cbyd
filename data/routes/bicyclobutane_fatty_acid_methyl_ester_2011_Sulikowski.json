@@ -1,0 +1,484 @@
+{
+  "background": {
+    "name": "(+/-)-bicyclobutane fatty acid methyl ester",
+    "author": "Sulikowski",
+    "year": 2011,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2011, 50, 9940",
+    "doi": "10.1002/anie.201104366"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_1",
+      "reaction_smiles": "CC/C=C\\CO.CCN(CC)CC.ClCCl.CC(C)(C)[Si](C)(C)Cl>>CC/C=C\\CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13].[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][OH:6]>CCN(CC)CC.ClCCl>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.356940364349947,
+      "conditions": {
+        "raw_description": "TBSCl; Et3N; CH2Cl2; rt; 94%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_2",
+      "reaction_smiles": "CC/C=C\\CO[Si](C)(C)C(C)(C)C.BrC(Br)Br.CC[N+](CC)(CC)Cc1ccccc1.[Cl-].[Na+].[OH-]>>CC[C@@H]1[C@H](CO)C1(Br)Br",
+      "reaction_smiles_mapped": "Br[CH:7]([Br:8])[Br:9].CC(C)(C)[Si](C)(C)[O:6][CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1]>CC[N+](CC)(CC)Cc1ccccc1.[Cl-].[Na+].[OH-]>[CH3:1][CH2:2][C@@H:3]1[C@H:4]([CH2:5][OH:6])[C:7]1([Br:8])[Br:9]",
+      "mapping_confidence": 0.16515731409948278,
+      "conditions": {
+        "raw_description": "CHBr3; BnEt3NCl; 50% aq NaOH; rt; 80%",
+        "GENERAL_REAGENTS": [
+          "CHBr3",
+          "BnEt3NCl",
+          "50% aq NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)Br",
+          "c1ccccc1C[N+](CC)(CC)CC.[Cl-]",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_3",
+      "reaction_smiles": "CC[C@@H]1[C@H](CO)C1(Br)Br.c1ccncc1.CS(C)=O.ClCCl.O=S(=O)=O.CCN(C(C)C)C(C)C>>CC[C@@H]1[C@H](C=O)C1(Br)Br",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@H:3]1[C@H:4]([CH2:5][OH:6])[C:7]1([Br:8])[Br:9]>CCN(C(C)C)C(C)C.CS(C)=O.ClCCl.O=S(=O)=O.c1ccncc1>[CH3:1][CH2:2][C@@H:3]1[C@H:4]([CH:5]=[O:6])[C:7]1([Br:8])[Br:9]",
+      "mapping_confidence": 0.5347216995859231,
+      "conditions": {
+        "raw_description": "SO3 Py; DMSO; i-Pr2EtN; CH2Cl2; -20 8 \u00b0C; 79%",
+        "GENERAL_REAGENTS": [
+          "SO3",
+          "i-Pr2EtN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)=O",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2",
+          "pyr"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20",
+          "8"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_4",
+      "reaction_smiles": "CC[C@@H]1[C@H](C=O)C1(Br)Br.[H-].[Na+].C1CCOC1.CCOP(=O)(CC(=O)OC)OCC.[H-].[Na+]>>CC[C@@H]1[C@H](/C=C/C(=O)OC)C1(Br)Br",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH2:6][C:7](=[O:8])[O:9][CH3:10].O=[CH:5][C@H:4]1[C@@H:3]([CH2:2][CH3:1])[C:11]1([Br:12])[Br:13]>C1CCOC1.[H-].[H-].[Na+].[Na+]>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C:7](=[O:8])[O:9][CH3:10])[C:11]1([Br:12])[Br:13]",
+      "mapping_confidence": 0.5626144195867945,
+      "conditions": {
+        "raw_description": "(EtO)2P(O)CH2CO2Me; NaH; THF; -78 8 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "(EtO)2P(O)CH2CO2Me",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOP(=O)(OCC)CC(=O)OC",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "8"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_5",
+      "reaction_smiles": "CC[C@@H]1[C@H](/C=C/C(=O)OC)C1(Br)Br.Cc1ccccc1.CCB(CC)CC.c1ccc([SnH](c2ccccc2)c2ccccc2)cc1>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/C(=O)OC",
+      "reaction_smiles_mapped": "Br[C:11]1([Br:12])[C@H:3]([CH2:2][CH3:1])[C@@H:4]1/[CH:5]=[CH:6]/[C:7](=[O:8])[O:9][CH3:10]>CCB(CC)CC.Cc1ccccc1.c1ccc([SnH](c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C:7](=[O:8])[O:9][CH3:10])[C@@H:11]1[Br:12]",
+      "mapping_confidence": 0.4926712278803945,
+      "conditions": {
+        "raw_description": "Et3B; Ph3SnH; PhMe; -78 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "Et3B",
+          "Ph3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(CC)(CC)CC",
+          "c1ccccc1[SnH](c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_6",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/C(=O)OC.CC(C)C[AlH]CC(C)C.ClCCl>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/CO",
+      "reaction_smiles_mapped": "CO[C:9](/[CH:8]=[CH:7]/[C@H:6]1[C@@H:3]([CH2:2][CH3:1])[C@H:4]1[Br:5])=[O:10]>CC(C)C[AlH]CC(C)C.ClCCl>[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[CH2:9][OH:10]",
+      "mapping_confidence": 0.6114755854288316,
+      "conditions": {
+        "raw_description": "DIBAL-H; CH2Cl2; -78 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_7",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/CO.O=[Mn]=O.ClCCl>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[CH2:9][OH:10]>ClCCl.O=[Mn]=O>[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[CH:9]=[O:10]",
+      "mapping_confidence": 0.9703336219562295,
+      "conditions": {
+        "raw_description": "MnO2; CH2Cl2; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_8",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=O.COC(=O)CCCCCCCC(=O)CP(=O)(OC)OC.C[Si](C)(C)[N-][Si](C)(C)C.[K+].C[Si](C)(C)[N-][Si](C)(C)C.[K+]>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=C/C(=O)CCCCCCCC(=O)OC",
+      "reaction_smiles_mapped": "O=[CH:9]/[CH:8]=[CH:7]/[C@H:6]1[C@@H:3]([CH2:2][CH3:1])[C@H:4]1[Br:5].COP(=O)(OC)[CH2:10][C:11](=[O:12])[CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][C:20](=[O:21])[O:22][CH3:23]>C[Si](C)(C)[N-][Si](C)(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].[K+]>[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[CH:9]=[CH:10]/[C:11](=[O:12])[CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][C:20](=[O:21])[O:22][CH3:23]",
+      "mapping_confidence": 0.8969427686658749,
+      "conditions": {
+        "raw_description": "KHMDS; -78 \u00b0C to rt; 92%",
+        "GENERAL_REAGENTS": [
+          "KHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_9",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=C/C(=O)CCCCCCCC(=O)OC.[Na+].[BH4-].CO.[BH4-].[Na+].Cl[Ce](Cl)Cl>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=C/C(O)CCCCCCCC(=O)OC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[CH:7]=[CH:8]/[C:9](=[O:10])[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[O:20][CH3:21])[C@@H:22]1[Br:23]>CO.Cl[Ce](Cl)Cl.[BH4-].[BH4-].[Na+].[Na+]>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[CH:7]=[CH:8]/[CH:9]([OH:10])[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[O:20][CH3:21])[C@@H:22]1[Br:23]",
+      "mapping_confidence": 0.9146444972209572,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3; MeOH; rt; 98%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_10",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/C=C/C(O)CCCCCCCC(=O)OC.CC1(C)OO1.ClCCl>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](O)CCCCCCCC(=O)OC",
+      "reaction_smiles_mapped": "CC1(C)O[O:8]1.[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[CH:7]=[CH:9]/[CH:10]([OH:11])[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][C:19](=[O:20])[O:21][CH3:22])[C@@H:23]1[Br:24]>ClCCl>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C@@H:7]2[O:8][C@H:9]2[C@H:10]([OH:11])[CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][C:19](=[O:20])[O:21][CH3:22])[C@@H:23]1[Br:24]",
+      "mapping_confidence": 0.734893467261689,
+      "conditions": {
+        "raw_description": "DMDO; CH2Cl2; 95% (1:1 syn:anti)",
+        "GENERAL_REAGENTS": [
+          "DMDO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(OO1)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95% (1:1 syn:anti)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_11",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](O)CCCCCCCC(=O)OC.CC(C)OC(=O)/N=N/C(=O)OC(C)C.O=C(O)c1ccc([N+](=O)[O-])cc1.O=C([O-])[O-].[K+].[K+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.CO>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@@H](O)CCCCCCCC(=O)OC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[C@@H:9]1[O:10][C@H:11]1[C@H:12]([OH:13])[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH2:20][C:21](=[O:22])[O:23][CH3:24]>CC(C)OC(=O)/N=N/C(=O)OC(C)C.CO.O=C(O)c1ccc([N+](=O)[O-])cc1.O=C([O-])[O-].[K+].[K+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][C@H:3]1[C@@H:4]([Br:5])[C@H:6]1/[CH:7]=[CH:8]/[C@@H:9]1[O:10][C@H:11]1[C@@H:12]([OH:13])[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][CH2:20][C:21](=[O:22])[O:23][CH3:24]",
+      "mapping_confidence": 0.9416611056015733,
+      "conditions": {
+        "raw_description": "1) Ph3P; DIAD; p-NO2PhCO2H; rt; 2) K2CO3; MeOH; 74%",
+        "GENERAL_REAGENTS": [
+          "DIAD",
+          "p-NO2PhCO2H",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C",
+          "C1=CC(=CC=C1[N+](=O)[O-])C(=O)O",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_12",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@@H](O)CCCCCCCC(=O)OC.CCN(CC)CC.CN(C)c1ccncc1.ClCCl.CS(=O)(=O)Cl>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](CCCCCCCC(=O)OC)OS(C)(=O)=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C@@H:7]2[O:8][C@H:9]2[C@H:10]([CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[O:20][CH3:21])[OH:22])[C@@H:27]1[Br:28].Cl[S:23]([CH3:24])(=[O:25])=[O:26]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C@@H:7]2[O:8][C@H:9]2[C@H:10]([CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[O:20][CH3:21])[O:22][S:23]([CH3:24])(=[O:25])=[O:26])[C@@H:27]1[Br:28]",
+      "mapping_confidence": 0.5059549423009135,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; DMAP; CH2Cl2; 56%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_13",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](CCCCCCCC(=O)OC)OS(C)(=O)=O.[Li+].[OH-].C1CCOC1.[Li+].[OH-]>>CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](CCCCCCCC(=O)O)OS(C)(=O)=O",
+      "reaction_smiles_mapped": "CO[C:18]([CH2:17][CH2:16][CH2:15][CH2:14][CH2:13][CH2:12][CH2:11][C@@H:10]([C@H:9]1[C@H:7](/[CH:6]=[CH:5]/[C@H:4]2[C@@H:3]([CH2:2][CH3:1])[C@H:26]2[Br:27])[O:8]1)[O:21][S:22]([CH3:23])(=[O:24])=[O:25])=[O:19]>C1CCOC1.[Li+].[Li+].[OH-].[OH-]>[CH3:1][CH2:2][C@@H:3]1[C@H:4](/[CH:5]=[CH:6]/[C@@H:7]2[O:8][C@H:9]2[C@H:10]([CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[OH:20])[O:21][S:22]([CH3:23])(=[O:24])=[O:25])[C@@H:26]1[Br:27]",
+      "mapping_confidence": 0.6394328461002134,
+      "conditions": {
+        "raw_description": "aq. LiOH; THF",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "bicyclobutane_fatty_acid_methyl_ester_2011_Sulikowski_14",
+      "reaction_smiles": "CC[C@H]1[C@@H](Br)[C@H]1/C=C/[C@@H]1O[C@H]1[C@H](CCCCCCCC(=O)O)OS(C)(=O)=O.[Li]C(C)(C)C.C=[N+]=[N-].C1CCOC1>>CCC1C2C(/C=C/[C@H]3O[C@@H]3CCCCCCCC(=O)OC)C12",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH2:21].CS(=O)(=O)O[C@H:10]([C@H:8]1[C@H:7](/[CH:6]=[CH:5]/[C@H:4]2[C@@H:3]([CH2:2][CH3:1])[C@H:22]2Br)[O:9]1)[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[OH:20]>C1CCOC1.[Li]C(C)(C)C>[CH3:1][CH2:2][CH:3]1[CH:4]2[CH:5](/[CH:6]=[CH:7]/[C@H:8]3[O:9][C@@H:10]3[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[O:20][CH3:21])[CH:22]12",
+      "mapping_confidence": 0.2789926804809842,
+      "conditions": {
+        "raw_description": "1) t-BuLi; THF; -78 to -20 8 \u00b0C; 2) CH2N2; 20%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-20",
+          "8"
+        ],
+        "YIELD": [
+          "20%"
+        ]
+      }
+    }
+  ]
+}

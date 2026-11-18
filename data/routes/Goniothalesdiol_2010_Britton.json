@@ -1,0 +1,150 @@
+{
+  "background": {
+    "name": "(+)-Goniothalesdiol",
+    "author": "Britton",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2010, 12, 1716",
+    "doi": "10.1021/ol100260z"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Goniothalesdiol_2010_Britton_1",
+      "reaction_smiles": "COC(=O)CCCC=O.C[C@H]1N[C@H](C(C)(C)C)N(C)C1=O.O=S(=O)([O-])OOS(=O)(=O)[O-].[Na+].[Na+].[Li+].[Cl-].O.CC#N.O=C([O-])C(F)(F)F.[Cu+]>>COC(=O)CC[C@@H](Cl)C=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][CH2:7][CH:9]=[O:10].[Cl-:8]>C[C@H]1N[C@H](C(C)(C)C)N(C)C1=O.O=S(=O)([O-])OOS(=O)(=O)[O-].[Na+].[Na+].[Li+].O.CC#N.O=C([O-])C(F)(F)F.[Cu+]>[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]([Cl:8])[CH:9]=[O:10]",
+      "mapping_confidence": 0.5211569510478846,
+      "conditions": {
+        "raw_description": "Cu(CO2CF3)2; Na2S2O8; LiCl; H2O; MeCN; 10 8 \u00b0C; 4 h; 88%",
+        "GENERAL_REAGENTS": [
+          "Cu(CO2CF3)",
+          "Na2S2O8",
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=C(C(F)(F)F)[O-].[Cu+]",
+          "[O-]S(=O)(=O)OOS(=O)(=O)[O-].[Na+].[Na+]",
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "10",
+          "8"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniothalesdiol_2010_Britton_2",
+      "reaction_smiles": "COC(=O)CC[C@@H](Cl)C=O.I/C=C\\c1ccccc1.[Li]CCCC.C1CCOC1>>COC(=O)CC[C@@H](Cl)[C@@H](O)/C=C\\c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]([Cl:8])[CH:9]=[O:10].I/[CH:11]=[CH:12]\\[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>[Li]CCCC.C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]([Cl:8])[C@@H:9]([OH:10])/[CH:11]=[CH:12]\\[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.9299265398563963,
+      "conditions": {
+        "raw_description": "n-BuLi; THF; -78 8 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "8"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniothalesdiol_2010_Britton_3",
+      "reaction_smiles": "COC(=O)CC[C@@H](Cl)[C@@H](O)/C=C\\c1ccccc1.C[N+]1([O-])CCOCC1.CC(C)=O.O.O=[Os](=O)(=O)=O>>COC(=O)CC[C@@H](Cl)[C@@H](O)[C@H](O)[C@H](O)c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]([Cl:8])[C@@H:9]([OH:10])/[CH:11]=[CH:13]\\[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1.C[N+]1([O-:12])CCOCC1.[OH2:14]>CC(C)=O.O=[Os](=O)(=O)=O>[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]([Cl:8])[C@@H:9]([OH:10])[C@H:11]([OH:12])[C@H:13]([OH:14])[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4 (1 mol%); NMO; acetone; H2O; 74%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniothalesdiol_2010_Britton_4",
+      "reaction_smiles": "COC(=O)CC[C@@H](Cl)[C@@H](O)[C@H](O)[C@H](O)c1ccccc1.CO>>COC(=O)CC[C@@H]1O[C@H](c2ccccc2)[C@@H](O)[C@@H]1O",
+      "reaction_smiles_mapped": "Cl[C@H:7]([CH2:6][CH2:5][C:3]([O:2][CH3:1])=[O:4])[C@H:18]([C@@H:16]([C@H:9]([OH:8])[c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)[OH:17])[OH:19]>CO>[CH3:1][O:2][C:3](=[O:4])[CH2:5][CH2:6][C@@H:7]1[O:8][C@H:9]([c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[C@@H:16]([OH:17])[C@@H:18]1[OH:19]",
+      "mapping_confidence": 0.9173775409668231,
+      "conditions": {
+        "raw_description": "\u03bc W; MeOH; 120\u00b0C; 1 h; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120",
+          "8"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    }
+  ]
+}

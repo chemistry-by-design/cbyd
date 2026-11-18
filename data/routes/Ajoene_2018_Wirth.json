@@ -1,0 +1,199 @@
+{
+  "background": {
+    "name": "Ajoene",
+    "author": "Wirth",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2018, 57, 12290 \u201312293",
+    "doi": "10.1002/anie.201808605"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Ajoene_2018_Wirth_1",
+      "reaction_smiles": "OCCCBr.NC(N)=S>>NC(=[NH2+])SCCCO",
+      "reaction_smiles_mapped": "[NH2:1][C:2]([NH2:3])=[S:4].Br[CH2:5][CH2:6][CH2:7][OH:8]>>[NH2:1][C:2](=[NH2+:3])[S:4][CH2:5][CH2:6][CH2:7][OH:8]",
+      "mapping_confidence": 0.8478614288568795,
+      "conditions": {
+        "raw_description": "thiourea; 80%",
+        "GENERAL_REAGENTS": [
+          "thiourea"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=S)(N)N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_2",
+      "reaction_smiles": "NC(=[NH2+])SCCCO.O[K].C#CCBr>>C#CCSCCCO",
+      "reaction_smiles_mapped": "Br[CH2:3][C:2]#[CH:1].NC(=[NH2+])[S:4][CH2:5][CH2:6][CH2:7][OH:8]>O[K]>[CH:1]#[C:2][CH2:3][S:4][CH2:5][CH2:6][CH2:7][OH:8]",
+      "mapping_confidence": 0.9802570262997605,
+      "conditions": {
+        "raw_description": "56%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_3",
+      "reaction_smiles": "C#CCSCCCO.N#C[Se]c1ccccc1[N+](=O)[O-].CCCCP(CCCC)CCCC>>C#CCSCCC[Se]c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "O[CH2:7][CH2:6][CH2:5][S:4][CH2:3][C:2]#[CH:1].N#C[Se:8][c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[N+:15](=[O:16])[O-:17]>CCCCP(CCCC)CCCC>[CH:1]#[C:2][CH2:3][S:4][CH2:5][CH2:6][CH2:7][Se:8][c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[N+:15](=[O:16])[O-:17]",
+      "mapping_confidence": 0.9457841086225578,
+      "conditions": {
+        "raw_description": "65%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_4",
+      "reaction_smiles": "C#CCSCCC[Se]c1ccccc1[N+](=O)[O-].CC(=O)S.CC(=O)C#N.Cc1ccccc1>>CC(=O)S/C=C/CSCCC[Se]c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "[CH:5]#[C:6][CH2:7][S:8][CH2:9][CH2:10][CH2:11][Se:12][c:13]1[cH:14][cH:15][cH:16][cH:17][c:18]1[N+:19](=[O:20])[O-:21].[CH3:1][C:2](=[O:3])[SH:4]>CC(=O)C#N.Cc1ccccc1>[CH3:1][C:2](=[O:3])[S:4]/[CH:5]=[CH:6]/[CH2:7][S:8][CH2:9][CH2:10][CH2:11][Se:12][c:13]1[cH:14][cH:15][cH:16][cH:17][c:18]1[N+:19](=[O:20])[O-:21]",
+      "mapping_confidence": 0.959413742200142,
+      "conditions": {
+        "raw_description": "50%; ACCN; Toluene; 85 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "ACCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_5",
+      "reaction_smiles": "CC(=O)S/C=C/CSCCC[Se]c1ccccc1[N+](=O)[O-].[K+].[OH-].CO>>O=[N+]([O-])c1ccccc1[Se]CCCSC/C=C/S",
+      "reaction_smiles_mapped": "CC(=O)[S:18]/[CH:17]=[CH:16]/[CH2:15][S:14][CH2:13][CH2:12][CH2:11][Se:10][c:9]1[c:4]([N+:2](=[O:1])[O-:3])[cH:5][cH:6][cH:7][cH:8]1>CO.[K+].[OH-]>[O:1]=[N+:2]([O-:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[Se:10][CH2:11][CH2:12][CH2:13][S:14][CH2:15]/[CH:16]=[CH:17]/[SH:18]",
+      "mapping_confidence": 0.9250035612483355,
+      "conditions": {
+        "raw_description": "KOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_6",
+      "reaction_smiles": "O=[N+]([O-])c1ccccc1[Se]CCCSC/C=C/S.C=CCSS(=O)(=O)c1ccc(C)cc1.ClCCl>>C=CCSS/C=C/CSCCC[Se]c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[S:4][CH2:3][CH:2]=[CH2:1])cc1.[SH:5]/[CH:6]=[CH:7]/[CH2:8][S:9][CH2:10][CH2:11][CH2:12][Se:13][c:14]1[cH:15][cH:16][cH:17][cH:18][c:19]1[N+:20](=[O:21])[O-:22]>ClCCl>[CH2:1]=[CH:2][CH2:3][S:4][S:5]/[CH:6]=[CH:7]/[CH2:8][S:9][CH2:10][CH2:11][CH2:12][Se:13][c:14]1[cH:15][cH:16][cH:17][cH:18][c:19]1[N+:20](=[O:21])[O-:22]",
+      "mapping_confidence": 0.9274821610430843,
+      "conditions": {
+        "raw_description": "73% (2 steps); DCM; -78 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ajoene_2018_Wirth_7",
+      "reaction_smiles": "C=CCSS/C=C/CSCCC[Se]c1ccccc1[N+](=O)[O-].OO.C1CCOC1>>C=CCSS/C=C/CS(=O)CC=C",
+      "reaction_smiles_mapped": "O=[N+]([O-])c1ccccc1[Se][CH2:1][CH2:2][CH2:3][S:4][CH2:8]/[CH:7]=[CH:6]/[S:5][S:9][CH2:11][CH:12]=[CH2:13].O[OH:10]>C1CCOC1>[CH2:1]=[CH:2][CH2:3][S:4][S:5]/[CH:6]=[CH:7]/[CH2:8][S:9](=[O:10])[CH2:11][CH:12]=[CH2:13]",
+      "mapping_confidence": 0.385980769099717,
+      "conditions": {
+        "raw_description": "H2O2; THF; 0 \u00b0C; 27%",
+        "GENERAL_REAGENTS": [
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "27%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "background": {
+    "name": "(+/-)-Cephalotaxine",
+    "author": "Stoltz",
+    "year": 2007,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2007, 72, 7352",
+    "doi": "10.1021/jo0710883"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_1",
+      "reaction_smiles": "C=C1CCCC1O.CCOC(C)(OCC)OCC.CCC(=O)O>>CCOC(=O)CCC1=CCCC1",
+      "reaction_smiles_mapped": "C=[C:8]1[CH:9](O)[CH2:10][CH2:11][CH2:12]1.[OH:3][C:4](=[O:5])[CH2:6][CH3:7].CCOC(C)(OCC)O[CH2:2][CH3:1]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][C:8]1=[CH:9][CH2:10][CH2:11][CH2:12]1",
+      "mapping_confidence": 0.23854733583802784,
+      "conditions": {
+        "raw_description": "MeC(OEt)3; CH3CH2CO2H; 145 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "MeC(OEt)3",
+          "CH3CH2CO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(C)(OCC)OCC",
+          "CCC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "145"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_2",
+      "reaction_smiles": "CCOC(=O)CCC1=CCCC1.[AlH4-].[Li+].CCOCC>>OCCCC1=CCCC1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[CH2:3][CH2:4][C:5]1=[CH:6][CH2:7][CH2:8][CH2:9]1>[AlH4-].[Li+].CCOCC>[OH:1][CH2:2][CH2:3][CH2:4][C:5]1=[CH:6][CH2:7][CH2:8][CH2:9]1",
+      "mapping_confidence": 0.8769585098770069,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_3",
+      "reaction_smiles": "OCCCC1=CCCC1.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>Cc1ccc(S(=O)(=O)OCCCC2=CCCC2)cc1",
+      "reaction_smiles_mapped": "Cl[S:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:19][cH:18]1)(=[O:7])=[O:8].[OH:9][CH2:10][CH2:11][CH2:12][C:13]1=[CH:14][CH2:15][CH2:16][CH2:17]1>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][CH2:10][CH2:11][CH2:12][C:13]2=[CH:14][CH2:15][CH2:16][CH2:17]2)[cH:18][cH:19]1",
+      "mapping_confidence": 0.5169943055134528,
+      "conditions": {
+        "raw_description": "TsCl; Et3N; DMAP; DCM",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_4",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)OCCCC2=CCCC2)cc1.Cc1ccc(S(N)(=O)=O)cc1.O=C([O-])[O-].[K+].[K+].CC#N>>Cc1ccc(S(=O)(=O)NCCCC2=CCCC2)cc1",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:10][CH2:11][CH2:12][C:13]2=[CH:14][CH2:15][CH2:16][CH2:17]2)cc1.[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH2:9])[cH:18][cH:19]1>O=C([O-])[O-].[K+].[K+].CC#N>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH:9][CH2:10][CH2:11][CH2:12][C:13]2=[CH:14][CH2:15][CH2:16][CH2:17]2)[cH:18][cH:19]1",
+      "mapping_confidence": 0.47385318282493794,
+      "conditions": {
+        "raw_description": "TsNH2; K2CO3; MeCN; 90 \u00b0C; 69% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "TsNH2",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)N",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "69% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_5",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)NCCCC2=CCCC2)cc1.O=O.O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2].c1ccncc1.Cc1ccccc1>>Cc1ccc(S(=O)(=O)N2CCCC23C=CCC3)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[NH:9][CH2:10][CH2:11][CH2:12][C:13]2=[CH:14][CH2:15][CH2:16][CH2:17]2)[cH:18][cH:19]1>Cc1ccccc1.O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.O=O.[Pd+2].c1ccncc1>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[N:9]2[CH2:10][CH2:11][CH2:12][C:13]23[CH:14]=[CH:15][CH2:16][CH2:17]3)[cH:18][cH:19]1",
+      "mapping_confidence": 0.4706330963523421,
+      "conditions": {
+        "raw_description": "Pd(TFA)2 (10 mol%); Pyridine (40 mol%); O2 (1 atm); MS 3A; Toluene; 80\u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "Pd(TFA)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(=O)(C(F)(F)F)[O-].C(=O)(C(F)(F)F)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Pyridine",
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "3 \u00c5 MS",
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_6",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)N2CCCC23C=CCC3)cc1.[AlH4-].[Li+].C1CCOC1>>C1=CC2(CC1)CCCN2",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[N:9]2[C:3]3([CH:2]=[CH:1][CH2:5][CH2:4]3)[CH2:6][CH2:7][CH2:8]2)cc1>[AlH4-].[Li+].C1CCOC1>[CH:1]1=[CH:2][C:3]2([CH2:4][CH2:5]1)[CH2:6][CH2:7][CH2:8][NH:9]2",
+      "mapping_confidence": 0.9710600905008089,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 65 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_7",
+      "reaction_smiles": "C1=CC2(CC1)CCCN2.CC1(C)OC(O)[C@@H](c2cc3c(cc2Br)OCO3)O1.CC(=O)O[BH-](OC(C)=O)OC(C)=O.[Na+].ClCCCl>>O[C@@H](CN1CCC[C@@]12C=CCC2)c1cc2c(cc1Br)OCO2",
+      "reaction_smiles_mapped": "[NH:4]1[CH2:5][CH2:6][CH2:7][C:8]12[CH:9]=[CH:10][CH2:11][CH2:12]2.CC1(C)O[CH:3](O)[C@@H:2]([c:13]2[cH:14][c:15]3[c:16]([cH:17][c:18]2[Br:19])[O:20][CH2:21][O:22]3)[O:1]1>CC(=O)O[BH-](OC(C)=O)OC(C)=O.[Na+].ClCCCl>[OH:1][C@@H:2]([CH2:3][N:4]1[CH2:5][CH2:6][CH2:7][C@@:8]12[CH:9]=[CH:10][CH2:11][CH2:12]2)[c:13]1[cH:14][c:15]2[c:16]([cH:17][c:18]1[Br:19])[O:20][CH2:21][O:22]2",
+      "mapping_confidence": 0.9285436986555952,
+      "conditions": {
+        "raw_description": "NaBH(OAc)3; DCE; RT; 92%",
+        "GENERAL_REAGENTS": [
+          "NaBH(OAc)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH-](OC(=O)C)(OC(=O)C)OC(=O)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_8",
+      "reaction_smiles": "O[C@@H](CN1CCC[C@@]12C=CCC2)c1cc2c(cc1Br)OCO2.CC(=O)O[Pd]1(C)(C)Cc2ccccc2[PH]1(c1ccc(C)cc1)c1ccc(C)cc1.CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC.CC#N.CN(C)C=O.O>>O[C@H]1CN2CCC[C@]23CC=C[C@@H]3c2cc3c(cc21)OCO3",
+      "reaction_smiles_mapped": "Br[c:18]1[c:13]([C@@H:2]([OH:1])[CH2:3][N:4]2[CH2:5][CH2:6][CH2:7][C@@:8]23[CH:9]=[CH:10][CH2:11][CH2:12]3)[cH:14][c:15]2[c:16]([cH:17]1)[O:19][CH2:20][O:21]2>CC(=O)O[Pd]1(C)(C)Cc2ccccc2[PH]1(c1ccc(C)cc1)c1ccc(C)cc1.CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC.CC#N.CN(C)C=O.O>[OH:1][C@H:2]1[CH2:3][N:4]2[CH2:5][CH2:6][CH2:7][C@:8]23[CH2:9][CH:10]=[CH:11][C@@H:12]3[c:13]2[cH:14][c:15]3[c:16]([cH:17][c:18]21)[O:19][CH2:20][O:21]3",
+      "mapping_confidence": 0.5495004080770333,
+      "conditions": {
+        "raw_description": "n-Bu4NOAc; MeCN/DMF/H2O; 120 \u00b0C; 67%",
+        "GENERAL_REAGENTS": [
+          "n-Bu4NOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.CC(=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DMF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "CN(C)C=O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_9",
+      "reaction_smiles": "O[C@H]1CN2CCC[C@]23CC=C[C@@H]3c2cc3c(cc21)OCO3.CC[SiH](CC)CC.O=C(O)C(F)(F)F.ClC(Cl)Cl>>C1=C[C@@H]2c3cc4c(cc3CCN3CCC[C@@]23C1)OCO4",
+      "reaction_smiles_mapped": "O[C@@H:10]1[c:9]2[c:4]([cH:5][c:6]3[c:7]([cH:8]2)[O:18][CH2:19][O:20]3)[C@H:3]2[CH:2]=[CH:1][CH2:17][C@@:16]23[N:12]([CH2:11]1)[CH2:13][CH2:14][CH2:15]3>CC[SiH](CC)CC.O=C(O)C(F)(F)F.ClC(Cl)Cl>[CH:1]1=[CH:2][C@@H:3]2[c:4]3[cH:5][c:6]4[c:7]([cH:8][c:9]3[CH2:10][CH2:11][N:12]3[CH2:13][CH2:14][CH2:15][C@@:16]23[CH2:17]1)[O:18][CH2:19][O:20]4",
+      "mapping_confidence": 0.946301822980696,
+      "conditions": {
+        "raw_description": "Et3SiH; TFA; Chloroform; 50 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "Et3SiH",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Chloroform"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_10",
+      "reaction_smiles": "C1=C[C@@H]2c3cc4c(cc3CCN3CCC[C@@]23C1)OCO4.O=[Os](=O)(=O)=O.C[N+](C)(C)[O-].O.C1CCOC1.CC(=O)O>>O[C@@H]1[C@H](O)C[C@@]23CCCN2CCc2cc4c(cc2[C@@H]13)OCO4",
+      "reaction_smiles_mapped": "[CH:2]1=[CH:3][CH2:5][C@@:6]23[CH2:7][CH2:8][CH2:9][N:10]2[CH2:11][CH2:12][c:13]2[cH:14][c:16]4[c:15]([cH:17][c:18]2[C@@H:19]13)[O:22][CH2:21][O:20]4.C[N+](C)(C)[O-:1].[OH2:4]>C1CCOC1.CC(=O)O.O=[Os](=O)(=O)=O>[OH:1][C@@H:2]1[C@H:3]([OH:4])[CH2:5][C@@:6]23[CH2:7][CH2:8][CH2:9][N:10]2[CH2:11][CH2:12][c:13]2[cH:14][c:15]4[c:16]([cH:17][c:18]2[C@@H:19]13)[O:20][CH2:21][O:22]4",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4 (5 mol%); Me3NO; AcOH/H2O/THF; 76%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Me3NO",
+          "H2O",
+          "THF",
+          "AcOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](C)(C)[O-]",
+          "O",
+          "C1CCOC1",
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_11",
+      "reaction_smiles": "O[C@@H]1[C@H](O)C[C@@]23CCCN2CCc2cc4c(cc2[C@@H]13)OCO4.CCN(CC)CC.CS(C)=O.O=C(OC(=O)C(F)(F)F)C(F)(F)F>>O=C1C[C@@]23CCCN2CCc2cc4c(cc2C3=C1O)OCO4",
+      "reaction_smiles_mapped": "[OH:1][C@@H:2]1[CH2:3][C@@:4]23[CH2:5][CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][c:11]2[cH:12][c:13]4[c:14]([cH:15][c:16]2[C@H:17]3[C@@H:18]1[OH:19])[O:20][CH2:21][O:22]4>CCN(CC)CC.CS(C)=O>[O:1]=[C:2]1[CH2:3][C@@:4]23[CH2:5][CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][c:11]2[cH:12][c:13]4[c:14]([cH:15][c:16]2[C:17]3=[C:18]1[OH:19])[O:20][CH2:21][O:22]4",
+      "mapping_confidence": 0.9672485846436732,
+      "conditions": {
+        "raw_description": "DMSO; TFAA; Et3N; 51%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_12",
+      "reaction_smiles": "O=C1C[C@@]23CCCN2CCc2cc4c(cc2C3=C1O)OCO4.COC(C)(C)OC.Cc1ccc(S(=O)(=O)O)cc1.C1COCCO1>>COC1=C[C@@]23CCCN2CCc2cc4c(cc2[C@H]3C1=O)OCO4",
+      "reaction_smiles_mapped": "COC(C)(C)O[CH3:1].[O:2]=[C:3]1[CH2:4][C@@:5]23[CH2:6][CH2:7][CH2:8][N:9]2[CH2:10][CH2:11][c:12]2[cH:13][c:14]4[c:15]([cH:16][c:17]2[C:18]3=[C:19]1[OH:20])[O:21][CH2:22][O:23]4>Cc1ccc(S(=O)(=O)O)cc1.C1COCCO1>[CH3:1][O:2][C:3]1=[CH:4][C@@:5]23[CH2:6][CH2:7][CH2:8][N:9]2[CH2:10][CH2:11][c:12]2[cH:13][c:14]4[c:15]([cH:16][c:17]2[C@H:18]3[C:19]1=[O:20])[O:21][CH2:22][O:23]4",
+      "mapping_confidence": 0.37335621109572464,
+      "conditions": {
+        "raw_description": "Me2C(OMe)2; TsOH; Dioxane; reflux; 76%",
+        "GENERAL_REAGENTS": [
+          "Me2C(OMe)2",
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(OC)OC",
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_13",
+      "reaction_smiles": "COC1=C[C@@]23CCCN2CCc2cc4c(cc2[C@H]3C1=O)OCO4.[BH4-].[Na+].CO>>COC1=C[C@@]23CCCN2CCc2cc4c(cc2[C@H]3[C@H]1O)OCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[CH:4][C@@:5]23[CH2:6][CH2:7][CH2:8][N:9]2[CH2:10][CH2:11][c:12]2[cH:13][c:14]4[c:15]([cH:16][c:17]2[C@H:18]3[C:19]1=[O:20])[O:21][CH2:22][O:23]4>[BH4-].[Na+].CO>[CH3:1][O:2][C:3]1=[CH:4][C@@:5]23[CH2:6][CH2:7][CH2:8][N:9]2[CH2:10][CH2:11][c:12]2[cH:13][c:14]4[c:15]([cH:16][c:17]2[C@H:18]3[C@H:19]1[OH:20])[O:21][CH2:22][O:23]4",
+      "mapping_confidence": 0.9906403624675698,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 95%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_14",
+      "reaction_smiles": "O=C(O)C(O)c1ccc2c(c1)OCO2.CN[C@@H](C)[C@H](O)c1ccccc1.CCO.O>>C[C@@H]([C@H](O)c1ccccc1)N(C)C(=O)[C@H](O)c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([C@H:3]([OH:4])[c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[NH:11][CH3:12].O[C:13](=[O:14])[CH:15]([OH:16])[c:17]1[cH:18][cH:19][c:20]2[c:21]([cH:22]1)[O:23][CH2:24][O:25]2>CCO.O>[CH3:1][C@@H:2]([C@H:3]([OH:4])[c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[N:11]([CH3:12])[C:13](=[O:14])[C@H:15]([OH:16])[c:17]1[cH:18][cH:19][c:20]2[c:21]([cH:22]1)[O:23][CH2:24][O:25]2",
+      "mapping_confidence": 0.7503591015148564,
+      "conditions": {
+        "raw_description": "EtOH/H2O",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_15",
+      "reaction_smiles": "C[C@@H]([C@H](O)c1ccccc1)N(C)C(=O)[C@H](O)c1ccc2c(c1)OCO2.O=S(=O)(O)O>>O=C(O)[C@H](O)c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "C[C@@H]([C@H](O)c1ccccc1)N(C)[C:2](=[O:1])[C@H:4]([OH:5])[c:6]1[cH:7][cH:8][c:9]2[c:10]([cH:11]1)[O:12][CH2:13][O:14]2>O=S(=O)(O)O>[O:1]=[C:2]([OH:3])[C@H:4]([OH:5])[c:6]1[cH:7][cH:8][c:9]2[c:10]([cH:11]1)[O:12][CH2:13][O:14]2",
+      "mapping_confidence": 0.6119130250755236,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_16",
+      "reaction_smiles": "O=C(O)[C@H](O)c1ccc2c(c1)OCO2.O=S(=O)(O)O.CC(C)=O>>CC1(C)OC(=O)[C@@H](c2ccc3c(c2)OCO3)O1",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:1])[CH3:3].[OH:4][C:5](=[O:6])[C@@H:7]([c:8]1[cH:9][cH:10][c:11]2[c:12]([cH:13]1)[O:14][CH2:15][O:16]2)[OH:17]>O=S(=O)(O)O>[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[C@@H:7]([c:8]2[cH:9][cH:10][c:11]3[c:12]([cH:13]2)[O:14][CH2:15][O:16]3)[O:17]1",
+      "mapping_confidence": 0.3709976155849738,
+      "conditions": {
+        "raw_description": "H2SO4; Acetone; -20 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_17",
+      "reaction_smiles": "CC1(C)OC(=O)[C@@H](c2ccc3c(c2)OCO3)O1.O=C1CCC(=O)N1Br.CC#N>>CC1(C)OC(=O)[C@@H](c2cc3c(cc2Br)OCO3)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[C@@H:7]([c:8]2[cH:9][c:10]3[c:11]([cH:12][cH:13]2)[O:15][CH2:16][O:17]3)[O:18]1.O=C1CCC(=O)N1[Br:14]>CC#N>[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[C@@H:7]([c:8]2[cH:9][c:10]3[c:11]([cH:12][c:13]2[Br:14])[O:15][CH2:16][O:17]3)[O:18]1",
+      "mapping_confidence": 0.7925081181303619,
+      "conditions": {
+        "raw_description": "NBS; MeCN; RT; 99%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cephalotaxine_2007_Stoltz_18",
+      "reaction_smiles": "CC1(C)OC(=O)[C@@H](c2cc3c(cc2Br)OCO3)O1.CC(C)C[AlH]CC(C)C.Cc1ccccc1>>CC1(C)OC(O)[C@@H](c2cc3c(cc2Br)OCO3)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[C@@H:7]([c:8]2[cH:9][c:10]3[c:11]([cH:12][c:13]2[Br:14])[O:15][CH2:16][O:17]3)[O:18]1>CC(C)C[AlH]CC(C)C.Cc1ccccc1>[CH3:1][C:2]1([CH3:3])[O:4][CH:5]([OH:6])[C@@H:7]([c:8]2[cH:9][c:10]3[c:11]([cH:12][c:13]2[Br:14])[O:15][CH2:16][O:17]3)[O:18]1",
+      "mapping_confidence": 0.914814045936454,
+      "conditions": {
+        "raw_description": "DIBAL; Toluene; -78 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    }
+  ]
+}

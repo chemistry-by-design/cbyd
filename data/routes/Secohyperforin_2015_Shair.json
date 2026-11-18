@@ -1,0 +1,573 @@
+{
+  "background": {
+    "name": "(+)-Secohyperforin",
+    "author": "Shair",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2015, 17, 3398",
+    "doi": "10.1021/acs.orglett.5b01121"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_1",
+      "reaction_smiles": "COc1cccc(OC)c1.[Na].N.CCOCC.CCO>>COC1=CCC=C(OC)C1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([O:8][CH3:9])[cH:10]1>[Na].N.CCOCC.CCO>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH:6]=[C:7]([O:8][CH3:9])[CH2:10]1",
+      "mapping_confidence": 0.545802423313491,
+      "conditions": {
+        "raw_description": "Na; NH3; Et2O; EtOH",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_2",
+      "reaction_smiles": "COC1=CCC=C(OC)C1.CC(C)=CCBr.[Li]C(C)(C)C.[Ba+2].[I-].[I-].C1CCOC1>>COC1=CCC=C(OC)C1CC=C(C)C",
+      "reaction_smiles_mapped": "Br[CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15].[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH:6]=[C:7]([O:8][CH3:9])[CH2:10]1>[Li]C(C)(C)C.[Ba+2].[I-].[I-].C1CCOC1>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH:6]=[C:7]([O:8][CH3:9])[CH:10]1[CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.7540693656893347,
+      "conditions": {
+        "raw_description": "t-BuLi; BaI2; THF; -78 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "BaI2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "[Ba+2].[I-].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_3",
+      "reaction_smiles": "CC(C)=CCO.CC(C)(C)OO.CS(=O)(=O)Cl.CN(C)c1ccncc1.CCOC(=O)[C@H](O)[C@@H](O)C(=O)OCC.COP(OC)OC.ClCCl.CCN(CC)CC>>CC1(C)O[C@H]1COS(C)(=O)=O",
+      "reaction_smiles_mapped": "C[C:2]([CH3:1])([CH3:3])[O:4]O.CC(C)=[CH:5][CH2:6][OH:7].Cl[S:8]([CH3:9])(=[O:10])=[O:11]>CN(C)c1ccncc1.CCOC(=O)[C@H](O)[C@@H](O)C(=O)OCC.COP(OC)OC.ClCCl.CCN(CC)CC>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]1[CH2:6][O:7][S:8]([CH3:9])(=[O:10])=[O:11]",
+      "mapping_confidence": 0.029500282189510205,
+      "conditions": {
+        "raw_description": "1) Ti(Oi-Pr)4; L-(+)-DET; TBHP; 4\u00c5 MS; DCM; -25 \u00b0C; 2) P(OMe)3; -30 \u00b0C; MsCl; DMAP; NEt3; -30 to -10 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TBHP",
+          "MsCl",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO",
+          "CS(=O)(=O)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "L-(+)-DET",
+          "P(OMe)3"
+        ],
+        "LIGANDS_SMILES": [
+          "CCOC(=O)[C@H](O)[C@@H](O)C(=O)OCC",
+          "COP(OC)OC"
+        ],
+        "SOLVENTS": [
+          "DCM",
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [
+          "4\u00c5 MS",
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-25",
+          "-30",
+          "-30",
+          "-10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_4",
+      "reaction_smiles": "CC1(C)O[C@H]1COS(C)(=O)=O.[Br-].[Li+].CC(C)=O>>CC1(C)O[C@H]1CBr",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:6][C@H:5]1[C:2]([CH3:1])([CH3:3])[O:4]1.[Br-:7]>[Li+].CC(C)=O>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]1[CH2:6][Br:7]",
+      "mapping_confidence": 0.9282239817419168,
+      "conditions": {
+        "raw_description": "LiBr; Acetone; reflux; 51% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "51% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_5",
+      "reaction_smiles": "CC1(C)O[C@H]1CBr.COC1=CCC=C(OC)C1CC=C(C)C.[Li]C(C)CC.C1CCOC1.C1CCCCC1>>COC1=CCC=C(OC)C1(CC=C(C)C)C[C@@H]1OC1(C)C",
+      "reaction_smiles_mapped": "Br[CH2:16][C@@H:17]1[O:18][C:19]1([CH3:20])[CH3:21].[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH:6]=[C:7]([O:8][CH3:9])[CH:10]1[CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15]>[Li]C(C)CC.C1CCOC1.C1CCCCC1>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH:6]=[C:7]([O:8][CH3:9])[C:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@@H:17]1[O:18][C:19]1([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.5630577345260485,
+      "conditions": {
+        "raw_description": "1) s-BuLi; c-Hex; THF; -78 to -30 \u00b0C; 2) -78 to -20 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "s-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC(C)[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "c-Hex"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C1CCCCC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-30",
+          "-78",
+          "-20"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_6",
+      "reaction_smiles": "COC1=CCC=C(OC)C1(CC=C(C)C)C[C@@H]1OC1(C)C.CC(C)[Si](OS(=O)(=O)C(F)(F)F)(C(C)C)C(C)C.ClCCl.Cc1cccc(C)n1>>COC1=CC[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O[Si](C(C)C)(C(C)C)C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])C(F)(F)F.C[O:8][C:7]1=[CH:6][CH2:5][CH:4]=[C:3]([O:2][CH3:1])[C:9]1([CH2:10][CH:11]=[C:12]([CH3:13])[CH3:14])[CH2:15][C@@H:16]1[O:17][C:28]1([CH3:29])[CH3:30]>ClCCl.Cc1cccc(C)n1>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][C@H:6]2[C:7](=[O:8])[C@:9]1([CH2:10][CH:11]=[C:12]([CH3:13])[CH3:14])[CH2:15][C@H:16]([O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])[C:28]2([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.07779069031266055,
+      "conditions": {
+        "raw_description": "TIPSOTf; 2,6-lutidine; DCM; -78 \u00b0C to RT; 95%",
+        "GENERAL_REAGENTS": [
+          "TIPSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Si](C(C)C)(C(C)C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "2,6-lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "Cc1cccc(C)n1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_7",
+      "reaction_smiles": "COC1=CC[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O[Si](C(C)C)(C(C)C)C(C)C)C2(C)C.CC(C)(C)OO.[K+].[OH-].[C].[OH-].[OH-].[Pd+2].CCCCCCCCC.CCOC(C)=O>>COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O[Si](C(C)C)(C(C)C)C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:6].[CH3:1][O:2][C:3]1=[CH:4][CH2:5][C@H:7]2[C:8](=[O:9])[C@:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@H:17]([O:18][Si:19]([CH:20]([CH3:21])[CH3:22])([CH:23]([CH3:24])[CH3:25])[CH:26]([CH3:27])[CH3:28])[C:29]2([CH3:30])[CH3:31]>[K+].[OH-].[OH-].[OH-].[C].[Pd+2].CCCCCCCCC.CCOC(C)=O>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C@H:7]2[C:8](=[O:9])[C@:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@H:17]([O:18][Si:19]([CH:20]([CH3:21])[CH3:22])([CH:23]([CH3:24])[CH3:25])[CH:26]([CH3:27])[CH3:28])[C:29]2([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.034577799037018526,
+      "conditions": {
+        "raw_description": "Pd(OH)2/C; TBHP; KOH; nonane; EtOAc -40 to 5 \u00b0C; 25%",
+        "GENERAL_REAGENTS": [
+          "TBHP",
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO",
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "nonane",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCCCCCC",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40",
+          "5"
+        ],
+        "YIELD": [
+          "25%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_8",
+      "reaction_smiles": "COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O[Si](C(C)C)(C(C)C)C(C)C)C2(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O)C2(C)C",
+      "reaction_smiles_mapped": "CC(C)[Si](C(C)C)(C(C)C)[O:18][C@H:17]1[CH2:16][C@:10]2([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[C:3]([O:2][CH3:1])=[CH:4][C:5](=[O:6])[C@@H:7]([C:8]2=[O:9])[C:19]1([CH3:20])[CH3:21]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C@H:7]2[C:8](=[O:9])[C@:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@H:17]([OH:18])[C:19]2([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.6612415305873605,
+      "conditions": {
+        "raw_description": "TBAF; THF; 78%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_9",
+      "reaction_smiles": "COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](O)C2(C)C.Fc1c(F)c(F)c(OC(=S)Cl)c(F)c1F.O=C1CCC(=O)N1O.Cc1ccccc1.c1ccncc1>>COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](OC(=S)Oc1c(F)c(F)c(F)c(F)c1F)C2(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C@H:7]2[C:8](=[O:9])[C@:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@H:17]([OH:18])[C:33]2([CH3:34])[CH3:35].Cl[C:19](=[S:20])[O:21][c:22]1[c:23]([F:24])[c:25]([F:26])[c:27]([F:28])[c:29]([F:30])[c:31]1[F:32]>O=C1CCC(=O)N1O.Cc1ccccc1.c1ccncc1>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C@H:7]2[C:8](=[O:9])[C@:10]1([CH2:11][CH:12]=[C:13]([CH3:14])[CH3:15])[CH2:16][C@H:17]([O:18][C:19](=[S:20])[O:21][c:22]1[c:23]([F:24])[c:25]([F:26])[c:27]([F:28])[c:29]([F:30])[c:31]1[F:32])[C:33]2([CH3:34])[CH3:35]",
+      "mapping_confidence": 0.4529162345071713,
+      "conditions": {
+        "raw_description": "NHS; pyridine; Toluene; 80 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "NHS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_10",
+      "reaction_smiles": "COC1=CC(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](OC(=S)Oc1c(F)c(F)c(F)c(F)c1F)C2(C)C.C=CC[Sn](CCCC)(CCCC)CCCC.CCB(CC)CC.c1ccccc1>>C=CC[C@H]1C[C@@]2(CC=C(C)C)C(=O)[C@H](C(=O)C=C2OC)C1(C)C",
+      "reaction_smiles_mapped": "CCCC[Sn](CCCC)(CCCC)[CH2:3][CH:2]=[CH2:1].Fc1c(F)c(F)c(OC(=S)O[C@H:4]2[CH2:5][C@@:6]3([CH2:7][CH:8]=[C:9]([CH3:10])[CH3:11])[C:12](=[O:13])[C@H:14]([C:15](=[O:16])[CH:17]=[C:18]3[O:19][CH3:20])[C:21]2([CH3:22])[CH3:23])c(F)c1F>CCB(CC)CC.c1ccccc1>[CH2:1]=[CH:2][CH2:3][C@H:4]1[CH2:5][C@@:6]2([CH2:7][CH:8]=[C:9]([CH3:10])[CH3:11])[C:12](=[O:13])[C@H:14]([C:15](=[O:16])[CH:17]=[C:18]2[O:19][CH3:20])[C:21]1([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.5508723208209815,
+      "conditions": {
+        "raw_description": "BEt3; air; Benzene; RT; 56%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "BEt3"
+        ],
+        "LIGANDS_SMILES": [
+          "B(CC)(CC)CC"
+        ],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "air"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_11",
+      "reaction_smiles": "C=CC[C@H]1C[C@@]2(CC=C(C)C)C(=O)[C@H](C(=O)C=C2OC)C1(C)C.C[Si](C)(C)Cl.CC1(C)CCCC(C)(C)[N-]1.[Li+].C1CCOC1>>C=CC[C@H]1C[C@@]2(CC=C(C)C)C(=O)[C@H](C(=O)C([Si](C)(C)C)=C2OC)C1(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@H:4]1[CH2:5][C@@:6]2([CH2:7][CH:8]=[C:9]([CH3:10])[CH3:11])[C:12](=[O:13])[C@H:14]([C:15](=[O:16])[CH:17]=[C:22]2[O:23][CH3:24])[C:25]1([CH3:26])[CH3:27].Cl[Si:18]([CH3:19])([CH3:20])[CH3:21]>CC1(C)CCCC(C)(C)[N-]1.[Li+].C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@H:4]1[CH2:5][C@@:6]2([CH2:7][CH:8]=[C:9]([CH3:10])[CH3:11])[C:12](=[O:13])[C@H:14]([C:15](=[O:16])[C:17]([Si:18]([CH3:19])([CH3:20])[CH3:21])=[C:22]2[O:23][CH3:24])[C:25]1([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.2923980703242314,
+      "conditions": {
+        "raw_description": "LiTMP; TMSCl; THF; -78 to -25 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "LiTMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Li+].CC1(CCCC([N-]1)(C)C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-25"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_12",
+      "reaction_smiles": "C=CC[C@H]1C[C@@]2(CC=C(C)C)C(=O)[C@H](C(=O)C([Si](C)(C)C)=C2OC)C1(C)C.C=C(C)C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>>COC1=C([Si](C)(C)C)C(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "C=[C:24]([CH3:25])[CH3:26].C=[CH:23][CH2:22][C@H:21]1[CH2:20][C@:14]2([CH2:15][CH:16]=[C:17]([CH3:18])[CH3:19])[C:3]([O:2][CH3:1])=[C:4]([Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9](=[O:10])[C@@H:11]([C:12]2=[O:13])[C:27]1([CH3:28])[CH3:29]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>[CH3:1][O:2][C:3]1=[C:4]([Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9](=[O:10])[C@H:11]2[C:12](=[O:13])[C@:14]1([CH2:15][CH:16]=[C:17]([CH3:18])[CH3:19])[CH2:20][C@H:21]([CH2:22][CH:23]=[C:24]([CH3:25])[CH3:26])[C:27]2([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.15587462198843163,
+      "conditions": {
+        "raw_description": "HG II cat; DCM; 40 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG II cat"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_13",
+      "reaction_smiles": "COC1=C([Si](C)(C)C)C(=O)[C@H]2C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C.CC(C)C(=O)Cl.CC1(C)CCCC(C)(C)[N-]1.[Li+].C1CCOC1>>COC1=C([Si](C)(C)C)C(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "Cl[C:12](=[O:13])[CH:14]([CH3:15])[CH3:16].[CH3:1][O:2][C:3]1=[C:4]([Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9](=[O:10])[C@H:11]2[C:17](=[O:18])[C@:19]1([CH2:20][CH:21]=[C:22]([CH3:23])[CH3:24])[CH2:25][C@H:26]([CH2:27][CH:28]=[C:29]([CH3:30])[CH3:31])[C:32]2([CH3:33])[CH3:34]>C1CCOC1.CC1(C)CCCC(C)(C)[N-]1.[Li+]>[CH3:1][O:2][C:3]1=[C:4]([Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9](=[O:10])[C@@:11]2([C:12](=[O:13])[CH:14]([CH3:15])[CH3:16])[C:17](=[O:18])[C@:19]1([CH2:20][CH:21]=[C:22]([CH3:23])[CH3:24])[CH2:25][C@H:26]([CH2:27][CH:28]=[C:29]([CH3:30])[CH3:31])[C:32]2([CH3:33])[CH3:34]",
+      "mapping_confidence": 0.18555841197618406,
+      "conditions": {
+        "raw_description": "1) LiTMP; THF; -78 to -20 \u00b0C; 2) i-PrCOCl; -78 to -5 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "i-PrCOCl",
+          "LiTMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C(=O)Cl",
+          "[Li+].CC1(CCCC([N-]1)(C)C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-20",
+          "-78",
+          "-5"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_14",
+      "reaction_smiles": "COC1=C([Si](C)(C)C)C(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>COC1=CC(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:4]1=[C:3]([O:2][CH3:1])[C@:15]2([CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20])[C:13](=[O:14])[C@:7]([C:8](=[O:9])[CH:10]([CH3:11])[CH3:12])([C:5]1=[O:6])[C:28]([CH3:29])([CH3:30])[C@@H:22]([CH2:23][CH:24]=[C:25]([CH3:26])[CH3:27])[CH2:21]2>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C@@:7]2([C:8](=[O:9])[CH:10]([CH3:11])[CH3:12])[C:13](=[O:14])[C@:15]1([CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20])[CH2:21][C@H:22]([CH2:23][CH:24]=[C:25]([CH3:26])[CH3:27])[C:28]2([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.2814588812039671,
+      "conditions": {
+        "raw_description": "TBAF; THF; 86%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_15",
+      "reaction_smiles": "COC1=CC(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C.CC(C)=CCBr.N#C[Cu-]c1cccs1.[Li+].[Li]N(C(C)C)C(C)C.C1CCOC1>>COC1=C(CC=C(C)C)C(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C",
+      "reaction_smiles_mapped": "Br[CH2:5][CH:6]=[C:7]([CH3:8])[CH3:9].[CH3:1][O:2][C:3]1=[CH:4][C:10](=[O:11])[C@@:12]2([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[C:18](=[O:19])[C@:20]1([CH2:21][CH:22]=[C:23]([CH3:24])[CH3:25])[CH2:26][C@H:27]([CH2:28][CH:29]=[C:30]([CH3:31])[CH3:32])[C:33]2([CH3:34])[CH3:35]>C1CCOC1.N#C[Cu-]c1cccs1.[Li+].[Li]N(C(C)C)C(C)C>[CH3:1][O:2][C:3]1=[C:4]([CH2:5][CH:6]=[C:7]([CH3:8])[CH3:9])[C:10](=[O:11])[C@@:12]2([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[C:18](=[O:19])[C@:20]1([CH2:21][CH:22]=[C:23]([CH3:24])[CH3:25])[CH2:26][C@H:27]([CH2:28][CH:29]=[C:30]([CH3:31])[CH3:32])[C:33]2([CH3:34])[CH3:35]",
+      "mapping_confidence": 0.2009457062631866,
+      "conditions": {
+        "raw_description": "1) LDA; THF; -78 to -40 \u00b0C; 2) Li(2-Th)CuCN; THF; -78 to -30 \u00b0C; 3) -78 to -35 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "Li(2-Th)CuCN",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].N#C[Cu-]c1cccs1",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-40",
+          "-78",
+          "-30",
+          "-78",
+          "-35"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Secohyperforin_2015_Shair_16",
+      "reaction_smiles": "COC1=C(CC=C(C)C)C(=O)[C@@]2(C(=O)C(C)C)C(=O)[C@]1(CC=C(C)C)C[C@H](CC=C(C)C)C2(C)C.[Cl-].[Li+].[2H]C([2H])([2H])S(=O)C([2H])([2H])[2H]>>CC(C)=CCC1=C(O)[C@@]2(CC=C(C)C)C[C@H](CC=C(C)C)C(C)(C)[C@@](C(=O)C(C)C)(C1=O)C2=O",
+      "reaction_smiles_mapped": "C[O:8][C:7]1=[C:6]([CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[C:31](=[O:32])[C@:25]2([C:26](=[O:27])[CH:28]([CH3:29])[CH3:30])[C:22]([CH3:23])([CH3:24])[C@@H:16]([CH2:17][CH:18]=[C:19]([CH3:20])[CH3:21])[CH2:15][C@@:9]1([CH2:10][CH:11]=[C:12]([CH3:13])[CH3:14])[C:33]2=[O:34]>[2H]C([2H])([2H])S(=O)C([2H])([2H])[2H].[Cl-].[Li+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][C:6]1=[C:7]([OH:8])[C@@:9]2([CH2:10][CH:11]=[C:12]([CH3:13])[CH3:14])[CH2:15][C@H:16]([CH2:17][CH:18]=[C:19]([CH3:20])[CH3:21])[C:22]([CH3:23])([CH3:24])[C@@:25]([C:26](=[O:27])[CH:28]([CH3:29])[CH3:30])([C:31]1=[O:32])[C:33]2=[O:34]",
+      "mapping_confidence": 0.2815956206788757,
+      "conditions": {
+        "raw_description": "LiCl; DMSO-d6; 120 \u00b0C; 72%",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO-d6"
+        ],
+        "SOLVENTS_SMILES": [
+          "[2H]C([2H])([2H])S(=O)C([2H])([2H])[2H]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    }
+  ]
+}

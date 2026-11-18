@@ -1,0 +1,408 @@
+{
+  "background": {
+    "name": "(+)-Peganumine A",
+    "author": "Zhu",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2016, 138, 11148",
+    "doi": "10.1021/jacs.6b07846"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_1",
+      "reaction_smiles": "C=CC(C)(C)CC(=O)O.O=C(OC(=O)C(F)(F)F)C(F)(F)F.ClCCl.Sc1ccccc1>>C=CC(C)(C)CC(=O)Sc1ccccc1",
+      "reaction_smiles_mapped": "O[C:7]([CH2:6][C:3]([CH:2]=[CH2:1])([CH3:4])[CH3:5])=[O:8].[SH:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>O=C(OC(=O)C(F)(F)F)C(F)(F)F.ClCCl>[CH2:1]=[CH:2][C:3]([CH3:4])([CH3:5])[CH2:6][C:7](=[O:8])[S:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.5788396919745611,
+      "conditions": {
+        "raw_description": "1) TFAA; CH2Cl2; rt; 2) PhSH; reflux; 85%",
+        "GENERAL_REAGENTS": [
+          "PhSH",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)S",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_2",
+      "reaction_smiles": "C=CC(C)(C)CC(=O)Sc1ccccc1.O=[O+][O-].ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC(C)(C=O)CC(=O)Sc1ccccc1",
+      "reaction_smiles_mapped": "C=[CH:4][C:2]([CH3:1])([CH3:3])[CH2:6][C:7](=[O:8])[S:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1.[O-][O+]=[O:5]>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])([CH:4]=[O:5])[CH2:6][C:7](=[O:8])[S:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.28394440190448766,
+      "conditions": {
+        "raw_description": "1) O3; CH2Cl2; -78 \u00b0C; 2) PPh3; rt; 83%",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_3",
+      "reaction_smiles": "COc1ccc2c3c(n(C(=O)OC(C)(C)C)c2c1)C1=CC(C)(C)C(=O)C(=O)N1CC3.COc1ccc2c(CCN)c[nH]c2c1.Cc1ccccc1>>COc1ccc2c(CC/N=C3\\C(=O)N4CCc5c(n(C(=O)OC(C)(C)C)c6cc(OC)ccc56)C4=CC3(C)C)c[nH]c2c1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH2:10])[cH:40][nH:41][c:42]2[cH:43]1.O=[C:11]1[C:12](=[O:13])[N:14]2[CH2:15][CH2:16][c:17]3[c:18]([n:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]4[cH:28][c:29]([O:30][CH3:31])[cH:32][cH:33][c:34]34)[C:35]2=[CH:36][C:37]1([CH3:38])[CH3:39]>Cc1ccccc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9]/[N:10]=[C:11]3\\[C:12](=[O:13])[N:14]4[CH2:15][CH2:16][c:17]5[c:18]([n:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]6[cH:28][c:29]([O:30][CH3:31])[cH:32][cH:33][c:34]56)[C:35]4=[CH:36][C:37]3([CH3:38])[CH3:39])[cH:40][nH:41][c:42]2[cH:43]1",
+      "mapping_confidence": 0.33847017054356976,
+      "conditions": {
+        "raw_description": "4 \u00c5 MS; toluene; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_4",
+      "reaction_smiles": "COc1ccc2c(CC/N=C3\\C(=O)N4CCc5c(n(C(=O)OC(C)(C)C)c6cc(OC)ccc56)C4=CC3(C)C)c[nH]c2c1.CC(C)[C@H](NC(=S)Nc1cc(C(F)(F)F)cc(C(F)(F)F)c1)C(=O)N(C)Cc1ccccc1.Cc1ccccc1.ClCCl.O=C(O)c1ccccc1.O=C(O)C(F)(F)F>>COc1ccc2c3c([nH]c2c1)[C@]12CC(C)(C)[C@@]4(C(=O)N1CC3)c1[nH]c3cc(OC)ccc3c1CCN24",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[n:24]1[c:23]2[c:33]([c:32]3[c:25]1[cH:26][c:27]([O:28][CH3:29])[cH:30][cH:31]3)[CH2:34][CH2:35][N:36]1[C:17]2=[CH:13][C:14]([CH3:15])([CH3:16])/[C:12](=[N:20]/[CH2:21][CH2:22][c:7]2[c:6]3[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:11][c:10]3[nH:9][cH:8]2)[C:18]1=[O:19]>CC(C)[C@H](NC(=S)Nc1cc(C(F)(F)F)cc(C(F)(F)F)c1)C(=O)N(C)Cc1ccccc1.Cc1ccccc1.ClCCl.O=C(O)c1ccccc1.O=C(O)C(F)(F)F>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]([nH:9][c:10]2[cH:11]1)[C@:12]12[CH2:13][C:14]([CH3:15])([CH3:16])[C@@:17]4([C:18](=[O:19])[N:20]1[CH2:21][CH2:22]3)[c:23]1[nH:24][c:25]3[cH:26][c:27]([O:28][CH3:29])[cH:30][cH:31][c:32]3[c:33]1[CH2:34][CH2:35][N:36]24",
+      "mapping_confidence": 0.3971777637354553,
+      "conditions": {
+        "raw_description": "BzOH; toluene; CH2Cl2; 35 \u00b0C; TFA; reflux; 69%",
+        "GENERAL_REAGENTS": [
+          "BzOH",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1C(=O)O",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "35"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_5",
+      "reaction_smiles": "CCCC[Sn](CCCC)(CCCC)c1c(CCNC=O)c2ccc(OC)cc2n1C(=O)OC(C)(C)C.CC(C)(C=O)CC(=O)Sc1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].O=P([O-])(c1ccccc1)c1ccccc1.[Cu+].c1ccc([As](c2ccccc2)c2ccccc2)cc1.CCCCCC.C1CCOC1>>COc1ccc2c(CCNC=O)c(C(=O)CC(C)(C)C=O)n(C(=O)OC(C)(C)C)c2c1",
+      "reaction_smiles_mapped": "c1ccc(S[C:14](=[O:15])[CH2:16][C:17]([CH3:18])([CH3:19])[CH:20]=[O:21])cc1.CCCC[Sn](CCCC)(CCCC)[c:13]1[c:7]([CH2:8][CH2:9][NH:10][CH:11]=[O:12])[c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:31][c:30]2[n:22]1[C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29]>O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].O=P([O-])(c1ccccc1)c1ccccc1.[Cu+].c1ccc([As](c2ccccc2)c2ccccc2)cc1.CCCCCC.C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH:10][CH:11]=[O:12])[c:13]([C:14](=[O:15])[CH2:16][C:17]([CH3:18])([CH3:19])[CH:20]=[O:21])[n:22]([C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[c:30]2[cH:31]1",
+      "mapping_confidence": 0.31489124479978087,
+      "conditions": {
+        "raw_description": "CuDPP; AsPh3; Pd2dba3; hexane; THF; rt; 95%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd2dba3",
+          "CuDPP",
+          "AsPh3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+          "O=P(C1=CC=CC=C1)(C2=CC=CC=C2)[O-].[Cu+]",
+          "C1=CC=C(C=C1)[As](C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexane",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_6",
+      "reaction_smiles": "COc1ccc2c(CCNC=O)c(C(=O)CC(C)(C)C=O)n(C(=O)OC(C)(C)C)c2c1.O=P(Cl)(Cl)Cl.CCN(CC)CC.ClCCl>>[C-]#[N+]CCc1c(C(=O)CC(C)(C)C=O)n(C(=O)OC(C)(C)C)c2cc(OC)ccc12",
+      "reaction_smiles_mapped": "O=[CH:1][NH:2][CH2:3][CH2:4][c:5]1[c:6]([C:7](=[O:8])[CH2:9][C:10]([CH3:11])([CH3:12])[CH:13]=[O:14])[n:15]([C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22])[c:23]2[cH:24][c:25]([O:26][CH3:27])[cH:28][cH:29][c:30]12>O=P(Cl)(Cl)Cl.CCN(CC)CC.ClCCl>[C-:1]#[N+:2][CH2:3][CH2:4][c:5]1[c:6]([C:7](=[O:8])[CH2:9][C:10]([CH3:11])([CH3:12])[CH:13]=[O:14])[n:15]([C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22])[c:23]2[cH:24][c:25]([O:26][CH3:27])[cH:28][cH:29][c:30]12",
+      "mapping_confidence": 0.3810911170332265,
+      "conditions": {
+        "raw_description": "POCl3; NEt3; CH2Cl2; -78 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_7",
+      "reaction_smiles": "[C-]#[N+]CCc1c(C(=O)CC(C)(C)C=O)n(C(=O)OC(C)(C)C)c2cc(OC)ccc12.O=C([O-])O.[Na+].CC(=O)O.C[NH2+]O.[Cl-]>>COc1ccc2c3c(n(C(=O)OC(C)(C)C)c2c1)C1=CC(C)(C)C(=O)C(=O)N1CC3",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:30][CH2:29][N+:28]#[C-:26])[c:8]([C:19]([CH2:20][C:21]([CH3:22])([CH3:23])[CH:24]=[O:25])=[O:27])[n:9]([C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[c:17]2[cH:18]1>O=C([O-])O.[Na+].CC(=O)O.C[NH2+]O.[Cl-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]([n:9]([C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[c:17]2[cH:18]1)[C:19]1=[CH:20][C:21]([CH3:22])([CH3:23])[C:24](=[O:25])[C:26](=[O:27])[N:28]1[CH2:29][CH2:30]3",
+      "mapping_confidence": 0.16654084724928292,
+      "conditions": {
+        "raw_description": "MeNHOH\u2022HCl; NaHCO3; AcOH; 4 \u00c5 MS; 75%",
+        "GENERAL_REAGENTS": [
+          "MeNHOH\u2022HCl",
+          "NaHCO3",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[NH2+](O).[Cl-]",
+          "C(=O)(O)[O-].[Na+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "4 \u00c5 MS",
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_8",
+      "reaction_smiles": "COc1ccc2c(CCN)c[nH]c2c1.CCOC=O>>COc1ccc2c(CCNC=O)c[nH]c2c1",
+      "reaction_smiles_mapped": "CCO[CH:11]=[O:12].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH2:10])[cH:13][nH:14][c:15]2[cH:16]1>>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH:10][CH:11]=[O:12])[cH:13][nH:14][c:15]2[cH:16]1",
+      "mapping_confidence": 0.979411811597899,
+      "conditions": {
+        "raw_description": "ethyl formate; 55 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "ethyl formate"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_9",
+      "reaction_smiles": "COc1ccc2c(CCNC=O)c[nH]c2c1.CN(C)c1ccncc1.CN(C)C=O.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>COc1ccc2c(CCNC=O)cn(C(=O)OC(C)(C)C)c2c1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:15](=[O:16])[O:17][C:18]([CH3:19])([CH3:20])[CH3:21].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH:10][CH:11]=[O:12])[cH:13][nH:14][c:22]2[cH:23]1>CN(C)c1ccncc1.CN(C)C=O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH:10][CH:11]=[O:12])[cH:13][n:14]([C:15](=[O:16])[O:17][C:18]([CH3:19])([CH3:20])[CH3:21])[c:22]2[cH:23]1",
+      "mapping_confidence": 0.33014193255330654,
+      "conditions": {
+        "raw_description": "DMAP; Boc2O; DMF; rt; 87% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Boc2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "87% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_10",
+      "reaction_smiles": "COc1ccc2c(CCNC=O)cn(C(=O)OC(C)(C)C)c2c1.C1CCOC1.[Li]N1C(C)(C)CCCC1(C)C.CCCC[Sn](Cl)(CCCC)CCCC>>CCCC[Sn](CCCC)(CCCC)c1c(CCNC=O)c2ccc(OC)cc2n1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Sn:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][CH2:11][CH2:12][CH3:13].[cH:14]1[c:15]([CH2:16][CH2:17][NH:18][CH:19]=[O:20])[c:21]2[cH:22][cH:23][c:24]([O:25][CH3:26])[cH:27][c:28]2[n:29]1[C:30](=[O:31])[O:32][C:33]([CH3:34])([CH3:35])[CH3:36]>C1CCOC1.[Li]N1C(C)(C)CCCC1(C)C>[CH3:1][CH2:2][CH2:3][CH2:4][Sn:5]([CH2:6][CH2:7][CH2:8][CH3:9])([CH2:10][CH2:11][CH2:12][CH3:13])[c:14]1[c:15]([CH2:16][CH2:17][NH:18][CH:19]=[O:20])[c:21]2[cH:22][cH:23][c:24]([O:25][CH3:26])[cH:27][c:28]2[n:29]1[C:30](=[O:31])[O:32][C:33]([CH3:34])([CH3:35])[CH3:36]",
+      "mapping_confidence": 0.22341088838685452,
+      "conditions": {
+        "raw_description": "1) TMPLi; 2) Bu3SnCl; THF; -78 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "TMPLi",
+          "Bu3SnCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(C)CCCC(C)(C)N1[Li]",
+          "CCCC[Sn](CCCC)(CCCC)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_11",
+      "reaction_smiles": "C=CC(C)(C)CC(=O)OCC.[Na+].[OH-].O.CCO>>C=CC(C)(C)CC(=O)O",
+      "reaction_smiles_mapped": "CC[O:9][C:7]([CH2:6][C:3]([CH:2]=[CH2:1])([CH3:4])[CH3:5])=[O:8]>[Na+].[OH-].O.CCO>[CH2:1]=[CH:2][C:3]([CH3:4])([CH3:5])[CH2:6][C:7](=[O:8])[OH:9]",
+      "mapping_confidence": 0.625436761967064,
+      "conditions": {
+        "raw_description": "NaOH; H2O; EtOH; rt; 74%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Peganumine_A_2016_Zhu_12",
+      "reaction_smiles": "CC(C)=CCO.Oc1ccccc1.CCOC(C)(OCC)OCC>>C=CC(C)(C)CC(=O)OCC",
+      "reaction_smiles_mapped": "O[CH2:1][CH:2]=[C:3]([CH3:4])[CH3:5].CCO[C:7]([CH3:6])([O:8]CC)[O:9][CH2:10][CH3:11]>Oc1ccccc1>[CH2:1]=[CH:2][C:3]([CH3:4])([CH3:5])[CH2:6][C:7](=[O:8])[O:9][CH2:10][CH3:11]",
+      "mapping_confidence": 0.212354705012117,
+      "conditions": {
+        "raw_description": "PhOH; (EtO)3CCH3; 130 to 160 \u00b0C; Johnson-Claisen Rearrangement",
+        "GENERAL_REAGENTS": [
+          "PhOH",
+          "(EtO)3CCH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)O",
+          "CCOC(C)(OCC)OCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130",
+          "160"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "background": {
+    "name": "cis-Perhydroazulene",
+    "author": "Schreiner",
+    "year": 2020,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2020, 85, 4441",
+    "doi": "10.1021/acs.joc.0c00167"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_1",
+      "reaction_smiles": "O=C1C=C2CCCCCC2C1.[Pd].[H][H].CO.[HH].[C].[Pd]>>O=C1CC2CCCCC[C@H]2C1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH:3]=[C:4]2[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][CH:10]2[CH2:11]1>CO.[C].[HH].[H][H].[Pd].[Pd]>[O:1]=[C:2]1[CH2:3][CH:4]2[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][C@H:10]2[CH2:11]1",
+      "mapping_confidence": 0.8387506415583189,
+      "conditions": {
+        "raw_description": "Pd/C; H2; MeOH; rt; 92%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_2",
+      "reaction_smiles": "O=C1CC2CCCCC[C@H]2C1.SCCS.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>C1CC[C@@H]2CC3(C[C@@H]2CC1)SCCS3",
+      "reaction_smiles_mapped": "O=[C:6]1[CH2:5][C@@H:4]2[CH2:3][CH2:2][CH2:1][CH2:10][CH2:9][CH:8]2[CH2:7]1.[SH:11][CH2:12][CH2:13][SH:14]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH2:1]1[CH2:2][CH2:3][C@H:4]2[CH2:5][C:6]3([CH2:7][C@H:8]2[CH2:9][CH2:10]1)[S:11][CH2:12][CH2:13][S:14]3",
+      "mapping_confidence": 0.5990933914850332,
+      "conditions": {
+        "raw_description": "p-TsOH; benzene; reflux; 40%",
+        "GENERAL_REAGENTS": [
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_3",
+      "reaction_smiles": "C1CC[C@@H]2CC3(C[C@@H]2CC1)SCCS3.II.O=C([O-])O.[Na+].CC#N.O=C([O-])O.[Na+]>>O=C1C[C@H]2CCCCC[C@H]2C1",
+      "reaction_smiles_mapped": "C1CS[C:2]2(S1)[CH2:3][C@H:4]1[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][C@H:10]1[CH2:11]2.[O-]C(O)=[O:1]>CC#N.II.O=C([O-])O.[Na+].[Na+]>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][C@@H:10]2[CH2:11]1",
+      "mapping_confidence": 0.20646233463653008,
+      "conditions": {
+        "raw_description": "I2; NaHCO3; MeCN; rt; 58%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_4",
+      "reaction_smiles": "O=C1C[C@H]2CCCCC[C@H]2C1.CO.Cc1ccc(S(=O)(=O)NN)cc1>>N/N=C1\\C[C@H]2CCCCC[C@H]2C1",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[NH:1][NH2:2])cc1.O=[C:3]1[CH2:4][C@@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][CH2:10][C@@H:11]2[CH2:12]1>CO>[NH2:1]/[N:2]=[C:3]1/[CH2:4][C@@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][CH2:10][C@@H:11]2[CH2:12]1",
+      "mapping_confidence": 0.5703305958694227,
+      "conditions": {
+        "raw_description": "TsNHNH2; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "TsNHNH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)NN"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_5",
+      "reaction_smiles": "N/N=C1\\C[C@H]2CCCCC[C@H]2C1.[BH3-]C#N.[Na+].Cc1ccc(S(=O)(=O)O)cc1.CN(C)C=O.O=S1(=O)CCCC1.[BH3-]C#N.[Na+]>>C1CC[C@@H]2CCC[C@@H]2CC1",
+      "reaction_smiles_mapped": "N/N=[C:6]1\\[CH2:5][C@H:4]2[CH2:3][CH2:2][CH2:1][CH2:10][CH2:9][C@H:8]2[CH2:7]1>CN(C)C=O.Cc1ccc(S(=O)(=O)O)cc1.O=S1(=O)CCCC1.[BH3-]C#N.[BH3-]C#N.[Na+].[Na+]>[CH2:1]1[CH2:2][CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]2[CH2:9][CH2:10]1",
+      "mapping_confidence": 0.45683729235761494,
+      "conditions": {
+        "raw_description": "NaBH3CN; p-TsOH; sulfolane; DMF; 100 \u00b0C; 27% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "p-TsOH",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "sulfolane"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "C1CCS(=O)(=O)C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "27% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_6",
+      "reaction_smiles": "CCOC(=O)C1CCCCCC1=O.C=C(C)OC(C)=O.O=O.Cl[Ce](Cl)Cl.OCC(F)(F)F>>CCOC(=O)C1(CC(C)=O)CCCCCC1=O",
+      "reaction_smiles_mapped": "CC(=O)[O:10][C:8](=[CH2:7])[CH3:9].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][C:16]1=[O:17]>Cl[Ce](Cl)Cl.O=O.OCC(F)(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([CH2:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][C:16]1=[O:17]",
+      "mapping_confidence": 0.8061378616954343,
+      "conditions": {
+        "raw_description": "O2; CeCl3; TFE; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TFE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(C(F)(F)F)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_7",
+      "reaction_smiles": "CCOC(=O)C1(CC(C)=O)CCCCCC1=O.[K+].[OH-].[K+].[OH-]>>O=C1C=C2CCCCCC2C1",
+      "reaction_smiles_mapped": "CCOC(=O)[C:10]1([CH2:11][C:2](=[O:1])[CH3:3])[C:4](=O)[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9]1>[K+].[K+].[OH-].[OH-]>[O:1]=[C:2]1[CH:3]=[C:4]2[CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][CH:10]2[CH2:11]1",
+      "mapping_confidence": 0.84493364540105,
+      "conditions": {
+        "raw_description": "KOH; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "cis-Perhydroazulene_2020_Schreiner_8",
+      "reaction_smiles": "O=C1CCCCCC1.CCOC(=O)OCC.[H-].[Na+].Cc1ccccc1.[H-].[Na+]>>CCOC(=O)C1CCCCCC1=O",
+      "reaction_smiles_mapped": "CCO[C:4]([O:3][CH2:2][CH3:1])=[O:5].[CH2:6]1[CH2:7][CH2:8][CH2:9][CH2:10][CH2:11][C:12]1=[O:13]>Cc1ccccc1.[H-].[H-].[Na+].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][CH2:9][CH2:10][CH2:11][C:12]1=[O:13]",
+      "mapping_confidence": 0.36517256411591686,
+      "conditions": {
+        "raw_description": "NaH; toluene; 100 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

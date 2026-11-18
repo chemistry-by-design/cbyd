@@ -1,0 +1,130 @@
+{
+  "background": {
+    "name": "Quizartinib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Vanflyta",
+    "manufacturer": "AmbitBioSci",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Quizartinib_2024_AmbitBioSci_1",
+      "reaction_smiles": "Nc1nc2ccc(O)cc2s1.O=C(CBr)c1ccc([N+](=O)[O-])cc1.CCO>>O=[N+]([O-])c1ccc(-c2cn3c(n2)sc2cc(O)ccc23)cc1",
+      "reaction_smiles_mapped": "[n:10]1[c:11]([NH2:12])[s:13][c:14]2[cH:15][c:16]([OH:17])[cH:18][cH:19][c:20]12.O=[C:8]([c:7]1[cH:6][cH:5][c:4]([N+:2](=[O:1])[O-:3])[cH:22][cH:21]1)[CH2:9]Br>CCO>[O:1]=[N+:2]([O-:3])[c:4]1[cH:5][cH:6][c:7](-[c:8]2[cH:9][n:10]3[c:11]([n:12]2)[s:13][c:14]2[cH:15][c:16]([OH:17])[cH:18][cH:19][c:20]32)[cH:21][cH:22]1",
+      "mapping_confidence": 0.9141585280199356,
+      "conditions": {
+        "raw_description": "EtOH; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quizartinib_2024_AmbitBioSci_2",
+      "reaction_smiles": "O=[N+]([O-])c1ccc(-c2cn3c(n2)sc2cc(O)ccc23)cc1.ClCCN1CCOCC1.Cl.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>O=[N+]([O-])c1ccc(-c2cn3c(n2)sc2cc(OCCN4CCOCC4)ccc23)cc1",
+      "reaction_smiles_mapped": "Cl[CH2:18][CH2:19][N:20]1[CH2:21][CH2:22][O:23][CH2:24][CH2:25]1.[O:1]=[N+:2]([O-:3])[c:4]1[cH:5][cH:6][c:7](-[c:8]2[cH:9][n:10]3[c:11]([n:12]2)[s:13][c:14]2[cH:15][c:16]([OH:17])[cH:26][cH:27][c:28]32)[cH:29][cH:30]1>CN(C)C=O.Cl.O=C([O-])[O-].[K+].[K+]>[O:1]=[N+:2]([O-:3])[c:4]1[cH:5][cH:6][c:7](-[c:8]2[cH:9][n:10]3[c:11]([n:12]2)[s:13][c:14]2[cH:15][c:16]([O:17][CH2:18][CH2:19][N:20]4[CH2:21][CH2:22][O:23][CH2:24][CH2:25]4)[cH:26][cH:27][c:28]32)[cH:29][cH:30]1",
+      "mapping_confidence": 0.9175505454474551,
+      "conditions": {
+        "raw_description": "K2CO3; DMF; 60-70 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60",
+          "70"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quizartinib_2024_AmbitBioSci_3",
+      "reaction_smiles": "O=[N+]([O-])c1ccc(-c2cn3c(n2)sc2cc(OCCN4CCOCC4)ccc23)cc1.[Cl-].[NH4+].[Fe].CCO>>Nc1ccc(-c2cn3c(n2)sc2cc(OCCN4CCOCC4)ccc23)cc1",
+      "reaction_smiles_mapped": "O=[N+:1]([O-])[c:2]1[cH:3][cH:4][c:5](-[c:6]2[cH:7][n:8]3[c:9]([n:10]2)[s:11][c:12]2[cH:13][c:14]([O:15][CH2:16][CH2:17][N:18]4[CH2:19][CH2:20][O:21][CH2:22][CH2:23]4)[cH:24][cH:25][c:26]32)[cH:27][cH:28]1>CCO.[Cl-].[Fe].[NH4+]>[NH2:1][c:2]1[cH:3][cH:4][c:5](-[c:6]2[cH:7][n:8]3[c:9]([n:10]2)[s:11][c:12]2[cH:13][c:14]([O:15][CH2:16][CH2:17][N:18]4[CH2:19][CH2:20][O:21][CH2:22][CH2:23]4)[cH:24][cH:25][c:26]32)[cH:27][cH:28]1",
+      "mapping_confidence": 0.9362926070962656,
+      "conditions": {
+        "raw_description": "Fe; NH4Cl; EtOH; reflux",
+        "GENERAL_REAGENTS": [
+          "NH4Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quizartinib_2024_AmbitBioSci_4",
+      "reaction_smiles": "Nc1ccc(-c2cn3c(n2)sc2cc(OCCN4CCOCC4)ccc23)cc1.CC(C)(C)c1cc(OC#N)no1.Cc1ccccc1>>CC(C)(C)c1cc(NC(=O)Nc2ccc(-c3cn4c(n3)sc3cc(OCCN5CCOCC5)ccc34)cc2)no1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[c:5]1[cH:6][c:7]([O:10][C:9]#[N:8])[n:39][o:40]1.[NH2:11][c:12]1[cH:13][cH:14][c:15](-[c:16]2[cH:17][n:18]3[c:19]([n:20]2)[s:21][c:22]2[cH:23][c:24]([O:25][CH2:26][CH2:27][N:28]4[CH2:29][CH2:30][O:31][CH2:32][CH2:33]4)[cH:34][cH:35][c:36]32)[cH:37][cH:38]1>Cc1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[c:5]1[cH:6][c:7]([NH:8][C:9](=[O:10])[NH:11][c:12]2[cH:13][cH:14][c:15](-[c:16]3[cH:17][n:18]4[c:19]([n:20]3)[s:21][c:22]3[cH:23][c:24]([O:25][CH2:26][CH2:27][N:28]5[CH2:29][CH2:30][O:31][CH2:32][CH2:33]5)[cH:34][cH:35][c:36]43)[cH:37][cH:38]2)[n:39][o:40]1",
+      "mapping_confidence": 0.3669321269991405,
+      "conditions": {
+        "raw_description": "toluene; 120 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

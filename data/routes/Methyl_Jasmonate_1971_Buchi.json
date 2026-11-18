@@ -1,0 +1,189 @@
+{
+  "background": {
+    "name": "Methyl Jasmonate",
+    "author": "Buchi",
+    "year": 1971,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1971, 36, 2021",
+    "doi": "10.1021/jo00813a045"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_1",
+      "reaction_smiles": "O=C1C=C(O)CCC1.[K+].[OH-].CCC#CCBr.CC(C)(C)OCl>>CCC#CCC1(Cl)C(=O)CCCC1=O",
+      "reaction_smiles_mapped": "CC(C)(C)O[Cl:7].Br[CH2:5][C:4]#[C:3][CH2:2][CH3:1].[CH:6]1=[C:13]([OH:14])[CH2:12][CH2:11][CH2:10][C:8]1=[O:9]>[K+].[OH-]>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C:6]1([Cl:7])[C:8](=[O:9])[CH2:10][CH2:11][CH2:12][C:13]1=[O:14]",
+      "mapping_confidence": 0.6227800531984428,
+      "conditions": {
+        "raw_description": "1) KOH; 1-bromo-2-pentyne; 2) tBuOCl",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "1-bromo-2-pentyne",
+          "tBuOCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "CCC#CCBr",
+          "CC(C)(C)OCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_2",
+      "reaction_smiles": "CCC#CCC1(Cl)C(=O)CCCC1=O.O=C([O-])[O-].[Na+].[Na+].Cc1ccccc1C>>CCC#CCC1=CCCC1=O",
+      "reaction_smiles_mapped": "O=[C:7]1C[CH2:8][CH2:9][C:10](=[O:11])[C:6]1(Cl)[CH2:5][C:4]#[C:3][CH2:2][CH3:1]>O=C([O-])[O-].[Na+].[Na+].Cc1ccccc1C>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C:6]1=[CH:7][CH2:8][CH2:9][C:10]1=[O:11]",
+      "mapping_confidence": 0.3895864922047054,
+      "conditions": {
+        "raw_description": "Na2CO3; xylenes; reflux; 74%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "xylenes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_3",
+      "reaction_smiles": "CCC#CCC1=CCCC1=O.COC(=O)CC(=O)OC.CO.[Na]>>CCC#CC[C@H]1C(=O)CC[C@@H]1C(C(=O)OC)C(=O)OC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C:6]1=[CH:11][CH2:10][CH2:9][C:7]1=[O:8].[CH2:12]([C:13](=[O:14])[O:15][CH3:16])[C:17](=[O:18])[O:19][CH3:20]>CO.[Na]>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@@H:11]1[CH:12]([C:13](=[O:14])[O:15][CH3:16])[C:17](=[O:18])[O:19][CH3:20]",
+      "mapping_confidence": 0.5421961276386721,
+      "conditions": {
+        "raw_description": "Na0; MeOH; -5 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Na0"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_4",
+      "reaction_smiles": "CCC#CC[C@H]1C(=O)CC[C@@H]1CC(=O)OC.[HH].O=C([O-])[O-].[Ca+2].[PbH2].[Pd]>>CC/C=C\\C[C@H]1C(=O)CC[C@@H]1CC(=O)OC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@@H:11]1[CH2:12][C:13](=[O:14])[O:15][CH3:16]>[HH].O=C([O-])[O-].[Ca+2].[PbH2].[Pd]>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@@H:11]1[CH2:12][C:13](=[O:14])[O:15][CH3:16]",
+      "mapping_confidence": 0.9906936447303302,
+      "conditions": {
+        "raw_description": "H2; Lindlar Catalyst",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Lindlar Catalyst"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ca++].[Pd].[PbH2].[O-]C([O-])=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_5",
+      "reaction_smiles": "CCC#CC[C@H]1C(=O)CC[C@@H]1C(C(=O)OC)C(=O)OC.[Na+].[OH-].O>>CCC#CC[C@H]1C(=O)CC[C@@H]1CC(=O)O",
+      "reaction_smiles_mapped": "COC(=O)[CH:12]([C@@H:11]1[C@@H:6]([CH2:5][C:4]#[C:3][CH2:2][CH3:1])[C:7](=[O:8])[CH2:9][CH2:10]1)[C:13](=[O:14])[O:15]C>[Na+].[OH-].O>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@@H:11]1[CH2:12][C:13](=[O:14])[OH:15]",
+      "mapping_confidence": 0.4747512870751314,
+      "conditions": {
+        "raw_description": "NaOH; H2O; 15 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "15"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methyl_Jasmonate_1971_Buchi_6",
+      "reaction_smiles": "CCC#CC[C@H]1C(=O)CC[C@@H]1CC(=O)O.O=S(=O)(O)O.CO>>CCC#CC[C@H]1C(=O)CC[C@@H]1CC(=O)OC",
+      "reaction_smiles_mapped": "O[C:13]([CH2:12][C@@H:11]1[C@@H:6]([CH2:5][C:4]#[C:3][CH2:2][CH3:1])[C:7](=[O:8])[CH2:9][CH2:10]1)=[O:14].[OH:15][CH3:16]>O=S(=O)(O)O>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@@H:11]1[CH2:12][C:13](=[O:14])[O:15][CH3:16]",
+      "mapping_confidence": 0.6948826493381354,
+      "conditions": {
+        "raw_description": "H2SO4; MeOH; 40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

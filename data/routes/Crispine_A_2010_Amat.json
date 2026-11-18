@@ -1,0 +1,145 @@
+{
+  "background": {
+    "name": "(-)-Crispine A",
+    "author": "Amat",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Eur. J. Org. Chem. 2010, 4017",
+    "doi": "10.1002/ejoc.201000473"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Crispine_A_2010_Amat_1",
+      "reaction_smiles": "COc1cc2c(cc1OC)[C@H](CCC1OCCCO1)N([C@@H](CO)c1ccccc1)CC2.[Pd].CCO.Cl.[HH].[C].[Pd]>>COc1cc2c(cc1OC)[C@@H]1CCCN1CC2",
+      "reaction_smiles_mapped": "OC[C@@H](c1ccccc1)[N:15]1[C@@H:11]([CH2:12][CH2:13][CH:14]2OCCCO2)[c:6]2[c:5]([cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH3:10])[cH:7]2)[CH2:17][CH2:16]1>[Pd].[Pd].CCO.Cl.[HH].[C]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[C@@H:11]1[CH2:12][CH2:13][CH2:14][N:15]1[CH2:16][CH2:17]2",
+      "mapping_confidence": 0.7782613991982749,
+      "conditions": {
+        "raw_description": "10% Pd/C; 1 atm H2; EtOH; aq HCl; rt; 74%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2010_Amat_2",
+      "reaction_smiles": "COc1cc2c(cc1OC)[C@H](CCC1OCCCO1)N([C@@H](CO)c1ccccc1)C(=O)C2.[H-].[H-].[H-].[Li].[Al+3].Cl[Al](Cl)Cl.C1CCOC1.[AlH4-].[Li+]>>COc1cc2c(cc1OC)[C@H](CCC1OCCCO1)N([C@@H](CO)c1ccccc1)CC2",
+      "reaction_smiles_mapped": "O=[C:30]1[N:20]([C@@H:21]([CH2:22][OH:23])[c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)[C@@H:11]([CH2:12][CH2:13][CH:14]2[O:15][CH2:16][CH2:17][CH2:18][O:19]2)[c:6]2[c:5]([cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH3:10])[cH:7]2)[CH2:31]1>[H-].[H-].[H-].[Li].[Al+3].Cl[Al](Cl)Cl.C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[C@H:11]([CH2:12][CH2:13][CH:14]1[O:15][CH2:16][CH2:17][CH2:18][O:19]1)[N:20]([C@@H:21]([CH2:22][OH:23])[c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[CH2:30][CH2:31]2",
+      "mapping_confidence": 0.9492952226035183,
+      "conditions": {
+        "raw_description": "LiAlH4; AlCl3; THF; -78 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2010_Amat_3",
+      "reaction_smiles": "COC(=O)Cc1cc(OC)c(OC)cc1C=O.N[C@@H](CO)c1ccccc1.Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1>>COc1cc2c(cc1OC)[C@@H]1OC[C@@H](c3ccccc3)N1C(=O)C2",
+      "reaction_smiles_mapped": "CO[C:22](=[O:23])[CH2:24][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH3:10])[cH:7][c:6]1[CH:11]=O.[OH:12][CH2:13][C@@H:14]([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)[NH2:21]>Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[C@@H:11]1[O:12][CH2:13][C@@H:14]([c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[N:21]1[C:22](=[O:23])[CH2:24]2",
+      "mapping_confidence": 0.8601419916239731,
+      "conditions": {
+        "raw_description": "pTsOH; toluene; reflux; 58%",
+        "GENERAL_REAGENTS": [
+          "pTsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2010_Amat_4",
+      "reaction_smiles": "COc1cc2c(cc1OC)[C@@H]1OC[C@@H](c3ccccc3)N1C(=O)C2.Br[Mg]CCC1OCCCO1.C1CCOC1>>COc1cc2c(cc1OC)[C@H](CCC1OCCCO1)N([C@@H](CO)c1ccccc1)C(=O)C2",
+      "reaction_smiles_mapped": "Br[Mg][CH2:12][CH2:13][CH:14]1[O:15][CH2:16][CH2:17][CH2:18][O:19]1.[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[C@H:11]1[N:20]([C@H:21]([c:24]3[cH:25][cH:26][cH:27][cH:28][cH:29]3)[CH2:22][O:23]1)[C:30](=[O:31])[CH2:32]2>C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[C@H:11]([CH2:12][CH2:13][CH:14]1[O:15][CH2:16][CH2:17][CH2:18][O:19]1)[N:20]([C@@H:21]([CH2:22][OH:23])[c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[C:30](=[O:31])[CH2:32]2",
+      "mapping_confidence": 0.9293047572129468,
+      "conditions": {
+        "raw_description": "THF; 5 \u00b0C; 45%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5"
+        ],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    }
+  ]
+}

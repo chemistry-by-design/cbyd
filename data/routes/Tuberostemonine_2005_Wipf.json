@@ -1,0 +1,884 @@
+{
+  "background": {
+    "name": "Tuberostemonine",
+    "author": "Wipf",
+    "year": 2005,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2005, 127, 225",
+    "doi": "10.1021/ja044280k"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_1",
+      "reaction_smiles": "O=C(N[C@@H](Cc1ccc(O)cc1)C(=O)O)OCc1ccccc1.CC(=O)OI(OC(C)=O)c1ccccc1.O=C([O-])O.[Na+].CO>>COC(=O)[C@@H]1C[C@@]2(O)C=CC(=O)C[C@H]2N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[C:3](=[O:4])([C@H:5]([CH2:6][c:7]1[cH:9][cH:10][c:11]([OH:8])[cH:13][cH:14]1)[NH:15][C:16](=[O:17])[O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[OH:12]>CC(=O)OI(OC(C)=O)c1ccccc1.O=C([O-])O.[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@:7]2([OH:8])[CH:9]=[CH:10][C:11](=[O:12])[CH2:13][C@H:14]2[N:15]1[C:16](=[O:17])[O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1",
+      "mapping_confidence": 0.20943262830964274,
+      "conditions": {
+        "raw_description": "PhI(OAc)2; NaHCO3; MeOH; 21 to 40 \u00b0C; 55%",
+        "GENERAL_REAGENTS": [
+          "PhI(OAc)2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "21",
+          "40"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_2",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@]2(O)C=CC(=O)C[C@H]2N1C(=O)OCc1ccccc1.O=C(OC(=O)c1ccccc1)c1ccccc1.CCN(CC)CC>>COC(=O)[C@@H]1C[C@@]2(OC(=O)c3ccccc3)C=CC(=O)C[C@H]2N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@:7]2([OH:8])[CH:17]=[CH:18][C:19](=[O:20])[CH2:21][C@H:22]2[N:23]1[C:24](=[O:25])[O:26][CH2:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1.O=C(O[C:9](=[O:10])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)c1ccccc1>CCN(CC)CC>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@:7]2([O:8][C:9](=[O:10])[c:11]3[cH:12][cH:13][cH:14][cH:15][cH:16]3)[CH:17]=[CH:18][C:19](=[O:20])[CH2:21][C@H:22]2[N:23]1[C:24](=[O:25])[O:26][CH2:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1",
+      "mapping_confidence": 0.526762735147888,
+      "conditions": {
+        "raw_description": "Bz2O; NEt3; 92%",
+        "GENERAL_REAGENTS": [
+          "Bz2O",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)OC(=O)C2=CC=CC=C2",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_3",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@]2(OC(=O)c3ccccc3)C=CC(=O)C[C@H]2N1C(=O)OCc1ccccc1.[BH4-].[Na+].O.O.O.O.O.O.O.[Ce+3].[Cl-].[Cl-].[Cl-]>>COC(=O)[C@@H]1C[C@@]2(OC(=O)c3ccccc3)C=C[C@@H](O)C[C@H]2N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@:7]2([O:8][C:9](=[O:10])[c:11]3[cH:12][cH:13][cH:14][cH:15][cH:16]3)[CH:17]=[CH:18][C:19](=[O:20])[CH2:21][C@H:22]2[N:23]1[C:24](=[O:25])[O:26][CH2:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1>O.O.O.O.O.O.O.[BH4-].[Ce+3].[Cl-].[Cl-].[Cl-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@:7]2([O:8][C:9](=[O:10])[c:11]3[cH:12][cH:13][cH:14][cH:15][cH:16]3)[CH:17]=[CH:18][C@@H:19]([OH:20])[CH2:21][C@H:22]2[N:23]1[C:24](=[O:25])[O:26][CH2:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1",
+      "mapping_confidence": 0.8185142188076937,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3\u00b77H2O; 97%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3\u00b77H2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ce+3].[Cl-].[Cl-].[Cl-].O.O.O.O.O.O.O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_4",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@]2(OC(=O)c3ccccc3)C=C[C@@H](O)C[C@H]2N1C(=O)OCc1ccccc1.CCN(CC)CC.ClC(Cl)Cl.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1ccc(CCP(CCc2ccccc2)CCc2ccccc2)cc1.C1CCOC1.O=CO>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)C[C@H]2N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "O=C(O[C@@:7]12[CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[N:14]([C:15](=[O:16])[O:17][CH2:18][c:19]3[cH:20][cH:21][cH:22][cH:23][cH:24]3)[C@@H:13]1[CH2:12][C@H:10]([OH:11])[CH:9]=[CH:8]2)c1ccccc1>C1CCOC1.CCN(CC)CC.ClC(Cl)Cl.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=CO.[Pd].[Pd].c1ccc(CCP(CCc2ccccc2)CCc2ccccc2)cc1>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[CH2:12][C@H:13]2[N:14]1[C:15](=[O:16])[O:17][CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1",
+      "mapping_confidence": 0.849674004192136,
+      "conditions": {
+        "raw_description": "Pd2(dba)3\u00b7CHCl3 (2 mol%); PBn3 (8 mol%); Et3N; HCOOH; THF; reflux; 93%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3\u00b7CHCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.[Pd].[Pd].ClC(Cl)Cl"
+        ],
+        "LIGANDS": [
+          "PBn3"
+        ],
+        "LIGANDS_SMILES": [
+          "P(CCc1ccccc1)(CCc2ccccc2)CCc3ccccc3"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "HCOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_5",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)C[C@H]2N1C(=O)OCc1ccccc1.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "Cl[Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18].[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[CH2:19][C@H:20]2[N:21]1[C:22](=[O:23])[O:24][CH2:25][c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1>ClCCl.c1c[nH]cn1>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@H:20]2[N:21]1[C:22](=[O:23])[O:24][CH2:25][c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1",
+      "mapping_confidence": 0.3044899091102469,
+      "conditions": {
+        "raw_description": "TBDMSCl; imidazole; CH2Cl2; 97%",
+        "GENERAL_REAGENTS": [
+          "TBDMSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_6",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1C(=O)OCc1ccccc1.CC[SiH](CC)CC.CCN(CC)CC.CC(=O)[O-].CC(=O)[O-].[Pd+2].ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[N:21]1[C@H:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@H:20]21>CC(=O)[O-].CC(=O)[O-].CCN(CC)CC.CC[SiH](CC)CC.ClCCl.[Pd+2]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@H:20]2[NH:21]1",
+      "mapping_confidence": 0.2898511925959534,
+      "conditions": {
+        "raw_description": "Et3SiH; Pd(OAc)2; NEt3; CH2Cl2; RT; 90%",
+        "GENERAL_REAGENTS": [
+          "Et3SiH",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_7",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1.BrC/C=C/c1ccccc1.O=C([O-])[O-].[K+].[K+].Cc1ccccc1>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1C/C=C/c1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:22]/[CH:23]=[CH:24]/[c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1.[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@H:20]2[NH:21]1>Cc1ccccc1.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][C@H:20]2[N:21]1[CH2:22]/[CH:23]=[CH:24]/[c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1",
+      "mapping_confidence": 0.2698108821517132,
+      "conditions": {
+        "raw_description": "cinnamyl bromide; K2CO3; toluene; 60\u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "cinnamyl bromide",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/CBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_8",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)C[C@H]2N1C/C=C/c1ccccc1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)C[C@H]2N1C/C=C/c1ccccc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:11][C@@H:10]1[CH:9]=[CH:8][C@H:7]2[CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[N:14]([CH2:15]/[CH:16]=[CH:17]/[c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)[C@@H:13]2[CH2:12]1>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[CH2:12][C@H:13]2[N:14]1[CH2:15]/[CH:16]=[CH:17]/[c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+      "mapping_confidence": 0.9172455480991516,
+      "conditions": {
+        "raw_description": "TBAF; THF; RT; 96%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_9",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)C[C@H]2N1C/C=C/c1ccccc1.C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=CC(=O)C[C@H]2N1C/C=C/c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[CH2:12][C@H:13]2[N:14]1[CH2:15]/[CH:16]=[CH:17]/[c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1>CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl.O=[Ru](=O)(=O)[O-]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C:10](=[O:11])[CH2:12][C@H:13]2[N:14]1[CH2:15]/[CH:16]=[CH:17]/[c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+      "mapping_confidence": 0.9472285448292098,
+      "conditions": {
+        "raw_description": "TPAP; NMO; CH2Cl2; 88%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_10",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=CC(=O)C[C@H]2N1C/C=C/c1ccccc1.C[Si](C)(C)[N-][Si](C)(C)C.[K+].C=CCI>>C=CC[C@@H]1C(=O)C=C[C@H]2C[C@@H](C(=O)OC)N(C/C=C/c3ccccc3)[C@H]12",
+      "reaction_smiles_mapped": "I[CH2:3][CH:2]=[CH2:1].[CH2:4]1[C:5](=[O:6])[CH:7]=[CH:8][C@H:9]2[CH2:10][C@@H:11]([C:12](=[O:13])[O:14][CH3:15])[N:16]([CH2:17]/[CH:18]=[CH:19]/[c:20]3[cH:21][cH:22][cH:23][cH:24][cH:25]3)[C@H:26]12>C[Si](C)(C)[N-][Si](C)(C)C.[K+]>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C:5](=[O:6])[CH:7]=[CH:8][C@H:9]2[CH2:10][C@@H:11]([C:12](=[O:13])[O:14][CH3:15])[N:16]([CH2:17]/[CH:18]=[CH:19]/[c:20]3[cH:21][cH:22][cH:23][cH:24][cH:25]3)[C@H:26]12",
+      "mapping_confidence": 0.9220924303779294,
+      "conditions": {
+        "raw_description": "KHMDS; allyl iodide; -90\u00b0C; 66%",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "allyl iodide"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "C=CCI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-90"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_11",
+      "reaction_smiles": "C=CC[C@@H]1C(=O)C=C[C@H]2C[C@@H](C(=O)OC)N(C/C=C/c3ccccc3)[C@H]12.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)(=Cc2ccccc2)[PH](C2CCCCC2)(C2CCCCC2)C2CCCCC2)c(C)c1.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=CC(=O)[C@H]3CC=CCN1[C@H]32",
+      "reaction_smiles_mapped": "C=[CH:14][CH2:13][C@@H:12]1[C:10](=[O:11])[CH:9]=[CH:8][C@H:7]2[CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[N:17]([CH2:16]/[CH:15]=C/c3ccccc3)[C@@H:18]21>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)(=Cc2ccccc2)[PH](C2CCCCC2)(C2CCCCC2)C2CCCCC2)c(C)c1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C:10](=[O:11])[C@H:12]3[CH2:13][CH:14]=[CH:15][CH2:16][N:17]1[C@@H:18]23",
+      "mapping_confidence": 0.8592443888680106,
+      "conditions": {
+        "raw_description": "Grubbs II; CH2Cl2; reflux; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_12",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=CC(=O)[C@H]3CC=CCN1[C@H]32.Sc1ccccc1.CCN(CC)CC.ClCCl>>COC(=O)[C@@H]1C[C@@H]2C(Sc3ccccc3)CC(=O)[C@H]3CC=CCN1[C@H]32",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:16][C:17](=[O:18])[C@H:19]3[CH2:20][CH:21]=[CH:22][CH2:23][N:24]1[C@@H:25]23.[SH:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>CCN(CC)CC.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]([S:9][c:10]3[cH:11][cH:12][cH:13][cH:14][cH:15]3)[CH2:16][C:17](=[O:18])[C@H:19]3[CH2:20][CH:21]=[CH:22][CH2:23][N:24]1[C@@H:25]23",
+      "mapping_confidence": 0.915282848820812,
+      "conditions": {
+        "raw_description": "PhSH; NEt3; CH2Cl2; 91%",
+        "GENERAL_REAGENTS": [
+          "PhSH",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)S",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_13",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C(Sc3ccccc3)CC(=O)[C@H]3CC=CCN1[C@H]32.[HH].C1CCC2=NCCCN2CC1.Cl[Rh][PH](c1ccccc1)(c1ccccc1)c1ccccc1.ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=CC(=O)[C@H]3CCCCN1[C@H]32",
+      "reaction_smiles_mapped": "c1ccc(S[CH:8]2[C@H:7]3[CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[N:17]4[CH2:16][CH:15]=[CH:14][CH2:13][C@H:12]([C:10](=[O:11])[CH2:9]2)[C@H:18]34)cc1>C1CCC2=NCCCN2CC1.ClCCl.Cl[Rh][PH](c1ccccc1)(c1ccccc1)c1ccccc1.[HH]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C:10](=[O:11])[C@H:12]3[CH2:13][CH2:14][CH2:15][CH2:16][N:17]1[C@@H:18]23",
+      "mapping_confidence": 0.9785116369576137,
+      "conditions": {
+        "raw_description": "1. (PPh3)3RhCl; H2; RT; 2. DBU; CH2Cl2; RT; 89%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [
+          "(PPh3)3RhCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Rh](Cl)(P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_14",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=CC(=O)[C@H]3CCCCN1[C@H]32.[BH4-].[Na+].O.O.O.O.O.O.O.[Ce+3].[Cl-].[Cl-].[Cl-]>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)[C@H]3CCCCN1[C@H]32",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C:10](=[O:11])[C@H:12]3[CH2:13][CH2:14][CH2:15][CH2:16][N:17]1[C@@H:18]23>O.O.O.O.O.O.O.[BH4-].[Ce+3].[Cl-].[Cl-].[Cl-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[C@H:12]3[CH2:13][CH2:14][CH2:15][CH2:16][N:17]1[C@@H:18]23",
+      "mapping_confidence": 0.9912182606705003,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3\u00b77H2O; 71%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3\u00b77H2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ce+3].[Cl-].[Cl-].[Cl-].O.O.O.O.O.O.O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_15",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O)[C@H]3CCCCN1[C@H]32.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.ClCCl>>COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32",
+      "reaction_smiles_mapped": "Cl[Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18].[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([OH:11])[C@H:19]3[CH2:20][CH2:21][CH2:22][CH2:23][N:24]1[C@@H:25]23>ClCCl.c1c[nH]cn1>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C@@H:7]2[CH:8]=[CH:9][C@@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[C@H:19]3[CH2:20][CH2:21][CH2:22][CH2:23][N:24]1[C@@H:25]23",
+      "mapping_confidence": 0.29325355652239155,
+      "conditions": {
+        "raw_description": "TBDMSCl; imidazole; CH2Cl2; RT; 97%",
+        "GENERAL_REAGENTS": [
+          "TBDMSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_16",
+      "reaction_smiles": "COC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32.CNOC.C[Al](C)Cl.ClCCl>>CON(C)C(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32",
+      "reaction_smiles_mapped": "[CH3:1][O:2][NH:3][CH3:4].CO[C:5](=[O:6])[C@@H:7]1[CH2:8][C@@H:9]2[CH:10]=[CH:11][C@@H:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@H:21]3[CH2:22][CH2:23][CH2:24][CH2:25][N:26]1[C@@H:27]23>C[Al](C)Cl.ClCCl>[CH3:1][O:2][N:3]([CH3:4])[C:5](=[O:6])[C@@H:7]1[CH2:8][C@@H:9]2[CH:10]=[CH:11][C@@H:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@H:21]3[CH2:22][CH2:23][CH2:24][CH2:25][N:26]1[C@@H:27]23",
+      "mapping_confidence": 0.3836351199595152,
+      "conditions": {
+        "raw_description": "(Me)(OMe)NH\u00b7HCl; Me2AlCl; CH2Cl2; RT; 94%",
+        "GENERAL_REAGENTS": [
+          "(Me)(OMe)NH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CNOC"
+        ],
+        "CATALYSTS": [
+          "Me2AlCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_17",
+      "reaction_smiles": "CON(C)C(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32.C[C@@H](CBr)[C@]12OCC[C@](C)(CO1)O2.[Li]C(c1ccccc1C(C)(C)C)c1cc(C(C)(C)C)cc2cccc(C(C)(C)C)c12>>C[C@@H](CC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32)[C@@]12OCC[C@@](C)(CO1)O2",
+      "reaction_smiles_mapped": "CON(C)[C:4](=[O:5])[C@@H:6]1[CH2:7][C@@H:8]2[CH:9]=[CH:10][C@@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]3[CH2:21][CH2:22][CH2:23][CH2:24][N:25]1[C@@H:26]23.Br[CH2:3][C@H:2]([CH3:1])[C@:27]12[O:28][CH2:29][CH2:30][C@:31]([CH3:32])([CH2:33][O:34]1)[O:35]2>[Li]C(c1ccccc1C(C)(C)C)c1cc(C(C)(C)C)cc2cccc(C(C)(C)C)c12>[CH3:1][C@@H:2]([CH2:3][C:4](=[O:5])[C@@H:6]1[CH2:7][C@@H:8]2[CH:9]=[CH:10][C@@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]3[CH2:21][CH2:22][CH2:23][CH2:24][N:25]1[C@@H:26]23)[C@@:27]12[O:28][CH2:29][CH2:30][C@@:31]([CH3:32])([CH2:33][O:34]1)[O:35]2",
+      "mapping_confidence": 0.3177292582507199,
+      "conditions": {
+        "raw_description": "LiBDD; 95%",
+        "GENERAL_REAGENTS": [
+          "LiBDD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(c1ccccc1C(C)(C)C)c1cc(C(C)(C)C)cc2cccc(C(C)(C)C)c12"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_18",
+      "reaction_smiles": "C[C@@H](CC(=O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32)[C@@]12OCC[C@@](C)(CO1)O2.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>C[C@@H](C[C@H](O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32)[C@@]12OCC[C@@](C)(CO1)O2",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([CH2:3][C:4](=[O:5])[C@@H:6]1[CH2:7][C@@H:8]2[CH:9]=[CH:10][C@@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]3[CH2:21][CH2:22][CH2:23][CH2:24][N:25]1[C@@H:26]23)[C@@:27]12[O:28][CH2:29][CH2:30][C@@:31]([CH3:32])([CH2:33][O:34]1)[O:35]2>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][C@@H:2]([CH2:3][C@H:4]([OH:5])[C@@H:6]1[CH2:7][C@@H:8]2[CH:9]=[CH:10][C@@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]3[CH2:21][CH2:22][CH2:23][CH2:24][N:25]1[C@@H:26]23)[C@@:27]12[O:28][CH2:29][CH2:30][C@@:31]([CH3:32])([CH2:33][O:34]1)[O:35]2",
+      "mapping_confidence": 0.31940294972356287,
+      "conditions": {
+        "raw_description": "L-Selectride; THF; -78 \u00b0C; 80% (7:1 dr)",
+        "GENERAL_REAGENTS": [
+          "L-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](C(C)CC)(C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "80% (dr=7:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_19",
+      "reaction_smiles": "C[C@@H](C[C@H](O)[C@@H]1C[C@@H]2C=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@H]3CCCCN1[C@H]32)[C@@]12OCC[C@@](C)(CO1)O2.Cc1ccc(S(=O)(=O)O)cc1.CO>>C[C@H]1C[C@@H]([C@@H]2C[C@@H]3C=C[C@@H](O)[C@H]4CCCCN2[C@H]43)OC1=O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:11][C@@H:10]1[CH:9]=[CH:8][C@H:7]2[CH2:6][C@@H:5]([C@@H:4](O)[CH2:3][C@H:2]([CH3:1])[C@:20]34OC[C@](C)(CC[O:21]3)[O:19]4)[N:17]3[CH2:16][CH2:15][CH2:14][CH2:13][C@H:12]1[C@H:18]23>CO.Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][C@H:2]1[CH2:3][C@@H:4]([C@@H:5]2[CH2:6][C@@H:7]3[CH:8]=[CH:9][C@@H:10]([OH:11])[C@H:12]4[CH2:13][CH2:14][CH2:15][CH2:16][N:17]2[C@@H:18]34)[O:19][C:20]1=[O:21]",
+      "mapping_confidence": 0.2567505363090016,
+      "conditions": {
+        "raw_description": "TsOH; MeOH; 70%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_20",
+      "reaction_smiles": "C[C@H]1C[C@@H]([C@@H]2C[C@@H]3C=C[C@@H](O)[C@H]4CCCCN2[C@H]43)OC1=O.COC(C)(OC)N(C)C.Cc1ccccc1C>>C[C@H]1C[C@@H]([C@@H]2C[C@H]3[C@H]4[C@@H](C=C[C@@H]3CC(=O)N(C)C)CCCCN42)OC1=O",
+      "reaction_smiles_mapped": "CO[C:14]([CH3:13])([O:15]C)[N:16]([CH3:17])[CH3:18].O[C@H:10]1[C@@H:9]2[C@@H:8]3[C@H:7]([CH2:6][C@@H:5]([C@@H:4]4[CH2:3][C@H:2]([CH3:1])[C:25](=[O:26])[O:24]4)[N:23]3[CH2:22][CH2:21][CH2:20][CH2:19]2)[CH:12]=[CH:11]1>Cc1ccccc1C>[CH3:1][C@H:2]1[CH2:3][C@@H:4]([C@@H:5]2[CH2:6][C@H:7]3[C@H:8]4[C@@H:9]([CH:10]=[CH:11][C@@H:12]3[CH2:13][C:14](=[O:15])[N:16]([CH3:17])[CH3:18])[CH2:19][CH2:20][CH2:21][CH2:22][N:23]24)[O:24][C:25]1=[O:26]",
+      "mapping_confidence": 0.22955733467559292,
+      "conditions": {
+        "raw_description": "N,N-Dimethylacetamide dimethylacetal; xylenes; 130-140 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "N,N-Dimethylacetamide dimethylacetal"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(N(C)C)(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "xylenes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130",
+          "140"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_21",
+      "reaction_smiles": "C[C@H]1C[C@@H]([C@@H]2C[C@H]3[C@H]4[C@@H](C=C[C@@H]3CC(=O)N(C)C)CCCCN42)OC1=O.Cl[Se]c1ccccc1.CC#N.O>>C[C@H]1C[C@@H]([C@@H]2C[C@@H]3[C@H]4CC(=O)O[C@H]4[C@H]([Se]c4ccccc4)[C@H]4CCCCN2[C@@H]34)OC1=O",
+      "reaction_smiles_mapped": "CN(C)[C:10]([CH2:9][C@@H:8]1[C@H:7]2[CH2:6][C@@H:5]([C@@H:4]3[CH2:3][C@H:2]([CH3:1])[C:30](=[O:31])[O:29]3)[N:27]3[CH2:26][CH2:25][CH2:24][CH2:23][C@H:22]([CH:14]=[CH:13]1)[C@H:28]23)=[O:11].Cl[Se:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1.[OH2:12]>CC#N>[CH3:1][C@H:2]1[CH2:3][C@@H:4]([C@@H:5]2[CH2:6][C@@H:7]3[C@H:8]4[CH2:9][C:10](=[O:11])[O:12][C@H:13]4[C@H:14]([Se:15][c:16]4[cH:17][cH:18][cH:19][cH:20][cH:21]4)[C@H:22]4[CH2:23][CH2:24][CH2:25][CH2:26][N:27]2[C@@H:28]34)[O:29][C:30]1=[O:31]",
+      "mapping_confidence": 0.919872087822922,
+      "conditions": {
+        "raw_description": "PhSeCl; MeCN/H2O; 0\u00b0C; 67%",
+        "GENERAL_REAGENTS": [
+          "PhSeCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)[Se]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_22",
+      "reaction_smiles": "C[C@H]1C[C@@H]([C@@H]2C[C@@H]3[C@H]4CC(=O)O[C@H]4[C@H]([Se]c4ccccc4)[C@H]4CCCCN2[C@@H]34)OC1=O.C=CC[Sn](c1ccccc1)(c1ccccc1)c1ccccc1.CC(C)(C#N)N=NC(C)(C)C#N>>C=CC[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@H]2CC(=O)O[C@@H]12",
+      "reaction_smiles_mapped": "c1ccc([Sn](c2ccccc2)(c2ccccc2)[CH2:3][CH:2]=[CH2:1])cc1.c1ccc([Se][C@@H:4]2[C@H:5]3[CH2:6][CH2:7][CH2:8][CH2:9][N:10]4[C@H:11]3[C@H:12]([CH2:13][C@H:14]4[C@@H:15]3[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]3)[C@H:22]3[CH2:23][C:24](=[O:25])[O:26][C@@H:27]23)cc1>CC(C)(C#N)N=NC(C)(C)C#N>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][N:10]3[C@H:11]2[C@H:12]([CH2:13][C@H:14]3[C@@H:15]2[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]2)[C@H:22]2[CH2:23][C:24](=[O:25])[O:26][C@@H:27]12",
+      "mapping_confidence": 0.9485475312652609,
+      "conditions": {
+        "raw_description": "AIBN; allyltriphenyltin (neat); 95\u00b0C; 70%",
+        "GENERAL_REAGENTS": [
+          "allyltriphenyltin (neat)"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Sn](CC=C)(c1ccccc1)(c1ccccc1)c1ccccc1"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_23",
+      "reaction_smiles": "C=CC[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@H]2CC(=O)O[C@@H]12.[Li]N(C(C)C)C(C)C.CI.C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C>>C=CC[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][N:10]3[C@H:11]2[C@H:12]([CH2:13][C@H:14]3[C@@H:15]2[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]2)[C@@H:22]2[C@H:23]1[O:24][C:25](=[O:26])[CH2:27]2.I[CH3:28]>C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C.[Li]N(C(C)C)C(C)C>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][N:10]3[C@H:11]2[C@H:12]([CH2:13][C@H:14]3[C@@H:15]2[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]2)[C@@H:22]2[C@H:23]1[O:24][C:25](=[O:26])[C@H:27]2[CH3:28]",
+      "mapping_confidence": 0.9554232712371709,
+      "conditions": {
+        "raw_description": "LDA; HMPA; THF; -78\u00b0C; CH3I; 76%",
+        "GENERAL_REAGENTS": [
+          "LDA",
+          "CH3I"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "HMPA"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_24",
+      "reaction_smiles": "C=CC[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)(=Cc2ccccc2)[PH](C2CCCCC2)(C2CCCCC2)C2CCCCC2)c(C)c1.C=CCNC(c1ccccc1)(c1ccccc1)c1ccccc1.CCN(C(C)C)C(C)C.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cc1ccccc1>>CC=C[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][N:10]3[C@H:11]2[C@H:12]([CH2:13][C@H:14]3[C@@H:15]2[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]2)[C@@H:22]2[C@H:23]1[O:24][C:25](=[O:26])[C@H:27]2[CH3:28]>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.C=CCNC(c1ccccc1)(c1ccccc1)c1ccccc1.CCN(C(C)C)C(C)C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)(=Cc2ccccc2)[PH](C2CCCCC2)(C2CCCCC2)C2CCCCC2)c(C)c1.Cc1ccccc1>[CH3:1][CH:2]=[CH:3][C@@H:4]1[C@H:5]2[CH2:6][CH2:7][CH2:8][CH2:9][N:10]3[C@H:11]2[C@H:12]([CH2:13][C@H:14]3[C@@H:15]2[CH2:16][C@H:17]([CH3:18])[C:19](=[O:20])[O:21]2)[C@@H:22]2[C@H:23]1[O:24][C:25](=[O:26])[C@H:27]2[CH3:28]",
+      "mapping_confidence": 0.9578324470563593,
+      "conditions": {
+        "raw_description": "Grubbs II; allyltritylamine; DIPEA; toluene; 110 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "allyltritylamine",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CCNC(c1ccccc1)(c2ccccc2)c3ccccc3",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_25",
+      "reaction_smiles": "CC=C[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru]2(Cl)(Cl)=Cc3ccccc3C2)c(C)c1.Cc1ccc(S(=O)(=O)O)cc1.C=C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>>C=C[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C",
+      "reaction_smiles_mapped": "C[CH:1]=[CH:2][C@@H:3]1[C@H:4]2[CH2:5][CH2:6][CH2:7][CH2:8][N:9]3[C@H:10]2[C@H:11]([CH2:12][C@H:13]3[C@@H:14]2[CH2:15][C@H:16]([CH3:17])[C:18](=[O:19])[O:20]2)[C@@H:21]2[C@H:22]1[O:23][C:24](=[O:25])[C@H:26]2[CH3:27]>C=C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru]2(Cl)(Cl)=Cc3ccccc3C2)c(C)c1.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH2:1]=[CH:2][C@@H:3]1[C@H:4]2[CH2:5][CH2:6][CH2:7][CH2:8][N:9]3[C@H:10]2[C@H:11]([CH2:12][C@H:13]3[C@@H:14]2[CH2:15][C@H:16]([CH3:17])[C:18](=[O:19])[O:20]2)[C@@H:21]2[C@H:22]1[O:23][C:24](=[O:25])[C@H:26]2[CH3:27]",
+      "mapping_confidence": 0.7414319733648724,
+      "conditions": {
+        "raw_description": "Hoveyda-Grubbs II; TsOH; ethylene; CH2Cl2; reflux; 81%",
+        "GENERAL_REAGENTS": [
+          "TsOH",
+          "ethylene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O",
+          "C=C"
+        ],
+        "CATALYSTS": [
+          "Hoveyda-Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tuberostemonine_2005_Wipf_26",
+      "reaction_smiles": "C=C[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C.[HH].[C].[Pd].CO>>CC[C@@H]1[C@H]2CCCCN3[C@H]2[C@H](C[C@H]3[C@@H]2C[C@H](C)C(=O)O2)[C@@H]2[C@H]1OC(=O)[C@H]2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@H:3]1[C@H:4]2[CH2:5][CH2:6][CH2:7][CH2:8][N:9]3[C@H:10]2[C@H:11]([CH2:12][C@H:13]3[C@@H:14]2[CH2:15][C@H:16]([CH3:17])[C:18](=[O:19])[O:20]2)[C@@H:21]2[C@H:22]1[O:23][C:24](=[O:25])[C@H:26]2[CH3:27]>CO.[C].[HH].[Pd]>[CH3:1][CH2:2][C@@H:3]1[C@H:4]2[CH2:5][CH2:6][CH2:7][CH2:8][N:9]3[C@H:10]2[C@H:11]([CH2:12][C@H:13]3[C@@H:14]2[CH2:15][C@H:16]([CH3:17])[C:18](=[O:19])[O:20]2)[C@@H:21]2[C@H:22]1[O:23][C:24](=[O:25])[C@H:26]2[CH3:27]",
+      "mapping_confidence": 0.9896365551651837,
+      "conditions": {
+        "raw_description": "H2 (1 atm); Pd/C; MeOH; 97%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    }
+  ]
+}

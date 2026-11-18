@@ -1,0 +1,269 @@
+{
+  "background": {
+    "name": "Deucravacitinib",
+    "author": null,
+    "year": 2022,
+    "drug_name": "Sotyktu",
+    "manufacturer": "BMS",
+    "citation": "Pharmaceutics 2022, 14, 2538",
+    "doi": "10.3390/pharmaceutics14112538"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_1",
+      "reaction_smiles": "COC(=O)c1cccc([N+](=O)[O-])c1O.CI.O=C([O-])[O-].[K+].[K+].CN(C)C=O.O=C([O-])[O-].[K+].[K+]>>COC(=O)c1cccc([N+](=O)[O-])c1OC",
+      "reaction_smiles_mapped": "I[CH3:15].[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][c:9]([N+:10](=[O:11])[O-:12])[c:13]1[OH:14]>CN(C)C=O.O=C([O-])[O-].O=C([O-])[O-].[K+].[K+].[K+].[K+]>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][c:9]([N+:10](=[O:11])[O-:12])[c:13]1[O:14][CH3:15]",
+      "mapping_confidence": 0.8854191988222442,
+      "conditions": {
+        "raw_description": "CH3I; K2CO3; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "CH3I",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_2",
+      "reaction_smiles": "COC(=O)c1cccc([N+](=O)[O-])c1OC.[NH4+].[OH-].N.CO>>COc1c(C(N)=O)cccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "CO[C:5]([c:4]1[c:3]([O:2][CH3:1])[c:11]([N+:12](=[O:13])[O-:14])[cH:10][cH:9][cH:8]1)=[O:7].[NH3:6]>CO.[NH4+].[OH-]>[CH3:1][O:2][c:3]1[c:4]([C:5]([NH2:6])=[O:7])[cH:8][cH:9][cH:10][c:11]1[N+:12](=[O:13])[O-:14]",
+      "mapping_confidence": 0.5853036054180409,
+      "conditions": {
+        "raw_description": "NH4OH; NH3; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "NH4OH",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[OH-]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_3",
+      "reaction_smiles": "COc1c(C(N)=O)cccc1[N+](=O)[O-].CN(C)C=O.CC(=O)N(C)C.COC(OC)N(C)C>>COc1c(C(=O)/N=C/N(C)C)cccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "CO[CH:8](OC)[N:9]([CH3:10])[CH3:11].[CH3:1][O:2][c:3]1[c:4]([C:5](=[O:6])[NH2:7])[cH:12][cH:13][cH:14][c:15]1[N+:16](=[O:17])[O-:18]>CC(=O)N(C)C.CN(C)C=O>[CH3:1][O:2][c:3]1[c:4]([C:5](=[O:6])/[N:7]=[CH:8]/[N:9]([CH3:10])[CH3:11])[cH:12][cH:13][cH:14][c:15]1[N+:16](=[O:17])[O-:18]",
+      "mapping_confidence": 0.2988664501990385,
+      "conditions": {
+        "raw_description": "DMF-DMA; 95 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DMF-DMA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN(C)C(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_4",
+      "reaction_smiles": "COc1c(C(=O)/N=C/N(C)C)cccc1[N+](=O)[O-].NN.CCO.CC(=O)O>>COc1c(-c2nc[nH]n2)cccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "CN(C)/[CH:7]=[N:6]/[C:5](=O)[c:4]1[c:3]([O:2][CH3:1])[c:13]([N+:14](=[O:15])[O-:16])[cH:12][cH:11][cH:10]1.[NH2:8][NH2:9]>CC(=O)O.CCO>[CH3:1][O:2][c:3]1[c:4](-[c:5]2[n:6][cH:7][nH:8][n:9]2)[cH:10][cH:11][cH:12][c:13]1[N+:14](=[O:15])[O-:16]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "N2H4; EtOH; AcOH; rt",
+        "GENERAL_REAGENTS": [
+          "N2H4",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_5",
+      "reaction_smiles": "COc1c(-c2nc[nH]n2)cccc1[N+](=O)[O-].C[Si](C)(C)[N-][Si](C)(C)C.[K+].CI.C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[K+]>>COc1c(-c2ncn(C)n2)cccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "I[CH3:9].[CH3:1][O:2][c:3]1[c:4](-[c:5]2[n:6][cH:7][nH:8][n:10]2)[cH:11][cH:12][cH:13][c:14]1[N+:15](=[O:16])[O-:17]>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].[K+]>[CH3:1][O:2][c:3]1[c:4](-[c:5]2[n:6][cH:7][n:8]([CH3:9])[n:10]2)[cH:11][cH:12][cH:13][c:14]1[N+:15](=[O:16])[O-:17]",
+      "mapping_confidence": 0.933997953246183,
+      "conditions": {
+        "raw_description": "KHMDS; CH3I; THF; rt",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "CH3I"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_6",
+      "reaction_smiles": "COc1c(-c2ncn(C)n2)cccc1[N+](=O)[O-].[Pd].[H][H].CCO.[HH].[C].[Pd]>>COc1c(N)cccc1-c1ncn(C)n1",
+      "reaction_smiles_mapped": "O=[N+:5]([O-])[c:4]1[c:3]([O:2][CH3:1])[c:9](-[c:10]2[n:11][cH:12][n:13]([CH3:14])[n:15]2)[cH:8][cH:7][cH:6]1>CCO.[C].[HH].[H][H].[Pd].[Pd]>[CH3:1][O:2][c:3]1[c:4]([NH2:5])[cH:6][cH:7][cH:8][c:9]1-[c:10]1[n:11][cH:12][n:13]([CH3:14])[n:15]1",
+      "mapping_confidence": 0.9578771892779804,
+      "conditions": {
+        "raw_description": "Pd/C; H2; EtOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_7",
+      "reaction_smiles": "COc1c(N)cccc1-c1ncn(C)n1.[2H]C([2H])([2H])NC(=O)c1nnc(Cl)cc1Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>>[2H]C([2H])([2H])NC(=O)c1nnc(Cl)cc1Nc1cccc(-c2ncn(C)n2)c1OC",
+      "reaction_smiles_mapped": "[NH2:15][c:16]1[cH:17][cH:18][cH:19][c:20](-[c:21]2[n:22][cH:23][n:24]([CH3:25])[n:26]2)[c:27]1[O:28][CH3:29].Cl[c:14]1[c:8]([C:6]([NH:5][C:2]([2H:1])([2H:3])[2H:4])=[O:7])[n:9][n:10][c:11]([Cl:12])[cH:13]1>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].[Li]N([Si](C)(C)C)[Si](C)(C)C>[2H:1][C:2]([2H:3])([2H:4])[NH:5][C:6](=[O:7])[c:8]1[n:9][n:10][c:11]([Cl:12])[cH:13][c:14]1[NH:15][c:16]1[cH:17][cH:18][cH:19][c:20](-[c:21]2[n:22][cH:23][n:24]([CH3:25])[n:26]2)[c:27]1[O:28][CH3:29]",
+      "mapping_confidence": 0.6330133999382053,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; rt",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Deucravacitinib_2022_BMS_8",
+      "reaction_smiles": "[2H]C([2H])([2H])NC(=O)c1nnc(Cl)cc1Nc1cccc(-c2ncn(C)n2)c1OC.NC(=O)C1CC1.O=P([O-])([O-])[O-].[K+].[K+].[K+].O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].[CH]1[CH][CH][C](P(c2ccccc2)c2ccccc2)[CH]1.[CH]1[CH][CH][C](P(c2ccccc2)c2ccccc2)[CH]1.[Fe].C1COCCO1>>[2H]C([2H])([2H])NC(=O)c1nnc(NC(=O)C2CC2)cc1Nc1cccc(-c2ncn(C)n2)c1OC",
+      "reaction_smiles_mapped": "[NH2:12][C:13](=[O:14])[CH:15]1[CH2:16][CH2:17]1.Cl[c:11]1[n:10][n:9][c:8]([C:6]([NH:5][C:2]([2H:1])([2H:3])[2H:4])=[O:7])[c:19]([NH:20][c:21]2[cH:22][cH:23][cH:24][c:25](-[c:26]3[n:27][cH:28][n:29]([CH3:30])[n:31]3)[c:32]2[O:33][CH3:34])[cH:18]1>C1COCCO1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=P([O-])([O-])[O-].[CH]1[CH][CH][C](P(c2ccccc2)c2ccccc2)[CH]1.[CH]1[CH][CH][C](P(c2ccccc2)c2ccccc2)[CH]1.[Fe].[K+].[K+].[K+].[Pd].[Pd]>[2H:1][C:2]([2H:3])([2H:4])[NH:5][C:6](=[O:7])[c:8]1[n:9][n:10][c:11]([NH:12][C:13](=[O:14])[CH:15]2[CH2:16][CH2:17]2)[cH:18][c:19]1[NH:20][c:21]1[cH:22][cH:23][cH:24][c:25](-[c:26]2[n:27][cH:28][n:29]([CH3:30])[n:31]2)[c:32]1[O:33][CH3:34]",
+      "mapping_confidence": 0.6337359959176889,
+      "conditions": {
+        "raw_description": "Pd2(dba)3; dppf; K3PO4; dioxane; 85 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [
+          "dppf"
+        ],
+        "LIGANDS_SMILES": [
+          "[C]1(P(c2ccccc2)c3ccccc3)[CH][CH][CH][CH]1.[C]4(P(c5ccccc5)c6ccccc6)[CH][CH][CH][CH]4.[Fe]"
+        ],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

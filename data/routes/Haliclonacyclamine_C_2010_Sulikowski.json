@@ -1,0 +1,205 @@
+{
+  "background": {
+    "name": "(+/-)-Haliclonacyclamine C",
+    "author": "Sulikowski",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2010, 49, 1599",
+    "doi": "10.1002/anie.200905732"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_1",
+      "reaction_smiles": "O=C1CCCC(=O)N1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.C1CCOC1.OCCCCCOCc1ccccc1>>O=C1CCCC(=O)N1CCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[NH:8]1.O[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1>c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.C1CCOC1>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[N:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1",
+      "mapping_confidence": 0.8051226790742684,
+      "conditions": {
+        "raw_description": "BnO(CH2)5OH; PPh3; DIAD; THF; 91%",
+        "GENERAL_REAGENTS": [
+          "BnO(CH2)5OH",
+          "DIAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1COCCCCCO",
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_2",
+      "reaction_smiles": "O=C1CCCC(=O)N1CCCCCOCc1ccccc1.[Na+].[BH4-].CCO>>O=C1CCCC(O)N1CCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[N:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1>[Na+].[BH4-].CCO>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][CH:6]([OH:7])[N:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1",
+      "mapping_confidence": 0.7900600311969374,
+      "conditions": {
+        "raw_description": "NaBH4; EtOH; -20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_3",
+      "reaction_smiles": "O=C1CCCC(O)N1CCCCCOCc1ccccc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F.C1CCOC1>>O=C1CCC=CN1CCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "O[CH:6]1[CH2:5][CH2:4][CH2:3][C:2](=[O:1])[N:7]1[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1>O=C(OC(=O)C(F)(F)F)C(F)(F)F.C1CCOC1>[O:1]=[C:2]1[CH2:3][CH2:4][CH:5]=[CH:6][N:7]1[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.8660763477058262,
+      "conditions": {
+        "raw_description": "TFAA; THF; 79% over two steps",
+        "GENERAL_REAGENTS": [
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79% over two steps"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_4",
+      "reaction_smiles": "O=C1CCC=CN1CCCCCOCc1ccccc1.ClI.ClCCl.CO>>COC1C(I)CCC(=O)N1CCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].Cl[I:5].[CH:3]1=[CH:4][CH2:6][CH2:7][C:8](=[O:9])[N:10]1[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1>ClCCl>[CH3:1][O:2][CH:3]1[CH:4]([I:5])[CH2:6][CH2:7][C:8](=[O:9])[N:10]1[CH2:11][CH2:12][CH2:13][CH2:14][CH2:15][O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+      "mapping_confidence": 0.8930104617560044,
+      "conditions": {
+        "raw_description": "ICl; DCM; MeOH; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "ICl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_5",
+      "reaction_smiles": "COC1C(I)CCC(=O)N1CCCCCOCc1ccccc1.Cc1ccccc1.O=C(O)C(F)(F)F>>O=C1CCC(I)=CN1CCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "CO[CH:7]1[CH:5]([I:6])[CH2:4][CH2:3][C:2](=[O:1])[N:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1>Cc1ccccc1.O=C(O)C(F)(F)F>[O:1]=[C:2]1[CH2:3][CH2:4][C:5]([I:6])=[CH:7][N:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1",
+      "mapping_confidence": 0.8494007122138604,
+      "conditions": {
+        "raw_description": "TFA; toluene; 145 \u00b0C; 66% over two steps",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "145"
+        ],
+        "YIELD": [
+          "66% over two steps"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haliclonacyclamine_C_2010_Sulikowski_6",
+      "reaction_smiles": "O=C1CCC(I)=CN1CCCCCOCc1ccccc1.C=CCCCCI.C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>>C=CCCCC[C@@H]1CC(I)=CN(CCCCCOCc2ccccc2)C1=O",
+      "reaction_smiles_mapped": "I[CH2:6][CH2:5][CH2:4][CH2:3][CH:2]=[CH2:1].[CH2:7]1[CH2:8][C:9]([I:10])=[CH:11][N:12]([CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][O:18][CH2:19][c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]1=[O:27]>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH2:1]=[CH:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][C:9]([I:10])=[CH:11][N:12]([CH2:13][CH2:14][CH2:15][CH2:16][CH2:17][O:18][CH2:19][c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]1=[O:27]",
+      "mapping_confidence": 0.8321983777560429,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; -78 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

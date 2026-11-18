@@ -1,0 +1,200 @@
+{
+  "background": {
+    "name": "Triquinacene",
+    "author": "Deslongchamps",
+    "year": 1978,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Can. J. Chem. 1978, 56, 1687",
+    "doi": "10.1139/v78-274"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_1",
+      "reaction_smiles": "O=C(O)C1=C[C@@H]2[C@@H](C1)[C@@H]1C[C@H]2C=C1C(=O)O.[N-]=[N+]=[N-].[Na+].O=S(=O)(O)O.O=C(O)C(F)(F)F>>O=C1C[C@H]2[C@H]3CC(=O)[C@H](C3)[C@H]2C1",
+      "reaction_smiles_mapped": "O=C([C:7]1=[CH:6][C@H:5]2[C@@H:4]3[CH:3]=[C:2](C(O)=[O:1])[C@H:11]([C@@H:10]2[CH2:9]1)[CH2:12]3)[OH:8]>[N-]=[N+]=[N-].[Na+].O=S(=O)(O)O.O=C(O)C(F)(F)F>[O:1]=[C:2]1[CH2:3][C@H:4]2[C@H:5]3[CH2:6][C:7](=[O:8])[C@H:9]([CH2:10]3)[C@H:11]2[CH2:12]1",
+      "mapping_confidence": 0.03221605414328078,
+      "conditions": {
+        "raw_description": "NaN3; H2SO4; TFA; 50\u00b0C; 35%",
+        "GENERAL_REAGENTS": [
+          "NaN3",
+          "H2SO4",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]",
+          "OS(=O)(=O)O",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "35%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_2",
+      "reaction_smiles": "O=C1C[C@H]2[C@H]3CC(=O)[C@H](C3)[C@H]2C1.CO>>O=CC[C@H]1C=C[C@H]2CC(=O)C[C@@H]12",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][C@@H:6]1[C@H:7]1[CH2:8][C:9](=[O:10])[CH2:11][C@@H:12]21>CO>[O:1]=[CH:2][CH2:3][C@H:4]1[CH:5]=[CH:6][C@H:7]2[CH2:8][C:9](=[O:10])[CH2:11][C@@H:12]12",
+      "mapping_confidence": 0.6668292618233631,
+      "conditions": {
+        "raw_description": "h\u03bd; MeOH; RT",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_3",
+      "reaction_smiles": "O=CC[C@H]1C=C[C@H]2CC(=O)C[C@@H]12.Cl.CC(C)=O.O>>O=C1C[C@@H]2C=C[C@@H]3C[C@@H](O)[C@H]1[C@@H]32",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH:5]=[CH:6][C@H:7]([CH2:8][CH:9]=[O:10])[C@@H:12]2[CH2:11]1>Cl.CC(C)=O.O>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH:5]=[CH:6][C@@H:7]3[CH2:8][C@@H:9]([OH:10])[C@H:11]1[C@H:12]23",
+      "mapping_confidence": 0.8916064920541077,
+      "conditions": {
+        "raw_description": "HCl; Acetone; H2O",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_4",
+      "reaction_smiles": "O=C1C[C@@H]2C=C[C@@H]3C[C@@H](O)[C@H]1[C@@H]32.[AlH4-].[Li+].CCOCC>>O[C@@H]1C[C@H]2C=C[C@H]3C[C@@H](O)[C@@H]1[C@@H]23",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH:5]=[CH:6][C@@H:7]3[CH2:8][C@@H:9]([OH:10])[C@H:11]1[C@H:12]23>CCOCC.[AlH4-].[Li+]>[OH:1][C@@H:2]1[CH2:3][C@H:4]2[CH:5]=[CH:6][C@H:7]3[CH2:8][C@@H:9]([OH:10])[C@@H:11]1[C@@H:12]23",
+      "mapping_confidence": 0.970158328961977,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; reflux; 55% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_5",
+      "reaction_smiles": "O[C@@H]1C[C@H]2C=C[C@H]3C[C@@H](O)[C@@H]1[C@@H]23.CS(=O)(=O)Cl.CS(=O)(=O)Cl.c1ccncc1.ClCCl>>CS(=O)(=O)O[C@@H]1C[C@H]2C=C[C@H]3C[C@@H](OS(C)(=O)=O)[C@@H]1[C@@H]23",
+      "reaction_smiles_mapped": "Cl[S:2]([CH3:1])(=[O:3])=[O:4].Cl[S:15]([CH3:16])(=[O:17])=[O:18].[OH:5][C@@H:6]1[CH2:7][C@H:8]2[CH:9]=[CH:10][C@H:11]3[CH2:12][C@@H:13]([OH:14])[C@@H:19]1[C@@H:20]23>ClCCl.c1ccncc1>[CH3:1][S:2](=[O:3])(=[O:4])[O:5][C@@H:6]1[CH2:7][C@H:8]2[CH:9]=[CH:10][C@H:11]3[CH2:12][C@@H:13]([O:14][S:15]([CH3:16])(=[O:17])=[O:18])[C@@H:19]1[C@@H:20]23",
+      "mapping_confidence": 0.17891601121190204,
+      "conditions": {
+        "raw_description": "MsCl; pyridine; DCM; -30\u00b0C to 0\u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "pyridine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30",
+          "0"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Triquinacene_1978_Deslongchamps_6",
+      "reaction_smiles": "CS(=O)(=O)O[C@@H]1C[C@H]2C=C[C@H]3C[C@@H](OS(C)(=O)=O)[C@@H]1[C@@H]23.[Al+3].[Al+3].[O-2].[O-2].[O-2].ClCCl>>C1=CC2C=CC3C=CC1C23",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[C@@H:2]1[CH2:1][C@@H:9]2[CH:8]=[CH:7][C@@H:6]3[CH2:5][C@@H:4](OS(C)(=O)=O)[C@H:3]1[C@@H:10]32>ClCCl.[Al+3].[Al+3].[O-2].[O-2].[O-2]>[CH:1]1=[CH:2][CH:3]2[CH:4]=[CH:5][CH:6]3[CH:7]=[CH:8][CH:9]1[CH:10]23",
+      "mapping_confidence": 0.4654069136347075,
+      "conditions": {
+        "raw_description": "Al2O3; DCM; RT; 57%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Al2O3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al+3].[Al+3].[O-2].[O-2].[O-2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    }
+  ]
+}

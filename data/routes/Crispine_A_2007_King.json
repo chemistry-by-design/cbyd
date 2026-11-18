@@ -1,0 +1,157 @@
+{
+  "background": {
+    "name": "(+/-)-Crispine A",
+    "author": "King",
+    "year": 2007,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron 2007, 63, 2053",
+    "doi": "10.1016/j.tet.2006.12.041"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Crispine_A_2007_King_1",
+      "reaction_smiles": "COc1cc2c(cc1OC)C1CCCN1C(=O)C2.O=S(=O)(O)O.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>>COc1cc2c(cc1OC)C1CCCN1CC2",
+      "reaction_smiles_mapped": "O=[C:16]1[N:15]2[CH:11]([c:6]3[c:5]([cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH3:10])[cH:7]3)[CH2:17]1)[CH2:12][CH2:13][CH2:14]2>O=S(=O)(O)O.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[CH:11]1[CH2:12][CH2:13][CH2:14][N:15]1[CH2:16][CH2:17]2",
+      "mapping_confidence": 0.9904290087650094,
+      "conditions": {
+        "raw_description": "conc. H2SO4; LiAlH4; THF; 0 \u00b0C to rt; 14 h; 80%",
+        "GENERAL_REAGENTS": [
+          "H2SO4",
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O",
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2007_King_2",
+      "reaction_smiles": "COc1ccc(CC(=O)Cl)cc1OC.CCOC(CCCN)OCC.CCN(CC)CC.ClCCl>>CCOC(CCCNC(=O)Cc1ccc(OC)c(OC)c1)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][CH:4]([CH2:5][CH2:6][CH2:7][NH2:8])[O:22][CH2:23][CH3:24].Cl[C:9](=[O:10])[CH2:11][c:12]1[cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]([O:19][CH3:20])[cH:21]1>CCN(CC)CC.ClCCl>[CH3:1][CH2:2][O:3][CH:4]([CH2:5][CH2:6][CH2:7][NH:8][C:9](=[O:10])[CH2:11][c:12]1[cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]([O:19][CH3:20])[cH:21]1)[O:22][CH2:23][CH3:24]",
+      "mapping_confidence": 0.9396969528206857,
+      "conditions": {
+        "raw_description": "Et3N; CH2Cl2; 0 \u00b0C to rt; 2 h; 80%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2007_King_3",
+      "reaction_smiles": "CCOC(CCCNC(=O)Cc1ccc(OC)c(OC)c1)OCC.Cl.CCOC(C)=O.CCOCC.ClCCl.CCO.O=C(O)C(F)(F)F>>COc1ccc(CC(=O)N2CCCC2O)cc1OC",
+      "reaction_smiles_mapped": "CCO[CH:14]([CH2:13][CH2:12][CH2:11][NH:10][C:8]([CH2:7][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:17]([O:18][CH3:19])[cH:16]1)=[O:9])[O:15]CC>Cl.CCOC(C)=O.CCOCC.ClCCl.CCO.O=C(O)C(F)(F)F>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][C:8](=[O:9])[N:10]2[CH2:11][CH2:12][CH2:13][CH:14]2[OH:15])[cH:16][c:17]1[O:18][CH3:19]",
+      "mapping_confidence": 0.601542618887557,
+      "conditions": {
+        "raw_description": "1) 2M HCl; EtOAc/Et2O; rt; 1 h; 2) 3 \u00c5 mol. sieves; TFA; CH2Cl2; EtOH; rt; 3 h; 99% (two steps)",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "Et2O",
+          "CH2Cl2",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CCOCC",
+          "C(Cl)Cl",
+          "CCO"
+        ],
+        "MODIFIERS": [
+          "3 \u00c5 mol. sieves",
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "rt",
+          "rt"
+        ],
+        "YIELD": [
+          "99% (two steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Crispine_A_2007_King_4",
+      "reaction_smiles": "COc1ccc(CC(=O)N2CCCC2O)cc1OC.Cl[Al](Cl)Cl.ClCCl>>COc1cc2c(cc1OC)C1CCCN1C(=O)C2",
+      "reaction_smiles_mapped": "O[CH:11]1[CH2:12][CH2:13][CH2:14][N:15]1[C:16](=[O:17])[CH2:18][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH3:10])[cH:7]1>Cl[Al](Cl)Cl.ClCCl>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH3:10])[CH:11]1[CH2:12][CH2:13][CH2:14][N:15]1[C:16](=[O:17])[CH2:18]2",
+      "mapping_confidence": 0.9006693753756904,
+      "conditions": {
+        "raw_description": "AlCl3; CH2Cl2; rt; 2 h; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    }
+  ]
+}

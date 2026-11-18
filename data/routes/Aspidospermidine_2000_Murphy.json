@@ -1,0 +1,604 @@
+{
+  "background": {
+    "name": "(+/-)-Aspidospermidine",
+    "author": "Murphy",
+    "year": 2000,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2000, 2, 3599",
+    "doi": "10.1021/ol006477x"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_1",
+      "reaction_smiles": "O=C1CCCC(=O)C1.C=CCBr.[K+].[OH-].[Cu].O>>C=CCC1C(=O)CCCC1=O",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[CH2:4]1[C:5](=[O:6])[CH2:7][CH2:8][CH2:9][C:10]1=[O:11]>O.[Cu].[K+].[OH-]>[CH2:1]=[CH:2][CH2:3][CH:4]1[C:5](=[O:6])[CH2:7][CH2:8][CH2:9][C:10]1=[O:11]",
+      "mapping_confidence": 0.665465832081288,
+      "conditions": {
+        "raw_description": "KOH; Cu; H2O; 0 \u00b0C to rt; 65%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_2",
+      "reaction_smiles": "C=CCC1C(=O)CCCC1=O.CC(C)CO.c1ccccc1>>C=CCC1=C(OCC(C)C)CCCC1=O",
+      "reaction_smiles_mapped": "O=[C:5]1[CH:4]([CH2:3][CH:2]=[CH2:1])[C:14](=[O:15])[CH2:13][CH2:12][CH2:11]1.[OH:6][CH2:7][CH:8]([CH3:9])[CH3:10]>c1ccccc1>[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([O:6][CH2:7][CH:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][CH2:13][C:14]1=[O:15]",
+      "mapping_confidence": 0.67669914993085,
+      "conditions": {
+        "raw_description": "Benzene; reflux; 58%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_3",
+      "reaction_smiles": "C=CCC1=C(OCC(C)C)CCCC1=O.[Li]N(C(C)C)C(C)C.CC=O>>C=CCC1=C(OCC(C)C)CCC(C(C)O)C1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([O:6][CH2:7][CH:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][CH2:13][C:17]1=[O:18].[CH:14]([CH3:15])=[O:16]>[Li]N(C(C)C)C(C)C>[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([O:6][CH2:7][CH:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][CH:13]([CH:14]([CH3:15])[OH:16])[C:17]1=[O:18]",
+      "mapping_confidence": 0.790579828972761,
+      "conditions": {
+        "raw_description": "LDA; MeCHO; 72%",
+        "GENERAL_REAGENTS": [
+          "LDA",
+          "MeCHO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C",
+          "CC=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_4",
+      "reaction_smiles": "C=CCC1=C(OCC(C)C)CCC(C(C)O)C1=O.CS(=O)(=O)Cl.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>C=CCC1=C(OCC(C)C)CCC(C(C)OS(C)(=O)=O)C1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([O:6][CH2:7][CH:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][CH:13]([CH:14]([CH3:15])[OH:16])[C:21]1=[O:22].Cl[S:17]([CH3:18])(=[O:19])=[O:20]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([O:6][CH2:7][CH:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][CH:13]([CH:14]([CH3:15])[O:16][S:17]([CH3:18])(=[O:19])=[O:20])[C:21]1=[O:22]",
+      "mapping_confidence": 0.4085258310080389,
+      "conditions": {
+        "raw_description": "MsCl; DMAP; Et3N; DCM; 83%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_5",
+      "reaction_smiles": "C=CCC1=C(OCC(C)C)CCC(C(C)OS(C)(=O)=O)C1=O.CC(C)C[AlH]CC(C)C.ClCCl>>C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1=O",
+      "reaction_smiles_mapped": "CC(C)CO[C:16]1=[C:4]([CH2:3][CH:2]=[CH2:1])[C:5](=O)[CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15]1>CC(C)C[AlH]CC(C)C.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15][C:16]1=[O:17]",
+      "mapping_confidence": 0.5234797806779499,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; 67%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_6",
+      "reaction_smiles": "C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1=O.[BH4-].[Na+].Cl[Ce](Cl)Cl.CO>>C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15][C:16]1=[O:17]>CO.Cl[Ce](Cl)Cl.[BH4-].[Na+]>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15][CH:16]1[OH:17]",
+      "mapping_confidence": 0.6406793714904426,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3; MeOH; 67%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_7",
+      "reaction_smiles": "C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1O.CS(=O)(=O)Nc1ccccc1I.CC(C)OC(=O)/N=N/C(=O)OC(C)C.CP(C)C.C1CCOC1.c1ccncc1>>C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1N(c1ccccc1I)S(C)(=O)=O",
+      "reaction_smiles_mapped": "O[CH:16]1[C:4]([CH2:3][CH:2]=[CH2:1])=[CH:5][CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15]1.[NH:17]([c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[I:24])[S:25]([CH3:26])(=[O:27])=[O:28]>C1CCOC1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.CP(C)C.c1ccncc1>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][CH:6]([CH:7]([CH3:8])[O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15][CH:16]1[N:17]([c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[I:24])[S:25]([CH3:26])(=[O:27])=[O:28]",
+      "mapping_confidence": 0.3539997519079362,
+      "conditions": {
+        "raw_description": "DIAD; Me3P; THF; Pyridine; 51%",
+        "GENERAL_REAGENTS": [
+          "DIAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Me3P"
+        ],
+        "LIGANDS_SMILES": [
+          "CP(C)C"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "Pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_8",
+      "reaction_smiles": "C=CCC1=CC(C(C)OS(C)(=O)=O)CCC1N(c1ccccc1I)S(C)(=O)=O.O=[Os](=O)(=O)=O.CC(C)=O.O.CC(C)(C)O.C[N+]1([O-])CCOCC1>>CC(OS(C)(=O)=O)C1C=C(CC(O)CO)C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH:8]1[CH:9]=[C:10]([CH2:11][CH:12]=[CH2:14])[CH:16]([N:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]2[I:24])[S:25]([CH3:26])(=[O:27])=[O:28])[CH2:29][CH2:30]1.C[N+]1([O-:13])CCOCC1.[OH2:15]>CC(C)(C)O.CC(C)=O.O=[Os](=O)(=O)=O>[CH3:1][CH:2]([O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH:8]1[CH:9]=[C:10]([CH2:11][CH:12]([OH:13])[CH2:14][OH:15])[CH:16]([N:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]2[I:24])[S:25]([CH3:26])(=[O:27])=[O:28])[CH2:29][CH2:30]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4; NMO; Acetone; H2O; tBuOH; 78%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone",
+          "H2O",
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_9",
+      "reaction_smiles": "CC(OS(C)(=O)=O)C1C=C(CC(O)CO)C(N(c2ccccc2I)S(C)(=O)=O)CC1.[Na+].[O-][I+3]([O-])([O-])[O-].O.CCOCC.CCO>>CC(OS(C)(=O)=O)C1C=C(CC=O)C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "OC[CH:12]([CH2:11][C:10]1=[CH:9][CH:8]([CH:2]([CH3:1])[O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH2:28][CH2:27][CH:14]1[N:15]([c:16]1[cH:17][cH:18][cH:19][cH:20][c:21]1[I:22])[S:23]([CH3:24])(=[O:25])=[O:26])[OH:13]>CCO.CCOCC.O.[Na+].[O-][I+3]([O-])([O-])[O-]>[CH3:1][CH:2]([O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH:8]1[CH:9]=[C:10]([CH2:11][CH:12]=[O:13])[CH:14]([N:15]([c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]2[I:22])[S:23]([CH3:24])(=[O:25])=[O:26])[CH2:27][CH2:28]1",
+      "mapping_confidence": 0.4150831100433183,
+      "conditions": {
+        "raw_description": "NaIO4; H2O; Et2O; EtOH; 65%",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "Et2O",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CCOCC",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_10",
+      "reaction_smiles": "CC(OS(C)(=O)=O)C1C=C(CC=O)C(N(c2ccccc2I)S(C)(=O)=O)CC1.[BH4-].[Na+].CO>>CC(OS(C)(=O)=O)C1C=C(CCO)C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH:8]1[CH:9]=[C:10]([CH2:11][CH:12]=[O:13])[CH:14]([N:15]([c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]2[I:22])[S:23]([CH3:24])(=[O:25])=[O:26])[CH2:27][CH2:28]1>CO.[BH4-].[Na+]>[CH3:1][CH:2]([O:3][S:4]([CH3:5])(=[O:6])=[O:7])[CH:8]1[CH:9]=[C:10]([CH2:11][CH2:12][OH:13])[CH:14]([N:15]([c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]2[I:22])[S:23]([CH3:24])(=[O:25])=[O:26])[CH2:27][CH2:28]1",
+      "mapping_confidence": 0.4295624365321083,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 95%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_11",
+      "reaction_smiles": "CC(OS(C)(=O)=O)C1C=C(CCO)C(N(c2ccccc2I)S(C)(=O)=O)CC1.C1CCC2=NCCCN2CC1.Cc1ccccc1>>CC=C1C=C(CCO)C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH:2]([CH3:1])[CH:3]1[CH:4]=[C:5]([CH2:6][CH2:7][OH:8])[CH:9]([N:10]([c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]2[I:17])[S:18]([CH3:19])(=[O:20])=[O:21])[CH2:22][CH2:23]1>C1CCC2=NCCCN2CC1.Cc1ccccc1>[CH3:1][CH:2]=[C:3]1[CH:4]=[C:5]([CH2:6][CH2:7][OH:8])[CH:9]([N:10]([c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]2[I:17])[S:18]([CH3:19])(=[O:20])=[O:21])[CH2:22][CH2:23]1",
+      "mapping_confidence": 0.6599142487663553,
+      "conditions": {
+        "raw_description": "DBU; PhMe; Reflux; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_12",
+      "reaction_smiles": "CC=C1C=C(CCO)C(N(c2ccccc2I)S(C)(=O)=O)CC1.CCN(CC)CC.CS(=O)(=O)Cl.CN(C)c1ccncc1.ClCCl>>CC=C1C=C(CCOS(C)(=O)=O)C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]=[C:3]1[CH:4]=[C:5]([CH2:6][CH2:7][OH:8])[CH:13]([N:14]([c:15]2[cH:16][cH:17][cH:18][cH:19][c:20]2[I:21])[S:22]([CH3:23])(=[O:24])=[O:25])[CH2:26][CH2:27]1.Cl[S:9]([CH3:10])(=[O:11])=[O:12]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][CH:2]=[C:3]1[CH:4]=[C:5]([CH2:6][CH2:7][O:8][S:9]([CH3:10])(=[O:11])=[O:12])[CH:13]([N:14]([c:15]2[cH:16][cH:17][cH:18][cH:19][c:20]2[I:21])[S:22]([CH3:23])(=[O:24])=[O:25])[CH2:26][CH2:27]1",
+      "mapping_confidence": 0.36565054476464764,
+      "conditions": {
+        "raw_description": "Et3N; MsCl; DMAP; DCM; 78%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_13",
+      "reaction_smiles": "CC=C1C=C(CCOS(C)(=O)=O)C(N(c2ccccc2I)S(C)(=O)=O)CC1.[N-]=[N+]=[N-].[Na+].CN(C)C=O>>CC=C1C=C(CCN=[N+]=[N-])C(N(c2ccccc2I)S(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:7][CH2:6][C:5]1=[CH:4][C:3](=[CH:2][CH3:1])[CH2:25][CH2:24][CH:11]1[N:12]([c:13]1[cH:14][cH:15][cH:16][cH:17][c:18]1[I:19])[S:20]([CH3:21])(=[O:22])=[O:23].[N-:8]=[N+:9]=[N-:10]>CN(C)C=O.[Na+]>[CH3:1][CH:2]=[C:3]1[CH:4]=[C:5]([CH2:6][CH2:7][N:8]=[N+:9]=[N-:10])[CH:11]([N:12]([c:13]2[cH:14][cH:15][cH:16][cH:17][c:18]2[I:19])[S:20]([CH3:21])(=[O:22])=[O:23])[CH2:24][CH2:25]1",
+      "mapping_confidence": 0.46175404729452746,
+      "conditions": {
+        "raw_description": "NaN3; DMF; 50 \u00b0C; 72%",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_14",
+      "reaction_smiles": "CC=C1C=C(CCN=[N+]=[N-])C(N(c2ccccc2I)S(C)(=O)=O)CC1.C[Si](C)(C)[SiH]([Si](C)(C)C)[Si](C)(C)C.CC(C)(C#N)N=NC(C)(C)C#N.c1ccccc1>>CC=C1CCC2N(S(C)(=O)=O)c3ccccc3[C@@]23CCN[C@@H]13",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:21][CH2:20][CH2:19][C:18]1=[CH:22][C:3](=[CH:2][CH3:1])[CH2:4][CH2:5][CH:6]1[N:7]([S:8]([CH3:9])(=[O:10])=[O:11])[c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1I>CC(C)(C#N)N=NC(C)(C)C#N.C[Si](C)(C)[SiH]([Si](C)(C)C)[Si](C)(C)C.c1ccccc1>[CH3:1][CH:2]=[C:3]1[CH2:4][CH2:5][CH:6]2[N:7]([S:8]([CH3:9])(=[O:10])=[O:11])[c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[C@@:18]23[CH2:19][CH2:20][NH:21][C@@H:22]13",
+      "mapping_confidence": 0.6731255227888806,
+      "conditions": {
+        "raw_description": "(TMS)3SiH; AIBN; benzene; reflux; 40%",
+        "GENERAL_REAGENTS": [
+          "(TMS)3SiH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[SiH]([Si](C)(C)C)([Si](C)(C)C)([Si](C)(C)C)"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_15",
+      "reaction_smiles": "CC=C1CCC2N(S(C)(=O)=O)c3ccccc3[C@@]23CCN[C@@H]13.BrC/C=C\\I.O=C([O-])[O-].[K+].[K+].C1CCOC1>>CC=C1CCC2N(S(C)(=O)=O)c3ccccc3[C@@]23CCN(C/C=C\\I)[C@@H]13",
+      "reaction_smiles_mapped": "Br[CH2:22]/[CH:23]=[CH:24]\\[I:25].[CH3:1][CH:2]=[C:3]1[CH2:4][CH2:5][CH:6]2[N:7]([S:8]([CH3:9])(=[O:10])=[O:11])[c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[C@@:18]23[CH2:19][CH2:20][NH:21][C@@H:26]13>C1CCOC1.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH:2]=[C:3]1[CH2:4][CH2:5][CH:6]2[N:7]([S:8]([CH3:9])(=[O:10])=[O:11])[c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[C@@:18]23[CH2:19][CH2:20][N:21]([CH2:22]/[CH:23]=[CH:24]\\[I:25])[C@@H:26]13",
+      "mapping_confidence": 0.716513416396449,
+      "conditions": {
+        "raw_description": "K2CO3; THF; 63%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_16",
+      "reaction_smiles": "CC=C1CCC2N(S(C)(=O)=O)c3ccccc3[C@@]23CCN(C/C=C\\I)[C@@H]13.CCN(CC)CC.CC(=O)[O-].CC(=O)[O-].[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC#N>>C=C[C@]12C=CCN3CC[C@@]4(c5ccccc5N(S(C)(=O)=O)[C@H]4CC1)[C@@H]32",
+      "reaction_smiles_mapped": "I/[CH:4]=[CH:5]\\[CH2:6][N:7]1[CH2:8][CH2:9][C@:10]23[c:11]4[cH:12][cH:13][cH:14][cH:15][c:16]4[N:17]([S:18]([CH3:19])(=[O:20])=[O:21])[CH:22]2[CH2:23][CH2:24][C:3](=[CH:2][CH3:1])[C@H:25]13>CC#N.CC(=O)[O-].CC(=O)[O-].CCN(CC)CC.[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[N:17]([S:18]([CH3:19])(=[O:20])=[O:21])[C@H:22]4[CH2:23][CH2:24]1)[C@H:25]23",
+      "mapping_confidence": 0.6595518861144144,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; PPh3; Et3N; MeCN; 32%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "32%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_17",
+      "reaction_smiles": "C=C[C@]12C=CCN3CC[C@@]4(c5ccccc5N(S(C)(=O)=O)[C@H]4CC1)[C@@H]32.[HH].[C].[Pd].CCO>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(S(C)(=O)=O)[C@H]4CC1)[C@@H]32",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[N:17]([S:18]([CH3:19])(=[O:20])=[O:21])[C@H:22]4[CH2:23][CH2:24]1)[C@H:25]23>CCO.[C].[HH].[Pd]>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[N:17]([S:18]([CH3:19])(=[O:20])=[O:21])[C@H:22]4[CH2:23][CH2:24]1)[C@H:25]23",
+      "mapping_confidence": 0.6709115973618835,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOH; 58%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Murphy_18",
+      "reaction_smiles": "CC[C@]12CCCN3CC[C@@]4(c5ccccc5N(S(C)(=O)=O)[C@H]4CC1)[C@@H]32.COCCO[AlH2-]OCCOC.[Na+].Cc1ccccc1>>CC[C@]12CCCN3CC[C@@]4(c5ccccc5N[C@H]4CC1)[C@@H]32",
+      "reaction_smiles_mapped": "CS(=O)(=O)[N:17]1[c:16]2[c:11]([cH:12][cH:13][cH:14][cH:15]2)[C@@:10]23[CH2:9][CH2:8][N:7]4[CH2:6][CH2:5][CH2:4][C@@:3]([CH2:2][CH3:1])([CH2:20][CH2:19][C@@H:18]21)[C@H:21]43>COCCO[AlH2-]OCCOC.Cc1ccccc1.[Na+]>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[NH:17][C@H:18]4[CH2:19][CH2:20]1)[C@H:21]23",
+      "mapping_confidence": 0.9833029162065915,
+      "conditions": {
+        "raw_description": "Red-Al; PhMe; 100 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "Red-Al"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H][Al-](OCCOC)(OCCOC)[H].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

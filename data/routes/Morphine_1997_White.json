@@ -1,0 +1,961 @@
+{
+  "background": {
+    "name": "(+)-Morphine",
+    "author": "White",
+    "year": 1997,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1997, 62, 5250",
+    "doi": "10.1021/jo9710994"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Morphine_1997_White_1",
+      "reaction_smiles": "COc1ccc(C=O)cc1O.COC(=O)CCC(=O)OC.C[O-].[Na+].CO>>COC(=O)/C(=C/c1ccc(OC)c(O)c1)CC(=O)O",
+      "reaction_smiles_mapped": "C[O:19][C:17]([CH2:16][CH2:5][C:3]([O:2][CH3:1])=[O:4])=[O:18].O=[CH:6][c:7]1[cH:8][cH:9][c:10]([O:11][CH3:12])[c:13]([OH:14])[cH:15]1>C[O-].[Na+].CO>[CH3:1][O:2][C:3](=[O:4])/[C:5](=[CH:6]/[c:7]1[cH:8][cH:9][c:10]([O:11][CH3:12])[c:13]([OH:14])[cH:15]1)[CH2:16][C:17](=[O:18])[OH:19]",
+      "mapping_confidence": 0.6740158518263321,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; reflux",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_2",
+      "reaction_smiles": "COC(=O)/C(=C/c1ccc(OC)c(O)c1)CC(=O)O.C1CCOC1.CO.[HH].C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.[Cl-].[Cl-].[Rh+].[Rh+].COc1c(C)cc(P(C[C@@H]2OC(C)(C)O[C@H]2CP(c2cc(C)c(OC)c(C)c2)c2cc(C)c(OC)c(C)c2)c2cc(C)c(OC)c(C)c2)cc1C>>COC(=O)[C@H](CC(=O)O)Cc1ccc(OC)c(O)c1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])/[C:5]([CH2:6][C:7](=[O:8])[OH:9])=[CH:10]/[c:11]1[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]([OH:18])[cH:19]1>C1CCOC1.CO.[HH].C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.[Cl-].[Cl-].[Rh+].[Rh+].COc1c(C)cc(P(C[C@@H]2OC(C)(C)O[C@H]2CP(c2cc(C)c(OC)c(C)c2)c2cc(C)c(OC)c(C)c2)c2cc(C)c(OC)c(C)c2)cc1C>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH2:6][C:7](=[O:8])[OH:9])[CH2:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]([OH:18])[cH:19]1",
+      "mapping_confidence": 0.898413697118773,
+      "conditions": {
+        "raw_description": "H2; [Rh(COD)Cl]2; (4R, 5R)-(-)-MOD-DIOP; THF; MeOH; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "[Rh(COD)Cl]2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Rh+1].[Rh+1].[Cl-].[Cl-].C1C/C=C\\CC/C=C\\1.C1C/C=C\\CC/C=C\\1"
+        ],
+        "LIGANDS": [
+          "(4R, 5R)-(-)-MOD-DIOP"
+        ],
+        "LIGANDS_SMILES": [
+          "CC1=CC(=CC(=C1OC)C)P(C[C@H]2[C@@H](OC(O2)(C)C)CP(C3=CC(=C(C(=C3)C)OC)C)C4=CC(=C(C(=C4)C)OC)C)C5=CC(=C(C(=C5)C)OC)C"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_3",
+      "reaction_smiles": "COC(=O)[C@H](CC(=O)O)Cc1ccc(OC)c(O)c1.BrBr.CC(=O)O>>COC(=O)[C@H](CC(=O)O)Cc1cc(O)c(OC)cc1Br",
+      "reaction_smiles_mapped": "Br[Br:20].[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH2:6][C:7](=[O:8])[OH:9])[CH2:10][c:11]1[cH:12][c:13]([OH:14])[c:15]([O:16][CH3:17])[cH:18][cH:19]1>CC(=O)O>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH2:6][C:7](=[O:8])[OH:9])[CH2:10][c:11]1[cH:12][c:13]([OH:14])[c:15]([O:16][CH3:17])[cH:18][c:19]1[Br:20]",
+      "mapping_confidence": 0.48194905181790787,
+      "conditions": {
+        "raw_description": "Br2; AcOH; rt; 93%",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_4",
+      "reaction_smiles": "COC(=O)[C@H](CC(=O)O)Cc1cc(O)c(OC)cc1Br.O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.CS(=O)(=O)O>>COC(=O)[C@@H]1CC(=O)c2c(O)c(OC)cc(Br)c2C1",
+      "reaction_smiles_mapped": "O[C:7]([CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:19][c:18]1[cH:9][c:10]([OH:11])[c:12]([O:13][CH3:14])[cH:15][c:16]1[Br:17])=[O:8]>O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.CS(=O)(=O)O>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C:7](=[O:8])[c:9]2[c:10]([OH:11])[c:12]([O:13][CH3:14])[cH:15][c:16]([Br:17])[c:18]2[CH2:19]1",
+      "mapping_confidence": 0.8796183301360537,
+      "conditions": {
+        "raw_description": "P2O5; MsOH; rt; 75%",
+        "GENERAL_REAGENTS": [
+          "P2O5"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3"
+        ],
+        "CATALYSTS": [
+          "MsOH"
+        ],
+        "CATALYSTS_SMILES": [
+          "CS(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_5",
+      "reaction_smiles": "COC(=O)[C@@H]1CC(=O)c2c(O)c(OC)cc(Br)c2C1.[Pd].O=C([O-])O.[Na+].CO.[HH].[C].[Pd]>>COC(=O)[C@@H]1CC(=O)c2c(ccc(OC)c2O)C1",
+      "reaction_smiles_mapped": "Br[c:11]1[c:10]2[c:9]([c:16]([OH:17])[c:13]([O:14][CH3:15])[cH:12]1)[C:7](=[O:8])[CH2:6][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:18]2>[Pd].[Pd].O=C([O-])O.[Na+].CO.[HH].[C]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][C:7](=[O:8])[c:9]2[c:10]([cH:11][cH:12][c:13]([O:14][CH3:15])[c:16]2[OH:17])[CH2:18]1",
+      "mapping_confidence": 0.9043153799398611,
+      "conditions": {
+        "raw_description": "H2; Pd/C; NaHCO3; MeOH; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_6",
+      "reaction_smiles": "COC(=O)[C@@H]1CC(=O)c2c(ccc(OC)c2O)C1.[Li+].[OH-].C1CCOC1.O>>COc1ccc2c(c1O)C(=O)C[C@@H](C(=O)O)C2",
+      "reaction_smiles_mapped": "C[O:16][C:14]([C@@H:13]1[CH2:12][C:10](=[O:11])[c:7]2[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]2[OH:9])[CH2:17]1)=[O:15]>[Li+].[OH-].C1CCOC1.O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[CH2:12][C@@H:13]([C:14](=[O:15])[OH:16])[CH2:17]2",
+      "mapping_confidence": 0.9495814551576186,
+      "conditions": {
+        "raw_description": "LiOH; THF; H2O; rt",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_7",
+      "reaction_smiles": "COc1ccc2c(c1O)C(=O)C[C@@H](C(=O)O)C2.COC(C)OC.COC=O.[H-].[K+].COCCOC>>COc1ccc2c(c1O)C(=O)[C@H](C=O)[C@@H](C(=O)O)C2",
+      "reaction_smiles_mapped": "CO[CH:13]=[O:14].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[CH2:12][C@@H:15]([C:16](=[O:17])[OH:18])[CH2:19]2>COC(C)OC.[H-].[K+].COCCOC>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[C@H:12]([CH:13]=[O:14])[C@@H:15]([C:16](=[O:17])[OH:18])[CH2:19]2",
+      "mapping_confidence": 0.9155450321513778,
+      "conditions": {
+        "raw_description": "KH; HCO2Me; DME; 0 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "HCO2Me",
+          "KH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC=O",
+          "[K+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_8",
+      "reaction_smiles": "COc1ccc2c(c1O)C(=O)[C@H](C=O)[C@@H](C(=O)O)C2.C=CC(C)=O.CCN(CC)CC.ClCCl>>COc1ccc2c(c1O)C(=O)[C@@]1(CCC(C)=O)C(O)OC(=O)[C@H]1C2",
+      "reaction_smiles_mapped": "[CH2:13]=[CH:14][C:15]([CH3:16])=[O:17].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[C@H:12]([CH:18]=[O:19])[C@@H:23]([C:21]([OH:20])=[O:22])[CH2:24]2>CCN(CC)CC.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[C@@:12]1([CH2:13][CH2:14][C:15]([CH3:16])=[O:17])[CH:18]([OH:19])[O:20][C:21](=[O:22])[C@H:23]1[CH2:24]2",
+      "mapping_confidence": 0.9436770032671367,
+      "conditions": {
+        "raw_description": "Et3N; DCM; rt; 95%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_9",
+      "reaction_smiles": "COc1ccc2c(c1O)C(=O)[C@@]1(CCC(C)=O)C(O)OC(=O)[C@H]1C2.[Na+].[OH-].C1CCOC1.O>>COc1ccc2c(c1O)C1=CC(=O)CC[C@@H]1[C@@H](C(=O)O)C2",
+      "reaction_smiles_mapped": "O=[C:10]1[c:7]2[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]2[OH:9])[CH2:21][C@H:17]2[C@:16]1([CH2:15][CH2:14][C:12]([CH3:11])=[O:13])C(O)[O:20][C:18]2=[O:19]>[Na+].[OH-].C1CCOC1.O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10]1=[CH:11][C:12](=[O:13])[CH2:14][CH2:15][C@@H:16]1[C@@H:17]([C:18](=[O:19])[OH:20])[CH2:21]2",
+      "mapping_confidence": 0.8689427999865649,
+      "conditions": {
+        "raw_description": "NaOH; THF; H2O; 95%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_10",
+      "reaction_smiles": "COc1ccc2c(c1O)C1=CC(=O)CC[C@@H]1[C@@H](C(=O)O)C2.CCO.ClCCl.C=[N+]=[N-]>>COC(=O)[C@H]1Cc2ccc(OC)c(O)c2C2=CC(=O)CC[C@@H]21",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH2:1].[OH:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[cH:8][cH:9][c:10]([O:11][CH3:12])[c:13]([OH:14])[c:15]2[C:16]2=[CH:17][C:18](=[O:19])[CH2:20][CH2:21][C@H:22]12>CCO.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[cH:8][cH:9][c:10]([O:11][CH3:12])[c:13]([OH:14])[c:15]2[C:16]2=[CH:17][C:18](=[O:19])[CH2:20][CH2:21][C@H:22]12",
+      "mapping_confidence": 0.4586332715958221,
+      "conditions": {
+        "raw_description": "CH2N2; EtOH; DCM; 99%",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_11",
+      "reaction_smiles": "COC(=O)[C@H]1Cc2ccc(OC)c(O)c2C2=CC(=O)CC[C@@H]21.BrBr.O=C([O-])O.[Na+].ClCCl>>COC(=O)[C@H]1Cc2c(Br)cc(OC)c(O)c2C2=C(Br)C(=O)CC[C@@H]21",
+      "reaction_smiles_mapped": "[Br:9][Br:19].[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[cH:8][cH:10][c:11]([O:12][CH3:13])[c:14]([OH:15])[c:16]2[C:17]2=[CH:18][C:20](=[O:21])[CH2:22][CH2:23][C@H:24]12>O=C([O-])O.[Na+].ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[c:8]([Br:9])[cH:10][c:11]([O:12][CH3:13])[c:14]([OH:15])[c:16]2[C:17]2=[C:18]([Br:19])[C:20](=[O:21])[CH2:22][CH2:23][C@H:24]12",
+      "mapping_confidence": 0.5379936827316333,
+      "conditions": {
+        "raw_description": "Br2; NaHCO3; DCM; 0 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_12",
+      "reaction_smiles": "COC(=O)[C@H]1Cc2c(Br)cc(OC)c(O)c2C2=C(Br)C(=O)CC[C@@H]21.C1=NCCCN2CCCCC12.C1CCC2=NCCCN2CC1.c1ccccc1>>COC(=O)[C@H]1Cc2c(Br)cc(OC)c3oc4c(c23)[C@@H]1CCC4=O",
+      "reaction_smiles_mapped": "Br[C:16]1=[C:17]2[c:18]3[c:7]([c:8]([Br:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[OH:15])[CH2:6][C@H:5]([C:3]([O:2][CH3:1])=[O:4])[C@H:19]2[CH2:20][CH2:21][C:22]1=[O:23]>C1=NCCCN2CCCCC12.C1CCC2=NCCCN2CC1.c1ccccc1>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[c:8]([Br:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[o:15][c:16]4[c:17]([c:18]23)[C@@H:19]1[CH2:20][CH2:21][C:22]4=[O:23]",
+      "mapping_confidence": 0.9734303118615021,
+      "conditions": {
+        "raw_description": "DBU; benzene; 50 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_13",
+      "reaction_smiles": "COC(=O)[C@H]1Cc2c(Br)cc(OC)c3oc4c(c23)[C@@H]1CCC4=O.[Na+].[BH4-].CC(C)O.ClCCl>>COC(=O)[C@H]1Cc2c(Br)cc(OC)c3oc4c(c23)[C@@H]1CC[C@@H]4O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[c:8]([Br:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[o:15][c:16]4[c:17]([c:18]23)[C@@H:19]1[CH2:20][CH2:21][C:22]4=[O:23]>[Na+].[BH4-].CC(C)O.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[c:8]([Br:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[o:15][c:16]4[c:17]([c:18]23)[C@@H:19]1[CH2:20][CH2:21][C@@H:22]4[OH:23]",
+      "mapping_confidence": 0.9846157333113392,
+      "conditions": {
+        "raw_description": "NaBH4; i-PrOH; DCM; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_14",
+      "reaction_smiles": "COC(=O)[C@H]1Cc2c(Br)cc(OC)c3oc4c(c23)[C@@H]1CC[C@@H]4O.[Pd].O=C([O-])O.[Na+].CO.[HH].[C].[Pd]>>COC(=O)[C@H]1Cc2ccc(OC)c3c2[C@H]2[C@@H]1CC[C@H](O)[C@H]2O3",
+      "reaction_smiles_mapped": "Br[c:8]1[c:7]2[c:14]3[c:13]([c:10]([O:11][CH3:12])[cH:9]1)[o:22][c:21]1[c:15]3[C@@H:16]([C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:6]2)[CH2:17][CH2:18][C@@H:19]1[OH:20]>[Pd].[Pd].O=C([O-])O.[Na+].CO.[HH].[C]>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][c:7]2[cH:8][cH:9][c:10]([O:11][CH3:12])[c:13]3[c:14]2[C@H:15]2[C@@H:16]1[CH2:17][CH2:18][C@H:19]([OH:20])[C@H:21]2[O:22]3",
+      "mapping_confidence": 0.9502136300298197,
+      "conditions": {
+        "raw_description": "H2; Pd/C; NaHCO3; MeOH; rt; 78%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_15",
+      "reaction_smiles": "COC(=O)[C@H]1Cc2ccc(OC)c3c2[C@H]2[C@@H]1CC[C@H](O)[C@H]2O3.O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.ClC(Cl)Cl.COCOC>>COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)OC",
+      "reaction_smiles_mapped": "[OH:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]([C:10](=[O:11])[O:12][CH3:13])[CH2:14][c:15]3[cH:16][cH:17][c:18]([O:19][CH3:20])[c:21]4[c:22]3[C@@H:23]2[C@@H:24]1[O:25]4.CO[CH2:3][O:2][CH3:1]>O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.ClC(Cl)Cl>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]([C:10](=[O:11])[O:12][CH3:13])[CH2:14][c:15]3[cH:16][cH:17][c:18]([O:19][CH3:20])[c:21]4[c:22]3[C@@H:23]2[C@@H:24]1[O:25]4",
+      "mapping_confidence": 0.5499896104655514,
+      "conditions": {
+        "raw_description": "CH2(OMe)2; P2O5; CHCl3; rt; 80%",
+        "GENERAL_REAGENTS": [
+          "P2O5",
+          "CH2(OMe)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3",
+          "COCOC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_16",
+      "reaction_smiles": "COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)OC.[Li+].[OH-].C1CCOC1.O>>COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)O",
+      "reaction_smiles_mapped": "C[O:12][C:10]([C@@H:9]1[C@H:8]2[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:23]3[C@H:22]2[c:21]2[c:14]([cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]2[O:24]3)[CH2:13]1)=[O:11]>[Li+].[OH-].C1CCOC1.O>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]([C:10](=[O:11])[OH:12])[CH2:13][c:14]3[cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]4[c:21]3[C@@H:22]2[C@@H:23]1[O:24]4",
+      "mapping_confidence": 0.9477711674569081,
+      "conditions": {
+        "raw_description": "LiOH; THF; H2O; 99%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_17",
+      "reaction_smiles": "COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)O.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.O=C(Cl)C(=O)Cl.c1ccccc1>>COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)Cl",
+      "reaction_smiles_mapped": "O[C:10]([C@@H:9]1[C@H:8]2[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:23]3[C@H:22]2[c:21]2[c:14]([cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]2[O:24]3)[CH2:13]1)=[O:11].O=C(Cl)C(=O)[Cl:12]>O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.c1ccccc1>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]([C:10](=[O:11])[Cl:12])[CH2:13][c:14]3[cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]4[c:21]3[C@@H:22]2[C@@H:23]1[O:24]4",
+      "mapping_confidence": 0.5962485292974424,
+      "conditions": {
+        "raw_description": "(COCl)2; PhH; rt",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_18",
+      "reaction_smiles": "COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)Cl.CCOCC.C=[N+]=[N-].c1ccccc1>>COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)C=[N+]=[N-]",
+      "reaction_smiles_mapped": "[CH2:24]=[N+:25]=[N-:26].Cl[C:22]([C@@H:21]1[C@H:8]2[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:19]3[C@H:9]2[c:10]2[c:11]([cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]2[O:18]3)[CH2:20]1)=[O:23]>CCOCC.c1ccccc1>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@H:8]2[C@@H:9]3[c:10]4[c:11]([cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]4[O:18][C@H:19]13)[CH2:20][C@@H:21]2[C:22](=[O:23])[CH:24]=[N+:25]=[N-:26]",
+      "mapping_confidence": 0.891770982186148,
+      "conditions": {
+        "raw_description": "CH2N2; benzene; Et2O; rt; 63% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "63% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_19",
+      "reaction_smiles": "COCO[C@H]1CC[C@H]2[C@@H]3c4c(ccc(OC)c4O[C@@H]31)C[C@@H]2C(=O)C=[N+]=[N-].CC(=O)O[Rh](OC(C)=O)[Rh](OC(C)=O)OC(C)=O.ClCCl.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2]>>COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC3=O)[C@@H]1O5",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH:20][C:21]([C@@H:9]1[C@H:8]2[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:23]3[C@H:19]2[c:18]2[c:11]([cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]2[O:24]3)[CH2:10]1)=[O:22]>CC(=O)O[Rh](OC(C)=O)[Rh](OC(C)=O)OC(C)=O.ClCCl.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2]>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20][C:21]3=[O:22])[C@@H:23]1[O:24]5",
+      "mapping_confidence": 0.9743706930087774,
+      "conditions": {
+        "raw_description": "Rh2(OAc)4; DCM; rt; 50%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Rh2(OAc)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_20",
+      "reaction_smiles": "COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC3=O)[C@@H]1O5.CC(=O)[O-].[Na+].CO.NO>>COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(C/C3=N\\O)[C@@H]1O5",
+      "reaction_smiles_mapped": "O=[C:21]1[C@@H:9]2[C@H:8]3[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:24]4[C@:19]3([c:18]3[c:11]([cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]3[O:25]4)[CH2:10]2)[CH2:20]1.[NH2:22][OH:23]>CC(=O)[O-].[Na+].CO>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20]/[C:21]3=[N:22]\\[OH:23])[C@@H:24]1[O:25]5",
+      "mapping_confidence": 0.9910051975184535,
+      "conditions": {
+        "raw_description": "H2NOH; NaOAc; MeOH; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "H2NOH",
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO",
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_21",
+      "reaction_smiles": "COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(C/C3=N\\O)[C@@H]1O5.O=S(=O)(OCl)c1ccc(Br)cc1.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(C/C3=N/OS(=O)(=O)Oc2ccc(Br)cc2)[C@@H]1O5",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20]/[C:21]3=[N:22]\\[OH:23])[C@@H:35]1[O:36]5.Cl[O:27][S:24](=[O:25])(=[O:26])[c:28]1[cH:29][cH:30][c:31]([Br:32])[cH:33][cH:34]1>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20]/[C:21]3=[N:22]/[O:23][S:24](=[O:25])(=[O:26])[O:27][c:28]2[cH:29][cH:30][c:31]([Br:32])[cH:33][cH:34]2)[C@@H:35]1[O:36]5",
+      "mapping_confidence": 0.4163731050975859,
+      "conditions": {
+        "raw_description": "Et3N; DMAP; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_22",
+      "reaction_smiles": "COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(C/C3=N/OS(=O)(=O)Oc2ccc(Br)cc2)[C@@H]1O5.CC(=O)O>>COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC(=O)N3)[C@@H]1O5",
+      "reaction_smiles_mapped": "O=S(=O)(Oc1ccc(Br)cc1)[O:22]/[N:23]=[C:21]1\\[C@@H:9]2[C@H:8]3[CH2:7][CH2:6][C@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:24]4[C@:19]3([c:18]3[c:11]([cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]3[O:25]4)[CH2:10]2)[CH2:20]1>CC(=O)O>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20][C:21](=[O:22])[NH:23]3)[C@@H:24]1[O:25]5",
+      "mapping_confidence": 0.5071063882649837,
+      "conditions": {
+        "raw_description": "AcOH; rt; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_23",
+      "reaction_smiles": "COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC(=O)N3)[C@@H]1O5.[H-].[Na+].CI.c1ccccc1>>COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC(=O)N3C)[C@@H]1O5",
+      "reaction_smiles_mapped": "I[CH3:24].[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20][C:21](=[O:22])[NH:23]3)[C@@H:25]1[O:26]5>[H-].[Na+].c1ccccc1>[CH3:1][O:2][CH2:3][O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@@H:9]3[CH2:10][c:11]4[cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]5[c:18]4[C@:19]2([CH2:20][C:21](=[O:22])[N:23]3[CH3:24])[C@@H:25]1[O:26]5",
+      "mapping_confidence": 0.9912071992917989,
+      "conditions": {
+        "raw_description": "NaH; MeI; benzene; reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_24",
+      "reaction_smiles": "COCO[C@H]1CC[C@@H]2[C@@H]3Cc4ccc(OC)c5c4[C@]2(CC(=O)N3C)[C@@H]1O5.Br.CC#N>>COc1ccc2c3c1O[C@@H]1[C@@H](O)CC[C@@H]4[C@H](C2)N(C)C(=O)C[C@]341",
+      "reaction_smiles_mapped": "COC[O:12][C@@H:11]1[C@H:10]2[O:9][c:8]3[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]4[c:7]3[C@@:23]23[C@H:15]([CH2:14][CH2:13]1)[C@H:16]([CH2:17]4)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22]3>Br.CC#N>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C@@H:11]([OH:12])[CH2:13][CH2:14][C@@H:15]4[C@H:16]([CH2:17]2)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22][C@@:23]314",
+      "mapping_confidence": 0.9909150662033958,
+      "conditions": {
+        "raw_description": "HBr; CH3CN; rt; 96%",
+        "GENERAL_REAGENTS": [
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_25",
+      "reaction_smiles": "COc1ccc2c3c1O[C@@H]1[C@@H](O)CC[C@@H]4[C@H](C2)N(C)C(=O)C[C@]341.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClC(Cl)Cl>>COc1ccc2c3c1O[C@@H]1C(=O)CC[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C@@H:11]([OH:12])[CH2:13][CH2:14][C@@H:15]4[C@H:16]([CH2:17]2)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22][C@@:23]314>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClC(Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C:11](=[O:12])[CH2:13][CH2:14][C@@H:15]4[C@H:16]([CH2:17]2)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22][C@@:23]314",
+      "mapping_confidence": 0.9821487310223733,
+      "conditions": {
+        "raw_description": "DMP; CHCl3 rt; 99%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_26",
+      "reaction_smiles": "COc1ccc2c3c1O[C@@H]1C(=O)CC[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314.ClCCl.Cl[Se]c1ccccc1.CS(=O)(=O)O>>COc1ccc2c3c1O[C@@H]1C(=O)C([Se]c4ccccc4)C[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C:11](=[O:12])[CH2:13][CH2:21][C@@H:22]4[C@H:23]([CH2:24]2)[N:25]([CH3:26])[C:27](=[O:28])[CH2:29][C@@:30]314.Cl[Se:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1>ClCCl.CS(=O)(=O)O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C:11](=[O:12])[CH:13]([Se:14][c:15]4[cH:16][cH:17][cH:18][cH:19][cH:20]4)[CH2:21][C@@H:22]4[C@H:23]([CH2:24]2)[N:25]([CH3:26])[C:27](=[O:28])[CH2:29][C@@:30]314",
+      "mapping_confidence": 0.9547282875586057,
+      "conditions": {
+        "raw_description": "PhSeCl; MsOH; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "PhSeCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)[Se]Cl"
+        ],
+        "CATALYSTS": [
+          "MsOH"
+        ],
+        "CATALYSTS_SMILES": [
+          "CS(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_27",
+      "reaction_smiles": "COc1ccc2c3c1O[C@@H]1C(=O)C([Se]c4ccccc4)C[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314.[O-][I+3]([O-])([O-])[O-].[Na+].C1CCOC1>>COc1ccc2c3c1O[C@@H]1C(=O)C=C[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314",
+      "reaction_smiles_mapped": "c1ccc([Se][CH:13]2[C:11](=[O:12])[C@H:10]3[O:9][c:8]4[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]5[c:7]4[C@@:23]34[C@H:15]([CH2:14]2)[C@H:16]([CH2:17]5)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22]4)cc1>[O-][I+3]([O-])([O-])[O-].[Na+].C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C:11](=[O:12])[CH:13]=[CH:14][C@@H:15]4[C@H:16]([CH2:17]2)[N:18]([CH3:19])[C:20](=[O:21])[CH2:22][C@@:23]314",
+      "mapping_confidence": 0.9939752879412161,
+      "conditions": {
+        "raw_description": "NaIO4; THF; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_28",
+      "reaction_smiles": "COc1ccc2c3c1O[C@@H]1C(=O)C=C[C@@H]4[C@H](C2)N(C)C(=O)C[C@@]314.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>>COc1ccc2c3c1O[C@@H]1[C@H](O)C=C[C@@H]4[C@H](C2)N(C)CC[C@]341",
+      "reaction_smiles_mapped": "O=[C:20]1[N:18]([CH3:19])[C@@H:16]2[C@H:15]3[CH:14]=[CH:13][C:11](=[O:12])[C@H:10]4[O:9][c:8]5[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([c:7]5[C@:22]43[CH2:21]1)[CH2:17]2>[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@@H:10]1[C@H:11]([OH:12])[CH:13]=[CH:14][C@@H:15]4[C@H:16]([CH2:17]2)[N:18]([CH3:19])[CH2:20][CH2:21][C@@:22]314",
+      "mapping_confidence": 0.9883554683766341,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux; 90%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Morphine_1997_White_29",
+      "reaction_smiles": "COc1ccc2c3c1O[C@@H]1[C@H](O)C=C[C@@H]4[C@H](C2)N(C)CC[C@]341.BrB(Br)Br.ClC(Cl)Cl>>CN1CC[C@@]23c4c5ccc(O)c4O[C@@H]2[C@H](O)C=C[C@@H]3[C@@H]1C5",
+      "reaction_smiles_mapped": "C[O:11][c:10]1[cH:9][cH:8][c:7]2[c:6]3[c:12]1[O:13][C@H:14]1[C@@:5]34[CH2:4][CH2:3][N:2]([CH3:1])[C@H:20]([C@H:19]4[CH:18]=[CH:17][C@H:15]1[OH:16])[CH2:21]2>BrB(Br)Br.ClC(Cl)Cl>[CH3:1][N:2]1[CH2:3][CH2:4][C@@:5]23[c:6]4[c:7]5[cH:8][cH:9][c:10]([OH:11])[c:12]4[O:13][C@@H:14]2[C@H:15]([OH:16])[CH:17]=[CH:18][C@@H:19]3[C@@H:20]1[CH2:21]5",
+      "mapping_confidence": 0.991553128634401,
+      "conditions": {
+        "raw_description": "BBr3; CHCl3; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "background": {
+    "name": "Octanorcucurbitacin B",
+    "author": "Micalizio",
+    "year": 2022,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2022, 144, 8943",
+    "doi": "10.1021/jacs.2c03109"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_1",
+      "reaction_smiles": "COc1ccc(O)cc1.C=O.[Cl-].[Cl-].[Mg+2].CCN(CC)CC>>COc1ccc(O)c(C=O)c1",
+      "reaction_smiles_mapped": "[CH2:9]=[O:10].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([OH:7])[cH:8][cH:11]1>CCN(CC)CC.[Cl-].[Cl-].[Mg+2]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([OH:7])[c:8]([CH:9]=[O:10])[cH:11]1",
+      "mapping_confidence": 0.9155547289996354,
+      "conditions": {
+        "raw_description": "MgCl2; NEt3; paraformaldehyde; rt to 70 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "paraformaldehyde",
+          "MgCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=O",
+          "[Mg+2].[Cl-].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "70"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_2",
+      "reaction_smiles": "COc1ccc(O)c(C=O)c1.C#CCBr.[Zn].C1CCOC1>>C#CCC(O)c1cc(OC)ccc1O",
+      "reaction_smiles_mapped": "Br[CH2:3][C:2]#[CH:1].[CH:4](=[O:5])[c:6]1[cH:7][c:8]([O:9][CH3:10])[cH:11][cH:12][c:13]1[OH:14]>C1CCOC1.[Zn]>[CH:1]#[C:2][CH2:3][CH:4]([OH:5])[c:6]1[cH:7][c:8]([O:9][CH3:10])[cH:11][cH:12][c:13]1[OH:14]",
+      "mapping_confidence": 0.9606298300072055,
+      "conditions": {
+        "raw_description": "Zn dust; THF; 72%",
+        "GENERAL_REAGENTS": [
+          "Zn dust"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_3",
+      "reaction_smiles": "C#CCC(O)c1cc(OC)ccc1O.CC[SiH](CC)CC.O=C(O)C(F)(F)F.ClCCl>>C#CCCc1cc(OC)ccc1O",
+      "reaction_smiles_mapped": "O[CH:4]([CH2:3][C:2]#[CH:1])[c:5]1[cH:6][c:7]([O:8][CH3:9])[cH:10][cH:11][c:12]1[OH:13]>CC[SiH](CC)CC.ClCCl.O=C(O)C(F)(F)F>[CH:1]#[C:2][CH2:3][CH2:4][c:5]1[cH:6][c:7]([O:8][CH3:9])[cH:10][cH:11][c:12]1[OH:13]",
+      "mapping_confidence": 0.9857670367249236,
+      "conditions": {
+        "raw_description": "SiHEt3; TFA; DCM; 69%",
+        "GENERAL_REAGENTS": [
+          "SiHEt3",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_4",
+      "reaction_smiles": "C#CCCc1cc(OC)ccc1O.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.ClCCl.CCN(CC)CC>>C#CCCc1cc(OC)ccc1OS(=O)(=O)C(F)(F)F",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH2:3][CH2:4][c:5]1[cH:6][c:7]([O:8][CH3:9])[cH:10][cH:11][c:12]1[OH:13].O=S(=O)(O[S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])C(F)(F)F>CCN(CC)CC.ClCCl>[CH:1]#[C:2][CH2:3][CH2:4][c:5]1[cH:6][c:7]([O:8][CH3:9])[cH:10][cH:11][c:12]1[O:13][S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20]",
+      "mapping_confidence": 0.09935030777585542,
+      "conditions": {
+        "raw_description": "Tf2O; NEt3; DCM; -78 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "Tf2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_5",
+      "reaction_smiles": "C#CCCc1cc(OC)ccc1OS(=O)(=O)C(F)(F)F.C=C(C)C[C@H]1CO1.CCOCC.FB(F)F.C1CCOC1.[Li]CCCC>>C=C(C)C[C@H](O)CC#CCCc1cc(OC)ccc1OS(=O)(=O)C(F)(F)F",
+      "reaction_smiles_mapped": "[CH:8]#[C:9][CH2:10][CH2:11][c:12]1[cH:13][c:14]([O:15][CH3:16])[cH:17][cH:18][c:19]1[O:20][S:21](=[O:22])(=[O:23])[C:24]([F:25])([F:26])[F:27].[CH2:1]=[C:2]([CH3:3])[CH2:4][C@@H:5]1[O:6][CH2:7]1>C1CCOC1.CCOCC.FB(F)F.[Li]CCCC>[CH2:1]=[C:2]([CH3:3])[CH2:4][C@H:5]([OH:6])[CH2:7][C:8]#[C:9][CH2:10][CH2:11][c:12]1[cH:13][c:14]([O:15][CH3:16])[cH:17][cH:18][c:19]1[O:20][S:21](=[O:22])(=[O:23])[C:24]([F:25])([F:26])[F:27]",
+      "mapping_confidence": 0.17570342735893188,
+      "conditions": {
+        "raw_description": "nBuLi; BF3\u2022Et2O; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [
+          "BF3\u2022Et2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_6",
+      "reaction_smiles": "C=C(C)C[C@H](O)CC#CCCc1cc(OC)ccc1OS(=O)(=O)C(F)(F)F.CC#C[Si](C)(C)C.[Li]CCCC.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].Cc1ccccc1>>COc1ccc(OS(=O)(=O)C(F)(F)F)c(CCC2=C3C[C@@H](O)C[C@@]3(C)CC([Si](C)(C)C)=C2C)c1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[c:15]([CH2:16][CH2:17][C:18]#[C:19][CH2:20][C@@H:21]([OH:22])[CH2:23][C:24]([CH3:25])=[CH2:26])[cH:34]1.[C:27]([Si:28]([CH3:29])([CH3:30])[CH3:31])#[C:32][CH3:33]>CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].Cc1ccccc1.[Li]CCCC.[Ti+4]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[c:15]([CH2:16][CH2:17][C:18]2=[C:19]3[CH2:20][C@@H:21]([OH:22])[CH2:23][C@@:24]3([CH3:25])[CH2:26][C:27]([Si:28]([CH3:29])([CH3:30])[CH3:31])=[C:32]2[CH3:33])[cH:34]1",
+      "mapping_confidence": 0.07986260040511618,
+      "conditions": {
+        "raw_description": "Ti(OiPr)4; nBuLi; PhMe; -78 to 50 \u00b0C; 58%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [
+          "Ti(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "50"
+        ],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_7",
+      "reaction_smiles": "COc1ccc(OS(=O)(=O)C(F)(F)F)c(CCC2=C3C[C@@H](O)C[C@@]3(C)CC([Si](C)(C)C)=C2C)c1.Cl.O.C1CCOC1>>COc1ccc(OS(=O)(=O)C(F)(F)F)c(CCC2=C3C[C@@H](O)C[C@@]3(C)CC=C2C)c1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:27]1=[C:28]([CH3:29])[C:18]([CH2:17][CH2:16][c:15]2[c:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:30]2)=[C:19]2[CH2:20][C@@H:21]([OH:22])[CH2:23][C@@:24]2([CH3:25])[CH2:26]1>C1CCOC1.Cl.O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[c:15]([CH2:16][CH2:17][C:18]2=[C:19]3[CH2:20][C@@H:21]([OH:22])[CH2:23][C@@:24]3([CH3:25])[CH2:26][CH:27]=[C:28]2[CH3:29])[cH:30]1",
+      "mapping_confidence": 0.13933369717420757,
+      "conditions": {
+        "raw_description": "HCl; H2O; THF; 84%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_8",
+      "reaction_smiles": "COc1ccc(OS(=O)(=O)C(F)(F)F)c(CCC2=C3C[C@@H](O)C[C@@]3(C)CC=C2C)c1.CCN(C(C)C)C(C)C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1.Cc1ccccc1>>COc1ccc2c(c1)CCC1=C3C[C@@H](O)C[C@@]3(C)C=C[C@]12C",
+      "reaction_smiles_mapped": "O=S(=O)(O[c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:8][c:7]1[CH2:9][CH2:10][C:11]1=[C:12]2[CH2:13][C@@H:14]([OH:15])[CH2:16][C@@:17]2([CH3:18])[CH2:19][CH:20]=[C:21]1[CH3:22])C(F)(F)F>CCN(C(C)C)C(C)C.Cc1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C:11]1=[C:12]3[CH2:13][C@@H:14]([OH:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]",
+      "mapping_confidence": 0.9063762761815081,
+      "conditions": {
+        "raw_description": "Pd2(dba)3; rac-BINAP; DIPEA; PhMe 110 \u00b0C; 65%",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [
+          "rac-BINAP"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=C(C4=CC=CC=C4C=C3)C5=C(C=CC6=CC=CC=C65)P(C7=CC=CC=C7)C8=CC=CC=C8"
+        ],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_9",
+      "reaction_smiles": "COc1ccc2c(c1)CCC1=C3C[C@@H](O)C[C@@]3(C)C=C[C@]12C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>>COc1ccc2c(c1)CCC1=C3CC(=O)C[C@@]3(C)C=C[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C:11]1=[C:12]3[CH2:13][C@@H:14]([OH:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C:11]1=[C:12]3[CH2:13][C:14](=[O:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]",
+      "mapping_confidence": 0.9514409313670114,
+      "conditions": {
+        "raw_description": "DMP; DCM; H2O; 81%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_10",
+      "reaction_smiles": "COc1ccc2c(c1)CCC1=C3CC(=O)C[C@@]3(C)C=C[C@]12C.C1CCC2=NCCCN2CC1>>COc1ccc2c(c1)CC[C@H]1C3=CC(=O)C[C@@]3(C)C=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C:11]1=[C:12]3[CH2:13][C:14](=[O:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]>C1CCC2=NCCCN2CC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@H:11]1[C:12]3=[CH:13][C:14](=[O:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]",
+      "mapping_confidence": 0.9228271173784626,
+      "conditions": {
+        "raw_description": "DBU; 60 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_11",
+      "reaction_smiles": "COc1ccc2c(c1)CC[C@H]1C3=CC(=O)C[C@@]3(C)C=C[C@@]21C.[BH4-].[Na+].Cl[Ce](Cl)Cl.CO>>COc1ccc2c(c1)CC[C@H]1C3=C[C@@H](O)C[C@@]3(C)C=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@H:11]1[C:12]3=[CH:13][C:14](=[O:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]>CO.Cl[Ce](Cl)Cl.[BH4-].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@H:11]1[C:12]3=[CH:13][C@@H:14]([OH:15])[CH2:16][C@@:17]3([CH3:18])[CH:19]=[CH:20][C@@:21]21[CH3:22]",
+      "mapping_confidence": 0.9432253210669621,
+      "conditions": {
+        "raw_description": "CeCl3; NaBH4; MeOH; rt to 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_12",
+      "reaction_smiles": "COc1ccc2c(c1)CC[C@H]1C3=C[C@@H](O)C[C@@]3(C)C=C[C@@]21C.CC[Zn]CC.ICI.ClCCl>>COc1ccc2c(c1)CC[C@H]1[C@]34C[C@H]3[C@@H](O)C[C@@]4(C)C=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@@H:11]1[C@@:12]2([CH3:13])[CH:14]=[CH:15][C@:16]2([CH3:17])[CH2:18][C@H:19]([OH:20])[CH:21]=[C:23]12.I[CH2:22]I>CC[Zn]CC.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@@H:11]1[C@@:12]2([CH3:13])[CH:14]=[CH:15][C@:16]2([CH3:17])[CH2:18][C@H:19]([OH:20])[C@@H:21]3[CH2:22][C@:23]123",
+      "mapping_confidence": 0.8087939990795925,
+      "conditions": {
+        "raw_description": "Et2Zn; CH2I2; DCM; 76%",
+        "GENERAL_REAGENTS": [
+          "Et2Zn",
+          "CH2I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC",
+          "C(I)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_13",
+      "reaction_smiles": "COc1ccc2c(c1)CC[C@H]1[C@]34C[C@H]3[C@@H](O)C[C@@]4(C)C=C[C@@]21C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>>COc1ccc2c(c1)CC[C@H]1[C@]34C[C@H]3C(=O)C[C@@]4(C)C=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@@H:11]1[C@@:12]2([CH3:13])[CH:14]=[CH:15][C@:16]2([CH3:17])[CH2:18][C@H:19]([OH:20])[C@@H:21]3[CH2:22][C@:23]123>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][C@@H:11]1[C@@:12]2([CH3:13])[CH:14]=[CH:15][C@:16]2([CH3:17])[CH2:18][C:19](=[O:20])[C@@H:21]3[CH2:22][C@:23]123",
+      "mapping_confidence": 0.9578797074954776,
+      "conditions": {
+        "raw_description": "DMP; DCM; H2O; 87%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_14",
+      "reaction_smiles": "COc1ccc2c(c1)CC[C@H]1[C@]34C[C@H]3C(=O)C[C@@]4(C)C=C[C@@]21C.N.[Li].C1CCOC1.CC(C)(C)O>>COC1=CCC2=C(CC[C@@H]3[C@@]2(C)C=C[C@]2(C)CC(O)C[C@@]32C)C1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:23]1)[CH2:8][CH2:9][C@@H:10]1[C@@:11]2([CH3:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[CH2:17][C:18](=[O:19])[C@H:20]3[C@@:21]12[CH2:22]3>C1CCOC1.CC(C)(C)O.N.[Li]>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][C:6]2=[C:7]([CH2:8][CH2:9][C@@H:10]3[C@@:11]2([CH3:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[CH2:17][CH:18]([OH:19])[CH2:20][C@@:21]32[CH3:22])[CH2:23]1",
+      "mapping_confidence": 0.7553132637765491,
+      "conditions": {
+        "raw_description": "Li; NH3; THF; t-BuOH; -78 \u00b0C to rt; 73%",
+        "GENERAL_REAGENTS": [
+          "Li/NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li].N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_15",
+      "reaction_smiles": "COC1=CCC2=C(CC[C@@H]3[C@@]2(C)C=C[C@]2(C)CC(O)C[C@@]32C)C1.Cl.CC(C)=O>>C[C@@]12C=C[C@]3(C)CC(O)C[C@@]3(C)[C@@H]1CCC1=C2CCC(=O)C1",
+      "reaction_smiles_mapped": "C[O:20][C:19]1=[CH:21][CH2:22][C:7]2=[C:8]([CH2:9][CH2:10][C@@H:11]3[C@@:5]2([CH3:6])[CH:4]=[CH:3][C@@:2]2([CH3:1])[C@@:12]3([CH3:13])[CH2:14][CH:15]([OH:16])[CH2:17]2)[CH2:18]1>CC(C)=O.Cl>[CH3:1][C@:2]12[CH:3]=[CH:4][C@@:5]3([CH3:6])[C:7]4=[C:8]([CH2:9][CH2:10][C@H:11]3[C@:12]1([CH3:13])[CH2:14][CH:15]([OH:16])[CH2:17]2)[CH2:18][C:19](=[O:20])[CH2:21][CH2:22]4",
+      "mapping_confidence": 0.9063045119143857,
+      "conditions": {
+        "raw_description": "HCl; acetone; 64%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_16",
+      "reaction_smiles": "C[C@@]12C=C[C@]3(C)CC(O)C[C@@]3(C)[C@@H]1CCC1=C2CCC(=O)C1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>>C[C@@]12C=C[C@]3(C)CC(=O)C[C@@]3(C)[C@@H]1CCC1=C2CCC(=O)C1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH:3]=[CH:4][C@@:5]3([CH3:6])[C:7]4=[C:8]([CH2:9][CH2:10][C@H:11]3[C@:12]1([CH3:13])[CH2:14][CH:15]([OH:16])[CH2:17]2)[CH2:18][C:19](=[O:20])[CH2:21][CH2:22]4>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O>[CH3:1][C@:2]12[CH:3]=[CH:4][C@@:5]3([CH3:6])[C:7]4=[C:8]([CH2:9][CH2:10][C@H:11]3[C@:12]1([CH3:13])[CH2:14][C:15](=[O:16])[CH2:17]2)[CH2:18][C:19](=[O:20])[CH2:21][CH2:22]4",
+      "mapping_confidence": 0.9314382227914941,
+      "conditions": {
+        "raw_description": "DMP; DCM; H2O; 87%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_17",
+      "reaction_smiles": "C[C@@]12C=C[C@]3(C)CC(=O)C[C@@]3(C)[C@@H]1CCC1=C2CCC(=O)C1.Cl.CO>>C[C@@]12C=C[C@]3(C)CC(=O)C[C@@]3(C)[C@@H]1CCC1=CC(=O)CC[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH:3]=[CH:4][C@@:5]3([CH3:6])[C:10]4=[C:16]([CH2:15][CH2:14][C@H:11]3[C@:13]1([CH3:12])[CH2:7][C:8](=[O:9])[CH2:22]2)[CH2:17][C:18](=[O:19])[CH2:20][CH2:21]4>CO.Cl>[CH3:1][C@@:2]12[CH:3]=[CH:4][C@:5]3([CH3:6])[CH2:7][C:8](=[O:9])[CH2:10][C@@:11]3([CH3:12])[C@@H:13]1[CH2:14][CH2:15][C:16]1=[CH:17][C:18](=[O:19])[CH2:20][CH2:21][C@@H:22]21",
+      "mapping_confidence": 0.595226972274345,
+      "conditions": {
+        "raw_description": "HCl; MeOH; rt to 65 \u00b0C; 38%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "65"
+        ],
+        "YIELD": [
+          "38%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_18",
+      "reaction_smiles": "C[C@@]12C=C[C@]3(C)CC(=O)C[C@@]3(C)[C@@H]1CCC1=CC(=O)CC[C@H]12.CI.CI.CC(C)(C)[O-].[K+].CC(C)(C)O.c1ccccc1>>CC1(C)C(=O)CC[C@@H]2C1=CC[C@@H]1[C@@]2(C)C=C[C@]2(C)CC(=O)C[C@@]12C",
+      "reaction_smiles_mapped": "I[CH3:1].I[CH3:3].[CH:2]1=[C:9]2[C@@H:8]([CH2:7][CH2:6][C:4]1=[O:5])[C@@:13]1([CH3:14])[C@@H:12]([CH2:11][CH2:10]2)[C@@:23]2([CH3:24])[C@:17]([CH3:18])([CH:16]=[CH:15]1)[CH2:19][C:20](=[O:21])[CH2:22]2>CC(C)(C)O.CC(C)(C)[O-].[K+].c1ccccc1>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@@H:8]2[C:9]1=[CH:10][CH2:11][C@@H:12]1[C@@:13]2([CH3:14])[CH:15]=[CH:16][C@:17]2([CH3:18])[CH2:19][C:20](=[O:21])[CH2:22][C@@:23]12[CH3:24]",
+      "mapping_confidence": 0.37907609739848963,
+      "conditions": {
+        "raw_description": "tBuOK; tBuOH; MeI; PhH; 30 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOK",
+          "tBuOH",
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "CC(C)(C)O",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_19",
+      "reaction_smiles": "CC1(C)C(=O)CC[C@@H]2C1=CC[C@@H]1[C@@]2(C)C=C[C@]2(C)CC(=O)C[C@@]12C.[HH].[C].[Pd].CO>>CC1(C)C(=O)CC[C@@H]2C1=CC[C@@H]1[C@@]2(C)CC[C@]2(C)CC(=O)C[C@@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@@H:8]2[C:9]1=[CH:10][CH2:11][C@@H:12]1[C@@:13]2([CH3:14])[CH:15]=[CH:16][C@:17]2([CH3:18])[CH2:19][C:20](=[O:21])[CH2:22][C@@:23]12[CH3:24]>CO.[C].[HH].[Pd]>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@@H:8]2[C:9]1=[CH:10][CH2:11][C@@H:12]1[C@@:13]2([CH3:14])[CH2:15][CH2:16][C@:17]2([CH3:18])[CH2:19][C:20](=[O:21])[CH2:22][C@@:23]12[CH3:24]",
+      "mapping_confidence": 0.7645451516587083,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; 66%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Octanorcucurbitacin_B_2022_Micalizio_20",
+      "reaction_smiles": "CC1(C)C(=O)CC[C@@H]2C1=CC[C@@H]1[C@@]2(C)CC[C@]2(C)CC(=O)C[C@@]12C.O=[Cr](=O)=O.ClCCl.c1ccncc1>>CC1(C)C(=O)CC[C@@H]2C1=CC(=O)[C@@H]1[C@@]2(C)CC[C@]2(C)CC(=O)C[C@@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@@H:8]2[C:9]1=[CH:10][CH2:11][C@@H:13]1[C@@:14]2([CH3:15])[CH2:16][CH2:17][C@:18]2([CH3:19])[CH2:20][C:21](=[O:22])[CH2:23][C@@:24]12[CH3:25].O=[Cr](=O)=[O:12]>ClCCl.c1ccncc1>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@@H:8]2[C:9]1=[CH:10][C:11](=[O:12])[C@@H:13]1[C@@:14]2([CH3:15])[CH2:16][CH2:17][C@:18]2([CH3:19])[CH2:20][C:21](=[O:22])[CH2:23][C@@:24]12[CH3:25]",
+      "mapping_confidence": 0.4492511936214492,
+      "conditions": {
+        "raw_description": "CrO3; pyr; DCM; 35 \u00b0C; 54%",
+        "GENERAL_REAGENTS": [
+          "CrO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "pyr"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "35"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    }
+  ]
+}

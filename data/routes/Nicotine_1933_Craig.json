@@ -1,0 +1,229 @@
+{
+  "background": {
+    "name": "Nicotine",
+    "author": "Craig",
+    "year": 1933,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1933, 55, 2854",
+    "doi": "10.1021/ja01334a036"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Nicotine_1933_Craig_1",
+      "reaction_smiles": "c1ccncc1.O=S(=O)(O)O.O=S(=O)([O-])[O-].O=[V+2]>>O=S(=O)(O[Na])c1cccnc1",
+      "reaction_smiles_mapped": "O[S:2](=[O:1])(=[O:3])[OH:4].[cH:6]1[cH:7][cH:8][cH:9][n:10][cH:11]1>O=S(=O)([O-])[O-].O=[V+2]>[O:1]=[S:2](=[O:3])([O:4][Na:5])[c:6]1[cH:7][cH:8][cH:9][n:10][cH:11]1",
+      "mapping_confidence": 0.1551715125373165,
+      "conditions": {
+        "raw_description": "VOSO4; H2SO4",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [
+          "VOSO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].O=[V+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_2",
+      "reaction_smiles": "O=S(=O)(O[Na])c1cccnc1.[C-]#N.[Na+]>>N#Cc1cccnc1",
+      "reaction_smiles_mapped": "O=S(=O)(O[Na])[c:3]1[cH:4][cH:5][cH:6][n:7][cH:8]1.[N:1]#[C-:2]>[Na+]>[N:1]#[C:2][c:3]1[cH:4][cH:5][cH:6][n:7][cH:8]1",
+      "mapping_confidence": 0.9980736326640549,
+      "conditions": {
+        "raw_description": "NaCN; 47%",
+        "GENERAL_REAGENTS": [
+          "NaCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "47%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_3",
+      "reaction_smiles": "N#Cc1cccnc1.CCOCCC[Mg]Br>>CCOCCCC(=O)c1cccnc1",
+      "reaction_smiles_mapped": "Br[Mg][CH2:6][CH2:5][CH2:4][O:3][CH2:2][CH3:1].N#[C:7][c:9]1[cH:10][cH:11][cH:12][n:13][cH:14]1>>[CH3:1][CH2:2][O:3][CH2:4][CH2:5][CH2:6][C:7](=[O:8])[c:9]1[cH:10][cH:11][cH:12][n:13][cH:14]1",
+      "mapping_confidence": 0.9915177553441539,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_4",
+      "reaction_smiles": "CCOCCCC(=O)c1cccnc1.NO.CCO>>CCOCCC/C(=N/O)c1cccnc1",
+      "reaction_smiles_mapped": "O=[C:7]([CH2:6][CH2:5][CH2:4][O:3][CH2:2][CH3:1])[c:10]1[cH:11][cH:12][cH:13][n:14][cH:15]1.[NH2:8][OH:9]>CCO>[CH3:1][CH2:2][O:3][CH2:4][CH2:5][CH2:6]/[C:7](=[N:8]/[OH:9])[c:10]1[cH:11][cH:12][cH:13][n:14][cH:15]1",
+      "mapping_confidence": 0.9949916726797879,
+      "conditions": {
+        "raw_description": "NH2OH; EtOH",
+        "GENERAL_REAGENTS": [
+          "NH2OH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_5",
+      "reaction_smiles": "CCOCCC/C(=N/O)c1cccnc1.CC(=O)O.[Zn].[Fe].CCO>>CCOCCCC(N)c1cccnc1",
+      "reaction_smiles_mapped": "O/[N:8]=[C:7](/[CH2:6][CH2:5][CH2:4][O:3][CH2:2][CH3:1])[c:9]1[cH:10][cH:11][cH:12][n:13][cH:14]1>CC(=O)O.[Fe].CCO>[CH3:1][CH2:2][O:3][CH2:4][CH2:5][CH2:6][CH:7]([NH2:8])[c:9]1[cH:10][cH:11][cH:12][n:13][cH:14]1",
+      "mapping_confidence": 0.9974202639594434,
+      "conditions": {
+        "raw_description": "Fe; Zn; AcOH; EtOH; 85%",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Zn]"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_6",
+      "reaction_smiles": "CCOCCCC(N)c1cccnc1.Br.BrBr>>NC(CCCO)c1cccnc1",
+      "reaction_smiles_mapped": "CC[O:6][CH2:5][CH2:4][CH2:3][CH:2]([NH2:1])[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1>Br.BrBr>[NH2:1][CH:2]([CH2:3][CH2:4][CH2:5][OH:6])[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1",
+      "mapping_confidence": 0.998551275806926,
+      "conditions": {
+        "raw_description": "Br",
+        "GENERAL_REAGENTS": [
+          "Br"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_7",
+      "reaction_smiles": "NC(CCCO)c1cccnc1.[K+].[OH-]>>c1cncc(C2CCCN2)c1",
+      "reaction_smiles_mapped": "O[CH2:9][CH2:8][CH2:7][CH:6]([c:5]1[cH:4][n:3][cH:2][cH:1][cH:11]1)[NH2:10]>[K+].[OH-]>[cH:1]1[cH:2][n:3][cH:4][c:5]([CH:6]2[CH2:7][CH2:8][CH2:9][NH:10]2)[cH:11]1",
+      "mapping_confidence": 0.9910412826302242,
+      "conditions": {
+        "raw_description": "KOH; 55% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nicotine_1933_Craig_8",
+      "reaction_smiles": "c1cncc(C2CCCN2)c1.CI.CO>>CN1CCCC1c1cccnc1",
+      "reaction_smiles_mapped": "I[CH3:1].[NH:2]1[CH2:3][CH2:4][CH2:5][CH:6]1[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1>CO>[CH3:1][N:2]1[CH2:3][CH2:4][CH2:5][CH:6]1[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1",
+      "mapping_confidence": 0.9507088606364438,
+      "conditions": {
+        "raw_description": "CH3I; CH3OH",
+        "GENERAL_REAGENTS": [
+          "CH3I"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3OH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

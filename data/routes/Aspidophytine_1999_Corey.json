@@ -1,0 +1,799 @@
+{
+  "background": {
+    "name": "Aspidophytine",
+    "author": "Corey",
+    "year": 1999,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1999, 121, 6771",
+    "doi": "10.1021/ja9915201"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_1",
+      "reaction_smiles": "COc1c(O)ccc(C=O)c1[N+](=O)[O-].CI>>COc1ccc(C=O)c([N+](=O)[O-])c1OC",
+      "reaction_smiles_mapped": "I[CH3:1].[OH:2][c:3]1[cH:4][cH:5][c:6]([CH:7]=[O:8])[c:9]([N+:10](=[O:11])[O-:12])[c:13]1[O:14][CH3:15]>>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]=[O:8])[c:9]([N+:10](=[O:11])[O-:12])[c:13]1[O:14][CH3:15]",
+      "mapping_confidence": 0.9726047769100479,
+      "conditions": {
+        "raw_description": "MeI; KOH; 100\u00b0C",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_2",
+      "reaction_smiles": "COc1ccc(C=O)c([N+](=O)[O-])c1OC.[Na+].[OH-].CO.C[N+](=O)[O-]>>COc1ccc(C(O)C[N+](=O)[O-])c([N+](=O)[O-])c1OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]=[O:8])[c:13]([N+:14](=[O:15])[O-:16])[c:17]1[O:18][CH3:19].[CH3:9][N+:10](=[O:11])[O-:12]>CO.[Na+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([OH:8])[CH2:9][N+:10](=[O:11])[O-:12])[c:13]([N+:14](=[O:15])[O-:16])[c:17]1[O:18][CH3:19]",
+      "mapping_confidence": 0.9497220764009746,
+      "conditions": {
+        "raw_description": "MeNO2; MeOH; NaOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "MeNO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_3",
+      "reaction_smiles": "COc1ccc(C(O)C[N+](=O)[O-])c([N+](=O)[O-])c1OC.CC(=O)[O-].[Na+].Cl>>COc1ccc(/C=C/[N+](=O)[O-])c([N+](=O)[O-])c1OC",
+      "reaction_smiles_mapped": "O[CH:7]([c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:16]([O:17][CH3:18])[c:12]1[N+:13](=[O:14])[O-:15])[CH2:8][N+:9](=[O:10])[O-:11]>CC(=O)[O-].Cl.[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6](/[CH:7]=[CH:8]/[N+:9](=[O:10])[O-:11])[c:12]([N+:13](=[O:14])[O-:15])[c:16]1[O:17][CH3:18]",
+      "mapping_confidence": 0.9113526964998776,
+      "conditions": {
+        "raw_description": "HCl; NaOAc; 86% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_4",
+      "reaction_smiles": "COc1ccc(/C=C/[N+](=O)[O-])c([N+](=O)[O-])c1OC.[Fe].CC(=O)O.Cc1ccccc1>>COc1ccc2cc[nH]c2c1OC",
+      "reaction_smiles_mapped": "O=[N+]([O-])/[CH:8]=[CH:7]/[c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:11]([O:12][CH3:13])[c:10]1[N+:9](=O)[O-]>CC(=O)O.Cc1ccccc1.[Fe]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][cH:8][nH:9][c:10]2[c:11]1[O:12][CH3:13]",
+      "mapping_confidence": 0.6917145471369439,
+      "conditions": {
+        "raw_description": "Fe; HOAc; Silica gel; Toluene; reflux; 71%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc",
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "Silica gel"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_5",
+      "reaction_smiles": "COc1ccc2cc[nH]c2c1OC.CI.C1CCOC1>>COc1ccc2ccn(C)c2c1OC",
+      "reaction_smiles_mapped": "I[CH3:10].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][cH:8][nH:9][c:11]2[c:12]1[O:13][CH3:14]>C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][cH:8][n:9]([CH3:10])[c:11]2[c:12]1[O:13][CH3:14]",
+      "mapping_confidence": 0.9544363756087957,
+      "conditions": {
+        "raw_description": "MeI; KOH; TBAI; THF; 94%",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_6",
+      "reaction_smiles": "COc1ccc2ccn(C)c2c1OC.O=P(Cl)(Cl)Cl.[Na+].[OH-].CN(C)C=O>>COc1ccc2c(C=O)cn(C)c2c1OC",
+      "reaction_smiles_mapped": "CN(C)[CH:8]=O.[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][cH:10][n:11]([CH3:12])[c:13]2[c:14]1[O:15][CH3:16]>O=P(Cl)(Cl)Cl.[Na+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH:8]=[O:9])[cH:10][n:11]([CH3:12])[c:13]2[c:14]1[O:15][CH3:16]",
+      "mapping_confidence": 0.9630560088814971,
+      "conditions": {
+        "raw_description": "1) POCl3; DMF; 2) NaOH; reflux; 99%",
+        "GENERAL_REAGENTS": [
+          "POCl3",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_7",
+      "reaction_smiles": "COc1ccc2c(C=O)cn(C)c2c1OC.CC(=O)[O-].[NH4+].C[N+](=O)[O-]>>COc1ccc2c(/C=C/[N+](=O)[O-])cn(C)c2c1OC",
+      "reaction_smiles_mapped": "O=[CH:8][c:7]1[c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[c:17]([O:18][CH3:19])[c:16]2[n:14]([CH3:15])[cH:13]1.[CH3:9][N+:10](=[O:11])[O-:12]>CC(=O)[O-].[NH4+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7](/[CH:8]=[CH:9]/[N+:10](=[O:11])[O-:12])[cH:13][n:14]([CH3:15])[c:16]2[c:17]1[O:18][CH3:19]",
+      "mapping_confidence": 0.9470627680151307,
+      "conditions": {
+        "raw_description": "MeNO2; NH4OAc; reflux; 92%",
+        "GENERAL_REAGENTS": [
+          "NH4OAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[NH4+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeNO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_8",
+      "reaction_smiles": "COc1ccc2c(/C=C/[N+](=O)[O-])cn(C)c2c1OC.[AlH4-].[Li+].C1CCOC1>>COc1ccc2c(CCN)cn(C)c2c1OC",
+      "reaction_smiles_mapped": "O=[N+:10]([O-])/[CH:9]=[CH:8]/[c:7]1[c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[c:15]([O:16][CH3:17])[c:14]2[n:12]([CH3:13])[cH:11]1>C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([CH2:8][CH2:9][NH2:10])[cH:11][n:12]([CH3:13])[c:14]2[c:15]1[O:16][CH3:17]",
+      "mapping_confidence": 0.99509523347827,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux; 88%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_9",
+      "reaction_smiles": "COc1ccc2c(CCN)cn(C)c2c1OC.C=C(C[Si](C)(C)C)[C@](C=O)(CCC=O)CC(=O)OC(C)C.[BH3-]C#N.[Na+].CC#N.O=C(OC(=O)C(F)(F)F)C(F)(F)F>>C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@@]1(CC(=O)OC(C)C)[C@@H]23",
+      "reaction_smiles_mapped": "C[Si](C)(C)[CH2:1][C:2](=[CH2:3])[C@:24]([CH2:23][CH2:22][CH:21]=O)([CH2:25][C:26](=[O:27])[O:28][CH:29]([CH3:30])[CH3:31])[CH:32]=O.[cH:4]1[n:5]([CH3:6])[c:7]2[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]2[O:15][CH3:16])[c:17]1[CH2:18][CH2:19][NH2:20]>CC#N.O=C(OC(=O)C(F)(F)F)C(F)(F)F.[BH3-]C#N.[Na+]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[N:5]([CH3:6])[c:7]3[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]3[O:15][CH3:16])[C@:17]23[CH2:18][CH2:19][N:20]2[CH2:21][CH2:22][CH2:23][C@@:24]1([CH2:25][C:26](=[O:27])[O:28][CH:29]([CH3:30])[CH3:31])[C@H:32]32",
+      "mapping_confidence": 0.7266955137177736,
+      "conditions": {
+        "raw_description": "MeCN; rt; TFAA; 0\u00b0C; NaBH3CN; rt; 66%",
+        "GENERAL_REAGENTS": [
+          "TFAA",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_10",
+      "reaction_smiles": "C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@@]1(CC(=O)OC(C)C)[C@@H]23.[Na+].[OH-].CCO>>C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@@]1(CC(=O)O)[C@@H]23",
+      "reaction_smiles_mapped": "CC(C)O[C:26]([CH2:25][C@:24]12[C:2](=[CH2:1])[CH2:3][C@H:4]3[N:5]([CH3:6])[c:7]4[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]4[O:15][CH3:16])[C@:17]34[CH2:18][CH2:19][N:20]([CH2:21][CH2:22][CH2:23]1)[C@@H:29]42)=[O:27]>CCO.[Na+].[OH-]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[N:5]([CH3:6])[c:7]3[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]3[O:15][CH3:16])[C@:17]23[CH2:18][CH2:19][N:20]2[CH2:21][CH2:22][CH2:23][C@@:24]1([CH2:25][C:26](=[O:27])[OH:28])[C@H:29]32",
+      "mapping_confidence": 0.9749948545864509,
+      "conditions": {
+        "raw_description": "NaOH; EtOH; 75\u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_11",
+      "reaction_smiles": "C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@@]1(CC(=O)O)[C@@H]23.O=C([O-])O.[Na+].[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+3].[K+].[K+].[K+].CC(C)(C)O.O>>C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@]14CC(=O)O[C@@]243",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][C@H:4]2[N:5]([CH3:6])[c:7]3[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]3[O:15][CH3:16])[C@:17]23[CH2:18][CH2:19][N:20]2[CH2:21][CH2:22][CH2:23][C@@:24]1([CH2:25][C:26](=[O:27])[OH:28])[C@H:29]32>CC(C)(C)O.O.O=C([O-])O.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+3].[K+].[K+].[K+].[Na+]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[N:5]([CH3:6])[c:7]3[c:8]([cH:9][cH:10][c:11]([O:12][CH3:13])[c:14]3[O:15][CH3:16])[C@:17]23[CH2:18][CH2:19][N:20]2[CH2:21][CH2:22][CH2:23][C@:24]14[CH2:25][C:26](=[O:27])[O:28][C@@:29]324",
+      "mapping_confidence": 0.9478447516175756,
+      "conditions": {
+        "raw_description": "K3Fe(CN)6; NaHCO3; t-BuOH/H2O; 92%",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "K3Fe(CN)6"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[K+].[K+].[K+].[Fe+3]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_12",
+      "reaction_smiles": "C=C1C[C@H]2N(C)c3c(ccc(OC)c3OC)[C@]23CCN2CCC[C@]14CC(=O)O[C@@]243.O=[Os](=O)(=O)=O.CN(C)c1ccncc1.CC(C)(C)O.O>>COc1ccc2c(c1OC)N(C)[C@@H]1C[C@](O)(CO)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH2:14][C:15](=[CH2:17])[C@@:19]34[CH2:20][CH2:21][CH2:22][N:23]5[CH2:24][CH2:25][C@@:26]21[C@@:27]35[O:28][C:29](=[O:30])[CH2:31]4.O=[Os](=O)(=[O:16])=[O:18]>O.CC(C)(C)O.CN(C)c1ccncc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH2:14][C@:15]([OH:16])([CH2:17][OH:18])[C@@:19]34[CH2:20][CH2:21][CH2:22][N:23]5[CH2:24][CH2:25][C@@:26]21[C@@:27]35[O:28][C:29](=[O:30])[CH2:31]4",
+      "mapping_confidence": 0.23416274703727033,
+      "conditions": {
+        "raw_description": "OsO4; DMAP; t-BuOH/H2O",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH",
+          "H2O",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_13",
+      "reaction_smiles": "COc1ccc2c(c1OC)N(C)[C@@H]1C[C@](O)(CO)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].CC(=O)O.ClCCl>>COc1ccc2c(c1OC)N(C)[C@@H]1CC(=O)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4",
+      "reaction_smiles_mapped": "OC[C@@:15]1([OH:16])[CH2:14][C@H:13]2[N:11]([CH3:12])[c:7]3[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]3[O:9][CH3:10])[C@:24]23[CH2:23][CH2:22][N:21]2[CH2:20][CH2:19][CH2:18][C@@:17]14[C@@:25]23[O:26][C:27](=[O:28])[CH2:29]4>CC(=O)O.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].ClCCl.[Pb+4]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH2:14][C:15](=[O:16])[C@@:17]34[CH2:18][CH2:19][CH2:20][N:21]5[CH2:22][CH2:23][C@@:24]21[C@@:25]35[O:26][C:27](=[O:28])[CH2:29]4",
+      "mapping_confidence": 0.9611583515572757,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; AcOH; CH2Cl2; 71% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_14",
+      "reaction_smiles": "COc1ccc2c(c1OC)N(C)[C@@H]1CC(=O)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4.C[Si](C)(C)[N-][Si](C)(C)C.[K+].O=S(=O)(N(c1ccccc1)S(=O)(=O)C(F)(F)F)C(F)(F)F.C1CCOC1>>COc1ccc2c(c1OC)N(C)[C@@H]1C=C(OS(=O)(=O)C(F)(F)F)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH2:14][C:15](=[O:16])[C@@:24]34[CH2:25][CH2:26][CH2:27][N:28]5[CH2:29][CH2:30][C@@:31]21[C@@:32]35[O:33][C:34](=[O:35])[CH2:36]4.O=S(=O)(N(c1ccccc1)[S:17](=[O:18])(=[O:19])[C:20]([F:21])([F:22])[F:23])C(F)(F)F>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[K+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH:14]=[C:15]([O:16][S:17](=[O:18])(=[O:19])[C:20]([F:21])([F:22])[F:23])[C@@:24]34[CH2:25][CH2:26][CH2:27][N:28]5[CH2:29][CH2:30][C@@:31]21[C@@:32]35[O:33][C:34](=[O:35])[CH2:36]4",
+      "mapping_confidence": 0.12774135180222726,
+      "conditions": {
+        "raw_description": "KHMDS; PhNTf2; THF; -78\u00b0C; 54%",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "PhNTf2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "C1=CC=C(C=C1)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_15",
+      "reaction_smiles": "COc1ccc2c(c1OC)N(C)[C@@H]1C=C(OS(=O)(=O)C(F)(F)F)[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4.CCCC[SnH](CCCC)CCCC.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>COc1ccc2c(c1OC)N(C)[C@@H]1C=C[C@@]34CCCN5CC[C@@]21[C@]53OC(=O)C4",
+      "reaction_smiles_mapped": "O=S(=O)(O[C:15]1=[CH:14][C@H:13]2[N:11]([CH3:12])[c:7]3[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]3[O:9][CH3:10])[C@:23]23[CH2:22][CH2:21][N:20]2[CH2:19][CH2:18][CH2:17][C@@:16]14[C@@:24]23[O:25][C:26](=[O:27])[CH2:28]4)C(F)(F)F>C1CCOC1.CCCC[SnH](CCCC)CCCC.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH3:10])[N:11]([CH3:12])[C@@H:13]1[CH:14]=[CH:15][C@@:16]34[CH2:17][CH2:18][CH2:19][N:20]5[CH2:21][CH2:22][C@@:23]21[C@@:24]35[O:25][C:26](=[O:27])[CH2:28]4",
+      "mapping_confidence": 0.9727469102185146,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; Bu3SnH; THF; 86%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_16",
+      "reaction_smiles": "O=C1CCC(=O)C1.O=C1CCC(=O)N1Br>>O=C1CCC(=O)C1Br",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][C:5](=[O:6])[CH2:7]1.O=C1CCC(=O)N1[Br:8]>>[O:1]=[C:2]1[CH2:3][CH2:4][C:5](=[O:6])[CH:7]1[Br:8]",
+      "mapping_confidence": 0.8209735347385148,
+      "conditions": {
+        "raw_description": "NBS",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_17",
+      "reaction_smiles": "O=C1CCC(=O)C1Br.Cc1ccc(S(=O)(=O)O)cc1.CO>>COC1=C(Br)C(=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].O=[C:3]1[CH:4]([Br:5])[C:6](=[O:7])[CH2:8][CH2:9]1>Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][O:2][C:3]1=[C:4]([Br:5])[C:6](=[O:7])[CH2:8][CH2:9]1",
+      "mapping_confidence": 0.6547945883444787,
+      "conditions": {
+        "raw_description": "MeOH; p-TSA",
+        "GENERAL_REAGENTS": [
+          "p-TSA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_18",
+      "reaction_smiles": "COC1=C(Br)C(=O)CC1.C=C(C[Si](C)(C)C)[Mg]Br.Cl[Ce](Cl)Cl.C1CCOC1>>C=C(C[Si](C)(C)C)C1=C(Br)C(=O)CC1",
+      "reaction_smiles_mapped": "Br[Mg][C:2](=[CH2:1])[CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7].CO[C:11]1=[C:9]([Br:10])[C:8](=O)[CH2:14][CH2:13]1>C1CCOC1.Cl[Ce](Cl)Cl>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[C:9]([Br:10])[C:11](=[O:12])[CH2:13][CH2:14]1",
+      "mapping_confidence": 0.42314283974186395,
+      "conditions": {
+        "raw_description": "CeCl3; THF; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_19",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)C1=C(Br)C(=O)CC1.CB1OC(c2ccccc2)(c2ccccc2)[C@H]2CCCN12.B1Oc2ccccc2O1.ClCCl>>C=C(C[Si](C)(C)C)C1=C(Br)[C@@H](O)CC1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[C:9]([Br:10])[C:11](=[O:12])[CH2:13][CH2:14]1>B1Oc2ccccc2O1.CB1OC(c2ccccc2)(c2ccccc2)[C@H]2CCCN12.ClCCl>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[C:9]([Br:10])[C@@H:11]([OH:12])[CH2:13][CH2:14]1",
+      "mapping_confidence": 0.4154331573216784,
+      "conditions": {
+        "raw_description": "Catecholborane; CH2Cl2; -78\u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "Catecholborane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B1OC2=CC=CC=C2O1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_20",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)C1=C(Br)[C@@H](O)CC1.[Na].[Hg].CO>>C=C(C[Si](C)(C)C)C1=C[C@@H](O)CC1",
+      "reaction_smiles_mapped": "Br[C:9]1=[C:8]([C:2](=[CH2:1])[CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[CH2:13][CH2:12][C@@H:10]1[OH:11]>CO.[Hg].[Na]>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[CH:9][C@@H:10]([OH:11])[CH2:12][CH2:13]1",
+      "mapping_confidence": 0.513666570135297,
+      "conditions": {
+        "raw_description": "5% Na (Hg); MeOH; 82%",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "Hg"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "[Hg]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_21",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)C1=C[C@@H](O)CC1.CN(C)c1ccncc1.ClCCl.CC(=O)OC(C)=O.CCN(CC)CC>>C=C(C[Si](C)(C)C)C1=C[C@@H](OC(C)=O)CC1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[CH:9][C@@H:10]([OH:11])[CH2:15][CH2:16]1.CC(=O)O[C:12]([CH3:13])=[O:14]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[CH:9][C@@H:10]([O:11][C:12]([CH3:13])=[O:14])[CH2:15][CH2:16]1",
+      "mapping_confidence": 0.30871088937849683,
+      "conditions": {
+        "raw_description": "Ac2O; DMAP; NEt3; CH2Cl2; 97%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "NEt3",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_22",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)C1=C[C@@H](OC(C)=O)CC1.CC(C)(C)[Si](C)(C)Cl.[Li]N(C(C)C)C(C)C.C1CCOC1>>C=C(C[Si](C)(C)C)[C@]1(CC(=O)O)C=CCC1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8]1=[CH:13][C@@H:14]([O:12][C:10]([CH3:9])=[O:11])[CH2:15][CH2:16]1>C1CCOC1.CC(C)(C)[Si](C)(C)Cl.[Li]N(C(C)C)C(C)C>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@:8]1([CH2:9][C:10](=[O:11])[OH:12])[CH:13]=[CH:14][CH2:15][CH2:16]1",
+      "mapping_confidence": 0.45815527858854765,
+      "conditions": {
+        "raw_description": "1) LDA; TBSCl; THF; -78\u00b0C; 2) reflux",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_23",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)[C@]1(CC(=O)O)C=CCC1.CCN=C=NCCCN(C)C.Cl.CN(C)c1ccncc1.CC(C)O>>C=C(C[Si](C)(C)C)[C@]1(CC(=O)OC(C)C)C=CCC1",
+      "reaction_smiles_mapped": "O[C:10]([CH2:9][C@@:8]1([C:2](=[CH2:1])[CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[CH:16]=[CH:17][CH2:18][CH2:19]1)=[O:11].[OH:12][CH:13]([CH3:14])[CH3:15]>CCN=C=NCCCN(C)C.CN(C)c1ccncc1.Cl>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@:8]1([CH2:9][C:10](=[O:11])[O:12][CH:13]([CH3:14])[CH3:15])[CH:16]=[CH:17][CH2:18][CH2:19]1",
+      "mapping_confidence": 0.2156801591835578,
+      "conditions": {
+        "raw_description": "EDCl; i-PrOH; DMAP",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_24",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)[C@]1(CC(=O)OC(C)C)C=CCC1.O=[Os](=O)(=O)=O.CC(C)=O.O.C[N+]1([O-])CCOCC1>>C=C(C[Si](C)(C)C)[C@@]1(CC(=O)OC(C)C)CCC(O)C1O",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@@:8]1([CH2:9][C:10](=[O:11])[O:12][CH:13]([CH3:14])[CH3:15])[CH2:16][CH2:17][CH:18]=[CH:20]1.C[N+]1([O-:19])CCOCC1.[OH2:21]>CC(C)=O.O=[Os](=O)(=O)=O>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@@:8]1([CH2:9][C:10](=[O:11])[O:12][CH:13]([CH3:14])[CH3:15])[CH2:16][CH2:17][CH:18]([OH:19])[CH:20]1[OH:21]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4; NMO; Acetone/H2O; 57%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidophytine_1999_Corey_25",
+      "reaction_smiles": "C=C(C[Si](C)(C)C)[C@@]1(CC(=O)OC(C)C)CCC(O)C1O.[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1.O>>C=C(C[Si](C)(C)C)[C@](C=O)(CCC=O)CC(=O)OC(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@:8]1([CH2:15][C:16](=[O:17])[O:18][CH:19]([CH3:20])[CH3:21])[CH:9]([OH:10])[CH:13]([OH:14])[CH2:12][CH2:11]1>C1CCOC1.O.[Na+].[O-][I+3]([O-])([O-])[O-]>[CH2:1]=[C:2]([CH2:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[C@:8]([CH:9]=[O:10])([CH2:11][CH2:12][CH:13]=[O:14])[CH2:15][C:16](=[O:17])[O:18][CH:19]([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.3795457408535353,
+      "conditions": {
+        "raw_description": "NaIO4; THF/H2O; 98%",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    }
+  ]
+}

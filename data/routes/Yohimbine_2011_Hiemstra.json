@@ -1,0 +1,333 @@
+{
+  "background": {
+    "name": "(+)-Yohimbine",
+    "author": "Hiemstra",
+    "year": 2011,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2011, 76, 8907",
+    "doi": "10.1021/jo201657n"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_1",
+      "reaction_smiles": "NCCc1c[nH]c2ccccc12.CC(C)(C)OC(=O)O/C=C/C=C/C=O.[BH4-].[Na+].CO>>CC(C)(C)OC(=O)OC/C=C\\CCNCCc1c[nH]c2ccccc12",
+      "reaction_smiles_mapped": "O=[CH:13]/[CH:12]=[CH:11]/[CH:10]=[CH:9]/[O:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7].[NH2:14][CH2:15][CH2:16][c:17]1[cH:18][nH:19][c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]12>CO.[BH4-].[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[O:8][CH2:9]/[CH:10]=[CH:11]\\[CH2:12][CH2:13][NH:14][CH2:15][CH2:16][c:17]1[cH:18][nH:19][c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]12",
+      "mapping_confidence": 0.43143847324785695,
+      "conditions": {
+        "raw_description": "1) MeOH; 2) NaBH4; 45%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_2",
+      "reaction_smiles": "CC(C)(C)OC(=O)OC/C=C\\CCNCCc1c[nH]c2ccccc12.COC(=O)C(CCC=O)[Se]c1ccccc1.Cc1ccccc1>>COC(=O)C(CC[C@H]1c2[nH]c3ccccc3c2CCN1CC/C=C\\COC(=O)OC(C)(C)C)[Se]c1ccccc1",
+      "reaction_smiles_mapped": "[cH:9]1[nH:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]2[c:17]1[CH2:18][CH2:19][NH:20][CH2:21][CH2:22]/[CH:23]=[CH:24]\\[CH2:25][O:26][C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33].O=[CH:8][CH2:7][CH2:6][CH:5]([C:3]([O:2][CH3:1])=[O:4])[Se:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1>Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][CH2:7][C@H:8]1[c:9]2[nH:10][c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[c:17]2[CH2:18][CH2:19][N:20]1[CH2:21][CH2:22]/[CH:23]=[CH:24]\\[CH2:25][O:26][C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33])[Se:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1",
+      "mapping_confidence": 0.39102363458289047,
+      "conditions": {
+        "raw_description": "4A MS; PhMe; 50 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_3",
+      "reaction_smiles": "COC(=O)C(CC[C@H]1c2[nH]c3ccccc3c2CCN1CC/C=C\\COC(=O)OC(C)(C)C)[Se]c1ccccc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CN(C)c1ccncc1>>COC(=O)C(CC[C@H]1c2c(c3ccccc3n2C(=O)OC(C)(C)C)CCN1CC/C=C\\COC(=O)OC(C)(C)C)[Se]c1ccccc1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24].[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][CH2:7][C@H:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[nH:17]2)[CH2:25][CH2:26][N:27]1[CH2:28][CH2:29]/[CH:30]=[CH:31]\\[CH2:32][O:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40])[Se:41][c:42]1[cH:43][cH:44][cH:45][cH:46][cH:47]1>CN(C)c1ccncc1>[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][CH2:7][C@H:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[n:17]2[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][CH2:26][N:27]1[CH2:28][CH2:29]/[CH:30]=[CH:31]\\[CH2:32][O:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40])[Se:41][c:42]1[cH:43][cH:44][cH:45][cH:46][cH:47]1",
+      "mapping_confidence": 0.1654743607252302,
+      "conditions": {
+        "raw_description": "Boc2O; DMAP; 40 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "Boc2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_4",
+      "reaction_smiles": "COC(=O)C(CC[C@H]1c2c(c3ccccc3n2C(=O)OC(C)(C)C)CCN1CC/C=C\\COC(=O)OC(C)(C)C)[Se]c1ccccc1.O=C(OO)c1cccc(Cl)c1.CCN(CC)CC>>COC(=O)/C=C/C[C@H]1c2c(c3ccccc3n2C(=O)OC(C)(C)C)CCN1CC/C=C\\COC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "c1ccc([Se][CH:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:6][CH2:7][C@H:8]2[c:9]3[c:10]([c:11]4[cH:12][cH:13][cH:14][cH:15][c:16]4[n:17]3[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][CH2:26][N:27]2[CH2:28][CH2:29]/[CH:30]=[CH:31]\\[CH2:32][O:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40])cc1>CCN(CC)CC.O=C(OO)c1cccc(Cl)c1>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[CH:6]/[CH2:7][C@H:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[n:17]2[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][CH2:26][N:27]1[CH2:28][CH2:29]/[CH:30]=[CH:31]\\[CH2:32][O:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40]",
+      "mapping_confidence": 0.18324070665276387,
+      "conditions": {
+        "raw_description": "1) m-CPBA; 2) Et3N; 88%",
+        "GENERAL_REAGENTS": [
+          "m-CPBA",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_5",
+      "reaction_smiles": "COC(=O)/C=C/C[C@H]1c2c(c3ccccc3n2C(=O)OC(C)(C)C)CCN1CC/C=C\\COC(=O)OC(C)(C)C.Cc1ccccc1>>COC(=O)[C@@H]1[C@H]2C[C@H]3c4c(c5ccccc5n4C(=O)OC(C)(C)C)CCN3C[C@@H]2C=C[C@@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[O:33][CH2:32]/[CH:31]=[CH:30]\\[CH2:29][CH2:28][N:27]1[C@@H:8]([CH2:7]/[CH:6]=[CH:5]/[C:3]([O:2][CH3:1])=[O:4])[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[n:17]2[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][CH2:26]1>Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C@H:6]2[CH2:7][C@H:8]3[c:9]4[c:10]([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[n:17]4[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][CH2:26][N:27]3[CH2:28][C@@H:29]2[CH:30]=[CH:31][C@@H:32]1[OH:33]",
+      "mapping_confidence": 0.46427308760346137,
+      "conditions": {
+        "raw_description": "PhMe; 70 \u00b0C; 70 h; 73%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_6",
+      "reaction_smiles": "COC(=O)[C@@H]1[C@H]2C[C@H]3c4c(c5ccccc5n4C(=O)OC(C)(C)C)CCN3C[C@@H]2C=C[C@@H]1O.O=C(O)C(F)(F)F.ClCCl>>COC(=O)[C@@H]1[C@H]2C[C@H]3c4[nH]c5ccccc5c4CCN3C[C@@H]2C=C[C@@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[n:10]1[c:9]2[c:17]([c:16]3[c:11]1[cH:12][cH:13][cH:14][cH:15]3)[CH2:18][CH2:19][N:20]1[C@H:8]2[CH2:7][C@@H:6]2[C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[C@@H:25]([OH:26])[CH:24]=[CH:23][C@H:22]2[CH2:21]1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C@H:6]2[CH2:7][C@H:8]3[c:9]4[nH:10][c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[c:17]4[CH2:18][CH2:19][N:20]3[CH2:21][C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[OH:26]",
+      "mapping_confidence": 0.9045722623970318,
+      "conditions": {
+        "raw_description": "TFA; CH2Cl2; 2 h; 98%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_7",
+      "reaction_smiles": "COC(=O)[C@@H]1[C@H]2C[C@H]3c4[nH]c5ccccc5c4CCN3C[C@@H]2C=C[C@@H]1O.[HH].[C].[Pd].CCOC(C)=O>>COC(=O)[C@@H]1[C@H]2C[C@H]3c4[nH]c5ccccc5c4CCN3C[C@@H]2CC[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C@H:6]2[CH2:7][C@H:8]3[c:9]4[nH:10][c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[c:17]4[CH2:18][CH2:19][N:20]3[CH2:21][C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[OH:26]>CCOC(C)=O.[C].[HH].[Pd]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C@H:6]2[CH2:7][C@H:8]3[c:9]4[nH:10][c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[c:17]4[CH2:18][CH2:19][N:20]3[CH2:21][C@@H:22]2[CH2:23][CH2:24][C@@H:25]1[OH:26]",
+      "mapping_confidence": 0.9591045818686432,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOAc; 15 h; 98%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_8",
+      "reaction_smiles": "O=C/C=C/C=C/O[K].CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CS(C)=O>>CC(C)(C)OC(=O)O/C=C/C=C/C=O",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7].[K][O:8]/[CH:9]=[CH:10]/[CH:11]=[CH:12]/[CH:13]=[O:14]>CS(C)=O>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[O:8]/[CH:9]=[CH:10]/[CH:11]=[CH:12]/[CH:13]=[O:14]",
+      "mapping_confidence": 0.2102761337354805,
+      "conditions": {
+        "raw_description": "Boc2O; DMSO; 50 \u00b0C; 64%",
+        "GENERAL_REAGENTS": [
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_9",
+      "reaction_smiles": "C=CC=O.CO.CO.C[Si](C)(C)I>>COC(CCI)OC",
+      "reaction_smiles_mapped": "O=[CH:3][CH:4]=[CH2:5].[CH3:1][OH:2].[OH:7][CH3:8].C[Si](C)(C)[I:6]>>[CH3:1][O:2][CH:3]([CH2:4][CH2:5][I:6])[O:7][CH3:8]",
+      "mapping_confidence": 0.3673694824482184,
+      "conditions": {
+        "raw_description": "1) TMSI; 2) MeOH",
+        "GENERAL_REAGENTS": [
+          "TMSI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_10",
+      "reaction_smiles": "COC(CCI)OC.[Li]C([Se]c1ccccc1)C(=O)OC>>COC(=O)C(CCC(OC)OC)[Se]c1ccccc1",
+      "reaction_smiles_mapped": "I[CH2:6][CH2:7][CH:8]([O:9][CH3:10])[O:11][CH3:12].[Li][CH:5]([C:3]([O:2][CH3:1])=[O:4])[Se:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>>[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][CH2:7][CH:8]([O:9][CH3:10])[O:11][CH3:12])[Se:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.7197603386276088,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Yohimbine_2011_Hiemstra_11",
+      "reaction_smiles": "COC(=O)C(CCC(OC)OC)[Se]c1ccccc1.O=C(O)C(F)(F)F.O.ClCCl>>COC(=O)C(CCC=O)[Se]c1ccccc1",
+      "reaction_smiles_mapped": "CO[CH:8]([CH2:7][CH2:6][CH:5]([C:3]([O:2][CH3:1])=[O:4])[Se:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[O:9]C>ClCCl.O.O=C(O)C(F)(F)F>[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][CH2:7][CH:8]=[O:9])[Se:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1",
+      "mapping_confidence": 0.5938119675959412,
+      "conditions": {
+        "raw_description": "TFA; H2O; CH2Cl2; 53% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

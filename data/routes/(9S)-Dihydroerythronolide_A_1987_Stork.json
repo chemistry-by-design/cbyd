@@ -1,0 +1,1579 @@
+{
+  "background": {
+    "name": "(+)-(9S)-Dihydroerythronolide A",
+    "author": "Stork",
+    "year": 1987,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1987, 109, 1565",
+    "doi": "10.1021/ja00239a045"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_1",
+      "reaction_smiles": "C#CC(=O)OCC.CCC=O.[Li]CCCC.C1CCOC1>>CCOC(=O)C#CC(O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[CH:7].[CH:8](=[O:9])[CH2:10][CH3:11]>C1CCOC1.[Li]CCCC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][CH:8]([OH:9])[CH2:10][CH3:11]",
+      "mapping_confidence": 0.9846118187422839,
+      "conditions": {
+        "raw_description": "-78 \u00b0C to rt; THF; n-BuLi; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_2",
+      "reaction_smiles": "CCOC(=O)C#CC(O)CC.O=[Cr](=O)=O.O=S(=O)(O)O.O.CC(C)=O>>CCOC(=O)C#CC(=O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][CH:8]([OH:9])[CH2:10][CH3:11]>CC(C)=O.O.O=S(=O)(O)O.O=[Cr](=O)=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C:8](=[O:9])[CH2:10][CH3:11]",
+      "mapping_confidence": 0.958272266324271,
+      "conditions": {
+        "raw_description": "CrO3; H2SO4; H2O; 0 o C; acetone",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_3",
+      "reaction_smiles": "CCOC(=O)C#CC(=O)CC.C[C@@H]1C2CC(C[C@H]1B1C3CCCC1CCC3)C2(C)C.C[C@H]1[C@H](B2C3CCCC2CCC3)C[C@H]2C[C@@H]1C2(C)C.C1CCOC1>>CCOC(=O)C#C[C@H](O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C:8](=[O:9])[CH2:10][CH3:11]>C1CCOC1.C[C@@H]1C2CC(C[C@H]1B1C3CCCC1CCC3)C2(C)C.C[C@H]1[C@H](B2C3CCCC2CCC3)C[C@H]2C[C@@H]1C2(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C@H:8]([OH:9])[CH2:10][CH3:11]",
+      "mapping_confidence": 0.9675995180227996,
+      "conditions": {
+        "raw_description": "Alpine-Borane; THF; 58%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Alpine-Borane"
+        ],
+        "LIGANDS_SMILES": [
+          "B1(C2CCCC1CCC2)[C@@H]3C[C@H]4C[C@@H]([C@H]3C)C4(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_4",
+      "reaction_smiles": "CCOC(=O)C#C[C@H](O)CC.C=COCC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>>CCOC(=O)C#C[C@@H](CC)OC(C)OCC",
+      "reaction_smiles_mapped": "[CH:12](=[CH2:13])[O:14][CH2:15][CH3:16].[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C@@H:8]([CH2:9][CH3:10])[OH:11]>Cc1ccc(S(=O)(=O)[O-])cc1.ClCCl.c1cc[nH+]cc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C@@H:8]([CH2:9][CH3:10])[O:11][CH:12]([CH3:13])[O:14][CH2:15][CH3:16]",
+      "mapping_confidence": 0.961899600942598,
+      "conditions": {
+        "raw_description": "VinylOEt; Pyr.TsOH; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "VinylOEt",
+          "Pyr.TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=COCC",
+          "CC1=CC=C(S(=O)([O-])=O)C=C1.C2=[NH+]C=CC=C2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_5",
+      "reaction_smiles": "CCOC(=O)C#C[C@@H](CC)OC(C)OCC.C[Cu-]C.[Li+].C1CCOC1>>CCOC(=O)/C=C(\\C)[C@@H](CC)OC(C)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][C@@H:9]([CH2:10][CH3:11])[O:12][CH:13]([CH3:14])[O:15][CH2:16][CH3:17].C[Cu-][CH3:8]>C1CCOC1.[Li+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7](\\[CH3:8])[C@@H:9]([CH2:10][CH3:11])[O:12][CH:13]([CH3:14])[O:15][CH2:16][CH3:17]",
+      "mapping_confidence": 0.5411616290618553,
+      "conditions": {
+        "raw_description": "(CH3)2CuLi; -78 \u00b0C to rt; THF",
+        "GENERAL_REAGENTS": [
+          "(CH3)2CuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_6",
+      "reaction_smiles": "CCOC(=O)/C=C(\\C)[C@@H](CC)OC(C)OCC.Cc1ccc(S(=O)(=O)O)cc1.CO.ClCCl>>CCOC(=O)/C=C(\\C)[C@H](O)CC",
+      "reaction_smiles_mapped": "CCOC(C)[O:10][C@@H:9](/[C:7](=[CH:6]/[C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH3:8])[CH2:11][CH3:12]>CO.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7](\\[CH3:8])[C@H:9]([OH:10])[CH2:11][CH3:12]",
+      "mapping_confidence": 0.9676121272007898,
+      "conditions": {
+        "raw_description": "TsOH; MeOH; DCM; 90 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_7",
+      "reaction_smiles": "CCOC(=O)/C=C(\\C)[C@H](O)CC.O=[Os](=O)(=O)=O.CC(C)=O.C[N+]1([O-])CCOCC1>>CC[C@H]1OC(=O)[C@H](O)[C@]1(C)O",
+      "reaction_smiles_mapped": "CCO[C:5](=[O:6])/[CH:7]=[C:9](/[C@@H:3]([CH2:2][CH3:1])[OH:4])[CH3:10].C[N+]1([O-:8])CCOCC1.[OH2:11]>CC(C)=O.O=[Os](=O)(=O)=O>[CH3:1][CH2:2][C@H:3]1[O:4][C:5](=[O:6])[C@H:7]([OH:8])[C@:9]1([CH3:10])[OH:11]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "acetone; NMO; OsO4; rt; 43% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "43% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_8",
+      "reaction_smiles": "CC[C@H]1OC(=O)[C@H](O)[C@]1(C)O.C[Si](C)(C)Cl.C[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>CC[C@H]1OC(=O)[C@@H](O[Si](C)(C)C)[C@]1(C)O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C:5](=[O:6])[C@H:7]([OH:8])[C@:13]1([CH3:14])[OH:15].Cl[Si:9]([CH3:10])([CH3:11])[CH3:12].Cl[Si:16]([CH3:17])([CH3:18])[CH3:19]>CN(C)C=O.c1c[nH]cn1>[CH3:1][CH2:2][C@H:3]1[O:4][C:5](=[O:6])[C@@H:7]([O:8][Si:9]([CH3:10])([CH3:11])[CH3:12])[C@:13]1([CH3:14])[O:15][Si:16]([CH3:17])([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.07822371508819424,
+      "conditions": {
+        "raw_description": "TMSCl; imidazole; DMF",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_9",
+      "reaction_smiles": "CC[C@H]1OC(=O)[C@@H](O[Si](C)(C)C)[C@]1(C)O[Si](C)(C)C.CCOC(=O)COCc1ccccc1.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>CCOC(=O)C(OCc1ccccc1)C1(O)O[C@H](CC)[C@@](C)(O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1.[C:15]1(=[O:16])[O:17][C@H:18]([CH2:19][CH3:20])[C@@:21]([CH3:22])([O:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[C@@H:28]1[O:29][Si:30]([CH3:31])([CH3:32])[CH3:33]>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[C:15]1([OH:16])[O:17][C@H:18]([CH2:19][CH3:20])[C@@:21]([CH3:22])([O:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[C@@H:28]1[O:29][Si:30]([CH3:31])([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.15966827765680544,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; -50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_10",
+      "reaction_smiles": "CCOC(=O)C(OCc1ccccc1)C1(O)O[C@H](CC)[C@@](C)(O[Si](C)(C)C)[C@@H]1O[Si](C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>CC[C@@H](O)[C@@](C)(O)[C@@H]1OC(=O)C(OCc2ccccc2)=C1O",
+      "reaction_smiles_mapped": "CCO[C:10](=[O:11])[CH:12]([O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)[C:21]1([OH:22])[O:4][C@H:3]([CH2:2][CH3:1])[C@@:5]([CH3:6])([O:7][Si](C)(C)C)[C@@H:8]1[O:9][Si](C)(C)C>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][C@@H:3]([OH:4])[C@@:5]([CH3:6])([OH:7])[C@@H:8]1[O:9][C:10](=[O:11])[C:12]([O:13][CH2:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)=[C:21]1[OH:22]",
+      "mapping_confidence": 0.81908602879488,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_11",
+      "reaction_smiles": "CC[C@@H](O)[C@@](C)(O)[C@@H]1OC(=O)C(OCc2ccccc2)=C1O.CCOC(C)OCC.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1O",
+      "reaction_smiles_mapped": "CCO[CH:5](OCC)[CH3:6].[CH3:1][CH2:2][C@@H:3]([OH:4])[C@:8]([OH:7])([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)=[C:23]1[OH:24]>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)=[C:23]1[OH:24]",
+      "mapping_confidence": 0.7231198165091116,
+      "conditions": {
+        "raw_description": "CSA; DCM",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_12",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1O.O=P(Cl)(Oc1ccccc1)Oc1ccccc1.O=C([O-])[O-].[Na+].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].ClCCl.O>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1OP(=O)(Oc1ccccc1)Oc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)=[C:23]1[OH:24].Cl[P:25](=[O:26])([O:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1)[O:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1>CCCC[N+](CCCC)(CCCC)CCCC.ClCCl.O.O=C([O-])[O-].[Br-].[Na+].[Na+]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)=[C:23]1[O:24][P:25](=[O:26])([O:27][c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1)[O:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1",
+      "mapping_confidence": 0.39467210753580056,
+      "conditions": {
+        "raw_description": "(PhO)2P(O)Cl; Na2CO3; DCM/H2O; Bu4NBr",
+        "GENERAL_REAGENTS": [
+          "(PhO)2P(O)Cl",
+          "Na2CO3",
+          "Bu4NBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClP(=O)(Oc1ccccc1)Oc1ccccc1",
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_13",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1OP(=O)(Oc1ccccc1)Oc1ccccc1.C[Zn]C.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].[Ni+2].CCOCC>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1C",
+      "reaction_smiles_mapped": "O=P(Oc1ccccc1)(Oc1ccccc1)O[C:23]1=[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C:12](=[O:13])[O:11][C@H:10]1[C@@:8]1([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]1.C[Zn][CH3:24]>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CCOCC.[Ni+2]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)=[C:23]1[CH3:24]",
+      "mapping_confidence": 0.452377801936703,
+      "conditions": {
+        "raw_description": "Me2Zn; Ni(acac)2; Et2O",
+        "GENERAL_REAGENTS": [
+          "Me2Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Zn]C"
+        ],
+        "CATALYSTS": [
+          "Ni(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].[Ni+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_14",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)C(OCc2ccccc2)=C1C.N.[Rh].[HH].CO>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)[C@H](O)[C@@H]1C",
+      "reaction_smiles_mapped": "c1ccc(C[O:15][C:14]2=[C:16]([CH3:17])[C@H:10]([C@@:8]3([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]3)[O:11][C:12]2=[O:13])cc1>CO.N.[HH].[Rh]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C@H:14]([OH:15])[C@@H:16]1[CH3:17]",
+      "mapping_confidence": 0.983045952789118,
+      "conditions": {
+        "raw_description": "Rh/alumina; H2; MeOH; 64% (7 steps)",
+        "GENERAL_REAGENTS": [
+          "Rh/alumina",
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Rh].N",
+          "[HH]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64% (7 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_15",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)[C@H](O)[C@@H]1C.CN(C)[Si](C)(C)C.C1CCOC1>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)[C@H](O[Si](C)(C)C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C@H:14]([OH:15])[C@@H:20]1[CH3:21].CN(C)[Si:16]([CH3:17])([CH3:18])[CH3:19]>C1CCOC1>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12](=[O:13])[C@H:14]([O:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[C@@H:20]1[CH3:21]",
+      "mapping_confidence": 0.321011074724324,
+      "conditions": {
+        "raw_description": "TMSNMe2; THF",
+        "GENERAL_REAGENTS": [
+          "TMSNMe2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_16",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC(=O)[C@H](O[Si](C)(C)C)[C@@H]1C.CCOC(=O)COCc1ccccc1.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>CCOC(=O)C(OCc1ccccc1)C1(O)O[C@@H]([C@]2(C)O[C@@H](C)O[C@@H]2CC)[C@@H](C)[C@H]1O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1.[C:15]1(=[O:16])[O:17][C@@H:18]([C@:19]2([CH3:20])[O:21][C@@H:22]([CH3:23])[O:24][C@@H:25]2[CH2:26][CH3:27])[C@@H:28]([CH3:29])[C@H:30]1[O:31][Si:32]([CH3:33])([CH3:34])[CH3:35]>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[C:15]1([OH:16])[O:17][C@@H:18]([C@:19]2([CH3:20])[O:21][C@@H:22]([CH3:23])[O:24][C@@H:25]2[CH2:26][CH3:27])[C@@H:28]([CH3:29])[C@H:30]1[O:31][Si:32]([CH3:33])([CH3:34])[CH3:35]",
+      "mapping_confidence": 0.3157288373530602,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; -50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_17",
+      "reaction_smiles": "CCOC(=O)C(OCc1ccccc1)C1(O)O[C@@H]([C@]2(C)O[C@@H](C)O[C@@H]2CC)[C@@H](C)[C@H]1O[Si](C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1O",
+      "reaction_smiles_mapped": "CCO[C:16](=[O:17])[CH:18]([O:19][CH2:20][c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1)[C:27]1([OH:28])[O:11][C@@H:10]([C@@:8]2([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]2)[C@@H:12]([CH3:13])[C@H:14]1[O:15][Si](C)(C)C>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@@H:12]([CH3:13])[C@H:14]1[O:15][C:16](=[O:17])[C:18]([O:19][CH2:20][c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)=[C:27]1[OH:28]",
+      "mapping_confidence": 0.673418538820848,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_18",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1O.CCN(CC)CC.CC(=O)OC(C)=O.CN(C)c1ccncc1.ClCCl>>CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1O",
+      "reaction_smiles_mapped": "CC(=O)O[C:12]([CH3:13])=[O:14].[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)=[C:30]1[OH:31]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][CH2:2][C@@H:3]1[O:4][C@@H:5]([CH3:6])[O:7][C@:8]1([CH3:9])[C@H:10]([O:11][C:12]([CH3:13])=[O:14])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)=[C:30]1[OH:31]",
+      "mapping_confidence": 0.3920094373365398,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; DCM",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_19",
+      "reaction_smiles": "CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1O.O=P(Cl)(Oc1ccccc1)Oc1ccccc1.O=C([O-])[O-].[Na+].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].ClCCl.O>>CC[C@@H]1O[C@H](C)O[C@@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1OP(=O)(Oc1ccccc1)Oc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@H:3]1[O:4][C@@H:5]([CH3:6])[O:7][C@:8]1([CH3:9])[C@H:10]([O:11][C:12]([CH3:13])=[O:14])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)=[C:30]1[OH:31].Cl[P:32](=[O:33])([O:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1)[O:41][c:42]1[cH:43][cH:44][cH:45][cH:46][cH:47]1>CCCC[N+](CCCC)(CCCC)CCCC.ClCCl.O.O=C([O-])[O-].[Br-].[Na+].[Na+]>[CH3:1][CH2:2][C@@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([O:11][C:12]([CH3:13])=[O:14])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)=[C:30]1[O:31][P:32](=[O:33])([O:34][c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1)[O:41][c:42]1[cH:43][cH:44][cH:45][cH:46][cH:47]1",
+      "mapping_confidence": 0.37013287844071935,
+      "conditions": {
+        "raw_description": "(PhO)2P(O)Cl; Na2CO3; DCM/H2O; Bu4NBr",
+        "GENERAL_REAGENTS": [
+          "(PhO)2P(O)Cl",
+          "Na2CO3",
+          "Bu4NBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClP(=O)(Oc1ccccc1)Oc1ccccc1",
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_20",
+      "reaction_smiles": "CC[C@@H]1O[C@H](C)O[C@@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1OP(=O)(Oc1ccccc1)Oc1ccccc1.C[Zn]C.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].[Ni+2].CCOCC>>CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1C",
+      "reaction_smiles_mapped": "O=P(Oc1ccccc1)(Oc1ccccc1)O[C:30]1=[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)[C:19](=[O:20])[O:18][C@@H:17]1[C@@H:15]([C@H:10]([C@@:8]1([CH3:9])[C@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]1)[O:11][C:12]([CH3:13])=[O:14])[CH3:16].C[Zn][CH3:31]>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CCOCC.[Ni+2]>[CH3:1][CH2:2][C@@H:3]1[O:4][C@@H:5]([CH3:6])[O:7][C@:8]1([CH3:9])[C@H:10]([O:11][C:12]([CH3:13])=[O:14])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)=[C:30]1[CH3:31]",
+      "mapping_confidence": 0.41828118578279605,
+      "conditions": {
+        "raw_description": "Me2Zn; Ni(acac)2; Et2O",
+        "GENERAL_REAGENTS": [
+          "Me2Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Zn]C"
+        ],
+        "CATALYSTS": [
+          "Ni(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].[Ni+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_21",
+      "reaction_smiles": "CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)C(OCc2ccccc2)=C1C.N.[Rh].[HH].CO>>CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)[C@@H](O)[C@H]1C",
+      "reaction_smiles_mapped": "c1ccc(C[O:22][C:21]2=[C:23]([CH3:24])[C@@H:17]([C@@H:15]([C@H:10]([C@:8]3([CH3:9])[C@H:3]([CH2:2][CH3:1])[O:4][C@@H:5]([CH3:6])[O:7]3)[O:11][C:12]([CH3:13])=[O:14])[CH3:16])[O:18][C:19]2=[O:20])cc1>CO.N.[HH].[Rh]>[CH3:1][CH2:2][C@@H:3]1[O:4][C@@H:5]([CH3:6])[O:7][C@:8]1([CH3:9])[C@H:10]([O:11][C:12]([CH3:13])=[O:14])[C@@H:15]([CH3:16])[C@H:17]1[O:18][C:19](=[O:20])[C@@H:21]([OH:22])[C@H:23]1[CH3:24]",
+      "mapping_confidence": 0.9855506223249835,
+      "conditions": {
+        "raw_description": "Rh/alumina; H2; MeOH; 40% (7 steps)",
+        "GENERAL_REAGENTS": [
+          "Rh/alumina",
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Rh].N",
+          "[HH]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "40% (7 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_22",
+      "reaction_smiles": "CC[C@@H]1O[C@@H](C)O[C@]1(C)[C@H](OC(C)=O)[C@@H](C)[C@H]1OC(=O)[C@@H](O)[C@H]1C.[AlH4-].[Li+].CC(=O)O.[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1.O>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)C=O",
+      "reaction_smiles_mapped": "CC(=O)[O:11][C@@H:10]([C@:8]1([CH3:9])[C@H:3]([CH2:2][CH3:1])[O:4][C@@H:5]([CH3:6])[O:7]1)[C@@H:12]([CH3:13])[C@H:14]1[O:15]C(=O)[C@@H:18]([OH:19])[C@H:16]1[CH3:17]>C1CCOC1.CC(=O)O.O.[AlH4-].[Li+].[Na+].[O-][I+3]([O-])([O-])[O-]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@@H:12]([CH3:13])[C@@H:14]([OH:15])[C@H:16]([CH3:17])[CH:18]=[O:19]",
+      "mapping_confidence": 0.8709639433195903,
+      "conditions": {
+        "raw_description": "LAH; THF; HOAc; H2O; NaIO4",
+        "GENERAL_REAGENTS": [
+          "LAH",
+          "HOAc",
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]",
+          "CC(=O)O",
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_23",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)C=O.[BH4-].[Na+].CCO>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)CO",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@@H:12]([CH3:13])[C@@H:14]([OH:15])[C@H:16]([CH3:17])[CH:18]=[O:19]>CCO.[BH4-].[Na+]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@@H:12]([CH3:13])[C@@H:14]([OH:15])[C@H:16]([CH3:17])[CH2:18][OH:19]",
+      "mapping_confidence": 0.9693145994690378,
+      "conditions": {
+        "raw_description": "NaBH4; EtOH; 98% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_24",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@H](O)[C@@H](C)[C@@H](O)[C@H](C)CO.CCOC(C)(OCC)OCC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC2(C)OC[C@@H](C)C(O2)[C@@H]1C",
+      "reaction_smiles_mapped": "CCO[C:12](OCC)(OCC)[CH3:13].[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@H:10]([OH:11])[C@H:20]([C@H:18]([C@@H:16]([CH2:15][OH:14])[CH3:17])[OH:19])[CH3:21]>Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12]2([CH3:13])[O:14][CH2:15][C@@H:16]([CH3:17])[CH:18]([O:19]2)[C@@H:20]1[CH3:21]",
+      "mapping_confidence": 0.8673243043050632,
+      "conditions": {
+        "raw_description": "CH3C(OEt)3; PPTS",
+        "GENERAL_REAGENTS": [
+          "CH3C(OEt)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(C)(OCC)OCC"
+        ],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_25",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1OC2(C)OC[C@@H](C)C(O2)[C@@H]1C.B.C1CCOC1>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)CO)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C:12]2([CH3:13])[O:14][CH:15]([C@H:16]([CH3:17])[CH2:18][O:19]2)[C@@H:20]1[CH3:21]>B.C1CCOC1>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][OH:19])[C@@H:20]1[CH3:21]",
+      "mapping_confidence": 0.9697648319782681,
+      "conditions": {
+        "raw_description": "BH3; THF",
+        "GENERAL_REAGENTS": [
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_26",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)CO)[C@@H]1C.c1ccc(SSc2ccccc2)cc1.CCCCP(CCCC)CCCC.CC#N>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@H](C)O[C@@H]([C@H](C)CSc2ccccc2)[C@@H]1C",
+      "reaction_smiles_mapped": "O[CH2:18][C@H:16]([C@@H:15]1[O:14][C@H:12]([CH3:13])[O:11][C@@H:10]([C@@:8]2([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]2)[C@H:26]1[CH3:27])[CH3:17].c1ccc(S[S:19][c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)cc1>CC#N.CCCCP(CCCC)CCCC>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][S:19][c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C@@H:26]1[CH3:27]",
+      "mapping_confidence": 0.5629885079996224,
+      "conditions": {
+        "raw_description": "(PhS)2; Bu3P; CH3CN; 72% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "(PhS)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1SSc2ccccc2"
+        ],
+        "CATALYSTS": [
+          "Bu3P"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCCCP(CCCC)CCCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_27",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@H](C)O[C@@H]([C@H](C)CSc2ccccc2)[C@@H]1C.CC(=O)[C@@H]1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C.CC(C)(C)c1ccc(-c2ccc(C(C)(C)C)cc2)cc1.[Li].[Br-].[Br-].[Mg+2].C1CCOC1.CCOCC>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "[C:19]([CH3:20])(=[O:21])[C@@H:22]1[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[CH2:31][O:32][C:33](=[O:34])[C:35]([CH3:36])([CH3:37])[CH3:38])[C@@H:39]1[CH3:40].c1ccc(S[CH2:18][C@H:16]([C@@H:15]2[O:14][C@@H:12]([CH3:13])[O:11][C@@H:10]([C@@:8]3([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]3)[C@H:41]2[CH3:42])[CH3:17])cc1>C1CCOC1.CC(C)(C)c1ccc(-c2ccc(C(C)(C)C)cc2)cc1.CCOCC.[Br-].[Br-].[Li].[Mg+2]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[CH2:31][O:32][C:33](=[O:34])[C:35]([CH3:36])([CH3:37])[CH3:38])[C@@H:39]2[CH3:40])[C@@H:41]1[CH3:42]",
+      "mapping_confidence": 0.42997558904951705,
+      "conditions": {
+        "raw_description": "1) LiDBB; THF; -78o C; 2) MgBr2; Et2O; 3) 73%",
+        "GENERAL_REAGENTS": [
+          "LiDBB",
+          "MgBr2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li].CC(C)(C)c1ccc(-c2ccc(C(C)(C)C)cc2)cc1",
+          "[Mg+2].[Br-].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_28",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]2C)[C@@H]1C.[Li]C.CCOCC>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)CO)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "CC(C)(C)C(=O)[O:32][CH2:31][C@@H:29]([C@H:28]1[O:27][C:24]([CH3:25])([CH3:26])[O:23][C@@H:22]([C@:19]([CH2:18][C@H:16]([C@@H:15]2[O:14][C@H:12]([CH3:13])[O:11][C@@H:10]([C@@:8]3([CH3:9])[C@@H:3]([CH2:2][CH3:1])[O:4][C@H:5]([CH3:6])[O:7]3)[C@H:35]2[CH3:36])[CH3:17])([CH3:20])[OH:21])[C@H:33]1[CH3:34])[CH3:30]>CCOCC.[Li]C>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[CH2:31][OH:32])[C@@H:33]2[CH3:34])[C@@H:35]1[CH3:36]",
+      "mapping_confidence": 0.8687781172604456,
+      "conditions": {
+        "raw_description": "CH3Li; Et2O",
+        "GENERAL_REAGENTS": [
+          "CH3Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_29",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)CO)[C@@H]2C)[C@@H]1C.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.CN(C)C=O>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)O)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[CH2:31][OH:33])[C@@H:34]2[CH3:35])[C@@H:36]1[CH3:37].O=[Cr](=O)([O-])O[Cr](=O)([O-])=[O:32]>CN(C)C=O.c1cc[nH+]cc1.c1cc[nH+]cc1>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[C:31](=[O:32])[OH:33])[C@@H:34]2[CH3:35])[C@@H:36]1[CH3:37]",
+      "mapping_confidence": 0.22719245695579943,
+      "conditions": {
+        "raw_description": "PDC; DMF",
+        "GENERAL_REAGENTS": [
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_30",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)O)[C@@H]2C)[C@@H]1C.O=C([O-])[O-].[Na+].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].COS(=O)(=O)OC>>CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)OC)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[C:31](=[O:32])[OH:33])[C@@H:35]2[CH3:36])[C@@H:37]1[CH3:38].COS(=O)(=O)O[CH3:34]>CCCC[N+](CCCC)(CCCC)CCCC.O=C([O-])[O-].[Br-].[Na+].[Na+]>[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:7][C@@:8]1([CH3:9])[C@@H:10]1[O:11][C@@H:12]([CH3:13])[O:14][C@@H:15]([C@H:16]([CH3:17])[CH2:18][C@@:19]([CH3:20])([OH:21])[C@@H:22]2[O:23][C:24]([CH3:25])([CH3:26])[O:27][C@H:28]([C@@H:29]([CH3:30])[C:31](=[O:32])[O:33][CH3:34])[C@@H:35]2[CH3:36])[C@@H:37]1[CH3:38]",
+      "mapping_confidence": 0.33944481694072065,
+      "conditions": {
+        "raw_description": "Me2SO4; Na2CO3; Bu4NBr; 82% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Na2CO3",
+          "Bu4NBr",
+          "Me2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]",
+          "COS(=O)(=O)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_31",
+      "reaction_smiles": "CC[C@H]1O[C@H](C)O[C@@]1(C)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)OC)[C@@H]2C)[C@@H]1C.O=[O+][O-].ClCCl>>CC[C@@H](OC(C)=O)[C@@](C)(O)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)OC)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]1[O:4][C@H:5]([CH3:6])[O:10][C@@:8]1([CH3:9])[C@@H:11]1[O:12][C@@H:13]([CH3:14])[O:15][C@@H:16]([C@H:17]([CH3:18])[CH2:19][C@@:20]([CH3:21])([OH:22])[C@@H:23]2[O:24][C:25]([CH3:26])([CH3:27])[O:28][C@H:29]([C@@H:30]([CH3:31])[C:32](=[O:33])[O:34][CH3:35])[C@@H:36]2[CH3:37])[C@@H:38]1[CH3:39].[O-][O+]=[O:7]>ClCCl>[CH3:1][CH2:2][C@@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@@:8]([CH3:9])([OH:10])[C@@H:11]1[O:12][C@@H:13]([CH3:14])[O:15][C@@H:16]([C@H:17]([CH3:18])[CH2:19][C@@:20]([CH3:21])([OH:22])[C@@H:23]2[O:24][C:25]([CH3:26])([CH3:27])[O:28][C@H:29]([C@@H:30]([CH3:31])[C:32](=[O:33])[O:34][CH3:35])[C@@H:36]2[CH3:37])[C@@H:38]1[CH3:39]",
+      "mapping_confidence": 0.49418692172721385,
+      "conditions": {
+        "raw_description": "O3; -78 \u00b0C; DCM; 75%",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_32",
+      "reaction_smiles": "CC[C@@H](OC(C)=O)[C@@](C)(O)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)OC)[C@@H]2C)[C@@H]1C.[K+].[OH-].CO>>CC[C@@H](O)[C@@](C)(O)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)O)[C@@H]2C)[C@@H]1C",
+      "reaction_smiles_mapped": "CC(=O)[O:4][C@H:3]([CH2:2][CH3:1])[C@@:5]([CH3:6])([OH:7])[C@@H:8]1[O:9][C@@H:10]([CH3:11])[O:12][C@@H:13]([C@H:14]([CH3:15])[CH2:16][C@@:17]([CH3:18])([OH:19])[C@@H:20]2[O:21][C:22]([CH3:23])([CH3:24])[O:25][C@H:26]([C@@H:27]([CH3:28])[C:29](=[O:30])[O:31]C)[C@@H:32]2[CH3:33])[C@@H:34]1[CH3:35]>CO.[K+].[OH-]>[CH3:1][CH2:2][C@@H:3]([OH:4])[C@@:5]([CH3:6])([OH:7])[C@@H:8]1[O:9][C@@H:10]([CH3:11])[O:12][C@@H:13]([C@H:14]([CH3:15])[CH2:16][C@@:17]([CH3:18])([OH:19])[C@@H:20]2[O:21][C:22]([CH3:23])([CH3:24])[O:25][C@H:26]([C@@H:27]([CH3:28])[C:29](=[O:30])[OH:31])[C@@H:32]2[CH3:33])[C@@H:34]1[CH3:35]",
+      "mapping_confidence": 0.768083101163617,
+      "conditions": {
+        "raw_description": "KOH; MeOH; 99%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_33",
+      "reaction_smiles": "CC[C@@H](O)[C@@](C)(O)[C@@H]1O[C@@H](C)O[C@@H]([C@H](C)C[C@@](C)(O)[C@@H]2OC(C)(C)O[C@H]([C@@H](C)C(=O)O)[C@@H]2C)[C@@H]1C.C(=NC1CCCCC1)=NC1CCCCC1.CN(C)c1ccncc1.ClCCl>>CC[C@H]1OC(=O)[C@H](C)[C@H]2OC(C)(C)O[C@H]([C@H]2C)[C@](C)(O)C[C@@H](C)[C@@H]2O[C@H](C)O[C@H]([C@H]2C)[C@]1(C)O",
+      "reaction_smiles_mapped": "O[C@H:3]([CH2:2][CH3:1])[C@@:32]([C@@H:29]1[O:28][C@@H:26]([CH3:27])[O:25][C@@H:24]([C@@H:22]([CH2:21][C@@:18]([C@@H:15]2[O:14][C:11]([CH3:12])([CH3:13])[O:10][C@H:9]([C@H:7]([C:5]([OH:4])=[O:6])[CH3:8])[C@@H:16]2[CH3:17])([CH3:19])[OH:20])[CH3:23])[C@@H:30]1[CH3:31])([CH3:33])[OH:34]>C(=NC1CCCCC1)=NC1CCCCC1.CN(C)c1ccncc1.ClCCl>[CH3:1][CH2:2][C@H:3]1[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[C@H:9]2[O:10][C:11]([CH3:12])([CH3:13])[O:14][C@H:15]([C@H:16]2[CH3:17])[C@:18]([CH3:19])([OH:20])[CH2:21][C@@H:22]([CH3:23])[C@@H:24]2[O:25][C@H:26]([CH3:27])[O:28][C@H:29]([C@H:30]2[CH3:31])[C@:32]1([CH3:33])[OH:34]",
+      "mapping_confidence": 0.637073338582301,
+      "conditions": {
+        "raw_description": "DCC; DMAP; DCM; 64%",
+        "GENERAL_REAGENTS": [
+          "DCC",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC(CC1)N=C=NC2CCCCC2",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_34",
+      "reaction_smiles": "CC[C@H]1OC(=O)[C@H](C)[C@H]2OC(C)(C)O[C@H]([C@H]2C)[C@](C)(O)C[C@@H](C)[C@@H]2O[C@H](C)O[C@H]([C@H]2C)[C@]1(C)O.Cl.CO>>CC[C@H]1OC(=O)[C@H](C)[C@@H](O)[C@H](C)[C@@H](O)[C@](C)(O)C[C@@H](C)[C@H](O)[C@H](C)[C@@H](O)[C@]1(C)O",
+      "reaction_smiles_mapped": "C[C@H]1[O:22][C@H:21]2[C@H:19]([CH3:20])[CH2:18][C@@:15]([CH3:16])([OH:17])[C@H:13]3[C@@H:11]([CH3:12])[C@@H:9]([C@@H:7]([CH3:8])[C:5](=[O:6])[O:4][C@H:3]([CH2:2][CH3:1])[C@@:27]([CH3:28])([OH:29])[C@@H:25]([C@H:23]2[CH3:24])[O:26]1)[O:10]C(C)(C)[O:14]3>CO.Cl>[CH3:1][CH2:2][C@H:3]1[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[C@@H:9]([OH:10])[C@H:11]([CH3:12])[C@@H:13]([OH:14])[C@:15]([CH3:16])([OH:17])[CH2:18][C@@H:19]([CH3:20])[C@H:21]([OH:22])[C@H:23]([CH3:24])[C@@H:25]([OH:26])[C@:27]1([CH3:28])[OH:29]",
+      "mapping_confidence": 0.8902372275902743,
+      "conditions": {
+        "raw_description": "HCl; MeOH; 50 o C; 56%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_35",
+      "reaction_smiles": "CC1=CCC2CC1C2(C)C.B1C2CCCC1CCC2.C1CCOC1>>C[C@@H]1C2CC(C[C@H]1B1C3CCCC1CCC3)C2(C)C",
+      "reaction_smiles_mapped": "[BH:8]1[CH:9]2[CH2:10][CH2:11][CH2:12][CH:13]1[CH2:14][CH2:15][CH2:16]2.[CH3:1][C:2]1=[CH:7][CH2:6][CH:5]2[CH2:4][CH:3]1[C:17]2([CH3:18])[CH3:19]>C1CCOC1>[CH3:1][C@@H:2]1[CH:3]2[CH2:4][CH:5]([CH2:6][C@H:7]1[B:8]1[CH:9]3[CH2:10][CH2:11][CH2:12][CH:13]1[CH2:14][CH2:15][CH2:16]3)[C:17]2([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.6924759015168193,
+      "conditions": {
+        "raw_description": "THF; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "66"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_36",
+      "reaction_smiles": "C1=CCC=C1.[Na].CI.C1CCOC1>>CC1C=CC=C1",
+      "reaction_smiles_mapped": "[CH2:2]1[CH:3]=[CH:4][CH:5]=[CH:6]1.I[CH3:1]>C1CCOC1.[Na]>[CH3:1][CH:2]1[CH:3]=[CH:4][CH:5]=[CH:6]1",
+      "mapping_confidence": 0.4344509412942512,
+      "conditions": {
+        "raw_description": "Na; MeI; -78o C; THF",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_37",
+      "reaction_smiles": "CC1C=CC=C1.CC1CC2CC(C1BC1C(C)CC3CC1C3(C)C)C2(C)C.OO.C1CCOC1>>C[C@H]1C=CC[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH:3]=[CH:4][CH:5]=[CH:6]1.O[OH:7]>C1CCOC1.CC1CC2CC(C1BC1C(C)CC3CC1C3(C)C)C2(C)C>[CH3:1][C@H:2]1[CH:3]=[CH:4][CH2:5][C@@H:6]1[OH:7]",
+      "mapping_confidence": 0.38798366641113213,
+      "conditions": {
+        "raw_description": "THF; -78o C; H2O2; 30% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "30% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_38",
+      "reaction_smiles": "C[C@H]1C=CC[C@@H]1O.CC(C)(C)OO.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].O=[V+2].c1ccccc1>>C[C@H]1[C@@H]2O[C@@H]2C[C@@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:4].[CH3:1][C@H:2]1[CH:3]=[CH:5][CH2:6][C@@H:7]1[OH:8]>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].O=[V+2].c1ccccc1>[CH3:1][C@H:2]1[C@@H:3]2[O:4][C@@H:5]2[CH2:6][C@@H:7]1[OH:8]",
+      "mapping_confidence": 0.6888290672967222,
+      "conditions": {
+        "raw_description": "VO(acac)2; t-BuOOH; Benzene; 86%",
+        "GENERAL_REAGENTS": [
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "VO(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].O=[V+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_39",
+      "reaction_smiles": "C[C@H]1[C@@H]2O[C@@H]2C[C@@H]1O.O=[Cr](=O)=O.O=S(=O)(O)O.O.CC(C)=O>>C[C@@H]1C(=O)C[C@H]2O[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[C@@H:3]([OH:4])[CH2:5][C@H:6]2[O:7][C@@H:8]12>CC(C)=O.O.O=S(=O)(O)O.O=[Cr](=O)=O>[CH3:1][C@@H:2]1[C:3](=[O:4])[CH2:5][C@H:6]2[O:7][C@@H:8]12",
+      "mapping_confidence": 0.9085733655337112,
+      "conditions": {
+        "raw_description": "CrO3; H2SO4; H2O; 0 \u00b0C; acetone",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_40",
+      "reaction_smiles": "C[C@@H]1C(=O)C[C@H]2O[C@@H]12.CCN(CC)CC.CC(C)(C)[Si](C)(C)Cl.CN(C)c1ccncc1.ClCCl>>C[C@@H]1C(=O)C=C[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Si:9]([CH3:10])([CH3:11])[C:12]([CH3:13])([CH3:14])[CH3:15].[CH3:1][C@@H:2]1[C:3](=[O:4])[CH2:5][C@@H:6]2[C@H:7]1[O:8]2>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][C@@H:2]1[C:3](=[O:4])[CH:5]=[CH:6][C@H:7]1[O:8][Si:9]([CH3:10])([CH3:11])[C:12]([CH3:13])([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.3306407845004294,
+      "conditions": {
+        "raw_description": "Et3N; DCM; TBDMSCl; DMAP; 83% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "TBDMSCl",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(C)(C)[Si](C)(C)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_41",
+      "reaction_smiles": "C[C@@H]1C(=O)C=C[C@H]1O[Si](C)(C)C(C)(C)C.C[Cu-]C.[Li+].C[Si](C)(C)Cl.CCN(CC)CC.CCOCC>>C[C@@H]1C(O[Si](C)(C)C)=C[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[C:3](=[O:4])[CH:9]=[CH:10][C@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20].C[Cu-][CH3:11].Cl[Si:5]([CH3:6])([CH3:7])[CH3:8]>CCN(CC)CC.CCOCC.[Li+]>[CH3:1][C@@H:2]1[C:3]([O:4][Si:5]([CH3:6])([CH3:7])[CH3:8])=[CH:9][C@H:10]([CH3:11])[C@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.10498807583085407,
+      "conditions": {
+        "raw_description": "(CH3)2CuLi; Et2O; -78 \u00b0C; TMSCl; Et3N; 88%",
+        "GENERAL_REAGENTS": [
+          "(CH3)2CuLi",
+          "TMSCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)C",
+          "C[Si](C)(C)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_42",
+      "reaction_smiles": "C[C@@H]1C(O[Si](C)(C)C)=C[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C.O=[O+][O-].ClCCl>>C[C@H](C=O)[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C(=O)O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH:3]=[C:16]([O:18][Si:19]([CH3:20])([CH3:21])[CH3:22])[C@@H:14]([CH3:15])[C@@H:5]1[O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13].[O+]([O-:4])=[O:17]>ClCCl>[CH3:1][C@H:2]([CH:3]=[O:4])[C@@H:5]([O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13])[C@@H:14]([CH3:15])[C:16](=[O:17])[O:18][Si:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.09419108205257674,
+      "conditions": {
+        "raw_description": "O3; -78 \u00b0C; DCM",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_43",
+      "reaction_smiles": "C[C@H](C=O)[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C(=O)O[Si](C)(C)C.[BH4-].[Na+].CO>>C[C@H](C(=O)O[Si](C)(C)C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)CO",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([C:3](=[O:4])[O:5][Si:6]([CH3:7])([CH3:8])[CH3:9])[C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[C@H:19]([CH3:20])[CH:21]=[O:22]>CO.[BH4-].[Na+]>[CH3:1][C@H:2]([C:3](=[O:4])[O:5][Si:6]([CH3:7])([CH3:8])[CH3:9])[C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[C@@H:19]([CH3:20])[CH2:21][OH:22]",
+      "mapping_confidence": 0.1434558552853104,
+      "conditions": {
+        "raw_description": "MeOH; NaBH4",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_44",
+      "reaction_smiles": "C[C@H](C(=O)O[Si](C)(C)C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)CO.Cl>>C[C@@H]1C(=O)OC[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)O[C:3]([C@@H:2]([CH3:1])[C@@H:9]([C@H:7]([CH2:6][OH:5])[CH3:8])[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])=[O:4]>Cl>[CH3:1][C@@H:2]1[C:3](=[O:4])[O:5][CH2:6][C@H:7]([CH3:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.296468254984215,
+      "conditions": {
+        "raw_description": "2 N HCl; 70% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_45",
+      "reaction_smiles": "C[C@@H]1C(=O)OC[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C.CC(C)C[AlH]CC(C)C.C1CCOC1>>C[C@@H]1C(O)OC[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[C:3](=[O:4])[O:5][CH2:6][C@H:7]([CH3:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]>C1CCOC1.CC(C)C[AlH]CC(C)C>[CH3:1][C@@H:2]1[CH:3]([OH:4])[O:5][CH2:6][C@H:7]([CH3:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.39297819710218984,
+      "conditions": {
+        "raw_description": "DIBAL; THF; -78 o C",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_46",
+      "reaction_smiles": "C[C@@H]1C(O)OC[C@H](C)[C@H]1O[Si](C)(C)C(C)(C)C.[Li]C(=C)C.CCOCC>>C=C(C)C(O)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)CO",
+      "reaction_smiles_mapped": "[CH2:4]1[O:5][CH:19]([OH:20])[C@@H:17]([CH3:18])[C@H:8]([O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[C@H:6]1[CH3:7].[Li][C:2](=[CH2:1])[CH3:3]>CCOCC>[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C@H:6]([CH3:7])[C@H:8]([O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[C@@H:17]([CH3:18])[CH2:19][OH:20]",
+      "mapping_confidence": 0.24278442940779887,
+      "conditions": {
+        "raw_description": "88% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_47",
+      "reaction_smiles": "C=C(C)C(O)[C@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)CO.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=C(C)C(O)[C@@H](C)[C@H](O)[C@@H](C)CO",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:9][C@@H:8]([C@H:6]([CH:4]([C:2](=[CH2:1])[CH3:3])[OH:5])[CH3:7])[C@@H:10]([CH3:11])[CH2:12][OH:13]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C@@H:6]([CH3:7])[C@H:8]([OH:9])[C@@H:10]([CH3:11])[CH2:12][OH:13]",
+      "mapping_confidence": 0.9789259894731185,
+      "conditions": {
+        "raw_description": "TBAF; THF",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_48",
+      "reaction_smiles": "C=C(C)C(O)[C@@H](C)[C@H](O)[C@@H](C)CO.CC(C)(C)C(=O)Cl.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>C=C(C)C(O)[C@@H](C)[C@H](O)[C@@H](C)COC(=O)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C@@H:6]([CH3:7])[C@H:8]([OH:9])[C@@H:10]([CH3:11])[CH2:12][OH:13].Cl[C:14](=[O:15])[C:16]([CH3:17])([CH3:18])[CH3:19]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C@@H:6]([CH3:7])[C@H:8]([OH:9])[C@@H:10]([CH3:11])[CH2:12][O:13][C:14](=[O:15])[C:16]([CH3:17])([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.5346837489437507,
+      "conditions": {
+        "raw_description": "DMAP; DCM; TEA",
+        "GENERAL_REAGENTS": [
+          "TEA",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_49",
+      "reaction_smiles": "C=C(C)C(O)[C@@H](C)[C@H](O)[C@@H](C)COC(=O)C(C)(C)C.COC(C)(C)OC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>>C=C(C)C1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C@H:21]([C@H:10]([OH:9])[C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[CH3:22].CO[C:6](OC)([CH3:7])[CH3:8]>Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH2:1]=[C:2]([CH3:3])[CH:4]1[O:5][C:6]([CH3:7])([CH3:8])[O:9][C@H:10]([C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]1[CH3:22]",
+      "mapping_confidence": 0.33078648362531654,
+      "conditions": {
+        "raw_description": "91% (3 steps); PPTS (cat.)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_50",
+      "reaction_smiles": "C=C(C)C1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C.O=[O+][O-].ClCCl>>CC(=O)C1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C",
+      "reaction_smiles_mapped": "C[C:2](=[CH2:1])[CH:4]1[O:5][C:6]([CH3:7])([CH3:8])[O:9][C@H:10]([C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]1[CH3:22].[O-][O+]=[O:3]>ClCCl>[CH3:1][C:2](=[O:3])[CH:4]1[O:5][C:6]([CH3:7])([CH3:8])[O:9][C@H:10]([C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]1[CH3:22]",
+      "mapping_confidence": 0.1572791859475222,
+      "conditions": {
+        "raw_description": "O3; -78o C; DCM",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(9S)-Dihydroerythronolide_A_1987_Stork_51",
+      "reaction_smiles": "CC(=O)C1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C.O=C([O-])[O-].[K+].[K+].CO>>CC(=O)[C@@H]1OC(C)(C)O[C@H]([C@@H](C)COC(=O)C(C)(C)C)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[CH:4]1[O:5][C:6]([CH3:7])([CH3:8])[O:9][C@H:10]([C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]1[CH3:22]>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2](=[O:3])[C@@H:4]1[O:5][C:6]([CH3:7])([CH3:8])[O:9][C@H:10]([C@@H:11]([CH3:12])[CH2:13][O:14][C:15](=[O:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]1[CH3:22]",
+      "mapping_confidence": 0.3887978525808392,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 92% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

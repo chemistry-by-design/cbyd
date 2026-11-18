@@ -1,0 +1,393 @@
+{
+  "background": {
+    "name": "Prostaglandin F2alpha",
+    "author": "Stork",
+    "year": 1986,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1986, 108, 6384",
+    "doi": "10.1021/ja00280a043"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_1",
+      "reaction_smiles": "C1=CCC=C1.O=O.CO.NC(N)=S>>O[C@@H]1C=C[C@H](O)C1",
+      "reaction_smiles_mapped": "[CH:2]1=[CH:3][CH:4]=[CH:5][CH2:7]1.[O:1]=[O:6]>CO.NC(N)=S>[OH:1][C@@H:2]1[CH:3]=[CH:4][C@H:5]([OH:6])[CH2:7]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "O2; h\u03bd; rose bengal; MeOH; thiourea; 15 \u00b0C; 59%",
+        "GENERAL_REAGENTS": [
+          "O2",
+          "thiourea"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O",
+          "C(=S)(N)N"
+        ],
+        "CATALYSTS": [
+          "rose bengal"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=C(O1)C2=C(C(Cl)=C(Cl)C(Cl)=C2Cl)C31C4=C(C(I)=C(O)C(I)=C4)OC5=C(I)C(O)=C(I)C=C53"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "15"
+        ],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_2",
+      "reaction_smiles": "O[C@@H]1C=C[C@H](O)C1.CC(=O)OC(C)=O.c1ccncc1.ClCCl>>CC(=O)O[C@@H]1C=C[C@H](OC(C)=O)C1",
+      "reaction_smiles_mapped": "O([C:2]([CH3:1])=[O:3])[C:10]([CH3:11])=[O:12].[OH:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([OH:9])[CH2:13]1>ClCCl.c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13]1",
+      "mapping_confidence": 0.5859805104322634,
+      "conditions": {
+        "raw_description": "Ac2O; pyridine; CH2Cl2; rt; 86%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_3",
+      "reaction_smiles": "CC(=O)O[C@@H]1C=C[C@H](OC(C)=O)C1.CC(C)C[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCCN)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)CN)C(C)C)C(C)C)[C@@H](C)O)C(N)=O>>CC(=O)O[C@@H]1C=C[C@H](O)C1",
+      "reaction_smiles_mapped": "CC(=O)[O:9][C@H:8]1[CH:7]=[CH:6][C@@H:5]([O:4][C:2]([CH3:1])=[O:3])[CH2:10]1>CC(C)C[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCCN)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)CN)C(C)C)C(C)C)[C@@H](C)O)C(N)=O>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([OH:9])[CH2:10]1",
+      "mapping_confidence": 0.8139975384892931,
+      "conditions": {
+        "raw_description": "PLE; phosphate buffer; 83%",
+        "GENERAL_REAGENTS": [
+          "PLE"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[C@H]([C@@H](C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CC(C)C)C(=O)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@H](C(C)C)NC(=O)[C@H](CC3=CN=CN3)NC(=O)[C@H](CCCCN)NC(=O)CNC(=O)[C@H](C(C)C)NC(=O)[C@H](CC4=CN=CN4)NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CC5=CC=CC=C5)NC(=O)[C@H](CC6=CC=CC=C6)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CC7=CNC8=CC=CC=C87)NC(=O)CN)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_4",
+      "reaction_smiles": "CC(=O)O[C@@H]1C=C[C@H](O)C1.c1c[nH]cn1.ClCCl.CC(C)(C)[Si](C)(C)Cl>>CC(=O)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([OH:9])[CH2:17]1.Cl[Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16]>ClCCl.c1c[nH]cn1>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH:6]=[CH:7][C@H:8]([O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[CH2:17]1",
+      "mapping_confidence": 0.33092009732190797,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; CH2Cl2; rt",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_5",
+      "reaction_smiles": "CC(=O)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)C1.[C-]#N.[K+].CCO>>CC(C)(C)[Si](C)(C)O[C@H]1C=C[C@@H](O)C1",
+      "reaction_smiles_mapped": "CC(=O)[O:13][C@@H:12]1[CH:11]=[CH:10][C@H:9]([O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[CH2:14]1>CCO.[C-]#N.[K+]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@H:9]1[CH:10]=[CH:11][C@@H:12]([OH:13])[CH2:14]1",
+      "mapping_confidence": 0.2892737900891347,
+      "conditions": {
+        "raw_description": "KCN; EtOH; rt; 99% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_6",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@H]1C=C[C@@H](O)C1.C=COCC.O=C1CCC(=O)N1I.ClCCl>>CCO[C@@H](CI)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][CH:4]=[CH2:5].[OH:7][C@@H:8]1[CH:9]=[CH:10][C@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20]1.O=C1CCC(=O)N1[I:6]>ClCCl>[CH3:1][CH2:2][O:3][C@@H:4]([CH2:5][I:6])[O:7][C@@H:8]1[CH:9]=[CH:10][C@H:11]([O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20]1",
+      "mapping_confidence": 0.3405184835325152,
+      "conditions": {
+        "raw_description": "NIS; CH2Cl2; -20 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "NIS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_7",
+      "reaction_smiles": "CCO[C@@H](CI)O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)C1.C=C(C(=O)CCCCC)[Si](C)(C)C.[BH3-]C#N.[Na+].C1CCOC1.CCCC[Sn](Cl)(CCCC)CCCC>>CCCCCC(=O)C(C[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C)[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])[C:8](=[CH2:9])[Si:29]([CH3:30])([CH3:31])[CH3:32].I[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@@H:18]1[CH:11]=[CH:10][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[CH2:19]1>C1CCOC1.CCCC[Sn](Cl)(CCCC)CCCC.[BH3-]C#N.[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])[CH:8]([CH2:9][C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@H:18]2[CH2:19][C@H:20]1[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[Si:29]([CH3:30])([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.21712132758649993,
+      "conditions": {
+        "raw_description": "nBu3SnCl; NaBH3CN; h\u03bd; THF; rt",
+        "GENERAL_REAGENTS": [
+          "nBu3SnCl",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[Sn](CCCC)(CCCC)Cl",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_8",
+      "reaction_smiles": "CCCCCC(=O)C(C[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C)[Si](C)(C)C>>CCCCC/C(=C/C[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6]([CH:7]([CH2:8][C@@H:9]1[C@H:10]2[CH2:11][C@H:12]([O:13][CH2:14][CH3:15])[O:16][C@H:17]2[CH2:18][C@H:19]1[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[Si:29]([CH3:30])([CH3:31])[CH3:32])=[O:28]>>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[C:6](=[CH:7]/[CH2:8][C@@H:9]1[C@H:10]2[CH2:11][C@H:12]([O:13][CH2:14][CH3:15])[O:16][C@H:17]2[CH2:18][C@H:19]1[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[O:28][Si:29]([CH3:30])([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.18082476893440344,
+      "conditions": {
+        "raw_description": "140  \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_9",
+      "reaction_smiles": "CCCCC/C(=C/C[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C)O[Si](C)(C)C.CC(=O)[O-].CC(=O)[O-].[Pd+2].CC#N>>CCCCCC(=O)/C=C/[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:7]/[C:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])=[CH:8]\\[CH2:9][C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@H:18]2[CH2:19][C@H:20]1[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]>CC#N.CC(=O)[O-].CC(=O)[O-].[Pd+2]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])/[CH:8]=[CH:9]/[C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@H:18]2[CH2:19][C@H:20]1[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.30001987741395236,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; MeCN; rt; 58% (3 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "58% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_10",
+      "reaction_smiles": "CCCCCC(=O)/C=C/[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C.C1CCOC1.c1ccc2c3c(ccc2c1)[AlH]c1ccc2ccccc2c1-3>>CCCCCC(O)/C=C/[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])/[CH:8]=[CH:9]/[C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@H:18]2[CH2:19][C@H:20]1[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]>C1CCOC1.c1ccc2c3c(ccc2c1)[AlH]c1ccc2ccccc2c1-3>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH:6]([OH:7])/[CH:8]=[CH:9]/[C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([O:14][CH2:15][CH3:16])[O:17][C@H:18]2[CH2:19][C@H:20]1[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.343136720508663,
+      "conditions": {
+        "raw_description": "(S)-BINAL-H; THF; -100 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "(S)-BINAL-H"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1(C=CC=C2)=C2C=CC3=C1C4=C([AlH]3)C=CC5=C4C=CC=C5"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-100"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_11",
+      "reaction_smiles": "CCCCCC(O)/C=C/[C@@H]1[C@H]2C[C@H](OCC)O[C@H]2C[C@H]1O[Si](C)(C)C(C)(C)C.Cl.O.C1CCOC1>>CCCCCC(O)/C=C/[C@@H]1[C@H]2C[C@H](O)O[C@H]2C[C@H]1O",
+      "reaction_smiles_mapped": "CC[O:14][C@H:13]1[CH2:12][C@@H:11]2[C@@H:10](/[CH:9]=[CH:8]/[CH:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[OH:7])[C@H:18]([O:19][Si](C)(C)C(C)(C)C)[CH2:17][C@@H:16]2[O:15]1>C1CCOC1.Cl.O>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH:6]([OH:7])/[CH:8]=[CH:9]/[C@@H:10]1[C@H:11]2[CH2:12][C@H:13]([OH:14])[O:15][C@H:16]2[CH2:17][C@H:18]1[OH:19]",
+      "mapping_confidence": 0.966572136177246,
+      "conditions": {
+        "raw_description": "HCl; H2O; THF; rt; 98%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Prostaglandin_F2alpha_1986_Stork_12",
+      "reaction_smiles": "CCCCCC(O)/C=C/[C@@H]1[C@H]2C[C@H](O)O[C@H]2C[C@H]1O.O=C(O)CCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].CC(C)C[O-].[K+].C1CCOC1>>CCCCC[C@H](O)/C=C/[C@@H]1[C@@H](C/C=C\\CCCC(=O)O)[C@@H](O)C[C@H]1O",
+      "reaction_smiles_mapped": "O[C@H:13]1[CH2:12][C@@H:11]2[C@@H:10](/[CH:9]=[CH:8]/[CH:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[OH:7])[C@H:24]([OH:25])[CH2:23][C@@H:21]2[O:22]1.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2:14][CH2:15][CH2:16][CH2:17][C:18](=[O:19])[OH:20])cc1>C1CCOC1.CC(C)C[O-].[Br-].[K+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C@H:6]([OH:7])/[CH:8]=[CH:9]/[C@@H:10]1[C@@H:11]([CH2:12]/[CH:13]=[CH:14]\\[CH2:15][CH2:16][CH2:17][C:18](=[O:19])[OH:20])[C@@H:21]([OH:22])[CH2:23][C@H:24]1[OH:25]",
+      "mapping_confidence": 0.8593643217255698,
+      "conditions": {
+        "raw_description": "KtOBu; THF; rt; 62%",
+        "GENERAL_REAGENTS": [
+          "KtOBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C)(C)C[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    }
+  ]
+}

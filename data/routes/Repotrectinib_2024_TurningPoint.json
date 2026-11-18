@@ -1,0 +1,304 @@
+{
+  "background": {
+    "name": "Repotrectinib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Augtyro",
+    "manufacturer": "TurningPoint",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_1",
+      "reaction_smiles": "C[C@H](O)CN.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CCN(CC)CC.ClCCl>>C[C@H](O)CNC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12].[CH3:1][C@H:2]([OH:3])[CH2:4][NH2:5]>CCN(CC)CC.ClCCl>[CH3:1][C@H:2]([OH:3])[CH2:4][NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.24996891380300446,
+      "conditions": {
+        "raw_description": "TEA; DCM; Boc2O; 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_2",
+      "reaction_smiles": "C[C@H](O)CNC(=O)OC(C)(C)C.CC(=O)c1cc(F)ccc1O.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)/N=N/C(=O)OCC.ClCCl>>CC(=O)c1cc(F)ccc1O[C@@H](C)CNC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[c:4]1[cH:5][c:6]([F:7])[cH:8][cH:9][c:10]1[OH:11].O[C@@H:12]([CH3:13])[CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]>CCOC(=O)/N=N/C(=O)OCC.ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2](=[O:3])[c:4]1[cH:5][c:6]([F:7])[cH:8][cH:9][c:10]1[O:11][C@@H:12]([CH3:13])[CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.367867810793968,
+      "conditions": {
+        "raw_description": "PPh3; DEAD; DCM; 0 to 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "PPh3",
+          "DEAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+          "CCOC(=O)/N=N/C(=O)OCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_3",
+      "reaction_smiles": "CC(=O)c1cc(F)ccc1O[C@@H](C)CNC(=O)OC(C)(C)C.CC(C)(C)[S@](N)=O.CCO.CCO.CCO.CCO.[Ti].COCCOCCOC.CC1CCCO1.C1CCOC1>>C/C(=N\\[S@](=O)C(C)(C)C)c1cc(F)ccc1O[C@@H](C)CNC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:1])[c:10]1[cH:11][c:12]([F:13])[cH:14][cH:15][c:16]1[O:17][C@@H:18]([CH3:19])[CH2:20][NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28].[NH2:3][S@:4](=[O:5])[C:6]([CH3:7])([CH3:8])[CH3:9]>C1CCOC1.CC1CCCO1.CCO.CCO.CCO.CCO.COCCOCCOC.[Ti]>[CH3:1]/[C:2](=[N:3]\\[S@:4](=[O:5])[C:6]([CH3:7])([CH3:8])[CH3:9])[c:10]1[cH:11][c:12]([F:13])[cH:14][cH:15][c:16]1[O:17][C@@H:18]([CH3:19])[CH2:20][NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.28413150533907156,
+      "conditions": {
+        "raw_description": "Ti(OEt)4; Diglyme; 2-Me-THF; THF; 20-60 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Ti(OEt)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ti].CCO.CCO.CCO.CCO"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Diglyme",
+          "2-Me-THF",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOCCOC",
+          "CC1CCCO1",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20",
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_4",
+      "reaction_smiles": "C/C(=N\\[S@](=O)C(C)(C)C)c1cc(F)ccc1O[C@@H](C)CNC(=O)OC(C)(C)C.[BH4-].[Na+].C1CCOC1.O>>C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)N[S@](=O)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[O:12][c:13]1[cH:14][cH:15][c:16]([F:17])[cH:18][c:19]1/[C:20]([CH3:21])=[N:22]/[S@:23](=[O:24])[C:25]([CH3:26])([CH3:27])[CH3:28]>C1CCOC1.O.[BH4-].[Na+]>[CH3:1][C@@H:2]([CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[O:12][c:13]1[cH:14][cH:15][c:16]([F:17])[cH:18][c:19]1[C@@H:20]([CH3:21])[NH:22][S@:23](=[O:24])[C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.24797913876616962,
+      "conditions": {
+        "raw_description": "NaBH4; THF; H2O; -50 to -25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-50",
+          "-25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_5",
+      "reaction_smiles": "C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)N[S@](=O)C(C)(C)C.II.C1CCOC1.O>>C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)N",
+      "reaction_smiles_mapped": "CC(C)(C)[S@@](=O)[NH:22][C@@H:20]([c:19]1[c:13]([O:12][C@@H:2]([CH3:1])[CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[cH:14][cH:15][c:16]([F:17])[cH:18]1)[CH3:21]>C1CCOC1.II.O>[CH3:1][C@@H:2]([CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[O:12][c:13]1[cH:14][cH:15][c:16]([F:17])[cH:18][c:19]1[C@@H:20]([CH3:21])[NH2:22]",
+      "mapping_confidence": 0.3502437431323797,
+      "conditions": {
+        "raw_description": "I2; THF; H2O; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_6",
+      "reaction_smiles": "C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)N.CCOC(=O)c1cnn2ccc(Cl)nc12.CCN(C(C)C)C(C)C.CCCCO>>CCOC(=O)c1cnn2ccc(N[C@H](C)c3cc(F)ccc3O[C@@H](C)CNC(=O)OC(C)(C)C)nc12",
+      "reaction_smiles_mapped": "Cl[c:12]1[cH:11][cH:10][n:9]2[n:8][cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:36]2[n:35]1.[NH2:13][C@H:14]([CH3:15])[c:16]1[cH:17][c:18]([F:19])[cH:20][cH:21][c:22]1[O:23][C@@H:24]([CH3:25])[CH2:26][NH:27][C:28](=[O:29])[O:30][C:31]([CH3:32])([CH3:33])[CH3:34]>CCCCO.CCN(C(C)C)C(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][n:8][n:9]2[cH:10][cH:11][c:12]([NH:13][C@H:14]([CH3:15])[c:16]3[cH:17][c:18]([F:19])[cH:20][cH:21][c:22]3[O:23][C@@H:24]([CH3:25])[CH2:26][NH:27][C:28](=[O:29])[O:30][C:31]([CH3:32])([CH3:33])[CH3:34])[n:35][c:36]12",
+      "mapping_confidence": 0.42687080288809887,
+      "conditions": {
+        "raw_description": "DIPEA; n-BuOH; 120 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "n-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_7",
+      "reaction_smiles": "CCOC(=O)c1cnn2ccc(N[C@H](C)c3cc(F)ccc3O[C@@H](C)CNC(=O)OC(C)(C)C)nc12.[Li+].[OH-].C1CCOC1.CO>>C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)Nc1ccn2ncc(C(=O)O)c2n1",
+      "reaction_smiles_mapped": "CC[O:32][C:30]([c:29]1[cH:28][n:27][n:26]2[cH:25][cH:24][c:23]([NH:22][C@@H:20]([c:19]3[c:13]([O:12][C@@H:2]([CH3:1])[CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[cH:14][cH:15][c:16]([F:17])[cH:18]3)[CH3:21])[n:34][c:33]21)=[O:31]>C1CCOC1.CO.[Li+].[OH-]>[CH3:1][C@@H:2]([CH2:3][NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[O:12][c:13]1[cH:14][cH:15][c:16]([F:17])[cH:18][c:19]1[C@@H:20]([CH3:21])[NH:22][c:23]1[cH:24][cH:25][n:26]2[n:27][cH:28][c:29]([C:30](=[O:31])[OH:32])[c:33]2[n:34]1",
+      "mapping_confidence": 0.35724786872584186,
+      "conditions": {
+        "raw_description": "LiOH; THF; MeOH; 70 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_8",
+      "reaction_smiles": "C[C@@H](CNC(=O)OC(C)(C)C)Oc1ccc(F)cc1[C@@H](C)Nc1ccn2ncc(C(=O)O)c2n1.Cl.ClCCl>>C[C@@H](CN)Oc1ccc(F)cc1[C@@H](C)Nc1ccn2ncc(C(=O)O)c2n1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:4][CH2:3][C@H:2]([CH3:1])[O:5][c:6]1[cH:7][cH:8][c:9]([F:10])[cH:11][c:12]1[C@@H:13]([CH3:14])[NH:15][c:16]1[cH:17][cH:18][n:19]2[n:20][cH:21][c:22]([C:23](=[O:24])[OH:25])[c:26]2[n:27]1>Cl.ClCCl>[CH3:1][C@@H:2]([CH2:3][NH2:4])[O:5][c:6]1[cH:7][cH:8][c:9]([F:10])[cH:11][c:12]1[C@@H:13]([CH3:14])[NH:15][c:16]1[cH:17][cH:18][n:19]2[n:20][cH:21][c:22]([C:23](=[O:24])[OH:25])[c:26]2[n:27]1",
+      "mapping_confidence": 0.9786974136289959,
+      "conditions": {
+        "raw_description": "HCl in Et2O; DCM; 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HCl in Et2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Repotrectinib_2024_TurningPoint_9",
+      "reaction_smiles": "C[C@@H](CN)Oc1ccc(F)cc1[C@@H](C)Nc1ccn2ncc(C(=O)O)c2n1.O=P(Oc1c(F)c(F)c(F)c(F)c1F)(c1ccccc1)c1ccccc1.CCN(C(C)C)C(C)C.CN(C)C=O.ClCCl>>C[C@H]1CNC(=O)c2cnn3ccc(nc23)N[C@H](C)c2cc(F)ccc2O1",
+      "reaction_smiles_mapped": "O[C:5](=[O:6])[c:7]1[cH:8][n:9][n:10]2[cH:11][cH:12][c:13]([NH:16][C@H:17]([CH3:18])[c:19]3[cH:20][c:21]([F:22])[cH:23][cH:24][c:25]3[O:26][C@@H:2]([CH3:1])[CH2:3][NH2:4])[n:14][c:15]12>CCN(C(C)C)C(C)C.CN(C)C=O.ClCCl.O=P(Oc1c(F)c(F)c(F)c(F)c1F)(c1ccccc1)c1ccccc1>[CH3:1][C@H:2]1[CH2:3][NH:4][C:5](=[O:6])[c:7]2[cH:8][n:9][n:10]3[cH:11][cH:12][c:13]([n:14][c:15]23)[NH:16][C@H:17]([CH3:18])[c:19]2[cH:20][c:21]([F:22])[cH:23][cH:24][c:25]2[O:26]1",
+      "mapping_confidence": 0.8803235867130789,
+      "conditions": {
+        "raw_description": "FDPP; DIPEA; DMF; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "FDPP",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)P(=O)(C2=CC=CC=C2)OC3=C(C(=C(C(=C3F)F)F)F)F",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

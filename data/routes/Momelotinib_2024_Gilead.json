@@ -1,0 +1,151 @@
+{
+  "background": {
+    "name": "Momelotinib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Ojjaara",
+    "manufacturer": "Gilead",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Momelotinib_2024_Gilead_1",
+      "reaction_smiles": "Clc1ccnc(Cl)n1.CCOC(=O)c1ccc(B(O)O)cc1.O=C([O-])[O-].[Na+].[Na+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1>>CCOC(=O)c1ccc(-c2ccnc(Cl)n2)cc1",
+      "reaction_smiles_mapped": "OB(O)[c:9]1[cH:8][cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[cH:18][cH:17]1.Cl[c:10]1[cH:11][cH:12][n:13][c:14]([Cl:15])[n:16]1>Cc1ccccc1.O=C([O-])[O-].[Na+].[Na+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][n:13][c:14]([Cl:15])[n:16]2)[cH:17][cH:18]1",
+      "mapping_confidence": 0.8973270111885419,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; Na2CO3; Toluene; 100 \u00b0C; 60%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Momelotinib_2024_Gilead_2",
+      "reaction_smiles": "CCOC(=O)c1ccc(-c2ccnc(Cl)n2)cc1.Nc1ccc(N2CCOCC2)cc1.Cc1ccc(S(=O)(=O)O)cc1.C1COCCO1>>CCOC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1",
+      "reaction_smiles_mapped": "Cl[c:14]1[n:13][cH:12][cH:11][c:10](-[c:9]2[cH:8][cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[cH:30][cH:29]2)[n:28]1.[NH2:15][c:16]1[cH:17][cH:18][c:19]([N:20]2[CH2:21][CH2:22][O:23][CH2:24][CH2:25]2)[cH:26][cH:27]1>C1COCCO1.Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][n:13][c:14]([NH:15][c:16]3[cH:17][cH:18][c:19]([N:20]4[CH2:21][CH2:22][O:23][CH2:24][CH2:25]4)[cH:26][cH:27]3)[n:28]2)[cH:29][cH:30]1",
+      "mapping_confidence": 0.8778543118914075,
+      "conditions": {
+        "raw_description": "TsOH; Dioxane; reflux; 88%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Momelotinib_2024_Gilead_3",
+      "reaction_smiles": "CCOC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1.[Li+].[OH-].CO.C1CCOC1>>O=C(O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1",
+      "reaction_smiles_mapped": "CC[O:3][C:2](=[O:1])[c:4]1[cH:5][cH:6][c:7](-[c:8]2[cH:9][cH:10][n:11][c:12]([NH:13][c:14]3[cH:15][cH:16][c:17]([N:18]4[CH2:19][CH2:20][O:21][CH2:22][CH2:23]4)[cH:24][cH:25]3)[n:26]2)[cH:27][cH:28]1>C1CCOC1.CO.[Li+].[OH-]>[O:1]=[C:2]([OH:3])[c:4]1[cH:5][cH:6][c:7](-[c:8]2[cH:9][cH:10][n:11][c:12]([NH:13][c:14]3[cH:15][cH:16][c:17]([N:18]4[CH2:19][CH2:20][O:21][CH2:22][CH2:23]4)[cH:24][cH:25]3)[n:26]2)[cH:27][cH:28]1",
+      "mapping_confidence": 0.8753772044721172,
+      "conditions": {
+        "raw_description": "LiOH; MeOH; THF; reflux; 99%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Momelotinib_2024_Gilead_4",
+      "reaction_smiles": "O=C(O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1.N#CCN.On1nnc2ccccc21.CCN=C=NCCCN(C)C.Cl.CCN(CC)CC.CN(C)C=O>>N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1",
+      "reaction_smiles_mapped": "[N:1]#[C:2][CH2:3][NH2:4].O[C:5](=[O:6])[c:7]1[cH:8][cH:9][c:10](-[c:11]2[cH:12][cH:13][n:14][c:15]([NH:16][c:17]3[cH:18][cH:19][c:20]([N:21]4[CH2:22][CH2:23][O:24][CH2:25][CH2:26]4)[cH:27][cH:28]3)[n:29]2)[cH:30][cH:31]1>CCN(CC)CC.CCN=C=NCCCN(C)C.CN(C)C=O.Cl.On1nnc2ccccc21>[N:1]#[C:2][CH2:3][NH:4][C:5](=[O:6])[c:7]1[cH:8][cH:9][c:10](-[c:11]2[cH:12][cH:13][n:14][c:15]([NH:16][c:17]3[cH:18][cH:19][c:20]([N:21]4[CH2:22][CH2:23][O:24][CH2:25][CH2:26]4)[cH:27][cH:28]3)[n:29]2)[cH:30][cH:31]1",
+      "mapping_confidence": 0.7939270436816634,
+      "conditions": {
+        "raw_description": "EDCl; HOBt; TEA; DMF; 88%",
+        "GENERAL_REAGENTS": [
+          "HOBt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)N=NN2O"
+        ],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    }
+  ]
+}

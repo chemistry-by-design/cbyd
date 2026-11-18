@@ -1,0 +1,220 @@
+{
+  "background": {
+    "name": "Mukonine",
+    "author": "Buchwald",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2008, 73, 7603",
+    "doi": "10.1021/jo801273q"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_1",
+      "reaction_smiles": "COc1cc(C(=O)O)ccc1N.O=S(Cl)Cl.CO>>COC(=O)c1ccc(N)c(OC)c1",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].O[C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8]([NH2:9])[c:10]([O:11][CH3:12])[cH:13]1>O=S(Cl)Cl>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8]([NH2:9])[c:10]([O:11][CH3:12])[cH:13]1",
+      "mapping_confidence": 0.6960295801393013,
+      "conditions": {
+        "raw_description": "SOCl2; MeOH; r.t.; 17 h",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_2",
+      "reaction_smiles": "COC(=O)c1ccc(N)c(OC)c1.ClCCl.F[B-](F)(F)F.c1cc([I+]c2ccncc2)ccn1.O=S(=O)(O)C(F)(F)F>>COC(=O)c1cc(I)c(N)c(OC)c1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:9]([NH2:10])[c:11]([O:12][CH3:13])[cH:14]1.c1cc([I+:8]c2ccncc2)ccn1>ClCCl.F[B-](F)(F)F.O=S(=O)(O)C(F)(F)F>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([I:8])[c:9]([NH2:10])[c:11]([O:12][CH3:13])[cH:14]1",
+      "mapping_confidence": 0.9887618560382253,
+      "conditions": {
+        "raw_description": "Py2IBF4; CF3SO3H; CH2Cl2; r.t.; 18 h",
+        "GENERAL_REAGENTS": [
+          "Py2IBF4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[I+](c1ccncc1)(c1ccncc1).[B-](F)(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "CF3SO3H"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C(F)(F)(F)S(=O)(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_3",
+      "reaction_smiles": "COC(=O)c1cc(I)c(N)c(OC)c1.CC(=O)OC(C)=O.O=S(=O)(O)O.ClCCl>>COC(=O)c1cc(I)c(NC(C)=O)c(OC)c1",
+      "reaction_smiles_mapped": "CC(=O)O[C:11]([CH3:12])=[O:13].[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([I:8])[c:9]([NH2:10])[c:14]([O:15][CH3:16])[cH:17]1>O=S(=O)(O)O.ClCCl>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([I:8])[c:9]([NH:10][C:11]([CH3:12])=[O:13])[c:14]([O:15][CH3:16])[cH:17]1",
+      "mapping_confidence": 0.4861835128355824,
+      "conditions": {
+        "raw_description": "Ac2O; H2SO4; CH2Cl2; 0 8 \u00b0C to r.t.; 21 h; 79%  (3 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "8",
+          "rt"
+        ],
+        "YIELD": [
+          "79% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_4",
+      "reaction_smiles": "COC(=O)c1cc(I)c(NC(C)=O)c(OC)c1.CC(=O)[O-].CC(=O)[O-].[Pd+2].O=P([O-])([O-])[O-].[K+].[K+].[K+].OB(O)c1ccccc1.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.C1CCOC1.O>>COc1cc(C(=O)O)cc(-c2ccccc2)c1NC(C)=O",
+      "reaction_smiles_mapped": "C[O:8][C:6]([c:5]1[cH:4][c:3]([O:2][CH3:1])[c:17]([NH:18][C:19]([CH3:20])=[O:21])[c:10](I)[cH:9]1)=[O:7].OB(O)[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>CC(=O)[O-].CC(=O)[O-].[Pd+2].O=P([O-])([O-])[O-].[K+].[K+].[K+].COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.C1CCOC1.O>[CH3:1][O:2][c:3]1[cH:4][c:5]([C:6](=[O:7])[OH:8])[cH:9][c:10](-[c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[c:17]1[NH:18][C:19]([CH3:20])=[O:21]",
+      "mapping_confidence": 0.7811936194880158,
+      "conditions": {
+        "raw_description": "Pd(OAc)2 (1 mol%); SPhos (2 mol%); PhB(OH)2; K3PO4; THF:H2O; 70 8 \u00b0C; 3 h; 90%",
+        "GENERAL_REAGENTS": [
+          "PhB(OH)2",
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(C1=CC=CC=C1)(O)O",
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "SPhos"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "COC1=C(C(=CC=C1)OC)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70",
+          "8"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_5",
+      "reaction_smiles": "COc1cc(C(=O)O)cc(-c2ccccc2)c1NC(C)=O.CC(=O)[O-].CC(=O)[O-].[Pd+2].O=O.CC(=O)[O-].CC(=O)[O-].[Cu+2]>>COc1cc(C(=O)O)cc2c3ccccc3n(C(C)=O)c12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([C:6](=[O:7])[OH:8])[cH:9][c:10](-[c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[c:21]1[NH:17][C:18]([CH3:19])=[O:20]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pd+2].O=O.[Cu+2]>[CH3:1][O:2][c:3]1[cH:4][c:5]([C:6](=[O:7])[OH:8])[cH:9][c:10]2[c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]3[n:17]([C:18]([CH3:19])=[O:20])[c:21]12",
+      "mapping_confidence": 0.8326999836812566,
+      "conditions": {
+        "raw_description": "Pd(OAc)2 (5 mol%); Cu(OAc)2; O2; 120 8 \u00b0C; 12 h",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "Cu(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "CC(=O)[O-].CC(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120",
+          "8"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mukonine_2008_Buchwald_6",
+      "reaction_smiles": "COc1cc(C(=O)O)cc2c3ccccc3n(C(C)=O)c12.O=S(=O)(O)O.CO>>COc1cc(C(=O)O)cc2c1[nH]c1ccccc12",
+      "reaction_smiles_mapped": "CC(=O)[n:12]1[c:11]2[c:3]([O:2][CH3:1])[cH:4][c:5]([C:6](=[O:7])[OH:8])[cH:9][c:10]2[c:18]2[c:13]1[cH:14][cH:15][cH:16][cH:17]2>O=S(=O)(O)O.CO>[CH3:1][O:2][c:3]1[cH:4][c:5]([C:6](=[O:7])[OH:8])[cH:9][c:10]2[c:11]1[nH:12][c:13]1[cH:14][cH:15][cH:16][cH:17][c:18]21",
+      "mapping_confidence": 0.8807329041092,
+      "conditions": {
+        "raw_description": "H2SO4; MeOH; 80 8 \u00b0C; 10 min; 99% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80",
+          "8"
+        ],
+        "YIELD": [
+          "99% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

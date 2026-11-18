@@ -1,0 +1,282 @@
+{
+  "background": {
+    "name": "(+)-Ricciocarpin A",
+    "author": "Liu",
+    "year": 2006,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2006, 8, 151",
+    "doi": "10.1021/ol052638r"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_1",
+      "reaction_smiles": "CC1(C)C=CC(=O)CC1.II.c1cc[nH+]cc1.c1cc[nH+]cc1.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].ClCCl>>CC1(C)C=C(I)C(=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH:4]=[CH:5][C:7](=[O:8])[CH2:9][CH2:10]1.I[I:6]>c1cc[nH+]cc1.c1cc[nH+]cc1.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].ClCCl>[CH3:1][C:2]1([CH3:3])[CH:4]=[C:5]([I:6])[C:7](=[O:8])[CH2:9][CH2:10]1",
+      "mapping_confidence": 0.4956133286674033,
+      "conditions": {
+        "raw_description": "I2; PDC; CH2Cl2; rt; 2 d",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_2",
+      "reaction_smiles": "CC1(C)C=C(I)[C@H](O)CC1.COC(C)(OC)OC.CCC(=O)O>>COC(=O)C[C@@H]1C(I)=CCCC1(C)C",
+      "reaction_smiles_mapped": "O[C@H:6]1[C:7]([I:8])=[CH:9][C:12]([CH3:13])([CH3:14])[CH2:11][CH2:10]1.C[CH2:5][C:3]([OH:2])=[O:4].COC(C)(OC)O[CH3:1]>>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C:7]([I:8])=[CH:9][CH2:10][CH2:11][C:12]1([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.3073250653758492,
+      "conditions": {
+        "raw_description": "MeC(OMe)3; propionic acid; 165 \u00b0 C; 2 d",
+        "GENERAL_REAGENTS": [
+          "MeC(OMe)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OC)(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "propionic acid"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "165"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_3",
+      "reaction_smiles": "CC1(C)C=C(I)C(=O)CC1.B.C1CCOC1.OC(c1ccccc1)(c1ccccc1)C1CCCN1.CCN(CC)c1ccccc1.COB(OC)OC>>CC1(C)C=C(I)[C@H](O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH:4]=[C:5]([I:6])[C:7](=[O:8])[CH2:9][CH2:10]1>B.C1CCOC1.OC(c1ccccc1)(c1ccccc1)C1CCCN1.CCN(CC)c1ccccc1.COB(OC)OC>[CH3:1][C:2]1([CH3:3])[CH:4]=[C:5]([I:6])[C@H:7]([OH:8])[CH2:9][CH2:10]1",
+      "mapping_confidence": 0.9295544791020728,
+      "conditions": {
+        "raw_description": "L-diphenylprolinol; N,N-diethylaniline\u00d7 BH3; B(OMe)3; THF; rt; 1 h",
+        "GENERAL_REAGENTS": [
+          "L-diphenylprolinol",
+          "N,N-diethylaniline",
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O[C@@](c1ccccc1)(c2ccccc2)C3NCCC3",
+          "CCN(CC)C1=CC=CC=C1",
+          "B"
+        ],
+        "CATALYSTS": [
+          "B(OMe)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(OC)(OC)OC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_4",
+      "reaction_smiles": "COC(=O)C[C@@H]1C(I)=CCCC1(C)C.[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>>CC1(C)CCC=C(I)[C@H]1CCO",
+      "reaction_smiles_mapped": "CO[C:11]([CH2:10][C@H:9]1[C:2]([CH3:1])([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]1[I:8])=[O:12]>[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]([I:8])[C@H:9]1[CH2:10][CH2:11][OH:12]",
+      "mapping_confidence": 0.4594014200803099,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 0 \u00b0 C; 1 h; 73% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "73% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_5",
+      "reaction_smiles": "CC1(C)CCC=C(I)[C@H]1CCO.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>CC1(C)CCC=C(I)[C@H]1CC=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]([I:8])[C@H:9]1[CH2:10][CH2:11][OH:12]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]([I:8])[C@H:9]1[CH2:10][CH:11]=[O:12]",
+      "mapping_confidence": 0.9400217229160982,
+      "conditions": {
+        "raw_description": "DMP; CH2Cl2; 0 \u00b0 C to rt; 82%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_6",
+      "reaction_smiles": "CC1(C)CCC=C(I)[C@H]1CC=O.[Li]c1ccoc1.CCOCC>>CC1(C)CCC=C(I)[C@H]1C[C@H](O)c1ccoc1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]([I:8])[C@H:9]1[CH2:10][CH:11]=[O:12].[Li][c:13]1[cH:14][cH:15][o:16][cH:17]1>CCOCC>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]([I:8])[C@H:9]1[CH2:10][C@H:11]([OH:12])[c:13]1[cH:14][cH:15][o:16][cH:17]1",
+      "mapping_confidence": 0.9004960457028679,
+      "conditions": {
+        "raw_description": "Et2O; -60 \u00b0 C. 3 h; 89% 1:2 dr",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-60"
+        ],
+        "YIELD": [
+          "89% (dr=1:2)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_7",
+      "reaction_smiles": "CC1(C)CCC=C2C(=O)O[C@H](c3ccoc3)C[C@H]21.[Na+].[BH4-].c1ccncc1>>CC1(C)CCC[C@@H]2C(=O)O[C@H](c3ccoc3)C[C@H]21",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]2[C:8](=[O:9])[O:10][C@H:11]([c:12]3[cH:13][cH:14][o:15][cH:16]3)[CH2:17][C@@H:18]12>[Na+].[BH4-].c1ccncc1>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@H:7]2[C:8](=[O:9])[O:10][C@H:11]([c:12]3[cH:13][cH:14][o:15][cH:16]3)[CH2:17][C@@H:18]12",
+      "mapping_confidence": 0.8335421962746951,
+      "conditions": {
+        "raw_description": "NaBH4; pyridine; rt; 6 h; 76%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2006_Liu_8",
+      "reaction_smiles": "CC1(C)CCC=C(I)[C@H]1C[C@H](O)c1ccoc1.CC(=O)[O-].CC(=O)[O-].[Pd+2].[Co].CCN(CC)CC.CN1CCCN(C)C1=O.CO.[C-]#[O+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC1(C)CCC=C2C(=O)O[C@H](c3ccoc3)C[C@H]21",
+      "reaction_smiles_mapped": "I[C:7]1=[CH:6][CH2:5][CH2:4][C:2]([CH3:1])([CH3:3])[C@@H:18]1[CH2:17][C@H:11]([OH:10])[c:12]1[cH:13][cH:14][o:15][cH:16]1.CN1CCCN(C)[C:8]1=[O:9]>CC(=O)[O-].CC(=O)[O-].[Pd+2].[Co].CCN(CC)CC.CO.[C-]#[O+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH:6]=[C:7]2[C:8](=[O:9])[O:10][C@H:11]([c:12]3[cH:13][cH:14][o:15][cH:16]3)[CH2:17][C@@H:18]12",
+      "mapping_confidence": 0.5176357676214602,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; Ph3P; CO; Et3N; DMPU/MeOH; 55 \u00b0 C; 24 h; 89%",
+        "GENERAL_REAGENTS": [
+          "CO",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#[O+]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DMPU",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCN(C1=O)C",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    }
+  ]
+}

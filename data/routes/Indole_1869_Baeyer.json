@@ -1,0 +1,41 @@
+{
+  "background": {
+    "name": "Indole",
+    "author": "Baeyer",
+    "year": 1869,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ber. Dtsch. Chem. Ges. 1869, 2, 679",
+    "doi": "10.1002/cber.186900201268"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Indole_1869_Baeyer_1",
+      "reaction_smiles": "O=C(O)/C=C/c1ccccc1[N+](=O)[O-].[Fe].[K+].[OH-].[K+].[OH-]>>c1ccc2[nH]ccc2c1",
+      "reaction_smiles_mapped": "O=C(O)/[CH:6]=[CH:7]/[c:8]1[c:4]([N+:5](=O)[O-])[cH:3][cH:2][cH:1][cH:9]1>[Fe].[K+].[K+].[OH-].[OH-]>[cH:1]1[cH:2][cH:3][c:4]2[nH:5][cH:6][cH:7][c:8]2[cH:9]1",
+      "mapping_confidence": 0.9200005521274596,
+      "conditions": {
+        "raw_description": "Fe; KOH",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "background": {
+    "name": "(+)-Quinocarcinamide",
+    "author": "Yang",
+    "year": 2021,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2021, 23, 7972",
+    "doi": "10.1021/acs.orglett.1c02970"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_1",
+      "reaction_smiles": "COc1cccc(Br)c1C=O.C=C[Mg]Br.C1CCOC1>>C=CC(O)c1c(Br)cccc1OC",
+      "reaction_smiles_mapped": "[cH:1]1[cH:8][c:6]([Br:7])[c:5]([CH:3]=[O:4])[c:11]([O:12][CH3:13])[cH:10]1>C=C[Mg]Br.C1CCOC1>[CH2:1]=[CH:2][CH:3]([OH:4])[c:5]1[c:6]([Br:7])[cH:8][cH:9][cH:10][c:11]1[O:12][CH3:13]",
+      "mapping_confidence": 0.9934987045966344,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_2",
+      "reaction_smiles": "C=CC(O)c1c(Br)cccc1OC.C1=Cc2ccccc2C(p2oc3ccc4ccccc4c3c3c(ccc4ccccc43)o2)c2ccccc21.CC(C)(C)OC(N)=O.C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.Cl[Ir].Cl[Ir].CCOCC.FB(F)F.C1COCCO1>>C=C[C@H](NC(=O)OC(C)(C)C)c1c(Br)cccc1OC",
+      "reaction_smiles_mapped": "O[CH:3]([CH:2]=[CH2:1])[c:12]1[c:13]([Br:14])[cH:15][cH:16][cH:17][c:18]1[O:19][CH3:20].[NH2:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11]>C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.C1=Cc2ccccc2C(p2oc3ccc4ccccc4c3c3c(ccc4ccccc43)o2)c2ccccc21.C1COCCO1.CCOCC.Cl[Ir].Cl[Ir].FB(F)F>[CH2:1]=[CH:2][C@H:3]([NH:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[c:12]1[c:13]([Br:14])[cH:15][cH:16][cH:17][c:18]1[O:19][CH3:20]",
+      "mapping_confidence": 0.42149112612470657,
+      "conditions": {
+        "raw_description": "[{Ir(cod)Cl}2]; NH2Boc; BF3.Et2O; 1,4-dioxane; 90% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NH2Boc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)N"
+        ],
+        "CATALYSTS": [
+          "[{Ir(cod)Cl}2]",
+          "BF3.Et2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.Cl[Ir].Cl[Ir]",
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_3",
+      "reaction_smiles": "C=C[C@H](NC(=O)OC(C)(C)C)c1c(Br)cccc1OC.O=[O+][O-]>>COc1cccc(Br)c1[C@H](C=O)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "C=[CH:11][C@@H:10]([c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]1[Br:8])[NH:13][C:14]([O:12][C:17]([CH3:18])([CH3:19])[CH3:20])=[O:15]>O=[O+][O-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[C@H:10]([CH:11]=[O:12])[NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.5154944056573493,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_4",
+      "reaction_smiles": "COc1cccc(Br)c1[C@H](C=O)NC(=O)OC(C)(C)C.[BH4-].[Na+].CO>>COc1cccc(Br)c1[C@H](CO)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[C@H:10]([CH:11]=[O:12])[NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]>[BH4-].[Na+].CO>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[C@H:10]([CH2:11][OH:12])[NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.512023174448679,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 85% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_5",
+      "reaction_smiles": "COc1cccc(Br)c1[C@H](CO)NC(=O)OC(C)(C)C.BrCc1ccccc1.[H-].[Na+].CN(C)C=O>>COc1cccc(Br)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Br[CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1.[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[C@H:10]([CH2:11][OH:12])[NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27]>[H-].[Na+].CN(C)C=O>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[C@H:10]([CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.4302293922868148,
+      "conditions": {
+        "raw_description": "BnBr; NaH; DMF; 85%",
+        "GENERAL_REAGENTS": [
+          "BnBr",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CBr",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_6",
+      "reaction_smiles": "COc1cccc(Br)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C.C=CC[Sn](CCCC)(CCCC)CCCC.[Cs+].[F-].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C=CCc1cccc(OC)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Br[c:4]1[cH:5][cH:6][cH:7][c:8]([O:9][CH3:10])[c:11]1[C@H:12]([CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[NH:22][C:23](=[O:24])[O:25][C:26]([CH3:1])([CH3:2])[CH3:29]>C=CC[Sn](CCCC)(CCCC)CCCC.[Cs+].[F-].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>[CH2:1]=[CH:2][CH2:3][c:4]1[cH:5][cH:6][cH:7][c:8]([O:9][CH3:10])[c:11]1[C@H:12]([CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.47038010656899987,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; CsF; THF; 90%",
+        "GENERAL_REAGENTS": [
+          "CsF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cs+].[F-]"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_7",
+      "reaction_smiles": "C=CCc1cccc(OC)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C.C=CCBr.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>>COc1cccc(C/C=C/CBr)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH2:8][CH:9]=[CH2:10])[c:13]1[C@H:14]([CH2:15][O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)[NH:24][C:25](=[O:26])[O:27][C:28]([CH3:11])([CH3:29])[CH3:31]>C=CCBr.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH2:8]/[CH:9]=[CH:10]/[CH2:11][Br:12])[c:13]1[C@H:14]([CH2:15][O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)[NH:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.3912215985004475,
+      "conditions": {
+        "raw_description": "Grubbs II; DCM; 70%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_8",
+      "reaction_smiles": "COc1cccc(C/C=C/CBr)c1[C@H](COCc1ccccc1)NC(=O)OC(C)(C)C.CC(C)(C)[O-].[K+].C1CCOC1>>C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Br[CH2:1]/[CH:2]=[CH:3]/[CH2:4][c:5]1[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]1[C@H:13]([CH2:14][O:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[NH:23][C:24](=[O:25])[O:26][C:27]([CH3:28])([CH3:29])[CH3:30]>CC(C)(C)[O-].[K+].C1CCOC1>[CH2:1]=[CH:2][C@@H:3]1[CH2:4][c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]2[C@H:13]([CH2:14][O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[N:23]1[C:24](=[O:25])[O:26][C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.276820495760753,
+      "conditions": {
+        "raw_description": "t-BuOK; THF; 65%",
+        "GENERAL_REAGENTS": [
+          "t-BuOK"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_9",
+      "reaction_smiles": "C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1C(=O)OC(C)(C)C.C1=Cc2ccccc2C(p2oc3ccc4ccccc4c3c3c(ccc4ccccc43)o2)c2ccccc21.C>>C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:23]1[C@H:3]([CH:2]=[CH2:1])[CH2:4][c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]2[C@@H:13]1[CH2:14][O:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1>C1=Cc2ccccc2C(p2oc3ccc4ccccc4c3c3c(ccc4ccccc43)o2)c2ccccc21.C>[CH2:1]=[CH:2][C@@H:3]1[CH2:4][c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]2[C@H:13]([CH2:14][O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[NH:23]1",
+      "mapping_confidence": 0.7938916626502002,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_10",
+      "reaction_smiles": "C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1.CN(CC(=O)O)C(=O)OC(C)(C)C.CCN(CC)CC.O=C1OCCN1P(=O)(Cl)N1CCOC1=O.ClCCl>>C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1C(=O)CN(C)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@H:3]1[CH2:4][c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]2[C@H:13]([CH2:14][O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[NH:23]1>CN(CC(=O)O)C(=O)OC(C)(C)C.CCN(CC)CC.O=C1OCCN1P(=O)(Cl)N1CCOC1=O.ClCCl>[CH2:1]=[CH:2][C@@H:3]1[CH2:4][c:5]2[cH:6][cH:7][cH:8][c:9]([O:10][CH3:11])[c:12]2[C@H:13]([CH2:14][O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[N:23]1[C:24](=[O:25])[CH2:26][N:27]([CH3:28])[C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35]",
+      "mapping_confidence": 0.8484776010565738,
+      "conditions": {
+        "raw_description": "Et3N; BOPCl; DCM; 90% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "BOPCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "C1COC(=O)N1P(=O)(N2CCOC2=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_11",
+      "reaction_smiles": "C=C[C@@H]1Cc2cccc(OC)c2[C@H](COCc2ccccc2)N1C(=O)CN(C)C(=O)OC(C)(C)C.O=[O+][O-].CSC.ClCCl>>COc1cccc2c1[C@H](COCc1ccccc1)N(C(=O)CN(C)C(=O)OC(C)(C)C)[C@H](C=O)C2",
+      "reaction_smiles_mapped": "C=[CH:33][C@H:32]1[N:19]([C:20](=[O:21])[CH2:22][N:23]([CH3:24])[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[C@@H:9]([CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[c:8]2[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]2[CH2:35]1>O=[O+][O-].CSC.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[N:19]([C:20](=[O:21])[CH2:22][N:23]([CH3:24])[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[C@H:32]([CH:33]=[O:34])[CH2:35]2",
+      "mapping_confidence": 0.3955786266601959,
+      "conditions": {
+        "raw_description": "O3; Me2S; DCM; 82%",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "Me2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_12",
+      "reaction_smiles": "COc1cccc2c1[C@H](COCc1ccccc1)N(C(=O)CN(C)C(=O)OC(C)(C)C)[C@H](C=O)C2.C.C=CC(=O)OC(C)(C)C.CCN(CC)CC>>COc1cccc2c1[C@H](COCc1ccccc1)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C(C1=C2)N3C",
+      "reaction_smiles_mapped": "O=[C:33]([N:19]1[C@@H:9]([CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[c:8]2[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]2[CH2:23][C@H:22]1[CH:20]=[O:21])[CH2:32][N:35]([C:25](=[O:26])[O:27][C:28]([CH3:24])([CH3:29])[CH3:31])[CH3:36]>C.C=CC(=O)OC(C)(C)C.CCN(CC)CC>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[N:19]1[C:20](=[O:21])[C@H:22]3[CH2:23][C@H:24]([C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[CH:32]([C:33]1=[CH:34]2)[N:35]3[CH3:36]",
+      "mapping_confidence": 0.36028993209749866,
+      "conditions": {
+        "raw_description": "Et3N; 35% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_13",
+      "reaction_smiles": "COc1cccc2c1[C@H](COCc1ccccc1)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C(C1=C2)N3C.[HH].[Al]#[Ni].CCO>>COc1cccc2c1[C@H](CO)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C",
+      "reaction_smiles_mapped": "c1ccc(C[O:11][CH2:10][C@H:9]2[c:8]3[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]3[CH:27]=[C:26]3[N:12]2[C:13](=[O:14])[C@H:15]2[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]3[N:28]2[CH3:29])cc1>[HH].[Al]#[Ni].CCO>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH2:10][OH:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]",
+      "mapping_confidence": 0.41573993982038604,
+      "conditions": {
+        "raw_description": "H2; Raney Ni; EtOH; 70%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Raney Ni"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al]#[Ni]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_14",
+      "reaction_smiles": "COc1cccc2c1[C@H](CO)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>COc1cccc2c1[C@H](C=O)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH2:10][OH:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]>O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH:10]=[O:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]",
+      "mapping_confidence": 0.45207994690726266,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; DCM; 90%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_15",
+      "reaction_smiles": "COc1cccc2c1[C@H](C=O)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C.C1CCC2=NCCCN2CC1.C1CCOC1>>COc1cccc2c1[C@@H](C=O)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@H:9]([CH:10]=[O:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]>C1CCC2=NCCCN2CC1.C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]([CH:10]=[O:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]",
+      "mapping_confidence": 0.4359255780706334,
+      "conditions": {
+        "raw_description": "DBU; THF; 50%",
+        "GENERAL_REAGENTS": [
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_16",
+      "reaction_smiles": "COc1cccc2c1[C@@H](C=O)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C.[BH4-].[Na+].CCO>>COc1cccc2c1[C@@H](CO)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]([CH:10]=[O:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]>[BH4-].[Na+].CCO>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]([CH2:10][OH:11])[N:12]1[C:13](=[O:14])[C@H:15]3[CH2:16][C@H:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[CH:25]([C@H:26]1[CH2:27]2)[N:28]3[CH3:29]",
+      "mapping_confidence": 0.45258027748081453,
+      "conditions": {
+        "raw_description": "NaBH4; EtOH; 80%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Quinocarcinamide_2021_Yang_17",
+      "reaction_smiles": "COc1cccc2c1[C@@H](CO)N1C(=O)[C@H]3C[C@H](C(=O)OC(C)(C)C)C([C@H]1C2)N3C.Cl.C1COCCO1>>COc1cccc2c1[C@@H](CO)N1C(=O)C3CC(C(=O)O)C(C1C2)N3C",
+      "reaction_smiles_mapped": "CC(C)(C)[O:20][C:18]([C@H:17]1[CH2:16][C@@H:15]2[C:13](=[O:14])[N:12]3[C@H:9]([CH2:10][OH:11])[c:8]4[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]4[CH2:23][C@@H:22]3[CH:21]1[N:24]2[CH3:25])=[O:19]>Cl.C1COCCO1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]([CH2:10][OH:11])[N:12]1[C:13](=[O:14])[CH:15]3[CH2:16][CH:17]([C:18](=[O:19])[OH:20])[CH:21]([CH:22]1[CH2:23]2)[N:24]3[CH3:25]",
+      "mapping_confidence": 0.9802784347756643,
+      "conditions": {
+        "raw_description": "HCl; 1,4-dioxane; 65%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    }
+  ]
+}

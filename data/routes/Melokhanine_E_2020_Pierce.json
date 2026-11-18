@@ -1,0 +1,410 @@
+{
+  "background": {
+    "name": "(+/-)-Melokhanine E",
+    "author": "Pierce",
+    "year": 2020,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2020, 22, 714",
+    "doi": "10.1021/acs.orglett.9b04546"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_1",
+      "reaction_smiles": "CCC1CCCN(C(=O)OC(C)(C)C)C1O.O=S(=O)(O)O.CCOCC>>CCC1=CN(C(=O)OC(C)(C)C)CCC1",
+      "reaction_smiles_mapped": "O[CH:4]1[CH:3]([CH2:2][CH3:1])[CH2:15][CH2:14][CH2:13][N:5]1[C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12]>O=S(=O)(O)O.CCOCC>[CH3:1][CH2:2][C:3]1=[CH:4][N:5]([C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[CH2:13][CH2:14][CH2:15]1",
+      "mapping_confidence": 0.48068387455109557,
+      "conditions": {
+        "raw_description": "H2SO4; Et2O; rt; 82% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "82% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_2",
+      "reaction_smiles": "CCC1=CN(C(=O)OC(C)(C)C)CCC1.CCOC(=O)C=[N+]=[N-].ClCCl.Cc1ccccc1.O=S(=O)([O-])C(F)(F)F.[Cu+]>>CCOC(=O)C1[C@@H]2N(C(=O)OC(C)(C)C)CCC[C@]12CC",
+      "reaction_smiles_mapped": "[CH:7]1=[C:19]([CH2:20][CH3:21])[CH2:18][CH2:17][CH2:16][N:8]1[C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15].[N-]=[N+]=[CH:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>ClCCl.Cc1ccccc1.O=S(=O)([O-])C(F)(F)F.[Cu+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C@@H:7]2[N:8]([C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15])[CH2:16][CH2:17][CH2:18][C@:19]12[CH2:20][CH3:21]",
+      "mapping_confidence": 0.3940278031407023,
+      "conditions": {
+        "raw_description": "Cu(OTf)\u22c5toluen; CH2Cl2; rt; 73%",
+        "GENERAL_REAGENTS": [
+          "Cu(OTf)\u22c5toluen"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu+].FC(F)(F)S(=O)(=O)[O-].Cc1ccccc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_3",
+      "reaction_smiles": "CC[C@]12CCCN(C(=O)OC(C)(C)C)[C@H]1C2C(=O)O.O=C1c2ccccc2NC12CC2.O=C(OC(Cl)(Cl)Cl)OC(Cl)(Cl)Cl.ClCCl.Cc1cc(C)nc(C)c1>>CC[C@]12CCCN(C(=O)OC(C)(C)C)[C@H]1[C@@H]2C(=O)N1c2ccccc2C(=O)C12CC2",
+      "reaction_smiles_mapped": "O[C:17]([CH:16]1[C@@:3]2([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C@H:15]21)=[O:18].[NH:19]1[c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]2[C:26](=[O:27])[C:28]12[CH2:29][CH2:30]2>O=C(OC(Cl)(Cl)Cl)OC(Cl)(Cl)Cl.ClCCl.Cc1cc(C)nc(C)c1>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C@H:15]1[C@@H:16]2[C:17](=[O:18])[N:19]1[c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]2[C:26](=[O:27])[C:28]12[CH2:29][CH2:30]2",
+      "mapping_confidence": 0.2709859775590344,
+      "conditions": {
+        "raw_description": "triphosgene; CH2Cl2; 0 \u00b0C; 2,4,6-collidine; 45%",
+        "GENERAL_REAGENTS": [
+          "triphosgene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(Cl)(Cl)OC(=O)OC(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "2,4,6-collidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CC1=CC(=NC(=C1)C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_4",
+      "reaction_smiles": "CC[C@]12CCCN(C(=O)OC(C)(C)C)[C@H]1[C@@H]2C(=O)N1c2ccccc2C(=O)C12CC2.[Mg+2].[I-].[I-].Cc1ccccc1>>CC[C@@]12CCCN3CC[C@]4(C(=O)c5ccccc5N4C(=O)C1)[C@H]32",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:7]1[CH2:6][CH2:5][CH2:4][C@:3]2([CH2:2][CH3:1])[C@@H:22]([C:20]([N:19]3[C:10]4([CH2:8][CH2:9]4)[C:11](=[O:12])[c:13]4[cH:14][cH:15][cH:16][cH:17][c:18]43)=[O:21])[C@@H:23]21>[Mg+2].[I-].[I-].Cc1ccccc1>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([C:11](=[O:12])[c:13]5[cH:14][cH:15][cH:16][cH:17][c:18]5[N:19]4[C:20](=[O:21])[CH2:22]1)[C@@H:23]23",
+      "mapping_confidence": 0.654420571974318,
+      "conditions": {
+        "raw_description": "MgI2; microwave; PhMe; 200 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "MgI2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].[I-].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "microwave"
+        ],
+        "TEMPERATURE": [
+          "200"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_5",
+      "reaction_smiles": "O=C1CCCCN1.[Li]CCCC.C1CCOC1.CCI>>CCC1CCCNC1=O",
+      "reaction_smiles_mapped": "I[CH2:2][CH3:1].[CH2:3]1[CH2:4][CH2:5][CH2:6][NH:7][C:8]1=[O:9]>[Li]CCCC.C1CCOC1>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][C:8]1=[O:9]",
+      "mapping_confidence": 0.9484618724936716,
+      "conditions": {
+        "raw_description": "n-BuLi; - 78 to 0 \u00b0C; THF; EtI",
+        "GENERAL_REAGENTS": [
+          "n-BuLi",
+          "EtI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "CCI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_6",
+      "reaction_smiles": "CCC1CCCNC1=O.CN(C)c1ccncc1.C1CCOC1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>CCC1CCCN(C(=O)OC(C)(C)C)C1=O",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14].[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][C:15]1=[O:16]>CN(C)c1ccncc1.C1CCOC1>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C:15]1=[O:16]",
+      "mapping_confidence": 0.24002673774247724,
+      "conditions": {
+        "raw_description": "DMAP; Boc2O; THF; 0 \u00b0C; 61% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Boc2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "61% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_7",
+      "reaction_smiles": "CCC1CCCN(C(=O)OC(C)(C)C)C1=O.[Na+].[BH4-].CO>>CCC1CCCN(C(=O)OC(C)(C)C)C1O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C:15]1=[O:16]>[Na+].[BH4-].CO>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[CH:15]1[OH:16]",
+      "mapping_confidence": 0.4938393196451941,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C; 53%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_8",
+      "reaction_smiles": "CCOC(=O)C1[C@@H]2N(C(=O)OC(C)(C)C)CCC[C@]12CC.[Na+].[OH-].O.C1CCOC1.CCO>>CC[C@]12CCCN(C(=O)OC(C)(C)C)[C@H]1C2C(=O)O",
+      "reaction_smiles_mapped": "CC[O:19][C:17]([CH:16]1[C@@:3]2([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C@H:15]21)=[O:18]>[Na+].[OH-].O.C1CCOC1.CCO>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[C@H:15]1[CH:16]2[C:17](=[O:18])[OH:19]",
+      "mapping_confidence": 0.38006819833453453,
+      "conditions": {
+        "raw_description": "NaOH; H2O; THF; EtOH; 60 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_9",
+      "reaction_smiles": "Nc1ccccc1C(=O)O.O=C1OCCC1Br.O=C([O-])[O-].[Na+].[Na+].O>>O=C(O)c1ccccc1NC1CCOC1=O",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([OH:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[NH2:10].Br[CH:11]1[CH2:12][CH2:13][O:14][C:15]1=[O:16]>O=C([O-])[O-].[Na+].[Na+].O>[O:1]=[C:2]([OH:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[NH:10][CH:11]1[CH2:12][CH2:13][O:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.9155793128799158,
+      "conditions": {
+        "raw_description": "Na2CO3; H2O; 0 \u00b0C - rt; 74%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_10",
+      "reaction_smiles": "O=C(O)c1ccccc1NC1CCOC1=O.CCN(CC)CC.CC(=O)OC(C)=O>>CC(=O)N1c2ccccc2C(=O)C12CCOC2=O",
+      "reaction_smiles_mapped": "CC(=O)O[C:2]([CH3:1])=[O:3].O[C:11]([c:10]1[c:5]([NH:4][CH:13]2[CH2:14][CH2:15][O:16][C:17]2=[O:18])[cH:6][cH:7][cH:8][cH:9]1)=[O:12]>CCN(CC)CC>[CH3:1][C:2](=[O:3])[N:4]1[c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[C:11](=[O:12])[C:13]12[CH2:14][CH2:15][O:16][C:17]2=[O:18]",
+      "mapping_confidence": 0.2752706542410186,
+      "conditions": {
+        "raw_description": "Ac2O- Et3N; 130 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_11",
+      "reaction_smiles": "CC(=O)N1c2ccccc2C(=O)C12CCOC2=O.[Na+].[Cl-].CS(C)=O>>CC(=O)N1c2ccccc2C(=O)C12CC2",
+      "reaction_smiles_mapped": "O=C1O[CH2:15][CH2:14][C:13]12[N:4]([C:2]([CH3:1])=[O:3])[c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[C:11]2=[O:12]>[Na+].[Cl-].CS(C)=O>[CH3:1][C:2](=[O:3])[N:4]1[c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[C:11](=[O:12])[C:13]12[CH2:14][CH2:15]2",
+      "mapping_confidence": 0.9238464595588292,
+      "conditions": {
+        "raw_description": "NaCl; DMSO; 155-160 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "NaCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "155",
+          "160"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Melokhanine_E_2020_Pierce_12",
+      "reaction_smiles": "CC(=O)N1c2ccccc2C(=O)C12CC2.C[O-].[Na+].CO.C1CCOC1>>O=C1c2ccccc2NC12CC2",
+      "reaction_smiles_mapped": "CC(=O)[N:9]1[c:8]2[c:3]([cH:4][cH:5][cH:6][cH:7]2)[C:2](=[O:1])[C:10]12[CH2:11][CH2:12]2>C[O-].[Na+].CO.C1CCOC1>[O:1]=[C:2]1[c:3]2[cH:4][cH:5][cH:6][cH:7][c:8]2[NH:9][C:10]12[CH2:11][CH2:12]2",
+      "mapping_confidence": 0.8670414908421539,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; THF; 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

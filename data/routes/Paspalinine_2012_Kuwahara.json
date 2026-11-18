@@ -1,0 +1,756 @@
+{
+  "background": {
+    "name": "Paspalinine",
+    "author": "Kuwahara",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2012, 51, 12833",
+    "doi": "10.1002/anie.201206299"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_1",
+      "reaction_smiles": "CCOP(=O)(CC(C)=O)OCC.O.O.O.O.O.O.[Cl-].[Cl-].[Cl-].[Fe+3].[H-].[Na+].ClCCl.CCOC(OCC)OCC>>CCO/C(C)=C\\P(=O)(OCC)OCC",
+      "reaction_smiles_mapped": "CCOC(OCC)[O:3][CH2:2][CH3:1].O=[C:4]([CH3:5])[CH2:6][P:7](=[O:8])([O:9][CH2:10][CH3:11])[O:12][CH2:13][CH3:14]>ClCCl.O.O.O.O.O.O.[Cl-].[Cl-].[Cl-].[Fe+3].[H-].[Na+]>[CH3:1][CH2:2][O:3]/[C:4]([CH3:5])=[CH:6]\\[P:7](=[O:8])([O:9][CH2:10][CH3:11])[O:12][CH2:13][CH3:14]",
+      "mapping_confidence": 0.3618477507921743,
+      "conditions": {
+        "raw_description": "1) FeCl3\u00b76H2O; CH(OEt)3; 2) NaH; DCM; 94%",
+        "GENERAL_REAGENTS": [
+          "FeCl3\u00b76H2O",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Fe+3].[Cl-].[Cl-].[Cl-].O.O.O.O.O.O",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "CH(OEt)3"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCOC(OCC)OCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_2",
+      "reaction_smiles": "CCO/C(C)=C\\P(=O)(OCC)OCC.O=C1CCC(=O)N1Br.ClC(Cl)(Cl)Cl>>CCO/C(=C\\P(=O)(OCC)OCC)CBr",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3]/[C:4](=[CH:5]\\[P:6](=[O:7])([O:8][CH2:9][CH3:10])[O:11][CH2:12][CH3:13])[CH3:14].O=C1CCC(=O)N1[Br:15]>ClC(Cl)(Cl)Cl>[CH3:1][CH2:2][O:3]/[C:4](=[CH:5]\\[P:6](=[O:7])([O:8][CH2:9][CH3:10])[O:11][CH2:12][CH3:13])[CH2:14][Br:15]",
+      "mapping_confidence": 0.6262215538136418,
+      "conditions": {
+        "raw_description": "NBS; h\u03bd; CCl4; 80 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_3",
+      "reaction_smiles": "C[C@]12CCC(=O)C=C1CCCC2=O.Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1.OCCO>>C[C@]12CCC3(C=C1CCCC2=O)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5](=[O:13])[CH:6]=[C:7]1[CH2:8][CH2:9][CH2:10][C:11]2=[O:12].O[CH2:14][CH2:15][OH:16]>Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH:6]=[C:7]1[CH2:8][CH2:9][CH2:10][C:11]2=[O:12])[O:13][CH2:14][CH2:15][O:16]3",
+      "mapping_confidence": 0.6517793117211123,
+      "conditions": {
+        "raw_description": "CPTS; (CH2OH)2; PhH",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].CC1=CC(=[NH+]C(=C1)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH",
+          "(CH2OH)2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "OCCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_4",
+      "reaction_smiles": "C[C@]12CCC3(C=C1CCCC2=O)OCCO3.Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1>>C[C@]12CCC3(CC1=CCCC2=O)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH:6]=[C:7]1[CH2:8][CH2:9][CH2:10][C:11]2=[O:12])[O:13][CH2:14][CH2:15][O:16]3>Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][CH2:10][C:11]2=[O:12])[O:13][CH2:14][CH2:15][O:16]3",
+      "mapping_confidence": 0.9534102550353505,
+      "conditions": {
+        "raw_description": "CPTS; PhH; 85% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].CC1=CC(=[NH+]C(=C1)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_5",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CCCC2=O)OCCO3.CCO/C(=C\\P(=O)(OCC)OCC)CBr.Cl.[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1.CC(C)=O>>CCOP(=O)(CC(=O)CC1CC=C2CC3(CC[C@]2(C)C1=O)OCCO3)OCC",
+      "reaction_smiles_mapped": "CC[O:3][P:4](=[O:5])(/[CH:6]=[C:7](\\[O:8][CH2:2][CH3:1])[CH2:9]Br)[O:26][CH2:27][CH3:28].[CH2:10]1[CH2:11][CH:12]=[C:13]2[CH2:14][C:15]3([CH2:16][CH2:17][C@:18]2([CH3:19])[C:20]1=[O:21])[O:22][CH2:23][CH2:24][O:25]3>C1CCOC1.CC(C)=O.CN(C)P(=O)(N(C)C)N(C)C.Cl.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][O:3][P:4](=[O:5])([CH2:6][C:7](=[O:8])[CH2:9][CH:10]1[CH2:11][CH:12]=[C:13]2[CH2:14][C:15]3([CH2:16][CH2:17][C@:18]2([CH3:19])[C:20]1=[O:21])[O:22][CH2:23][CH2:24][O:25]3)[O:26][CH2:27][CH3:28]",
+      "mapping_confidence": 0.311583358689716,
+      "conditions": {
+        "raw_description": "1) LDA; subs 1; HMPA/THF; -78 \u00b0C to rt; 2) HCl; acetone; 68%",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_6",
+      "reaction_smiles": "CCOP(=O)(CC(=O)CC1CC=C2CC3(CC[C@]2(C)C1=O)OCCO3)OCC.O=C([O-])[O-].[Cs+].[Cs+].C1CCOC1>>C[C@]12CCC3(CC1=CC[C@H]1CC(=O)C=C12)OCCO3",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH2:14][C:12]([CH2:11][CH:10]1[CH2:9][CH:8]=[C:7]2[C@:2]([CH3:1])([CH2:3][CH2:4][C:5]3([CH2:6]2)[O:16][CH2:17][CH2:18][O:19]3)[C:15]1=O)=[O:13]>C1CCOC1.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C:12](=[O:13])[CH:14]=[C:15]21)[O:16][CH2:17][CH2:18][O:19]3",
+      "mapping_confidence": 0.9034873497103486,
+      "conditions": {
+        "raw_description": "Cs2CO3; THF; 50 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_7",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CC[C@H]1CC(=O)C=C12)OCCO3.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>C[C@]12CCC3(CC1=CC[C@H]1C[C@@H](O)C=C12)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C:12](=[O:13])[CH:14]=[C:15]21)[O:16][CH2:17][CH2:18][O:19]3>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[CH:14]=[C:15]21)[O:16][CH2:17][CH2:18][O:19]3",
+      "mapping_confidence": 0.9785907276720303,
+      "conditions": {
+        "raw_description": "Li-Selectride; THF; -78 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "Li-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH-](C(C)CC)(C(C)CC)C(C)CC.[Li+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_8",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CC[C@H]1C[C@@H](O)C=C12)OCCO3.CC[Zn]CC.ICI.ClCCl>>C[C@]12CCC3(CC1=CC[C@H]1C[C@@H](O)[C@H]4C[C@@]142)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[CH:14]=[C:16]21)[O:17][CH2:18][CH2:19][O:20]3.I[CH2:15]I>CC[Zn]CC.ClCCl>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[C@H:14]4[CH2:15][C@@:16]214)[O:17][CH2:18][CH2:19][O:20]3",
+      "mapping_confidence": 0.6942999968727889,
+      "conditions": {
+        "raw_description": "Et2Zn; CH2I2; DCM; 0 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "Et2Zn",
+          "CH2I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC",
+          "C(I)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_9",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CC[C@H]1C[C@@H](O)[C@H]4C[C@@]142)OCCO3.O=C(Cl)C(=O)Cl.CS(C)=O.ClCCl.CCN(CC)CC>>C[C@]12CCC3(CC1=CC[C@H]1CC(=O)[C@H]4C[C@@]142)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[C@H:14]4[CH2:15][C@@:16]214)[O:17][CH2:18][CH2:19][O:20]3>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C:12](=[O:13])[C@H:14]4[CH2:15][C@@:16]214)[O:17][CH2:18][CH2:19][O:20]3",
+      "mapping_confidence": 0.9744424483760984,
+      "conditions": {
+        "raw_description": "DMSO; TEA; (COCl)2; DCM; -78 to 0 \u00b0C; 77% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "77% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_10",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CC[C@H]1CC(=O)[C@H]4C[C@@]142)OCCO3.c1ccc2ccccc2c1.[Na].O=S(=O)(N(c1ccc(Cl)cn1)S(=O)(=O)C(F)(F)F)C(F)(F)F.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>C[C@]12CCC3(CC1=CC[C@H]1CC(OS(=O)(=O)C(F)(F)F)=C[C@@]12C)OCCO3",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C:12](=[O:13])[C@@H:21]4[C@:22]21[CH2:23]4)[O:24][CH2:25][CH2:26][O:27]3.O=S(=O)(N(c1ccc(Cl)cn1)[S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])C(F)(F)F>C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C.[Na].c1ccc2ccccc2c1>[CH3:1][C@:2]12[CH2:3][CH2:4][C:5]3([CH2:6][C:7]1=[CH:8][CH2:9][C@H:10]1[CH2:11][C:12]([O:13][S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])=[CH:21][C@:22]21[CH3:23])[O:24][CH2:25][CH2:26][O:27]3",
+      "mapping_confidence": 0.1066343558035372,
+      "conditions": {
+        "raw_description": "1) C10H8/Na; THF; -78 \u00b0C; 2) isoprene; Comins reagent; HMPA; -78 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "C10H8",
+          "Na",
+          "Comins reagent"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C=CC=CC2=C1",
+          "[Na]",
+          "C1=CC(=NC=C1Cl)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_11",
+      "reaction_smiles": "C[C@]12CCC3(CC1=CC[C@H]1CC(OS(=O)(=O)C(F)(F)F)=C[C@@]12C)OCCO3.CC(C)(C)OC(=O)Nc1ccccc1[Sn](C)(C)C.[Cl-].[Li+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cl[Cu].CS(C)=O>>CC(C)(C)OC(=O)Nc1ccccc1C1=C[C@@]2(C)[C@@H](CC=C3CC4(CC[C@@]32C)OCCO4)C1",
+      "reaction_smiles_mapped": "C[Sn](C)(C)[c:14]1[c:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[cH:10][cH:11][cH:12][cH:13]1.O=S(=O)(O[C:15]1=[CH:16][C@@:17]2([CH3:18])[C@@H:19]([CH2:20][CH:21]=[C:22]3[CH2:23][C:24]4([CH2:25][CH2:26][C@:27]23[CH3:28])[O:29][CH2:30][CH2:31][O:32]4)[CH2:33]1)C(F)(F)F>CS(C)=O.Cl[Cu].[Cl-].[Li+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[C:15]1=[CH:16][C@@:17]2([CH3:18])[C@@H:19]([CH2:20][CH:21]=[C:22]3[CH2:23][C:24]4([CH2:25][CH2:26][C@:27]23[CH3:28])[O:29][CH2:30][CH2:31][O:32]4)[CH2:33]1",
+      "mapping_confidence": 0.31860558282267015,
+      "conditions": {
+        "raw_description": "subs 2; [Pd(PPh3)4]; CuCl; LiCl; DMSO; 50 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "[Pd(PPh3)4]",
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_12",
+      "reaction_smiles": "CC(C)(C)OC(=O)Nc1ccccc1C1=C[C@@]2(C)[C@@H](CC=C3CC4(CC[C@@]32C)OCCO4)C1.CC(=O)[O-].[Na+].O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2].CS(C)=O>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CC=C3CC4(CC[C@]3(C)[C@@]21C)OCCO4",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:16]1[c:11]([C:10]2=[CH:9][C@@:28]3([CH3:29])[C@H:18]([CH2:17]2)[CH2:19][CH:20]=[C:21]2[CH2:22][C:23]4([CH2:24][CH2:25][C@@:26]23[CH3:27])[O:30][CH2:31][CH2:32][O:33]4)[cH:12][cH:13][cH:14][cH:15]1>CC(=O)[O-].CS(C)=O.O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Na+].[Pd+2]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH:20]=[C:21]3[CH2:22][C:23]4([CH2:24][CH2:25][C@:26]3([CH3:27])[C@@:28]21[CH3:29])[O:30][CH2:31][CH2:32][O:33]4",
+      "mapping_confidence": 0.4243865938149117,
+      "conditions": {
+        "raw_description": "Pd(OCOCF3)2; NaOAc; DMSO; 60 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OCOCF3)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd+2].[O-]C(=O)C(F)(F)F.[O-]C(=O)C(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_13",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CC=C3CC4(CC[C@]3(C)[C@@]21C)OCCO4.Cl.C1CCOC1>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=CC(=O)CC[C@]3(C)[C@@]21C",
+      "reaction_smiles_mapped": "C1C[O:24][C:23]2(O1)[CH2:22][C:21]1=[CH:20][CH2:19][C@H:18]3[CH2:17][c:10]4[c:9]([n:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[c:16]5[c:11]4[cH:12][cH:13][cH:14][cH:15]5)[C@:29]3([CH3:30])[C@@:27]1([CH3:28])[CH2:26][CH2:25]2>C1CCOC1.Cl>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[CH:22][C:23](=[O:24])[CH2:25][CH2:26][C@:27]3([CH3:28])[C@@:29]21[CH3:30]",
+      "mapping_confidence": 0.3532703740665012,
+      "conditions": {
+        "raw_description": "aq HCl; THF; 45 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_14",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=CC(=O)CC[C@]3(C)[C@@]21C.C=CCOC(=O)Cl.CC(C)(C)[O-].[K+].C1CCOC1>>C=CCOC(=O)OC1=CC2=CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CC1",
+      "reaction_smiles_mapped": "Cl[C:5]([O:4][CH2:3][CH:2]=[CH2:1])=[O:6].[O:7]=[C:8]1[CH:9]=[C:10]2[CH2:11][CH2:12][C@H:13]3[CH2:14][c:15]4[c:16]([n:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]5[cH:26][cH:27][cH:28][cH:29][c:30]45)[C@:31]3([CH3:32])[C@@:33]2([CH3:34])[CH2:35][CH2:36]1>C1CCOC1.CC(C)(C)[O-].[K+]>[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[O:7][C:8]1=[CH:9][C:10]2=[CH:11][CH2:12][C@H:13]3[CH2:14][c:15]4[c:16]([n:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]5[cH:26][cH:27][cH:28][cH:29][c:30]45)[C@:31]3([CH3:32])[C@@:33]2([CH3:34])[CH2:35][CH2:36]1",
+      "mapping_confidence": 0.4221146685030928,
+      "conditions": {
+        "raw_description": "AllocCl; t-BuOK; THF",
+        "GENERAL_REAGENTS": [
+          "AllocCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(=O)OCC=C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOK",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_15",
+      "reaction_smiles": "C=CCOC(=O)OC1=CC2=CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CC1.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCC2=NCCCN2CC1.COCCOC>>C=CCC1=C2CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CCC1=O",
+      "reaction_smiles_mapped": "O=C(O[CH2:3][CH:2]=[CH2:1])[O:33][C:32]1=[CH:4][C:5]2=[CH:6][CH2:7][C@H:8]3[CH2:9][c:10]4[c:11]([n:12]([C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19])[c:20]5[cH:21][cH:22][cH:23][cH:24][c:25]45)[C@:26]3([CH3:27])[C@@:28]2([CH3:29])[CH2:30][CH2:31]1>C1CCC2=NCCCN2CC1.COCCOC.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]2[CH2:6][CH2:7][C@H:8]3[CH2:9][c:10]4[c:11]([n:12]([C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19])[c:20]5[cH:21][cH:22][cH:23][cH:24][c:25]45)[C@:26]3([CH3:27])[C@@:28]2([CH3:29])[CH2:30][CH2:31][C:32]1=[O:33]",
+      "mapping_confidence": 0.3157725218814372,
+      "conditions": {
+        "raw_description": "1) [Pd(PPh3)4]; Ph3P; DME; 2) DBU; 72% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "[Pd(PPh3)4]",
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_16",
+      "reaction_smiles": "C=CCC1=C2CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CCC1=O.C=CC(C)(C)O.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>>CC(C)(O)/C=C/CC1=C2CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CCC1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([OH:4])[CH:5]=[CH2:6].C=C[CH2:7][C:8]1=[C:9]2[CH2:10][CH2:11][C@H:12]3[CH2:13][c:14]4[c:15]([n:16]([C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[c:24]5[cH:25][cH:26][cH:27][cH:28][c:29]45)[C@:30]3([CH3:31])[C@@:32]2([CH3:33])[CH2:34][CH2:35][C:36]1=[O:37]>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.ClCCl>[CH3:1][C:2]([CH3:3])([OH:4])/[CH:5]=[CH:6]/[CH2:7][C:8]1=[C:9]2[CH2:10][CH2:11][C@H:12]3[CH2:13][c:14]4[c:15]([n:16]([C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[c:24]5[cH:25][cH:26][cH:27][cH:28][c:29]45)[C@:30]3([CH3:31])[C@@:32]2([CH3:33])[CH2:34][CH2:35][C:36]1=[O:37]",
+      "mapping_confidence": 0.11569453156154211,
+      "conditions": {
+        "raw_description": "rgt 1; Grubbs II; DCM; 40 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_17",
+      "reaction_smiles": "CC(C)(O)/C=C/CC1=C2CC[C@H]3Cc4c(n(C(=O)OC(C)(C)C)c5ccccc45)[C@]3(C)[C@@]2(C)CCC1=O.CC[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](Oc1nnc(O[C@@H](c2ccnc3ccc(OC)cc23)[C@@H]2C[C@H]3CCN2C[C@@H]3CC)c2ccccc12)c1ccnc2ccc(OC)cc12.CC(C)(C)O.O>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C(C[C@@H](O)[C@H](O)C(C)(C)O)C(=O)CC[C@]3(C)[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:22]([CH2:23]/[CH:24]=[CH:26]/[C:28]([CH3:29])([CH3:30])[OH:31])[C:32](=[O:33])[CH2:34][CH2:35][C@:36]3([CH3:37])[C@@:38]21[CH3:39].O=[Os](=O)(=[O:25])=[O:27]>CC[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](Oc1nnc(O[C@@H](c2ccnc3ccc(OC)cc23)[C@@H]2C[C@H]3CCN2C[C@@H]3CC)c2ccccc12)c1ccnc2ccc(OC)cc12.CC(C)(C)O.O>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:22]([CH2:23][C@@H:24]([OH:25])[C@H:26]([OH:27])[C:28]([CH3:29])([CH3:30])[OH:31])[C:32](=[O:33])[CH2:34][CH2:35][C@:36]3([CH3:37])[C@@:38]21[CH3:39]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "AD-mix; t-BuOH/H2O; 64% (86% brsm)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AD-mix"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](Oc1nnc(O[C@H]([C@@H]2C[C@H]3CCN2C[C@@H]3CC)c2ccnc3ccc(OC)cc23)c2ccccc12)c1ccnc2ccc(OC)cc12"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64% (86% brsm)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_18",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C(C[C@@H](O)[C@H](O)C(C)(C)O)C(=O)CC[C@]3(C)[C@@]21C.Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1.CO>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C4C[C@@H](O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C",
+      "reaction_smiles_mapped": "O=[C:28]1[C:22]([CH2:23][C@@H:24]([OH:25])[C@H:26]([OH:27])[C:36]([OH:35])([CH3:37])[CH3:38])=[C:21]2[CH2:20][CH2:19][C@H:18]3[CH2:17][c:10]4[c:9]([n:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[c:16]5[c:11]4[cH:12][cH:13][cH:14][cH:15]5)[C@:33]3([CH3:34])[C@@:31]2([CH3:32])[CH2:30][CH2:29]1>CO.Cc1cc(C)[nH+]c(C)c1.Cc1ccc(S(=O)(=O)[O-])cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:22]4[CH2:23][C@@H:24]([OH:25])[C@@H:26]5[O:27][C@@:28]4([CH2:29][CH2:30][C@:31]3([CH3:32])[C@@:33]21[CH3:34])[O:35][C:36]5([CH3:37])[CH3:38]",
+      "mapping_confidence": 0.1721819974562251,
+      "conditions": {
+        "raw_description": "CPTS; MeOH; 0 \u00b0C; 49%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].CC1=CC(=[NH+]C(=C1)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_19",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C4C[C@@H](O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C4CC(=O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:22]4[CH2:23][C@@H:24]([OH:25])[C@@H:26]5[O:27][C@@:28]4([CH2:29][CH2:30][C@:31]3([CH3:32])[C@@:33]21[CH3:34])[O:35][C:36]5([CH3:37])[CH3:38]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O=C([O-])O.[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:22]4[CH2:23][C:24](=[O:25])[C@@H:26]5[O:27][C@@:28]4([CH2:29][CH2:30][C@:31]3([CH3:32])[C@@:33]21[CH3:34])[O:35][C:36]5([CH3:37])[CH3:38]",
+      "mapping_confidence": 0.34051683220736567,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; DCM; 71%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_20",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CCC3=C4CC(=O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].Cl[Se]c1ccccc1.OO.O=C([O-])O.[Na+].C1CCOC1>>CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CC[C@@]3(O)C4=CC(=O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C:21]3=[C:23]4[CH2:24][C:25](=[O:26])[C@@H:27]5[O:28][C@@:29]4([CH2:30][CH2:31][C@:32]3([CH3:33])[C@@:34]21[CH3:35])[O:36][C:37]5([CH3:38])[CH3:39].O[OH:22]>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.Cl[Se]c1ccccc1.O=C([O-])O.[K+].[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[n:8]1[c:9]2[c:10]([c:11]3[cH:12][cH:13][cH:14][cH:15][c:16]13)[CH2:17][C@@H:18]1[CH2:19][CH2:20][C@@:21]3([OH:22])[C:23]4=[CH:24][C:25](=[O:26])[C@@H:27]5[O:28][C@@:29]4([CH2:30][CH2:31][C@:32]3([CH3:33])[C@@:34]21[CH3:35])[O:36][C:37]5([CH3:38])[CH3:39]",
+      "mapping_confidence": 0.1846647102405849,
+      "conditions": {
+        "raw_description": "1) KHMDS; PhSeCl; THF; -78 \u00b0C; 2) H2O2; NaHCO3; 57%",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "PhSeCl",
+          "H2O2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "C1=CC=C(C=C1)[Se]Cl",
+          "OO",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_21",
+      "reaction_smiles": "CC(C)(C)OC(=O)n1c2c(c3ccccc31)C[C@@H]1CC[C@@]3(O)C4=CC(=O)[C@@H]5O[C@@]4(CC[C@]3(C)[C@@]21C)OC5(C)C.O=[Si]=O>>CC1(C)O[C@@]23CC[C@@]4(C)[C@@](O)(CC[C@H]5Cc6c([nH]c7ccccc67)[C@@]54C)C2=CC(=O)[C@@H]1O3",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[n:18]1[c:17]2[c:16]([c:24]3[c:19]1[cH:20][cH:21][cH:22][cH:23]3)[CH2:15][C@@H:14]1[CH2:13][CH2:12][C@:10]3([OH:11])[C@:8]([CH3:9])([CH2:7][CH2:6][C@:5]45[O:4][C:2]([CH3:1])([CH3:3])[C@H:31]([C:29](=[O:30])[CH:28]=[C:27]43)[O:32]5)[C@:25]12[CH3:26]>O=[Si]=O>[CH3:1][C:2]1([CH3:3])[O:4][C@@:5]23[CH2:6][CH2:7][C@@:8]4([CH3:9])[C@@:10]([OH:11])([CH2:12][CH2:13][C@H:14]5[CH2:15][c:16]6[c:17]([nH:18][c:19]7[cH:20][cH:21][cH:22][cH:23][c:24]67)[C@:25]45[CH3:26])[C:27]2=[CH:28][C:29](=[O:30])[C@@H:31]1[O:32]3",
+      "mapping_confidence": 0.4926891941825716,
+      "conditions": {
+        "raw_description": "vacuum; SiO2; 110 \u00b0C; 67%",
+        "GENERAL_REAGENTS": [
+          "SiO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Si]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "vacuum"
+        ],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Paspalinine_2012_Kuwahara_22",
+      "reaction_smiles": "CC(C)(C)OC(=O)Nc1ccccc1.[Li]C(C)(C)C.C[Sn](C)(C)Cl.C1CCOC1>>CC(C)(C)OC(=O)Nc1ccccc1[Sn](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1.Cl[Sn:15]([CH3:16])([CH3:17])[CH3:18]>C1CCOC1.[Li]C(C)(C)C>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[Sn:15]([CH3:16])([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.1289649168911256,
+      "conditions": {
+        "raw_description": "t-BuLi; Me3SnCl; THF; -78 \u00b0C; 54%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "Me3SnCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "C[Sn](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    }
+  ]
+}

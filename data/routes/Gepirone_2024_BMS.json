@@ -1,0 +1,75 @@
+{
+  "background": {
+    "name": "Gepirone",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Exxua",
+    "manufacturer": "BMS",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gepirone_2024_BMS_1",
+      "reaction_smiles": "c1cnc(N2CCNCC2)nc1.BrCCCCBr.O=C([O-])[O-].[Na+].[Na+].CC(C)O>>c1cnc(N2CC[N+]3(CCCC3)CC2)nc1.[Br-]",
+      "reaction_smiles_mapped": "Br[CH2:13][CH2:12][CH2:11][CH2:10][Br:1].[cH:2]1[cH:3][n:4][c:5]([N:6]2[CH2:7][CH2:8][NH:9][CH2:14][CH2:15]2)[n:16][cH:17]1>CC(C)O.O=C([O-])[O-].[Na+].[Na+]>[Br-:1].[cH:2]1[cH:3][n:4][c:5]([N:6]2[CH2:7][CH2:8][N+:9]3([CH2:10][CH2:11][CH2:12][CH2:13]3)[CH2:14][CH2:15]2)[n:16][cH:17]1",
+      "mapping_confidence": 0.5248028877193095,
+      "conditions": {
+        "raw_description": "Na2CO3; iPrOH; 84%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gepirone_2024_BMS_2",
+      "reaction_smiles": "c1cnc(N2CC[N+]3(CCCC3)CC2)nc1.[Br-].CC1(C)CC(=O)NC(=O)C1.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CC1(C)CC(=O)N(CCCCN2CCN(c3ncccn3)CC2)C(=O)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[NH:7][C:24](=[O:25])[CH2:26]1.[CH2:8]1[CH2:9][CH2:10][CH2:11][N+:12]12[CH2:13][CH2:14][N:15]([c:16]1[n:17][cH:18][cH:19][cH:20][n:21]1)[CH2:22][CH2:23]2>CN(C)C=O.O=C([O-])[O-].[Br-].[K+].[K+]>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[N:7]([CH2:8][CH2:9][CH2:10][CH2:11][N:12]2[CH2:13][CH2:14][N:15]([c:16]3[n:17][cH:18][cH:19][cH:20][n:21]3)[CH2:22][CH2:23]2)[C:24](=[O:25])[CH2:26]1",
+      "mapping_confidence": 0.4101026294518098,
+      "conditions": {
+        "raw_description": "K2CO3; DMF; 150 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    }
+  ]
+}

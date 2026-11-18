@@ -1,0 +1,136 @@
+{
+  "background": {
+    "name": "Capivasertib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Truqap",
+    "manufacturer": "AstraZeneca",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Capivasertib_2024_AstraZeneca_1",
+      "reaction_smiles": "N[C@@H](CC(=O)O)c1ccc(Cl)cc1.B.C1CCOC1>>N[C@@H](CCO)c1ccc(Cl)cc1",
+      "reaction_smiles_mapped": "O=[C:4]([CH2:3][C@H:2]([NH2:1])[c:6]1[cH:7][cH:8][c:9]([Cl:10])[cH:11][cH:12]1)[OH:5]>B.C1CCOC1>[NH2:1][C@@H:2]([CH2:3][CH2:4][OH:5])[c:6]1[cH:7][cH:8][c:9]([Cl:10])[cH:11][cH:12]1",
+      "mapping_confidence": 0.7744062606189333,
+      "conditions": {
+        "raw_description": "BH3; THF; 0 to 22 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "22"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capivasertib_2024_AstraZeneca_2",
+      "reaction_smiles": "N[C@@H](CCO)c1ccc(Cl)cc1.CC(=O)C1(NC(=O)OC(C)(C)C)CCN(C(=O)OC(C)(C)C)CC1.CCN(C(C)C)C(C)C.CN(C)C(n1n[n+]([O-])c2ncccc21)=[N+](C)C.F[P-](F)(F)(F)(F)F.CC(=O)N(C)C>>CC(C)(C)OC(=O)NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCN(C(=O)OC(C)(C)C)CC1",
+      "reaction_smiles_mapped": "C[C:10]([C:9]1([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH2:24][CH2:25][N:26]([C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33])[CH2:34][CH2:35]1)=[O:11].[NH2:12][C@@H:13]([CH2:14][CH2:15][OH:16])[c:17]1[cH:18][cH:19][c:20]([Cl:21])[cH:22][cH:23]1>CC(=O)N(C)C.CCN(C(C)C)C(C)C.CN(C)C(n1n[n+]([O-])c2ncccc21)=[N+](C)C.F[P-](F)(F)(F)(F)F>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C:9]1([C:10](=[O:11])[NH:12][C@@H:13]([CH2:14][CH2:15][OH:16])[c:17]2[cH:18][cH:19][c:20]([Cl:21])[cH:22][cH:23]2)[CH2:24][CH2:25][N:26]([C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33])[CH2:34][CH2:35]1",
+      "mapping_confidence": 0.20377132606802725,
+      "conditions": {
+        "raw_description": "HATU; DIPEA; DMA; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIPEA",
+          "HATU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C",
+          "CN(C)C(=[N+](C)C)N1C2=C(N=CC=C2)[N+](=N1)[O-].F[P-](F)(F)(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)N(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capivasertib_2024_AstraZeneca_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCN(C(=O)OC(C)(C)C)CC1.Cl.C1COCCO1>>NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCNCC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:1][C:2]1([C:3](=[O:4])[NH:5][C@@H:6]([CH2:7][CH2:8][OH:9])[c:10]2[cH:11][cH:12][c:13]([Cl:14])[cH:15][cH:16]2)[CH2:17][CH2:18][N:19](C(=O)OC(C)(C)C)[CH2:20][CH2:21]1>C1COCCO1.Cl>[NH2:1][C:2]1([C:3](=[O:4])[NH:5][C@@H:6]([CH2:7][CH2:8][OH:9])[c:10]2[cH:11][cH:12][c:13]([Cl:14])[cH:15][cH:16]2)[CH2:17][CH2:18][NH:19][CH2:20][CH2:21]1",
+      "mapping_confidence": 0.9244726237783482,
+      "conditions": {
+        "raw_description": "HCl; Dioxane; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capivasertib_2024_AstraZeneca_4",
+      "reaction_smiles": "NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCNCC1.Clc1ncnc2[nH]ccc12.CCN(C(C)C)C(C)C.CCCCO>>NC1(C(=O)N[C@@H](CCO)c2ccc(Cl)cc2)CCN(c2ncnc3[nH]ccc23)CC1",
+      "reaction_smiles_mapped": "Cl[c:20]1[n:21][cH:22][n:23][c:24]2[nH:25][cH:26][cH:27][c:28]12.[NH2:1][C:2]1([C:3](=[O:4])[NH:5][C@@H:6]([CH2:7][CH2:8][OH:9])[c:10]2[cH:11][cH:12][c:13]([Cl:14])[cH:15][cH:16]2)[CH2:17][CH2:18][NH:19][CH2:29][CH2:30]1>CCCCO.CCN(C(C)C)C(C)C>[NH2:1][C:2]1([C:3](=[O:4])[NH:5][C@@H:6]([CH2:7][CH2:8][OH:9])[c:10]2[cH:11][cH:12][c:13]([Cl:14])[cH:15][cH:16]2)[CH2:17][CH2:18][N:19]([c:20]2[n:21][cH:22][n:23][c:24]3[nH:25][cH:26][cH:27][c:28]23)[CH2:29][CH2:30]1",
+      "mapping_confidence": 0.9093624915617052,
+      "conditions": {
+        "raw_description": "DIPEA; n-BuOH; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "n-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

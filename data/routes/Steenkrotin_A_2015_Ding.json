@@ -1,0 +1,796 @@
+{
+  "background": {
+    "name": "(+/-)-Steenkrotin A",
+    "author": "Ding",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2015, 54, 6905",
+    "doi": "10.1002/anie.201502034"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_1",
+      "reaction_smiles": "CC1CCC=CC(=O)C1.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(CC)CC.ClCCl>>C[C@H]1CCC=CC(=O)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(C(F)(F)F)[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17].[CH3:1][CH:2]1[CH2:3][CH2:4][CH:5]=[CH:6][C:7](=[O:8])[CH2:9]1>CCN(CC)CC.ClCCl>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH:5]=[CH:6][C:7](=[O:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.3276748421112847,
+      "conditions": {
+        "raw_description": "TBSOTf; Et3N; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "TBSOTf",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_2",
+      "reaction_smiles": "C[C@H]1CCC=CC(=O)[C@H]1O[Si](C)(C)C(C)(C)C.O=C(OO)c1cccc(Cl)c1.O=C([O-])O.[K+].ClCCl>>C[C@@H]1CCC=CC(=O)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][CH:5]=[CH:6][C:7](=[O:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]>O=C(OO)c1cccc(Cl)c1.O=C([O-])O.[K+].ClCCl>[CH3:1][C@@H:2]1[CH2:3][CH2:4][CH:5]=[CH:6][C:7](=[O:8])[C@H:9]1[O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.3203875479819572,
+      "conditions": {
+        "raw_description": "mCPBA; KHCO3; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "mCPBA",
+          "KHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO",
+          "C(=O)(O)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_3",
+      "reaction_smiles": "C[C@@H]1CCC=CC(=O)[C@H]1O[Si](C)(C)C(C)(C)C.C=CCBr.[Li].C1CCOC1>>C=CCC1(O)C=CCC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[C:4]1(=[O:5])[CH:6]=[CH:7][CH2:8][CH2:9][C@@H:10]([CH3:11])[C@@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]>[Li].C1CCOC1>[CH2:1]=[CH:2][CH2:3][C:4]1([OH:5])[CH:6]=[CH:7][CH2:8][CH2:9][C@H:10]([CH3:11])[C@@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.3720558301853849,
+      "conditions": {
+        "raw_description": "Li\u00b0; THF",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Li"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Li]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_4",
+      "reaction_smiles": "C=CCC1(O)C=CCC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.O=[Si]=O.ClCCl>>C=CCC1=CC(=O)CC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O[C:4]1([CH2:3][CH:2]=[CH2:1])[CH:5]=[CH:6][CH2:8][CH2:9][C@H:10]([CH3:11])[C@@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20].O=[Si]=[O:7]>O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C:6](=[O:7])[CH2:8][CH2:9][C@H:10]([CH3:11])[C@@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.16069716849917642,
+      "conditions": {
+        "raw_description": "PCC; SiO2; CH2Cl2; 72% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PCC",
+          "SiO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1",
+          "O=[Si]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_5",
+      "reaction_smiles": "C=CCC1=CC(=O)CC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(CC)CC.ClCCl>>C=CCC1=CC(O[Si](C)(C)C)=CC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C:6](=[O:7])[CH2:12][CH2:13][C@H:14]([CH3:15])[C@@H:16]1[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24].O=S(=O)(O[Si:8]([CH3:9])([CH3:10])[CH3:11])C(F)(F)F>CCN(CC)CC.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C:6]([O:7][Si:8]([CH3:9])([CH3:10])[CH3:11])=[CH:12][CH2:13][C@H:14]([CH3:15])[C@@H:16]1[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.14195807475155606,
+      "conditions": {
+        "raw_description": "TMSOTf; Et3N; CH2Cl2; -40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TMSOTf",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_6",
+      "reaction_smiles": "C=CCC1=CC(O[Si](C)(C)C)=CC[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C.CC(C)(Br)Br.[Li]CCCC.CCOCC>>C=CCC1=C[C@@]2(O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:7][C:6]1=[CH:8][CH2:9][C@H:10]([CH3:11])[C@H:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C:4]([CH2:3][CH:2]=[CH2:1])=[CH:5]1.Br[C:21](Br)([CH3:22])[CH3:23]>[Li]CCCC.CCOCC>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([OH:7])[C@@H:8]([CH2:9][C@H:10]([CH3:11])[C@@H:12]1[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C:21]2([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.22921488363303616,
+      "conditions": {
+        "raw_description": "C(CH3)2Br2; nBuLi; Et2O; -78 \u00b0C; 70 %",
+        "GENERAL_REAGENTS": [
+          "C(CH3)2Br2",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(Br)Br",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_7",
+      "reaction_smiles": "C=CCC1=C[C@@]2(O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.COC(=O)C(=[N+]=[N-])C(=O)OC.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2].c1ccccc1>>C=CCC1=C[C@@]2(OC(C(=O)OC)C(=O)OC)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([OH:7])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32].[N-]=[N+]=[C:8]([C:9](=[O:10])[O:11][CH3:12])[C:13](=[O:14])[O:15][CH3:16]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2].c1ccccc1>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][CH:8]([C:9](=[O:10])[O:11][CH3:12])[C:13](=[O:14])[O:15][CH3:16])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.19005938381212395,
+      "conditions": {
+        "raw_description": "Rh2(OAc)4; benzene; 55 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Rh2(OAc)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_8",
+      "reaction_smiles": "C=CCC1=C[C@@]2(OC(C(=O)OC)C(=O)OC)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.[I-].[Na+].CI.C1CCOC1>>C=CCC1=C[C@@]2(OC(C)(C(=O)OC)C(=O)OC)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][CH:8]([C:10](=[O:11])[O:12][CH3:13])[C:14](=[O:15])[O:16][CH3:17])[C@@H:18]([CH2:19][C@H:20]([CH3:21])[C@@H:22]1[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30])[C:31]2([CH3:32])[CH3:33].I[CH3:9]>[I-].[Na+].C1CCOC1>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C:8]([CH3:9])([C:10](=[O:11])[O:12][CH3:13])[C:14](=[O:15])[O:16][CH3:17])[C@@H:18]([CH2:19][C@H:20]([CH3:21])[C@@H:22]1[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30])[C:31]2([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.1996848510896514,
+      "conditions": {
+        "raw_description": "NaI; MeI; THF; rt; 3h",
+        "GENERAL_REAGENTS": [
+          "NaI",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_9",
+      "reaction_smiles": "C=CCC1=C[C@@]2(OC(C)(C(=O)OC)C(=O)OC)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.[AlH4-].[Li+].C1CCOC1>>C=CCC1=C[C@@]2(OC(C)(CO)CO)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "CO[C:10]([C:8]([O:7][C@:6]12[CH:5]=[C:4]([CH2:3][CH:2]=[CH2:1])[C@@H:18]([O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26])[C@@H:16]([CH3:17])[CH2:15][C@H:14]1[C:27]2([CH3:28])[CH3:29])([CH3:9])[C:12](OC)=[O:13])=[O:11]>[AlH4-].[Li+].C1CCOC1>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C:8]([CH3:9])([CH2:10][OH:11])[CH2:12][OH:13])[C@@H:14]([CH2:15][C@H:16]([CH3:17])[C@@H:18]1[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26])[C:27]2([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.16956626715819817,
+      "conditions": {
+        "raw_description": "LAH; THF; rt; 72%",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_10",
+      "reaction_smiles": "C=CCC1=C[C@@]2(OC(C)(CO)CO)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.CCN(CC)CC.CC(=O)OC(C)=O.ClCCl>>C=CCC1=C[C@@]2(O[C@@](C)(CO)COC(C)=O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C:8]([CH3:9])([CH2:10][OH:11])[CH2:12][OH:13])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32].CC(=O)O[C:14]([CH3:15])=[O:16]>CCN(CC)CC.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C@@:8]([CH3:9])([CH2:10][OH:11])[CH2:12][O:13][C:14]([CH3:15])=[O:16])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.15696538515946581,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_11",
+      "reaction_smiles": "C=CCC1=C[C@@]2(O[C@@](C)(CO)COC(C)=O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>C=CCC1=C[C@@]2(O[C@@](C)(C=O)COC(C)=O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C@@:8]([CH3:9])([CH2:10][OH:11])[CH2:12][O:13][C:14]([CH3:15])=[O:16])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]1=[CH:5][C@@:6]2([O:7][C@@:8]([CH3:9])([CH:10]=[O:11])[CH2:12][O:13][C:14]([CH3:15])=[O:16])[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C:30]2([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.21824197696388103,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; CH2Cl2; rt; 1h; 95%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_12",
+      "reaction_smiles": "C=CCC1=C[C@@]2(O[C@@](C)(C=O)COC(C)=O)[C@@H](C[C@H](C)[C@@H]1O[Si](C)(C)C(C)(C)C)C2(C)C.F.c1ccncc1.CC#N>>C=C/C=C1\\C2[C@H](O)[C@@](C)(COC(C)=O)O[C@@]23[C@@H](C[C@H](C)[C@@H]1O)C3(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:22][C@@H:21]1[C:4]([CH2:3][CH:2]=[CH2:1])=[CH:5][C@@:16]2([O:15][C@:8]([CH:6]=[O:7])([CH3:9])[CH2:10][O:11][C:12]([CH3:13])=[O:14])[C@@H:17]([CH2:18][C@@H:19]1[CH3:20])[C:23]2([CH3:24])[CH3:25]>F.c1ccncc1.CC#N>[CH2:1]=[CH:2]/[CH:3]=[C:4]1\\[CH:5]2[C@H:6]([OH:7])[C@@:8]([CH3:9])([CH2:10][O:11][C:12]([CH3:13])=[O:14])[O:15][C@@:16]23[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[OH:22])[C:23]3([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.8179466334128007,
+      "conditions": {
+        "raw_description": "HF\u00d7py; MeCN; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "HF\u00d7py"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F[H].c1ccncc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_13",
+      "reaction_smiles": "C=C/C=C1\\C2[C@H](O)[C@@](C)(COC(C)=O)O[C@@]23[C@@H](C[C@H](C)[C@@H]1O)C3(C)C.CCOC(Br)CBr.CN(C)c1ccccc1.ClCCl>>C=C/C=C1\\C2[C@H](O)[C@@](C)(COC(C)=O)O[C@@]23[C@@H](C[C@H](C)[C@@H]1OC(CBr)OCC)C3(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2]/[CH:3]=[C:4]1\\[CH:5]2[C@H:6]([OH:7])[C@@:8]([CH3:9])([CH2:10][O:11][C:12]([CH3:13])=[O:14])[O:15][C@@:16]23[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[OH:22])[C:29]3([CH3:30])[CH3:31].Br[CH:23]([CH2:24][Br:25])[O:26][CH2:27][CH3:28]>CN(C)c1ccccc1.ClCCl>[CH2:1]=[CH:2]/[CH:3]=[C:4]1\\[CH:5]2[C@H:6]([OH:7])[C@@:8]([CH3:9])([CH2:10][O:11][C:12]([CH3:13])=[O:14])[O:15][C@@:16]23[C@@H:17]([CH2:18][C@H:19]([CH3:20])[C@@H:21]1[O:22][CH:23]([CH2:24][Br:25])[O:26][CH2:27][CH3:28])[C:29]3([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.8070707921930227,
+      "conditions": {
+        "raw_description": "PhNMe2; CH2Cl2; 95%",
+        "GENERAL_REAGENTS": [
+          "PhNMe2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN(C)C1=CC=CC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_14",
+      "reaction_smiles": "C=C/C=C1\\C2[C@H](O)[C@@](C)(COC(C)=O)O[C@@]23[C@@H](C[C@H](C)[C@@H]1OC(CBr)OCC)C3(C)C.I[Sm]I.CN(C)P(=O)(N(C)C)N(C)C.CC(C)(C)O.C1CCOC1>>C=CC[C@@]12C[C@H](OCC)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@@](C)(COC(C)=O)[C@@H](O)C23",
+      "reaction_smiles_mapped": "Br[CH2:5][CH:6]([O:7][CH2:8][CH3:9])[O:10][C@@H:11]1/[C:4](=[CH:3]/[CH:2]=[CH2:1])[CH:30]2[C@:19]3([C@@H:15]([CH2:14][C@@H:12]1[CH3:13])[C:16]3([CH3:17])[CH3:18])[O:20][C@:21]([CH3:22])([CH2:23][O:24][C:25]([CH3:26])=[O:27])[C@H:28]2[OH:29]>I[Sm]I.CN(C)P(=O)(N(C)C)N(C)C.CC(C)(C)O.C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][C@H:6]([O:7][CH2:8][CH3:9])[O:10][C@H:11]1[C@@H:12]([CH3:13])[CH2:14][C@H:15]1[C:16]([CH3:17])([CH3:18])[C@:19]13[O:20][C@@:21]([CH3:22])([CH2:23][O:24][C:25]([CH3:26])=[O:27])[C@@H:28]([OH:29])[CH:30]23",
+      "mapping_confidence": 0.5880526299228135,
+      "conditions": {
+        "raw_description": "SmI2; HMPA; tBuOH; THF; rt; 50%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "tBuOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_15",
+      "reaction_smiles": "C=CC[C@@]12C[C@H](OCC)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@@](C)(COC(C)=O)[C@@H](O)C23.O=C(OC(=O)c1ccccc1)c1ccccc1.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>C=CC[C@@]12C[C@H](OCC)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@@](C)(COC(C)=O)[C@@H](OC(=O)c1ccccc1)C23",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][C@H:6]([O:7][CH2:8][CH3:9])[O:10][C@H:11]1[C@@H:12]([CH3:13])[CH2:14][C@H:15]1[C:16]([CH3:17])([CH3:18])[C@:19]13[O:20][C@@:21]([CH3:22])([CH2:23][O:24][C:25]([CH3:26])=[O:27])[C@@H:28]([OH:29])[CH:38]23.O=C(O[C:30](=[O:31])[c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1)c1ccccc1>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][C@H:6]([O:7][CH2:8][CH3:9])[O:10][C@H:11]1[C@@H:12]([CH3:13])[CH2:14][C@H:15]1[C:16]([CH3:17])([CH3:18])[C@:19]13[O:20][C@@:21]([CH3:22])([CH2:23][O:24][C:25]([CH3:26])=[O:27])[C@@H:28]([O:29][C:30](=[O:31])[c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1)[CH:38]23",
+      "mapping_confidence": 0.39371008231675736,
+      "conditions": {
+        "raw_description": "Bz2O; Et3N; DMAP; CH2Cl2; rt; 95%",
+        "GENERAL_REAGENTS": [
+          "Bz2O",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)OC(=O)C2=CC=CC=C2",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_16",
+      "reaction_smiles": "C=CC[C@@]12C[C@H](OCC)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@@](C)(COC(C)=O)[C@@H](OC(=O)c1ccccc1)C23.Cc1ccc(S(=O)(=O)O)cc1.CC(C)=O.O>>C=CC[C@@]12CC(O)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@](C)(CO)[C@@H](OC(=O)c1ccccc1)C23",
+      "reaction_smiles_mapped": "CC[O:7][C@H:6]1[CH2:5][C@:4]2([CH2:3][CH:2]=[CH2:1])[C@@H:9]([O:8]1)[C@@H:10]([CH3:11])[CH2:12][C@H:13]1[C:14]([CH3:15])([CH3:16])[C@:17]13[O:18][C@@:19]([CH3:20])([CH2:21][O:22]C(C)=O)[C@@H:23]([O:24][C:25](=[O:26])[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[CH:33]23>Cc1ccc(S(=O)(=O)O)cc1.CC(C)=O.O>[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][CH:6]([OH:7])[O:8][C@H:9]1[C@@H:10]([CH3:11])[CH2:12][C@H:13]1[C:14]([CH3:15])([CH3:16])[C@:17]13[O:18][C@:19]([CH3:20])([CH2:21][OH:22])[C@@H:23]([O:24][C:25](=[O:26])[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[CH:33]23",
+      "mapping_confidence": 0.6349993889429504,
+      "conditions": {
+        "raw_description": "pTsOH; acetone/H2O; 60  \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "pTsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_17",
+      "reaction_smiles": "C=CC[C@@]12CC(O)O[C@H]1[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@](C)(CO)[C@@H](OC(=O)c1ccccc1)C23.I[Sm]I.CN(C)P(=O)(N(C)C)N(C)C.CC(C)(C)O.C1CCOC1>>C[C@H]1C[C@]2(CC1O)C1[C@H](OC(=O)c3ccccc3)[C@@](C)(CO)O[C@@]13[C@@H](C[C@H](C)[C@@H]2O)C3(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][CH:6]([OH:7])[O:30][C@H:29]1[C@@H:27]([CH3:28])[CH2:26][C@@H:25]1[C@:24]3([CH:8]2[C@H:9]([O:10][C:11](=[O:12])[c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C@@:19]([CH3:20])([CH2:21][OH:22])[O:23]3)[C:31]1([CH3:32])[CH3:33]>I[Sm]I.CN(C)P(=O)(N(C)C)N(C)C.CC(C)(C)O.C1CCOC1>[CH3:1][C@H:2]1[CH2:3][C@:4]2([CH2:5][CH:6]1[OH:7])[CH:8]1[C@H:9]([O:10][C:11](=[O:12])[c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[C@@:19]([CH3:20])([CH2:21][OH:22])[O:23][C@@:24]13[C@@H:25]([CH2:26][C@H:27]([CH3:28])[C@@H:29]2[OH:30])[C:31]3([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.5087111220301669,
+      "conditions": {
+        "raw_description": "SmI2; HMPA; tBuOH; THF; rt; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "tBuOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_18",
+      "reaction_smiles": "C[C@H]1C[C@]2(CC1O)C1[C@H](OC(=O)c3ccccc3)[C@@](C)(CO)O[C@@]13[C@@H](C[C@H](C)[C@@H]2O)C3(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>C[C@H]1C[C@@]2(CC1=O)C(=O)[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@](C)(C=O)[C@@H](OC(=O)c1ccccc1)C23",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][C@@:4]2([CH2:5][CH:6]1[OH:7])[C@@H:8]([OH:9])[C@@H:10]([CH3:11])[CH2:12][C@H:13]1[C:14]([CH3:15])([CH3:16])[C@:17]13[O:18][C@:19]([CH3:20])([CH2:21][OH:22])[C@@H:23]([O:24][C:25](=[O:26])[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[CH:33]23>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>[CH3:1][C@H:2]1[CH2:3][C@@:4]2([CH2:5][C:6]1=[O:7])[C:8](=[O:9])[C@@H:10]([CH3:11])[CH2:12][C@H:13]1[C:14]([CH3:15])([CH3:16])[C@:17]13[O:18][C@:19]([CH3:20])([CH:21]=[O:22])[C@@H:23]([O:24][C:25](=[O:26])[c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[CH:33]23",
+      "mapping_confidence": 0.5219498116822389,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; CH2Cl2; rt; 1h; 75%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_19",
+      "reaction_smiles": "C[C@H]1C[C@@]2(CC1=O)C(=O)[C@@H](C)C[C@H]1C(C)(C)[C@]13O[C@](C)(C=O)[C@@H](OC(=O)c1ccccc1)C23.[K+].[OH-].CO.c1ccccc1>>CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@H](O)[C@H]34",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].O=C(c1ccccc1)[O:25][C@@H:24]1[C@:22]([CH:3]=O)([CH3:23])[O:21][C@@:20]23[C@@H:16]([CH2:15][C@H:13]([CH3:14])[C:11](=[O:12])[C@@:10]4([CH2:4][C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9]4)[CH:26]21)[C:17]3([CH3:18])[CH3:19]>[K+].[OH-].c1ccccc1>[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@H:24]([OH:25])[C@H:26]34",
+      "mapping_confidence": 0.4457483498065589,
+      "conditions": {
+        "raw_description": "1) KOH; benzene; 80 \u00b0C; 2h; 2) MeOH; rt; 1h; 80%",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "MeOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "CO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80",
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_20",
+      "reaction_smiles": "CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@H](O)[C@H]34.C1CCC2=NCCCN2CC1.Cc1ccccc1>>CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@H](O)[C@H]34",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@H:24]([OH:25])[C@H:26]34>C1CCC2=NCCCN2CC1.Cc1ccccc1>[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@H:24]([OH:25])[C@H:26]34",
+      "mapping_confidence": 0.7526985717067463,
+      "conditions": {
+        "raw_description": "DBU; toluene; 50 \u00b0C; 5h; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_21",
+      "reaction_smiles": "CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@H](O)[C@H]34.C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>>CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)C(=O)[C@H]34",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@H:24]([OH:25])[C@H:26]34>C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C:24](=[O:25])[C@H:26]34",
+      "mapping_confidence": 0.8146475253275915,
+      "conditions": {
+        "raw_description": "TPAP; NMO; CH2Cl2; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_22",
+      "reaction_smiles": "CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)C(=O)[C@H]34.[BH4-].[Na+].CO>>CO[C@@H]1[C@@H]2[C@H](O)[C@@H](C)C[C@@]23[C@H]2[C@H](O)[C@]1(C)O[C@@]21[C@@H](C[C@@H](C)[C@@H]3O)C1(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C:24](=[O:25])[C@H:26]34>[BH4-].[Na+].CO>[CH3:1][O:2][C@@H:3]1[C@@H:4]2[C@H:5]([OH:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C@@H:11]([OH:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@@H:24]([OH:25])[C@H:26]34",
+      "mapping_confidence": 0.7338129232902392,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_23",
+      "reaction_smiles": "CO[C@@H]1[C@@H]2[C@H](O)[C@@H](C)C[C@@]23[C@H]2[C@H](O)[C@]1(C)O[C@@]21[C@@H](C[C@@H](C)[C@@H]3O)C1(C)C.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>>CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@@H](O)[C@H]34",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[C@@H:4]2[C@H:5]([OH:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C@@H:11]([OH:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@@H:24]([OH:25])[C@H:26]34>O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>[CH3:1][O:2][C@@H:3]1[C@H:4]2[C:5](=[O:6])[C@@H:7]([CH3:8])[CH2:9][C@:10]23[C:11](=[O:12])[C@H:13]([CH3:14])[CH2:15][C@H:16]2[C:17]([CH3:18])([CH3:19])[C@:20]24[O:21][C@@:22]1([CH3:23])[C@@H:24]([OH:25])[C@H:26]34",
+      "mapping_confidence": 0.7210813927857123,
+      "conditions": {
+        "raw_description": "PCC; CH2Cl2; rt; 2h; 64% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "64% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Steenkrotin_A_2015_Ding_24",
+      "reaction_smiles": "CO[C@@H]1[C@H]2C(=O)[C@@H](C)C[C@]23C(=O)[C@H](C)C[C@H]2C(C)(C)[C@]24O[C@@]1(C)[C@@H](O)[C@H]34.[Li+].[OH-].Cc1ccccc1>>C[C@@H]1C[C@H]2C(C)(C)[C@]23O[C@]2(C)C=C4C(=O)[C@@H](C)C[C@@]4(C1=O)[C@H]3[C@@H]2O",
+      "reaction_smiles_mapped": "CO[C@H:18]1[C@@:16]2([CH3:17])[O:15][C@@:14]34[C@@H:10]([CH2:9][C@@H:7]([CH3:8])[C:5](=[O:6])[C@:4]5([CH2:3][C@H:2]([CH3:1])[C:20](=[O:21])[C@@H:19]51)[C@H:24]3[C@@H:22]2[OH:23])[C:11]4([CH3:12])[CH3:13]>[Li+].[OH-].Cc1ccccc1>[CH3:1][C@H:2]1[CH2:3][C@:4]23[C:5](=[O:6])[C@H:7]([CH3:8])[CH2:9][C@H:10]4[C:11]([CH3:12])([CH3:13])[C@:14]45[O:15][C@:16]([CH3:17])([CH:18]=[C:19]2[C:20]1=[O:21])[C@@H:22]([OH:23])[C@H:24]35",
+      "mapping_confidence": 0.6875502295732078,
+      "conditions": {
+        "raw_description": "LiOH; toluene; reflux; 83%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    }
+  ]
+}

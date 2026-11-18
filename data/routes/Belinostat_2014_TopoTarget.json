@@ -1,0 +1,190 @@
+{
+  "background": {
+    "name": "Belinostat",
+    "author": null,
+    "year": 2014,
+    "drug_name": "Beleodaq",
+    "manufacturer": "TopoTarget",
+    "citation": "Bioorg. Med. Chem. 2016, 24, 1937",
+    "doi": "10.1016/j.bmc.2016.03.004"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Belinostat_2014_TopoTarget_1",
+      "reaction_smiles": "O=S(=O)(Cl)c1cccc(Br)c1.Nc1ccccc1.O=C([O-])[O-].[Na+].[Na+].CC#N.O=C([O-])[O-].[Na+].[Na+]>>O=S(=O)(Nc1ccccc1)c1cccc(Br)c1",
+      "reaction_smiles_mapped": "[NH2:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1.Cl[S:2](=[O:1])(=[O:3])[c:11]1[cH:12][cH:13][cH:14][c:15]([Br:16])[cH:17]1>CC#N.O=C([O-])[O-].O=C([O-])[O-].[Na+].[Na+].[Na+].[Na+]>[O:1]=[S:2](=[O:3])([NH:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[c:11]1[cH:12][cH:13][cH:14][c:15]([Br:16])[cH:17]1",
+      "mapping_confidence": 0.6017545246331458,
+      "conditions": {
+        "raw_description": "Na2CO3; MeCN; 20 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Belinostat_2014_TopoTarget_2",
+      "reaction_smiles": "O=S(=O)(Nc1ccccc1)c1cccc(Br)c1.C=CC(=O)OCC.CC(=O)[O-].CC(=O)[O-].[Pd+2].CCN(CC)CC.CCOC(C)=O.CC(=O)[O-].CC(=O)[O-].[Pd+2].Cc1ccccc1Pc1ccccc1C>>CCOC(=O)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]=[CH2:7].Br[c:8]1[cH:9][cH:10][cH:11][c:12]([S:13](=[O:14])(=[O:15])[NH:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[cH:23]1>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CCN(CC)CC.CCOC(C)=O.Cc1ccccc1Pc1ccccc1C.[Pd+2].[Pd+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[CH:7]/[c:8]1[cH:9][cH:10][cH:11][c:12]([S:13](=[O:14])(=[O:15])[NH:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[cH:23]1",
+      "mapping_confidence": 0.5068148511278684,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; (o-Tol)2P; Et3N; EtOAc; 60 \u00b0C; 69%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "(o-Tol)2P"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "Cc1ccccc1Pc2ccccc2C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Belinostat_2014_TopoTarget_3",
+      "reaction_smiles": "CCOC(=O)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1.[Na+].[OH-].Cl>>O=C(O)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])/[CH:4]=[CH:5]/[c:6]1[cH:7][cH:8][cH:9][c:10]([S:11](=[O:12])(=[O:13])[NH:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[cH:21]1>Cl.[Na+].[OH-]>[O:1]=[C:2]([OH:3])/[CH:4]=[CH:5]/[c:6]1[cH:7][cH:8][cH:9][c:10]([S:11](=[O:12])(=[O:13])[NH:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[cH:21]1",
+      "mapping_confidence": 0.493842577831416,
+      "conditions": {
+        "raw_description": "1) NaOH; 50 \u00b0C; 2) HCl; 84%",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Belinostat_2014_TopoTarget_4",
+      "reaction_smiles": "O=C(O)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1.O=S(Cl)Cl.C1=NCCCN2CCCCC12.C1CCC2=NCCCN2CC1.CC(=O)OC(C)C>>O=C(Cl)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1",
+      "reaction_smiles_mapped": "O[C:2](=[O:1])/[CH:4]=[CH:5]/[c:6]1[cH:7][cH:8][cH:9][c:10]([S:11](=[O:12])(=[O:13])[NH:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[cH:21]1.O=S(Cl)[Cl:3]>C1=NCCCN2CCCCC12.C1CCC2=NCCCN2CC1.CC(=O)OC(C)C>[O:1]=[C:2]([Cl:3])/[CH:4]=[CH:5]/[c:6]1[cH:7][cH:8][cH:9][c:10]([S:11](=[O:12])(=[O:13])[NH:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[cH:21]1",
+      "mapping_confidence": 0.26301221342070513,
+      "conditions": {
+        "raw_description": "SOCl2; DBU; i-PrOAc; 30 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)OC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Belinostat_2014_TopoTarget_5",
+      "reaction_smiles": "O=C(Cl)/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1.NO.C1CCOC1.O.CCO.O=C([O-])O.[Na+].O=C([O-])O.[Na+].CC(=O)OC(C)C>>O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO",
+      "reaction_smiles_mapped": "[NH2:21][OH:22].Cl[C:2](=[O:1])/[CH:3]=[CH:4]/[c:5]1[cH:6][cH:7][cH:8][c:9]([S:10](=[O:11])(=[O:12])[NH:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[cH:20]1>C1CCOC1.CC(=O)OC(C)C.CCO.O.O=C([O-])O.O=C([O-])O.[Na+].[Na+]>[O:1]=[C:2](/[CH:3]=[CH:4]/[c:5]1[cH:6][cH:7][cH:8][c:9]([S:10](=[O:11])(=[O:12])[NH:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[cH:20]1)[NH:21][OH:22]",
+      "mapping_confidence": 0.45875915161762465,
+      "conditions": {
+        "raw_description": "NH2OH; THF; i-PrOAc; H2O; 10 \u00b0C; EtOH/H2O; NaHCO3; 60 \u00b0C; 87% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NH2OH",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "i-PrOAc",
+          "H2O",
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)OC(=O)C",
+          "O",
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "10",
+          "60"
+        ],
+        "YIELD": [
+          "87% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

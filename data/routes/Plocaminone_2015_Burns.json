@@ -1,0 +1,233 @@
+{
+  "background": {
+    "name": "(-)-Plocaminone",
+    "author": "Burns",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2015, 137, 12784",
+    "doi": "10.1021/jacs.5b08398"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Plocaminone_2015_Burns_1",
+      "reaction_smiles": "C=CC1(C)CO1.ClCCl.Cl[Ti](Cl)(Cl)Cl>>C/C(=C\\CCl)CO",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH:3]=[CH2:4])[CH2:6][O:7]1.ClC[Cl:5]>Cl[Ti](Cl)(Cl)Cl>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][Cl:5])[CH2:6][OH:7]",
+      "mapping_confidence": 0.19642986906018653,
+      "conditions": {
+        "raw_description": "TiCl4; DCM; -78 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_2",
+      "reaction_smiles": "C/C(=C\\CCl)CO.CC(C)(C)c1cc(/C=N/[C@H](c2ccccc2)[C@@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.O=C1CCC(=O)N1Br.CC(C)O[Ti](Cl)(OC(C)C)OC(C)C.CCCC(C)C>>C[C@@](Cl)(CO)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "[CH3:1]/[C:2]([CH2:4][OH:5])=[CH:6]\\[CH2:8][Cl:9].CC(C)O[Ti](OC(C)C)(OC(C)C)[Cl:3].O=C1CCC(=O)N1[Br:7]>CC(C)(C)c1cc(/C=N/[C@H](c2ccccc2)[C@@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.CCCC(C)C>[CH3:1][C@@:2]([Cl:3])([CH2:4][OH:5])[C@@H:6]([Br:7])[CH2:8][Cl:9]",
+      "mapping_confidence": 0.9184957330574263,
+      "conditions": {
+        "raw_description": "NBS; ClTi(OiPr)3; hexanes; -20 \u00b0C; 64%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [
+          "ClTi(OiPr)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](OC(C)C)(OC(C)C)OC(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexanes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCC(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_3",
+      "reaction_smiles": "C[C@@](Cl)(CO)[C@@H](Br)CCl.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>C[C@@](Cl)(C=O)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]([Cl:3])([CH2:4][OH:5])[C@@H:6]([Br:7])[CH2:8][Cl:9]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>[CH3:1][C@@:2]([Cl:3])([CH:4]=[O:5])[C@@H:6]([Br:7])[CH2:8][Cl:9]",
+      "mapping_confidence": 0.9756225455787219,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; DCM",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_4",
+      "reaction_smiles": "C[C@@](Cl)(C=O)[C@@H](Br)CCl.CCOP(=O)(OCC)C(Cl)C(=O)CC.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C1CCOC1>>CCC(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH:5]([C:3]([CH2:2][CH3:1])=[O:4])[Cl:6].O=[CH:7][C@@:8]([CH3:9])([Cl:10])[C@@H:11]([Br:12])[CH2:13][Cl:14]>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C1CCOC1>[CH3:1][CH2:2][C:3](=[O:4])/[C:5]([Cl:6])=[CH:7]/[C@@:8]([CH3:9])([Cl:10])[C@@H:11]([Br:12])[CH2:13][Cl:14]",
+      "mapping_confidence": 0.9894851561503281,
+      "conditions": {
+        "raw_description": "NaHMDS; THF; 70% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_5",
+      "reaction_smiles": "CCC(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl.ClCCl.C=[N+](C)C.[Cl-].C[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(C(C)C)C(C)C>>CC(CN(C)C)C(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "[CH2:3]=[N+:4]([CH3:5])[CH3:6].[CH3:1][CH2:2][C:7](=[O:8])/[C:9]([Cl:10])=[CH:11]/[C@@:12]([CH3:13])([Cl:14])[C@@H:15]([Br:16])[CH2:17][Cl:18]>ClCCl.[Cl-].C[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(C(C)C)C(C)C>[CH3:1][CH:2]([CH2:3][N:4]([CH3:5])[CH3:6])[C:7](=[O:8])/[C:9]([Cl:10])=[CH:11]/[C@@:12]([CH3:13])([Cl:14])[C@@H:15]([Br:16])[CH2:17][Cl:18]",
+      "mapping_confidence": 0.5731197546477581,
+      "conditions": {
+        "raw_description": "1) iPr2NEt; TMSOTf; DCM; 2) H2C=NMe2Cl",
+        "GENERAL_REAGENTS": [
+          "H2C=NMe2Cl",
+          "TMSOTf",
+          "iPr2NEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH2]=[N+](C)C.[Cl-]",
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_6",
+      "reaction_smiles": "CC(CN(C)C)C(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl.C1CCOC1.CI.CCN(C(C)C)C(C)C>>C=C(C)C(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "CN(C)[CH2:1][CH:2]([CH3:3])[C:4](=[O:5])/[C:6]([Cl:7])=[CH:8]/[C@@:9]([CH3:10])([Cl:11])[C@@H:12]([Br:13])[CH2:14][Cl:15]>C1CCOC1.CI.CCN(C(C)C)C(C)C>[CH2:1]=[C:2]([CH3:3])[C:4](=[O:5])/[C:6]([Cl:7])=[CH:8]/[C@@:9]([CH3:10])([Cl:11])[C@@H:12]([Br:13])[CH2:14][Cl:15]",
+      "mapping_confidence": 0.9362569071376554,
+      "conditions": {
+        "raw_description": "iPr2NEt; MeI; THF; 54% (2 steps); E/Z 1:2",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "iPr2NEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "E/Z 1:2"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "54% (E/Z = 1:2) (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Plocaminone_2015_Burns_7",
+      "reaction_smiles": "C=C(C)C(=O)/C(Cl)=C/[C@@](C)(Cl)[C@@H](Br)CCl.CCOCC>>C=C(C)C(=O)/C(Cl)=C\\[C@@](C)(Cl)[C@@H](Br)CCl",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C:4](=[O:5])/[C:6]([Cl:7])=[CH:8]/[C@@:9]([CH3:10])([Cl:11])[C@@H:12]([Br:13])[CH2:14][Cl:15]>CCOCC>[CH2:1]=[C:2]([CH3:3])[C:4](=[O:5])/[C:6]([Cl:7])=[CH:8]\\[C@@:9]([CH3:10])([Cl:11])[C@@H:12]([Br:13])[CH2:14][Cl:15]",
+      "mapping_confidence": 0.9860462896577517,
+      "conditions": {
+        "raw_description": "h\u03c5; Et2O",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [
+          "h\u03c5"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

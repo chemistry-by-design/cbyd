@@ -1,0 +1,251 @@
+{
+  "background": {
+    "name": "Olutasidenib",
+    "author": null,
+    "year": 2022,
+    "drug_name": "Rezlidhia",
+    "manufacturer": "Rigel",
+    "citation": "J. Med. Chem. 2024, 67, 4376",
+    "doi": "10.1021/acs.jmedchem.3c02374"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_1",
+      "reaction_smiles": "O=Cc1cc2cc(Cl)ccc2nc1Cl.CC(C)(C)[S@](N)=O.O=S(=O)([O-])[O-].[Cu+2].ClCCCl>>CC(C)(C)[S@@](=O)/N=C/c1cc2cc(Cl)ccc2nc1Cl",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[S@@:5](=[O:6])[NH2:7].O=[CH:8][c:9]1[cH:10][c:11]2[cH:12][c:13]([Cl:14])[cH:15][cH:16][c:17]2[n:18][c:19]1[Cl:20]>ClCCCl.O=S(=O)([O-])[O-].[Cu+2]>[CH3:1][C:2]([CH3:3])([CH3:4])[S@@:5](=[O:6])/[N:7]=[CH:8]/[c:9]1[cH:10][c:11]2[cH:12][c:13]([Cl:14])[cH:15][cH:16][c:17]2[n:18][c:19]1[Cl:20]",
+      "mapping_confidence": 0.5826776564019592,
+      "conditions": {
+        "raw_description": "CuSO4; DCE; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CuSO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_2",
+      "reaction_smiles": "CC(C)(C)[S@@](=O)/N=C/c1cc2cc(Cl)ccc2nc1Cl.C[Mg]Br.ClCCl>>C[C@H](N[S@](=O)C(C)(C)C)c1cc2cc(Cl)ccc2nc1Cl",
+      "reaction_smiles_mapped": "[CH:2](=[N:3]/[S@:4](=[O:5])[C:6]([CH3:7])([CH3:8])[CH3:9])\\[c:10]1[cH:11][c:12]2[cH:13][c:14]([Cl:15])[cH:16][cH:17][c:18]2[n:19][c:20]1[Cl:21].Br[Mg][CH3:1]>ClCCl>[CH3:1][C@H:2]([NH:3][S@:4](=[O:5])[C:6]([CH3:7])([CH3:8])[CH3:9])[c:10]1[cH:11][c:12]2[cH:13][c:14]([Cl:15])[cH:16][cH:17][c:18]2[n:19][c:20]1[Cl:21]",
+      "mapping_confidence": 0.4186318270607236,
+      "conditions": {
+        "raw_description": "MeMgBr; DCM; 63%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_3",
+      "reaction_smiles": "C[C@H](N[S@](=O)C(C)(C)C)c1cc2cc(Cl)ccc2nc1Cl.Cl.C1COCCO1>>C[C@H](N)c1cc2cc(Cl)ccc2[nH]c1=O",
+      "reaction_smiles_mapped": "CC(C)(C)[S@]([NH:3][C@@H:2]([CH3:1])[c:4]1[cH:5][c:6]2[cH:7][c:8]([Cl:9])[cH:10][cH:11][c:12]2[n:13][c:14]1Cl)=[O:15]>C1COCCO1.Cl>[CH3:1][C@H:2]([NH2:3])[c:4]1[cH:5][c:6]2[cH:7][c:8]([Cl:9])[cH:10][cH:11][c:12]2[nH:13][c:14]1=[O:15]",
+      "mapping_confidence": 0.9217440804052939,
+      "conditions": {
+        "raw_description": "HCl; dioxane; 96%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_4",
+      "reaction_smiles": "C[C@H](N)c1cc2cc(Cl)ccc2[nH]c1=O.Cn1c(C#N)ccc(F)c1=O.CCN(C(C)C)C(C)C.CS(C)=O>>C[C@H](Nc1ccc(C#N)n(C)c1=O)c1cc2cc(Cl)ccc2[nH]c1=O",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([NH2:3])[c:14]1[cH:15][c:16]2[cH:17][c:18]([Cl:19])[cH:20][cH:21][c:22]2[nH:23][c:24]1=[O:25].F[c:4]1[cH:5][cH:6][c:7]([C:8]#[N:9])[n:10]([CH3:11])[c:12]1=[O:13]>CCN(C(C)C)C(C)C.CS(C)=O>[CH3:1][C@H:2]([NH:3][c:4]1[cH:5][cH:6][c:7]([C:8]#[N:9])[n:10]([CH3:11])[c:12]1=[O:13])[c:14]1[cH:15][c:16]2[cH:17][c:18]([Cl:19])[cH:20][cH:21][c:22]2[nH:23][c:24]1=[O:25]",
+      "mapping_confidence": 0.9851153735806897,
+      "conditions": {
+        "raw_description": "DIPEA; DMSO; 67%",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_5",
+      "reaction_smiles": "N#Cc1ccc(F)cn1.O=C(OO)c1cccc(Cl)c1.ClC(Cl)Cl>>N#Cc1ccc(F)c[n+]1[O-]",
+      "reaction_smiles_mapped": "[N:1]#[C:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][n:9]1.O=C(O[OH:10])c1cccc(Cl)c1>ClC(Cl)Cl>[N:1]#[C:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][n+:9]1[O-:10]",
+      "mapping_confidence": 0.9817104773691994,
+      "conditions": {
+        "raw_description": "m-CPBA; CHCl3; 52%",
+        "GENERAL_REAGENTS": [
+          "m-CPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_6",
+      "reaction_smiles": "N#Cc1ccc(F)c[n+]1[O-].CC(=O)OC(C)=O>>CC(=O)Oc1nc(C#N)ccc1F",
+      "reaction_smiles_mapped": "CC(=O)[O:4][C:2]([CH3:1])=[O:3].[O-][n+:6]1[cH:5][c:12]([F:13])[cH:11][cH:10][c:7]1[C:8]#[N:9]>>[CH3:1][C:2](=[O:3])[O:4][c:5]1[n:6][c:7]([C:8]#[N:9])[cH:10][cH:11][c:12]1[F:13]",
+      "mapping_confidence": 0.5352717855193295,
+      "conditions": {
+        "raw_description": "Ac2O; 60%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_7",
+      "reaction_smiles": "CC(=O)Oc1nc(C#N)ccc1F.O=C([O-])[O-].[K+].[K+].CO>>N#Cc1ccc(F)c(=O)[nH]1",
+      "reaction_smiles_mapped": "CC(=O)[O:9][c:8]1[c:6]([F:7])[cH:5][cH:4][c:3]([C:2]#[N:1])[n:10]1>CO.O=C([O-])[O-].[K+].[K+]>[N:1]#[C:2][c:3]1[cH:4][cH:5][c:6]([F:7])[c:8](=[O:9])[nH:10]1",
+      "mapping_confidence": 0.9786359512140359,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 92%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Olutasidenib_2022_Rigel_8",
+      "reaction_smiles": "N#Cc1ccc(F)c(=O)[nH]1.CI.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>Cn1c(C#N)ccc(F)c1=O",
+      "reaction_smiles_mapped": "I[CH3:1].[nH:2]1[c:3]([C:4]#[N:5])[cH:6][cH:7][c:8]([F:9])[c:10]1=[O:11]>CN(C)C=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][n:2]1[c:3]([C:4]#[N:5])[cH:6][cH:7][c:8]([F:9])[c:10]1=[O:11]",
+      "mapping_confidence": 0.9172005779089633,
+      "conditions": {
+        "raw_description": "MeI; K2CO3; DMF; 67%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    }
+  ]
+}

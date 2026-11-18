@@ -1,0 +1,141 @@
+{
+  "background": {
+    "name": "Mescaline",
+    "author": "Spath",
+    "year": 1919,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Monatsh. Chem. 1919, 40, 129",
+    "doi": "10.1007/BF01524590"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Mescaline_1919_Spath_1",
+      "reaction_smiles": "COc1cc(C(=O)O)cc(OC)c1OC.ClP(Cl)(Cl)(Cl)Cl>>COc1cc(C(=O)Cl)cc(OC)c1OC",
+      "reaction_smiles_mapped": "O[C:6]([c:5]1[cH:4][c:3]([O:2][CH3:1])[c:13]([O:14][CH3:15])[c:10]([O:11][CH3:12])[cH:9]1)=[O:7].ClP(Cl)(Cl)(Cl)[Cl:8]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([C:6](=[O:7])[Cl:8])[cH:9][c:10]([O:11][CH3:12])[c:13]1[O:14][CH3:15]",
+      "mapping_confidence": 0.22807246840235582,
+      "conditions": {
+        "raw_description": "PCl5",
+        "GENERAL_REAGENTS": [
+          "PCl5"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "P(Cl)(Cl)(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mescaline_1919_Spath_2",
+      "reaction_smiles": "COc1cc(C(=O)Cl)cc(OC)c1OC.[H][H].[Pd].O=S(=O)([O-])[O-].[Ba+2].[HH].O=S(=O)([O-])[O-].[Ba+2].[Pd]>>COc1cc(C=O)cc(OC)c1OC",
+      "reaction_smiles_mapped": "Cl[C:6]([c:5]1[cH:4][c:3]([O:2][CH3:1])[c:12]([O:13][CH3:14])[c:9]([O:10][CH3:11])[cH:8]1)=[O:7]>O=S(=O)([O-])[O-].O=S(=O)([O-])[O-].[Ba+2].[Ba+2].[HH].[H][H].[Pd].[Pd]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH:6]=[O:7])[cH:8][c:9]([O:10][CH3:11])[c:12]1[O:13][CH3:14]",
+      "mapping_confidence": 0.9598626059765084,
+      "conditions": {
+        "raw_description": "H2; Pd/BaSO4",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/BaSO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[O-]S(=O)(=O)[O-].[Ba+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mescaline_1919_Spath_3",
+      "reaction_smiles": "COc1cc(C=O)cc(OC)c1OC.C[N+](=O)[O-]>>COc1cc(/C=C/[N+](=O)[O-])cc(OC)c1OC",
+      "reaction_smiles_mapped": "O=[CH:6][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:15]([O:16][CH3:17])[c:12]([O:13][CH3:14])[cH:11]1.[CH3:7][N+:8](=[O:9])[O-:10]>>[CH3:1][O:2][c:3]1[cH:4][c:5](/[CH:6]=[CH:7]/[N+:8](=[O:9])[O-:10])[cH:11][c:12]([O:13][CH3:14])[c:15]1[O:16][CH3:17]",
+      "mapping_confidence": 0.891000726203726,
+      "conditions": {
+        "raw_description": "CH3NO2",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3NO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mescaline_1919_Spath_4",
+      "reaction_smiles": "COc1cc(/C=C/[N+](=O)[O-])cc(OC)c1OC.[Zn].CC(=O)O>>COc1cc(C/C=N/O)cc(OC)c1OC",
+      "reaction_smiles_mapped": "O=[N+:8](/[CH:7]=[CH:6]/[c:5]1[cH:4][c:3]([O:2][CH3:1])[c:14]([O:15][CH3:16])[c:11]([O:12][CH3:13])[cH:10]1)[O-:9]>CC(=O)O.[Zn]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6]/[CH:7]=[N:8]/[OH:9])[cH:10][c:11]([O:12][CH3:13])[c:14]1[O:15][CH3:16]",
+      "mapping_confidence": 0.5089574866124876,
+      "conditions": {
+        "raw_description": "Zn; AcOH",
+        "GENERAL_REAGENTS": [
+          "Zn",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Mescaline_1919_Spath_5",
+      "reaction_smiles": "COc1cc(C/C=N/O)cc(OC)c1OC.[Na].[Hg]>>COc1cc(CCN)cc(OC)c1OC",
+      "reaction_smiles_mapped": "O/[N:8]=[CH:7]/[CH2:6][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:13]([O:14][CH3:15])[c:10]([O:11][CH3:12])[cH:9]1>[Hg].[Na]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][NH2:8])[cH:9][c:10]([O:11][CH3:12])[c:13]1[O:14][CH3:15]",
+      "mapping_confidence": 0.9590819685107123,
+      "conditions": {
+        "raw_description": "Na/Hg",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "Hg"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "[Hg]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

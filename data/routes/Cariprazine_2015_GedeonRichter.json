@@ -1,0 +1,285 @@
+{
+  "background": {
+    "name": "Cariprazine",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Vraylar",
+    "manufacturer": "GedeonRichter",
+    "citation": "J. Med. Chem. 2017, 60, 6480",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_1",
+      "reaction_smiles": "O=C(O)Cc1ccc([N+](=O)[O-])cc1.[H][H].[Pd].O.Cl.CCO.[HH].[C].[Pd]>>CCOC(=O)C[C@H]1CC[C@H](N)CC1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][OH:3].O=[N+:11]([O-])[c:10]1[cH:9][cH:8][c:7]([CH2:6][C:4](O)=[O:5])[cH:13][cH:12]1>[H][H].[Pd].[Pd].O.Cl.[HH].[C]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([NH2:11])[CH2:12][CH2:13]1",
+      "mapping_confidence": 0.5515898105023292,
+      "conditions": {
+        "raw_description": "1) H2; Pd/C; H2O; 44-48 \u00b0C; 2) HCl; EtOH; reflux; 40%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "44",
+          "48"
+        ],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_2",
+      "reaction_smiles": "CCOC(=O)C[C@H]1CC[C@H](N)CC1.CCN(CC)CC.ClCCl.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>CCOC(=O)C[C@H]1CC[C@H](NC(=O)OC(C)(C)C)CC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([NH2:11])[CH2:19][CH2:20]1>CCN(CC)CC.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([NH:11][C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][CH2:20]1",
+      "mapping_confidence": 0.24799532403651223,
+      "conditions": {
+        "raw_description": "Boc2O; Et3N; DCM; 5 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "Boc2O",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_3",
+      "reaction_smiles": "CCOC(=O)C[C@H]1CC[C@H](NC(=O)OC(C)(C)C)CC1.[Na+].[BH4-].Cl[Al](Cl)Cl.C1CCOC1>>CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCO)CC1",
+      "reaction_smiles_mapped": "CCO[C:14]([CH2:13][C@H:12]1[CH2:11][CH2:10][C@H:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH2:17][CH2:16]1)=[O:15]>[Na+].[BH4-].Cl[Al](Cl)Cl.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]1[CH2:10][CH2:11][C@H:12]([CH2:13][CH2:14][OH:15])[CH2:16][CH2:17]1",
+      "mapping_confidence": 0.2694793803363066,
+      "conditions": {
+        "raw_description": "NaBH4; AlCl3; THF",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_4",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCO)CC1.CCN(CC)CC.ClCCl.CS(=O)(=O)Cl>>CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCOS(C)(=O)=O)CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]1[CH2:10][CH2:11][C@H:12]([CH2:13][CH2:14][OH:15])[CH2:20][CH2:21]1.Cl[S:16]([CH3:17])(=[O:18])=[O:19]>CCN(CC)CC.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]1[CH2:10][CH2:11][C@H:12]([CH2:13][CH2:14][O:15][S:16]([CH3:17])(=[O:18])=[O:19])[CH2:20][CH2:21]1",
+      "mapping_confidence": 0.24098719051408718,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; DCM; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_5",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCOS(C)(=O)=O)CC1.Clc1cccc(N2CCNCC2)c1Cl.O=C([O-])[O-].[K+].[K+].CC#N>>CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:14][CH2:13][C@H:12]1[CH2:11][CH2:10][C@H:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH2:30][CH2:29]1.[NH:15]1[CH2:16][CH2:17][N:18]([c:19]2[cH:20][cH:21][cH:22][c:23]([Cl:24])[c:25]2[Cl:26])[CH2:27][CH2:28]1>O=C([O-])[O-].[K+].[K+].CC#N>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]1[CH2:10][CH2:11][C@H:12]([CH2:13][CH2:14][N:15]2[CH2:16][CH2:17][N:18]([c:19]3[cH:20][cH:21][cH:22][c:23]([Cl:24])[c:25]3[Cl:26])[CH2:27][CH2:28]2)[CH2:29][CH2:30]1",
+      "mapping_confidence": 0.4466960150655807,
+      "conditions": {
+        "raw_description": "K2CO3; MeCN; reflux; 70% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_6",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1.Cl.CCO>>N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][N:11]([c:12]3[cH:13][cH:14][cH:15][c:16]([Cl:17])[c:18]3[Cl:19])[CH2:20][CH2:21]2)[CH2:22][CH2:23]1>Cl.CCO>[NH2:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][N:11]([c:12]3[cH:13][cH:14][cH:15][c:16]([Cl:17])[c:18]3[Cl:19])[CH2:20][CH2:21]2)[CH2:22][CH2:23]1",
+      "mapping_confidence": 0.9338825759233012,
+      "conditions": {
+        "raw_description": "HCl; EtOH; 45-50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45",
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_7",
+      "reaction_smiles": "N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1.O=C(OC(Cl)(Cl)Cl)OC(Cl)(Cl)Cl.CCN(CC)CC.ClCCl.CC(C)O.CNC>>CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][CH3:3].[NH2:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][N:16]([c:17]3[cH:18][cH:19][cH:20][c:21]([Cl:22])[c:23]3[Cl:24])[CH2:25][CH2:26]2)[CH2:27][CH2:28]1.ClC(Cl)(Cl)O[C:4](OC(Cl)(Cl)Cl)=[O:5]>CC(C)O.CCN(CC)CC.ClCCl>[CH3:1][N:2]([CH3:3])[C:4](=[O:5])[NH:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][N:16]([c:17]3[cH:18][cH:19][cH:20][c:21]([Cl:22])[c:23]3[Cl:24])[CH2:25][CH2:26]2)[CH2:27][CH2:28]1",
+      "mapping_confidence": 0.6700115959898804,
+      "conditions": {
+        "raw_description": "1) triphosgene; Et3N; DCM; -5 to -10 \u00b0C; 2) Me2NH; iPrOH; 0 to -5 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "triphosgene",
+          "Et3N",
+          "Me2NH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(Cl)(Cl)OC(=O)OC(Cl)(Cl)Cl",
+          "CCN(CC)CC",
+          "CNC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5",
+          "-10",
+          "0",
+          "-5"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cariprazine_2015_GedeonRichter_8",
+      "reaction_smiles": "CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1.Cl.CO.O>>CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1.Cl",
+      "reaction_smiles_mapped": "[CH3:1][N:2]([CH3:3])[C:4](=[O:5])[NH:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][N:16]([c:17]3[cH:18][cH:19][cH:20][c:21]([Cl:22])[c:23]3[Cl:24])[CH2:25][CH2:26]2)[CH2:27][CH2:28]1.[ClH:29]>CO.O>[CH3:1][N:2]([CH3:3])[C:4](=[O:5])[NH:6][C@H:7]1[CH2:8][CH2:9][C@H:10]([CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][N:16]([c:17]3[cH:18][cH:19][cH:20][c:21]([Cl:22])[c:23]3[Cl:24])[CH2:25][CH2:26]2)[CH2:27][CH2:28]1.[ClH:29]",
+      "mapping_confidence": 0.7835009129621552,
+      "conditions": {
+        "raw_description": "HCl; MeOH; H2O; 95%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    }
+  ]
+}

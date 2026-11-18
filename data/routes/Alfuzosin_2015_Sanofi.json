@@ -1,0 +1,119 @@
+{
+  "background": {
+    "name": "Alfuzosin",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Uroxatral",
+    "manufacturer": "Sanofi",
+    "citation": "J. Med. Chem. 2017, 60, 15, 6480\u20136515",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Alfuzosin_2015_Sanofi_1",
+      "reaction_smiles": "COc1cc2nc(Cl)nc(N)c2cc1OC.CNCCC#N.CC(C)CCO>>COc1cc2nc(N(C)CCC#N)nc(N)c2cc1OC",
+      "reaction_smiles_mapped": "[NH:8]([CH3:9])[CH2:10][CH2:11][C:12]#[N:13].Cl[c:7]1[n:6][c:5]2[cH:4][c:3]([O:2][CH3:1])[c:19]([O:20][CH3:21])[cH:18][c:17]2[c:15]([NH2:16])[n:14]1>CC(C)CCO>[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][c:7]([N:8]([CH3:9])[CH2:10][CH2:11][C:12]#[N:13])[n:14][c:15]([NH2:16])[c:17]2[cH:18][c:19]1[O:20][CH3:21]",
+      "mapping_confidence": 0.9855503693882107,
+      "conditions": {
+        "raw_description": "isoamyl alcohol; heat; 62 %",
+        "GENERAL_REAGENTS": [
+          "isoamyl alcohol"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)CCO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "heat"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62 %"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Alfuzosin_2015_Sanofi_2",
+      "reaction_smiles": "COc1cc2nc(N(C)CCC#N)nc(N)c2cc1OC.[HH].Cl.[Al]#[Ni].CCO.N>>COc1cc2nc(N(C)CCCN)nc(N)c2cc1OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][c:7]([N:8]([CH3:9])[CH2:10][CH2:11][C:12]#[N:13])[n:14][c:15]([NH2:16])[c:17]2[cH:18][c:19]1[O:20][CH3:21]>CCO.Cl.N.[Al]#[Ni].[HH]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][c:7]([N:8]([CH3:9])[CH2:10][CH2:11][CH2:12][NH2:13])[n:14][c:15]([NH2:16])[c:17]2[cH:18][c:19]1[O:20][CH3:21]",
+      "mapping_confidence": 0.965925597997033,
+      "conditions": {
+        "raw_description": "H2; Raney-Ni; EtOH/NH3; 70 \u00b0C; HCl/EtOH; 52 %",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl",
+          "N"
+        ],
+        "CATALYSTS": [
+          "Raney-Ni"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al]#[Ni]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "52 %"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Alfuzosin_2015_Sanofi_3",
+      "reaction_smiles": "COc1cc2nc(N(C)CCCN)nc(N)c2cc1OC.O=C(OC(=O)n1ccnc1)C1CCCO1.CCN(CC)CC.Cl.C1CCOC1.CC(C)O>>COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][c:7]([N:8]([CH3:9])[CH2:10][CH2:11][CH2:12][NH2:13])[n:21][c:22]([NH2:23])[c:24]2[cH:25][c:26]1[O:27][CH3:28].O=C(O[C:14](=[O:15])[CH:16]1[CH2:17][CH2:18][CH2:19][O:20]1)n1ccnc1>C1CCOC1.CC(C)O.CCN(CC)CC.Cl>[CH3:1][O:2][c:3]1[cH:4][c:5]2[n:6][c:7]([N:8]([CH3:9])[CH2:10][CH2:11][CH2:12][NH:13][C:14](=[O:15])[CH:16]3[CH2:17][CH2:18][CH2:19][O:20]3)[n:21][c:22]([NH2:23])[c:24]2[cH:25][c:26]1[O:27][CH3:28]",
+      "mapping_confidence": 0.9494862207277603,
+      "conditions": {
+        "raw_description": "THF; Et3N; heat; HCl/IPA; 44 %",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "IPA"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [
+          "heat"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44 %"
+        ]
+      }
+    }
+  ]
+}

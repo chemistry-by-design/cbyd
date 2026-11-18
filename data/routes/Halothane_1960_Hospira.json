@@ -1,0 +1,67 @@
+{
+  "background": {
+    "name": "Halothane",
+    "author": null,
+    "year": 1960,
+    "drug_name": "Fluothane",
+    "manufacturer": "Hospira",
+    "citation": "US patent US2921098A",
+    "doi": "US2921098A"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Halothane_1960_Hospira_1",
+      "reaction_smiles": "ClC=C(Cl)Cl.F.Cl[Sb](Cl)Cl>>FC(F)(F)CCl",
+      "reaction_smiles_mapped": "Cl[C:2](Cl)=[CH:5][Cl:6].[FH:1]>Cl[Sb](Cl)Cl>[F:1][C:2]([F:3])([F:4])[CH2:5][Cl:6]",
+      "mapping_confidence": 0.9913175450989578,
+      "conditions": {
+        "raw_description": "H2F2; SbCl3; 130 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2F2",
+          "SbCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F",
+          "Cl[Sb](Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Halothane_1960_Hospira_2",
+      "reaction_smiles": "FC(F)(F)CCl.BrBr>>FC(F)(F)C(Cl)Br",
+      "reaction_smiles_mapped": "Br[Br:7].[F:1][C:2]([F:3])([F:4])[CH2:5][Cl:6]>>[F:1][C:2]([F:3])([F:4])[CH:5]([Cl:6])[Br:7]",
+      "mapping_confidence": 0.32572807244473967,
+      "conditions": {
+        "raw_description": "Br2; 450 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "450"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

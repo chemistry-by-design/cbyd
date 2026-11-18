@@ -1,0 +1,173 @@
+{
+  "background": {
+    "name": "Hippadine",
+    "author": "Harrowven",
+    "year": 1999,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Synthesis 1999, 1300",
+    "doi": "10.1055/s-1999-3556"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Hippadine_1999_Harrowven_1",
+      "reaction_smiles": "O=[N+]([O-])c1ccccc1Br.C=C[Mg]Br.C1CCOC1>>Brc1cccc2cc[nH]c12",
+      "reaction_smiles_mapped": "Br[Mg][CH:8]=[CH2:7].O=[N+:9]([O-])[c:10]1[c:2]([Br:1])[cH:3][cH:4][cH:5][cH:6]1>C1CCOC1>[Br:1][c:2]1[cH:3][cH:4][cH:5][c:6]2[cH:7][cH:8][nH:9][c:10]12",
+      "mapping_confidence": 0.7086878386686563,
+      "conditions": {
+        "raw_description": "THF; -78\u00b0C; 53%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Hippadine_1999_Harrowven_2",
+      "reaction_smiles": "Brc1cccc2cc[nH]c12.BrCc1cc2c(cc1Br)OCO2.[K+].[OH-].CS(C)=O>>Brc1ccc2c(c1Cn1ccc3cccc(Br)c31)OCO2",
+      "reaction_smiles_mapped": "Br[CH2:8][c:7]1[c:2]([Br:1])[cH:3][c:4]2[c:5]([cH:6]1)[O:21][CH2:20][O:19]2.[nH:9]1[cH:10][cH:11][c:12]2[cH:13][cH:14][cH:15][c:16]([Br:17])[c:18]12>[K+].[OH-].CS(C)=O>[Br:1][c:2]1[cH:3][cH:4][c:5]2[c:6]([c:7]1[CH2:8][n:9]1[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]([Br:17])[c:18]13)[O:19][CH2:20][O:21]2",
+      "mapping_confidence": 0.8729465087316465,
+      "conditions": {
+        "raw_description": "KOH; DMSO; rt; 72%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Hippadine_1999_Harrowven_3",
+      "reaction_smiles": "OCc1ccc2c(c1)OCO2.BrBr.CC(=O)O>>BrCc1cc2c(cc1Br)OCO2",
+      "reaction_smiles_mapped": "[Br:1][Br:9].O[CH2:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][cH:8]1)[O:10][CH2:11][O:12]2>CC(=O)O>[Br:1][CH2:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[Br:9])[O:10][CH2:11][O:12]2",
+      "mapping_confidence": 0.41833685035865203,
+      "conditions": {
+        "raw_description": "Br2; HOAc; rt; 75%",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Hippadine_1999_Harrowven_4",
+      "reaction_smiles": "Brc1ccc2c(c1Cn1ccc3cccc(Br)c31)OCO2.[Li]CCCC.C1CCOC1.CCOP(OCC)OCC.[Cu+].[I-]>>c1cc2c3c(c1)-c1cc4c(cc1CN3CC2)OCO4",
+      "reaction_smiles_mapped": "Br[c:5]1[c:4]2[c:3]([cH:2][cH:1][cH:6]1)[cH:16][cH:15][n:14]2[CH2:13][c:12]1[c:10]2[c:9]([cH:8][cH:7][c:11]1Br)[O:19][CH2:18][O:17]2>[Li]CCCC.C1CCOC1.CCOP(OCC)OCC.[Cu+].[I-]>[cH:1]1[cH:2][c:3]2[c:4]3[c:5]([cH:6]1)-[c:7]1[cH:8][c:9]4[c:10]([cH:11][c:12]1[CH2:13][N:14]3[CH2:15][CH2:16]2)[O:17][CH2:18][O:19]4",
+      "mapping_confidence": 0.5683570911167548,
+      "conditions": {
+        "raw_description": "1) nBuLi; THF; -78\u00b0C; 2) CuI-P(OEt)3; THF; 49%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [
+          "CuI-P(OEt)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu+].[I-].P(OCC)(OCC)OCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Hippadine_1999_Harrowven_5",
+      "reaction_smiles": "c1cc2c3c(c1)-c1cc4c(cc1CN3CC2)OCO4.ClCCl.O=[Mn](=O)([O-])[O-].[Ba+2]>>O=c1c2cc3c(cc2c2cccc4c2n1CC4)OCO3",
+      "reaction_smiles_mapped": "O=[Mn]([O-])([O-])=[O:1].[CH2:2]1[c:3]2[cH:4][c:6]3[c:5]([cH:7][c:8]2-[c:9]2[cH:10][cH:11][cH:12][c:13]4[c:14]2[N:15]1[CH2:16][CH2:17]4)[O:20][CH2:19][O:18]3>ClCCl.[Ba+2]>[O:1]=[c:2]1[c:3]2[cH:4][c:5]3[c:6]([cH:7][c:8]2[c:9]2[cH:10][cH:11][cH:12][c:13]4[c:14]2[n:15]1[CH2:16][CH2:17]4)[O:18][CH2:19][O:20]3",
+      "mapping_confidence": 0.2512002887884469,
+      "conditions": {
+        "raw_description": "BaMnO4; DCM; rt; 79%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BaMnO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-][Mn](=O)(=O)[O-].[Ba+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    }
+  ]
+}

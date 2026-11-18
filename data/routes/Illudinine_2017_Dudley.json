@@ -1,0 +1,271 @@
+{
+  "background": {
+    "name": "Illudinine",
+    "author": "Dudley",
+    "year": 2017,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2017, 19, 858",
+    "doi": "10.1021/acs.orglett.6b03887"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Illudinine_2017_Dudley_1",
+      "reaction_smiles": "CC1(C)CC(=O)CC(=O)C1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.ClCCl.c1ccncc1>>CC1(C)CC(=O)C=C(OS(=O)(=O)C(F)(F)F)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[CH2:7][C:8](=[O:9])[CH2:17]1.O=S(=O)(O[S:10](=[O:11])(=[O:12])[C:13]([F:14])([F:15])[F:16])C(F)(F)F>ClCCl.c1ccncc1>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[CH:7]=[C:8]([O:9][S:10](=[O:11])(=[O:12])[C:13]([F:14])([F:15])[F:16])[CH2:17]1",
+      "mapping_confidence": 0.06969928128198852,
+      "conditions": {
+        "raw_description": "Tf2O; pyridine; CH2Cl2; -78 \u00b0C to rt; 95%",
+        "GENERAL_REAGENTS": [
+          "Tf2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_2",
+      "reaction_smiles": "CC1(C)CC(=O)C=C(OS(=O)(=O)C(F)(F)F)C1.CC(C)C[AlH]CC(C)C.C1CCOC1>>CC1(C)CC(OS(=O)(=O)C(F)(F)F)=CC(O)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C:5]([O:6][S:7](=[O:8])(=[O:9])[C:10]([F:11])([F:12])[F:13])=[CH:14][C:15](=[O:16])[CH2:17]1>CC(C)C[AlH]CC(C)C.C1CCOC1>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5]([O:6][S:7](=[O:8])(=[O:9])[C:10]([F:11])([F:12])[F:13])=[CH:14][CH:15]([OH:16])[CH2:17]1",
+      "mapping_confidence": 0.16093387746744145,
+      "conditions": {
+        "raw_description": "DIBAL; THF; -78 \u00b0C to rt; 95%",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_3",
+      "reaction_smiles": "CC1(C)CC(OS(=O)(=O)C(F)(F)F)=CC(O)C1.CCOC(=O)Cc1ccncc1.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>C#CCC(C)(C)CC=C(C(=O)OCC)c1ccncc1",
+      "reaction_smiles_mapped": "O=S(=O)(O[C:8]1=[CH:1][CH:2](O)[CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7]1)C(F)(F)F.[CH2:9]([C:10](=[O:11])[O:12][CH2:13][CH3:14])[c:15]1[cH:16][cH:17][n:18][cH:19][cH:20]1>[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>[CH:1]#[C:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][CH:8]=[C:9]([C:10](=[O:11])[O:12][CH2:13][CH3:14])[c:15]1[cH:16][cH:17][n:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.4218485976144935,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; -78 \u00b0C to reflux; 75%",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_4",
+      "reaction_smiles": "C#CCC(C)(C)CC=C(C(=O)OCC)c1ccncc1.O=C1CCC(=O)N1Br.O=[N+]([O-])[O-].[Ag+].CC(C)=O>>CCOC(=O)C(=CCC(C)(C)CC#CBr)c1ccncc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[CH:7][CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C:13]#[CH:14])[c:16]1[cH:17][cH:18][n:19][cH:20][cH:21]1.O=C1CCC(=O)N1[Br:15]>O=[N+]([O-])[O-].[Ag+].CC(C)=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[CH:7][CH2:8][C:9]([CH3:10])([CH3:11])[CH2:12][C:13]#[C:14][Br:15])[c:16]1[cH:17][cH:18][n:19][cH:20][cH:21]1",
+      "mapping_confidence": 0.7213905875787499,
+      "conditions": {
+        "raw_description": "AgNO3; NBS; acetone; 99%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [
+          "AgNO3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](=O)([O-])[O-].[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_5",
+      "reaction_smiles": "CCOC(=O)C(=CCC(C)(C)CC#CBr)c1ccncc1.Clc1ccccc1Cl>>CCOC(=O)c1c2c(c(Br)c3cnccc13)CC(C)(C)C2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[CH:7][CH2:21][C:18]([CH2:17][C:8]#[C:9][Br:10])([CH3:19])[CH3:20])[c:16]1[cH:11][cH:12][n:13][cH:14][cH:15]1>Clc1ccccc1Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[c:7]2[c:8]([c:9]([Br:10])[c:11]3[cH:12][n:13][cH:14][cH:15][c:16]13)[CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21]2",
+      "mapping_confidence": 0.5517469330610366,
+      "conditions": {
+        "raw_description": "200 \u00b0C; o-DCB; air; 40%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "o-DCB"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C(C(=C1)Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "200"
+        ],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_6",
+      "reaction_smiles": "CCOC(=O)c1c2c(c(Br)c3cnccc13)CC(C)(C)C2.CC(=O)NO.O=C([O-])[O-].[K+].[K+].CS(C)=O>>CCOC(=O)c1c2c(c(O)c3cnccc13)CC(C)(C)C2",
+      "reaction_smiles_mapped": "CC(=O)N[OH:10].Br[c:9]1[c:8]2[c:7]([c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:16]3[c:11]1[cH:12][n:13][cH:14][cH:15]3)[CH2:21][C:18]([CH3:19])([CH3:20])[CH2:17]2>O=C([O-])[O-].[K+].[K+].CS(C)=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[c:7]2[c:8]([c:9]([OH:10])[c:11]3[cH:12][n:13][cH:14][cH:15][c:16]13)[CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21]2",
+      "mapping_confidence": 0.5220216092681427,
+      "conditions": {
+        "raw_description": "K2CO3; DMSO; 80 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_7",
+      "reaction_smiles": "CCOC(=O)c1c2c(c(O)c3cnccc13)CC(C)(C)C2.C[Si](C)(C)C=[N+]=[N-].c1ccccc1.CC(C)CO>>CCOC(=O)c1c2c(c(OC)c3cnccc13)CC(C)(C)C2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[c:7]2[c:8]([c:9]([OH:10])[c:12]3[cH:13][n:14][cH:15][cH:16][c:17]13)[CH2:18][C:19]([CH3:20])([CH3:21])[CH2:22]2.C[Si](C)(C)[CH:11]=[N+]=[N-]>c1ccccc1.CC(C)CO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[c:7]2[c:8]([c:9]([O:10][CH3:11])[c:12]3[cH:13][n:14][cH:15][cH:16][c:17]13)[CH2:18][C:19]([CH3:20])([CH3:21])[CH2:22]2",
+      "mapping_confidence": 0.3889844318851156,
+      "conditions": {
+        "raw_description": "TMSCHN2; Benzene; i-BuOH; rt; 63%",
+        "GENERAL_REAGENTS": [
+          "TMSCHN2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene",
+          "i-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CC(C)CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Illudinine_2017_Dudley_8",
+      "reaction_smiles": "CCOC(=O)c1c2c(c(OC)c3cnccc13)CC(C)(C)C2.[K+].[OH-].CCO>>COc1c2c(c(C(=O)O)c3ccncc13)CC(C)(C)C2",
+      "reaction_smiles_mapped": "CC[O:9][C:7]([c:6]1[c:5]2[c:4]([c:3]([O:2][CH3:1])[c:15]3[c:10]1[cH:11][cH:12][n:13][cH:14]3)[CH2:20][C:17]([CH3:18])([CH3:19])[CH2:16]2)=[O:8]>[K+].[OH-].CCO>[CH3:1][O:2][c:3]1[c:4]2[c:5]([c:6]([C:7](=[O:8])[OH:9])[c:10]3[cH:11][cH:12][n:13][cH:14][c:15]13)[CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]2",
+      "mapping_confidence": 0.7060984028102646,
+      "conditions": {
+        "raw_description": "KOH; EtOH; 99%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

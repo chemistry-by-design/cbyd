@@ -1,0 +1,450 @@
+{
+  "background": {
+    "name": "(+)-Sclerotiorin",
+    "author": "Porco",
+    "year": 2011,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2011, 76, 2577",
+    "doi": "10.1021/jo102448n"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_1",
+      "reaction_smiles": "CC[C@H](C)CO.CS(C)=O.CCN(CC)CC.ClCCl.O.O=C(Cl)C(=O)Cl>>CC[C@H](C)C=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]([CH3:4])[CH2:5][OH:6]>CCN(CC)CC.CS(C)=O.ClCCl.O.O=C(Cl)C(=O)Cl>[CH3:1][CH2:2][C@H:3]([CH3:4])[CH:5]=[O:6]",
+      "mapping_confidence": 0.9753683035584595,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; TEA; DCM; 0\u00b0C; 3h; Swern oxidation",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_2",
+      "reaction_smiles": "CC[C@H](C)C=O.CCOC(=O)C(C)=P(c1ccccc1)(c1ccccc1)c1ccccc1>>CCOC(=O)/C(C)=C/[C@@H](C)CC",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH3:7])cc1.O=[CH:8][C@@H:9]([CH3:10])[CH2:11][CH3:12]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6]([CH3:7])=[CH:8]/[C@@H:9]([CH3:10])[CH2:11][CH3:12]",
+      "mapping_confidence": 0.9836722710755655,
+      "conditions": {
+        "raw_description": "reflux; 12h; 85% (2 steps); Wittig olefination",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_3",
+      "reaction_smiles": "CCOC(=O)/C(C)=C/[C@@H](C)CC.CC(C)C[Al+]CC(C)C.[H-].ClCCl.O.CC(C)C[AlH]CC(C)C>>CC[C@H](C)/C=C(\\C)CO",
+      "reaction_smiles_mapped": "CCO[C:8](/[C:6](=[CH:5]/[C@H:3]([CH2:2][CH3:1])[CH3:4])[CH3:7])=[O:9]>CC(C)C[Al+]CC(C)C.[H-].ClCCl.O.CC(C)C[AlH]CC(C)C>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6](\\[CH3:7])[CH2:8][OH:9]",
+      "mapping_confidence": 0.7683268966500997,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; rt. 2h; 55%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_4",
+      "reaction_smiles": "CC[C@H](C)/C=C(\\C)CO.O=[Mn]=O.C1CCOC1>>CC[C@H](C)/C=C(\\C)C=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6](\\[CH3:7])[CH2:8][OH:9]>O=[Mn]=O.C1CCOC1>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6](\\[CH3:7])[CH:8]=[O:9]",
+      "mapping_confidence": 0.967697441533865,
+      "conditions": {
+        "raw_description": "MnO2; THF; 24h",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_5",
+      "reaction_smiles": "CC[C@H](C)/C=C(\\C)C=O.IC(I)I.C1COCCO1.C1CCOC1.O.Cl[Cr]Cl>>CC[C@H](C)/C=C(C)/C=C/I",
+      "reaction_smiles_mapped": "O=[CH:8]/[C:6](=[CH:5]/[C@H:3]([CH2:2][CH3:1])[CH3:4])[CH3:7].I[CH:9](I)[I:10]>C1COCCO1.C1CCOC1.O.Cl[Cr]Cl>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[I:10]",
+      "mapping_confidence": 0.36712820604053786,
+      "conditions": {
+        "raw_description": "CrCl2; CHI3; dioxane/THF; 0\u00b0C; 2h; Takai olefination",
+        "GENERAL_REAGENTS": [
+          "CHI3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(I)(I)I"
+        ],
+        "CATALYSTS": [
+          "CrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cr]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_6",
+      "reaction_smiles": "COc1ccc(C=O)c(OC)c1C.CNCCN(C)C.[Li]CCCC.C1CCOC1.[HH].BrB(Br)Br.ClCCl.[Li]CCCC.ICCI>>Cc1c(O)cc(I)c(C=O)c1O",
+      "reaction_smiles_mapped": "C[O:4][c:3]1[c:2]([CH3:1])[c:11]([O:12]C)[c:8]([CH:9]=[O:10])[cH:6][cH:5]1.ICC[I:7]>CNCCN(C)C.[Li]CCCC.[Li]CCCC.C1CCOC1.[HH].BrB(Br)Br.ClCCl>[CH3:1][c:2]1[c:3]([OH:4])[cH:5][c:6]([I:7])[c:8]([CH:9]=[O:10])[c:11]1[OH:12]",
+      "mapping_confidence": 0.573283564490919,
+      "conditions": {
+        "raw_description": "1) nBuLi; C2H4I2; THF; 0\u00b0C; 1h; 2) BBr3; DCM; 0\u00b0C; 1h; 33% (3 steps); nBuLi",
+        "GENERAL_REAGENTS": [
+          "C2H4I2",
+          "BBr3",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(CI)I",
+          "B(Br)(Br)Br",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "33% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_7",
+      "reaction_smiles": "Cc1c(O)cc(I)c(C=O)c1O.C#C[Si](C)(C)C.CC(C)NC(C)C.O=C([O-])[O-].[K+].[K+].CC#N.CC#N.CC#N.CC#N.[Cl-].[Cl-].[Pd+2].[Cu+].[I-].CC(C)(C)P(C(C)(C)C)C(C)(C)C.F[B-](F)(F)F.[H+].CO>>C#Cc1cc(O)c(C)c(O)c1C=O",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:2]#[CH:1].I[c:3]1[cH:4][c:5]([OH:6])[c:7]([CH3:8])[c:9]([OH:10])[c:11]1[CH:12]=[O:13]>CC(C)NC(C)C.O=C([O-])[O-].[K+].[K+].CC#N.CC#N.CC#N.CC#N.[Cl-].[Cl-].[Pd+2].[Cu+].[I-].CC(C)(C)P(C(C)(C)C)C(C)(C)C.F[B-](F)(F)F.[H+].CO>[CH:1]#[C:2][c:3]1[cH:4][c:5]([OH:6])[c:7]([CH3:8])[c:9]([OH:10])[c:11]1[CH:12]=[O:13]",
+      "mapping_confidence": 0.7232856640792267,
+      "conditions": {
+        "raw_description": "1) CuI; tBu3P-HBF4; iPr2NH; PdCl2(MeCN)4; rt; 12h; 2) K2CO3; MeOH; rt; 1h; 80% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "iPr2NH",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)NC(C)C",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "PdCl2(MeCN)4",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd+2].[Cl-].[Cl-].CC#N.CC#N.CC#N.CC#N",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [
+          "tBu3P-HBF4"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)(C)P(C(C)(C)C)C(C)(C)C.[H+].F[B-](F)(F)F"
+        ],
+        "SOLVENTS": [
+          "MeOH",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_8",
+      "reaction_smiles": "C#Cc1cc(O)c(C)c(O)c1C=O.CC[C@H](C)/C=C(C)/C=C/I.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCN(CC)CC>>CC[C@H](C)/C=C(C)/C=C/C#Cc1cc(O)c(C)c(O)c1C=O",
+      "reaction_smiles_mapped": "[CH:10]#[C:11][c:12]1[cH:13][c:14]([OH:15])[c:16]([CH3:17])[c:18]([OH:19])[c:20]1[CH:21]=[O:22].I/[CH:9]=[CH:8]/[C:6](=[CH:5]/[C@H:3]([CH2:2][CH3:1])[CH3:4])[CH3:7]>[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCN(CC)CC>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]#[C:11][c:12]1[cH:13][c:14]([OH:15])[c:16]([CH3:17])[c:18]([OH:19])[c:20]1[CH:21]=[O:22]",
+      "mapping_confidence": 0.9630276893927293,
+      "conditions": {
+        "raw_description": "CuI; Pd(PPh3)4; TEA; 12 h; rt; 55%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(PPh3)4",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_9",
+      "reaction_smiles": "CC[C@H](C)/C=C(C)/C=C/C#Cc1cc(O)c(C)c(O)c1C=O.CCN(C(C)C)C(C)C.CN(C)c1ccncc1.ClCCl.CN1C[C@H]2C[C@@H](C1)[C@H]1CCCCN1C2>>CC[C@H](C)/C=C(C)/C=C/C#CC1=CC(=O)[C@](C)(O)C(=O)/C1=C/O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]#[C:11][c:12]1[cH:13][c:14]([OH:15])[c:16]([CH3:17])[c:19]([OH:20])[c:21]1[CH:22]=[O:23]>CCN(C(C)C)C(C)C.CN(C)c1ccncc1.ClCCl.CN1C[C@H]2C[C@@H](C1)[C@H]1CCCCN1C2>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]#[C:11][C:12]1=[CH:13][C:14](=[O:15])[C@:16]([CH3:17])([OH:18])[C:19](=[O:20])/[C:21]1=[CH:22]/[OH:23]",
+      "mapping_confidence": 0.8829287531421833,
+      "conditions": {
+        "raw_description": "[(+)-sparteine mimic]2Cu2O2(BF4)2; DIPEA; DMAP; DCM; -78\u00b0C to -10\u00b0C",
+        "GENERAL_REAGENTS": [
+          "(+)-sparteine mimic",
+          "DIPEA",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN1C[C@H]2C[C@@H](C1)[C@H]3CCCCN3C2",
+          "CCN(C(C)C)C(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_10",
+      "reaction_smiles": "CC[C@H](C)/C=C(C)/C=C/C#CC1=CC(=O)[C@](C)(O)C(=O)/C1=C/O.O=P(O)(O)O.O=P([O-])([O-])O.[K+].[K+].CC#N.O=P([O-])(O)O>>CC[C@H](C)/C=C(C)/C=C/C1=CC2=CC(=O)[C@](C)(O)C(=O)C2=CO1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]#[C:11][C:12]1=[CH:13][C:14](=[O:15])[C@:16]([CH3:17])([OH:18])[C:19](=[O:20])/[C:21]1=[CH:22]/[OH:23]>O=P(O)(O)O.O=P([O-])([O-])O.[K+].[K+].CC#N.O=P([O-])(O)O>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[CH:13][C:14](=[O:15])[C@:16]([CH3:17])([OH:18])[C:19](=[O:20])[C:21]2=[CH:22][O:23]1",
+      "mapping_confidence": 0.9306911546550858,
+      "conditions": {
+        "raw_description": "H2PO4/K2HPO4 (pH 7.2); MeCN; rt; 76% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2PO4",
+          "K2HPO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(O)(O)[O-]",
+          "OP(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [
+          "pH 7.2"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "76% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_11",
+      "reaction_smiles": "CC[C@H](C)/C=C(C)/C=C/C1=CC2=CC(=O)[C@](C)(O)C(=O)C2=CO1.CC(=O)OC(C)=O.CN(C)c1ccncc1.CCN(C(C)C)C(C)C>>CC[C@H](C)/C=C(C)/C=C/C1=CC2=CC(=O)[C@](C)(OC(C)=O)C(=O)C2=CO1",
+      "reaction_smiles_mapped": "CC(=O)O[C:19]([CH3:20])=[O:21].[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[CH:13][C:14](=[O:15])[C@:16]([CH3:17])([OH:18])[C:22](=[O:23])[C:24]2=[CH:25][O:26]1>CN(C)c1ccncc1.CCN(C(C)C)C(C)C>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[CH:13][C:14](=[O:15])[C@:16]([CH3:17])([O:18][C:19]([CH3:20])=[O:21])[C:22](=[O:23])[C:24]2=[CH:25][O:26]1",
+      "mapping_confidence": 0.5778883375048853,
+      "conditions": {
+        "raw_description": "Ac2O; DMAP; DIPEA; 0\u00b0C; 0.5h",
+        "GENERAL_REAGENTS": [
+          "DIPEA",
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_12",
+      "reaction_smiles": "CC[C@H](C)/C=C(C)/C=C/C1=CC2=CC(=O)[C@](C)(OC(C)=O)C(=O)C2=CO1.CC#N.O=C1CCC(=O)N1Cl>>CC[C@H](C)/C=C(C)/C=C/C1=CC2=C(Cl)C(=O)[C@](C)(OC(C)=O)C(=O)C2=CO1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[CH:13][C:15](=[O:16])[C@:17]([CH3:18])([O:19][C:20]([CH3:21])=[O:22])[C:23](=[O:24])[C:25]2=[CH:26][O:27]1.O=C1CCC(=O)N1[Cl:14]>CC#N>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[C:13]([Cl:14])[C:15](=[O:16])[C@:17]([CH3:18])([O:19][C:20]([CH3:21])=[O:22])[C:23](=[O:24])[C:25]2=[CH:26][O:27]1",
+      "mapping_confidence": 0.9658181695619572,
+      "conditions": {
+        "raw_description": "NCS; MeCN; rt; 1d; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NCS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sclerotiorin_2011_Porco_13",
+      "reaction_smiles": "CC[C@H](C)/C=C(C)/C=C/C1=CC2=C(Cl)C(=O)[C@](C)(OC(C)=O)C(=O)C2=CO1.CO.CC(=O)[O-].[NH4+]>>CC[C@H](C)/C=C(C)/C=C/C1=CC2=C(Cl)C(=O)[C@](C)(OC(C)=O)C(=O)C2=CN1",
+      "reaction_smiles_mapped": "O1[C:10](/[CH:9]=[CH:8]/[C:6](=[CH:5]/[C@H:3]([CH2:2][CH3:1])[CH3:4])[CH3:7])=[CH:11][C:12]2=[C:13]([Cl:14])[C:15](=[O:16])[C@:17]([CH3:18])([O:19][C:20]([CH3:21])=[O:22])[C:23](=[O:24])[C:25]2=[CH:26]1.[NH4+:27]>CO.CC(=O)[O-]>[CH3:1][CH2:2][C@H:3]([CH3:4])/[CH:5]=[C:6]([CH3:7])/[CH:8]=[CH:9]/[C:10]1=[CH:11][C:12]2=[C:13]([Cl:14])[C:15](=[O:16])[C@:17]([CH3:18])([O:19][C:20]([CH3:21])=[O:22])[C:23](=[O:24])[C:25]2=[CH:26][NH:27]1",
+      "mapping_confidence": 0.9740234522776602,
+      "conditions": {
+        "raw_description": "NH4OAc; MeOH; rt; 0.5h; 60%",
+        "GENERAL_REAGENTS": [
+          "NH4OAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[NH4+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    }
+  ]
+}

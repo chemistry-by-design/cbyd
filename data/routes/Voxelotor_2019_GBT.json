@@ -1,0 +1,197 @@
+{
+  "background": {
+    "name": "Voxelotor",
+    "author": null,
+    "year": 2019,
+    "drug_name": "Oxbryta",
+    "manufacturer": "GBT",
+    "citation": "J. Med. Chem. 2021, 64, 3604",
+    "doi": "10.1021/acs.jmedchem.1c00208"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Voxelotor_2019_GBT_1",
+      "reaction_smiles": "Oc1cccc(O)c1.C=COCC.C=COCC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.C1CCOC1>>CCOCCOc1cccc(OCCOCC)c1",
+      "reaction_smiles_mapped": "[CH2:13]=[CH:14][O:15][CH2:16][CH3:17].[CH3:1][CH2:2][O:3][CH:4]=[CH2:5].[OH:6][c:7]1[cH:8][cH:9][cH:10][c:11]([OH:12])[cH:18]1>C1CCOC1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH3:1][CH2:2][O:3][CH2:4][CH2:5][O:6][c:7]1[cH:8][cH:9][cH:10][c:11]([O:12][CH2:13][CH2:14][O:15][CH2:16][CH3:17])[cH:18]1",
+      "mapping_confidence": 0.25947363446890154,
+      "conditions": {
+        "raw_description": "PPTS; THF",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Voxelotor_2019_GBT_2",
+      "reaction_smiles": "CCOCCOc1cccc(OCCOCC)c1.[Li]CCCC.CN(C)C=O.C1CCOC1>>CCOCCOc1cccc(OCCOCC)c1C=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][CH2:4][CH2:5][O:6][c:7]1[cH:8][cH:9][cH:10][c:11]([O:12][CH2:13][CH2:14][O:15][CH2:16][CH3:17])[cH:18]1.CN(C)[CH:19]=[O:20]>C1CCOC1.[Li]CCCC>[CH3:1][CH2:2][O:3][CH2:4][CH2:5][O:6][c:7]1[cH:8][cH:9][cH:10][c:11]([O:12][CH2:13][CH2:14][O:15][CH2:16][CH3:17])[c:18]1[CH:19]=[O:20]",
+      "mapping_confidence": 0.7747388494566055,
+      "conditions": {
+        "raw_description": "nBuLi; DMF; THF; -5 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Voxelotor_2019_GBT_3",
+      "reaction_smiles": "CCOCCOc1cccc(OCCOCC)c1C=O.Cl>>O=Cc1c(O)cccc1O",
+      "reaction_smiles_mapped": "CCOCC[O:5][c:4]1[c:3]([CH:2]=[O:1])[c:9]([O:10]CCOCC)[cH:8][cH:7][cH:6]1>Cl>[O:1]=[CH:2][c:3]1[c:4]([OH:5])[cH:6][cH:7][cH:8][c:9]1[OH:10]",
+      "mapping_confidence": 0.5319772065456553,
+      "conditions": {
+        "raw_description": "HCl; 65% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Voxelotor_2019_GBT_4",
+      "reaction_smiles": "O=Cc1c(O)cccc1O.CC(C)n1nccc1-c1ncccc1CCl.[Na+].[I-].O=C([O-])O.[Na+].CN1CCCC1.[I-].[Na+].O=C([O-])O.[Na+].CN1CCCC1=O>>CC(C)n1nccc1-c1ncccc1COc1cccc(O)c1C=O",
+      "reaction_smiles_mapped": "Cl[CH2:15][c:14]1[c:9](-[c:8]2[n:4]([CH:2]([CH3:1])[CH3:3])[n:5][cH:6][cH:7]2)[n:10][cH:11][cH:12][cH:13]1.[OH:16][c:17]1[cH:18][cH:19][cH:20][c:21]([OH:22])[c:23]1[CH:24]=[O:25]>CN1CCCC1.CN1CCCC1=O.O=C([O-])O.O=C([O-])O.[I-].[I-].[Na+].[Na+].[Na+].[Na+]>[CH3:1][CH:2]([CH3:3])[n:4]1[n:5][cH:6][cH:7][c:8]1-[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][O:16][c:17]1[cH:18][cH:19][cH:20][c:21]([OH:22])[c:23]1[CH:24]=[O:25]",
+      "mapping_confidence": 0.6326049225699283,
+      "conditions": {
+        "raw_description": "NaI; NaHCO3; NMP; 40 to 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaI",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40",
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Voxelotor_2019_GBT_5",
+      "reaction_smiles": "OCc1cccnc1Cl.CC(C)n1nccc1B1OC(C)(C)C(C)(C)O1.ClCCl.O=C([O-])O.[Na+].O.Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.CC1CCCO1>>CC(C)n1nccc1-c1ncccc1CO",
+      "reaction_smiles_mapped": "CC1(C)OB([c:8]2[n:4]([CH:2]([CH3:1])[CH3:3])[n:5][cH:6][cH:7]2)OC1(C)C.Cl[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][OH:16]>CC1CCCO1.ClCCl.Cl[Pd]Cl.O.O=C([O-])O.[Fe+2].[Na+].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>[CH3:1][CH:2]([CH3:3])[n:4]1[n:5][cH:6][cH:7][c:8]1-[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][OH:16]",
+      "mapping_confidence": 0.9273203630691057,
+      "conditions": {
+        "raw_description": "Pd(dppf)Cl2; NaHCO3; 2-MeTHF; H2O; 70 to 75 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd(dppf)Cl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "2-MeTHF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1CCCO1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70",
+          "75"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Voxelotor_2019_GBT_6",
+      "reaction_smiles": "CC(C)n1nccc1-c1ncccc1CO.O=S(Cl)Cl.ClCCl>>CC(C)n1nccc1-c1ncccc1CCl",
+      "reaction_smiles_mapped": "O[CH2:15][c:14]1[c:9](-[c:8]2[n:4]([CH:2]([CH3:1])[CH3:3])[n:5][cH:6][cH:7]2)[n:10][cH:11][cH:12][cH:13]1.O=S(Cl)[Cl:16]>ClCCl>[CH3:1][CH:2]([CH3:3])[n:4]1[n:5][cH:6][cH:7][c:8]1-[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][Cl:16]",
+      "mapping_confidence": 0.47594771626522847,
+      "conditions": {
+        "raw_description": "SOCl2; DCM",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

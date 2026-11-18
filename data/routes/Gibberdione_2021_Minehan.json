@@ -1,0 +1,304 @@
+{
+  "background": {
+    "name": "(-)-Gibberdione",
+    "author": "Minehan",
+    "year": 2021,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2021, 86, 3074",
+    "doi": "10.1021/acs.joc.0c02747"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_1",
+      "reaction_smiles": "CC(C)=C1CC[C@@H](C)CC1=O.C1CCOC1.[Li]CP(=O)(OC)OC>>COP(=O)(CC1(O)C[C@H](C)CCC1=C(C)C)OC",
+      "reaction_smiles_mapped": "[C:6]1(=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12][C:13]1=[C:14]([CH3:15])[CH3:16].[Li][CH2:5][P:3]([O:2][CH3:1])(=[O:4])[O:17][CH3:18]>C1CCOC1>[CH3:1][O:2][P:3](=[O:4])([CH2:5][C:6]1([OH:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12][C:13]1=[C:14]([CH3:15])[CH3:16])[O:17][CH3:18]",
+      "mapping_confidence": 0.48852298891386814,
+      "conditions": {
+        "raw_description": "(CH3O)P(O)CH2Li; THF; -78 \u00b0 C",
+        "GENERAL_REAGENTS": [
+          "(CH3O)P(O)CH2Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CP(=O)(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_2",
+      "reaction_smiles": "COP(=O)(CC1(O)C[C@H](C)CCC1=C(C)C)OC.CC(C)O.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Ce+3]>>C=C(C)C1=C(CP(=O)(OC)OC)C[C@H](C)CC1",
+      "reaction_smiles_mapped": "O[C:5]1([CH2:6][P:7](=[O:8])([O:9][CH3:10])[O:11][CH3:12])[C:4](=[C:2]([CH3:1])[CH3:3])[CH2:17][CH2:16][C@@H:14]([CH3:15])[CH2:13]1>CC(C)O.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Ce+3]>[CH2:1]=[C:2]([CH3:3])[C:4]1=[C:5]([CH2:6][P:7](=[O:8])([O:9][CH3:10])[O:11][CH3:12])[CH2:13][C@H:14]([CH3:15])[CH2:16][CH2:17]1",
+      "mapping_confidence": 0.5544030134220873,
+      "conditions": {
+        "raw_description": "Ce(OTf)3; iPrOH; 80 \u00b0 C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Ce(OTf)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)[O-].C(F)(F)(F)S(=O)(=O)[O-].C(F)(F)(F)S(=O)(=O)[O-].[Ce+3]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_3",
+      "reaction_smiles": "C=C(C)C1=C(CP(=O)(OC)OC)C[C@H](C)CC1.O=[O+][O-].O=[O+][O-].CSC.CO>>COP(=O)(CC(=O)C[C@H](C)CCC(=O)C(C)=O)OC",
+      "reaction_smiles_mapped": "C[C:15]([C:13]1=[C:6]([CH2:5][P:3]([O:2][CH3:1])(=[O:4])[O:18][CH3:19])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1)=[CH2:16].[O-][O+]=[O:17].[O+]([O-:7])=[O:14]>CO.CSC>[CH3:1][O:2][P:3](=[O:4])([CH2:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12][C:13](=[O:14])[C:15]([CH3:16])=[O:17])[O:18][CH3:19]",
+      "mapping_confidence": 0.008497832502345525,
+      "conditions": {
+        "raw_description": "O3; DMS; MeOH; 70% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "DMS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_4",
+      "reaction_smiles": "COP(=O)(CC(=O)C[C@H](C)CCC(=O)C(C)=O)OC.O=C([O-])[O-].[K+].[K+].C1CCOC1.O.O=C([O-])[O-].[K+].[K+]>>CC(=O)C1=CC(=O)C[C@H](C)CC1",
+      "reaction_smiles_mapped": "COP(=O)(OC)[CH2:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12][C:4](=O)[C:2]([CH3:1])=[O:3]>C1CCOC1.O.O=C([O-])[O-].O=C([O-])[O-].[K+].[K+].[K+].[K+]>[CH3:1][C:2](=[O:3])[C:4]1=[CH:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1",
+      "mapping_confidence": 0.968019798212313,
+      "conditions": {
+        "raw_description": "K2CO3; THF; H2O; 60%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_5",
+      "reaction_smiles": "CC(=O)C1=CC(=O)C[C@H](C)CC1.CC(C)(C)[O-].[K+].C1CCOC1.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].CC(C)(C)[O-].[K+]>>C=C(C)C1=CC(=O)C[C@H](C)CC1",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:3])[C:4]1=[CH:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>C1CCOC1.CC(C)(C)[O-].CC(C)(C)[O-].[Br-].[K+].[K+]>[CH2:1]=[C:2]([CH3:3])[C:4]1=[CH:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1",
+      "mapping_confidence": 0.7744304878316789,
+      "conditions": {
+        "raw_description": "CH3PPh3Br; tBuOK; THF",
+        "GENERAL_REAGENTS": [
+          "CH3PPh3Br"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_6",
+      "reaction_smiles": "C=C(C)C1=CC(=O)C[C@H](C)CC1.[H][H].C1CCOC1.[HH].Cl[Rh-3]([P+](c1ccccc1)(c1ccccc1)c1ccccc1)([P+](c1ccccc1)(c1ccccc1)c1ccccc1)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.CC(C)(C)O>>CC(C)C1=CC(=O)C[C@H](C)CC1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C:4]1=[CH:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1>C1CCOC1.CC(C)(C)O.Cl[Rh-3]([P+](c1ccccc1)(c1ccccc1)c1ccccc1)([P+](c1ccccc1)(c1ccccc1)c1ccccc1)[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[HH].[H][H]>[CH3:1][CH:2]([CH3:3])[C:4]1=[CH:5][C:6](=[O:7])[CH2:8][C@H:9]([CH3:10])[CH2:11][CH2:12]1",
+      "mapping_confidence": 0.7325015580555385,
+      "conditions": {
+        "raw_description": "H2; ClRh(PPh3)3; THF; tBuOH; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "ClRh(PPh3)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Rh-3]([P+](c1ccccc1)(c2ccccc2)c3ccccc3)([P+](c4ccccc4)(c5ccccc5)c6ccccc6)[P+](c7ccccc7)(c8ccccc8)c9ccccc9"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_7",
+      "reaction_smiles": "CC(C)C1=CC(=O)C[C@H](C)CC1.C=CCOC(=O)C#N.CC(C)[N-]C(C)C.[Li+].C1CCOC1.[Li]N(C(C)C)C(C)C>>C=CCOC(=O)[C@@H]1C(=O)C=C(C(C)C)CC[C@H]1C",
+      "reaction_smiles_mapped": "N#C[C:5]([O:4][CH2:3][CH:2]=[CH2:1])=[O:6].[CH2:7]1[C:8](=[O:9])[CH:10]=[C:11]([CH:12]([CH3:13])[CH3:14])[CH2:15][CH2:16][C@H:17]1[CH3:18]>C1CCOC1.CC(C)[N-]C(C)C.[Li+].[Li]N(C(C)C)C(C)C>[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[C@@H:7]1[C:8](=[O:9])[CH:10]=[C:11]([CH:12]([CH3:13])[CH3:14])[CH2:15][CH2:16][C@H:17]1[CH3:18]",
+      "mapping_confidence": 0.8513038004669833,
+      "conditions": {
+        "raw_description": "LDA; THF; -78 \u00b0 C to rt",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_8",
+      "reaction_smiles": "C=CCOC(=O)[C@@H]1C(=O)C=C(C(C)C)CC[C@H]1C.C=CC(C)=O.O=C([O-])[O-].[K+].[K+].CC(C)=O.O=C([O-])[O-].[K+].[K+]>>C=CCOC(=O)[C@@]1(CCC(C)=O)C(=O)C=C(C(C)C)CC[C@H]1C",
+      "reaction_smiles_mapped": "[CH2:8]=[CH:9][C:10]([CH3:11])=[O:12].[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[C@@H:7]1[C:13](=[O:14])[CH:15]=[C:16]([CH:17]([CH3:18])[CH3:19])[CH2:20][CH2:21][C@H:22]1[CH3:23]>CC(C)=O.O=C([O-])[O-].O=C([O-])[O-].[K+].[K+].[K+].[K+]>[CH2:1]=[CH:2][CH2:3][O:4][C:5](=[O:6])[C@@:7]1([CH2:8][CH2:9][C:10]([CH3:11])=[O:12])[C:13](=[O:14])[CH:15]=[C:16]([CH:17]([CH3:18])[CH3:19])[CH2:20][CH2:21][C@H:22]1[CH3:23]",
+      "mapping_confidence": 0.7518809751848563,
+      "conditions": {
+        "raw_description": "K2CO3; acetone; 63% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gibberdione_2021_Minehan_9",
+      "reaction_smiles": "C=CCOC(=O)[C@@]1(CCC(C)=O)C(=O)C=C(C(C)C)CC[C@H]1C.CC(=O)[O-].CC(=O)[O-].[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC#N.CCN(CC)CC.O.CC(=O)[O-].CC(=O)[O-].[Pd+2]>>CC(=O)CC[C@H]1C(=O)C=C(C(C)C)CC[C@H]1C",
+      "reaction_smiles_mapped": "C=CCOC(=O)[C@@:6]1([CH2:5][CH2:4][C:2]([CH3:1])=[O:3])[C:7](=[O:8])[CH:9]=[C:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15][C@H:16]1[CH3:17]>CC#N.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CCN(CC)CC.O.[Pd+2].[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH:9]=[C:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15][C@H:16]1[CH3:17]",
+      "mapping_confidence": 0.6886104224461429,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; PPh3; MeCN; Et3N; H2O; 84%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

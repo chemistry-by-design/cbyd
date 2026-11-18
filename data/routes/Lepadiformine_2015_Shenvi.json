@@ -1,0 +1,329 @@
+{
+  "background": {
+    "name": "Lepadiformine",
+    "author": "Shenvi",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2015, 17, 5776",
+    "doi": "10.1021/acs.orglett.5b02992"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_1",
+      "reaction_smiles": "CCCCC/C=C\\CCI.C1CCC(=NC2CCCCC2)CC1.[Li]CCCC>>CCCCC/C=C/CCC1CCCCC1=O",
+      "reaction_smiles_mapped": "C1CCC(N=[C:15]2[CH2:10][CH2:11][CH2:12][CH2:13][CH2:14]2)CC1.I[CH2:9][CH2:8]/[CH:7]=[CH:6]\\[CH2:5][CH2:4][CH2:3][CH2:2][CH3:1]>[Li]CCCC>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][CH:10]1[CH2:11][CH2:12][CH2:13][CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.6919768373492579,
+      "conditions": {
+        "raw_description": "BuLi; 82%",
+        "GENERAL_REAGENTS": [
+          "BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_2",
+      "reaction_smiles": "CCCCC/C=C/CCC1CCCCC1=O.C[Si](C)(C)Cl.[I-].[Na+].CCN(CC)CC.CC#N>>CCCCC/C=C/CCC1=C(O[Si](C)(C)C)CCCC1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][CH:10]1[C:11](=[O:12])[CH2:17][CH2:18][CH2:19][CH2:20]1.Cl[Si:13]([CH3:14])([CH3:15])[CH3:16]>[I-].[Na+].CCN(CC)CC.CC#N>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][C:10]1=[C:11]([O:12][Si:13]([CH3:14])([CH3:15])[CH3:16])[CH2:17][CH2:18][CH2:19][CH2:20]1",
+      "mapping_confidence": 0.45713002945315223,
+      "conditions": {
+        "raw_description": "TMSCl; NaI; Et3N; MeCN; 95%",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "NaI",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Na+].[I-]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_3",
+      "reaction_smiles": "CCCCC/C=C/CCC1=C(O[Si](C)(C)C)CCCC1.[Li]C.O=S(=O)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F.C1CCOC1>>CCCCC/C=C/CCC1=C(OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)CCCC1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:12][C:11]1=[C:10]([CH2:9][CH2:8]/[CH:7]=[CH:6]/[CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH2:32][CH2:31][CH2:30][CH2:29]1.F[S:13](=[O:14])(=[O:15])[C:16]([F:17])([F:18])[C:19]([F:20])([F:21])[C:22]([F:23])([F:24])[C:25]([F:26])([F:27])[F:28]>[Li]C.C1CCOC1>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][C:10]1=[C:11]([O:12][S:13](=[O:14])(=[O:15])[C:16]([F:17])([F:18])[C:19]([F:20])([F:21])[C:22]([F:23])([F:24])[C:25]([F:26])([F:27])[F:28])[CH2:29][CH2:30][CH2:31][CH2:32]1",
+      "mapping_confidence": 0.027390078876132415,
+      "conditions": {
+        "raw_description": "MeLi; NtF; THF; 80%",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "NtF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "FS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_4",
+      "reaction_smiles": "CCCCC/C=C/CCC1=C(OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)CCCC1.CC(C)(C)OC(=O)NCCC[Zn]I.Cl[Pd]Cl.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.CN(C)C=O>>CCCCC/C=C/CCC1=C(CCCNC(=O)OC(C)(C)C)CCCC1",
+      "reaction_smiles_mapped": "I[Zn][CH2:12][CH2:13][CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22].O=S(=O)(O[C:11]1=[C:10]([CH2:9][CH2:8]/[CH:7]=[CH:6]/[CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH2:26][CH2:25][CH2:24][CH2:23]1)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F>Cl[Pd]Cl.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.CN(C)C=O>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][C:10]1=[C:11]([CH2:12][CH2:13][CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][CH2:24][CH2:25][CH2:26]1",
+      "mapping_confidence": 0.3094843881189157,
+      "conditions": {
+        "raw_description": "Pd(PPh3)2Cl2; DMF; 68%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(PPh3)2Cl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.Cl[Pd]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_5",
+      "reaction_smiles": "CCCCC/C=C/CCC1=C(CCCNC(=O)OC(C)(C)C)CCCC1.FB(F)F.CCOCC.ClCCl>>CCCCC/C=C/CCC1=C(CCCN)CCCC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:15][CH2:14][CH2:13][CH2:12][C:11]1=[C:10]([CH2:9][CH2:8]/[CH:7]=[CH:6]/[CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH2:19][CH2:18][CH2:17][CH2:16]1>FB(F)F.CCOCC.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:8][CH2:9][C:10]1=[C:11]([CH2:12][CH2:13][CH2:14][NH2:15])[CH2:16][CH2:17][CH2:18][CH2:19]1",
+      "mapping_confidence": 0.9748045966424485,
+      "conditions": {
+        "raw_description": "BF3 Et2O; CH2Cl2; 76%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_6",
+      "reaction_smiles": "CCCCC/C=C/CCC1=C(CCCN)CCCC1.B.II.C[O-].[Na+].[Na+].[OH-].OO.CSC.ClCCl>>CCCCCC[C@H](O)CC[C@@H]1CCCC[C@]12CCCN2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5]/[CH:6]=[CH:7]/[CH2:9][CH2:10][C:11]1=[C:16]([CH2:17][CH2:18][CH2:19][NH2:20])[CH2:15][CH2:14][CH2:13][CH2:12]1.O[OH:8]>B.II.C[O-].[Na+].[Na+].[OH-].CSC.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]([OH:8])[CH2:9][CH2:10][C@@H:11]1[CH2:12][CH2:13][CH2:14][CH2:15][C@:16]12[CH2:17][CH2:18][CH2:19][NH:20]2",
+      "mapping_confidence": 0.5095024238811693,
+      "conditions": {
+        "raw_description": "BH3 DMS; CH2Cl2; I2 NaOMe; NaOH; H2O2; 41%",
+        "GENERAL_REAGENTS": [
+          "BH3",
+          "I2",
+          "NaOMe",
+          "NaOH",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B",
+          "II",
+          "C[O-].[Na+]",
+          "[OH-].[Na+]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMS",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CSC",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "41%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_7",
+      "reaction_smiles": "CCCCCC[C@H](O)CC[C@@H]1CCCC[C@]12CCCN2.BrC(Br)(Br)Br.CCN(CC)CC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CCCCCC[C@@H]1CC[C@@H]2CCCCC23CCCN13",
+      "reaction_smiles_mapped": "O[C@@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH2:8][CH2:9][C@@H:10]1[CH2:11][CH2:12][CH2:13][CH2:14][C@:15]12[CH2:16][CH2:17][CH2:18][NH:19]2>BrC(Br)(Br)Br.CCN(CC)CC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][C@@H:10]2[CH2:11][CH2:12][CH2:13][CH2:14][C:15]23[CH2:16][CH2:17][CH2:18][N:19]13",
+      "mapping_confidence": 0.9695448641184929,
+      "conditions": {
+        "raw_description": "PPh3; CBr4; Et3N; CH2Cl2; 79%",
+        "GENERAL_REAGENTS": [
+          "CBr4",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_8",
+      "reaction_smiles": "CCCCCC[C@@H]1CC[C@@H]2CCCCC23CCCN13.O=C(OO)c1cccc(Cl)c1.[C-]#N.[K+].ClCCl.O=C(OC(=O)C(F)(F)F)C(F)(F)F>>CCCCCC[C@@H]1CC[C@@H]2CCCCC23CC[C@@H](C#N)N13",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][C@@H:10]2[CH2:11][CH2:12][CH2:13][CH2:14][C:15]23[CH2:16][CH2:17][CH2:18][N:21]13.[C-:19]#[N:20]>O=C(OO)c1cccc(Cl)c1.[K+].ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][C@@H:10]2[CH2:11][CH2:12][CH2:13][CH2:14][C:15]23[CH2:16][CH2:17][C@@H:18]([C:19]#[N:20])[N:21]13",
+      "mapping_confidence": 0.9686822122703406,
+      "conditions": {
+        "raw_description": "1) m-CPBA; CH2Cl2; 2) TFAA; KCN; 81%",
+        "GENERAL_REAGENTS": [
+          "m-CPBA",
+          "KCN",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO",
+          "[C-]#N.[K+]",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_9",
+      "reaction_smiles": "CCCCCC[C@@H]1CC[C@@H]2CCCCC23CC[C@@H](C#N)N13.O.O=S(=O)(O)O.CO>>CCCCCC[C@@H]1CC[C@@H]2CCCCC23CC[C@@H](C(=O)OC)N13",
+      "reaction_smiles_mapped": "N#[C:19][C@@H:18]1[CH2:17][CH2:16][C:15]23[C@H:10]([CH2:9][CH2:8][C@@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[N:23]21)[CH2:11][CH2:12][CH2:13][CH2:14]3.[OH:21][CH3:22].[OH2:20]>O=S(=O)(O)O>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][C@@H:10]2[CH2:11][CH2:12][CH2:13][CH2:14][C:15]23[CH2:16][CH2:17][C@@H:18]([C:19](=[O:20])[O:21][CH3:22])[N:23]13",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "H2SO4; MeOH",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lepadiformine_2015_Shenvi_10",
+      "reaction_smiles": "CCCCCC[C@@H]1CC[C@@H]2CCCCC23CC[C@@H](C(=O)OC)N13.[AlH4-].[Li+]>>CCCCCC[C@@H]1CC[C@@H]2CCCCC23CC[C@@H](CO)N13",
+      "reaction_smiles_mapped": "CO[C:19]([C@@H:18]1[CH2:17][CH2:16][C:15]23[C@H:10]([CH2:9][CH2:8][C@@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[N:21]21)[CH2:11][CH2:12][CH2:13][CH2:14]3)=[O:20]>[AlH4-].[Li+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][C@@H:10]2[CH2:11][CH2:12][CH2:13][CH2:14][C:15]23[CH2:16][CH2:17][C@@H:18]([CH2:19][OH:20])[N:21]13",
+      "mapping_confidence": 0.6245080566430359,
+      "conditions": {
+        "raw_description": "LAH",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

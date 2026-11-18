@@ -1,0 +1,201 @@
+{
+  "background": {
+    "name": "Oteseconazole",
+    "author": null,
+    "year": 2022,
+    "drug_name": "Vivjoa",
+    "manufacturer": "Mycovia",
+    "citation": "Pharmaceutics 2022, 14, 2538",
+    "doi": "10.3390/pharmaceutics14112538"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_1",
+      "reaction_smiles": "Brc1ccc(Br)nc1.[Cu].CS(C)=O.CCOC(=O)C(F)(F)Br>>CCOC(=O)C(F)(F)c1ccc(Br)cn1",
+      "reaction_smiles_mapped": "Br[c:9]1[cH:10][cH:11][c:12]([Br:13])[cH:14][n:15]1.Br[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])([F:7])[F:8]>[Cu].CS(C)=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]([F:7])([F:8])[c:9]1[cH:10][cH:11][c:12]([Br:13])[cH:14][n:15]1",
+      "mapping_confidence": 0.5936996700408441,
+      "conditions": {
+        "raw_description": "BrCF2CO2Et; Cu; DMSO; 20 to 40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "BrCF2CO2Et"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrC(F)(F)C(=O)OCC"
+        ],
+        "CATALYSTS": [
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20",
+          "40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_2",
+      "reaction_smiles": "CCOC(=O)C(F)(F)c1ccc(Br)cn1.Fc1ccc(Br)c(F)c1.[Li]CCCC.COC(C)(C)C>>O=C(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[C:11]([F:12])([F:13])[c:14]1[cH:15][cH:16][c:17]([Br:18])[cH:19][n:20]1.Br[c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[F:10]>[Li]CCCC.COC(C)(C)C>[O:1]=[C:2]([c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[F:10])[C:11]([F:12])([F:13])[c:14]1[cH:15][cH:16][c:17]([Br:18])[cH:19][n:20]1",
+      "mapping_confidence": 0.6086183069852467,
+      "conditions": {
+        "raw_description": "n-BuLi; MTBE; -65 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MTBE"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)OC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-65"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_3",
+      "reaction_smiles": "O=C(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1.C=CC1CN2CCC1CC2[C@H](O)c1ccnc2ccc(O)cc12.C[N+](=O)[O-]>>O=[N+]([O-])C[C@](O)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1",
+      "reaction_smiles_mapped": "[O:1]=[N+:2]([O-:3])[CH3:4].[C:5](=[O:6])([c:7]1[cH:8][cH:9][c:10]([F:11])[cH:12][c:13]1[F:14])[C:15]([F:16])([F:17])[c:18]1[cH:19][cH:20][c:21]([Br:22])[cH:23][n:24]1>C=CC1CN2CCC1CC2[C@H](O)c1ccnc2ccc(O)cc12>[O:1]=[N+:2]([O-:3])[CH2:4][C@:5]([OH:6])([c:7]1[cH:8][cH:9][c:10]([F:11])[cH:12][c:13]1[F:14])[C:15]([F:16])([F:17])[c:18]1[cH:19][cH:20][c:21]([Br:22])[cH:23][n:24]1",
+      "mapping_confidence": 0.6013651385680079,
+      "conditions": {
+        "raw_description": "CH3NO2",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3NO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_4",
+      "reaction_smiles": "O=[N+]([O-])C[C@](O)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1.[Pt].CO.[HH].[C].[Pt]>>NC[C@](O)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1",
+      "reaction_smiles_mapped": "O=[N+:1]([O-])[CH2:2][C@:3]([OH:4])([c:5]1[cH:6][cH:7][c:8]([F:9])[cH:10][c:11]1[F:12])[C:13]([F:14])([F:15])[c:16]1[cH:17][cH:18][c:19]([Br:20])[cH:21][n:22]1>[Pt].[Pt].CO.[HH].[C]>[NH2:1][CH2:2][C@:3]([OH:4])([c:5]1[cH:6][cH:7][c:8]([F:9])[cH:10][c:11]1[F:12])[C:13]([F:14])([F:15])[c:16]1[cH:17][cH:18][c:19]([Br:20])[cH:21][n:22]1",
+      "mapping_confidence": 0.6008070632082704,
+      "conditions": {
+        "raw_description": "H2; Pt/C; MeOH",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pt/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pt].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_5",
+      "reaction_smiles": "NC[C@](O)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1.C[Si](C)(C)N=[N+]=[N-].CC(=O)[O-].[Na+].CC(=O)O.COC(OC)OC>>O[C@@](Cn1cnnn1)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1",
+      "reaction_smiles_mapped": "CO[CH:5](OC)OC.C[Si](C)(C)[N:8]=[N+:7]=[N-:6].[OH:1][C@@:2]([CH2:3][NH2:4])([c:9]1[cH:10][cH:11][c:12]([F:13])[cH:14][c:15]1[F:16])[C:17]([F:18])([F:19])[c:20]1[cH:21][cH:22][c:23]([Br:24])[cH:25][n:26]1>CC(=O)O.CC(=O)[O-].[Na+]>[OH:1][C@@:2]([CH2:3][n:4]1[cH:5][n:6][n:7][n:8]1)([c:9]1[cH:10][cH:11][c:12]([F:13])[cH:14][c:15]1[F:16])[C:17]([F:18])([F:19])[c:20]1[cH:21][cH:22][c:23]([Br:24])[cH:25][n:26]1",
+      "mapping_confidence": 0.18678789798039913,
+      "conditions": {
+        "raw_description": "TMSN3; CH(OMe)3; NaOAc; AcOH",
+        "GENERAL_REAGENTS": [
+          "TMSN3",
+          "NaOAc",
+          "AcOH",
+          "CH(OMe)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N=[N+]=[N-]",
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)O",
+          "COC(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oteseconazole_2022_Mycovia_6",
+      "reaction_smiles": "O[C@@](Cn1cnnn1)(c1ccc(F)cc1F)C(F)(F)c1ccc(Br)cn1.CC1(C)OB(c2ccc(OCC(F)(F)F)cc2)OC1(C)C.ClCCl.O=C([O-])[O-].[Na+].[Na+].C1CCOC1.O.Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>>O[C@@](Cn1cnnn1)(c1ccc(F)cc1F)C(F)(F)c1ccc(-c2ccc(OCC(F)(F)F)cc2)cn1",
+      "reaction_smiles_mapped": "CC1(C)OB([c:24]2[cH:25][cH:26][c:27]([O:28][CH2:29][C:30]([F:31])([F:32])[F:33])[cH:34][cH:35]2)OC1(C)C.Br[c:23]1[cH:22][cH:21][c:20]([C:17]([C@:2]([OH:1])([CH2:3][n:4]2[cH:5][n:6][n:7][n:8]2)[c:9]2[cH:10][cH:11][c:12]([F:13])[cH:14][c:15]2[F:16])([F:18])[F:19])[n:37][cH:36]1>C1CCOC1.ClCCl.Cl[Pd]Cl.O.O=C([O-])[O-].[Fe+2].[Na+].[Na+].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>[OH:1][C@@:2]([CH2:3][n:4]1[cH:5][n:6][n:7][n:8]1)([c:9]1[cH:10][cH:11][c:12]([F:13])[cH:14][c:15]1[F:16])[C:17]([F:18])([F:19])[c:20]1[cH:21][cH:22][c:23](-[c:24]2[cH:25][cH:26][c:27]([O:28][CH2:29][C:30]([F:31])([F:32])[F:33])[cH:34][cH:35]2)[cH:36][n:37]1",
+      "mapping_confidence": 0.17464203179925025,
+      "conditions": {
+        "raw_description": "Pd(dppf)Cl2; Na2CO3; THF/H2O; 115 to 120 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd(dppf)Cl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "115",
+          "120"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

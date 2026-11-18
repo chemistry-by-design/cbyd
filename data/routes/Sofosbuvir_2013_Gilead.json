@@ -1,0 +1,429 @@
+{
+  "background": {
+    "name": "Sofosbuvir",
+    "author": null,
+    "year": 2013,
+    "drug_name": "Sovaldi",
+    "manufacturer": "Gilead",
+    "citation": "Bioorg. Med. Chem. 2015, 23, 1895",
+    "doi": "10.1016/j.bmc.2015.02.056"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_1",
+      "reaction_smiles": "CC1(C)OC[C@H](C=O)O1.CCOC(=O)C(C)=P(c1ccccc1)(c1ccccc1)c1ccccc1.ClCCl>>CCOC(=O)/C(C)=C/[C@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "O=[CH:8][C@H:9]1[CH2:10][O:11][C:12]([CH3:13])([CH3:14])[O:15]1.c1ccc(P(c2ccccc2)(c2ccccc2)=[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH3:7])cc1>ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6]([CH3:7])=[CH:8]/[C@H:9]1[CH2:10][O:11][C:12]([CH3:13])([CH3:14])[O:15]1",
+      "mapping_confidence": 0.7581283291670304,
+      "conditions": {
+        "raw_description": "Ph3PC(Me)CO2Et; CH2Cl2; -40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Ph3PC(Me)CO2Et"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1P(=C(C(=O)OCC)C)(c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_2",
+      "reaction_smiles": "CCOC(=O)/C(C)=C/[C@H]1COC(C)(C)O1.O=C([O-])O.[Na+].CC(C)=O.OCCO>>CCOC(=O)[C@@](C)(O)[C@H](O)[C@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6]([CH3:7])=[CH:9]/[C@H:11]1[CH2:12][O:13][C:14]([CH3:15])([CH3:16])[O:17]1.C(C[OH:10])[OH:8]>CC(C)=O.O=C([O-])O.[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]([CH3:7])([OH:8])[C@H:9]([OH:10])[C@H:11]1[CH2:12][O:13][C:14]([CH3:15])([CH3:16])[O:17]1",
+      "mapping_confidence": 0.1469941253370713,
+      "conditions": {
+        "raw_description": "ethylene glycol; NaHCO3; acetone; -15 \u00b0C; then 56% NaMnO4 (aq); -10 \u00b0C; 60%",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "ethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "C(CO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-15",
+          "-10"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_3",
+      "reaction_smiles": "CCOC(=O)[C@@](C)(O)[C@H](O)[C@H]1COC(C)(C)O1.CCN(CC)CC.O=S(Cl)Cl.CC#N.CC(C)O>>CCOC(=O)[C@@]1(C)OS(=O)O[C@@H]1[C@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]([CH3:7])([OH:8])[C@H:12]([OH:11])[C@H:13]1[CH2:14][O:15][C:16]([CH3:17])([CH3:18])[O:19]1.Cl[S:9](Cl)=[O:10]>CC#N.CC(C)O.CCN(CC)CC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH3:7])[O:8][S:9](=[O:10])[O:11][C@@H:12]1[C@H:13]1[CH2:14][O:15][C:16]([CH3:17])([CH3:18])[O:19]1",
+      "mapping_confidence": 0.7044571264189157,
+      "conditions": {
+        "raw_description": "i-PrOH; Et3N; SOCl2; CH3CN; 5 \u00b0C to 10 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN",
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_4",
+      "reaction_smiles": "CCOC(=O)[C@@]1(C)OS(=O)O[C@@H]1[C@H]1COC(C)(C)O1.[Na+].[O-]Cl>>CCOC(=O)[C@@]1(C)OS(=O)(=O)O[C@@H]1[C@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH3:7])[O:8][S:9](=[O:11])[O:12][C@@H:13]1[C@H:14]1[CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]1.Cl[O-:10]>[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH3:7])[O:8][S:9](=[O:10])(=[O:11])[O:12][C@@H:13]1[C@H:14]1[CH2:15][O:16][C:17]([CH3:18])([CH3:19])[O:20]1",
+      "mapping_confidence": 0.6525479894698155,
+      "conditions": {
+        "raw_description": "NaOCl; <25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_5",
+      "reaction_smiles": "CCOC(=O)[C@@]1(C)OS(=O)(=O)O[C@@H]1[C@H]1COC(C)(C)O1.CCN(CC)CC.CCN(CC)CC.F.F.F>>C[C@]1(F)C(=O)O[C@H](CO)[C@H]1O",
+      "reaction_smiles_mapped": "CCO[C:4]([C@@:2]1([CH3:1])OS(=O)(=O)[O:11][C@@H:10]1[C@@H:7]1[O:6]C(C)(C)[O:9][CH2:8]1)=[O:5].[FH:3]>CCN(CC)CC.CCN(CC)CC.F.F>[CH3:1][C@:2]1([F:3])[C:4](=[O:5])[O:6][C@H:7]([CH2:8][OH:9])[C@H:10]1[OH:11]",
+      "mapping_confidence": 0.3507826757425255,
+      "conditions": {
+        "raw_description": "Et3N; Et3N\u2022HF3; 85 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Et3N\u2022HF3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CCN(CC)CC.[H]F.[H]F.[H]F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_6",
+      "reaction_smiles": "C[C@]1(F)C(=O)O[C@H](CO)[C@H]1O.O=C(Cl)c1ccccc1.O=C(Cl)c1ccccc1.CCN(CC)CC.CC#N.CN(C)c1ccncc1>>C[C@]1(F)C(=O)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]1([F:3])[C:4](=[O:5])[O:6][C@H:7]([CH2:8][OH:9])[C@H:18]1[OH:19].Cl[C:10](=[O:11])[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.Cl[C:20](=[O:21])[c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1>CC#N.CCN(CC)CC.CN(C)c1ccncc1>[CH3:1][C@:2]1([F:3])[C:4](=[O:5])[O:6][C@H:7]([CH2:8][O:9][C:10](=[O:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]1[O:19][C:20](=[O:21])[c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1",
+      "mapping_confidence": 0.48560464864454905,
+      "conditions": {
+        "raw_description": "BzCl; Et3N; DMAP; CH3CN; 40 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [
+          "BzCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_7",
+      "reaction_smiles": "C[C@]1(F)C(=O)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1.COCC[O][AlH2-][O]CCOC.[Na+].Cc1ccccc1.OCC(F)(F)F>>C[C@]1(F)C(O)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]1([F:3])[C:4](=[O:5])[O:6][C@H:7]([CH2:8][O:9][C:10](=[O:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]1[O:19][C:20](=[O:21])[c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1>COCC[O][AlH2-][O]CCOC.Cc1ccccc1.OCC(F)(F)F.[Na+]>[CH3:1][C@:2]1([F:3])[CH:4]([OH:5])[O:6][C@H:7]([CH2:8][O:9][C:10](=[O:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]1[O:19][C:20](=[O:21])[c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1",
+      "mapping_confidence": 0.7602530631065878,
+      "conditions": {
+        "raw_description": "Red-Al; CF3CH2OH; toluene; -15 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Red-Al"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H][Al-](OCCOC)(OCCOC)[H].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "CF3CH2OH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "C(C(F)(F)F)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-15"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_8",
+      "reaction_smiles": "C[C@]1(F)C(O)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1.O=S(=O)(Cl)Cl.CCCC[N+](CCCC)(CCCC)CCCC.[Br-].ClCCl>>C[C@]1(F)C(Cl)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1",
+      "reaction_smiles_mapped": "O[CH:4]1[C@:2]([CH3:1])([F:3])[C@H:18]([O:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[C@@H:7]([CH2:8][O:9][C:10](=[O:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[O:6]1.O=S(=O)(Cl)[Cl:5]>CCCC[N+](CCCC)(CCCC)CCCC.ClCCl.[Br-]>[CH3:1][C@:2]1([F:3])[CH:4]([Cl:5])[O:6][C@H:7]([CH2:8][O:9][C:10](=[O:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]1[O:19][C:20](=[O:21])[c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1",
+      "mapping_confidence": 0.38569406862965167,
+      "conditions": {
+        "raw_description": "SO2Cl2; TBAB; DCM; 40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "SO2Cl2",
+          "TBAB"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)(Cl)Cl",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_9",
+      "reaction_smiles": "C[C@]1(F)C(Cl)O[C@H](COC(=O)c2ccccc2)[C@H]1OC(=O)c1ccccc1.O=C(Nc1cc[nH]c(=O)n1)c1ccccc1.O=S(=O)([O-])[O-].[NH4+].[NH4+].Cl[Sn]Cl.[Li]N([Si](C)(C)C)[Si](C)(C)C.Clc1ccccc1>>C[C@@]1(F)[C@H](OC(=O)c2ccccc2)[C@@H](COC(=O)c2ccccc2)O[C@H]1n1ccc(NC(=O)c2ccccc2)nc1=O",
+      "reaction_smiles_mapped": "Cl[CH:26]1[C@:2]([CH3:1])([F:3])[C@H:4]([O:5][C:6](=[O:7])[c:8]2[cH:9][cH:10][cH:11][cH:12][cH:13]2)[C@@H:14]([CH2:15][O:16][C:17](=[O:18])[c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)[O:25]1.[nH:27]1[cH:28][cH:29][c:30]([NH:31][C:32](=[O:33])[c:34]2[cH:35][cH:36][cH:37][cH:38][cH:39]2)[n:40][c:41]1=[O:42]>Cl[Sn]Cl.Clc1ccccc1.O=S(=O)([O-])[O-].[Li]N([Si](C)(C)C)[Si](C)(C)C.[NH4+].[NH4+]>[CH3:1][C@@:2]1([F:3])[C@H:4]([O:5][C:6](=[O:7])[c:8]2[cH:9][cH:10][cH:11][cH:12][cH:13]2)[C@@H:14]([CH2:15][O:16][C:17](=[O:18])[c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)[O:25][C@H:26]1[n:27]1[cH:28][cH:29][c:30]([NH:31][C:32](=[O:33])[c:34]2[cH:35][cH:36][cH:37][cH:38][cH:39]2)[n:40][c:41]1=[O:42]",
+      "mapping_confidence": 0.6681473226377022,
+      "conditions": {
+        "raw_description": "LHMDS; (NH4)2SO4; PhCl; 135 \u00b0C; then SnCl2; 70 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "(NH4)2SO4",
+          "SnCl2",
+          "LHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[NH4+].[O-]S(=O)(=O)[O-]",
+          "Cl[Sn]Cl",
+          "[Li]N([Si](C)(C)C)[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhCl"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C(C=C1)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "135",
+          "70"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_10",
+      "reaction_smiles": "C[C@@]1(F)[C@H](OC(=O)c2ccccc2)[C@@H](COC(=O)c2ccccc2)O[C@H]1n1ccc(NC(=O)c2ccccc2)nc1=O.CC(=O)O.CO.N>>C[C@@]1(F)[C@H](O)[C@@H](CO)O[C@H]1n1ccc(=O)[nH]c1=O",
+      "reaction_smiles_mapped": "O=C(c1ccccc1)[O:5][C@H:4]1[C@@:2]([CH3:1])([F:3])[C@H:10]([n:11]2[cH:12][cH:13][c:14](NC(c3ccccc3)=[O:15])[n:16][c:17]2=[O:18])[O:9][C@@H:6]1[CH2:7][O:8]C(=O)c1ccccc1>CC(=O)O.CO.N>[CH3:1][C@@:2]1([F:3])[C@H:4]([OH:5])[C@@H:6]([CH2:7][OH:8])[O:9][C@H:10]1[n:11]1[cH:12][cH:13][c:14](=[O:15])[nH:16][c:17]1=[O:18]",
+      "mapping_confidence": 0.6001307071981562,
+      "conditions": {
+        "raw_description": "1. AcOH; 110 \u00b0C; 2. NH3; MeOH; 0 \u00b0C to 15 \u00b0C; 78% for 2 steps",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110",
+          "0",
+          "15"
+        ],
+        "YIELD": [
+          "78% for 2 steps"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_11",
+      "reaction_smiles": "C[C@@]1(F)[C@H](O)[C@@H](CO)O[C@H]1n1ccc(=O)[nH]c1=O.CC(C)OC(=O)[C@H](C)NP(=O)(Oc1ccccc1)Oc1c(F)c(F)c(F)c(F)c1F.C[C](C)(C)[Mg][Cl].C1CCOC1>>CC(C)OC(=O)[C@H](C)NP(=O)(OC[C@H]1O[C@@H](n2ccc(=O)[nH]c2=O)[C@](C)(F)[C@@H]1O)Oc1ccccc1",
+      "reaction_smiles_mapped": "Fc1c(F)c(F)c(O[P:10]([NH:9][C@H:7]([C:5]([O:4][CH:2]([CH3:1])[CH3:3])=[O:6])[CH3:8])(=[O:11])[O:30][c:31]2[cH:32][cH:33][cH:34][cH:35][cH:36]2)c(F)c1F.[OH:12][CH2:13][C@H:14]1[O:15][C@@H:16]([n:17]2[cH:18][cH:19][c:20](=[O:21])[nH:22][c:23]2=[O:24])[C@:25]([CH3:26])([F:27])[C@@H:28]1[OH:29]>C1CCOC1.C[C](C)(C)[Mg][Cl]>[CH3:1][CH:2]([CH3:3])[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[NH:9][P:10](=[O:11])([O:12][CH2:13][C@H:14]1[O:15][C@@H:16]([n:17]2[cH:18][cH:19][c:20](=[O:21])[nH:22][c:23]2=[O:24])[C@:25]([CH3:26])([F:27])[C@@H:28]1[OH:29])[O:30][c:31]1[cH:32][cH:33][cH:34][cH:35][cH:36]1",
+      "mapping_confidence": 0.6820420546629219,
+      "conditions": {
+        "raw_description": "t-BuMgCl; THF; -5 \u00b0C to 5 \u00b0C; 68%",
+        "GENERAL_REAGENTS": [
+          "t-BuMgCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Mg]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5",
+          "5"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_12",
+      "reaction_smiles": "CC(C)OC(=O)[C@H](C)N.O=P(Cl)(Cl)Oc1ccccc1.CCN(CC)CC.ClCCl>>CC(C)OC(=O)[C@H](C)NP(=O)(Cl)Oc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[NH2:9].Cl[P:10](=[O:11])([Cl:12])[O:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CCN(CC)CC.ClCCl>[CH3:1][CH:2]([CH3:3])[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[NH:9][P:10](=[O:11])([Cl:12])[O:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.4229135705357887,
+      "conditions": {
+        "raw_description": "P(O)Cl2OPh; Et3N; CH2Cl2; -70 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "P(O)Cl2OPh",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Oc1ccccc1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-70"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sofosbuvir_2013_Gilead_13",
+      "reaction_smiles": "CC(C)OC(=O)[C@H](C)NP(=O)(Cl)Oc1ccccc1.Oc1c(F)c(F)c(F)c(F)c1F>>CC(C)OC(=O)[C@H](C)NP(=O)(Oc1ccccc1)Oc1c(F)c(F)c(F)c(F)c1F",
+      "reaction_smiles_mapped": "Cl[P:10]([NH:9][C@H:7]([C:5]([O:4][CH:2]([CH3:1])[CH3:3])=[O:6])[CH3:8])(=[O:11])[O:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[OH:19][c:20]1[c:21]([F:22])[c:23]([F:24])[c:25]([F:26])[c:27]([F:28])[c:29]1[F:30]>>[CH3:1][CH:2]([CH3:3])[O:4][C:5](=[O:6])[C@H:7]([CH3:8])[NH:9][P:10](=[O:11])([O:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[O:19][c:20]1[c:21]([F:22])[c:23]([F:24])[c:25]([F:26])[c:27]([F:28])[c:29]1[F:30]",
+      "mapping_confidence": 0.5805456375081027,
+      "conditions": {
+        "raw_description": "F5-PhOH; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "F5-PhOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Oc1c(F)c(F)c(F)c(F)c1F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

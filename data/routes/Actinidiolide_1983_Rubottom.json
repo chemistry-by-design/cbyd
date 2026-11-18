@@ -1,0 +1,261 @@
+{
+  "background": {
+    "name": "Actinidiolide",
+    "author": "Rubottom",
+    "year": 1983,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1983, 48, 422",
+    "doi": "10.1021/jo00152a003"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_1",
+      "reaction_smiles": "CC1CCCC(C)(C)C1=O.C1CCOC1.[Li]N(C(C)C)C(C)C.C[Si](C)(C)Cl>>CC1=C(O[Si](C)(C)C)C(C)(C)CCC1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[C:3](=[O:4])[C:9]([CH3:10])([CH3:11])[CH2:12][CH2:13][CH2:14]1.Cl[Si:5]([CH3:6])([CH3:7])[CH3:8]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][C:2]1=[C:3]([O:4][Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9]([CH3:10])([CH3:11])[CH2:12][CH2:13][CH2:14]1",
+      "mapping_confidence": 0.2420556601469096,
+      "conditions": {
+        "raw_description": "LiNiPr2; Me3SiCl; THF; 88%",
+        "GENERAL_REAGENTS": [
+          "LiNiPr2",
+          "Me3SiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N([Li])C(C)C",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_2",
+      "reaction_smiles": "CC1=C(O[Si](C)(C)C)C(C)(C)CCC1.[Li]C.BrBr.C1CCOC1>>CC1(C)CCCC(C)(Br)C1=O",
+      "reaction_smiles_mapped": "Br[Br:9].C[Si](C)(C)[O:11][C:10]1=[C:7]([CH3:8])[CH2:6][CH2:5][CH2:4][C:2]1([CH3:1])[CH3:3]>C1CCOC1.[Li]C>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([Br:9])[C:10]1=[O:11]",
+      "mapping_confidence": 0.19787512928283368,
+      "conditions": {
+        "raw_description": "MeLi; Br2; THF; 68%",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_3",
+      "reaction_smiles": "CC1(C)CCCC(C)(Br)C1=O.[Li+].[Br-].CN(C)C=O.[Br-].[Li+].O=C([O-])[O-].[Li+].[Li+]>>CC1=CCCC(C)(C)C1=O",
+      "reaction_smiles_mapped": "Br[C:2]1([CH3:1])[CH2:3][CH2:4][CH2:5][C:6]([CH3:7])([CH3:8])[C:9]1=[O:10]>CN(C)C=O.O=C([O-])[O-].[Br-].[Br-].[Li+].[Li+].[Li+].[Li+]>[CH3:1][C:2]1=[CH:3][CH2:4][CH2:5][C:6]([CH3:7])([CH3:8])[C:9]1=[O:10]",
+      "mapping_confidence": 0.3525331965847086,
+      "conditions": {
+        "raw_description": "LiBr; Li2CO3; DMF; 85%",
+        "GENERAL_REAGENTS": [
+          "LiBr",
+          "Li2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Br-]",
+          "[Li+].[Li+].C(=O)([O-])[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_4",
+      "reaction_smiles": "CC1=CCCC(C)(C)C1=O.COC(C)OC.[Li]N(C(C)C)C(C)C.C[Si](C)(C)Cl.COCCOC>>CC1=C(O[Si](C)(C)C)C(C)(C)CC=C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:14][CH2:13][CH2:12][C:9]([CH3:10])([CH3:11])[C:3]1=[O:4].Cl[Si:5]([CH3:6])([CH3:7])[CH3:8]>COC(C)OC.COCCOC.[Li]N(C(C)C)C(C)C>[CH3:1][C:2]1=[C:3]([O:4][Si:5]([CH3:6])([CH3:7])[CH3:8])[C:9]([CH3:10])([CH3:11])[CH2:12][CH:13]=[CH:14]1",
+      "mapping_confidence": 0.25783997541305365,
+      "conditions": {
+        "raw_description": "LiNiPr2; Me3SiCl; DME; 72%",
+        "GENERAL_REAGENTS": [
+          "LiNiPr2",
+          "Me3SiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N([Li])C(C)C",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_5",
+      "reaction_smiles": "CC1=C(O[Si](C)(C)C)C(C)(C)CC=C1.O=C(OO)c1cccc(Cl)c1.CCCCCC.ClCCl.CCN(CC)CC.F>>CC1(O)C=CCC(C)(C)C1=O",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:11][C:10]1=[C:2]([CH3:1])[CH:4]=[CH:5][CH2:6][C:7]1([CH3:8])[CH3:9].O=C(O[OH:3])c1cccc(Cl)c1>CCCCCC.CCN(CC)CC.ClCCl.F>[CH3:1][C:2]1([OH:3])[CH:4]=[CH:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[O:11]",
+      "mapping_confidence": 0.5953103860014973,
+      "conditions": {
+        "raw_description": "mCPBA; HF\u2022NEt3; hexane; DCM; 55%",
+        "GENERAL_REAGENTS": [
+          "mCPBA",
+          "HF\u2022NEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO",
+          "CCN(CC)CC.[H]F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexane",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCCC",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_6",
+      "reaction_smiles": "CC1(O)C=CCC(C)(C)C1=O.CC(=O)OC(C)=O.CN(C)c1ccncc1>>CC(=O)OC1(C)C=CCC(C)(C)C1=O",
+      "reaction_smiles_mapped": "CC(=O)O[C:2]([CH3:1])=[O:3].[OH:4][C:5]1([CH3:6])[CH:7]=[CH:8][CH2:9][C:10]([CH3:11])([CH3:12])[C:13]1=[O:14]>CN(C)c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][C:5]1([CH3:6])[CH:7]=[CH:8][CH2:9][C:10]([CH3:11])([CH3:12])[C:13]1=[O:14]",
+      "mapping_confidence": 0.39095846612964447,
+      "conditions": {
+        "raw_description": "Ac2O; DMAP",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ac2O",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_7",
+      "reaction_smiles": "CC(=O)OC1(C)C=CCC(C)(C)C1=O.CCOCC.[Li]N(C(C)C)C(C)C>>CC1(C)CC=CC2(C)OC(=O)CC12O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C:7]([CH3:8])([O:9][C:10](=[O:11])[CH3:12])[C:13]1=[O:14]>CCOCC.[Li]N(C(C)C)C(C)C>[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C:7]2([CH3:8])[O:9][C:10](=[O:11])[CH2:12][C:13]12[OH:14]",
+      "mapping_confidence": 0.8016432731473881,
+      "conditions": {
+        "raw_description": "LiNiPr2; Et2O; 68%",
+        "GENERAL_REAGENTS": [
+          "LiNiPr2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N([Li])C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinidiolide_1983_Rubottom_8",
+      "reaction_smiles": "CC1(C)CC=CC2(C)OC(=O)CC12O.O=S(Cl)Cl.c1ccncc1>>CC1(C)CC=CC2(C)OC(=O)C=C12",
+      "reaction_smiles_mapped": "O[C:13]12[C:2]([CH3:1])([CH3:3])[CH2:4][CH:5]=[CH:6][C:7]1([CH3:8])[O:9][C:10](=[O:11])[CH2:12]2>O=S(Cl)Cl.c1ccncc1>[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C:7]2([CH3:8])[O:9][C:10](=[O:11])[CH:12]=[C:13]12",
+      "mapping_confidence": 0.8182973578920376,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine; 80%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    }
+  ]
+}

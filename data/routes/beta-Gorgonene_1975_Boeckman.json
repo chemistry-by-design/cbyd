@@ -1,0 +1,255 @@
+{
+  "background": {
+    "name": "(+/-)-beta-Gorgonene",
+    "author": "Boeckman",
+    "year": 1975,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1975, 40, 1755",
+    "doi": "10.1021/jo00900a017"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_1",
+      "reaction_smiles": "O=C1CCCC2CCCC[C@@H]12.O=S(=O)(Cl)Cl.ClC(Cl)(Cl)Cl.Cc1cc(C)nc(C)c1>>O=C1CCCC2=C1CCCC2",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][CH:6]2[C@H:7]1[CH2:8][CH2:9][CH2:10][CH2:11]2>O=S(=O)(Cl)Cl.ClC(Cl)(Cl)Cl.Cc1cc(C)nc(C)c1>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C:6]2=[C:7]1[CH2:8][CH2:9][CH2:10][CH2:11]2",
+      "mapping_confidence": 0.741617333381859,
+      "conditions": {
+        "raw_description": "1) SO2Cl2; CCl4; 2) hot collidine; 49%",
+        "GENERAL_REAGENTS": [
+          "SO2Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)(Cl)Cl"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "collidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC(=NC(=C1)C)C"
+        ],
+        "MODIFIERS": [
+          "hot"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_2",
+      "reaction_smiles": "O=C1CCCC2=C1CCCC2.C[Cu-]C.[Li+].CCOCC>>C[C@@]12CCCCC1C(=O)CCC2",
+      "reaction_smiles_mapped": "C[Cu-][CH3:1].[C:2]12=[C:7]([CH2:6][CH2:5][CH2:4][CH2:3]1)[C:8](=[O:9])[CH2:10][CH2:11][CH2:12]2>[Li+].CCOCC>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][CH2:6][CH:7]1[C:8](=[O:9])[CH2:10][CH2:11][CH2:12]2",
+      "mapping_confidence": 0.5958315111200531,
+      "conditions": {
+        "raw_description": "LiCu(CH3)2; Ether; -20 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "LiCu(CH3)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ether"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_3",
+      "reaction_smiles": "C[C@@]12CCCCC1C(=O)CCC2.O=S(=O)(Cl)Cl.ClC(Cl)(Cl)Cl>>C[C@@]12CCCCC1(Cl)C(=O)CCC2",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][CH2:6][CH:7]1[C:9](=[O:10])[CH2:11][CH2:12][CH2:13]2.O=S(=O)(Cl)[Cl:8]>ClC(Cl)(Cl)Cl>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][CH2:6][C:7]1([Cl:8])[C:9](=[O:10])[CH2:11][CH2:12][CH2:13]2",
+      "mapping_confidence": 0.2712582774716115,
+      "conditions": {
+        "raw_description": "SO2Cl2; CCl4",
+        "GENERAL_REAGENTS": [
+          "SO2Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)(Cl)Cl"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_4",
+      "reaction_smiles": "C[C@@]12CCCCC1(Cl)C(=O)CCC2.c1ccc2ncccc2c1>>C[C@@]12CCCC=C1C(=O)CCC2",
+      "reaction_smiles_mapped": "Cl[C:7]12[C@@:2]([CH3:1])([CH2:3][CH2:4][CH2:5][CH2:6]1)[CH2:12][CH2:11][CH2:10][C:8]2=[O:9]>c1ccc2ncccc2c1>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][CH:6]=[C:7]1[C:8](=[O:9])[CH2:10][CH2:11][CH2:12]2",
+      "mapping_confidence": 0.9516639848073399,
+      "conditions": {
+        "raw_description": "Quinoline; Reflux; 84% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Quinoline"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C=CC=N2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_5",
+      "reaction_smiles": "C[C@@]12CCCC=C1C(=O)CCC2.C=C(C)[Mg]Br.[Cu+].[I-].C1CCOC1>>C=C(C)[C@H]1CCC[C@@]2(C)CCCC(=O)[C@H]12",
+      "reaction_smiles_mapped": "Br[Mg][C:2](=[CH2:1])[CH3:3].[CH:4]1=[C:15]2[C@@:8]([CH3:9])([CH2:7][CH2:6][CH2:5]1)[CH2:10][CH2:11][CH2:12][C:13]2=[O:14]>[Cu+].[I-].C1CCOC1>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][CH2:7][C@@:8]2([CH3:9])[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[C@H:15]12",
+      "mapping_confidence": 0.9276136257813493,
+      "conditions": {
+        "raw_description": "CuI; THF; -30 \u00b0C; 32%",
+        "GENERAL_REAGENTS": [
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30"
+        ],
+        "YIELD": [
+          "32%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_6",
+      "reaction_smiles": "C=C(C)[C@H]1CCC[C@@]2(C)CCCC(=O)[C@H]12.C1CCOC1.C[Si](C)(C)C[Mg]Cl>>C=C(C)[C@H]1CCC[C@@]2(C)CCC[C@@](O)(C[Si](C)(C)C)[C@H]12",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][CH2:7][C@@:8]2([CH3:9])[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[C@H:20]12.Cl[Mg][CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19]>C1CCOC1>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][CH2:7][C@@:8]2([CH3:9])[CH2:10][CH2:11][CH2:12][C@@:13]([OH:14])([CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]12",
+      "mapping_confidence": 0.3598781918971023,
+      "conditions": {
+        "raw_description": "TMSCH2MgCl; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "TMSCH2MgCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C[Mg]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_7",
+      "reaction_smiles": "C=C(C)[C@H]1CCC[C@@]2(C)CCC[C@@](O)(C[Si](C)(C)C)[C@H]12.CC(=O)O.O>>C=C(C)[C@H]1CCC[C@@]2(C)CCCC(=C)[C@H]12",
+      "reaction_smiles_mapped": "C[Si](C)(C)[CH2:14][C@:13]1(O)[CH2:12][CH2:11][CH2:10][C@:8]2([CH3:9])[CH2:7][CH2:6][CH2:5][C@H:4]([C:2](=[CH2:1])[CH3:3])[C@H:15]21>CC(=O)O.O>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][CH2:7][C@@:8]2([CH3:9])[CH2:10][CH2:11][CH2:12][C:13](=[CH2:14])[C@H:15]12",
+      "mapping_confidence": 0.9758114246653751,
+      "conditions": {
+        "raw_description": "AcOH - H2O (3:1); 15% (2 steps); Peterson Olefination",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "15% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Gorgonene_1975_Boeckman_8",
+      "reaction_smiles": "O=C1CCCc2ccccc21.[Ni].[HH]>>O=C1CCCC2CCCC[C@@H]12",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][c:6]2[cH:7][cH:8][cH:9][cH:10][c:11]21>[Ni].[HH]>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][CH:6]2[CH2:7][CH2:8][CH2:9][CH2:10][C@@H:11]12",
+      "mapping_confidence": 0.9830722868673599,
+      "conditions": {
+        "raw_description": "H2; Ni; 75 \u00b0C; 75 bar",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Ni"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ni]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

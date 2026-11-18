@@ -1,0 +1,195 @@
+{
+  "background": {
+    "name": "Etrasimod",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Velsipity",
+    "manufacturer": "Arena",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Etrasimod_2024_Arena_1",
+      "reaction_smiles": "CCOC(=O)CC1CCCC1=O.COc1ccc(N)c(I)c1.CCO[Si](OCC)(OCC)OCC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.CN(C)C=O>>CCOC(=O)CC1CCC=C1Nc1ccc(OC)cc1I",
+      "reaction_smiles_mapped": "O=[C:11]1[CH:7]([CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH2:8][CH2:9][CH2:10]1.[NH2:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][c:20]1[I:21]>CCO[Si](OCC)(OCC)OCC.CN(C)C=O.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][CH:10]=[C:11]1[NH:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][c:20]1[I:21]",
+      "mapping_confidence": 0.9561627361603441,
+      "conditions": {
+        "raw_description": "Si(OEt)4; PPTS; DMF; 135 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Si(OEt)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCO[Si](OCC)(OCC)OCC"
+        ],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "135"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Etrasimod_2024_Arena_2",
+      "reaction_smiles": "CCOC(=O)CC1CCC=C1Nc1ccc(OC)cc1I.CCN(C(C)C)C(C)C.CC(=O)[O-].CC(=O)[O-].[Pd+2]>>CCOC(=O)CC1CCc2c1[nH]c1ccc(OC)cc21",
+      "reaction_smiles_mapped": "I[c:20]1[c:13]([NH:12][C:11]2=[CH:10][CH2:9][CH2:8][CH:7]2[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19]1>CC(=O)[O-].CC(=O)[O-].CCN(C(C)C)C(C)C.[Pd+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][c:10]2[c:11]1[nH:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][c:20]21",
+      "mapping_confidence": 0.9521727066411829,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; DIPEA; 120 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Etrasimod_2024_Arena_3",
+      "reaction_smiles": "CCOC(=O)CC1CCc2c1[nH]c1ccc(OC)cc21.BrB(Br)Br.ClCCl>>CCOC(=O)CC1CCc2c1[nH]c1ccc(O)cc21",
+      "reaction_smiles_mapped": "C[O:17][c:16]1[cH:15][cH:14][c:13]2[nH:12][c:11]3[c:10]([c:19]2[cH:18]1)[CH2:9][CH2:8][CH:7]3[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>BrB(Br)Br.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][c:10]2[c:11]1[nH:12][c:13]1[cH:14][cH:15][c:16]([OH:17])[cH:18][c:19]21",
+      "mapping_confidence": 0.9890742896118283,
+      "conditions": {
+        "raw_description": "BBr3; DCM; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Etrasimod_2024_Arena_4",
+      "reaction_smiles": "CCOC(=O)CC1CCc2c1[nH]c1ccc(O)cc21.FC(F)(F)c1cc(CCl)ccc1C1CCCC1.O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>>CCOC(=O)CC1CCc2c1[nH]c1ccc(OCc3ccc(C4CCCC4)c(C(F)(F)F)c3)cc21",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][c:10]2[c:11]1[nH:12][c:13]1[cH:14][cH:15][c:16]([OH:17])[cH:34][c:35]21.Cl[CH2:18][c:19]1[cH:20][cH:21][c:22]([CH:23]2[CH2:24][CH2:25][CH2:26][CH2:27]2)[c:28]([C:29]([F:30])([F:31])[F:32])[cH:33]1>CN(C)C=O.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][c:10]2[c:11]1[nH:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH2:18][c:19]3[cH:20][cH:21][c:22]([CH:23]4[CH2:24][CH2:25][CH2:26][CH2:27]4)[c:28]([C:29]([F:30])([F:31])[F:32])[cH:33]3)[cH:34][c:35]21",
+      "mapping_confidence": 0.3274630734482181,
+      "conditions": {
+        "raw_description": "Cs2CO3; DMF; rt; 41%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "41%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Etrasimod_2024_Arena_5",
+      "reaction_smiles": "CCOC(=O)CC1CCc2c1[nH]c1ccc(OCc3ccc(C4CCCC4)c(C(F)(F)F)c3)cc21.[Li+].[OH-].C1CCOC1.O.CO>>O=C(O)CC1CCc2c1[nH]c1ccc(OCc3ccc(C4CCCC4)c(C(F)(F)F)c3)cc21",
+      "reaction_smiles_mapped": "CC[O:3][C:2](=[O:1])[CH2:4][CH:5]1[CH2:6][CH2:7][c:8]2[c:9]1[nH:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][c:20]([CH:21]4[CH2:22][CH2:23][CH2:24][CH2:25]4)[c:26]([C:27]([F:28])([F:29])[F:30])[cH:31]3)[cH:32][c:33]21>C1CCOC1.CO.O.[Li+].[OH-]>[O:1]=[C:2]([OH:3])[CH2:4][CH:5]1[CH2:6][CH2:7][c:8]2[c:9]1[nH:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][c:20]([CH:21]4[CH2:22][CH2:23][CH2:24][CH2:25]4)[c:26]([C:27]([F:28])([F:29])[F:30])[cH:31]3)[cH:32][c:33]21",
+      "mapping_confidence": 0.3324194022095066,
+      "conditions": {
+        "raw_description": "LiOH; THF; H2O; MeOH; 70%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Etrasimod_2024_Arena_6",
+      "reaction_smiles": "O=C(O)CC1CCc2c1[nH]c1ccc(OCc3ccc(C4CCCC4)c(C(F)(F)F)c3)cc21>>O=C(O)C[C@H]1CCc2c1[nH]c1ccc(OCc3ccc(C4CCCC4)c(C(F)(F)F)c3)cc21",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([OH:3])[CH2:4][CH:5]1[CH2:6][CH2:7][c:8]2[c:9]1[nH:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][c:20]([CH:21]4[CH2:22][CH2:23][CH2:24][CH2:25]4)[c:26]([C:27]([F:28])([F:29])[F:30])[cH:31]3)[cH:32][c:33]21>>[O:1]=[C:2]([OH:3])[CH2:4][C@H:5]1[CH2:6][CH2:7][c:8]2[c:9]1[nH:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][c:20]([CH:21]4[CH2:22][CH2:23][CH2:24][CH2:25]4)[c:26]([C:27]([F:28])([F:29])[F:30])[cH:31]3)[cH:32][c:33]21",
+      "mapping_confidence": 0.31255881593668083,
+      "conditions": {
+        "raw_description": "ChiralCel OD Column",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "ChiralCel OD Column"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

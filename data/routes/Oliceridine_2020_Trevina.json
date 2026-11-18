@@ -1,0 +1,251 @@
+{
+  "background": {
+    "name": "Oliceridine",
+    "author": null,
+    "year": 2020,
+    "drug_name": "Olinvyk",
+    "manufacturer": "Trevina",
+    "citation": "J. Med. Chem. 2022, 65, 9607",
+    "doi": "10.1021/acs.jmedchem.2c00710"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_1",
+      "reaction_smiles": "O=C1CCCC1.C=CCCO.O=S(=O)(O)O>>OC1CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "[OH:1][CH2:4][CH2:3][CH:2]=[CH2:11].[O:5]=[C:6]1[CH2:7][CH2:8][CH2:9][CH2:10]1>O=S(=O)(O)O>[OH:1][CH:2]1[CH2:3][CH2:4][O:5][C:6]2([CH2:7][CH2:8][CH2:9][CH2:10]2)[CH2:11]1",
+      "mapping_confidence": 0.6582180542809428,
+      "conditions": {
+        "raw_description": "H2SO4; 27%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "27%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_2",
+      "reaction_smiles": "OC1CCOC2(CCCC2)C1.C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>>O=C1CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "[OH:1][CH:2]1[CH2:3][CH2:4][O:5][C:6]2([CH2:7][CH2:8][CH2:9][CH2:10]2)[CH2:11]1>C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>[O:1]=[C:2]1[CH2:3][CH2:4][O:5][C:6]2([CH2:7][CH2:8][CH2:9][CH2:10]2)[CH2:11]1",
+      "mapping_confidence": 0.9536901667365834,
+      "conditions": {
+        "raw_description": "NMO; TPAP; DCM; 73%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_3",
+      "reaction_smiles": "O=C1CCOC2(CCCC2)C1.COC(=O)CC#N.CC(=O)[O-].[NH4+].CC(=O)O.c1ccccc1>>COC(=O)C/C(C#N)=C1/CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "O=C(O)[CH3:5].[CH3:1][O:2][C:3](=[O:4])[CH2:6][C:7]#[N:8].O=[C:9]1[CH2:10][CH2:11][O:12][C:13]2([CH2:14][CH2:15][CH2:16][CH2:17]2)[CH2:18]1>CC(=O)[O-].[NH4+].c1ccccc1>[CH3:1][O:2][C:3](=[O:4])[CH2:5]/[C:6]([C:7]#[N:8])=[C:9]1/[CH2:10][CH2:11][O:12][C:13]2([CH2:14][CH2:15][CH2:16][CH2:17]2)[CH2:18]1",
+      "mapping_confidence": 0.5406613816487146,
+      "conditions": {
+        "raw_description": "NH4OAc; OHAc; benzene; reflux; 88%",
+        "GENERAL_REAGENTS": [
+          "NH4OAc",
+          "OHAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[NH4+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_4",
+      "reaction_smiles": "COC(=O)C/C(C#N)=C1/CCOC2(CCCC2)C1.Brc1ccccn1.CC(C)[Mg]Cl.[Cu+].[I-].C1CCOC1>>COC(=O)C(C#N)C1(c2ccccn2)CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "Br[c:9]1[cH:10][cH:11][cH:12][cH:13][n:14]1.C([C:3]([O:2][CH3:1])=[O:4])/[C:5]([C:6]#[N:7])=[C:8]1/[CH2:15][CH2:16][O:17][C:18]2([CH2:19][CH2:20][CH2:21][CH2:22]2)[CH2:23]1>CC(C)[Mg]Cl.[Cu+].[I-].C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[CH:5]([C:6]#[N:7])[C:8]1([c:9]2[cH:10][cH:11][cH:12][cH:13][n:14]2)[CH2:15][CH2:16][O:17][C:18]2([CH2:19][CH2:20][CH2:21][CH2:22]2)[CH2:23]1",
+      "mapping_confidence": 0.9706458332566187,
+      "conditions": {
+        "raw_description": "iPrMgCl; CuI; THF; 72%; Brc1ccccn1",
+        "GENERAL_REAGENTS": [
+          "iPrMgCl",
+          "Brc1ccccn1",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Mg]Cl",
+          "Brc1ccccn1",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_5",
+      "reaction_smiles": "COC(=O)C(C#N)C1(c2ccccn2)CCOC2(CCCC2)C1.OCCO.[K+].[OH-]>>N#CC[C@@]1(c2ccccn2)CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "COC(=O)[CH:3]([C:2]#[N:1])[C:4]1([c:5]2[cH:6][cH:7][cH:8][cH:9][n:10]2)[CH2:11][CH2:12][O:13][C:14]2([CH2:15][CH2:16][CH2:17][CH2:18]2)[CH2:19]1>OCCO.[K+].[OH-]>[N:1]#[C:2][CH2:3][C@@:4]1([c:5]2[cH:6][cH:7][cH:8][cH:9][n:10]2)[CH2:11][CH2:12][O:13][C:14]2([CH2:15][CH2:16][CH2:17][CH2:18]2)[CH2:19]1",
+      "mapping_confidence": 0.9709636185069643,
+      "conditions": {
+        "raw_description": "KOH; 120 \u00b0C; 82%; OCCO",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "OCCO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "OCCO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_6",
+      "reaction_smiles": "N#CC[C@@]1(c2ccccn2)CCOC2(CCCC2)C1.[AlH4-].[Li+].CCOCC>>NCC[C@]1(c2ccccn2)CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "[N:1]#[C:2][CH2:3][C@@:4]1([c:5]2[cH:6][cH:7][cH:8][cH:9][n:10]2)[CH2:11][CH2:12][O:13][C:14]2([CH2:15][CH2:16][CH2:17][CH2:18]2)[CH2:19]1>CCOCC.[AlH4-].[Li+]>[NH2:1][CH2:2][CH2:3][C@:4]1([c:5]2[cH:6][cH:7][cH:8][cH:9][n:10]2)[CH2:11][CH2:12][O:13][C:14]2([CH2:15][CH2:16][CH2:17][CH2:18]2)[CH2:19]1",
+      "mapping_confidence": 0.9913156380683503,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 94%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_7",
+      "reaction_smiles": "NCC[C@]1(c2ccccn2)CCOC2(CCCC2)C1.COc1ccsc1C=O.O=S(=O)([O-])[O-].[Na+].[Na+].[BH4-].[Na+].ClCCl>>COc1ccsc1CNCC[C@@]1(c2ccccn2)CCOC2(CCCC2)C1",
+      "reaction_smiles_mapped": "O=[CH:8][c:7]1[c:3]([O:2][CH3:1])[cH:4][cH:5][s:6]1.[NH2:9][CH2:10][CH2:11][C@:12]1([c:13]2[cH:14][cH:15][cH:16][cH:17][n:18]2)[CH2:19][CH2:20][O:21][C:22]2([CH2:23][CH2:24][CH2:25][CH2:26]2)[CH2:27]1>ClCCl.O=S(=O)([O-])[O-].[BH4-].[Na+].[Na+].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][s:6][c:7]1[CH2:8][NH:9][CH2:10][CH2:11][C@@:12]1([c:13]2[cH:14][cH:15][cH:16][cH:17][n:18]2)[CH2:19][CH2:20][O:21][C:22]2([CH2:23][CH2:24][CH2:25][CH2:26]2)[CH2:27]1",
+      "mapping_confidence": 0.9809263008382532,
+      "conditions": {
+        "raw_description": "Na2SO4; NaBH4; DCM",
+        "GENERAL_REAGENTS": [
+          "Na2SO4",
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oliceridine_2020_Trevina_8",
+      "reaction_smiles": "COc1ccsc1CNCC[C@@]1(c2ccccn2)CCOC2(CCCC2)C1.O=C(O)/C=C/C(=O)O>>COc1ccsc1CNCC[C@@]1(c2ccccn2)CCOC2(CCCC2)C1.O=C(O)/C=C/C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][s:6][c:7]1[CH2:8][NH:9][CH2:10][CH2:11][C@@:12]1([c:13]2[cH:14][cH:15][cH:16][cH:17][n:18]2)[CH2:19][CH2:20][O:21][C:22]2([CH2:23][CH2:24][CH2:25][CH2:26]2)[CH2:27]1.[O:28]=[C:29]([OH:30])/[CH:31]=[CH:32]/[C:33](=[O:34])[OH:35]>>[CH3:1][O:2][c:3]1[cH:4][cH:5][s:6][c:7]1[CH2:8][NH:9][CH2:10][CH2:11][C@@:12]1([c:13]2[cH:14][cH:15][cH:16][cH:17][n:18]2)[CH2:19][CH2:20][O:21][C:22]2([CH2:23][CH2:24][CH2:25][CH2:26]2)[CH2:27]1.[O:28]=[C:29]([OH:30])/[CH:31]=[CH:32]/[C:33](=[O:34])[OH:35]",
+      "mapping_confidence": 0.6554221268391613,
+      "conditions": {
+        "raw_description": "84% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

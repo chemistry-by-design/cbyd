@@ -1,0 +1,639 @@
+{
+  "background": {
+    "name": "Aberrarone",
+    "author": "Jia",
+    "year": 2023,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2023, 145, 9459",
+    "doi": "10/1021/jacs.3c02511"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Aberrarone_2023_Jia_1",
+      "reaction_smiles": "C=C(C)[C@H]1CC=C(C)C(=O)C1.[BH4-].[Na+].Cl[Ce](Cl)Cl.CO>>C=C(C)[C@H]1CC=C(C)[C@@H](O)C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[C:9](=[O:10])[CH2:11]1>CO.Cl[Ce](Cl)Cl.[BH4-].[Na+]>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[C@@H:9]([OH:10])[CH2:11]1",
+      "mapping_confidence": 0.9890429367016095,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3; MeOH; 90%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_2",
+      "reaction_smiles": "C=C(C)[C@H]1CC=C(C)[C@@H](O)C1.CC(C)(C)[O-].[K+].CC1(C)OBOC1(C)C.O=BO[O-].[Na+].Cl[Cu].COc1c(C(C)(C)C)cc(P(c2cc(C(C)(C)C)c(OC)c(C(C)(C)C)c2)c2ccc3c(c2-c2c(P(c4cc(C(C)(C)C)c(OC)c(C(C)(C)C)c4)c4cc(C(C)(C)C)c(OC)c(C(C)(C)C)c4)ccc4c2OCO4)OCO3)cc1C(C)(C)C.Cc1ccccc1>>CC1=CC[C@H]([C@@H](C)CO)C[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C:6]([CH3:7])=[CH2:8])[CH2:10][C@@H:11]1[OH:12].O=BO[O-:9]>CC(C)(C)[O-].CC1(C)OBOC1(C)C.COc1c(C(C)(C)C)cc(P(c2cc(C(C)(C)C)c(OC)c(C(C)(C)C)c2)c2ccc3c(c2-c2c(P(c4cc(C(C)(C)C)c(OC)c(C(C)(C)C)c4)c4cc(C(C)(C)C)c(OC)c(C(C)(C)C)c4)ccc4c2OCO4)OCO3)cc1C(C)(C)C.Cc1ccccc1.Cl[Cu].[K+].[Na+]>[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8][OH:9])[CH2:10][C@@H:11]1[OH:12]",
+      "mapping_confidence": 0.18629700658362355,
+      "conditions": {
+        "raw_description": "1) CuCl; KOt-Bu; (S)-DTBM-Segphos; HBpin; PhMe; rt; 2) NaBO3; 96%",
+        "GENERAL_REAGENTS": [
+          "KOt-Bu",
+          "HBpin",
+          "NaBO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "B1OC(C(O1)(C)C)(C)C",
+          "[Na+].B(=O)O[O-]"
+        ],
+        "CATALYSTS": [
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [
+          "(S)-DTBM-Segphos"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)(C)C1=CC(=CC(=C1OC)C(C)(C)C)P(C2=C(C3=C(C=C2)OCO3)C4=C(C=CC5=C4OCO5)P(C6=CC(=C(C(=C6)C(C)(C)C)OC)C(C)(C)C)C7=CC(=C(C(=C7)C(C)(C)C)OC)C(C)(C)C)C8=CC(=C(C(=C8)C(C)(C)C)OC)C(C)(C)C"
+        ],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_3",
+      "reaction_smiles": "CC1=CC[C@H]([C@@H](C)CO)C[C@@H]1O.II.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>CC1=CC[C@H]([C@@H](C)CI)C[C@@H]1O",
+      "reaction_smiles_mapped": "O[CH2:8][C@@H:6]([C@H:5]1[CH2:4][CH:3]=[C:2]([CH3:1])[C@@H:11]([OH:12])[CH2:10]1)[CH3:7].I[I:9]>C1CCOC1.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8][I:9])[CH2:10][C@@H:11]1[OH:12]",
+      "mapping_confidence": 0.503040732325649,
+      "conditions": {
+        "raw_description": "PPh3; I2; imidazole; THF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_4",
+      "reaction_smiles": "CC1=CC[C@H]([C@@H](C)CI)C[C@@H]1O.CC(C)(C#C[Si](C)(C)C)/C=C/I.c1ccc(-c2cccc(-c3ccccn3)n2)nc1.I[Ni]I.[Mn].CN(C)C=O>>CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)C[C@@H]1O",
+      "reaction_smiles_mapped": "I/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19].I[CH2:8][C@@H:6]([C@H:5]1[CH2:4][CH:3]=[C:2]([CH3:1])[C@@H:21]([OH:22])[CH2:20]1)[CH3:7]>CN(C)C=O.I[Ni]I.[Mn].c1ccc(-c2cccc(-c3ccccn3)n2)nc1>[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C@@H:21]1[OH:22]",
+      "mapping_confidence": 0.2332344621641074,
+      "conditions": {
+        "raw_description": "NiI2; Mn; 2,2':6',2''-terpyridine; DMF; 60 \u00b0C; 68%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "NiI2",
+          "Mn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ni](I)I",
+          "[Mn]"
+        ],
+        "LIGANDS": [
+          "2,2':6',2''-terpyridine"
+        ],
+        "LIGANDS_SMILES": [
+          "c1ccc(nc1)-c1cccc(n1)-c1ccccn1"
+        ],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_5",
+      "reaction_smiles": "CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)C[C@@H]1O.O=C1OI(=O)(O)c2ccccc21.CS(C)=O>>CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)CC1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C@@H:21]1[OH:22]>CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C:21]1=[O:22]",
+      "mapping_confidence": 0.24944954520440418,
+      "conditions": {
+        "raw_description": "IBX; DMSO; 0 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_6",
+      "reaction_smiles": "CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)CC1=O.C/C(=C\\[Si](C)(C)C)C(=O)C#N.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)[C@@H](C(=O)/C(C)=C/[Si](C)(C)C)C1=O",
+      "reaction_smiles_mapped": "N#C[C:21](=[O:22])/[C:23]([CH3:24])=[CH:25]/[Si:26]([CH3:27])([CH3:28])[CH3:29].[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C:30]1=[O:31]>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[C@@H:20]([C:21](=[O:22])/[C:23]([CH3:24])=[CH:25]/[Si:26]([CH3:27])([CH3:28])[CH3:29])[C:30]1=[O:31]",
+      "mapping_confidence": 0.13161787963469346,
+      "conditions": {
+        "raw_description": "LiHMDS; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_7",
+      "reaction_smiles": "CC1=CC[C@H]([C@@H](C)C/C=C/C(C)(C)C#C[Si](C)(C)C)[C@@H](C(=O)/C(C)=C/[Si](C)(C)C)C1=O.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Mn+3].CCO>>CC1=CC[C@@H]2[C@@H](C)CC3C4C(C)(C)/C(=C\\[Si](C)(C)C)[C@H]([Si](C)(C)C)[C@@]4(C)C(=O)[C@]32C1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@H:5]([C@@H:6]([CH3:7])[CH2:8]/[CH:9]=[CH:10]/[C:11]([CH3:12])([CH3:13])[C:14]#[C:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[C@@H:29]([C:27](/[C:25](=[CH:20]/[Si:21]([CH3:22])([CH3:23])[CH3:24])[CH3:26])=[O:28])[C:30]1=[O:31]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CCO.[Mn+3]>[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[CH:10]4[C:11]([CH3:12])([CH3:13])/[C:14](=[CH:15]\\[Si:16]([CH3:17])([CH3:18])[CH3:19])[C@H:20]([Si:21]([CH3:22])([CH3:23])[CH3:24])[C@@:25]4([CH3:26])[C:27](=[O:28])[C@@:29]23[C:30]1=[O:31]",
+      "mapping_confidence": 0.17406637385105933,
+      "conditions": {
+        "raw_description": "Mn(OAc)3; EtOH; 45 \u00b0C; 40%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Mn(OAc)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Mn+3].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_8",
+      "reaction_smiles": "CC1=CC[C@@H]2[C@@H](C)CC3C4C(C)(C)/C(=C\\[Si](C)(C)C)[C@H]([Si](C)(C)C)[C@@]4(C)C(=O)[C@]32C1=O.CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>>CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(C[Si](C)(C)C)=C[C@]4(C)C(=O)[C@]32C1=O",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C@H:20]1/[C:14](=[CH:15]/[Si:16]([CH3:17])([CH3:18])[CH3:19])[C:11]([CH3:12])([CH3:13])[CH:10]2[CH:9]3[CH2:8][C@H:6]([CH3:7])[C@H:5]4[CH2:4][CH:3]=[C:2]([CH3:1])[C:26](=[O:27])[C@:25]43[C:23](=[O:24])[C@@:21]21[CH3:22]>C1CCOC1.CC(=O)O.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14]([CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])=[CH:20][C@:21]4([CH3:22])[C:23](=[O:24])[C@@:25]23[C:26]1=[O:27]",
+      "mapping_confidence": 0.4042446636238036,
+      "conditions": {
+        "raw_description": "TBAF; HOAc; THF; 45 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_9",
+      "reaction_smiles": "CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(C[Si](C)(C)C)=C[C@]4(C)C(=O)[C@]32C1=O.ClCCl.O=C(O)C(F)(F)F>>C=C1C[C@]2(C)C(=O)[C@@]34C(=O)C(C)=CC[C@@H]3[C@@H](C)CC4[C@@H]2C1(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[CH2:1][C:2]1=[CH:3][C@:4]2([CH3:5])[C:6](=[O:7])[C@@:8]34[C:9](=[O:10])[C:11]([CH3:12])=[CH:13][CH2:14][C@@H:15]3[C@@H:16]([CH3:17])[CH2:18][CH:19]4[C@@H:20]2[C:21]1([CH3:22])[CH3:23]>ClCCl.O=C(O)C(F)(F)F>[CH2:1]=[C:2]1[CH2:3][C@:4]2([CH3:5])[C:6](=[O:7])[C@@:8]34[C:9](=[O:10])[C:11]([CH3:12])=[CH:13][CH2:14][C@@H:15]3[C@@H:16]([CH3:17])[CH2:18][CH:19]4[C@@H:20]2[C:21]1([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.7668311686102779,
+      "conditions": {
+        "raw_description": "TFA; DCM; rt; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_10",
+      "reaction_smiles": "C=C1C[C@]2(C)C(=O)[C@@]34C(=O)C(C)=CC[C@@H]3[C@@H](C)CC4[C@@H]2C1(C)C.O=C(OO)c1cccc(Cl)c1.ClCCl>>CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)[C@@]5(CO5)C[C@]4(C)C(=O)[C@]32C1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[CH2:15])[CH2:17][C@:18]4([CH3:19])[C:20](=[O:21])[C@@:22]23[C:23]1=[O:24].O=C(O[OH:16])c1cccc(Cl)c1>ClCCl>[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C@@:14]5([CH2:15][O:16]5)[CH2:17][C@:18]4([CH3:19])[C:20](=[O:21])[C@@:22]23[C:23]1=[O:24]",
+      "mapping_confidence": 0.6431238795052323,
+      "conditions": {
+        "raw_description": "m-CPBA; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "m-CPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_11",
+      "reaction_smiles": "CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)[C@@]5(CO5)C[C@]4(C)C(=O)[C@]32C1=O.[O-][I+](O)(O)(O)(O)O.ClCCl>>CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(=O)C[C@]4(C)C(=O)[C@]32C1=O",
+      "reaction_smiles_mapped": "C1[C@@:14]2([C:11]([CH3:12])([CH3:13])[C@H:10]3[CH:9]4[CH2:8][C@H:6]([CH3:7])[C@H:5]5[CH2:4][CH:3]=[C:2]([CH3:1])[C:22](=[O:23])[C@:21]54[C:19](=[O:20])[C@@:17]3([CH3:18])[CH2:16]2)[O:15]1>ClCCl.[O-][I+](O)(O)(O)(O)O>[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[O:15])[CH2:16][C@:17]4([CH3:18])[C:19](=[O:20])[C@@:21]23[C:22]1=[O:23]",
+      "mapping_confidence": 0.865472707993711,
+      "conditions": {
+        "raw_description": "H5IO6; DCM; 66% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H5IO6"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OI(=O)(O)(O)(O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_12",
+      "reaction_smiles": "CC1=CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(=O)C[C@]4(C)C(=O)[C@]32C1=O.[Al]#[Ni].CO>>C[C@H]1CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(=O)C[C@]4(C)C(=O)[C@]32C1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[O:15])[CH2:16][C@:17]4([CH3:18])[C:19](=[O:20])[C@@:21]23[C:22]1=[O:23]>CO.[Al]#[Ni]>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[O:15])[CH2:16][C@:17]4([CH3:18])[C:19](=[O:20])[C@@:21]23[C:22]1=[O:23]",
+      "mapping_confidence": 0.8590547174346878,
+      "conditions": {
+        "raw_description": "Raney Ni; H2; MeOH; 50%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Raney Ni"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al]#[Ni]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_13",
+      "reaction_smiles": "C[C@H]1CC[C@@H]2[C@@H](C)CC3[C@@H]4C(C)(C)C(=O)C[C@]4(C)C(=O)[C@]32C1=O.O=[Se]=O.C1COCCO1>>C[C@@H]1CC2[C@H]3C(C)(C)C(=O)C(=O)[C@]3(C)C(=O)[C@@]23C(=O)[C@@H](C)CC[C@H]13",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C@@H:6]([CH3:7])[CH2:8][CH:9]3[C@@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[O:15])[CH2:16][C@:18]4([CH3:19])[C:20](=[O:21])[C@@:22]23[C:23]1=[O:24].O=[Se]=[O:17]>C1COCCO1>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C@H:6]([CH3:7])[CH2:8][CH:9]3[C@H:10]4[C:11]([CH3:12])([CH3:13])[C:14](=[O:15])[C:16](=[O:17])[C@:18]4([CH3:19])[C:20](=[O:21])[C@:22]23[C:23]1=[O:24]",
+      "mapping_confidence": 0.4075836692727516,
+      "conditions": {
+        "raw_description": "SeO2; dioxane; 100 \u00b0C; 69%",
+        "GENERAL_REAGENTS": [
+          "SeO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Se]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_14",
+      "reaction_smiles": "CC(C)(Cl)C#C[Si](C)(C)C.C#C[Mg]Br.Cl[Cu].C1CCOC1>>C#CC(C)(C)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "Br[Mg][C:2]#[CH:1].Cl[C:3]([CH3:4])([CH3:5])[C:6]#[C:7][Si:8]([CH3:9])([CH3:10])[CH3:11]>C1CCOC1.Cl[Cu]>[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[C:6]#[C:7][Si:8]([CH3:9])([CH3:10])[CH3:11]",
+      "mapping_confidence": 0.29197800579469063,
+      "conditions": {
+        "raw_description": "CuCl; THF; 50 \u00b0C; 65%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_15",
+      "reaction_smiles": "C#CC(C)(C)C#C[Si](C)(C)C.CC(C)C[AlH]CC(C)C.II.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.C1CCOC1>>CC(C)(C#C[Si](C)(C)C)/C=C/I",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([C:4]#[C:5][Si:6]([CH3:7])([CH3:8])[CH3:9])[C:10]#[CH:11].I[I:12]>C1CCOC1.CC(C)C[AlH]CC(C)C.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1>[CH3:1][C:2]([CH3:3])([C:4]#[C:5][Si:6]([CH3:7])([CH3:8])[CH3:9])/[CH:10]=[CH:11]/[I:12]",
+      "mapping_confidence": 0.125220379873411,
+      "conditions": {
+        "raw_description": "Cp2ZrCl2; DIBAL-H; I2; THF; 0 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H",
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C",
+          "II"
+        ],
+        "CATALYSTS": [
+          "Cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[Cl-].[Cl-].[cH-]1cccc1.[cH-]1cccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_16",
+      "reaction_smiles": "C[Si](C)(C)C#CCO.C[Mg]Cl.[Cu+].[I-].CCOCC>>C/C(=C\\[Si](C)(C)C)CO",
+      "reaction_smiles_mapped": "Cl[Mg][CH3:1].[C:2](#[C:3][Si:4]([CH3:5])([CH3:6])[CH3:7])[CH2:8][OH:9]>CCOCC.[Cu+].[I-]>[CH3:1]/[C:2](=[CH:3]\\[Si:4]([CH3:5])([CH3:6])[CH3:7])[CH2:8][OH:9]",
+      "mapping_confidence": 0.394770606108538,
+      "conditions": {
+        "raw_description": "MeMgCl; CuI; Et2O; reflux",
+        "GENERAL_REAGENTS": [
+          "MeMgCl",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Cl",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_17",
+      "reaction_smiles": "C/C(=C\\[Si](C)(C)C)CO.O=[Mn]=O.ClCCl>>C/C(C=O)=C\\[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1]/[C:2]([CH2:3][OH:4])=[CH:5]\\[Si:6]([CH3:7])([CH3:8])[CH3:9]>ClCCl.O=[Mn]=O>[CH3:1]/[C:2]([CH:3]=[O:4])=[CH:5]\\[Si:6]([CH3:7])([CH3:8])[CH3:9]",
+      "mapping_confidence": 0.3998576630772581,
+      "conditions": {
+        "raw_description": "MnO2; DCM; reflux; 85% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_18",
+      "reaction_smiles": "C/C(C=O)=C\\[Si](C)(C)C.C[Si](C)(C)C#N.Cl.ClCCl>>C/C(=C\\[Si](C)(C)C)C(O)C#N",
+      "reaction_smiles_mapped": "[CH3:1]/[C:2](=[CH:3]\\[Si:4]([CH3:5])([CH3:6])[CH3:7])[CH:8]=[O:9].C[Si](C)(C)[C:10]#[N:11]>Cl.ClCCl>[CH3:1]/[C:2](=[CH:3]\\[Si:4]([CH3:5])([CH3:6])[CH3:7])[CH:8]([OH:9])[C:10]#[N:11]",
+      "mapping_confidence": 0.3804913989325464,
+      "conditions": {
+        "raw_description": "1) TMSCN; ZnI2; DCM; rt; 2) HCl",
+        "GENERAL_REAGENTS": [
+          "TMSCN",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C#N",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aberrarone_2023_Jia_19",
+      "reaction_smiles": "C/C(=C\\[Si](C)(C)C)C(O)C#N.O=[Mn]=O.ClCCl>>C/C(=C\\[Si](C)(C)C)C(=O)C#N",
+      "reaction_smiles_mapped": "[CH3:1]/[C:2](=[CH:3]\\[Si:4]([CH3:5])([CH3:6])[CH3:7])[CH:8]([OH:9])[C:10]#[N:11]>ClCCl.O=[Mn]=O>[CH3:1]/[C:2](=[CH:3]\\[Si:4]([CH3:5])([CH3:6])[CH3:7])[C:8](=[O:9])[C:10]#[N:11]",
+      "mapping_confidence": 0.4135588408285546,
+      "conditions": {
+        "raw_description": "MnO2; DCM; rt; 80% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

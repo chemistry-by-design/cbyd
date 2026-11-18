@@ -1,0 +1,333 @@
+{
+  "background": {
+    "name": "Heliophenanthrone",
+    "author": "Hildebrandt",
+    "year": 2005,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2005, 70, 15, 6093\u20136096",
+    "doi": "10.1021/jo050400a"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_1",
+      "reaction_smiles": "CCOC(=O)C=O.C#CCBr.[Zn].C1COCCO1>>C#CCC(O)C(=O)OCC",
+      "reaction_smiles_mapped": "Br[CH2:3][C:2]#[CH:1].[CH:4](=[O:5])[C:6](=[O:7])[O:8][CH2:9][CH3:10]>C1COCCO1.[Zn]>[CH:1]#[C:2][CH2:3][CH:4]([OH:5])[C:6](=[O:7])[O:8][CH2:9][CH3:10]",
+      "mapping_confidence": 0.95534989516481,
+      "conditions": {
+        "raw_description": "Zn; dioxane; sonication; 67%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [
+          "sonication"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_2",
+      "reaction_smiles": "C#CCC(O)C(=O)OCC.[H-].[Na+].CI.C1CCOC1>>C#CCC(OC)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH2:3][CH:4]([OH:5])[C:7](=[O:8])[O:9][CH2:10][CH3:11].I[CH3:6]>C1CCOC1.[H-].[Na+]>[CH:1]#[C:2][CH2:3][CH:4]([O:5][CH3:6])[C:7](=[O:8])[O:9][CH2:10][CH3:11]",
+      "mapping_confidence": 0.9794520637430448,
+      "conditions": {
+        "raw_description": "NaH; MeI; THF; 64%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_3",
+      "reaction_smiles": "C#CCC(OC)C(=O)OCC.[AlH4-].[Li+].C1CCOC1>>C#CCC(CO)OC",
+      "reaction_smiles_mapped": "CCO[C:5]([CH:4]([CH2:3][C:2]#[CH:1])[O:7][CH3:8])=[O:6]>C1CCOC1.[AlH4-].[Li+]>[CH:1]#[C:2][CH2:3][CH:4]([CH2:5][OH:6])[O:7][CH3:8]",
+      "mapping_confidence": 0.8268514599793172,
+      "conditions": {
+        "raw_description": "LiAlH4; THF",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_4",
+      "reaction_smiles": "C#CCC(CO)OC.O=C(Cl)C(=O)Cl.CS(C)=O.ClCCl>>C#CCC(C=O)OC",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH2:3][CH:4]([CH2:5][OH:6])[O:7][CH3:8]>CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH:1]#[C:2][CH2:3][CH:4]([CH:5]=[O:6])[O:7][CH3:8]",
+      "mapping_confidence": 0.9845422244621592,
+      "conditions": {
+        "raw_description": "oxalyl chloride; DMSO; CH2Cl2; -70 \u00b0C to rt; 44% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "oxalyl chloride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(=O)C(Cl)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-70",
+          "rt"
+        ],
+        "YIELD": [
+          "44% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_5",
+      "reaction_smiles": "C#CCC(C=O)OC.C#C[Si](C)(C)C.[Li]CCCC.C1CCOC1>>C#CC[C@@H](OC)C(O)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH2:3][CH:4]([O:5][CH3:6])[CH:7]=[O:8].[CH:9]#[C:10][Si:11]([CH3:12])([CH3:13])[CH3:14]>C1CCOC1.[Li]CCCC>[CH:1]#[C:2][CH2:3][C@@H:4]([O:5][CH3:6])[CH:7]([OH:8])[C:9]#[C:10][Si:11]([CH3:12])([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.47686642876240737,
+      "conditions": {
+        "raw_description": "TMS-acetylene; n-BuLi; THF; -78 \u00b0C to rt; 58%",
+        "GENERAL_REAGENTS": [
+          "TMS-acetylene",
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C#C[Si](C)(C)C",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_6",
+      "reaction_smiles": "C#CC[C@@H](OC)C(O)C#C[Si](C)(C)C.CC(=O)c1ccc(C)cc1Br.Cl[Pd]Cl.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCN(CC)CC>>CO[C@@H](CC#Cc1cc(C)ccc1C(C)=O)C(O)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH2:4][C:5]#[CH:6])[CH:17]([OH:18])[C:19]#[C:20][Si:21]([CH3:22])([CH3:23])[CH3:24].Br[c:7]1[cH:8][c:9]([CH3:10])[cH:11][cH:12][c:13]1[C:14]([CH3:15])=[O:16]>CCN(CC)CC.Cl[Pd]Cl.[Cu+].[I-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][C@@H:3]([CH2:4][C:5]#[C:6][c:7]1[cH:8][c:9]([CH3:10])[cH:11][cH:12][c:13]1[C:14]([CH3:15])=[O:16])[CH:17]([OH:18])[C:19]#[C:20][Si:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.4211446402163616,
+      "conditions": {
+        "raw_description": "PdCl2(PPh3)2; CuI; NEt3; 80 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PdCl2(PPh3)2",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.Cl[Pd]Cl",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_7",
+      "reaction_smiles": "CO[C@@H](CC#Cc1cc(C)ccc1C(C)=O)C(O)C#C[Si](C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C#CC(O)[C@H](CC#Cc1cc(C)ccc1C(C)=O)OC",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][CH:3]([OH:4])[C@H:5]([CH2:6][C:7]#[C:8][c:9]1[cH:10][c:11]([CH3:12])[cH:13][cH:14][c:15]1[C:16]([CH3:17])=[O:18])[O:19][CH3:20]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH:1]#[C:2][CH:3]([OH:4])[C@H:5]([CH2:6][C:7]#[C:8][c:9]1[cH:10][c:11]([CH3:12])[cH:13][cH:14][c:15]1[C:16]([CH3:17])=[O:18])[O:19][CH3:20]",
+      "mapping_confidence": 0.987661657992494,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 50% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_8",
+      "reaction_smiles": "C#CC(O)[C@H](CC#Cc1cc(C)ccc1C(C)=O)OC.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>C#CC(O[Si](C)(C)C(C)(C)C)[C@H](CC#Cc1cc(C)ccc1C(C)=O)OC",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH:3]([OH:4])[C@H:12]([CH2:13][C:14]#[C:15][c:16]1[cH:17][c:18]([CH3:19])[cH:20][cH:21][c:22]1[C:23]([CH3:24])=[O:25])[O:26][CH3:27].Cl[Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11]>CN(C)C=O.c1c[nH]cn1>[CH:1]#[C:2][CH:3]([O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[C@H:12]([CH2:13][C:14]#[C:15][c:16]1[cH:17][c:18]([CH3:19])[cH:20][cH:21][c:22]1[C:23]([CH3:24])=[O:25])[O:26][CH3:27]",
+      "mapping_confidence": 0.30655458407382824,
+      "conditions": {
+        "raw_description": "TBDMSCl; imidazole; DMF; 90%",
+        "GENERAL_REAGENTS": [
+          "TBDMSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_9",
+      "reaction_smiles": "C#CC(O[Si](C)(C)C(C)(C)C)[C@H](CC#Cc1cc(C)ccc1C(C)=O)OC.[Cl-].[Cl-].[Pt+2].C1COCCO1>>CO[C@@H]1CC(=O)c2c(cc(C)c3ccc(C)cc23)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]([CH2:4][C:10]#[C:7][c:18]1[c:12]([C:5](=[O:6])[CH3:11])[cH:13][cH:14][c:15]([CH3:16])[cH:17]1)[CH:19]([C:8]#[CH:9])[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27]>C1COCCO1.[Cl-].[Cl-].[Pt+2]>[CH3:1][O:2][C@@H:3]1[CH2:4][C:5](=[O:6])[c:7]2[c:8]([cH:9][c:10]([CH3:11])[c:12]3[cH:13][cH:14][c:15]([CH3:16])[cH:17][c:18]23)[C@H:19]1[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.22689577769035085,
+      "conditions": {
+        "raw_description": "PtCl2; dioxane; 120 \u00b0C; 25%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PtCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pt+2].[Cl-].[Cl-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "25%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Heliophenanthrone_2005_Hildebrandt_10",
+      "reaction_smiles": "CO[C@@H]1CC(=O)c2c(cc(C)c3ccc(C)cc23)[C@H]1O[Si](C)(C)C(C)(C)C.F.CC#N>>CO[C@@H]1CC(=O)c2c(cc(C)c3ccc(C)cc23)[C@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:20][C@H:19]1[C@H:3]([O:2][CH3:1])[CH2:4][C:5](=[O:6])[c:7]2[c:8]1[cH:9][c:10]([CH3:11])[c:12]1[cH:13][cH:14][c:15]([CH3:16])[cH:17][c:18]21>CC#N.F>[CH3:1][O:2][C@@H:3]1[CH2:4][C:5](=[O:6])[c:7]2[c:8]([cH:9][c:10]([CH3:11])[c:12]3[cH:13][cH:14][c:15]([CH3:16])[cH:17][c:18]23)[C@H:19]1[OH:20]",
+      "mapping_confidence": 0.9919511123097022,
+      "conditions": {
+        "raw_description": "HF; MeCN; 97%",
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    }
+  ]
+}

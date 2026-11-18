@@ -1,0 +1,606 @@
+{
+  "background": {
+    "name": "(+/-)-Aspidospermidine",
+    "author": "Aube",
+    "year": 2000,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2000, 2, 1625",
+    "doi": "10.1021/ol005913c"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_1",
+      "reaction_smiles": "CCC1CCCC1=O.C[C@H](N)c1ccccc1>>CCC1CCC/C1=N\\[C@@H](C)c1ccccc1",
+      "reaction_smiles_mapped": "O=[C:7]1[CH:3]([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6]1.[NH2:8][C@@H:9]([CH3:10])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6]/[C:7]1=[N:8]\\[C@@H:9]([CH3:10])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1",
+      "mapping_confidence": 0.9668908721764462,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_2",
+      "reaction_smiles": "CCC1CCC/C1=N\\[C@@H](C)c1ccccc1.C=CC(=O)CCCOCc1ccccc1.Oc1ccc(O)cc1.[Cl-].[Cl-].[Zn+2].CCOCC>>CC[C@]1(CCC(=O)CCCOCc2ccccc2)CCC/C1=N\\[C@@H](C)c1ccccc1",
+      "reaction_smiles_mapped": "[CH2:4]=[CH:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[CH3:1][CH2:2][CH:3]1[CH2:19][CH2:20][CH2:21]/[C:22]1=[N:23]\\[C@@H:24]([CH3:25])[c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1>CCOCC.Oc1ccc(O)cc1.[Cl-].[Cl-].[Zn+2]>[CH3:1][CH2:2][C@:3]1([CH2:4][CH2:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[CH2:19][CH2:20][CH2:21]/[C:22]1=[N:23]\\[C@@H:24]([CH3:25])[c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1",
+      "mapping_confidence": 0.820625875270452,
+      "conditions": {
+        "raw_description": "HQ; ZnCl2; Et2O; reflux",
+        "GENERAL_REAGENTS": [
+          "HQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC=C1O)O"
+        ],
+        "CATALYSTS": [
+          "ZnCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cl-].[Cl-].[Zn++]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_3",
+      "reaction_smiles": "CC[C@]1(CCC(=O)CCCOCc2ccccc2)CCC/C1=N\\[C@@H](C)c1ccccc1.CC(=O)O>>CC[C@]1(CCC(=O)CCCOCc2ccccc2)CCCC1=O",
+      "reaction_smiles_mapped": "C[C@H](/N=[C:22]1/[C@@:3]([CH2:2][CH3:1])([CH2:4][CH2:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[CH2:19][CH2:20][CH2:21]1)c1ccccc1>CC(=O)O>[CH3:1][CH2:2][C@:3]1([CH2:4][CH2:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[CH2:19][CH2:20][CH2:21][C:22]1=[O:23]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_4",
+      "reaction_smiles": "CC[C@]1(CCC(=O)CCCOCc2ccccc2)CCCC1=O.C[O-].[Na+].CO>>CC[C@]12CCCC1=C(CCOCc1ccccc1)C(=O)CC2",
+      "reaction_smiles_mapped": "O=[C:7]1[C@@:3]([CH2:2][CH3:1])([CH2:22][CH2:21][C:19]([CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)=[O:20])[CH2:4][CH2:5][CH2:6]1>CO.C[O-].[Na+]>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][C:7]1=[C:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C:19](=[O:20])[CH2:21][CH2:22]2",
+      "mapping_confidence": 0.8093509769782963,
+      "conditions": {
+        "raw_description": "MeONa; MeOH; reflux; 49% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "MeONa"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "49% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_5",
+      "reaction_smiles": "CC[C@]12CCCC1=C(CCOCc1ccccc1)C(=O)CC2.C=C(C)OC(C)=O>>CC[C@]12CCC=C1C(CCOCc1ccccc1)=C(OC(C)=O)CC2",
+      "reaction_smiles_mapped": "C=C(C)O[C:21]([CH3:22])=[O:23].[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][C:7]1=[C:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C:19](=[O:20])[CH2:24][CH2:25]2>>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH:6]=[C:7]1[C:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)=[C:19]([O:20][C:21]([CH3:22])=[O:23])[CH2:24][CH2:25]2",
+      "mapping_confidence": 0.786293251241582,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_6",
+      "reaction_smiles": "CC[C@]12CCC=C1C(CCOCc1ccccc1)=C(OC(C)=O)CC2.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].CC(C)=O>>CC[C@@]12CCC(=O)C(CCOCc3ccccc3)=C1[C@H](O)CC2",
+      "reaction_smiles_mapped": "CC(=O)[O:7][C:6]1=[C:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]2=[CH:20][CH2:5][CH2:4][C@:3]2([CH2:2][CH3:1])[CH2:23][CH2:22]1.O=S(=O)([O-])O[OH:21]>CC(C)=O.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+]>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][C:6](=[O:7])[C:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)=[C:19]1[C@H:20]([OH:21])[CH2:22][CH2:23]2",
+      "mapping_confidence": 0.22782399685153748,
+      "conditions": {
+        "raw_description": "Oxone; acetone; 88% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Oxone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[K+].[K+].[K+].[K+].OS(=O)(=O)[O-].OOS(=O)(=O)[O-].OOS(=O)(=O)[O-].[O-]S(=O)(=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_7",
+      "reaction_smiles": "CC[C@@]12CCC(=O)C(CCOCc3ccccc3)=C1[C@H](O)CC2.CC(C)(CO[Si](C)(C)C)CO[Si](C)(C)C.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>>CC[C@]12CCC(=O)[C@H]1C(CCOCc1ccccc1)C1(CC2)OCC(C)(C)CO1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:23][CH2:24][C:25]([CH3:26])([CH3:27])[CH2:28][O:29][Si](C)(C)C.[CH3:1][CH2:2][C@@:3]12[CH2:22][CH2:21][C:20](=O)[C:9]([CH2:10][CH2:11][O:12][CH2:13][c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)=[C:8]1[C@H:6]([OH:7])[CH2:5][CH2:4]2>C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][C:6](=[O:7])[C@H:8]1[CH:9]([CH2:10][CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]1([CH2:21][CH2:22]2)[O:23][CH2:24][C:25]([CH3:26])([CH3:27])[CH2:28][O:29]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "TMSOTf; DCM; 0 \u00b0C to rt; 69%",
+        "GENERAL_REAGENTS": [
+          "TMSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_8",
+      "reaction_smiles": "CC[C@]12CCC(=O)[C@H]1C(CCOCc1ccccc1)C1(CC2)OCC(C)(C)CO1.[HH].[C].[Pd]>>CC[C@]12CCC(=O)[C@H]1C(CCO)C1(CC2)OCC(C)(C)CO1",
+      "reaction_smiles_mapped": "c1ccc(C[O:12][CH2:11][CH2:10][CH:9]2[C@H:8]3[C@:3]([CH2:2][CH3:1])([CH2:4][CH2:5][C:6]3=[O:7])[CH2:15][CH2:14][C:13]23[O:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21][O:22]3)cc1>[C].[HH].[Pd]>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][C:6](=[O:7])[C@H:8]1[CH:9]([CH2:10][CH2:11][OH:12])[C:13]1([CH2:14][CH2:15]2)[O:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21][O:22]1",
+      "mapping_confidence": 0.5727384756157556,
+      "conditions": {
+        "raw_description": "H2; Pd/C; 85%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_9",
+      "reaction_smiles": "CC[C@]12CCC(=O)[C@H]1C(CCO)C1(CC2)OCC(C)(C)CO1.[N-]=[N+]=N.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)/N=N/C(=O)OCC.c1ccccc1>>CC1(C)COC2(CC[C@@]3(C)CCC(=O)[C@H]3C2CCN=[N+]=[N-])OC1",
+      "reaction_smiles_mapped": "C[CH2:10][C@@:9]12[CH2:8][CH2:7][C:6]3([O:5][CH2:4][C:2]([CH3:1])([CH3:3])[CH2:23][O:22]3)[CH:16]([CH2:17][CH2:18]O)[C@@H:15]1[C:13](=[O:14])[CH2:12][CH2:11]2.[N-:19]=[N+:20]=[NH:21]>CCOC(=O)/N=N/C(=O)OCC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccccc1>[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][C@@:9]3([CH3:10])[CH2:11][CH2:12][C:13](=[O:14])[C@H:15]3[CH:16]2[CH2:17][CH2:18][N:19]=[N+:20]=[N-:21])[O:22][CH2:23]1",
+      "mapping_confidence": 0.4262943474223276,
+      "conditions": {
+        "raw_description": "HN3; PPh3; DEAD; benzene; 0 \u00b0C to rt; 73%",
+        "GENERAL_REAGENTS": [
+          "HN3",
+          "PPh3",
+          "DEAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=N",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+          "CCOC(=O)/N=N/C(=O)OCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_10",
+      "reaction_smiles": "CC1(C)COC2(CC[C@@]3(C)CCC(=O)[C@H]3C2CCN=[N+]=[N-])OC1.F[B-](F)(F)F.[Li+]>>CC[C@@]12CCC(=O)C(CCN=[N+]=[N-])[C@@H]1C(=O)CC2",
+      "reaction_smiles_mapped": "CC1([CH3:1])CO[C:15]2([CH:8]([CH2:9][CH2:10][N:11]=[N+:12]=[N-:13])[C@H:14]3[C@:3]([CH3:2])([CH2:4][CH2:5][C:6]3=[O:7])[CH2:18][CH2:17]2)[O:16]C1>F[B-](F)(F)F.[Li+]>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][C:6](=[O:7])[CH:8]([CH2:9][CH2:10][N:11]=[N+:12]=[N-:13])[C@@H:14]1[C:15](=[O:16])[CH2:17][CH2:18]2",
+      "mapping_confidence": 0.6638444483266656,
+      "conditions": {
+        "raw_description": "LiBF4; 89%",
+        "GENERAL_REAGENTS": [
+          "LiBF4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[B-](F)(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_11",
+      "reaction_smiles": "CC[C@@]12CCC(=O)C(CCN=[N+]=[N-])[C@@H]1C(=O)CC2.Cl[Ti](Cl)(Cl)Cl>>CC[C@]12CCC(=O)[C@@H]3CCN(C(=O)CC1)[C@@H]32",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:11][CH2:10][CH2:9][CH:8]1[C:6](=[O:7])[CH2:5][CH2:4][C@@:3]2([CH2:2][CH3:1])[CH2:15][CH2:14][C:12](=[O:13])[C@H:16]21>Cl[Ti](Cl)(Cl)Cl>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][C:6](=[O:7])[C@@H:8]3[CH2:9][CH2:10][N:11]([C:12](=[O:13])[CH2:14][CH2:15]1)[C@H:16]23",
+      "mapping_confidence": 0.9923024146013523,
+      "conditions": {
+        "raw_description": "TiCl4; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_12",
+      "reaction_smiles": "CC[C@]12CCC(=O)[C@@H]3CCN(C(=O)CC1)[C@@H]32.CC(C)(CO[Si](C)(C)C)CO[Si](C)(C)C.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>>CC[C@]12CCC(=O)N3CC[C@H]([C@H]31)C1(CC2)OCC(C)(C)CO1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21][O:22][Si](C)(C)C.O=[C:13]1[C@@H:11]2[CH2:10][CH2:9][N:8]3[C:6](=[O:7])[CH2:5][CH2:4][C@@:3]([CH2:2][CH3:1])([C@@H:12]32)[CH2:15][CH2:14]1>C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][C:6](=[O:7])[N:8]3[CH2:9][CH2:10][C@H:11]([C@@H:12]13)[C:13]1([CH2:14][CH2:15]2)[O:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21][O:22]1",
+      "mapping_confidence": 0.33846762824110044,
+      "conditions": {
+        "raw_description": "TMSOTf; DCM; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "TMSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_13",
+      "reaction_smiles": "CC[C@]12CCC(=O)N3CC[C@H]([C@H]31)C1(CC2)OCC(C)(C)CO1.[AlH4-].[Li+].C1CCOC1>>CC[C@]12CCCN3CC[C@H]([C@H]31)C1(CC2)OCC(C)(C)CO1",
+      "reaction_smiles_mapped": "O=[C:6]1[CH2:5][CH2:4][C@@:3]2([CH2:2][CH3:1])[C@H:11]3[N:7]1[CH2:8][CH2:9][C@H:10]3[C:12]1([CH2:13][CH2:14]2)[O:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20][O:21]1>C1CCOC1.[AlH4-].[Li+]>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@H:10]([C@@H:11]13)[C:12]1([CH2:13][CH2:14]2)[O:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20][O:21]1",
+      "mapping_confidence": 0.5829183004280653,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_14",
+      "reaction_smiles": "CC[C@]12CCCN3CC[C@H]([C@H]31)C1(CC2)OCC(C)(C)CO1.F[B-](F)(F)F.[Li+].CC#N>>CC[C@@]12CCCN3CC[C@@H](C(=O)CC1)[C@H]32",
+      "reaction_smiles_mapped": "CC1(C)CO[C:11]2([C@@H:10]3[CH2:9][CH2:8][N:7]4[CH2:6][CH2:5][CH2:4][C@:3]([CH2:2][CH3:1])([CH2:14][CH2:13]2)[C@@H:15]43)[O:12]C1>CC#N.F[B-](F)(F)F.[Li+]>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@H:10]([C:11](=[O:12])[CH2:13][CH2:14]1)[C@@H:15]23",
+      "mapping_confidence": 0.7459351791372157,
+      "conditions": {
+        "raw_description": "LiBF4; MeCN; reflux; 67% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "LiBF4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[B-](F)(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "67% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_15",
+      "reaction_smiles": "CC[C@@]12CCCN3CC[C@@H](C(=O)CC1)[C@H]32.NNc1ccccc1>>CC[C@@]12CCCN3CC[C@@H](C(=NNc4ccccc4)CC1)[C@H]32",
+      "reaction_smiles_mapped": "O=[C:11]1[C@@H:10]2[CH2:9][CH2:8][N:7]3[CH2:6][CH2:5][CH2:4][C@:3]([CH2:2][CH3:1])([CH2:21][CH2:20]1)[C@@H:22]32.[NH2:12][NH:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@H:10]([C:11](=[N:12][NH:13][c:14]4[cH:15][cH:16][cH:17][cH:18][cH:19]4)[CH2:20][CH2:21]1)[C@@H:22]23",
+      "mapping_confidence": 0.9099154650559979,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_16",
+      "reaction_smiles": "CC[C@@]12CCCN3CC[C@@H](C(=NNc4ccccc4)CC1)[C@H]32.CC(=O)O>>CC[C@@]12CCCN3CC[C@@]4(C(=Nc5ccccc54)CC1)[C@H]32",
+      "reaction_smiles_mapped": "[NH:12](N=[C:11]1[C@@H:10]2[CH2:9][CH2:8][N:7]3[CH2:6][CH2:5][CH2:4][C@:3]([CH2:2][CH3:1])([CH2:20][CH2:19]1)[C@@H:21]32)[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>CC(=O)O>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([C:11](=[N:12][c:13]5[cH:14][cH:15][cH:16][cH:17][c:18]54)[CH2:19][CH2:20]1)[C@@H:21]23",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "AcOH; reflux",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_17",
+      "reaction_smiles": "CC[C@@]12CCCN3CC[C@@]4(C(=Nc5ccccc54)CC1)[C@H]32.[AlH4-].[Li+].C1CCOC1>>CC[C@@]12CCCN3CC[C@]4(c5ccccc5N[C@@H]4CC1)[C@H]32",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[N:17]=[C:18]4[CH2:19][CH2:20]1)[C@@H:21]23>C1CCOC1.[AlH4-].[Li+]>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][cH:15][c:16]5[NH:17][C@@H:18]4[CH2:19][CH2:20]1)[C@@H:21]23",
+      "mapping_confidence": 0.9636201370722093,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux; 51% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "51% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_18",
+      "reaction_smiles": "OCCCCO.[H-].[Na+].BrCc1ccccc1>>OCCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1.[OH:1][CH2:2][CH2:3][CH2:4][CH2:5][OH:6]>[H-].[Na+]>[OH:1][CH2:2][CH2:3][CH2:4][CH2:5][O:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1",
+      "mapping_confidence": 0.7367267433525582,
+      "conditions": {
+        "raw_description": "NaH; BnBr",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "BnBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "C1=CC=C(C=C1)CBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_19",
+      "reaction_smiles": "OCCCCOCc1ccccc1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>O=CCCCOCc1ccccc1",
+      "reaction_smiles_mapped": "[OH:1][CH2:2][CH2:3][CH2:4][CH2:5][O:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[O:1]=[CH:2][CH2:3][CH2:4][CH2:5][O:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1",
+      "mapping_confidence": 0.8966681508021646,
+      "conditions": {
+        "raw_description": "DMP; DCM; 99%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_20",
+      "reaction_smiles": "O=CCCCOCc1ccccc1.C=C[Mg]Br.C1CCOC1>>C=CC(O)CCCOCc1ccccc1",
+      "reaction_smiles_mapped": "Br[Mg][CH:2]=[CH2:1].[CH:3](=[O:4])[CH2:5][CH2:6][CH2:7][O:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>C1CCOC1>[CH2:1]=[CH:2][CH:3]([OH:4])[CH2:5][CH2:6][CH2:7][O:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.8843174829933917,
+      "conditions": {
+        "raw_description": "THF; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Aspidospermidine_2000_Aube_21",
+      "reaction_smiles": "C=CC(O)CCCOCc1ccccc1.O=[Cr](=O)=O.O=S(=O)(O)O.O>>C=CC(=O)CCCOCc1ccccc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH:3]([OH:4])[CH2:5][CH2:6][CH2:7][O:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>O.O=S(=O)(O)O.O=[Cr](=O)=O>[CH2:1]=[CH:2][C:3](=[O:4])[CH2:5][CH2:6][CH2:7][O:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.8843194338247742,
+      "conditions": {
+        "raw_description": "CrO3; H2SO4; H2O; 80%",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "background": {
+    "name": "(+/-)-Japonicol B",
+    "author": "Dethe",
+    "year": 2021,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2021, 23, 2648",
+    "doi": "10.1021/acs.orglett.1c00560"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Japonicol_B_2021_Dethe_1",
+      "reaction_smiles": "CC(C)C(=O)c1c(O)cc(O)cc1O.CC(C)=CCC/C(C)=C/CO.ClCCl.CCOCC.FB(F)F>>CC(C)=CCC/C(C)=C/Cc1c(O)cc(O)c(C(=O)C(C)C)c1O",
+      "reaction_smiles_mapped": "O[CH2:10]/[CH:9]=[C:7](/[CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8].[cH:11]1[c:12]([OH:13])[cH:14][c:15]([OH:16])[c:17]([C:18](=[O:19])[CH:20]([CH3:21])[CH3:22])[c:23]1[OH:24]>ClCCl.CCOCC.FB(F)F>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][c:11]1[c:12]([OH:13])[cH:14][c:15]([OH:16])[c:17]([C:18](=[O:19])[CH:20]([CH3:21])[CH3:22])[c:23]1[OH:24]",
+      "mapping_confidence": 0.632916806606624,
+      "conditions": {
+        "raw_description": "BF3\u2022Et2O; DCM; 35 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3\u2022Et2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "35"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Japonicol_B_2021_Dethe_2",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/Cc1c(O)cc(O)c(C(=O)C(C)C)c1O.CC(=O)OC(C)=O.CC(=O)OC(C)=O.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>CC(=O)Oc1cc(OC(C)=O)c(C(=O)C(C)C)c(OC(C)=O)c1C/C=C(\\C)CCC=C(C)C",
+      "reaction_smiles_mapped": "O([C:9]([CH3:10])=[O:11])[C:20]([CH3:21])=[O:22].CC(=O)O[C:2]([CH3:1])=[O:3].[OH:4][c:5]1[cH:6][c:7]([OH:8])[c:12]([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[c:18]([OH:19])[c:23]1[CH2:24]/[CH:25]=[C:26](\\[CH3:27])[CH2:28][CH2:29][CH:30]=[C:31]([CH3:32])[CH3:33]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][C:2](=[O:3])[O:4][c:5]1[cH:6][c:7]([O:8][C:9]([CH3:10])=[O:11])[c:12]([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[c:18]([O:19][C:20]([CH3:21])=[O:22])[c:23]1[CH2:24]/[CH:25]=[C:26](\\[CH3:27])[CH2:28][CH2:29][CH:30]=[C:31]([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.0558930089282908,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; DCM; 92%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Japonicol_B_2021_Dethe_3",
+      "reaction_smiles": "CC(=O)Oc1cc(OC(C)=O)c(C(=O)C(C)C)c(OC(C)=O)c1C/C=C(\\C)CCC=C(C)C.O=C(OO)c1cccc(Cl)c1.ClCCl>>CC(=O)Oc1cc(OC(C)=O)c(C(=O)C(C)C)c(OC(C)=O)c1CC1OC1(C)CCC1OC1(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][c:5]1[cH:6][c:7]([O:8][C:9]([CH3:10])=[O:11])[c:12]([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[c:18]([O:19][C:20]([CH3:21])=[O:22])[c:23]1[CH2:24]/[CH:25]=[C:27](\\[CH3:28])[CH2:29][CH2:30][CH:31]=[C:33]([CH3:34])[CH3:35].Clc1cccc(C(O[OH:26])=[O:32])c1>ClCCl>[CH3:1][C:2](=[O:3])[O:4][c:5]1[cH:6][c:7]([O:8][C:9]([CH3:10])=[O:11])[c:12]([C:13](=[O:14])[CH:15]([CH3:16])[CH3:17])[c:18]([O:19][C:20]([CH3:21])=[O:22])[c:23]1[CH2:24][CH:25]1[O:26][C:27]1([CH3:28])[CH2:29][CH2:30][CH:31]1[O:32][C:33]1([CH3:34])[CH3:35]",
+      "mapping_confidence": 0.44864909419238513,
+      "conditions": {
+        "raw_description": "m-CPBA; DCM; 0 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "m-CPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Japonicol_B_2021_Dethe_4",
+      "reaction_smiles": "CC(=O)Oc1cc(OC(C)=O)c(C(=O)C(C)C)c(OC(C)=O)c1CC1OC1(C)CCC1OC1(C)C.O=C([O-])[O-].[K+].[K+].CO.O>>CC(C)C(=O)c1c(O)cc(O)c2c1O[C@@]1(C)CC[C@H](C(C)(C)O)O[C@H]1C2",
+      "reaction_smiles_mapped": "CC(=O)[O:8][c:7]1[c:6]([C:4]([CH:2]([CH3:1])[CH3:3])=[O:5])[c:13]([O:14]C(C)=O)[c:12]([CH2:26][CH:25]2[C:15]([CH3:16])([CH2:17][CH2:18][CH:19]3[C:20]([CH3:21])([CH3:22])[O:23]3)[O:24]2)[c:10]([O:11]C(C)=O)[cH:9]1>O=C([O-])[O-].[K+].[K+].CO.O>[CH3:1][CH:2]([CH3:3])[C:4](=[O:5])[c:6]1[c:7]([OH:8])[cH:9][c:10]([OH:11])[c:12]2[c:13]1[O:14][C@@:15]1([CH3:16])[CH2:17][CH2:18][C@H:19]([C:20]([CH3:21])([CH3:22])[OH:23])[O:24][C@H:25]1[CH2:26]2",
+      "mapping_confidence": 0.3438887589036067,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; H2O; 28%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "28%"
+        ]
+      }
+    }
+  ]
+}

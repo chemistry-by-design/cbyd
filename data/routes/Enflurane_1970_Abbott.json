@@ -1,0 +1,63 @@
+{
+  "background": {
+    "name": "Enflurane",
+    "author": null,
+    "year": 1970,
+    "drug_name": "Ethrane",
+    "manufacturer": "Abbott",
+    "citation": "R.C. Terrel, U.S. Pat. 3.527.813 (1970)",
+    "doi": "US Patent 3.527.813"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Enflurane_1970_Abbott_1",
+      "reaction_smiles": "COC(F)(F)C(F)Cl.ClCl>>FC(Cl)C(F)(F)OC(Cl)Cl",
+      "reaction_smiles_mapped": "[F:1][CH:2]([Cl:3])[C:4]([F:5])([F:6])[O:7][CH3:8].[Cl:9][Cl:10]>>[F:1][CH:2]([Cl:3])[C:4]([F:5])([F:6])[O:7][CH:8]([Cl:9])[Cl:10]",
+      "mapping_confidence": 0.4637185596238798,
+      "conditions": {
+        "raw_description": "Cl2",
+        "GENERAL_REAGENTS": [
+          "Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enflurane_1970_Abbott_2",
+      "reaction_smiles": "FC(Cl)C(F)(F)OC(Cl)Cl.F.Cl[Sb](Cl)Cl>>FC(F)OC(F)(F)C(F)Cl",
+      "reaction_smiles_mapped": "[FH:1].Cl[CH:2](Cl)[O:4][C:5]([F:6])([F:7])[CH:8]([F:9])[Cl:10]>Cl[Sb](Cl)Cl>[F:1][CH:2]([F:3])[O:4][C:5]([F:6])([F:7])[CH:8]([F:9])[Cl:10]",
+      "mapping_confidence": 0.5631458786194691,
+      "conditions": {
+        "raw_description": "H2F2; SbCl3",
+        "GENERAL_REAGENTS": [
+          "H2F2",
+          "SbCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F",
+          "Cl[Sb](Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

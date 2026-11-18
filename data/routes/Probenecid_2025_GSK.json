@@ -1,0 +1,33 @@
+{
+  "background": {
+    "name": "Probenecid (Orlynvah)",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Orlynvah",
+    "manufacturer": "GSK",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Probenecid_2025_GSK_1",
+      "reaction_smiles": "O=C(O)c1ccc(S(=O)(=O)Cl)cc1.CCCNCCC.[OH][Na]>>CCCN(CCC)S(=O)(=O)c1ccc(C(=O)O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][NH:4][CH2:5][CH2:6][CH3:7].Cl[S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([C:15](=[O:16])[OH:17])[cH:18][cH:19]1>[OH][Na]>[CH3:1][CH2:2][CH2:3][N:4]([CH2:5][CH2:6][CH3:7])[S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([C:15](=[O:16])[OH:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.5879047444832852,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

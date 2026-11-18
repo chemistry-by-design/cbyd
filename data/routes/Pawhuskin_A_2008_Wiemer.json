@@ -1,0 +1,357 @@
+{
+  "background": {
+    "name": "Pawhuskin A",
+    "author": "Wiemer",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Nat. Prod. 2008, 71, 1949",
+    "doi": "10.1021/np800351c"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_1",
+      "reaction_smiles": "COC(=O)c1cc(O)cc(O)c1.CC(C)=CCC/C(C)=C/CO.CCOCC.FB(F)F>>COC(=O)c1cc(O)cc(O)c1C/C=C(\\C)CCC=C(C)C",
+      "reaction_smiles_mapped": "O[CH2:13]/[CH:14]=[C:15](\\[CH3:16])[CH2:17][CH2:18][CH:19]=[C:20]([CH3:21])[CH3:22].[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([OH:8])[cH:9][c:10]([OH:11])[cH:12]1>CCOCC.FB(F)F>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([OH:8])[cH:9][c:10]([OH:11])[c:12]1[CH2:13]/[CH:14]=[C:15](\\[CH3:16])[CH2:17][CH2:18][CH:19]=[C:20]([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.6696095536149335,
+      "conditions": {
+        "raw_description": "BF3.Et2O; 35%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_2",
+      "reaction_smiles": "COC(=O)c1cc(O)cc(O)c1C/C=C(\\C)CCC=C(C)C.O=C([O-])[O-].[K+].[K+].COCCl.COCCl>>COCOc1cc(OCOC)c(C/C=C(\\C)CCC=C(C)C)c(C(=O)OC)c1",
+      "reaction_smiles_mapped": "[OH:4][c:5]1[cH:6][c:7]([OH:8])[c:12]([CH2:13]/[CH:14]=[C:15](\\[CH3:16])[CH2:17][CH2:18][CH:19]=[C:20]([CH3:21])[CH3:22])[c:23]([C:24](=[O:25])[O:26][CH3:27])[cH:28]1.Cl[CH2:3][O:2][CH3:1].Cl[CH2:9][O:10][CH3:11]>O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([O:8][CH2:9][O:10][CH3:11])[c:12]([CH2:13]/[CH:14]=[C:15](\\[CH3:16])[CH2:17][CH2:18][CH:19]=[C:20]([CH3:21])[CH3:22])[c:23]([C:24](=[O:25])[O:26][CH3:27])[cH:28]1",
+      "mapping_confidence": 0.39047899535561126,
+      "conditions": {
+        "raw_description": "MOMCl; K2CO3; 99%",
+        "GENERAL_REAGENTS": [
+          "MOMCl",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COCCl",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_3",
+      "reaction_smiles": "COCOc1cc(CO)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1.CS(=O)(=O)Cl>>COCOc1cc(COS(C)(=O)=O)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([CH2:8][OH:9])[c:14]([CH2:15]/[CH:16]=[C:17](\\[CH3:18])[CH2:19][CH2:20][CH:21]=[C:22]([CH3:23])[CH3:24])[c:25]([O:26][CH2:27][O:28][CH3:29])[cH:30]1.Cl[S:10]([CH3:11])(=[O:12])=[O:13]>>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([CH2:8][O:9][S:10]([CH3:11])(=[O:12])=[O:13])[c:14]([CH2:15]/[CH:16]=[C:17](\\[CH3:18])[CH2:19][CH2:20][CH:21]=[C:22]([CH3:23])[CH3:24])[c:25]([O:26][CH2:27][O:28][CH3:29])[cH:30]1",
+      "mapping_confidence": 0.3972912986403304,
+      "conditions": {
+        "raw_description": "MsCl",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_4",
+      "reaction_smiles": "COCOc1cc(OCOC)c(C/C=C(\\C)CCC=C(C)C)c(C(=O)OC)c1.[H-].[H-].[H-].[Li].[Al+3].[H+].[AlH4-].[Li+]>>COCOc1cc(CO)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1",
+      "reaction_smiles_mapped": "CO[C:8]([c:7]1[cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[cH:26][c:21]([O:22][CH2:23][O:24][CH3:25])[c:10]1[CH2:11]/[CH:12]=[C:13](\\[CH3:14])[CH2:15][CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20])=[O:9]>[H-].[H-].[H-].[Li].[Al+3].[H+].[AlH4-].[Li+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([CH2:8][OH:9])[c:10]([CH2:11]/[CH:12]=[C:13](\\[CH3:14])[CH2:15][CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20])[c:21]([O:22][CH2:23][O:24][CH3:25])[cH:26]1",
+      "mapping_confidence": 0.579743970718647,
+      "conditions": {
+        "raw_description": "LiAlH4; H+; 94%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4",
+          "H+"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]",
+          "[H+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_5",
+      "reaction_smiles": "COCOc1cc(COS(C)(=O)=O)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1.[Na+].[I-]>>COCOc1cc(CI)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:8][c:7]1[cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[cH:26][c:21]([O:22][CH2:23][O:24][CH3:25])[c:10]1[CH2:11]/[CH:12]=[C:13](\\[CH3:14])[CH2:15][CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20].[I-:9]>[Na+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([CH2:8][I:9])[c:10]([CH2:11]/[CH:12]=[C:13](\\[CH3:14])[CH2:15][CH2:16][CH:17]=[C:18]([CH3:19])[CH3:20])[c:21]([O:22][CH2:23][O:24][CH3:25])[cH:26]1",
+      "mapping_confidence": 0.4334873714097741,
+      "conditions": {
+        "raw_description": "NaI",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_6",
+      "reaction_smiles": "COCOc1cc(CI)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1.CCOP(OCC)OCC>>CCOP(=O)(Cc1cc(OCOC)cc(OCOC)c1C/C=C(\\C)CCC=C(C)C)OCC",
+      "reaction_smiles_mapped": "CC[O:5][P:4]([O:3][CH2:2][CH3:1])[O:31][CH2:32][CH3:33].I[CH2:6][c:7]1[cH:8][c:9]([O:10][CH2:11][O:12][CH3:13])[cH:14][c:15]([O:16][CH2:17][O:18][CH3:19])[c:20]1[CH2:21]/[CH:22]=[C:23](\\[CH3:24])[CH2:25][CH2:26][CH:27]=[C:28]([CH3:29])[CH3:30]>>[CH3:1][CH2:2][O:3][P:4](=[O:5])([CH2:6][c:7]1[cH:8][c:9]([O:10][CH2:11][O:12][CH3:13])[cH:14][c:15]([O:16][CH2:17][O:18][CH3:19])[c:20]1[CH2:21]/[CH:22]=[C:23](\\[CH3:24])[CH2:25][CH2:26][CH:27]=[C:28]([CH3:29])[CH3:30])[O:31][CH2:32][CH3:33]",
+      "mapping_confidence": 0.33221966522611784,
+      "conditions": {
+        "raw_description": "P(OEt)3",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "P(OEt)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCOP(OCC)OCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_7",
+      "reaction_smiles": "O=Cc1ccc(O)c(O)c1.COCCl.COCCl.O=C([O-])[O-].[K+].[K+].CC(C)=O>>COCOc1ccc(C=O)cc1OCOC",
+      "reaction_smiles_mapped": "Cl[CH2:3][O:2][CH3:1].Cl[CH2:14][O:15][CH3:16].[OH:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[cH:11][c:12]1[OH:13]>O=C([O-])[O-].[K+].[K+].CC(C)=O>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[cH:11][c:12]1[O:13][CH2:14][O:15][CH3:16]",
+      "mapping_confidence": 0.631594762053903,
+      "conditions": {
+        "raw_description": "MOMCl; K2CO3/acetone; 93%",
+        "GENERAL_REAGENTS": [
+          "MOMCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COCCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_8",
+      "reaction_smiles": "COCOc1ccc(C=O)cc1OCOC.[Na+].[BH4-].CCO>>COCOc1ccc(CO)cc1OCOC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[cH:11][c:12]1[O:13][CH2:14][O:15][CH3:16]>[Na+].[BH4-].CCO>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH2:9][OH:10])[cH:11][c:12]1[O:13][CH2:14][O:15][CH3:16]",
+      "mapping_confidence": 0.9832193482697766,
+      "conditions": {
+        "raw_description": "NaBH4/EtOH; 94%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_9",
+      "reaction_smiles": "COCOc1ccc(CO)cc1OCOC.[Li]CCCC.CSC.CC(C)=CCBr.CSC.[Cu]Br>>COCOc1ccc(CO)c(CC=C(C)C)c1OCOC",
+      "reaction_smiles_mapped": "Br[CH2:12][CH:13]=[C:14]([CH3:15])[CH3:16].[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH2:9][OH:10])[cH:11][c:17]1[O:18][CH2:19][O:20][CH3:21]>[Li]CCCC.CSC.CSC.[Cu]Br>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH2:9][OH:10])[c:11]([CH2:12][CH:13]=[C:14]([CH3:15])[CH3:16])[c:17]1[O:18][CH2:19][O:20][CH3:21]",
+      "mapping_confidence": 0.859202452271212,
+      "conditions": {
+        "raw_description": "n-BuLi; CuBr.DMS; prenyl bromide; 35%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi",
+          "prenyl bromide"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "CC(=CCBr)C"
+        ],
+        "CATALYSTS": [
+          "CuBr.DMS"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]Br.CSC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMS"
+        ],
+        "SOLVENTS_SMILES": [
+          "CSC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_10",
+      "reaction_smiles": "COCOc1ccc(CO)c(CC=C(C)C)c1OCOC.O=[Mn]=O.ClCCl>>COCOc1ccc(C=O)c(CC=C(C)C)c1OCOC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH2:9][OH:10])[c:11]([CH2:12][CH:13]=[C:14]([CH3:15])[CH3:16])[c:17]1[O:18][CH2:19][O:20][CH3:21]>O=[Mn]=O.ClCCl>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[c:11]([CH2:12][CH:13]=[C:14]([CH3:15])[CH3:16])[c:17]1[O:18][CH2:19][O:20][CH3:21]",
+      "mapping_confidence": 0.7567360380195208,
+      "conditions": {
+        "raw_description": "MnO2; CH2Cl2; 79%",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_11",
+      "reaction_smiles": "COCOc1ccc(C=O)c(CC=C(C)C)c1OCOC.CCOP(=O)(Cc1cc(OCOC)cc(OCOC)c1C/C=C(\\C)CCC=C(C)C)OCC.[H-].[Na+].C1COCCOCCOCCOCCO1>>COCOc1cc(/C=C/c2ccc(OCOC)c(OCOC)c2CC=C(C)C)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH2:8][c:7]1[cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[cH:45][c:40]([O:41][CH2:42][O:43][CH3:44])[c:29]1[CH2:30]/[CH:31]=[C:32](\\[CH3:33])[CH2:34][CH2:35][CH:36]=[C:37]([CH3:38])[CH3:39].O=[CH:9][c:10]1[cH:11][cH:12][c:13]([O:14][CH2:15][O:16][CH3:17])[c:18]([O:19][CH2:20][O:21][CH3:22])[c:23]1[CH2:24][CH:25]=[C:26]([CH3:27])[CH3:28]>[H-].[Na+].C1COCCOCCOCCOCCO1>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7](/[CH:8]=[CH:9]/[c:10]2[cH:11][cH:12][c:13]([O:14][CH2:15][O:16][CH3:17])[c:18]([O:19][CH2:20][O:21][CH3:22])[c:23]2[CH2:24][CH:25]=[C:26]([CH3:27])[CH3:28])[c:29]([CH2:30]/[CH:31]=[C:32](\\[CH3:33])[CH2:34][CH2:35][CH:36]=[C:37]([CH3:38])[CH3:39])[c:40]([O:41][CH2:42][O:43][CH3:44])[cH:45]1",
+      "mapping_confidence": 0.5084419256783522,
+      "conditions": {
+        "raw_description": "NaH; 15-Crown-5; 63%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "15-Crown-5"
+        ],
+        "LIGANDS_SMILES": [
+          "C1COCCOCCOCCOCCO1"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pawhuskin_A_2008_Wiemer_12",
+      "reaction_smiles": "COCOc1cc(/C=C/c2ccc(OCOC)c(OCOC)c2CC=C(C)C)c(C/C=C(\\C)CCC=C(C)C)c(OCOC)c1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CO>>CC(C)=CCC/C(C)=C/Cc1c(O)cc(O)cc1/C=C/c1ccc(O)c(O)c1CC=C(C)C",
+      "reaction_smiles_mapped": "COC[O:13][c:12]1[c:11]([CH2:10]/[CH:9]=[C:7](/[CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8])[c:18](/[CH:19]=[CH:20]/[c:21]2[cH:22][cH:23][c:24]([O:25]COC)[c:26]([O:27]COC)[c:28]2[CH2:29][CH:30]=[C:31]([CH3:32])[CH3:33])[cH:17][c:15]([O:16]COC)[cH:14]1>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CO>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][c:11]1[c:12]([OH:13])[cH:14][c:15]([OH:16])[cH:17][c:18]1/[CH:19]=[CH:20]/[c:21]1[cH:22][cH:23][c:24]([OH:25])[c:26]([OH:27])[c:28]1[CH2:29][CH:30]=[C:31]([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.5539167677766207,
+      "conditions": {
+        "raw_description": "CSA; MeOH; 36%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "36%"
+        ]
+      }
+    }
+  ]
+}

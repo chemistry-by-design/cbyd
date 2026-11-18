@@ -1,0 +1,327 @@
+{
+  "background": {
+    "name": "(+)-Faranal",
+    "author": "Aggarwal",
+    "year": 2009,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2009, 48, 6317",
+    "doi": "10.1002/anie.200901194"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_1",
+      "reaction_smiles": "C#CC.II.CC[Al](CC)CC.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl>>CC/C(C)=C\\I",
+      "reaction_smiles_mapped": "[C:3]([CH3:4])#[CH:5].CC[Al](CC)[CH2:2][CH3:1].I[I:6]>[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[I:6]",
+      "mapping_confidence": 0.26692936227895236,
+      "conditions": {
+        "raw_description": "1) AlEt3; Cp2ZrCl2; CH2Cl2; 2) I2; 72%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "AlEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "CC[Al](CC)CC"
+        ],
+        "CATALYSTS": [
+          "Cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[Cl-].[Cl-].[cH-]1cccc1.[cH-]1cccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_2",
+      "reaction_smiles": "CC/C(C)=C\\I.C[Si](C)(C)C#CCCI.[Li]C(C)(C)C.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Br[Zn]Br.CCOCC>>CC/C(C)=C\\CCC#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "I/[CH:5]=[C:3](\\[CH2:2][CH3:1])[CH3:4].I[CH2:6][CH2:7][C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13]>[Li]C(C)(C)C.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Br[Zn]Br.CCOCC>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7][C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.4649469258372895,
+      "conditions": {
+        "raw_description": "1) t-BuLi; ZnBr2; 2) Pd(Ph3P)4; Et2O; 97%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C"
+        ],
+        "CATALYSTS": [
+          "Pd(Ph3P)4",
+          "ZnBr2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "[Zn](Br)Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_3",
+      "reaction_smiles": "CC/C(C)=C\\CCC#C[Si](C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>C#CCC/C=C(/C)CC",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][CH2:3][CH2:4]/[CH:5]=[C:6](/[CH3:7])[CH2:8][CH3:9]>O=C([O-])[O-].[K+].[K+].CO>[CH:1]#[C:2][CH2:3][CH2:4]/[CH:5]=[C:6](/[CH3:7])[CH2:8][CH3:9]",
+      "mapping_confidence": 0.9648214001520345,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_4",
+      "reaction_smiles": "C#CCC/C=C(/C)CC.C[Al](C)C.II.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl>>CC/C(C)=C\\CC/C(C)=C/I",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7][C:8]#[CH:9].I[I:11].C[Al](C)[CH3:10]>ClCCl.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[I:11]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) AlMe3; Cp2ZrCl2; CH2Cl2; 2) I2; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "AlMe3",
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Al](C)C",
+          "II"
+        ],
+        "CATALYSTS": [
+          "Cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[Cl-].[Cl-].[cH-]1cccc1.[cH-]1cccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_5",
+      "reaction_smiles": "CC/C(C)=C\\CC/C(C)=C/I.[Li]C(C)(C)C.CC1(C)OB(CCl)OC1(C)C>>CC/C(C)=C\\CC/C(C)=C/CB1OC(C)(C)C(C)(C)O1",
+      "reaction_smiles_mapped": "I/[CH:10]=[C:8](/[CH2:7][CH2:6]/[CH:5]=[C:3](\\[CH2:2][CH3:1])[CH3:4])[CH3:9].Cl[CH2:11][B:12]1[O:13][C:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[O:20]1>[Li]C(C)(C)C>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][B:12]1[O:13][C:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[O:20]1",
+      "mapping_confidence": 0.28787700822662643,
+      "conditions": {
+        "raw_description": "1) t-BuLi; 2) ClCH2Bpin; 53%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "ClCH2Bpin"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "ClC(B1OC(C)(C)C(C)(C)O1)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_6",
+      "reaction_smiles": "CC/C(C)=C\\CC/C(C)=C/CB1OC(C)(C)C(C)(C)O1.[Li][C@@H](C)OC(=O)[Ni](CCC)CCC.[Br-].[Br-].[Mg+2].CCOCC>>CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)B1OC(C)(C)C(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][B:14]1[O:15][C:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[O:22]1.[Li][C@H:12](OC(=O)[Ni](CCC)CCC)[CH3:13]>[Br-].[Br-].[Mg+2].CCOCC>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[B:14]1[O:15][C:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[O:22]1",
+      "mapping_confidence": 0.4379447326557179,
+      "conditions": {
+        "raw_description": "1) Et2O; -78 \u00b0C; 2) MgBr2; 78%",
+        "GENERAL_REAGENTS": [
+          "MgBr2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].[Br-].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_7",
+      "reaction_smiles": "CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)B1OC(C)(C)C(C)(C)O1.[Li][C@@H](C)OC(=O)N(CCC)CCC.[Br-].[Br-].[Mg+2].CCOCC>>CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)[C@@H](C)B1OC(C)(C)C(C)(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:14]([CH3:15])[B:16]1[O:17][C:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[O:24]1.[Li][C@H:12](OC(=O)N(CCC)CCC)[CH3:13]>[Br-].[Br-].[Mg+2].CCOCC>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[C@@H:14]([CH3:15])[B:16]1[O:17][C:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[O:24]1",
+      "mapping_confidence": 0.46000918795105433,
+      "conditions": {
+        "raw_description": "1) Et2O; -78 \u00b0C; 2) MgBr2; 52%",
+        "GENERAL_REAGENTS": [
+          "MgBr2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].[Br-].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_8",
+      "reaction_smiles": "CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)[C@@H](C)B1OC(C)(C)C(C)(C)O1.[Li]C=C.II.C[O-].[Na+]>>C=C[C@H](C)[C@H](C)C/C=C(\\C)CC/C=C(/C)CC",
+      "reaction_smiles_mapped": "CC1(C)OB([C@H:3]([CH3:4])[C@H:5]([CH3:6])[CH2:7]/[CH:8]=[C:9](\\[CH3:10])[CH2:11][CH2:12]/[CH:13]=[C:14](/[CH3:15])[CH2:16][CH3:17])OC1(C)C.[Li][CH:2]=[CH2:1]>II.C[O-].[Na+]>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@H:5]([CH3:6])[CH2:7]/[CH:8]=[C:9](\\[CH3:10])[CH2:11][CH2:12]/[CH:13]=[C:14](/[CH3:15])[CH2:16][CH3:17]",
+      "mapping_confidence": 0.7101971919884783,
+      "conditions": {
+        "raw_description": "1) H2C=CHLi; 2) I2/NaOMe",
+        "GENERAL_REAGENTS": [
+          "H2C=CHLi",
+          "I2",
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C=C",
+          "II",
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_9",
+      "reaction_smiles": "C=C[C@H](C)[C@H](C)C/C=C(\\C)CC/C=C(/C)CC.OO.[Na+].[OH-].B1C2CCCC1CCC2>>CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)[C@@H](C)CCO",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[C@@H:14]([CH3:15])[CH:16]=[CH2:17].O[OH:18]>[Na+].[OH-].B1C2CCCC1CCC2>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[C@@H:14]([CH3:15])[CH2:16][CH2:17][OH:18]",
+      "mapping_confidence": 0.48200545792558264,
+      "conditions": {
+        "raw_description": "9-BBN; NaOH/H2O2; 76% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOH/H2O2",
+          "9-BBN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[OH-].OO",
+          "B1C2CCCC1CCC2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Faranal_2009_Aggarwal_10",
+      "reaction_smiles": "CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)[C@@H](C)CCO.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.ClCCl>>CC/C(C)=C\\CC/C(C)=C/C[C@@H](C)[C@@H](C)CC=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[C@@H:14]([CH3:15])[CH2:16][CH2:17][OH:18]>O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.ClCCl>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]\\[CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[CH2:11][C@@H:12]([CH3:13])[C@@H:14]([CH3:15])[CH2:16][CH:17]=[O:18]",
+      "mapping_confidence": 0.9513868277640712,
+      "conditions": {
+        "raw_description": "PDC; CH2Cl2; 76%",
+        "GENERAL_REAGENTS": [
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    }
+  ]
+}

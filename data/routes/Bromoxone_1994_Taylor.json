@@ -1,0 +1,138 @@
+{
+  "background": {
+    "name": "Bromoxone",
+    "author": "Taylor",
+    "year": 1994,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron Lett. 1994, 38, 8759",
+    "doi": "10.1016/S0040-4039(00)78490-5"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Bromoxone_1994_Taylor_1",
+      "reaction_smiles": "COc1ccc(OC)c(Br)c1.[K+].[OH-].CO.CC(=O)O.CC(C)=O>>COC1(OC)C=CC(=O)C=C1Br",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].C[O:9][c:8]1[cH:7][cH:6][c:3]([O:4][CH3:5])[c:11]([Br:12])[cH:10]1>[K+].[OH-].CC(=O)O.CC(C)=O>[CH3:1][O:2][C:3]1([O:4][CH3:5])[CH:6]=[CH:7][C:8](=[O:9])[CH:10]=[C:11]1[Br:12]",
+      "mapping_confidence": 0.7811610394106256,
+      "conditions": {
+        "raw_description": "1) nodic oxidation; KOH/MeOH; 2) AcOH; acetone; 62%",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bromoxone_1994_Taylor_2",
+      "reaction_smiles": "COC1(OC)C=CC(=O)C=C1Br.C1CCOC1.[H-].[K+].CC(C)(C)OO>>COC1(OC)C(Br)=CC(=O)[C@H]2O[C@H]21",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:12].[CH3:1][O:2][C:3]1([O:4][CH3:5])[C:6]([Br:7])=[CH:8][C:9](=[O:10])[CH:11]=[CH:13]1>C1CCOC1.[H-].[K+]>[CH3:1][O:2][C:3]1([O:4][CH3:5])[C:6]([Br:7])=[CH:8][C:9](=[O:10])[C@H:11]2[O:12][C@@H:13]12",
+      "mapping_confidence": 0.7550460147643882,
+      "conditions": {
+        "raw_description": "tBuOOH; KH; THF; -50 \u00b0C; 46%",
+        "GENERAL_REAGENTS": [
+          "KH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)OO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-50"
+        ],
+        "YIELD": [
+          "46%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bromoxone_1994_Taylor_3",
+      "reaction_smiles": "COC1(OC)C(Br)=CC(=O)[C@H]2O[C@H]21.C1CCOC1.CC(C)C[AlH]CC(C)C>>COC1(OC)C(Br)=C[C@H](O)[C@H]2O[C@H]21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1([O:4][CH3:5])[C:6]([Br:7])=[CH:8][C:9](=[O:10])[C@H:11]2[O:12][C@@H:13]12>C1CCOC1.CC(C)C[AlH]CC(C)C>[CH3:1][O:2][C:3]1([O:4][CH3:5])[C:6]([Br:7])=[CH:8][C@H:9]([OH:10])[C@H:11]2[O:12][C@@H:13]12",
+      "mapping_confidence": 0.8221736726400058,
+      "conditions": {
+        "raw_description": "DIBALH; THF; -78 \u00b0C to RT",
+        "GENERAL_REAGENTS": [
+          "DIBALH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Bromoxone_1994_Taylor_4",
+      "reaction_smiles": "COC1(OC)C(Br)=C[C@H](O)[C@H]2O[C@H]21.ClCCl>>O=C1C(Br)=C[C@H](O)[C@H]2O[C@@H]12",
+      "reaction_smiles_mapped": "CO[C:2]1([O:1]C)[C:3]([Br:4])=[CH:5][C@H:6]([OH:7])[C@H:8]2[O:9][C@@H:10]12>ClCCl>[O:1]=[C:2]1[C:3]([Br:4])=[CH:5][C@H:6]([OH:7])[C@H:8]2[O:9][C@@H:10]12",
+      "mapping_confidence": 0.6447316890081608,
+      "conditions": {
+        "raw_description": "K-10 clay; DCM; 53% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

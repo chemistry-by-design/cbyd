@@ -1,0 +1,1138 @@
+{
+  "background": {
+    "name": "(+)-Phyllanthoside",
+    "author": "Smith",
+    "year": 1987,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1987, 109, 1272",
+    "doi": "10.1021/ja00238a061"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_1",
+      "reaction_smiles": "C[C@H]1NC(=O)O[C@@H]1c1ccccc1.CCC#CCCCC(=O)Cl.[Li]CCCC.C1CCOC1>>CCC#CCCCC(=O)N1C(=O)O[C@@H](c2ccccc2)[C@H]1C",
+      "reaction_smiles_mapped": "Cl[C:8]([CH2:7][CH2:6][CH2:5][C:4]#[C:3][CH2:2][CH3:1])=[O:9].[NH:10]1[C:11](=[O:12])[O:13][C@H:14]([c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[C@H:21]1[CH3:22]>C1CCOC1.[Li]CCCC>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][CH2:6][CH2:7][C:8](=[O:9])[N:10]1[C:11](=[O:12])[O:13][C@@H:14]([c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[C@H:21]1[CH3:22]",
+      "mapping_confidence": 0.9569985140847985,
+      "conditions": {
+        "raw_description": "n-BuLi; THF",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_2",
+      "reaction_smiles": "CCC#CCCCC(=O)N1C(=O)O[C@@H](c2ccccc2)[C@H]1C.C=CCBr.C[Si](C)(C)[N-][Si](C)(C)C.[K+].C1CCOC1>>C=CC[C@H](CCC#CCC)C(=O)N1C(=O)O[C@@H](c2ccccc2)[C@H]1C",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[CH2:4]([CH2:5][CH2:6][C:7]#[C:8][CH2:9][CH3:10])[C:11](=[O:12])[N:13]1[C:14](=[O:15])[O:16][C@@H:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][cH:23]2)[C@H:24]1[CH3:25]>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[K+]>[CH2:1]=[CH:2][CH2:3][C@H:4]([CH2:5][CH2:6][C:7]#[C:8][CH2:9][CH3:10])[C:11](=[O:12])[N:13]1[C:14](=[O:15])[O:16][C@@H:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][cH:23]2)[C@H:24]1[CH3:25]",
+      "mapping_confidence": 0.9062360303954127,
+      "conditions": {
+        "raw_description": "KHMDS; THF; 98% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_3",
+      "reaction_smiles": "C=CC[C@H](CCC#CCC)C(=O)N1C(=O)O[C@@H](c2ccccc2)[C@H]1C.[AlH4-].[Li+].C1CCOC1>>C=CC[C@@H](CO)CCC#CCC",
+      "reaction_smiles_mapped": "C[C@@H]1[C@H](c2ccccc2)OC(=O)N1[C:5]([C@H:4]([CH2:3][CH:2]=[CH2:1])[CH2:7][CH2:8][C:9]#[C:10][CH2:11][CH3:12])=[O:6]>C1CCOC1.[AlH4-].[Li+]>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][OH:6])[CH2:7][CH2:8][C:9]#[C:10][CH2:11][CH3:12]",
+      "mapping_confidence": 0.9588187317972385,
+      "conditions": {
+        "raw_description": "LiAlH; THF",
+        "GENERAL_REAGENTS": [
+          "LiAlH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_4",
+      "reaction_smiles": "C=CC[C@@H](CO)CCC#CCC.BrCc1ccccc1.[H-].[K+]>>C=CC[C@H](CCC#CCC)COCc1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1.[CH2:1]=[CH:2][CH2:3][C@H:4]([CH2:5][CH2:6][C:7]#[C:8][CH2:9][CH3:10])[CH2:11][OH:12]>[H-].[K+]>[CH2:1]=[CH:2][CH2:3][C@H:4]([CH2:5][CH2:6][C:7]#[C:8][CH2:9][CH3:10])[CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.9621912157700696,
+      "conditions": {
+        "raw_description": "KH; BnBr",
+        "GENERAL_REAGENTS": [
+          "BnBr",
+          "KH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CBr",
+          "[K+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_5",
+      "reaction_smiles": "C=CC[C@H](CCC#CCC)COCc1ccccc1.O=[O+][O-].ClCCl>>CCC#CCC[C@@H](CC=O)COCc1ccccc1",
+      "reaction_smiles_mapped": "C=[CH:9][CH2:8][C@H:7]([CH2:6][CH2:5][C:4]#[C:3][CH2:2][CH3:1])[CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1.[O-][O+]=[O:10]>ClCCl>[CH3:1][CH2:2][C:3]#[C:4][CH2:5][CH2:6][C@@H:7]([CH2:8][CH:9]=[O:10])[CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.458717733404491,
+      "conditions": {
+        "raw_description": "O3; DCM; 62% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_6",
+      "reaction_smiles": "CCC#CCC[C@@H](CC=O)COCc1ccccc1.[HH].CC(=O)[O-].CC(=O)[O-].[Pb+2].[Pd].CCCCCC>>CC/C=C\\CC[C@@H](CC=O)COCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]#[C:4][CH2:5][CH2:6][C@@H:7]([CH2:8][CH:9]=[O:10])[CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CC(=O)[O-].CC(=O)[O-].CCCCCC.[HH].[Pb+2].[Pd]>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH2:6][C@@H:7]([CH2:8][CH:9]=[O:10])[CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.8615577894383114,
+      "conditions": {
+        "raw_description": "H2; Lindlar's cat.; Hexane; 98%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Lindlar's cat."
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd].[Pb+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Hexane"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_7",
+      "reaction_smiles": "CC/C=C\\CC[C@@H](CC=O)COCc1ccccc1.C[Al](C)Cl.ClCCl>>C/C=C/[C@H]1CC[C@H](COCc2ccccc2)C[C@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH2:6][C@H:7]([CH2:8][O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[CH2:17][CH:18]=[O:19]>C[Al](C)Cl.ClCCl>[CH3:1]/[CH:2]=[CH:3]/[C@H:4]1[CH2:5][CH2:6][C@H:7]([CH2:8][O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[CH2:17][C@H:18]1[OH:19]",
+      "mapping_confidence": 0.8009737026653588,
+      "conditions": {
+        "raw_description": "Me2AlCl; DCM; 83%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Me2AlCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_8",
+      "reaction_smiles": "C/C=C/[C@H]1CC[C@H](COCc2ccccc2)C[C@H]1O.COCCOCCl>>C/C=C/[C@H]1CC[C@H](COCc2ccccc2)C[C@H]1OCOCCOC",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[CH:3]/[C@H:4]1[CH2:5][CH2:6][C@H:7]([CH2:8][O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[CH2:17][C@H:18]1[OH:19].Cl[CH2:20][O:21][CH2:22][CH2:23][O:24][CH3:25]>>[CH3:1]/[CH:2]=[CH:3]/[C@H:4]1[CH2:5][CH2:6][C@H:7]([CH2:8][O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[CH2:17][C@H:18]1[O:19][CH2:20][O:21][CH2:22][CH2:23][O:24][CH3:25]",
+      "mapping_confidence": 0.7932463656614863,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_9",
+      "reaction_smiles": "C/C=C/[C@H]1CC[C@H](COCc2ccccc2)C[C@H]1OCOCCOC.O=[O+][O-]>>COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C=O",
+      "reaction_smiles_mapped": "C/C=[CH:23]/[C@@H:22]1[C@H:8]([O:7][CH2:6][O:5][CH2:4][CH2:3][O:2][CH3:1])[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21]1.[O-][O+]=[O:24]>>[CH3:1][O:2][CH2:3][CH2:4][O:5][CH2:6][O:7][C@@H:8]1[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21][C@@H:22]1[CH:23]=[O:24]",
+      "mapping_confidence": 0.5154449632783114,
+      "conditions": {
+        "raw_description": "O3; 75% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_10",
+      "reaction_smiles": "COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C=O.CC1(C)COC2(C=COCC2)OC1.[Li]C(C)(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C(O)C1=CC(=O)CCO1",
+      "reaction_smiles_mapped": "CC1(C)CO[C:27]2([CH:26]=[CH:25][O:31][CH2:30][CH2:29]2)[O:28]C1.[CH3:1][O:2][CH2:3][CH2:4][O:5][CH2:6][O:7][C@@H:8]1[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21][C@@H:22]1[CH:23]=[O:24]>C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C.[Li]C(C)(C)C>[CH3:1][O:2][CH2:3][CH2:4][O:5][CH2:6][O:7][C@@H:8]1[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21][C@@H:22]1[CH:23]([OH:24])[C:25]1=[CH:26][C:27](=[O:28])[CH2:29][CH2:30][O:31]1",
+      "mapping_confidence": 0.39661000443055466,
+      "conditions": {
+        "raw_description": "t-BuLi; THF; HMPA",
+        "GENERAL_REAGENTS": [
+          "t-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_11",
+      "reaction_smiles": "COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C(O)C1=CC(=O)CCO1.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C(=O)C1=CC(=O)CCO1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][CH2:4][O:5][CH2:6][O:7][C@@H:8]1[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21][C@@H:22]1[CH:23]([OH:24])[C:25]1=[CH:26][C:27](=[O:28])[CH2:29][CH2:30][O:31]1>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][O:2][CH2:3][CH2:4][O:5][CH2:6][O:7][C@@H:8]1[CH2:9][C@@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20][CH2:21][C@@H:22]1[C:23](=[O:24])[C:25]1=[CH:26][C:27](=[O:28])[CH2:29][CH2:30][O:31]1",
+      "mapping_confidence": 0.7761998771323505,
+      "conditions": {
+        "raw_description": "(COCl)2; NEt3; DMSO; DCM; 71% (2 steps); Swern; Oxidation",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "NEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_12",
+      "reaction_smiles": "COCCOCO[C@@H]1C[C@@H](COCc2ccccc2)CC[C@@H]1C(=O)C1=CC(=O)CCO1.Br[Zn]Br>>O=C1C=C(C(=O)[C@H]2CC[C@H](COCc3ccccc3)C[C@H]2O)OCC1",
+      "reaction_smiles_mapped": "COCCOC[O:22][C@H:21]1[C@@H:7]([C:5]([C:4]2=[CH:3][C:2](=[O:1])[CH2:25][CH2:24][O:23]2)=[O:6])[CH2:8][CH2:9][C@H:10]([CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[CH2:20]1>Br[Zn]Br>[O:1]=[C:2]1[CH:3]=[C:4]([C:5](=[O:6])[C@H:7]2[CH2:8][CH2:9][C@H:10]([CH2:11][O:12][CH2:13][c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[CH2:20][C@H:21]2[OH:22])[O:23][CH2:24][CH2:25]1",
+      "mapping_confidence": 0.853965783699336,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_13",
+      "reaction_smiles": "O=C1C=C(C(=O)[C@H]2CC[C@H](COCc3ccccc3)C[C@H]2O)OCC1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2>>O=C1CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1C2=O",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][O:5][C:6]([C:24]([C@@H:23]2[C@H:9]([OH:8])[CH2:10][C@@H:11]([CH2:12][O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[CH2:21][CH2:22]2)=[O:25])=[CH:7]1>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2>[O:1]=[C:2]1[CH2:3][CH2:4][O:5][C@@:6]2([CH2:7]1)[O:8][C@@H:9]1[CH2:10][C@@H:11]([CH2:12][O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[CH2:21][CH2:22][C@@H:23]1[C:24]2=[O:25]",
+      "mapping_confidence": 0.7605106832002841,
+      "conditions": {
+        "raw_description": "CSA; 71% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_14",
+      "reaction_smiles": "O=C1CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1C2=O.C=S(C)(C)=O>>O=C1CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "CS(C)(=O)=[CH2:25].[O:1]=[C:2]1[CH2:3][CH2:4][O:5][C@@:6]2([CH2:7]1)[O:8][C@@H:9]1[CH2:10][C@@H:11]([CH2:12][O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[CH2:21][CH2:22][C@@H:23]1[C:24]2=[O:26]>>[O:1]=[C:2]1[CH2:3][CH2:4][O:5][C@@:6]2([CH2:7]1)[O:8][C@@H:9]1[CH2:10][C@@H:11]([CH2:12][O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[CH2:21][CH2:22][C@@H:23]1[C@@:24]21[CH2:25][O:26]1",
+      "mapping_confidence": 0.6177510355454368,
+      "conditions": {
+        "raw_description": "Corey-Chaykovsky Epoxidation",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_15",
+      "reaction_smiles": "O=C1CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1.C[Si](C)(C)Cl.[Li]N(C(C)C)C(C)C>>C[Si](C)(C)OC1=CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "Cl[Si:2]([CH3:1])([CH3:3])[CH3:4].[O:5]=[C:6]1[CH2:7][CH2:8][O:9][C@@:10]2([CH2:11]1)[O:12][C@@H:13]1[CH2:14][C@@H:15]([CH2:16][O:17][CH2:18][c:19]3[cH:20][cH:21][cH:22][cH:23][cH:24]3)[CH2:25][CH2:26][C@@H:27]1[C@@:28]21[CH2:29][O:30]1>[Li]N(C(C)C)C(C)C>[CH3:1][Si:2]([CH3:3])([CH3:4])[O:5][C:6]1=[CH:7][CH2:8][O:9][C@@:10]2([CH2:11]1)[O:12][C@@H:13]1[CH2:14][C@@H:15]([CH2:16][O:17][CH2:18][c:19]3[cH:20][cH:21][cH:22][cH:23][cH:24]3)[CH2:25][CH2:26][C@@H:27]1[C@@:28]21[CH2:29][O:30]1",
+      "mapping_confidence": 0.23263456981133138,
+      "conditions": {
+        "raw_description": "LDA; TMSCl",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_16",
+      "reaction_smiles": "C[Si](C)(C)OC1=CCO[C@@]2(C1)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1.C[N+](C)(C)Cc1ccccc1.[F-].CI>>CC1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "I[CH3:1].C[Si](C)(C)[O:8][C:7]1=[CH:2][CH2:3][O:4][C@@:5]2([CH2:6]1)[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][O:14][CH2:15][c:16]3[cH:17][cH:18][cH:19][cH:20][cH:21]3)[CH2:22][CH2:23][C@@H:24]1[C@@:25]21[CH2:26][O:27]1>C[N+](C)(C)Cc1ccccc1.[F-]>[CH3:1][CH:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][O:14][CH2:15][c:16]3[cH:17][cH:18][cH:19][cH:20][cH:21]3)[CH2:22][CH2:23][C@@H:24]1[C@@:25]21[CH2:26][O:27]1",
+      "mapping_confidence": 0.7769355307242118,
+      "conditions": {
+        "raw_description": "BnMe3NF; MeI",
+        "GENERAL_REAGENTS": [
+          "BnMe3NF",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1C[N+](C)(C)C.[F-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_17",
+      "reaction_smiles": "CC1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1.C1CCC2=NCCCN2CC1.C1CCOC1>>C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][O:14][CH2:15][c:16]3[cH:17][cH:18][cH:19][cH:20][cH:21]3)[CH2:22][CH2:23][C@@H:24]1[C@@:25]21[CH2:26][O:27]1>C1CCC2=NCCCN2CC1.C1CCOC1>[CH3:1][C@@H:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][O:14][CH2:15][c:16]3[cH:17][cH:18][cH:19][cH:20][cH:21]3)[CH2:22][CH2:23][C@@H:24]1[C@@:25]21[CH2:26][O:27]1",
+      "mapping_confidence": 0.8200742041217643,
+      "conditions": {
+        "raw_description": "DBU; THF; 60% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_18",
+      "reaction_smiles": "C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](COCc3ccccc3)CC[C@@H]1[C@@]21CO1.[HH].[C].[Pd]>>C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](CO)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "c1ccc(C[O:14][CH2:13][C@@H:12]2[CH2:11][C@H:10]3[O:9][C@:5]4([O:4][CH2:3][C@@H:2]([CH3:1])[C:7](=[O:8])[CH2:6]4)[C@@:18]4([C@H:17]3[CH2:16][CH2:15]2)[CH2:19][O:20]4)cc1>[C].[HH].[Pd]>[CH3:1][C@@H:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][OH:14])[CH2:15][CH2:16][C@@H:17]1[C@@:18]21[CH2:19][O:20]1",
+      "mapping_confidence": 0.9961499091085741,
+      "conditions": {
+        "raw_description": "H2; Pd/C",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_19",
+      "reaction_smiles": "C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](CO)CC[C@@H]1[C@@]21CO1.[Na+].[O-][I+3]([O-])([O-])[O-].O=[Ru]=O>>C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](C(=O)O)CC[C@@H]1[C@@]21CO1",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([CH2:13][OH:15])[CH2:16][CH2:17][C@@H:18]1[C@@:19]21[CH2:20][O:21]1.[O-][I+3]([O-])([O-])[O-:14]>[Na+].O=[Ru]=O>[CH3:1][C@@H:2]1[CH2:3][O:4][C@@:5]2([CH2:6][C:7]1=[O:8])[O:9][C@@H:10]1[CH2:11][C@@H:12]([C:13](=[O:14])[OH:15])[CH2:16][CH2:17][C@@H:18]1[C@@:19]21[CH2:20][O:21]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "RuO2\u00b7NaIO4; 76% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [
+          "RuO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Ru]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_20",
+      "reaction_smiles": "C[C@@H]1CO[C@@]2(CC1=O)O[C@@H]1C[C@@H](C(=O)O)CC[C@@H]1[C@@]21CO1.CC[Si](CC)(CC)O[C@H]1[C@H](O[C@@H]2[C@@H](OC(C)=O)[C@H](O[Si](CC)(CC)CC)[C@@H](C)O[C@H]2O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.C1CCOC1>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(CC(=O)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13](O)[O:35][C@H:36]([CH3:37])[C@@H:38]([O:39][Si:40]([CH2:41][CH3:42])([CH2:43][CH3:44])[CH2:45][CH3:46])[C@@H:47]2[O:48][C:49]([CH3:50])=[O:51])[O:52][C@H:53]([CH3:54])[C@@H:55]([O:56][Si:57]([CH2:58][CH3:59])([CH2:60][CH3:61])[CH2:62][CH3:63])[C@@H:64]1[O:65][C:66]([CH3:67])=[O:68].[OH:14][C:15](=[O:16])[C@H:17]1[CH2:18][CH2:19][C@H:20]2[C@@H:21]([CH2:22]1)[O:23][C@@:24]1([CH2:25][C:26](=[O:27])[C@H:28]([CH3:29])[CH2:30][O:31]1)[C@:32]21[CH2:33][O:34]1>C1CCOC1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13]([O:14][C:15](=[O:16])[C@H:17]3[CH2:18][CH2:19][C@H:20]4[C@@H:21]([CH2:22]3)[O:23][C@@:24]3([CH2:25][C:26](=[O:27])[C@H:28]([CH3:29])[CH2:30][O:31]3)[C@:32]43[CH2:33][O:34]3)[O:35][C@H:36]([CH3:37])[C@@H:38]([O:39][Si:40]([CH2:41][CH3:42])([CH2:43][CH3:44])[CH2:45][CH3:46])[C@@H:47]2[O:48][C:49]([CH3:50])=[O:51])[O:52][C@H:53]([CH3:54])[C@@H:55]([O:56][Si:57]([CH2:58][CH3:59])([CH2:60][CH3:61])[CH2:62][CH3:63])[C@@H:64]1[O:65][C:66]([CH3:67])=[O:68]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PPh3; DIAD; THF; 55%; Mitsunobu; Reaction",
+        "GENERAL_REAGENTS": [
+          "PPh3",
+          "DIAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_21",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(CC(=O)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O.[BH4-].[Na+].CO>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(C[C@H](O)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13]([O:14][C:15](=[O:16])[C@H:17]3[CH2:18][CH2:19][C@H:20]4[C@@H:21]([CH2:22]3)[O:23][C@@:24]3([CH2:25][C:26](=[O:27])[C@H:28]([CH3:29])[CH2:30][O:31]3)[C@:32]43[CH2:33][O:34]3)[O:35][C@H:36]([CH3:37])[C@@H:38]([O:39][Si:40]([CH2:41][CH3:42])([CH2:43][CH3:44])[CH2:45][CH3:46])[C@@H:47]2[O:48][C:49]([CH3:50])=[O:51])[O:52][C@H:53]([CH3:54])[C@@H:55]([O:56][Si:57]([CH2:58][CH3:59])([CH2:60][CH3:61])[CH2:62][CH3:63])[C@@H:64]1[O:65][C:66]([CH3:67])=[O:68]>CO.[BH4-].[Na+]>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13]([O:14][C:15](=[O:16])[C@H:17]3[CH2:18][CH2:19][C@H:20]4[C@@H:21]([CH2:22]3)[O:23][C@@:24]3([CH2:25][C@H:26]([OH:27])[C@H:28]([CH3:29])[CH2:30][O:31]3)[C@:32]43[CH2:33][O:34]3)[O:35][C@H:36]([CH3:37])[C@@H:38]([O:39][Si:40]([CH2:41][CH3:42])([CH2:43][CH3:44])[CH2:45][CH3:46])[C@@H:47]2[O:48][C:49]([CH3:50])=[O:51])[O:52][C@H:53]([CH3:54])[C@@H:55]([O:56][Si:57]([CH2:58][CH3:59])([CH2:60][CH3:61])[CH2:62][CH3:63])[C@@H:64]1[O:65][C:66]([CH3:67])=[O:68]",
+      "mapping_confidence": 0.07037205474419346,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 85%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_22",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(C[C@H](O)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O.O=C(Cl)/C=C/c1ccccc1.CN(C)c1ccncc1.CCN(CC)CC.c1ccncc1>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(C[C@H](OC(=O)/C=C/c5ccccc5)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13]([O:14][C:15](=[O:16])[C@H:17]3[CH2:18][CH2:19][C@H:20]4[C@@H:21]([CH2:22]3)[O:23][C@@:24]3([CH2:25][C@H:26]([OH:27])[C@H:38]([CH3:39])[CH2:40][O:41]3)[C@:42]43[CH2:43][O:44]3)[O:45][C@H:46]([CH3:47])[C@@H:48]([O:49][Si:50]([CH2:51][CH3:52])([CH2:53][CH3:54])[CH2:55][CH3:56])[C@@H:57]2[O:58][C:59]([CH3:60])=[O:61])[O:62][C@H:63]([CH3:64])[C@@H:65]([O:66][Si:67]([CH2:68][CH3:69])([CH2:70][CH3:71])[CH2:72][CH3:73])[C@@H:74]1[O:75][C:76]([CH3:77])=[O:78].Cl[C:28](=[O:29])/[CH:30]=[CH:31]/[c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1>CCN(CC)CC.CN(C)c1ccncc1.c1ccncc1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@H:13]([O:14][C:15](=[O:16])[C@H:17]3[CH2:18][CH2:19][C@H:20]4[C@@H:21]([CH2:22]3)[O:23][C@@:24]3([CH2:25][C@H:26]([O:27][C:28](=[O:29])/[CH:30]=[CH:31]/[c:32]5[cH:33][cH:34][cH:35][cH:36][cH:37]5)[C@H:38]([CH3:39])[CH2:40][O:41]3)[C@:42]43[CH2:43][O:44]3)[O:45][C@H:46]([CH3:47])[C@@H:48]([O:49][Si:50]([CH2:51][CH3:52])([CH2:53][CH3:54])[CH2:55][CH3:56])[C@@H:57]2[O:58][C:59]([CH3:60])=[O:61])[O:62][C@H:63]([CH3:64])[C@@H:65]([O:66][Si:67]([CH2:68][CH3:69])([CH2:70][CH3:71])[CH2:72][CH3:73])[C@@H:74]1[O:75][C:76]([CH3:77])=[O:78]",
+      "mapping_confidence": 0.08616286178846369,
+      "conditions": {
+        "raw_description": "NEt3; DMAP; Pyridine; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NEt3",
+          "Pyridine",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "C1=CC=NC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_23",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(C[C@H](OC(=O)/C=C/c5ccccc5)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O.CC(=O)O.C1CCOC1>>CC(=O)O[C@@H]1[C@@H](O)[C@H](O[C@H]2[C@H](OC(=O)[C@H]3CC[C@H]4[C@@H](C3)O[C@@]3(C[C@H](OC(=O)/C=C/c5ccccc5)[C@H](C)CO3)[C@]43CO3)O[C@H](C)[C@@H](O)[C@@H]2OC(C)=O)O[C@H](C)[C@H]1O",
+      "reaction_smiles_mapped": "CC[Si](CC)(CC)[O:7][C@@H:6]1[C@@H:5]([O:4][C:2]([CH3:1])=[O:3])[C@H:56]([O:57][Si](CC)(CC)CC)[C@@H:54]([CH3:55])[O:53][C@H:8]1[O:9][C@H:10]1[C@H:11]([O:12][C:13](=[O:14])[C@H:15]2[CH2:16][CH2:17][C@H:18]3[C@@H:19]([CH2:20]2)[O:21][C@@:22]2([CH2:23][C@H:24]([O:25][C:26](=[O:27])/[CH:28]=[CH:29]/[c:30]4[cH:31][cH:32][cH:33][cH:34][cH:35]4)[C@H:36]([CH3:37])[CH2:38][O:39]2)[C@:40]32[CH2:41][O:42]2)[O:43][C@H:44]([CH3:45])[C@@H:46]([O:47][Si](CC)(CC)CC)[C@@H:48]1[O:49][C:50]([CH3:51])=[O:52]>C1CCOC1.CC(=O)O>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[C@@H:6]([OH:7])[C@H:8]([O:9][C@H:10]2[C@H:11]([O:12][C:13](=[O:14])[C@H:15]3[CH2:16][CH2:17][C@H:18]4[C@@H:19]([CH2:20]3)[O:21][C@@:22]3([CH2:23][C@H:24]([O:25][C:26](=[O:27])/[CH:28]=[CH:29]/[c:30]5[cH:31][cH:32][cH:33][cH:34][cH:35]5)[C@H:36]([CH3:37])[CH2:38][O:39]3)[C@:40]43[CH2:41][O:42]3)[O:43][C@H:44]([CH3:45])[C@@H:46]([OH:47])[C@@H:48]2[O:49][C:50]([CH3:51])=[O:52])[O:53][C@H:54]([CH3:55])[C@H:56]1[OH:57]",
+      "mapping_confidence": 0.7985792030957255,
+      "conditions": {
+        "raw_description": "AcOH; THF; 100%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_24",
+      "reaction_smiles": "O=C1CCOCC1.CC(C)(CO)CO.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>CC1(C)COC2(CCOCC2)OC1",
+      "reaction_smiles_mapped": "[OH:12][CH2:13][C:2]([CH3:1])([CH3:3])[CH2:4][OH:5].[C:6]1(=O)[CH2:7][CH2:8][O:9][CH2:10][CH2:11]1>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][O:9][CH2:10][CH2:11]2)[O:12][CH2:13]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PTSA; Benzene",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_25",
+      "reaction_smiles": "CC1(C)COC2(CCOCC2)OC1.BrBr.[Br-].c1cc[nH+]cc1.C1CCOC1>>CC1(C)COC2(CCOCC2Br)OC1",
+      "reaction_smiles_mapped": "Br[Br:12].[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][O:9][CH2:10][CH2:11]2)[O:13][CH2:14]1>C1CCOC1.[Br-].c1cc[nH+]cc1>[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][O:9][CH2:10][CH:11]2[Br:12])[O:13][CH2:14]1",
+      "mapping_confidence": 0.3254847272529579,
+      "conditions": {
+        "raw_description": "Pyr\u00b7HBr3; THF",
+        "GENERAL_REAGENTS": [
+          "Pyr\u00b7HBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H][n+]1ccccc1.[Br-].BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_26",
+      "reaction_smiles": "CC1(C)COC2(CCOCC2Br)OC1.CC(C)(C)[O-].[K+].CS(C)=O>>CC1(C)COC2(C=COCC2)OC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][O:9][CH2:10][CH:11]2Br)[O:13][CH2:14]1>CC(C)(C)[O-].[K+].CS(C)=O>[CH3:1][C:2]1([CH3:3])[CH2:4][O:5][C:6]2([CH2:7][CH2:8][O:9][CH:10]=[CH:11]2)[O:13][CH2:14]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "t-BuOK; DMSO; 70% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "t-BuOK"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_27",
+      "reaction_smiles": "C[C@@H](O)[C@H]1O[C@@H]2OC(C)(C)O[C@@H]2[C@H]1OCc1ccccc1.O=S(=O)(O)O.C1CCOC1>>C[C@H]1O[C@H](O)[C@H](O)[C@@H](OCc2ccccc2)[C@@H]1O",
+      "reaction_smiles_mapped": "CC1(C)[O:5][C@@H:4]2[C@H:6]([O:7]1)[C@@H:8]([O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C@@H:17]([C@@H:2]([CH3:1])[OH:3])[O:18]2>C1CCOC1.O=S(=O)(O)O>[CH3:1][C@H:2]1[O:3][C@H:4]([OH:5])[C@H:6]([OH:7])[C@@H:8]([O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[C@@H:17]1[OH:18]",
+      "mapping_confidence": 0.6981368422479876,
+      "conditions": {
+        "raw_description": "H2SO4; THF; 94%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_28",
+      "reaction_smiles": "C[C@H]1O[C@H](O)[C@H](O)[C@@H](OCc2ccccc2)[C@@H]1O.CC(=O)OC(C)=O.CC(=O)OC(C)=O.CC(=O)OC(C)=O.CN(C)c1ccncc1.c1ccncc1>>CC(=O)O[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O",
+      "reaction_smiles_mapped": "CC(=O)O[C:25]([CH3:26])=[O:27].O([C:11]([CH3:12])=[O:13])C(C)=O.CC(=O)O[C:2]([CH3:1])=[O:3].[OH:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([OH:10])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[OH:24]>CN(C)c1ccncc1.c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[O:24][C:25]([CH3:26])=[O:27]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Ac2O; DMAP; Pyr; 85%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ac2O",
+          "Pyr",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)OC(=O)C",
+          "C1=CC=NC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_29",
+      "reaction_smiles": "CC(=O)O[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O.Br.CC(=O)O>>CC(=O)O[C@@H]1[C@@H](OCc2ccccc2)[C@H](OC(C)=O)[C@@H](C)O[C@@H]1Br",
+      "reaction_smiles_mapped": "[BrH:24].CC(=O)O[C@@H:23]1[C@H:5]([O:4][C:2]([CH3:1])=[O:3])[C@@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][cH:14]2)[C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@@H:20]([CH3:21])[O:22]1>CC(=O)O>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[C@@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][cH:12][cH:13][cH:14]2)[C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@@H:20]([CH3:21])[O:22][C@@H:23]1[Br:24]",
+      "mapping_confidence": 0.71853915777994,
+      "conditions": {
+        "raw_description": "HBr; AcOH; 85%",
+        "GENERAL_REAGENTS": [
+          "HBr",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_30",
+      "reaction_smiles": "C[C@H]1O[C@H](O)[C@H](O)[C@@H](OCc2ccccc2)[C@@H]1O.COC1(OC)CCCC1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.C1CCOC1>>C[C@H]1O[C@@H]2OC3(CCCC3)O[C@@H]2[C@@H](OCc2ccccc2)[C@@H]1O",
+      "reaction_smiles_mapped": "CO[C:6]1(OC)[CH2:7][CH2:8][CH2:9][CH2:10]1.[CH3:1][C@H:2]1[O:3][C@H:4]([OH:5])[C@H:12]([OH:11])[C@@H:13]([O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[C@@H:22]1[OH:23]>C1CCOC1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2>[CH3:1][C@H:2]1[O:3][C@@H:4]2[O:5][C:6]3([CH2:7][CH2:8][CH2:9][CH2:10]3)[O:11][C@@H:12]2[C@@H:13]([O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[C@@H:22]1[OH:23]",
+      "mapping_confidence": 0.7723091689643153,
+      "conditions": {
+        "raw_description": "CSA; THF; 64%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_31",
+      "reaction_smiles": "C[C@H]1O[C@@H]2OC3(CCCC3)O[C@@H]2[C@@H](OCc2ccccc2)[C@@H]1O.C=CCO.CC(=O)OC(C)=O.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.c1ccccc1.c1ccncc1>>C=CCO[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][OH:4].CC(=O)O[C:11]([CH3:12])=[O:13].C1CCC2(C1)O[C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([OH:10])[C@H:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][cH:20][cH:21][cH:22]3)[C@H:23]1[O:24]2>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.c1ccccc1.c1ccncc1>[CH2:1]=[CH:2][CH2:3][O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[OH:24]",
+      "mapping_confidence": 0.4166723391705753,
+      "conditions": {
+        "raw_description": "Ac2O; cat DMAP; pyr; CSA; Benzene; reflux; 48%",
+        "GENERAL_REAGENTS": [
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene",
+          "pyr"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_32",
+      "reaction_smiles": "C=CCO[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O.CC(=O)O[C@@H]1[C@@H](OCc2ccccc2)[C@H](OC(C)=O)[C@@H](C)O[C@@H]1Br.N#C[Hg]C#N.c1ccccc1.C[N+](=O)[O-]>>C=CCO[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[OH:24].Br[C@H:25]1[O:26][C@H:27]([CH3:28])[C@@H:29]([O:30][C:31]([CH3:32])=[O:33])[C@H:34]([O:35][CH2:36][c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)[C@H:43]1[O:44][C:45]([CH3:46])=[O:47]>C[N+](=O)[O-].N#C[Hg]C#N.c1ccccc1>[CH2:1]=[CH:2][CH2:3][O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[O:24][C@@H:25]1[O:26][C@H:27]([CH3:28])[C@@H:29]([O:30][C:31]([CH3:32])=[O:33])[C@H:34]([O:35][CH2:36][c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)[C@H:43]1[O:44][C:45]([CH3:46])=[O:47]",
+      "mapping_confidence": 0.5155172253460891,
+      "conditions": {
+        "raw_description": "Hg(CN)2; Benzene; MeNO2; 84%",
+        "GENERAL_REAGENTS": [
+          "Hg(CN)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)[Hg]C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene",
+          "MeNO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_33",
+      "reaction_smiles": "C=CCO[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O.[C].[Pd].CO>>C/C=C/O[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[O:24][C@@H:25]1[O:26][C@H:27]([CH3:28])[C@@H:29]([O:30][C:31]([CH3:32])=[O:33])[C@H:34]([O:35][CH2:36][c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)[C@H:43]1[O:44][C:45]([CH3:46])=[O:47]>CO.[C].[Pd]>[CH3:1]/[CH:2]=[CH:3]/[O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[C@H:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]1[O:24][C@@H:25]1[O:26][C@H:27]([CH3:28])[C@@H:29]([O:30][C:31]([CH3:32])=[O:33])[C@H:34]([O:35][CH2:36][c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)[C@H:43]1[O:44][C:45]([CH3:46])=[O:47]",
+      "mapping_confidence": 0.5328214025654567,
+      "conditions": {
+        "raw_description": "Pd/C; MeOH; 76%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_34",
+      "reaction_smiles": "C/C=C/O[C@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](OC(C)=O)[C@H](OCc2ccccc2)[C@H]1OC(C)=O.O=C([O-])[O-].[K+].[K+].CO>>C/C=C/O[C@H]1O[C@H](C)[C@@H](O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](O)[C@H](OCc2ccccc2)[C@H]1O",
+      "reaction_smiles_mapped": "CC(=O)[O:10][C@@H:9]1[C@@H:7]([CH3:8])[O:6][C@H:5]([O:4]/[CH:3]=[CH:2]/[CH3:1])[C@H:20]([O:21][C@@H:22]2[O:23][C@H:24]([CH3:25])[C@@H:26]([O:27]C(C)=O)[C@H:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[C@H:37]2[O:38]C(C)=O)[C@H:11]1[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1]/[CH:2]=[CH:3]/[O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([OH:10])[C@H:11]([O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[C@H:20]1[O:21][C@@H:22]1[O:23][C@H:24]([CH3:25])[C@@H:26]([OH:27])[C@H:28]([O:29][CH2:30][c:31]2[cH:32][cH:33][cH:34][cH:35][cH:36]2)[C@H:37]1[OH:38]",
+      "mapping_confidence": 0.577666332058314,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_35",
+      "reaction_smiles": "C/C=C/O[C@H]1O[C@H](C)[C@@H](O)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](O)[C@H](OCc2ccccc2)[C@H]1O.CC[Si](Cl)(CC)CC.CC[Si](Cl)(CC)CC.CC[Si](Cl)(CC)CC.CN(C)c1ccncc1.CN(C)C=O>>C/C=C/O[C@H]1O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@H](OCc2ccccc2)[C@H]1O[Si](CC)(CC)CC",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[CH:3]/[O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([OH:10])[C@H:18]([O:19][CH2:20][c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[C@H:27]1[O:28][C@@H:29]1[O:30][C@H:31]([CH3:32])[C@@H:33]([OH:34])[C@H:42]([O:43][CH2:44][c:45]2[cH:46][cH:47][cH:48][cH:49][cH:50]2)[C@H:51]1[OH:52].Cl[Si:11]([CH2:12][CH3:13])([CH2:14][CH3:15])[CH2:16][CH3:17].Cl[Si:53]([CH2:54][CH3:55])([CH2:56][CH3:57])[CH2:58][CH3:59].Cl[Si:35]([CH2:36][CH3:37])([CH2:38][CH3:39])[CH2:40][CH3:41]>CN(C)C=O.CN(C)c1ccncc1>[CH3:1]/[CH:2]=[CH:3]/[O:4][C@H:5]1[O:6][C@H:7]([CH3:8])[C@@H:9]([O:10][Si:11]([CH2:12][CH3:13])([CH2:14][CH3:15])[CH2:16][CH3:17])[C@H:18]([O:19][CH2:20][c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[C@H:27]1[O:28][C@@H:29]1[O:30][C@H:31]([CH3:32])[C@@H:33]([O:34][Si:35]([CH2:36][CH3:37])([CH2:38][CH3:39])[CH2:40][CH3:41])[C@H:42]([O:43][CH2:44][c:45]2[cH:46][cH:47][cH:48][cH:49][cH:50]2)[C@H:51]1[O:52][Si:53]([CH2:54][CH3:55])([CH2:56][CH3:57])[CH2:58][CH3:59]",
+      "mapping_confidence": 0.0036699631947948014,
+      "conditions": {
+        "raw_description": "TESCl; DMAP; DMF; 85% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TESCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Si](CC)(CC)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_36",
+      "reaction_smiles": "C/C=C/O[C@H]1O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@H](OCc2ccccc2)[C@H]1O[C@@H]1O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@H](OCc2ccccc2)[C@H]1O[Si](CC)(CC)CC.O=[O+][O-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OCc2ccccc2)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OCc1ccccc1",
+      "reaction_smiles_mapped": "C/C=[CH:15]/[O:14][C@@H:13]1[C@H:12]([O:11][C@H:10]2[C@H:9]([O:8][Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])[C@@H:50]([O:51][CH2:52][c:53]3[cH:54][cH:55][cH:56][cH:57][cH:58]3)[C@H:41]([O:42][Si:43]([CH2:44][CH3:45])([CH2:46][CH3:47])[CH2:48][CH3:49])[C@@H:39]([CH3:40])[O:38]2)[C@@H:29]([O:30][CH2:31][c:32]2[cH:33][cH:34][cH:35][cH:36][cH:37]2)[C@H:20]([O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])[C@@H:18]([CH3:19])[O:17]1.[O-][O+]=[O:16]>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@@H:13]([O:14][CH:15]=[O:16])[O:17][C@H:18]([CH3:19])[C@@H:20]([O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])[C@@H:29]2[O:30][CH2:31][c:32]2[cH:33][cH:34][cH:35][cH:36][cH:37]2)[O:38][C@H:39]([CH3:40])[C@@H:41]([O:42][Si:43]([CH2:44][CH3:45])([CH2:46][CH3:47])[CH2:48][CH3:49])[C@@H:50]1[O:51][CH2:52][c:53]1[cH:54][cH:55][cH:56][cH:57][cH:58]1",
+      "mapping_confidence": 0.01818222178597957,
+      "conditions": {
+        "raw_description": "O3; PPh3; DCM; 90%",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_37",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OCc2ccccc2)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OCc1ccccc1.[C].[Pd].CCOC(C)=O>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1O",
+      "reaction_smiles_mapped": "c1ccc(C[O:30][C@@H:29]2[C@@H:12]([O:11][C@H:10]3[C@H:9]([O:8][Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])[C@@H:43]([O:44]Cc4ccccc4)[C@H:34]([O:35][Si:36]([CH2:37][CH3:38])([CH2:39][CH3:40])[CH2:41][CH3:42])[C@@H:32]([CH3:33])[O:31]3)[C@@H:13]([O:14][CH:15]=[O:16])[O:17][C@H:18]([CH3:19])[C@H:20]2[O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])cc1>CCOC(C)=O.[C].[Pd]>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@@H:13]([O:14][CH:15]=[O:16])[O:17][C@H:18]([CH3:19])[C@@H:20]([O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])[C@@H:29]2[OH:30])[O:31][C@H:32]([CH3:33])[C@@H:34]([O:35][Si:36]([CH2:37][CH3:38])([CH2:39][CH3:40])[CH2:41][CH3:42])[C@@H:43]1[OH:44]",
+      "mapping_confidence": 0.09013925322807113,
+      "conditions": {
+        "raw_description": "Pd/C; EtOAc",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_38",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1O.CC(=O)OC(C)=O.CC(=O)OC(C)=O.c1cc(N2CCCC2)ccn1>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O",
+      "reaction_smiles_mapped": "CC(=O)O[C:48]([CH3:49])=[O:50].O([C:31]([CH3:32])=[O:33])C(C)=O.[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@@H:13]([O:14][CH:15]=[O:16])[O:17][C@H:18]([CH3:19])[C@@H:20]([O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])[C@@H:29]2[OH:30])[O:34][C@H:35]([CH3:36])[C@@H:37]([O:38][Si:39]([CH2:40][CH3:41])([CH2:42][CH3:43])[CH2:44][CH3:45])[C@@H:46]1[OH:47]>c1cc(N2CCCC2)ccn1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@H:12]2[C@@H:13]([O:14][CH:15]=[O:16])[O:17][C@H:18]([CH3:19])[C@@H:20]([O:21][Si:22]([CH2:23][CH3:24])([CH2:25][CH3:26])[CH2:27][CH3:28])[C@@H:29]2[O:30][C:31]([CH3:32])=[O:33])[O:34][C@H:35]([CH3:36])[C@@H:37]([O:38][Si:39]([CH2:40][CH3:41])([CH2:42][CH3:43])[CH2:44][CH3:45])[C@@H:46]1[O:47][C:48]([CH3:49])=[O:50]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Ac2O; 79% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ac2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Phyllanthoside_1987_Smith_39",
+      "reaction_smiles": "CC[Si](CC)(CC)O[C@H]1[C@H](O[C@H]2[C@@H](OC=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]2OC(C)=O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O.CCN(CC)CC.CO>>CC[Si](CC)(CC)O[C@H]1[C@H](O[C@@H]2[C@@H](OC(C)=O)[C@H](O[Si](CC)(CC)CC)[C@@H](C)O[C@H]2O)O[C@H](C)[C@@H](O[Si](CC)(CC)CC)[C@@H]1OC(C)=O",
+      "reaction_smiles_mapped": "O=C[O:31][C@@H:30]1[C@H:12]([O:11][C@H:10]2[C@H:9]([O:8][Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])[C@@H:44]([O:45][C:46]([CH3:47])=[O:48])[C@H:35]([O:36][Si:37]([CH2:38][CH3:39])([CH2:40][CH3:41])[CH2:42][CH3:43])[C@@H:33]([CH3:34])[O:32]2)[C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[C@H:18]([O:19][Si:20]([CH2:21][CH3:22])([CH2:23][CH3:24])[CH2:25][CH3:26])[C@@H:27]([CH3:28])[O:29]1>CCN(CC)CC.CO>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]1[C@H:10]([O:11][C@@H:12]2[C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[C@H:18]([O:19][Si:20]([CH2:21][CH3:22])([CH2:23][CH3:24])[CH2:25][CH3:26])[C@@H:27]([CH3:28])[O:29][C@H:30]2[OH:31])[O:32][C@H:33]([CH3:34])[C@@H:35]([O:36][Si:37]([CH2:38][CH3:39])([CH2:40][CH3:41])[CH2:42][CH3:43])[C@@H:44]1[O:45][C:46]([CH3:47])=[O:48]",
+      "mapping_confidence": 0.07156701415818958,
+      "conditions": {
+        "raw_description": "NEt3; MeOH",
+        "GENERAL_REAGENTS": [
+          "NEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

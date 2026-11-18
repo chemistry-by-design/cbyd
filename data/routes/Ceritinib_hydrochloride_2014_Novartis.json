@@ -1,0 +1,413 @@
+{
+  "background": {
+    "name": "Ceritinib hydrochloride",
+    "author": null,
+    "year": 2014,
+    "drug_name": "Zykadia",
+    "manufacturer": "Novartis",
+    "citation": "Bioorg. Med. Chem. 2016, 24, 1937",
+    "doi": "10.1016/j.bmc.2016.03.004"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_1",
+      "reaction_smiles": "Cc1ccc(F)cc1Cl.O=[N+]([O-])[O-].[K+].O=S(=O)(O)O.O=[N+]([O-])[O-].[K+]>>Cc1cc([N+](=O)[O-])c(F)cc1Cl",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:8]([F:9])[cH:10][c:11]1[Cl:12].[O-][N+:5](=[O:6])[O-:7]>O=S(=O)(O)O.O=[N+]([O-])[O-].[K+].[K+]>[CH3:1][c:2]1[cH:3][c:4]([N+:5](=[O:6])[O-:7])[c:8]([F:9])[cH:10][c:11]1[Cl:12]",
+      "mapping_confidence": 0.1759771957177891,
+      "conditions": {
+        "raw_description": "KNO3; H2SO4; 0 to 20 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [
+          "KNO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N+](=O)([O-])[O-].[K+]",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "20"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_2",
+      "reaction_smiles": "Cc1cc([N+](=O)[O-])c(F)cc1Cl.O=C([O-])[O-].[Cs+].[Cs+].CC(C)O>>Cc1cc([N+](=O)[O-])c(OC(C)C)cc1Cl",
+      "reaction_smiles_mapped": "[OH:9][CH:10]([CH3:11])[CH3:12].F[c:8]1[c:4]([N+:5](=[O:6])[O-:7])[cH:3][c:2]([CH3:1])[c:14]([Cl:15])[cH:13]1>O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][c:2]1[cH:3][c:4]([N+:5](=[O:6])[O-:7])[c:8]([O:9][CH:10]([CH3:11])[CH3:12])[cH:13][c:14]1[Cl:15]",
+      "mapping_confidence": 0.6469285898864257,
+      "conditions": {
+        "raw_description": "i-PrOH; Cs2CO3; 60 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_3",
+      "reaction_smiles": "Cc1cc([N+](=O)[O-])c(OC(C)C)cc1Cl.OB(O)c1ccncc1.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.O=P([O-])([O-])[O-].[K+].[K+].[K+].O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].C1COCCO1.O>>Cc1cc([N+](=O)[O-])c(OC(C)C)cc1-c1ccncc1",
+      "reaction_smiles_mapped": "Cl[c:14]1[c:2]([CH3:1])[cH:3][c:4]([N+:5](=[O:6])[O-:7])[c:8]([O:9][CH:10]([CH3:11])[CH3:12])[cH:13]1.OB(O)[c:15]1[cH:16][cH:17][n:18][cH:19][cH:20]1>C1COCCO1.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.O.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=P([O-])([O-])[O-].[K+].[K+].[K+].[Pd].[Pd]>[CH3:1][c:2]1[cH:3][c:4]([N+:5](=[O:6])[O-:7])[c:8]([O:9][CH:10]([CH3:11])[CH3:12])[cH:13][c:14]1-[c:15]1[cH:16][cH:17][n:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.6687717530677005,
+      "conditions": {
+        "raw_description": "Pd2(dba)3; dioxane; H2O; K3PO4; MW; 150 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_4",
+      "reaction_smiles": "Cc1cc([N+](=O)[O-])c(OC(C)C)cc1-c1ccncc1.[HH].O=C(O)C(F)(F)F.O=[Pt]=O.CC(=O)O>>Cc1cc(N)c(OC(C)C)cc1C1CCNCC1",
+      "reaction_smiles_mapped": "O=[N+:5]([O-])[c:4]1[cH:3][c:2]([CH3:1])[c:12](-[c:13]2[cH:14][cH:15][n:16][cH:17][cH:18]2)[cH:11][c:6]1[O:7][CH:8]([CH3:9])[CH3:10]>CC(=O)O.O=C(O)C(F)(F)F.O=[Pt]=O.[HH]>[CH3:1][c:2]1[cH:3][c:4]([NH2:5])[c:6]([O:7][CH:8]([CH3:9])[CH3:10])[cH:11][c:12]1[CH:13]1[CH2:14][CH2:15][NH:16][CH2:17][CH2:18]1",
+      "mapping_confidence": 0.6676183411169775,
+      "conditions": {
+        "raw_description": "HOAc; TFA; PtO2; H2",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_5",
+      "reaction_smiles": "Cc1cc(N)c(OC(C)C)cc1C1CCNCC1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CCN(CC)CC.ClCCl>>Cc1cc(N)c(OC(C)C)cc1C1CCN(C(=O)OC(C)(C)C)CC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23].[CH3:1][c:2]1[cH:3][c:4]([NH2:5])[c:6]([O:7][CH:8]([CH3:9])[CH3:10])[cH:11][c:12]1[CH:13]1[CH2:14][CH2:15][NH:16][CH2:24][CH2:25]1>CCN(CC)CC.ClCCl>[CH3:1][c:2]1[cH:3][c:4]([NH2:5])[c:6]([O:7][CH:8]([CH3:9])[CH3:10])[cH:11][c:12]1[CH:13]1[CH2:14][CH2:15][N:16]([C:17](=[O:18])[O:19][C:20]([CH3:21])([CH3:22])[CH3:23])[CH2:24][CH2:25]1",
+      "mapping_confidence": 0.23392412043698613,
+      "conditions": {
+        "raw_description": "Boc2O; Et3N; DCM; 20 \u00b0C; 60% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Boc2O",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": [
+          "60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_6",
+      "reaction_smiles": "Cc1cc(N)c(OC(C)C)cc1C1CCN(C(=O)OC(C)(C)C)CC1.CC(C)S(=O)(=O)c1ccccc1Nc1nc(Cl)ncc1Cl.O=C([O-])[O-].[Cs+].[Cs+].CC(=O)[O-].CC(=O)[O-].[Pd+2].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.C1CCOC1>>Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCN(C(=O)OC(C)(C)C)CC1",
+      "reaction_smiles_mapped": "Cl[c:6]1[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]2[cH:14][cH:15][cH:16][cH:17][c:18]2[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]1.[CH3:1][c:2]1[cH:3][c:4]([NH2:5])[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31][c:32]1[CH:33]1[CH2:34][CH2:35][N:36]([C:37](=[O:38])[O:39][C:40]([CH3:41])([CH3:42])[CH3:43])[CH2:44][CH2:45]1>C1CCOC1.CC(=O)[O-].CC(=O)[O-].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.O=C([O-])[O-].[Cs+].[Cs+].[Pd+2]>[CH3:1][c:2]1[cH:3][c:4]([NH:5][c:6]2[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]3[cH:14][cH:15][cH:16][cH:17][c:18]3[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]2)[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31][c:32]1[CH:33]1[CH2:34][CH2:35][N:36]([C:37](=[O:38])[O:39][C:40]([CH3:41])([CH3:42])[CH3:43])[CH2:44][CH2:45]1",
+      "mapping_confidence": 0.1427674541633107,
+      "conditions": {
+        "raw_description": "Xantphos; Pd(OAc)2; Cs2CO3; THF; MW; 150 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "Xantphos"
+        ],
+        "LIGANDS_SMILES": [
+          "CC1(C)c2cccc(P(c3ccccc3)c4ccccc4)c2Oc2c(cccc12)P(c5ccccc5)c6ccccc6"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "MW"
+        ],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_7",
+      "reaction_smiles": "Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCN(C(=O)OC(C)(C)C)CC1.O=C(O)C(F)(F)F.ClCCl>>Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCNCC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:36]1[CH2:35][CH2:34][CH:33]([c:32]2[c:2]([CH3:1])[cH:3][c:4]([NH:5][c:6]3[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]4[cH:14][cH:15][cH:16][cH:17][c:18]4[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]3)[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31]2)[CH2:38][CH2:37]1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][c:2]1[cH:3][c:4]([NH:5][c:6]2[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]3[cH:14][cH:15][cH:16][cH:17][c:18]3[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]2)[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31][c:32]1[CH:33]1[CH2:34][CH2:35][NH:36][CH2:37][CH2:38]1",
+      "mapping_confidence": 0.3239188336384258,
+      "conditions": {
+        "raw_description": "TFA; DCM; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_8",
+      "reaction_smiles": "Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCNCC1.Cl>>Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCNCC1.Cl",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][c:4]([NH:5][c:6]2[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]3[cH:14][cH:15][cH:16][cH:17][c:18]3[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]2)[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31][c:32]1[CH:33]1[CH2:34][CH2:35][NH:36][CH2:37][CH2:38]1.[ClH:39]>>[CH3:1][c:2]1[cH:3][c:4]([NH:5][c:6]2[n:7][cH:8][c:9]([Cl:10])[c:11]([NH:12][c:13]3[cH:14][cH:15][cH:16][cH:17][c:18]3[S:19](=[O:20])(=[O:21])[CH:22]([CH3:23])[CH3:24])[n:25]2)[c:26]([O:27][CH:28]([CH3:29])[CH3:30])[cH:31][c:32]1[CH:33]1[CH2:34][CH2:35][NH:36][CH2:37][CH2:38]1.[ClH:39]",
+      "mapping_confidence": 0.26965757179114613,
+      "conditions": {
+        "raw_description": "1M HCl; 35% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_9",
+      "reaction_smiles": "O=[N+]([O-])c1ccccc1F.CC(C)S.O=C([O-])[O-].[K+].[K+].CC(=O)N(C)C.O>>CC(C)Sc1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[SH:4].F[c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[N+:11](=[O:12])[O-:13]>CC(=O)N(C)C.O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH:2]([CH3:3])[S:4][c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[N+:11](=[O:12])[O-:13]",
+      "mapping_confidence": 0.902577382922359,
+      "conditions": {
+        "raw_description": "1) K2CO3; DM; 20 to 100 \u00b0C; 2) H2O",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)N(C)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20",
+          "100"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_10",
+      "reaction_smiles": "CC(C)Sc1ccccc1[N+](=O)[O-].O=C(OO)c1cccc(Cl)c1.ClCCl>>CC(C)S(=O)(=O)c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[S:4][c:7]1[cH:8][cH:9][cH:10][cH:11][c:12]1[N+:13](=[O:14])[O-:15].Clc1cccc(C(O[OH:6])=[O:5])c1>ClCCl>[CH3:1][CH:2]([CH3:3])[S:4](=[O:5])(=[O:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][c:12]1[N+:13](=[O:14])[O-:15]",
+      "mapping_confidence": 0.4970751751613092,
+      "conditions": {
+        "raw_description": "m-CPBA; DCM; 0 to 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "m-CPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_11",
+      "reaction_smiles": "CC(C)S(=O)(=O)c1ccccc1[N+](=O)[O-].[HH].[Pd].CO>>CC(C)S(=O)(=O)c1ccccc1N",
+      "reaction_smiles_mapped": "O=[N+:13]([O-])[c:12]1[c:7]([S:4]([CH:2]([CH3:1])[CH3:3])(=[O:5])=[O:6])[cH:8][cH:9][cH:10][cH:11]1>CO.[HH].[Pd]>[CH3:1][CH:2]([CH3:3])[S:4](=[O:5])(=[O:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][c:12]1[NH2:13]",
+      "mapping_confidence": 0.5587229769572744,
+      "conditions": {
+        "raw_description": "H2; Pd; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Ceritinib_hydrochloride_2014_Novartis_12",
+      "reaction_smiles": "CC(C)S(=O)(=O)c1ccccc1N.Clc1ncc(Cl)c(Cl)n1.[Li]OC(C)(C)C.[Cl-].[NH4+].CC(=O)N(C)C.O.CO>>CC(C)S(=O)(=O)c1ccccc1Nc1nc(Cl)ncc1Cl",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[S:4](=[O:5])(=[O:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][c:12]1[NH2:13].Cl[c:14]1[n:15][c:16]([Cl:17])[n:18][cH:19][c:20]1[Cl:21]>CC(=O)N(C)C.CO.O.[Cl-].[Li]OC(C)(C)C.[NH4+]>[CH3:1][CH:2]([CH3:3])[S:4](=[O:5])(=[O:6])[c:7]1[cH:8][cH:9][cH:10][cH:11][c:12]1[NH:13][c:14]1[n:15][c:16]([Cl:17])[n:18][cH:19][c:20]1[Cl:21]",
+      "mapping_confidence": 0.4995610886684169,
+      "conditions": {
+        "raw_description": "1) LiOTBu; AcNMe2; 19-45 \u00b0C; 2) NH4Cl; H2O; MeOH",
+        "GENERAL_REAGENTS": [
+          "LiOTBu",
+          "NH4Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]OC(C)(C)C",
+          "[NH4+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcNMe2",
+          "H2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C(C)=O)C",
+          "O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "19",
+          "45"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

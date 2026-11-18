@@ -1,0 +1,43 @@
+{
+  "background": {
+    "name": "Fruquitinib",
+    "author": null,
+    "year": 2018,
+    "drug_name": "Elunate",
+    "manufacturer": "Hutchison-MediPharma",
+    "citation": "J. Med. Chem. 2020, 63, 10652",
+    "doi": "10.1021/acs.jmedchem.0c00345"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Fruquitinib_2018_Hutchison-MediPharma_1",
+      "reaction_smiles": "COc1cc2ncnc(Cl)c2cc1OC.CNC(=O)c1c(C)oc2cc(O)ccc12.O=C([O-])[O-].[K+].[K+].CC#N>>CNC(=O)c1c(C)oc2cc(Oc3ncnc4cc(OC)c(OC)cc34)ccc12",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][C:3](=[O:4])[c:5]1[c:6]([CH3:7])[o:8][c:9]2[cH:10][c:11]([OH:12])[cH:27][cH:28][c:29]12.Cl[c:13]1[n:14][cH:15][n:16][c:17]2[cH:18][c:19]([O:20][CH3:21])[c:22]([O:23][CH3:24])[cH:25][c:26]12>O=C([O-])[O-].[K+].[K+].CC#N>[CH3:1][NH:2][C:3](=[O:4])[c:5]1[c:6]([CH3:7])[o:8][c:9]2[cH:10][c:11]([O:12][c:13]3[n:14][cH:15][n:16][c:17]4[cH:18][c:19]([O:20][CH3:21])[c:22]([O:23][CH3:24])[cH:25][c:26]34)[cH:27][cH:28][c:29]12",
+      "mapping_confidence": 0.9349496638556997,
+      "conditions": {
+        "raw_description": "K2CO3; MeCN; reflux; 85%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    }
+  ]
+}

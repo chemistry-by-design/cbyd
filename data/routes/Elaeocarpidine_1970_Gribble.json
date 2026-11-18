@@ -1,0 +1,112 @@
+{
+  "background": {
+    "name": "(+/-)-Elaeocarpidine",
+    "author": "Gribble",
+    "year": 1970,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1970, 35, 1944",
+    "doi": "10.1021/jo00831a049"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Elaeocarpidine_1970_Gribble_1",
+      "reaction_smiles": "O=C1CCCN1.CCOC(CCCl)OCC.[H-].[Na+].CN(C)P(=O)(N(C)C)N(C)C.c1ccccc1>>CCOC(CCN1CCCC1=O)OCC",
+      "reaction_smiles_mapped": "Cl[CH2:6][CH2:5][CH:4]([O:3][CH2:2][CH3:1])[O:13][CH2:14][CH3:15].[NH:7]1[CH2:8][CH2:9][CH2:10][C:11]1=[O:12]>[H-].[Na+].CN(C)P(=O)(N(C)C)N(C)C.c1ccccc1>[CH3:1][CH2:2][O:3][CH:4]([CH2:5][CH2:6][N:7]1[CH2:8][CH2:9][CH2:10][C:11]1=[O:12])[O:13][CH2:14][CH3:15]",
+      "mapping_confidence": 0.957011452476774,
+      "conditions": {
+        "raw_description": "NaH; benzene; HMPA; 70 \u00b0C to reflux; 34%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "34%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elaeocarpidine_1970_Gribble_2",
+      "reaction_smiles": "CCOC(CCN1CCCC1=O)OCC.NCCc1c[nH]c2ccccc12.Cl.O>>O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21",
+      "reaction_smiles_mapped": "CCO[CH:9](OCC)[CH2:8][CH2:7][N:6]1[C:2](=[O:1])[CH2:3][CH2:4][CH2:5]1.[NH2:10][CH2:11][CH2:12][c:13]1[cH:14][nH:15][c:16]2[cH:17][cH:18][cH:19][cH:20][c:21]12>Cl.O>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][N:6]1[CH2:7][CH2:8][CH:9]1[NH:10][CH2:11][CH2:12][c:13]2[c:14]1[nH:15][c:16]1[cH:17][cH:18][cH:19][cH:20][c:21]21",
+      "mapping_confidence": 0.9828795910653281,
+      "conditions": {
+        "raw_description": "HCl; H2O; reflux; 78%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elaeocarpidine_1970_Gribble_3",
+      "reaction_smiles": "O=C1CCCN1CCC1NCCc2c1[nH]c1ccccc21.[AlH4-].[Li+].C1CCOC1>>c1ccc2c3c([nH]c2c1)C1CCN2CCCC2N1CC3",
+      "reaction_smiles_mapped": "O=[C:17]1[N:13]([CH2:12][CH2:11][CH:10]2[c:6]3[c:5]([c:4]4[cH:3][cH:2][cH:1][cH:9][c:8]4[nH:7]3)[CH2:20][CH2:19][NH:18]2)[CH2:14][CH2:15][CH2:16]1>[AlH4-].[Li+].C1CCOC1>[cH:1]1[cH:2][cH:3][c:4]2[c:5]3[c:6]([nH:7][c:8]2[cH:9]1)[CH:10]1[CH2:11][CH2:12][N:13]2[CH2:14][CH2:15][CH2:16][CH:17]2[N:18]1[CH2:19][CH2:20]3",
+      "mapping_confidence": 0.937594559484498,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C to rt; 17%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "17%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "background": {
+    "name": "beta-vinyl piperidine",
+    "author": "Marvel",
+    "year": 1928,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1928, 50, 1197",
+    "doi": "10.1021/ja01391a034"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_1",
+      "reaction_smiles": "OCC1CCCNC1.Br>>BrCC1CCCNC1",
+      "reaction_smiles_mapped": "[BrH:1].O[CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][CH2:8]1>>[Br:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][CH2:8]1",
+      "mapping_confidence": 0.9982907337385913,
+      "conditions": {
+        "raw_description": "HBr; reflux",
+        "GENERAL_REAGENTS": [
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_2",
+      "reaction_smiles": "BrCC1CCCNC1.O=C(Cl)c1ccccc1.[K+].[OH-]>>O=C(c1ccccc1)N1CCCC(CBr)C1",
+      "reaction_smiles_mapped": "[NH:9]1[CH2:10][CH2:11][CH2:12][CH:13]([CH2:14][Br:15])[CH2:16]1.Cl[C:2](=[O:1])[c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1>[K+].[OH-]>[O:1]=[C:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][CH2:11][CH2:12][CH:13]([CH2:14][Br:15])[CH2:16]1",
+      "mapping_confidence": 0.9464640194993813,
+      "conditions": {
+        "raw_description": "KOH",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_3",
+      "reaction_smiles": "O=C(c1ccccc1)N1CCCC(CBr)C1.[C-]#N.[Na+].CCO>>N#CCC1CCCN(C(=O)c2ccccc2)C1",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:4]1[CH2:5][CH2:6][CH2:7][N:8]([C:9](=[O:10])[c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[CH2:17]1.[N:1]#[C-:2]>[Na+].CCO>[N:1]#[C:2][CH2:3][CH:4]1[CH2:5][CH2:6][CH2:7][N:8]([C:9](=[O:10])[c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[CH2:17]1",
+      "mapping_confidence": 0.5683617482849587,
+      "conditions": {
+        "raw_description": "NaCN; EtOH; reflux; 33%",
+        "GENERAL_REAGENTS": [
+          "NaCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "33%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_4",
+      "reaction_smiles": "N#CCC1CCCN(C(=O)c2ccccc2)C1.Cl.CCO>>CCOC(=O)CC1CCCNC1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][OH:3].N#[C:4][CH2:6][CH:7]1[CH2:8][CH2:9][CH2:10][N:11](C(c2ccccc2)=[O:5])[CH2:12]1>Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][CH2:9][CH2:10][NH:11][CH2:12]1",
+      "mapping_confidence": 0.8524198688566972,
+      "conditions": {
+        "raw_description": "HCl; EtOH; reflux; 30%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "30%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_5",
+      "reaction_smiles": "CCOC(=O)CC1CCCNC1.[Na].CCO>>OCCC1CCCNC1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[CH2:3][CH:4]1[CH2:5][CH2:6][CH2:7][NH:8][CH2:9]1>[Na].CCO>[OH:1][CH2:2][CH2:3][CH:4]1[CH2:5][CH2:6][CH2:7][NH:8][CH2:9]1",
+      "mapping_confidence": 0.9382851219207823,
+      "conditions": {
+        "raw_description": "Na; EtOH; reflux; 63%",
+        "GENERAL_REAGENTS": [
+          "Na"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_6",
+      "reaction_smiles": "OCCC1CCCNC1.O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.Cc1ccccc1>>C=CC1CCCNC1",
+      "reaction_smiles_mapped": "O[CH2:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][CH2:8]1>O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3.Cc1ccccc1>[CH2:1]=[CH:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][CH2:8]1",
+      "mapping_confidence": 0.9895492638230284,
+      "conditions": {
+        "raw_description": "P2O5; toluene; reflux; 20%",
+        "GENERAL_REAGENTS": [
+          "P2O5"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P12OP3(=O)OP(=O)(O1)OP(=O)(O2)O3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "20%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-vinyl_piperidine_1928_Marvel_7",
+      "reaction_smiles": "CCOC(=O)c1cccnc1.[Na].CCO>>OCC1CCCNC1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[c:3]1[cH:4][cH:5][cH:6][n:7][cH:8]1>[Na].CCO>[OH:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][NH:7][CH2:8]1",
+      "mapping_confidence": 0.9532810261948793,
+      "conditions": {
+        "raw_description": "Na; EtOH; reflux; 49%",
+        "GENERAL_REAGENTS": [
+          "Na"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "49%"
+        ]
+      }
+    }
+  ]
+}

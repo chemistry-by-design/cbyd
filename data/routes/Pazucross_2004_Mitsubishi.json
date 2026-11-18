@@ -1,0 +1,425 @@
+{
+  "background": {
+    "name": "Pazucross",
+    "author": null,
+    "year": 2004,
+    "drug_name": "Pazilfloxacin",
+    "manufacturer": "Mitsubishi",
+    "citation": "Mini. Rev. Med. Chem. 2004, 4, 207",
+    "doi": "10.2174/1389557043487457"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_1",
+      "reaction_smiles": "O=C(O)c1cc(F)c(F)c(F)c1F.CCBr.O=C([O-])[O-].[K+].[K+].CS(C)=O>>CCOC(=O)c1cc(F)c(F)c(F)c1F",
+      "reaction_smiles_mapped": "Br[CH2:2][CH3:1].[OH:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([F:11])[c:12]([F:13])[c:14]1[F:15]>CS(C)=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([F:11])[c:12]([F:13])[c:14]1[F:15]",
+      "mapping_confidence": 0.9601913749195703,
+      "conditions": {
+        "raw_description": "EtBr; K2CO3; DMSO",
+        "GENERAL_REAGENTS": [
+          "EtBr",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_2",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(F)c(F)c1F.CC(C)(C)OC(=O)CC#N.O=C([O-])[O-].[K+].[K+].CS(C)=O>>CCOC(=O)c1cc(F)c(C(C#N)C(=O)OC(C)(C)C)c(F)c1F",
+      "reaction_smiles_mapped": "[CH2:11]([C:12]#[N:13])[C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20].F[c:10]1[c:8]([F:9])[cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:23]([F:24])[c:21]1[F:22]>CS(C)=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([CH:11]([C:12]#[N:13])[C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]([F:22])[c:23]1[F:24]",
+      "mapping_confidence": 0.2973407831145245,
+      "conditions": {
+        "raw_description": "K2CO3; DMSO",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_3",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(C(C#N)C(=O)OC(C)(C)C)c(F)c1F.Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1>>CCOC(=O)c1cc(F)c(CC#N)c(F)c1F",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[CH:11]([c:10]1[c:8]([F:9])[cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:16]([F:17])[c:14]1[F:15])[C:12]#[N:13]>Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([CH2:11][C:12]#[N:13])[c:14]([F:15])[c:16]1[F:17]",
+      "mapping_confidence": 0.9794729778438344,
+      "conditions": {
+        "raw_description": "TsOH\u00b7H2O; PhMe; reflux; 90% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "TsOH\u00b7H2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_4",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(CC#N)c(F)c1F.BrCCBr.[Na+].[OH-]>>CCOC(=O)c1cc(F)c(C2(C#N)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "Br[CH2:14][CH2:15]Br.[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([CH2:11][C:12]#[N:13])[c:16]([F:17])[c:18]1[F:19]>[Na+].[OH-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([C:12]#[N:13])[CH2:14][CH2:15]2)[c:16]([F:17])[c:18]1[F:19]",
+      "mapping_confidence": 0.7947842777757036,
+      "conditions": {
+        "raw_description": "NaOH; PhCH2N+Et3Cl-",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_5",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(C2(C#N)CC2)c(F)c1F.OO.[Na+].[OH-]>>CCOC(=O)c1cc(F)c(C2(C(N)=O)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([C:12]#[N:13])[CH2:15][CH2:16]2)[c:17]([F:18])[c:19]1[F:20].O[OH:14]>[Na+].[OH-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([C:12]([NH2:13])=[O:14])[CH2:15][CH2:16]2)[c:17]([F:18])[c:19]1[F:20]",
+      "mapping_confidence": 0.5542757330381382,
+      "conditions": {
+        "raw_description": "H2O2; NaOH; 81% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2O2",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_6",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(C2(C(N)=O)CC2)c(F)c1F.[Na+].[O-]Cl.[Na+].[OH-].O>>CCOC(=O)c1cc(F)c(C2(N)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "O=C([C:11]1([c:10]2[c:8]([F:9])[cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:17]([F:18])[c:15]2[F:16])[CH2:13][CH2:14]1)[NH2:12]>O.[Na+].[Na+].[O-]Cl.[OH-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([NH2:12])[CH2:13][CH2:14]2)[c:15]([F:16])[c:17]1[F:18]",
+      "mapping_confidence": 0.9184250284153385,
+      "conditions": {
+        "raw_description": "NaOCl; NaOH; H2O; 96%; Hoffman rearrangement",
+        "GENERAL_REAGENTS": [
+          "NaOCl",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl.[Na+]",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_7",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(C2(N)CC2)c(F)c1F.[Na+].[OH-].CC(=O)OC(C)=O>>CCOC(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "CC(=O)O[C:13]([CH3:14])=[O:15].[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([NH2:12])[CH2:16][CH2:17]2)[c:18]([F:19])[c:20]1[F:21]>[Na+].[OH-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([F:9])[c:10]([C:11]2([NH:12][C:13]([CH3:14])=[O:15])[CH2:16][CH2:17]2)[c:18]([F:19])[c:20]1[F:21]",
+      "mapping_confidence": 0.5465268192721285,
+      "conditions": {
+        "raw_description": "Ac2O; NaOH; 97%",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_8",
+      "reaction_smiles": "CCOC(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F.c1c[nH]cn1.O=S(Cl)Cl.CCN(CC)CC>>CC(=O)NC1(c2c(F)cc(C(=O)n3ccnc3)c(F)c2F)CC1",
+      "reaction_smiles_mapped": "CCO[C:11]([c:10]1[cH:9][c:7]([F:8])[c:6]([C:5]2([NH:4][C:2]([CH3:1])=[O:3])[CH2:22][CH2:23]2)[c:20]([F:21])[c:18]1[F:19])=[O:12].[nH:13]1[cH:14][cH:15][n:16][cH:17]1>CCN(CC)CC.O=S(Cl)Cl>[CH3:1][C:2](=[O:3])[NH:4][C:5]1([c:6]2[c:7]([F:8])[cH:9][c:10]([C:11](=[O:12])[n:13]3[cH:14][cH:15][n:16][cH:17]3)[c:18]([F:19])[c:20]2[F:21])[CH2:22][CH2:23]1",
+      "mapping_confidence": 0.8176923356397923,
+      "conditions": {
+        "raw_description": "SOCl2; TEA",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_9",
+      "reaction_smiles": "CC(=O)NC1(c2c(F)cc(C(=O)n3ccnc3)c(F)c2F)CC1.CCOC(=O)CC(=O)[O-].[Cl-].[Cl-].[Mg+2].CN(C)C=O.CCN(CC)CC>>CCOC(=O)CC(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "c1cn([C:7](=[O:8])[c:9]2[cH:10][c:11]([F:12])[c:13]([C:14]3([NH:15][C:16]([CH3:17])=[O:18])[CH2:19][CH2:20]3)[c:21]([F:22])[c:23]2[F:24])cn1.O=C([O-])[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>CCN(CC)CC.CN(C)C=O.[Cl-].[Cl-].[Mg+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[c:9]1[cH:10][c:11]([F:12])[c:13]([C:14]2([NH:15][C:16]([CH3:17])=[O:18])[CH2:19][CH2:20]2)[c:21]([F:22])[c:23]1[F:24]",
+      "mapping_confidence": 0.7487780624262761,
+      "conditions": {
+        "raw_description": "MgCl2; TEA; DMF",
+        "GENERAL_REAGENTS": [
+          "MgCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].[Cl-].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_10",
+      "reaction_smiles": "CCOC(=O)CC(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F.COC(OC)N(C)C.C[C@H](N)CO.CC(=O)OC(C)=O.ClCCl.CCO>>CCOC(=O)C(=CN[C@@H](C)CO)C(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:13](=[O:14])[c:15]1[cH:16][c:17]([F:18])[c:19]([C:20]2([NH:21][C:22]([CH3:23])=[O:24])[CH2:25][CH2:26]2)[c:27]([F:28])[c:29]1[F:30].CO[CH:7](OC)N(C)C.[NH2:8][C@@H:9]([CH3:10])[CH2:11][OH:12]>CC(=O)OC(C)=O.CCO.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[CH:7][NH:8][C@@H:9]([CH3:10])[CH2:11][OH:12])[C:13](=[O:14])[c:15]1[cH:16][c:17]([F:18])[c:19]([C:20]2([NH:21][C:22]([CH3:23])=[O:24])[CH2:25][CH2:26]2)[c:27]([F:28])[c:29]1[F:30]",
+      "mapping_confidence": 0.6024997487911138,
+      "conditions": {
+        "raw_description": "1) 1; Ac2O; DCM; 2) 2; EtOH",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_11",
+      "reaction_smiles": "CCOC(=O)C(=CN[C@@H](C)CO)C(=O)c1cc(F)c(C2(NC(C)=O)CC2)c(F)c1F.O=C([O-])[O-].[K+].[K+].CS(C)=O>>CCOC(=O)c1cn2c3c(c(C4(NC(C)=O)CC4)c(F)cc3c1=O)OC[C@@H]2C",
+      "reaction_smiles_mapped": "F[c:9]1[c:10](F)[c:11]([C:12]2([NH:13][C:14]([CH3:15])=[O:16])[CH2:17][CH2:18]2)[c:19]([F:20])[cH:21][c:22]1[C:23]([C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])=[CH:7][NH:8][C@H:27]([CH2:26][OH:25])[CH3:28])=[O:24]>CS(C)=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][n:8]2[c:9]3[c:10]([c:11]([C:12]4([NH:13][C:14]([CH3:15])=[O:16])[CH2:17][CH2:18]4)[c:19]([F:20])[cH:21][c:22]3[c:23]1=[O:24])[O:25][CH2:26][C@@H:27]2[CH3:28]",
+      "mapping_confidence": 0.9004284802169275,
+      "conditions": {
+        "raw_description": "K2CO3; DMSO; 100 \u00b0C; 80% (5 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "80% (5 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_12",
+      "reaction_smiles": "CCOC(=O)c1cn2c3c(c(C4(NC(C)=O)CC4)c(F)cc3c1=O)OC[C@@H]2C.[Na+].[OH-].CCO.O>>CC(=O)NC1(c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2OC[C@@H]4C)CC1",
+      "reaction_smiles_mapped": "CC[O:16][C:14]([c:13]1[c:11](=[O:12])[c:10]2[cH:9][c:7]([F:8])[c:6]([C:5]3([NH:4][C:2]([CH3:1])=[O:3])[CH2:25][CH2:26]3)[c:20]3[c:19]2[n:18]([cH:17]1)[C@@H:23]([CH3:24])[CH2:22][O:21]3)=[O:15]>CCO.O.[Na+].[OH-]>[CH3:1][C:2](=[O:3])[NH:4][C:5]1([c:6]2[c:7]([F:8])[cH:9][c:10]3[c:11](=[O:12])[c:13]([C:14](=[O:15])[OH:16])[cH:17][n:18]4[c:19]3[c:20]2[O:21][CH2:22][C@@H:23]4[CH3:24])[CH2:25][CH2:26]1",
+      "mapping_confidence": 0.8562240653556937,
+      "conditions": {
+        "raw_description": "NaOH; EtOH; H2O; 98%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_13",
+      "reaction_smiles": "CC(=O)NC1(c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2OC[C@@H]4C)CC1.Cl.O>>C[C@H]1COc2c(C3(N)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+      "reaction_smiles_mapped": "CC(=O)[NH:8][C:7]1([c:6]2[c:5]3[c:23]4[c:14]([cH:13][c:11]2[F:12])[c:15](=[O:16])[c:17]([C:18](=[O:19])[OH:20])[cH:21][n:22]4[C@@H:2]([CH3:1])[CH2:3][O:4]3)[CH2:9][CH2:10]1>Cl.O>[CH3:1][C@H:2]1[CH2:3][O:4][c:5]2[c:6]([C:7]3([NH2:8])[CH2:9][CH2:10]3)[c:11]([F:12])[cH:13][c:14]3[c:15](=[O:16])[c:17]([C:18](=[O:19])[OH:20])[cH:21][n:22]1[c:23]23",
+      "mapping_confidence": 0.794044504441219,
+      "conditions": {
+        "raw_description": "HCl; H2O; 90%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazucross_2004_Mitsubishi_14",
+      "reaction_smiles": "C[C@H]1COc2c(C3(N)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23.CS(=O)(=O)O.CCO>>C[C@H]1COc2c(C3(N)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][O:4][c:5]2[c:6]([C:7]3([NH2:8])[CH2:9][CH2:10]3)[c:11]([F:12])[cH:13][c:14]3[c:15](=[O:16])[c:17]([C:18](=[O:19])[OH:20])[cH:21][n:22]1[c:23]23>CCO.CS(=O)(=O)O>[CH3:1][C@H:2]1[CH2:3][O:4][c:5]2[c:6]([C:7]3([NH2:8])[CH2:9][CH2:10]3)[c:11]([F:12])[cH:13][c:14]3[c:15](=[O:16])[c:17]([C:18](=[O:19])[OH:20])[cH:21][n:22]1[c:23]23",
+      "mapping_confidence": 0.9028589163371207,
+      "conditions": {
+        "raw_description": "CH3SO3H; EtOH; 94%",
+        "GENERAL_REAGENTS": [
+          "CH3SO3H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    }
+  ]
+}

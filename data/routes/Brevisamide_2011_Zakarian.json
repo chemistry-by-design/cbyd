@@ -1,0 +1,560 @@
+{
+  "background": {
+    "name": "(+)-Brevisamide",
+    "author": "Zakarian",
+    "year": 2011,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2011, 13, 3636",
+    "doi": "10.1021/ol201283n"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_1",
+      "reaction_smiles": "CCOC(=O)CCc1ccco1.[AlH4-].[Li+].CCOCC>>OCCCc1ccco1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[CH2:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][o:9]1>[AlH4-].[Li+].CCOCC>[OH:1][CH2:2][CH2:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][o:9]1",
+      "mapping_confidence": 0.9719383490707169,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 89%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_2",
+      "reaction_smiles": "OCCCc1ccco1.O=C(Cl)C(=O)Cl.CS(C)=O.ClCCl.CCN(CC)CC>>O=CCCc1ccco1",
+      "reaction_smiles_mapped": "[OH:1][CH2:2][CH2:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][o:9]1>O=C(Cl)C(=O)Cl.CS(C)=O.ClCCl.CCN(CC)CC>[O:1]=[CH:2][CH2:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][o:9]1",
+      "mapping_confidence": 0.9640094459127863,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; NEt3; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2",
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_3",
+      "reaction_smiles": "O=CCCc1ccco1.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>BrC(Br)=CCCc1ccco1",
+      "reaction_smiles_mapped": "Br[C:2](Br)([Br:1])[Br:3].O=[CH:4][CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][o:11]1>c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[Br:1][C:2]([Br:3])=[CH:4][CH2:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][o:11]1",
+      "mapping_confidence": 0.04863202488251083,
+      "conditions": {
+        "raw_description": "CBr4; PPh3; CH2Cl2; 0 \u00b0C; 87%; 2 steps",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "87% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_4",
+      "reaction_smiles": "BrC(Br)=CCCc1ccco1.[Li]CCCC.CI.C1CCOC1.CN1CCCN(C)C1=O>>CC#CCCc1ccco1",
+      "reaction_smiles_mapped": "Br[C:2](Br)=[CH:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][cH:9][o:10]1.I[CH3:1]>[Li]CCCC.C1CCOC1.CN1CCCN(C)C1=O>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][cH:9][o:10]1",
+      "mapping_confidence": 0.9304800307934229,
+      "conditions": {
+        "raw_description": "n-BuLi; DMPU; MeI; THF; -78  \u00b0C to 0  \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMPU"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN1CCCN(C1=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_5",
+      "reaction_smiles": "CC#CCCc1ccco1.O=P(Cl)(Cl)Cl.CN(C)C=O>>CC#CCCc1ccc(C=O)o1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][cH:9][o:12]1.CN(C)[CH:10]=[O:11]>O=P(Cl)(Cl)Cl>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([CH:10]=[O:11])[o:12]1",
+      "mapping_confidence": 0.9539256037258623,
+      "conditions": {
+        "raw_description": "POCl3; DMF; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_6",
+      "reaction_smiles": "CC#CCCc1ccc(C=O)o1.Cc1ccc(S(=O)(=O)N[C@@H](CN[C@@H](c2ccccc2)[C@@H](NC[C@H](NS(=O)(=O)c2ccc(C)cc2)c2ccccc2)c2ccccc2)c2ccccc2)cc1.CC(=O)[O-].CC(=O)[O-].[Cu+2].C[N+](=O)[O-].CCO>>CC#CCCc1ccc([C@@H](O)C[N+](=O)[O-])o1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([CH:10]=[O:11])[o:16]1.[CH3:12][N+:13](=[O:14])[O-:15]>Cc1ccc(S(=O)(=O)N[C@@H](CN[C@@H](c2ccccc2)[C@@H](NC[C@H](NS(=O)(=O)c2ccc(C)cc2)c2ccccc2)c2ccccc2)c2ccccc2)cc1.CC(=O)[O-].CC(=O)[O-].[Cu+2].CCO>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([C@@H:10]([OH:11])[CH2:12][N+:13](=[O:14])[O-:15])[o:16]1",
+      "mapping_confidence": 0.9237543320537663,
+      "conditions": {
+        "raw_description": "Cu(OAc)2; MeNO2; EtOH; rt; 57%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Cu(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeNO2",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](=O)[O-]",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_7",
+      "reaction_smiles": "CC#CCCc1ccc([C@@H](O)C[N+](=O)[O-])o1.[AlH4-].[Li+].C1CCOC1>>CC#CCCc1ccc([C@@H](O)CN)o1",
+      "reaction_smiles_mapped": "O=[N+:13]([O-])[CH2:12][C@@H:10]([c:9]1[cH:8][cH:7][c:6]([CH2:5][CH2:4][C:3]#[C:2][CH3:1])[o:14]1)[OH:11]>[AlH4-].[Li+].C1CCOC1>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([C@@H:10]([OH:11])[CH2:12][NH2:13])[o:14]1",
+      "mapping_confidence": 0.9971844374316077,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; -15  \u00b0C to reflux",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-15",
+          "100"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_8",
+      "reaction_smiles": "CC#CCCc1ccc([C@@H](O)CN)o1.CC(=O)OC(C)=O.CCOC(C)=O.CO>>CC#CCCc1ccc([C@@H](O)CNC(C)=O)o1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([C@@H:10]([OH:11])[CH2:12][NH2:13])[o:17]1.CC(=O)O[C:14]([CH3:15])=[O:16]>CCOC(C)=O.CO>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[cH:7][cH:8][c:9]([C@@H:10]([OH:11])[CH2:12][NH:13][C:14]([CH3:15])=[O:16])[o:17]1",
+      "mapping_confidence": 0.7076837464879149,
+      "conditions": {
+        "raw_description": "Ac2O; EtOAc:MeOH (4:1); rt; 67%; 2 steps",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "67% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_9",
+      "reaction_smiles": "CC#CCCc1ccc([C@@H](O)CNC(C)=O)o1.O=C1CCC(=O)N1Br.O=C([O-])O.[Na+].CC(=O)[O-].[Na+].C1CCOC1.O>>CC#CCC[C@]1(O)C=CC(=O)[C@H](CNC(C)=O)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][c:6]1[o:7][c:10]([C@H:12]([CH2:13][NH:14][C:15]([CH3:16])=[O:17])[OH:18])[cH:9][cH:8]1.O=C1CCC(=[O:11])N1Br>O=C([O-])O.[Na+].[Na+].CC(=O)[O-].C1CCOC1.O>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@:6]1([OH:7])[CH:8]=[CH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15]([CH3:16])=[O:17])[O:18]1",
+      "mapping_confidence": 0.3988106888679757,
+      "conditions": {
+        "raw_description": "NBS; NaHCO3; NaOAc; THF:H2O (10:1); 0  \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "NaHCO3",
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "C(=O)(O)[O-].[Na+]",
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_10",
+      "reaction_smiles": "CC#CCC[C@]1(O)C=CC(=O)[C@H](CNC(C)=O)O1.CC[SiH](CC)CC.CC[O+](CC)[B-](F)(F)F.ClCCl>>CC#CCC[C@@H]1C=CC(=O)[C@H](CNC(C)=O)O1",
+      "reaction_smiles_mapped": "O[C@@:6]1([CH2:5][CH2:4][C:3]#[C:2][CH3:1])[CH:7]=[CH:8][C:9](=[O:10])[C@H:11]([CH2:12][NH:13][C:14]([CH3:15])=[O:16])[O:17]1>CC[SiH](CC)CC.CC[O+](CC)[B-](F)(F)F.ClCCl>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@@H:6]1[CH:7]=[CH:8][C:9](=[O:10])[C@H:11]([CH2:12][NH:13][C:14]([CH3:15])=[O:16])[O:17]1",
+      "mapping_confidence": 0.9903057433447747,
+      "conditions": {
+        "raw_description": "Et3SH; BF3\u00b7OEt2; CH2Cl2; 0  \u00b0C; 54%; 2 steps",
+        "GENERAL_REAGENTS": [
+          "Et3SH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC"
+        ],
+        "CATALYSTS": [
+          "BF3\u00b7OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "54% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_11",
+      "reaction_smiles": "CC#CCC[C@@H]1C=CC(=O)[C@H](CNC(C)=O)O1.C[Cu-]C.[Li+].CCOCC>>CC#CCC[C@H]1O[C@@H](CNC(C)=O)C(=O)C[C@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@H:6]1[O:7][C@@H:8]([CH2:9][NH:10][C:11]([CH3:12])=[O:13])[C:14](=[O:15])[CH:16]=[CH:17]1.C[Cu-][CH3:18]>[Li+].CCOCC>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@H:6]1[O:7][C@@H:8]([CH2:9][NH:10][C:11]([CH3:12])=[O:13])[C:14](=[O:15])[CH2:16][C@H:17]1[CH3:18]",
+      "mapping_confidence": 0.6586608619648457,
+      "conditions": {
+        "raw_description": "Me2CuLi; Et2O; -60 \u00b0C; 81%; 8:1 d.r.",
+        "GENERAL_REAGENTS": [
+          "Me2CuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)(C)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-60"
+        ],
+        "YIELD": [
+          "81% (dr=8:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_12",
+      "reaction_smiles": "CC#CCC[C@H]1O[C@@H](CNC(C)=O)C(=O)C[C@H]1C.[BH4-].[Na+].C1CCOC1.O>>CC#CCC[C@H]1O[C@@H](CNC(C)=O)[C@H](O)C[C@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@H:6]1[O:7][C@@H:8]([CH2:9][NH:10][C:11]([CH3:12])=[O:13])[C:14](=[O:15])[CH2:16][C@H:17]1[CH3:18]>[BH4-].[Na+].C1CCOC1.O>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][C@H:6]1[O:7][C@@H:8]([CH2:9][NH:10][C:11]([CH3:12])=[O:13])[C@H:14]([OH:15])[CH2:16][C@H:17]1[CH3:18]",
+      "mapping_confidence": 0.9919085415688207,
+      "conditions": {
+        "raw_description": "NaBH4; THF:H2O (10:1); rt; 85%; 1:1 d.r.",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85% (dr=1:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_13",
+      "reaction_smiles": "CC#CCC[C@H]1O[C@@H](CNC(C)=O)[C@H](O)C[C@H]1C.C[Si](C)([Cu-][Si](C)(C)c1ccccc1)c1ccccc1.[Li+].C1CCOC1.CCOCC>>CC(=O)NC[C@@H]1O[C@H](CC/C=C(\\C)[Si](C)(C)c2ccccc2)[C@H](C)C[C@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10][C:11]#[C:12][CH3:13])[C@H:23]([CH3:24])[CH2:25][C@H:26]1[OH:27].C[Si](C)([Cu-][Si:14]([CH3:15])([CH3:16])[c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)c1ccccc1>[Li+].C1CCOC1.CCOCC>[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10]/[CH:11]=[C:12](\\[CH3:13])[Si:14]([CH3:15])([CH3:16])[c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[C@H:23]([CH3:24])[CH2:25][C@H:26]1[OH:27]",
+      "mapping_confidence": 0.3819800464252327,
+      "conditions": {
+        "raw_description": "1) (PhMe2Si)2Cu(CN)Li2; THF; 0  \u00b0C; 2) alkyne; Et2O; -78  \u00b0C; 92%; 13:1 d.r.",
+        "GENERAL_REAGENTS": [
+          "(PhMe2Si)2Cu(CN)Li2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C1=CC=CC=C1)[Cu-][Si](C)(C2=CC=CC=C2)C.[Li+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "-78"
+        ],
+        "YIELD": [
+          "92% (dr=13:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_14",
+      "reaction_smiles": "CC(=O)NC[C@@H]1O[C@H](CC/C=C(\\C)[Si](C)(C)c2ccccc2)[C@H](C)C[C@H]1O.O=C1CCC(=O)N1I.OC(C(F)(F)F)C(F)(F)F>>CC(=O)NC[C@@H]1O[C@H](CC/C=C(\\C)I)[C@H](C)C[C@H]1O",
+      "reaction_smiles_mapped": "C[Si](C)(c1ccccc1)/[C:12](=[CH:11]/[CH2:10][CH2:9][C@H:8]1[O:7][C@@H:6]([CH2:5][NH:4][C:2]([CH3:1])=[O:3])[C@H:18]([OH:19])[CH2:17][C@H:15]1[CH3:16])[CH3:13].O=C1CCC(=O)N1[I:14]>OC(C(F)(F)F)C(F)(F)F>[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10]/[CH:11]=[C:12](\\[CH3:13])[I:14])[C@H:15]([CH3:16])[CH2:17][C@H:18]1[OH:19]",
+      "mapping_confidence": 0.9935549875826593,
+      "conditions": {
+        "raw_description": "NIS; HFIP; 0 \u00b0C; 81%; 13:1 d.r.",
+        "GENERAL_REAGENTS": [
+          "NIS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HFIP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(C(F)(F)F)(C(F)(F)F)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "81% (dr=13:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_15",
+      "reaction_smiles": "CC(=O)NC[C@@H]1O[C@H](CC/C=C(\\C)I)[C@H](C)C[C@H]1O.CCCC[Sn](CCCC)(CCCC)/C(C)=C/CO.CSC.c1ccc([As](c2ccccc2)c2ccccc2)cc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].CSC.[Cu]Br.C1CCOC1.CS(C)=O>>CC(=O)NC[C@@H]1O[C@H](CC/C=C(C)/C(C)=C/CO)[C@H](C)C[C@H]1O",
+      "reaction_smiles_mapped": "I/[C:12](=[CH:11]/[CH2:10][CH2:9][C@H:8]1[O:7][C@@H:6]([CH2:5][NH:4][C:2]([CH3:1])=[O:3])[C@H:22]([OH:23])[CH2:21][C@H:19]1[CH3:20])[CH3:13].CCCC[Sn](CCCC)(CCCC)/[C:14]([CH3:15])=[CH:16]/[CH2:17][OH:18]>C1CCOC1.CS(C)=O.CSC.CSC.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Cu]Br.[Pd].[Pd].c1ccc([As](c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10]/[CH:11]=[C:12]([CH3:13])/[C:14]([CH3:15])=[CH:16]/[CH2:17][OH:18])[C@H:19]([CH3:20])[CH2:21][C@H:22]1[OH:23]",
+      "mapping_confidence": 0.9282528026073958,
+      "conditions": {
+        "raw_description": "Pd2(dba)3; Ph3As; CuBr\u00b7DMS; THF:DMSO (1:1); rt; 78%",
+        "GENERAL_REAGENTS": [
+          "DMS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CSC"
+        ],
+        "CATALYSTS": [
+          "Ph3As",
+          "Pd2(dba)3",
+          "CuBr\u00b7DMS"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)[As](C2=CC=CC=C2)C3=CC=CC=C3",
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+          "[Cu]Br.CSC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brevisamide_2011_Zakarian_16",
+      "reaction_smiles": "CC(=O)NC[C@@H]1O[C@H](CC/C=C(C)/C(C)=C/CO)[C@H](C)C[C@H]1O.CC1(C)CCCC(C)(C)N1[O].CC(=O)OI(OC(C)=O)c1ccccc1.ClCCl>>CC(=O)NC[C@@H]1O[C@H](CC/C=C(C)/C(C)=C/C=O)[C@H](C)C[C@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10]/[CH:11]=[C:12]([CH3:13])/[C:14]([CH3:15])=[CH:16]/[CH2:17][OH:18])[C@H:19]([CH3:20])[CH2:21][C@H:22]1[OH:23]>CC1(C)CCCC(C)(C)N1[O].CC(=O)OI(OC(C)=O)c1ccccc1.ClCCl>[CH3:1][C:2](=[O:3])[NH:4][CH2:5][C@@H:6]1[O:7][C@H:8]([CH2:9][CH2:10]/[CH:11]=[C:12]([CH3:13])/[C:14]([CH3:15])=[CH:16]/[CH:17]=[O:18])[C@H:19]([CH3:20])[CH2:21][C@H:22]1[OH:23]",
+      "mapping_confidence": 0.975535171472278,
+      "conditions": {
+        "raw_description": "TEMPO; PhI(OAc)2; CH2Cl2; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "TEMPO",
+          "PhI(OAc)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(CCCC(N1[O])(C)C)C",
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    }
+  ]
+}

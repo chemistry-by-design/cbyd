@@ -1,0 +1,125 @@
+{
+  "background": {
+    "name": "Brexanolone",
+    "author": null,
+    "year": 2019,
+    "drug_name": "Zulresso",
+    "manufacturer": "Sage-Therapeutics",
+    "citation": "J. Med. Chem. 2021, 64, 3604",
+    "doi": "10.1021/acs.jmedchem.1c00208"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Brexanolone_2019_Sage-Therapeutics_1",
+      "reaction_smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C.[Pd].CCO.[HH].[C].[Pd]>>CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[C@H:4]1[CH2:5][CH2:6][C@H:7]2[C@@H:8]3[CH2:9][CH:10]=[C:11]4[CH2:12][C@@H:13]([OH:14])[CH2:15][CH2:16][C@:17]4([CH3:18])[C@H:19]3[CH2:20][CH2:21][C@:22]12[CH3:23]>CCO.[C].[HH].[Pd].[Pd]>[CH3:1][C:2](=[O:3])[C@H:4]1[CH2:5][CH2:6][C@H:7]2[C@@H:8]3[CH2:9][CH2:10][C@H:11]4[CH2:12][C@@H:13]([OH:14])[CH2:15][CH2:16][C@:17]4([CH3:18])[C@H:19]3[CH2:20][CH2:21][C@:22]12[CH3:23]",
+      "mapping_confidence": 0.9800141544528435,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOH; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brexanolone_2019_Sage-Therapeutics_2",
+      "reaction_smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C.O=C([O-])c1ccccc1.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1.CC(C)O.O=C(O)C(F)(F)F>>CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@H](OC(=O)C(F)(F)F)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[C@H:4]1[CH2:5][CH2:6][C@H:7]2[C@@H:8]3[CH2:9][CH2:10][C@H:11]4[CH2:12][C@@H:13](O)[CH2:21][CH2:22][C@:23]4([CH3:24])[C@H:25]3[CH2:26][CH2:27][C@:28]12[CH3:29].[OH:14][C:15](=[O:16])[C:17]([F:18])([F:19])[F:20]>C1CCOC1.CC(C)O.O=C([O-])c1ccccc1.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2](=[O:3])[C@H:4]1[CH2:5][CH2:6][C@H:7]2[C@@H:8]3[CH2:9][CH2:10][C@H:11]4[CH2:12][C@H:13]([O:14][C:15](=[O:16])[C:17]([F:18])([F:19])[F:20])[CH2:21][CH2:22][C@:23]4([CH3:24])[C@H:25]3[CH2:26][CH2:27][C@:28]12[CH3:29]",
+      "mapping_confidence": 0.15913490496689287,
+      "conditions": {
+        "raw_description": "1) TFA; DEAD; PPh3; PhCO2Na; THF; 5 to 25 \u00b0C; 2) iPrOH; 38% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PhCO2Na",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].O=C([O-])c1ccccc1",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "25"
+        ],
+        "YIELD": [
+          "38% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brexanolone_2019_Sage-Therapeutics_3",
+      "reaction_smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@H](OC(=O)C(F)(F)F)CC[C@]4(C)[C@H]3CC[C@]12C.[Na+].[OH-].CO.CC#N.[Na+].[OH-]>>CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "O=C(C(F)(F)F)[O:14][C@H:13]1[CH2:12][C@@H:11]2[CH2:10][CH2:9][C@H:8]3[C@@H:7]4[CH2:6][CH2:5][C@H:4]([C:2]([CH3:1])=[O:3])[C@@:22]4([CH3:23])[CH2:21][CH2:20][C@@H:19]3[C@@:17]2([CH3:18])[CH2:16][CH2:15]1>CC#N.CO.[Na+].[Na+].[OH-].[OH-]>[CH3:1][C:2](=[O:3])[C@H:4]1[CH2:5][CH2:6][C@H:7]2[C@@H:8]3[CH2:9][CH2:10][C@H:11]4[CH2:12][C@H:13]([OH:14])[CH2:15][CH2:16][C@:17]4([CH3:18])[C@H:19]3[CH2:20][CH2:21][C@:22]12[CH3:23]",
+      "mapping_confidence": 0.9670324953167263,
+      "conditions": {
+        "raw_description": "1) NaOH; MeOH; 5 \u00b0C; 2) MeCN; 80 \u00b0C; 87% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "80"
+        ],
+        "YIELD": [
+          "87% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

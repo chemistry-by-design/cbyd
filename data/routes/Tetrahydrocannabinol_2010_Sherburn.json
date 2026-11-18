@@ -1,0 +1,296 @@
+{
+  "background": {
+    "name": "(-)-Tetrahydrocannabinol",
+    "author": "Sherburn",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Chem. Eur. J. 2010, 16, 8280",
+    "doi": "10.1002/chem.201001176"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_1",
+      "reaction_smiles": "CCCCCc1cc(O)cc(O)c1.COCCl.COCCl.[H-].[Na+].C1CCOC1>>CCCCCc1cc(OCOC)cc(OCOC)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([OH:9])[cH:13][c:14]([OH:15])[cH:19]1.Cl[CH2:16][O:17][CH3:18].Cl[CH2:10][O:11][CH3:12]>C1CCOC1.[H-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH2:10][O:11][CH3:12])[cH:13][c:14]([O:15][CH2:16][O:17][CH3:18])[cH:19]1",
+      "mapping_confidence": 0.31550339411382833,
+      "conditions": {
+        "raw_description": "MOMCl; NaH; THF",
+        "GENERAL_REAGENTS": [
+          "MOMCl",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COCCl",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_2",
+      "reaction_smiles": "CCCCCc1cc(OCOC)cc(OCOC)c1.[Li]CCCC.CN(C)C=O>>CCCCCc1cc(OCOC)c(C=O)c(OCOC)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH2:10][O:11][CH3:12])[cH:13][c:16]([O:17][CH2:18][O:19][CH3:20])[cH:21]1.CN(C)[CH:14]=[O:15]>[Li]CCCC>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH2:10][O:11][CH3:12])[c:13]([CH:14]=[O:15])[c:16]([O:17][CH2:18][O:19][CH3:20])[cH:21]1",
+      "mapping_confidence": 0.7896880348021024,
+      "conditions": {
+        "raw_description": "nBuLi; DMF; 83% yield (2 steps)",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_3",
+      "reaction_smiles": "CCCCCc1cc(O)c(C=O)c(OC)c1.C=C(C)C=P(c1ccccc1)(c1ccccc1)c1ccccc1>>C=C(C)/C=C/c1c(O)cc(CCCCC)cc1OC",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[CH:4][C:2](=[CH2:1])[CH3:3])cc1.O=[CH:5][c:6]1[c:7]([OH:8])[cH:9][c:10]([CH2:11][CH2:12][CH2:13][CH2:14][CH3:15])[cH:16][c:17]1[O:18][CH3:19]>>[CH2:1]=[C:2]([CH3:3])/[CH:4]=[CH:5]/[c:6]1[c:7]([OH:8])[cH:9][c:10]([CH2:11][CH2:12][CH2:13][CH2:14][CH3:15])[cH:16][c:17]1[O:18][CH3:19]",
+      "mapping_confidence": 0.8758647415306857,
+      "conditions": {
+        "raw_description": "85% yield",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_4",
+      "reaction_smiles": "C=C(C)/C=C/c1c(O)cc(CCCCC)cc1OC.C=CC(=O)Cl.C1=NCCCN2CCCCC12.ClCCl.C1CCC2=NCCCN2CC1>>C=CC(=O)Oc1cc(CCCCC)cc(OC)c1/C=C/C(=C)C",
+      "reaction_smiles_mapped": "[OH:5][c:6]1[cH:7][c:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH3:13])[cH:14][c:15]([O:16][CH3:17])[c:18]1/[CH:19]=[CH:20]/[C:21](=[CH2:22])[CH3:23].Cl[C:3]([CH:2]=[CH2:1])=[O:4]>C1=NCCCN2CCCCC12.ClCCl.C1CCC2=NCCCN2CC1>[CH2:1]=[CH:2][C:3](=[O:4])[O:5][c:6]1[cH:7][c:8]([CH2:9][CH2:10][CH2:11][CH2:12][CH3:13])[cH:14][c:15]([O:16][CH3:17])[c:18]1/[CH:19]=[CH:20]/[C:21](=[CH2:22])[CH3:23]",
+      "mapping_confidence": 0.9642281062219897,
+      "conditions": {
+        "raw_description": "DBU; DCM; 70% yield",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_5",
+      "reaction_smiles": "CCCCCc1cc(O)c(C=O)c(OCOC)c1.Cl.CI.O=C([O-])[O-].[Cs+].[Cs+]>>CCCCCc1cc(O)c(C=O)c(OC)c1",
+      "reaction_smiles_mapped": "CO[CH2:15][O:14][c:13]1[c:10]([CH:11]=[O:12])[c:8]([OH:9])[cH:7][c:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[cH:16]1>Cl.CI.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([OH:9])[c:10]([CH:11]=[O:12])[c:13]([O:14][CH3:15])[cH:16]1",
+      "mapping_confidence": 0.861588953011924,
+      "conditions": {
+        "raw_description": "MeI; Cs2CO3; HCl workup; 82% yield",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "Cs2CO3",
+          "HCl workup"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_6",
+      "reaction_smiles": "C=CC(=O)Oc1cc(CCCCC)cc(OC)c1/C=C/C(=C)C.ClCCl.c1ccc(-c2cccc(-c3ccccc3)c2O[Al](Oc2c(-c3ccccc3)cccc2-c2ccccc2)Oc2c(-c3ccccc3)cccc2-c2ccccc2)cc1>>CCCCCc1cc(OC)c2c(c1)OC(=O)[C@@H]1CCC(C)=C[C@@H]21",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH3:10])[c:11](/[CH:23]=[CH:22]/[C:20]([CH3:19])=[CH2:21])[c:12]([O:14][C:15](=[O:16])[CH:17]=[CH2:18])[cH:13]1>ClCCl.c1ccc(-c2cccc(-c3ccccc3)c2O[Al](Oc2c(-c3ccccc3)cccc2-c2ccccc2)Oc2c(-c3ccccc3)cccc2-c2ccccc2)cc1>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH3:10])[c:11]2[c:12]([cH:13]1)[O:14][C:15](=[O:16])[C@@H:17]1[CH2:18][CH2:19][C:20]([CH3:21])=[CH:22][C@@H:23]21",
+      "mapping_confidence": 0.5997745142526724,
+      "conditions": {
+        "raw_description": "ATPH; DCM; 8 h; -18 \u00b0C to 0 \u00b0C; 71% yield",
+        "GENERAL_REAGENTS": [
+          "ATPH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C2=C(C(=CC=C2)C3=CC=CC=C3)O[Al](OC4=C(C=CC=C4C5=CC=CC=C5)C6=CC=CC=C6)OC7=C(C=CC=C7C8=CC=CC=C8)C9=CC=CC=C9"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-18",
+          "0"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_7",
+      "reaction_smiles": "CCCCCc1cc(O)c([C@@H]2C=C(C)CC[C@H]2C(C)(C)O)c(OC)c1.O=S(=O)([O-])[O-].[Mg+2].Br[Zn]Br>>CCCCCc1cc(OC)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21",
+      "reaction_smiles_mapped": "O[C:15]([CH3:16])([CH3:17])[C@@H:18]1[CH2:19][CH2:20][C:21]([CH3:22])=[CH:23][C@H:24]1[c:11]1[c:8]([O:9][CH3:10])[cH:7][c:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[cH:13][c:12]1[OH:14]>O=S(=O)([O-])[O-].[Mg+2].Br[Zn]Br>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([O:9][CH3:10])[c:11]2[c:12]([cH:13]1)[O:14][C:15]([CH3:16])([CH3:17])[C@@H:18]1[CH2:19][CH2:20][C:21]([CH3:22])=[CH:23][C@@H:24]21",
+      "mapping_confidence": 0.453643332106446,
+      "conditions": {
+        "raw_description": "ZnBr2; MgSO4",
+        "GENERAL_REAGENTS": [
+          "MgSO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Mg+2]"
+        ],
+        "CATALYSTS": [
+          "ZnBr2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn](Br)Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_8",
+      "reaction_smiles": "CCCCCc1cc(OC)c2c(c1)OC(=O)[C@@H]1CCC(C)=C[C@@H]21.C[Mg]Cl.C[Mg]Cl.CCOCC>>CCCCCc1cc(O)c([C@@H]2C=C(C)CC[C@H]2C(C)(C)O)c(OC)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]2[c:10]([c:22]([O:23][CH3:24])[cH:25]1)[C@@H:11]1[CH:12]=[C:13]([CH3:14])[CH2:15][CH2:16][C@H:17]1[C:18](=[O:21])[O:9]2.Cl[Mg][CH3:20].Cl[Mg][CH3:19]>CCOCC>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([OH:9])[c:10]([C@@H:11]2[CH:12]=[C:13]([CH3:14])[CH2:15][CH2:16][C@H:17]2[C:18]([CH3:19])([CH3:20])[OH:21])[c:22]([O:23][CH3:24])[cH:25]1",
+      "mapping_confidence": 0.425285834711228,
+      "conditions": {
+        "raw_description": "MeMgCl; Et2O; 96% yield",
+        "GENERAL_REAGENTS": [
+          "MeMgCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_9",
+      "reaction_smiles": "CCCCCc1cc(OC)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21.CCS[Na].CC[S-].[Na+]>>CCCCCc1cc(O)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21",
+      "reaction_smiles_mapped": "C[O:9][c:8]1[cH:7][c:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[cH:12][c:11]2[c:10]1[C@H:23]1[C@H:17]([C:14]([CH3:15])([CH3:16])[O:13]2)[CH2:18][CH2:19][C:20]([CH3:21])=[CH:22]1>CCS[Na].CC[S-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([OH:9])[c:10]2[c:11]([cH:12]1)[O:13][C:14]([CH3:15])([CH3:16])[C@@H:17]1[CH2:18][CH2:19][C:20]([CH3:21])=[CH:22][C@@H:23]21",
+      "mapping_confidence": 0.7520418035911584,
+      "conditions": {
+        "raw_description": "NaSEt",
+        "GENERAL_REAGENTS": [
+          "NaSEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[S-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tetrahydrocannabinol_2010_Sherburn_10",
+      "reaction_smiles": "CCCCCc1cc(OCOC)c(C=O)c(OCOC)c1.Cl.C1CCOC1>>CCCCCc1cc(O)c(C=O)c(OCOC)c1",
+      "reaction_smiles_mapped": "COC[O:9][c:8]1[cH:7][c:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[cH:18][c:13]([O:14][CH2:15][O:16][CH3:17])[c:10]1[CH:11]=[O:12]>Cl.C1CCOC1>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][c:6]1[cH:7][c:8]([OH:9])[c:10]([CH:11]=[O:12])[c:13]([O:14][CH2:15][O:16][CH3:17])[cH:18]1",
+      "mapping_confidence": 0.9501828148864107,
+      "conditions": {
+        "raw_description": "0.7M HCl; THF; 85% yield",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    }
+  ]
+}

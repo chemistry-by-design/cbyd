@@ -1,0 +1,1780 @@
+{
+  "background": {
+    "name": "(-)-Enigmazole A",
+    "author": "Fuwa",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed.  2018, 57, 4805",
+    "doi": "10.1002/anie.201801561"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_1",
+      "reaction_smiles": "C#C[C@@H](C)O.C[Mg]Br.II.[Cu+].[I-].Cc1ccccc1.C1CCOC1>>C/C(=C/I)[C@@H](C)O",
+      "reaction_smiles_mapped": "[C:2](#[CH:3])[C@@H:5]([CH3:6])[OH:7].Br[Mg][CH3:1].I[I:4]>[Cu+].[I-].Cc1ccccc1.C1CCOC1>[CH3:1]/[C:2](=[CH:3]/[I:4])[C@@H:5]([CH3:6])[OH:7]",
+      "mapping_confidence": 0.46929936820051343,
+      "conditions": {
+        "raw_description": "1) MeMgBr; CuI; Toluene; -78 \u00b0C; 2) I2; THF; 74%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr",
+          "I2",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br",
+          "II",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_2",
+      "reaction_smiles": "C/C(=C/I)[C@@H](C)O.[H-].[Na+].c1c[nH]cn1.CI.C1CCOC1>>CO[C@H](C)/C(C)=C\\I",
+      "reaction_smiles_mapped": "[OH:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[I:8].I[CH3:1]>[H-].[Na+].c1c[nH]cn1.C1CCOC1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[I:8]",
+      "mapping_confidence": 0.9438731423750457,
+      "conditions": {
+        "raw_description": "1) NaH; imidazole; THF; 2) MeI; rt; 64%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "imidazole",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "C1=CN=CN1",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_3",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\I.c1ccc(-c2ccccc2P(C2CCCCC2)C2CCCCC2)cc1.CCOC(=O)c1cocn1.O=C([O-])[O-].[Cs+].[Cs+].CC(=O)[O-].CC(=O)[O-].[Pd+2].C1COCCO1>>CCOC(=O)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][o:8][cH:9][n:17]1.I/[CH:10]=[C:11](/[CH3:12])[C@@H:13]([CH3:14])[O:15][CH3:16]>c1ccc(-c2ccccc2P(C2CCCCC2)C2CCCCC2)cc1.O=C([O-])[O-].[Cs+].[Cs+].CC(=O)[O-].CC(=O)[O-].[Pd+2].C1COCCO1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][o:8][c:9](/[CH:10]=[C:11](/[CH3:12])[C@@H:13]([CH3:14])[O:15][CH3:16])[n:17]1",
+      "mapping_confidence": 0.9790935083994283,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; Cs2CO3; 1,4-dioxane; 110 \u00b0C; 74%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_4",
+      "reaction_smiles": "CCOC(=O)c1coc(/C=C(/C)[C@@H](C)OC)n1.CC(C)C[AlH]CC(C)C.ClCCl.Cc1ccccc1>>CO[C@H](C)/C(C)=C\\c1nc(C=O)co1",
+      "reaction_smiles_mapped": "CCO[C:11]([c:10]1[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:14][cH:13]1)=[O:12]>CC(C)C[AlH]CC(C)C.ClCCl.Cc1ccccc1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([CH:11]=[O:12])[cH:13][o:14]1",
+      "mapping_confidence": 0.9846628801677232,
+      "conditions": {
+        "raw_description": "DIBAL; DCM; Toluene; -90 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-90"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_5",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc(C=O)co1.C=CC[Sn](CCCC)(CCCC)CCCC.Oc1ccc2ccccc2c1-c1c(O)ccc2ccccc12.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].ClCCl>>C=CC[C@H](O)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "reaction_smiles_mapped": "CCCC[Sn](CCCC)(CCCC)[CH2:1][CH:2]=[CH2:3].[CH:4](=[O:5])[c:6]1[cH:7][o:8][c:9](/[CH:10]=[C:11](/[CH3:12])[C@@H:13]([CH3:14])[O:15][CH3:16])[n:17]1>Oc1ccc2ccccc2c1-c1c(O)ccc2ccccc12.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].ClCCl>[CH2:1]=[CH:2][CH2:3][C@H:4]([OH:5])[c:6]1[cH:7][o:8][c:9](/[CH:10]=[C:11](/[CH3:12])[C@@H:13]([CH3:14])[O:15][CH3:16])[n:17]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Ti(OiPr)4; (S)-BINOL; 4\u00c5 MS; DCM; -20 \u00b0C; 98%; Keck Allylation",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "(S)-BINOL",
+          "Ti(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C2C(=C1)C=CC(=C2C3=C(C=CC4=CC=CC=C43)O)O",
+          "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_6",
+      "reaction_smiles": "C=CC[C@H](O)c1coc(/C=C(/C)[C@@H](C)OC)n1.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>C=CC[C@H](O[Si](C)(C)C(C)(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@H:4]([OH:5])[c:13]1[cH:14][o:15][c:16](/[CH:17]=[C:18](/[CH3:19])[C@@H:20]([CH3:21])[O:22][CH3:23])[n:24]1.Cl[Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12]>c1c[nH]cn1.CN(C)C=O>[CH2:1]=[CH:2][CH2:3][C@H:4]([O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12])[c:13]1[cH:14][o:15][c:16](/[CH:17]=[C:18](/[CH3:19])[C@@H:20]([CH3:21])[O:22][CH3:23])[n:24]1",
+      "mapping_confidence": 0.27327463887393355,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMF; 0 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_7",
+      "reaction_smiles": "C=CC[C@H](O[Si](C)(C)C(C)(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1.C[N+]1([O-])CCOCC1.O=[Os](=O)(=O)=O.C1CCOC1.O>>CO[C@H](C)/C(C)=C\\c1nc([C@H](CC(O)CO)O[Si](C)(C)C(C)(C)C)co1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][CH:13]=[CH2:15])[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[cH:25][o:26]1.C[N+]1([O-:14])CCOCC1.[OH2:16]>C1CCOC1.O=[Os](=O)(=O)=O>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][CH:13]([OH:14])[CH2:15][OH:16])[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[cH:25][o:26]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4; NMO; THF/H2O; rt",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_8",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@H](CC(O)CO)O[Si](C)(C)C(C)(C)C)co1.[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1.O>>CO[C@H](C)/C(C)=C\\c1nc([C@H](CC=O)O[Si](C)(C)C(C)(C)C)co1",
+      "reaction_smiles_mapped": "OC[CH:13]([CH2:12][C@@H:11]([c:10]1[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:24][cH:23]1)[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[OH:14]>[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1.O>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][CH:13]=[O:14])[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[cH:23][o:24]1",
+      "mapping_confidence": 0.2982910071170147,
+      "conditions": {
+        "raw_description": "NaIO4; THF/H2O; rt; 90% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_9",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@H](CC=O)O[Si](C)(C)C(C)(C)C)co1.BrC(Br)(Br)Br.CCN(CC)CC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CO[C@H](C)/C(C)=C\\c1nc([C@H](CC=C(Br)Br)O[Si](C)(C)C(C)(C)C)co1",
+      "reaction_smiles_mapped": "Br[C:14](Br)([Br:15])[Br:16].O=[CH:13][CH2:12][C@@H:11]([c:10]1[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:26][cH:25]1)[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24]>CCN(CC)CC.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][CH:13]=[C:14]([Br:15])[Br:16])[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[cH:25][o:26]1",
+      "mapping_confidence": 0.024805117510953843,
+      "conditions": {
+        "raw_description": "CBr4; Ph3P; Et3N; DCM; 0 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "CBr4",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_10",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@H](CC=C(Br)Br)O[Si](C)(C)C(C)(C)C)co1.[Li]CCCC.C1CCOC1>>C#CC[C@H](O[Si](C)(C)C(C)(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1",
+      "reaction_smiles_mapped": "Br[C:1](Br)=[CH:2][CH2:3][C@H:4]([O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12])[c:13]1[cH:14][o:15][c:16](/[CH:17]=[C:18](/[CH3:19])[C@@H:20]([CH3:21])[O:22][CH3:23])[n:24]1>[Li]CCCC.C1CCOC1>[CH:1]#[C:2][CH2:3][C@H:4]([O:5][Si:6]([CH3:7])([CH3:8])[C:9]([CH3:10])([CH3:11])[CH3:12])[c:13]1[cH:14][o:15][c:16](/[CH:17]=[C:18](/[CH3:19])[C@@H:20]([CH3:21])[O:22][CH3:23])[n:24]1",
+      "mapping_confidence": 0.2804403474330476,
+      "conditions": {
+        "raw_description": "nBuLi; THF; -78 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_11",
+      "reaction_smiles": "C#CC[C@H](O[Si](C)(C)C(C)(C)C)c1coc(/C=C(/C)[C@@H](C)OC)n1.CC=O.[Li]CCCC.C1CCOC1>>CO[C@H](C)/C(C)=C\\c1nc([C@H](CC#CC(C)O)O[Si](C)(C)C(C)(C)C)co1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][C:13]#[CH:14])[O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25])[cH:26][o:27]1.[CH:15]([CH3:16])=[O:17]>[Li]CCCC.C1CCOC1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][C:13]#[C:14][CH:15]([CH3:16])[OH:17])[O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25])[cH:26][o:27]1",
+      "mapping_confidence": 0.4076120295549709,
+      "conditions": {
+        "raw_description": "nBuLi; CH3CHO; THF; -78 \u00b0C; 67%",
+        "GENERAL_REAGENTS": [
+          "CH3CHO",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC=O",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_12",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@H](CC#CC(C)O)O[Si](C)(C)C(C)(C)C)co1.O=C(Cl)c1ccccc1.CN(C)c1ccncc1.ClCCl.c1ccncc1>>CO[C@H](C)/C(C)=C\\c1nc([C@H](CC#CC(C)OC(=O)c2ccccc2)O[Si](C)(C)C(C)(C)C)co1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][C:13]#[C:14][CH:15]([CH3:16])[OH:17])[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[cH:34][o:35]1.Cl[C:18](=[O:19])[c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1>CN(C)c1ccncc1.ClCCl.c1ccncc1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@H:11]([CH2:12][C:13]#[C:14][CH:15]([CH3:16])[O:17][C:18](=[O:19])[c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[cH:34][o:35]1",
+      "mapping_confidence": 0.2297588937504548,
+      "conditions": {
+        "raw_description": "BzCi; py; DMAP; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "BzCi",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_13",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@H](CC#CC(C)OC(=O)c2ccccc2)O[Si](C)(C)C(C)(C)C)co1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>>CO[C@H](C)/C(C)=C\\c1nc([C@@H](O)CC#CC(C)OC(=O)c2ccccc2)co1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:12][C@H:11]([c:10]1[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:28][cH:27]1)[CH2:13][C:14]#[C:15][CH:16]([CH3:17])[O:18][C:19](=[O:20])[c:21]1[cH:22][cH:23][cH:24][cH:25][cH:26]1>CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]([OH:12])[CH2:13][C:14]#[C:15][CH:16]([CH3:17])[O:18][C:19](=[O:20])[c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[cH:27][o:28]1",
+      "mapping_confidence": 0.8255892911300247,
+      "conditions": {
+        "raw_description": "TBAF; AcOH; THF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_14",
+      "reaction_smiles": "O=C(O)C[C@@H](O)C(=O)O.CO.CO.O=S(=O)(O)O>>COC(=O)C[C@@H](O)C(=O)OC",
+      "reaction_smiles_mapped": "[OH:2][CH3:1].[OH:10][CH3:11].O[C:3](=[O:4])[CH2:5][C@@H:6]([OH:7])[C:8](=[O:9])O>O=S(=O)(O)O>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]([OH:7])[C:8](=[O:9])[O:10][CH3:11]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "H2SO4; MeOH; 83%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_15",
+      "reaction_smiles": "COC(=O)C[C@@H](O)C(=O)OC.B.CSC.[BH4-].[Na+].C1CCOC1>>COC(=O)C[C@@H](O)CO",
+      "reaction_smiles_mapped": "CO[C:8]([C@@H:6]([CH2:5][C:3]([O:2][CH3:1])=[O:4])[OH:7])=[O:9]>B.CSC.[BH4-].[Na+].C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]([OH:7])[CH2:8][OH:9]",
+      "mapping_confidence": 0.8286210689350956,
+      "conditions": {
+        "raw_description": "BH3.DMS; NaBH4; THF; 86%",
+        "GENERAL_REAGENTS": [
+          "BH3.DMS",
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B.CSC",
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_16",
+      "reaction_smiles": "COC(=O)C[C@@H](O)CO.C=C(C)OC.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>>COC(=O)C[C@@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "CO[C:9]([CH3:10])=[CH2:11].[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@H:6]([CH2:7][OH:8])[OH:12]>Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[CH2:7][O:8][C:9]([CH3:10])([CH3:11])[O:12]1",
+      "mapping_confidence": 0.6604291044541183,
+      "conditions": {
+        "raw_description": "PPTS; DCM; 96%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_17",
+      "reaction_smiles": "COC(=O)C[C@@H]1COC(C)(C)O1.[Li+].[OH-].C1CCOC1>>CC1(C)OC[C@@H](CC(=O)O)O1",
+      "reaction_smiles_mapped": "CO[C:8]([CH2:7][C@@H:6]1[CH2:5][O:4][C:2]([CH3:1])([CH3:3])[O:11]1)=[O:9]>[Li+].[OH-].C1CCOC1>[CH3:1][C:2]1([CH3:3])[O:4][CH2:5][C@@H:6]([CH2:7][C:8](=[O:9])[OH:10])[O:11]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "LiOH; THF; 94%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_18",
+      "reaction_smiles": "CC1(C)OC[C@@H](CC(=O)O)O1.CNOC.Cl.O=C(n1ccnc1)n1ccnc1.CN(C)c1ccncc1.C1CCOC1>>CON(C)C(=O)C[C@@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "O[C:5](=[O:6])[CH2:7][C@@H:8]1[CH2:9][O:10][C:11]([CH3:12])([CH3:13])[O:14]1.[CH3:1][O:2][NH:3][CH3:4]>Cl.O=C(n1ccnc1)n1ccnc1.CN(C)c1ccncc1.C1CCOC1>[CH3:1][O:2][N:3]([CH3:4])[C:5](=[O:6])[CH2:7][C@@H:8]1[CH2:9][O:10][C:11]([CH3:12])([CH3:13])[O:14]1",
+      "mapping_confidence": 0.6189032803881394,
+      "conditions": {
+        "raw_description": "69%; DMAP; CDI; THF",
+        "GENERAL_REAGENTS": [
+          "CDI",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CN(C=N1)C(=O)N2C=CN=C2",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_19",
+      "reaction_smiles": "CON(C)C(=O)C[C@@H]1COC(C)(C)O1.C=CC[Mg]Br.C1CCOC1>>C=CCC(=O)C[C@@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "Br[Mg][CH2:3][CH:2]=[CH2:1].CON(C)[C:4](=[O:5])[CH2:6][C@@H:7]1[CH2:8][O:9][C:10]([CH3:11])([CH3:12])[O:13]1>C1CCOC1>[CH2:1]=[CH:2][CH2:3][C:4](=[O:5])[CH2:6][C@@H:7]1[CH2:8][O:9][C:10]([CH3:11])([CH3:12])[O:13]1",
+      "mapping_confidence": 0.6878246793617593,
+      "conditions": {
+        "raw_description": "THF; -78 \u00b0C; 98%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_20",
+      "reaction_smiles": "C=CCC(=O)C[C@@H]1COC(C)(C)O1.[AlH4-].[Li+].[Li]I.CCOCC>>C=CC[C@H](O)C[C@@H]1COC(C)(C)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4](=[O:5])[CH2:6][C@@H:7]1[CH2:8][O:9][C:10]([CH3:11])([CH3:12])[O:13]1>[AlH4-].[Li+].[Li]I.CCOCC>[CH2:1]=[CH:2][CH2:3][C@H:4]([OH:5])[CH2:6][C@@H:7]1[CH2:8][O:9][C:10]([CH3:11])([CH3:12])[O:13]1",
+      "mapping_confidence": 0.687875514293338,
+      "conditions": {
+        "raw_description": "LiAlH4; LiI; Et2O; -100 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4",
+          "LiI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]",
+          "I[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-100"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_21",
+      "reaction_smiles": "C=CC[C@H](O)C[C@@H]1COC(C)(C)O1.[H-].[Na+].COc1ccc(CCl)cc1.CCCC[N+](CCCC)(CCCC)CCCC.[I-].CN(C)C=O>>C=CC[C@@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]1[CH2:7][O:8][C:9]([CH3:10])([CH3:11])[O:12]1)[OH:13].Cl[CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1>[H-].[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[I-].CN(C)C=O>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]1[CH2:7][O:8][C:9]([CH3:10])([CH3:11])[O:12]1)[O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1",
+      "mapping_confidence": 0.6192186426256698,
+      "conditions": {
+        "raw_description": "NaH; PMBCl; Bu4NI; DMF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "PMBCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "COC1=CC=C(C=C1)CCl"
+        ],
+        "CATALYSTS": [
+          "Bu4NI"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_22",
+      "reaction_smiles": "C=CC[C@@H](C[C@@H]1COC(C)(C)O1)OCc1ccc(OC)cc1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CO.ClCCl.O>>C=CC[C@@H](C[C@@H](O)CO)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "CC1(C)[O:7][C@H:6]([CH2:5][C@H:4]([CH2:3][CH:2]=[CH2:1])[O:10][CH2:11][c:12]2[cH:13][cH:14][c:15]([O:16][CH3:17])[cH:18][cH:19]2)[CH2:8][O:9]1>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CO.ClCCl.O>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]([OH:7])[CH2:8][OH:9])[O:10][CH2:11][c:12]1[cH:13][cH:14][c:15]([O:16][CH3:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.9414590354759893,
+      "conditions": {
+        "raw_description": "CSA; H2O; MeOH/DCM; rt; 92% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_23",
+      "reaction_smiles": "C=CC[C@@H](C[C@@H](O)CO)OCc1ccc(OC)cc1.C[Si](C)(C)n1ccnc1.[H-].[Na+].C1CCOC1>>C=CC[C@@H](C[C@@H]1CO1)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "O[CH2:7][C@@H:6]([CH2:5][C@H:4]([CH2:3][CH:2]=[CH2:1])[O:9][CH2:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH3:16])[cH:17][cH:18]1)[OH:8]>C[Si](C)(C)n1ccnc1.[H-].[Na+].C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]1[CH2:7][O:8]1)[O:9][CH2:10][c:11]1[cH:12][cH:13][c:14]([O:15][CH3:16])[cH:17][cH:18]1",
+      "mapping_confidence": 0.5953914634002409,
+      "conditions": {
+        "raw_description": "TsIm; NaH; THF; -100 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "TsIm",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N1C=CN=C1",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-100"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_24",
+      "reaction_smiles": "COC(=O)[C@H](C)CO.CC(C)(C)[Si](Cl)(c1ccccc1)c1ccccc1.c1c[nH]cn1.C1CCOC1>>COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25].[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH3:6])[CH2:7][OH:8]>c1c[nH]cn1.C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH3:6])[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.1727557937749647,
+      "conditions": {
+        "raw_description": "TBDPSCl; imidazole; THF; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "TBDPSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C1=CC=CC=C1)(C2=CC=CC=C2)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_25",
+      "reaction_smiles": "COC(=O)[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.B.CSC.C1CCOC1>>C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "reaction_smiles_mapped": "CO[C:3]([C@H:2]([CH3:1])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23])=[O:4]>B.C1CCOC1.CSC>[CH3:1][C@@H:2]([CH2:3][OH:4])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.17130866436506126,
+      "conditions": {
+        "raw_description": "BH3.DMS; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "BH3.DMS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B.CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_26",
+      "reaction_smiles": "C[C@@H](CO)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.II.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "reaction_smiles_mapped": "O[CH2:3][C@H:2]([CH3:1])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23].I[I:4]>C1CCOC1.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@@H:2]([CH2:3][I:4])[CH2:5][O:6][Si:7]([c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20]([CH3:21])([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.11870328058011398,
+      "conditions": {
+        "raw_description": "PPh3; I2; imidazole; THF; 93% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_27",
+      "reaction_smiles": "C[C@@H](CI)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.CCC(=O)N(C)[C@H](C)[C@H](O)c1ccccc1.[Cl-].[Li+].[Li]N(C(C)C)C(C)C.C1CCOC1>>C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1",
+      "reaction_smiles_mapped": "[CH2:23]([CH3:24])[C:25](=[O:26])[N:27]([CH3:28])[C@H:29]([CH3:30])[C@H:31]([OH:32])[c:33]1[cH:34][cH:35][cH:36][cH:37][cH:38]1.I[CH2:22][C@H:2]([CH3:1])[CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21]>C1CCOC1.[Cl-].[Li+].[Li]N(C(C)C)C(C)C>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@H:23]([CH3:24])[C:25](=[O:26])[N:27]([CH3:28])[C@H:29]([CH3:30])[C@H:31]([OH:32])[c:33]1[cH:34][cH:35][cH:36][cH:37][cH:38]1",
+      "mapping_confidence": 0.21756429986638592,
+      "conditions": {
+        "raw_description": "LDA; LiCl; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_28",
+      "reaction_smiles": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@H](C)C(=O)N(C)[C@H](C)[C@H](O)c1ccccc1.B.N.[Li]N(C(C)C)C(C)C.C1CCOC1>>C[C@@H](CO)C[C@@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+      "reaction_smiles_mapped": "C[C@H]([C@H](O)c1ccccc1)N(C)[C:3]([C@@H:2]([CH3:1])[CH2:5][C@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26])=[O:4]>B.N.[Li]N(C(C)C)C(C)C.C1CCOC1>[CH3:1][C@@H:2]([CH2:3][OH:4])[CH2:5][C@@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.18475491516605413,
+      "conditions": {
+        "raw_description": "LDA; H3N.BH3; THF; -78 \u00b0C; 99% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H3N.BH3",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N.B",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "99% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_29",
+      "reaction_smiles": "C[C@@H](CO)C[C@@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>C[C@@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@@H](C)C=O",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([CH2:3][OH:4])[CH2:5][C@@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26]>O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>[CH3:1][C@@H:2]([CH:3]=[O:4])[CH2:5][C@@H:6]([CH3:7])[CH2:8][O:9][Si:10]([c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)([c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1)[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.22141882699214074,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; DCM; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_30",
+      "reaction_smiles": "C[C@@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@@H](C)C=O.SCCCS.CCOCC.FB(F)F.ClCCl>>C[C@@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@@H](C)C1SCCCS1",
+      "reaction_smiles_mapped": "O=[CH:25][C@@H:23]([CH2:22][C@@H:2]([CH3:1])[CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH3:24].[SH:26][CH2:27][CH2:28][CH2:29][SH:30]>CCOCC.FB(F)F.ClCCl>[CH3:1][C@@H:2]([CH2:3][O:4][Si:5]([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)([c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][C@@H:23]([CH3:24])[CH:25]1[S:26][CH2:27][CH2:28][CH2:29][S:30]1",
+      "mapping_confidence": 0.1579915412688793,
+      "conditions": {
+        "raw_description": "85% (2 steps); BF3.OEt2; DCM",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3.OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_31",
+      "reaction_smiles": "C[C@@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C[C@@H](C)C1SCCCS1.C=CC[C@@H](C[C@@H]1CO1)OCc1ccc(OC)cc1.[Li]C(C)(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>C=CC[C@@H](C[C@@H](O)CC1([C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)SCCCS1)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@H:6]1[O:7][CH2:8]1)[O:39][CH2:40][c:41]1[cH:42][cH:43][c:44]([O:45][CH3:46])[cH:47][cH:48]1.[CH:9]1([C@H:10]([CH3:11])[CH2:12][C@@H:13]([CH3:14])[CH2:15][O:16][Si:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][cH:23]2)([c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)[C:30]([CH3:31])([CH3:32])[CH3:33])[S:34][CH2:35][CH2:36][CH2:37][S:38]1>[Li]C(C)(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]([OH:7])[CH2:8][C:9]1([C@@H:10]([CH3:11])[CH2:12][C@H:13]([CH3:14])[CH2:15][O:16][Si:17]([c:18]2[cH:19][cH:20][cH:21][cH:22][cH:23]2)([c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)[C:30]([CH3:31])([CH3:32])[CH3:33])[S:34][CH2:35][CH2:36][CH2:37][S:38]1)[O:39][CH2:40][c:41]1[cH:42][cH:43][c:44]([O:45][CH3:46])[cH:47][cH:48]1",
+      "mapping_confidence": 0.193145744493746,
+      "conditions": {
+        "raw_description": "76%; tBuLi; HMPA; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "tBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_32",
+      "reaction_smiles": "C=CC[C@@H](C[C@@H](O)CC1([C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)SCCCS1)OCc1ccc(OC)cc1.[Na+].[O-][Cl+][O-].O=P([O-])(O)O.[Na+].CC=C(C)C.CCO.O>>C=CC[C@@H](C[C@@H](O)CC(=O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "C1CS[C:9]([CH2:8][C@@H:6]([CH2:5][C@H:4]([CH2:3][CH:2]=[CH2:1])[O:35][CH2:36][c:37]2[cH:38][cH:39][c:40]([O:41][CH3:42])[cH:43][cH:44]2)[OH:7])([C@@H:11]([CH3:12])[CH2:13][C@H:14]([CH3:15])[CH2:16][O:17][Si:18]([c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)([c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[C:31]([CH3:32])([CH3:33])[CH3:34])SC1.[O-][Cl+][O-:10]>[Na+].[Na+].O=P([O-])(O)O.CC=C(C)C.CCO.O>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]([OH:7])[CH2:8][C:9](=[O:10])[C@@H:11]([CH3:12])[CH2:13][C@H:14]([CH3:15])[CH2:16][O:17][Si:18]([c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)([c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1)[C:31]([CH3:32])([CH3:33])[CH3:34])[O:35][CH2:36][c:37]1[cH:38][cH:39][c:40]([O:41][CH3:42])[cH:43][cH:44]1",
+      "mapping_confidence": 0.07843988459692179,
+      "conditions": {
+        "raw_description": "NaClO2; NaH2PO4; Me2C=CHMe; EtOH/H2O; 78%",
+        "GENERAL_REAGENTS": [
+          "NaClO2",
+          "NaH2PO4",
+          "Me2C=CHMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl=O.[Na+]",
+          "OP(=O)(O)[O-].[Na+]",
+          "CC=C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_33",
+      "reaction_smiles": "C=CC[C@@H](C[C@@H](O)CC(=O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OCc1ccc(OC)cc1.O=Cc1ccccc1.I[Sm]I.C1CCOC1>>C=CC[C@@H](C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@H:6]([CH2:7][C:8](=[O:9])[C@@H:10]([CH3:11])[CH2:12][C@H:13]([CH3:14])[CH2:15][O:16][Si:17]([c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)([c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[C:30]([CH3:31])([CH3:32])[CH3:33])[OH:34])[O:43][CH2:44][c:45]1[cH:46][cH:47][c:48]([O:49][CH3:50])[cH:51][cH:52]1.[CH:35](=[O:36])[c:37]1[cH:38][cH:39][cH:40][cH:41][cH:42]1>I[Sm]I.C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@H:6]([CH2:7][C@H:8]([OH:9])[C@@H:10]([CH3:11])[CH2:12][C@H:13]([CH3:14])[CH2:15][O:16][Si:17]([c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)([c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[C:30]([CH3:31])([CH3:32])[CH3:33])[O:34][C:35](=[O:36])[c:37]1[cH:38][cH:39][cH:40][cH:41][cH:42]1)[O:43][CH2:44][c:45]1[cH:46][cH:47][c:48]([O:49][CH3:50])[cH:51][cH:52]1",
+      "mapping_confidence": 0.19789132151945396,
+      "conditions": {
+        "raw_description": "SmI2; PhCHO; THF; -10 \u00b0C; quant.",
+        "GENERAL_REAGENTS": [
+          "PhCHO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C=O"
+        ],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "quant."
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_34",
+      "reaction_smiles": "C=CC[C@@H](C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OC(=O)c1ccccc1)OCc1ccc(OC)cc1.CC(C)C[AlH]CC(C)C.ClCCl>>C=CC[C@@H](C[C@@H](O)C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "O=C(c1ccccc1)[O:7][C@H:6]([CH2:5][C@H:4]([CH2:3][CH:2]=[CH2:1])[O:35][CH2:36][c:37]1[cH:38][cH:39][c:40]([O:41][CH3:42])[cH:43][cH:44]1)[CH2:8][C@H:9]([OH:10])[C@@H:11]([CH3:12])[CH2:13][C@H:14]([CH3:15])[CH2:16][O:17][Si:18]([c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)([c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1)[C:31]([CH3:32])([CH3:33])[CH3:34]>CC(C)C[AlH]CC(C)C.ClCCl>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH2:5][C@@H:6]([OH:7])[CH2:8][C@H:9]([OH:10])[C@@H:11]([CH3:12])[CH2:13][C@H:14]([CH3:15])[CH2:16][O:17][Si:18]([c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)([c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1)[C:31]([CH3:32])([CH3:33])[CH3:34])[O:35][CH2:36][c:37]1[cH:38][cH:39][c:40]([O:41][CH3:42])[cH:43][cH:44]1",
+      "mapping_confidence": 0.2290809695048567,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; -78 \u00b0C; quant.",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "quant."
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_35",
+      "reaction_smiles": "C=CC[C@@H](C[C@@H](O)C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)OCc1ccc(OC)cc1.C/C=C/C=O.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCCl>>COc1ccc(CO[C@H]2C[C@@H](CC=O)O[C@@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C2)cc1",
+      "reaction_smiles_mapped": "C/C=[CH:12]/[CH:13]=[O:14].C=[CH:11][CH2:10][C@H:9]([O:8][CH2:7][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:46][cH:45]1)[CH2:44][C@@H:16]([OH:15])[CH2:17][C@H:18]([OH:19])[C@@H:20]([CH3:21])[CH2:22][C@H:23]([CH3:24])[CH2:25][O:26][Si:27]([c:28]1[cH:29][cH:30][cH:31][cH:32][cH:33]1)([c:34]1[cH:35][cH:36][cH:37][cH:38][cH:39]1)[C:40]([CH3:41])([CH3:42])[CH3:43]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@@H:11]([CH2:12][CH:13]=[O:14])[O:15][C@@H:16]([CH2:17][C@H:18]([OH:19])[C@@H:20]([CH3:21])[CH2:22][C@H:23]([CH3:24])[CH2:25][O:26][Si:27]([c:28]3[cH:29][cH:30][cH:31][cH:32][cH:33]3)([c:34]3[cH:35][cH:36][cH:37][cH:38][cH:39]3)[C:40]([CH3:41])([CH3:42])[CH3:43])[CH2:44]2)[cH:45][cH:46]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HG-II; CSA; crotonaldehyde; 1,2-DCE; rt; 77%",
+        "GENERAL_REAGENTS": [
+          "crotonaldehyde"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C/C=C/C=O"
+        ],
+        "CATALYSTS": [
+          "HG-II",
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C",
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,2-DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_36",
+      "reaction_smiles": "COc1ccc(CO[C@H]2C[C@@H](CC=O)O[C@@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C2)cc1.CBr.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "Br[CH3:1].O=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([OH:21])[C@@H:22]([CH3:23])[CH2:24][C@H:25]([CH3:26])[CH2:27][O:28][Si:29]([c:30]2[cH:31][cH:32][cH:33][cH:34][cH:35]2)([c:36]2[cH:37][cH:38][cH:39][cH:40][cH:41]2)[C:42]([CH3:43])([CH3:44])[CH3:45])[O:46]1>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([OH:21])[C@@H:22]([CH3:23])[CH2:24][C@H:25]([CH3:26])[CH2:27][O:28][Si:29]([c:30]2[cH:31][cH:32][cH:33][cH:34][cH:35]2)([c:36]2[cH:37][cH:38][cH:39][cH:40][cH:41]2)[C:42]([CH3:43])([CH3:44])[CH3:45])[O:46]1",
+      "mapping_confidence": 0.1371844091516363,
+      "conditions": {
+        "raw_description": "Ph3P+CH3Br-; NaHMDS; THF; 0 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "CH3Br",
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CBr",
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_37",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O)[C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)O1.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([OH:21])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH2:34][O:35][Si:36]([c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)([c:43]2[cH:44][cH:45][cH:46][cH:47][cH:48]2)[C:49]([CH3:50])([CH3:51])[CH3:52])[O:53]1.O=S(=O)(O[Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])C(F)(F)F>ClCCl.Cc1cccc(C)n1>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH2:34][O:35][Si:36]([c:37]2[cH:38][cH:39][cH:40][cH:41][cH:42]2)([c:43]2[cH:44][cH:45][cH:46][cH:47][cH:48]2)[C:49]([CH3:50])([CH3:51])[CH3:52])[O:53]1",
+      "mapping_confidence": 0.056311769683603956,
+      "conditions": {
+        "raw_description": "TBSOTf; 2,6-Lutidine; DCM; 0 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "2,6-Lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC1=NC(=CC=C1)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_38",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)O1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)CO)O1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](c1ccccc1)(c1ccccc1)[O:35][CH2:34][C@H:32]([CH2:31][C@@H:29]([C@H:20]([CH2:19][C@H:18]1[CH2:17][C@@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:5][C@@H:4]([CH2:3][CH:2]=[CH2:1])[O:36]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[CH3:30])[CH3:33]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH2:34][OH:35])[O:36]1",
+      "mapping_confidence": 0.2639898019419138,
+      "conditions": {
+        "raw_description": "TBAF; AcOH; THF; 0 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_39",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)CO)O1.O=S(=O)=O.c1ccncc1.CCN(CC)CC.CS(C)=O.ClCCl>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C=O)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH2:34][OH:35])[O:36]1>O=S(=O)=O.c1ccncc1.CCN(CC)CC.CS(C)=O.ClCCl>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH:34]=[O:35])[O:36]1",
+      "mapping_confidence": 0.25661155383749684,
+      "conditions": {
+        "raw_description": "SO3.Pyr; Et3N; DMSO; DCM",
+        "GENERAL_REAGENTS": [
+          "SO3.Pyr",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)=O.c1ccncc1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_40",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C=O)O1.[Na+].[O-][Cl+][O-].O=P([O-])(O)O.[Na+].CC=C(C)C.CC(C)(C)O.O>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[CH:34]=[O:35])[O:37]1.[O-][Cl+][O-:38]>[Na+].[Na+].O=P([O-])(O)O.CC=C(C)C.CC(C)(C)O.O>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34]([OH:35])=[O:38])[O:37]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NaClO2; NaH2PO4; Me2C=CHMe; tBuOH/H2O; 88% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaClO2",
+          "NaH2PO4",
+          "Me2C=CHMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl=O.[Na+]",
+          "OP(=O)(O)[O-].[Na+]",
+          "CC=C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_41",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O)O1.CO[C@H](C)/C(C)=C\\c1nc([C@@H](O)CC#CC(C)OC(=O)c2ccccc2)co1.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.CN(C)c1ccncc1.Cc1ccccc1>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O[C@@H](CC#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)O1",
+      "reaction_smiles_mapped": "O[C:34]([C@H:32]([CH2:31][C@@H:29]([C@H:20]([CH2:19][C@H:18]1[CH2:17][C@@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:5][C@@H:4]([CH2:3][CH:2]=[CH2:1])[O:64]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[CH3:30])[CH3:33])=[O:35].[OH:36][C@@H:37]([CH2:38][C:39]#[C:40][CH:41]([CH3:42])[O:43][C:44](=[O:45])[c:46]1[cH:47][cH:48][cH:49][cH:50][cH:51]1)[c:52]1[cH:53][o:54][c:55](/[CH:56]=[C:57](/[CH3:58])[C@@H:59]([CH3:60])[O:61][CH3:62])[n:63]1>O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.CN(C)c1ccncc1.Cc1ccccc1>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34](=[O:35])[O:36][C@@H:37]([CH2:38][C:39]#[C:40][CH:41]([CH3:42])[O:43][C:44](=[O:45])[c:46]2[cH:47][cH:48][cH:49][cH:50][cH:51]2)[c:52]2[cH:53][o:54][c:55](/[CH:56]=[C:57](/[CH3:58])[C@@H:59]([CH3:60])[O:61][CH3:62])[n:63]2)[O:64]1",
+      "mapping_confidence": 0.12452391176622424,
+      "conditions": {
+        "raw_description": "96%; Et3N; DMAP; Toluene; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_42",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O[C@@H](CC#CC(C)OC(=O)c2ccccc2)c2coc(/C=C(/C)[C@@H](C)OC)n2)O1.CC(C)c1cccc(C(C)C)c1N1[C]N(c2c(C(C)C)cccc2C(C)C)C=C1.Cl[Au].F[Sb-](F)(F)(F)(F)F.[Ag+].C1CCOC1.O>>C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O[C@@H](CC(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)O1",
+      "reaction_smiles_mapped": "[O:40]=C(c1ccccc1)O[CH:42]([C:41]#[C:39][CH2:38][C@H:37]([O:36][C:34]([C@H:32]([CH2:31][C@@H:29]([C@H:20]([CH2:19][C@H:18]1[CH2:17][C@@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:5][C@@H:4]([CH2:3][CH:2]=[CH2:1])[O:56]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[CH3:30])[CH3:33])=[O:35])[c:44]1[cH:45][o:46][c:47](/[CH:48]=[C:49](/[CH3:50])[C@@H:51]([CH3:52])[O:53][CH3:54])[n:55]1)[CH3:43]>C1CCOC1.CC(C)c1cccc(C(C)C)c1N1[C]N(c2c(C(C)C)cccc2C(C)C)C=C1.Cl[Au].F[Sb-](F)(F)(F)(F)F.O.[Ag+]>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[CH2:5][C@H:6]([O:7][CH2:8][c:9]2[cH:10][cH:11][c:12]([O:13][CH3:14])[cH:15][cH:16]2)[CH2:17][C@H:18]([CH2:19][C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]([CH3:30])[CH2:31][C@H:32]([CH3:33])[C:34](=[O:35])[O:36][C@@H:37]([CH2:38][C:39](=[O:40])/[CH:41]=[CH:42]/[CH3:43])[c:44]2[cH:45][o:46][c:47](/[CH:48]=[C:49](/[CH3:50])[C@@H:51]([CH3:52])[O:53][CH3:54])[n:55]2)[O:56]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "iPrAuCl; AgSbF6; THF/H2O; 80 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "iPrAuCl",
+          "AgSbF6"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)c1cccc(C(C)C)c1N2C=CN([C]2)c3c(cccc3C(C)C)C(C)C.[Au]Cl",
+          "F[Sb-](F)(F)(F)(F)F.[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_43",
+      "reaction_smiles": "C=CC[C@@H]1C[C@H](OCc2ccc(OC)cc2)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O[C@@H](CC(=O)/C=C/C)c2coc(/C=C(/C)[C@@H](C)OC)n2)O1.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cc1ccccc1>>COc1ccc(CO[C@H]2C[C@H]3C/C=C/C(=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1",
+      "reaction_smiles_mapped": "C=[CH:13][CH2:12][C@@H:11]1[CH2:10][C@H:9]([O:8][CH2:7][c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:53][cH:52]2)[CH2:50][C@H:49]([CH2:48][C@@H:39]([C@H:37]([CH2:36][C@@H:34]([C:32]([O:31][C@@H:18]([CH2:17][C:15](/[CH:14]=C/C)=[O:16])[c:19]2[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]2)=[O:33])[CH3:35])[CH3:38])[O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[O:51]1>>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12]/[CH:13]=[CH:14]/[C:15](=[O:16])[CH2:17][C@@H:18]([c:19]4[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]4)[O:31][C:32](=[O:33])[C@@H:34]([CH3:35])[CH2:36][C@H:37]([CH3:38])[C@@H:39]([O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[CH2:48][C@@H:49]([CH2:50]2)[O:51]3)[cH:52][cH:53]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Grubbs Catalyst -II; Toluebe; 40 \u00b0C; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs Catalyst -II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_44",
+      "reaction_smiles": "COc1ccc(CO[C@H]2C[C@H]3C/C=C/C(=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1.[HH].Cl[Rh][PH](c1ccccc1)(c1ccccc1)c1ccccc1.Cl[Rh](Cl)Cl.Cc1ccccc1>>COc1ccc(CO[C@H]2C[C@H]3CCCC(=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12]/[CH:13]=[CH:14]/[C:15](=[O:16])[CH2:17][C@@H:18]([c:19]4[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]4)[O:31][C:32](=[O:33])[C@@H:34]([CH3:35])[CH2:36][C@H:37]([CH3:38])[C@@H:39]([O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[CH2:48][C@@H:49]([CH2:50]2)[O:51]3)[cH:52][cH:53]1>Cc1ccccc1.Cl[Rh](Cl)Cl.Cl[Rh][PH](c1ccccc1)(c1ccccc1)c1ccccc1.[HH]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[CH2:17][C@@H:18]([c:19]4[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]4)[O:31][C:32](=[O:33])[C@@H:34]([CH3:35])[CH2:36][C@H:37]([CH3:38])[C@@H:39]([O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[CH2:48][C@@H:49]([CH2:50]2)[O:51]3)[cH:52][cH:53]1",
+      "mapping_confidence": 0.2468503178646023,
+      "conditions": {
+        "raw_description": "(PPh3)RhCl; H2; Toluene; 50 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "(PPh3)RhCl",
+          "RhCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Rh](Cl)(P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)",
+          "Cl[Rh](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_45",
+      "reaction_smiles": "COc1ccc(CO[C@H]2C[C@H]3CCCC(=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>COc1ccc(CO[C@H]2C[C@H]3CCC[C@H](O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[CH2:17][C@@H:18]([c:19]4[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]4)[O:31][C:32](=[O:33])[C@@H:34]([CH3:35])[CH2:36][C@H:37]([CH3:38])[C@@H:39]([O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[CH2:48][C@@H:49]([CH2:50]2)[O:51]3)[cH:52][cH:53]1>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12][CH2:13][CH2:14][C@H:15]([OH:16])[CH2:17][C@@H:18]([c:19]4[cH:20][o:21][c:22](/[CH:23]=[C:24](/[CH3:25])[C@@H:26]([CH3:27])[O:28][CH3:29])[n:30]4)[O:31][C:32](=[O:33])[C@@H:34]([CH3:35])[CH2:36][C@H:37]([CH3:38])[C@@H:39]([O:40][Si:41]([CH3:42])([CH3:43])[C:44]([CH3:45])([CH3:46])[CH3:47])[CH2:48][C@@H:49]([CH2:50]2)[O:51]3)[cH:52][cH:53]1",
+      "mapping_confidence": 0.30534789325017697,
+      "conditions": {
+        "raw_description": "L-Selectride; THF; -78 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "L-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](C(C)CC)(C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_46",
+      "reaction_smiles": "COc1ccc(CO[C@H]2C[C@H]3CCC[C@H](O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1.CC(=O)OC(C)=O.c1ccncc1>>COc1ccc(CO[C@H]2C[C@H]3CCC[C@H](OC(C)=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1",
+      "reaction_smiles_mapped": "CC(=O)O[C:17]([CH3:18])=[O:19].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12][CH2:13][CH2:14][C@H:15]([OH:16])[CH2:20][C@@H:21]([c:22]4[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]4)[O:34][C:35](=[O:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C@@H:42]([O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50])[CH2:51][C@@H:52]([CH2:53]2)[O:54]3)[cH:55][cH:56]1>c1ccncc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@H:9]2[CH2:10][C@H:11]3[CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[CH2:20][C@@H:21]([c:22]4[cH:23][o:24][c:25](/[CH:26]=[C:27](/[CH3:28])[C@@H:29]([CH3:30])[O:31][CH3:32])[n:33]4)[O:34][C:35](=[O:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C@@H:42]([O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50])[CH2:51][C@@H:52]([CH2:53]2)[O:54]3)[cH:55][cH:56]1",
+      "mapping_confidence": 0.17243646479703126,
+      "conditions": {
+        "raw_description": "Ac2O; Pyridine; 0 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_47",
+      "reaction_smiles": "COc1ccc(CO[C@H]2C[C@H]3CCC[C@H](OC(C)=O)C[C@@H](c4coc(/C=C(/C)[C@@H](C)OC)n4)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C2)O3)cc1.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.ClCCl>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3C[C@H](O)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1",
+      "reaction_smiles_mapped": "COc1ccc(C[O:24][C@H:23]2[CH2:22][C@H:21]3[CH2:20][CH2:19][CH2:18][C@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:12][C@@H:11]([c:10]4[n:9][c:8](/[CH:7]=[C:5](\\[C@H:3]([O:2][CH3:1])[CH3:4])[CH3:6])[o:47][cH:46]4)[O:44][C:42](=[O:43])[C@@H:40]([CH3:41])[CH2:39][C@H:37]([CH3:38])[C@@H:28]([O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[CH2:27][C@@H:26]([CH2:25]2)[O:45]3)cc1>ClCCl.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C@H:23]([OH:24])[CH2:25][C@H:26]([CH2:27][C@H:28]([O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C:42](=[O:43])[O:44]2)[O:45]3)[cH:46][o:47]1",
+      "mapping_confidence": 0.32032583753664706,
+      "conditions": {
+        "raw_description": "DDQ; pH7 buffer; DCM; 0 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "DDQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_48",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3C[C@H](O)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCCl>>CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C@H:23]([OH:24])[CH2:25][C@H:26]([CH2:27][C@H:28]([O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C:42](=[O:43])[O:44]2)[O:45]3)[cH:46][o:47]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCCl.O=C([O-])O.[Na+]>[CH3:1][O:2][C@H:3]([CH3:4])/[C:5]([CH3:6])=[CH:7]\\[c:8]1[n:9][c:10]([C@@H:11]2[CH2:12][C@@H:13]([O:14][C:15]([CH3:16])=[O:17])[CH2:18][CH2:19][CH2:20][C@@H:21]3[CH2:22][C:23](=[O:24])[CH2:25][C@H:26]([CH2:27][C@H:28]([O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[C@@H:37]([CH3:38])[CH2:39][C@H:40]([CH3:41])[C:42](=[O:43])[O:44]2)[O:45]3)[cH:46][o:47]1",
+      "mapping_confidence": 0.22435802871506835,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; 1,2-DCE; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,2-DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_49",
+      "reaction_smiles": "CO[C@H](C)/C(C)=C\\c1nc([C@@H]2C[C@@H](OC(C)=O)CCC[C@@H]3CC(=O)C[C@H](C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)C[C@H](C)C(=O)O2)O3)co1.[Zn].Cl[Ti](Cl)(Cl)Cl.BrCBr.C1CCOC1>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C1)O2",
+      "reaction_smiles_mapped": "Br[CH2:1]Br.O=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([O:36][Si:37]([CH3:38])([CH3:39])[C:40]([CH3:41])([CH3:42])[CH3:43])[CH2:44][C@@H:45]([CH2:46]1)[O:47]2>C1CCOC1.Cl[Ti](Cl)(Cl)Cl.[Zn]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([O:36][Si:37]([CH3:38])([CH3:39])[C:40]([CH3:41])([CH3:42])[CH3:43])[CH2:44][C@@H:45]([CH2:46]1)[O:47]2",
+      "mapping_confidence": 0.23762438241302106,
+      "conditions": {
+        "raw_description": "Zn; TiCl4; CH2Br2; THF; -78 \u00b0C; 83%; Lombardo Olefination",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zn",
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]",
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Br2",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Br)Br",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_50",
+      "reaction_smiles": "C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)C[C@@H](C1)O2.F.CC#N>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O)C[C@@H](C1)O2",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:36][C@@H:35]1[C@@H:33]([CH3:34])[CH2:32][C@H:30]([CH3:31])[C:28](=[O:29])[O:27][C@H:14]([c:15]2[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]2)[CH2:13][C@@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:7][CH2:6][CH2:5][C@@H:4]2[CH2:3][C:2](=[CH2:1])[CH2:39][C@H:38]([CH2:37]1)[O:40]2>CC#N.F>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([OH:36])[CH2:37][C@@H:38]([CH2:39]1)[O:40]2",
+      "mapping_confidence": 0.9813421317244758,
+      "conditions": {
+        "raw_description": "aq. HF; MeCN; 0 \u00b0C; 48%",
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_51",
+      "reaction_smiles": "C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](O)C[C@@H](C1)O2.CC(C)NP(=O)(OCC1c2ccccc2-c2ccccc21)OCC1c2ccccc2-c2ccccc21.c1nn[nH]n1.OO.CC#N.O>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OCC3c4ccccc4-c4ccccc43)OCC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([OH:36])[CH2:69][C@@H:70]([CH2:71]1)[O:72]2.CC(C)N[P:37](=[O:38])([O:39][CH2:40][CH:41]1[c:42]2[cH:43][cH:44][cH:45][cH:46][c:47]2-[c:48]2[cH:49][cH:50][cH:51][cH:52][c:53]21)[O:54][CH2:55][CH:56]1[c:57]2[cH:58][cH:59][cH:60][cH:61][c:62]2-[c:63]2[cH:64][cH:65][cH:66][cH:67][c:68]21>CC#N.O.OO.c1nn[nH]n1>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@@H:30]([CH3:31])[CH2:32][C@H:33]([CH3:34])[C@@H:35]([O:36][P:37](=[O:38])([O:39][CH2:40][CH:41]3[c:42]4[cH:43][cH:44][cH:45][cH:46][c:47]4-[c:48]4[cH:49][cH:50][cH:51][cH:52][c:53]43)[O:54][CH2:55][CH:56]3[c:57]4[cH:58][cH:59][cH:60][cH:61][c:62]4-[c:63]4[cH:64][cH:65][cH:66][cH:67][c:68]43)[CH2:69][C@@H:70]([CH2:71]1)[O:72]2",
+      "mapping_confidence": 0.3237400488781898,
+      "conditions": {
+        "raw_description": "1) iPrNP(OFm)2; tetrazole; MeCN/H2O; rt; 2) 30% H2O2; 0 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [
+          "iPrNP(OFm)2",
+          "tetrazole",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(NP(OCC1C2=C(C=CC=C2)C3=C1C=CC=C3)(OCC4C5=C(C=CC=C5)C6=C4C=CC=C6)=O)C",
+          "C1=NNN=N1",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "0"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Enigmazole_A_2018_Fuwa_52",
+      "reaction_smiles": "C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@@H](C)C[C@H](C)[C@@H](OP(=O)(OCC3c4ccccc4-c4ccccc43)OCC3c4ccccc4-c4ccccc43)C[C@@H](C1)O2.O=C([O-])[O-].[K+].[K+].CO.O>>C=C1C[C@H]2CCC[C@H](OC(C)=O)C[C@@H](c3coc(/C=C(/C)[C@@H](C)OC)n3)OC(=O)[C@H](C)C[C@@H](C)[C@@H](CP(=O)(O)O)C[C@@H](C1)O2",
+      "reaction_smiles_mapped": "c1ccc2c(c1)-c1ccccc1C2C[O:39][P:37](O[C@@H:35]1[C@@H:33]([CH3:34])[CH2:32][C@H:30]([CH3:31])[C:28](=[O:29])[O:27][C@H:14]([c:15]2[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]2)[CH2:13][C@@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:7][CH2:6][CH2:5][C@@H:4]2[CH2:3][C:2](=[CH2:1])[CH2:43][C@H:42]([CH2:41]1)[O:44]2)(=[O:38])[O:40]CC1c2ccccc2-c2ccccc21.O[CH3:36]>O.O=C([O-])[O-].[K+].[K+]>[CH2:1]=[C:2]1[CH2:3][C@H:4]2[CH2:5][CH2:6][CH2:7][C@H:8]([O:9][C:10]([CH3:11])=[O:12])[CH2:13][C@@H:14]([c:15]3[cH:16][o:17][c:18](/[CH:19]=[C:20](/[CH3:21])[C@@H:22]([CH3:23])[O:24][CH3:25])[n:26]3)[O:27][C:28](=[O:29])[C@H:30]([CH3:31])[CH2:32][C@@H:33]([CH3:34])[C@@H:35]([CH2:36][P:37](=[O:38])([OH:39])[OH:40])[CH2:41][C@@H:42]([CH2:43]1)[O:44]2",
+      "mapping_confidence": 0.19148411783999872,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; H2O; rt; 87%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    }
+  ]
+}

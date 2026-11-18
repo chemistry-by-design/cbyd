@@ -1,0 +1,398 @@
+{
+  "background": {
+    "name": "(+)-Lupinine",
+    "author": "Mann",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett., 2010, 12, 528",
+    "doi": "10.1021/ol902718q"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lupinine_2010_Mann_1",
+      "reaction_smiles": "O=C1N[C@@H](Cc2ccccc2)CO1.C/C=C/C(=O)OC(=O)/C=C/C.[Cl-].[Li+].CCN(CC)CC.C1CCOC1>>C/C=C/C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1",
+      "reaction_smiles_mapped": "C/C=C/C(=O)O[C:4](/[CH:3]=[CH:2]/[CH3:1])=[O:5].[NH:6]1[C:7](=[O:8])[O:9][CH2:10][C@@H:11]1[CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>C1CCOC1.CCN(CC)CC.[Cl-].[Li+]>[CH3:1]/[CH:2]=[CH:3]/[C:4](=[O:5])[N:6]1[C:7](=[O:8])[O:9][CH2:10][C@@H:11]1[CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.5676297412506737,
+      "conditions": {
+        "raw_description": "NEt3; LiCl; THF; -15\u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-15"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_2",
+      "reaction_smiles": "C/C=C/C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1.C=CCC=O.CCN(C(C)C)C(C)C.[Cl][Ti]([Cl])([Cl])[Cl].ClCCl>>C=CC[C@@H](O)[C@H](C=C)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1",
+      "reaction_smiles_mapped": "[CH:6](=[CH:7]\\[CH3:8])/[C:9](=[O:10])[N:11]1[C:12](=[O:13])[O:14][CH2:15][C@@H:16]1[CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1.[CH2:1]=[CH:2][CH2:3][CH:4]=[O:5]>CCN(C(C)C)C(C)C.ClCCl.[Cl][Ti]([Cl])([Cl])[Cl]>[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C@H:6]([CH:7]=[CH2:8])[C:9](=[O:10])[N:11]1[C:12](=[O:13])[O:14][CH2:15][C@@H:16]1[CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+      "mapping_confidence": 0.8956517693099725,
+      "conditions": {
+        "raw_description": "TiCl4; DIPEA; DCM; -78\u00b0C to rt; 77%",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_3",
+      "reaction_smiles": "C=CC[C@@H](O)[C@H](C=C)C(=O)N1C(=O)OC[C@@H]1Cc1ccccc1.[BH4-].[Li+].C1CCOC1>>C=CC[C@@H](O)[C@H](C=C)CO",
+      "reaction_smiles_mapped": "O=C1OC[C@H](Cc2ccccc2)N1[C:9]([C@H:6]([C@@H:4]([CH2:3][CH:2]=[CH2:1])[OH:5])[CH:7]=[CH2:8])=[O:10]>C1CCOC1.[BH4-].[Li+]>[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C@H:6]([CH:7]=[CH2:8])[CH2:9][OH:10]",
+      "mapping_confidence": 0.9711257224738294,
+      "conditions": {
+        "raw_description": "LiBH4; THF; 0\u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "LiBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_4",
+      "reaction_smiles": "C=CC[C@@H](O)[C@H](C=C)CO.CC(C)(C)[Si](C)(C)Cl.CCN(CC)CC.CN(C)c1ccncc1.C1CCOC1>>C=CC[C@@H](O)[C@H](C=C)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C@H:6]([CH:7]=[CH2:8])[CH2:9][OH:10].Cl[Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]>C1CCOC1.CCN(CC)CC.CN(C)c1ccncc1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C@H:6]([CH:7]=[CH2:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.3584920030950322,
+      "conditions": {
+        "raw_description": "TBSCl; Et3N; DMAP; THF; 0 \u00b0C to rt; 79%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_5",
+      "reaction_smiles": "C=CC[C@@H](O)[C@H](C=C)CO[Si](C)(C)C(C)(C)C.CS(=O)(=O)Cl.CCN(CC)CC.CN(C)c1ccncc1.CN(C)C=O>>C=CC[C@@H](OS(C)(=O)=O)[C@H](C=C)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C@H:10]([CH:11]=[CH2:12])[CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21].Cl[S:6]([CH3:7])(=[O:8])=[O:9]>CCN(CC)CC.CN(C)C=O.CN(C)c1ccncc1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([O:5][S:6]([CH3:7])(=[O:8])=[O:9])[C@H:10]([CH:11]=[CH2:12])[CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.2045730374950903,
+      "conditions": {
+        "raw_description": "MsCl; NEt3; DMAP; DMF; 0\u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_6",
+      "reaction_smiles": "C=CC[C@@H](OS(C)(=O)=O)[C@H](C=C)CO[Si](C)(C)C(C)(C)C.[N-]=[N+]=[N-].[Na+].CN(C)C=O>>C=CC[C@H](N=[N+]=[N-])[C@H](C=C)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[C@H:4]([CH2:3][CH:2]=[CH2:1])[C@H:8]([CH:9]=[CH2:10])[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19].[N-:5]=[N+:6]=[N-:7]>CN(C)C=O.[Na+]>[CH2:1]=[CH:2][CH2:3][C@H:4]([N:5]=[N+:6]=[N-:7])[C@H:8]([CH:9]=[CH2:10])[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.28772046908273186,
+      "conditions": {
+        "raw_description": "NaN3; DMF; 80\u00b0C; 57% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "57% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_7",
+      "reaction_smiles": "C=CC[C@H](N=[N+]=[N-])[C@H](C=C)CO[Si](C)(C)C(C)(C)C.[HH].[C-]#[O+].CC(=O)C=C(C)[O-].[C-]#[O+].[C-]#[O+].[Rh+].COc1cc(-c2cc(OC)cc(C(C)(C)C)c2Op2oc3ccccc3c3ccccc3o2)c(Op2oc3ccccc3c3ccccc3o2)c(C(C)(C)C)c1.C1CCOC1>>CC(C)(C)[Si](C)(C)OC[C@@H](CCC=O)[C@H](CCCC=O)N=[N+]=[N-]",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C@@H:10]([CH:11]=[CH2:12])[C@H:15]([CH2:16][CH:17]=[CH2:18])[N:21]=[N+:22]=[N-:23].C[C:13](C=[C:19](C)[O-:20])=[O:14]>C1CCOC1.COc1cc(-c2cc(OC)cc(C(C)(C)C)c2Op2oc3ccccc3c3ccccc3o2)c(Op2oc3ccccc3c3ccccc3o2)c(C(C)(C)C)c1.[C-]#[O+].[C-]#[O+].[C-]#[O+].[HH].[Rh+]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C@@H:10]([CH2:11][CH2:12][CH:13]=[O:14])[C@H:15]([CH2:16][CH2:17][CH2:18][CH:19]=[O:20])[N:21]=[N+:22]=[N-:23]",
+      "mapping_confidence": 0.05881613415336484,
+      "conditions": {
+        "raw_description": "H2; CO; Rh(CO)2acac; BiPhePhos; THF; 65\u00b0C; 76%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "CO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "[C-]#[O+]"
+        ],
+        "CATALYSTS": [
+          "Rh(CO)2acac"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#[O+].[C-]#[O+].[Rh+].CC(=O)C=C(C)[O-]"
+        ],
+        "LIGANDS": [
+          "BiPhePhos"
+        ],
+        "LIGANDS_SMILES": [
+          "COc1cc(C(C)(C)C)c(OP2Oc3ccccc3-c3ccccc3O2)c(-c2c(OP3Oc4ccccc4-c4ccccc4O3)c(C(C)(C)C)cc(OC)c2)c1"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_8",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OC[C@@H](CCC=O)[C@H](CCCC=O)N=[N+]=[N-].[HH].[C].[OH-].[OH-].[Pd+2].CO>>CC(C)(C)[Si](C)(C)OC[C@H]1CCCN2CCCC[C@@H]12",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:14][C@H:19]([C@@H:10]([CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[CH2:11][CH2:12][CH:13]=O)[CH2:18][CH2:17][CH2:16][CH:15]=O>CO.[C].[HH].[OH-].[OH-].[Pd+2]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C@H:10]1[CH2:11][CH2:12][CH2:13][N:14]2[CH2:15][CH2:16][CH2:17][CH2:18][C@@H:19]12",
+      "mapping_confidence": 0.311323585610146,
+      "conditions": {
+        "raw_description": "H2; Pd(OH)2/C; MeOH; rt; 87%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_9",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OC[C@H]1CCCN2CCCC[C@@H]12.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>OC[C@H]1CCCN2CCCC[C@@H]12",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:1][CH2:2][C@H:3]1[CH2:4][CH2:5][CH2:6][N:7]2[CH2:8][CH2:9][CH2:10][CH2:11][C@@H:12]12>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[OH:1][CH2:2][C@H:3]1[CH2:4][CH2:5][CH2:6][N:7]2[CH2:8][CH2:9][CH2:10][CH2:11][C@@H:12]12",
+      "mapping_confidence": 0.9931375588389723,
+      "conditions": {
+        "raw_description": "TBAF; THF; 45\u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_10",
+      "reaction_smiles": "O=CC=O.C=CCBr.[Cl][Sn][Cl].[I-].[K+].O>>C=CCC(O)C(O)CC=C",
+      "reaction_smiles_mapped": "Br[CH2:8][CH:9]=[CH2:10].[CH:1]([CH:3]=[O:5])=[O:7]>O.[Cl][Sn][Cl].[I-].[K+]>[CH2:1]=[CH:2][CH2:3][CH:4]([OH:5])[CH:6]([OH:7])[CH2:8][CH:9]=[CH2:10]",
+      "mapping_confidence": 0.2567789052929937,
+      "conditions": {
+        "raw_description": "SnCl2; KI; H2O; 45\u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "SnCl2",
+          "KI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl[Sn]Cl",
+          "[K+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lupinine_2010_Mann_11",
+      "reaction_smiles": "C=CCC(O)C(O)CC=C.[Na+].[O-][I+3]([O-])([O-])[O-].ClCCl.O>>C=CCC=O",
+      "reaction_smiles_mapped": "C=CCC(O)[CH:4]([CH2:3][CH:2]=[CH2:1])[OH:5]>ClCCl.O.[Na+].[O-][I+3]([O-])([O-])[O-]>[CH2:1]=[CH:2][CH2:3][CH:4]=[O:5]",
+      "mapping_confidence": 0.8443437486921295,
+      "conditions": {
+        "raw_description": "NaIO4; DCM; H2O; 0\u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

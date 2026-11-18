@@ -1,0 +1,335 @@
+{
+  "background": {
+    "name": "(+)-Halomon",
+    "author": "Burns",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2015, 137, 12784",
+    "doi": "10.1021/jacs.5b08398"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Halomon_2015_Burns_1",
+      "reaction_smiles": "C=CC(=C)CCC=C(C)C.O=[Se]=O.ClCCl.CC(C)(C)OO>>C=CC(=C)CC/C=C(\\C)CO",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6][CH:7]=[C:8]([CH3:9])[CH3:10].CC(C)(C)O[OH:11]>O=[Se]=O.ClCCl>[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6]/[CH:7]=[C:8](\\[CH3:9])[CH2:10][OH:11]",
+      "mapping_confidence": 0.6711163291400574,
+      "conditions": {
+        "raw_description": "t-BuOOH; SeO2; DCM; 25%",
+        "GENERAL_REAGENTS": [
+          "SeO2",
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Se]=O",
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "25%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_2",
+      "reaction_smiles": "C=CC(=C)CC/C=C(\\C)CO.CC(C)(C)c1cc(/C=N/[C@@H](c2ccccc2)[C@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.O=C1CCC(=O)N1Br.CC(C)O[Ti](Cl)(OC(C)C)OC(C)C.CCCC(C)C>>C=CC(=C)CC[C@@H](Br)[C@@](C)(Cl)CO",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6]/[CH:7]=[C:9](\\[CH3:10])[CH2:12][OH:13].CC(C)O[Ti](OC(C)C)(OC(C)C)[Cl:11].O=C1CCC(=O)N1[Br:8]>CC(C)(C)c1cc(/C=N/[C@@H](c2ccccc2)[C@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.CCCC(C)C>[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6][C@@H:7]([Br:8])[C@@:9]([CH3:10])([Cl:11])[CH2:12][OH:13]",
+      "mapping_confidence": 0.9239947230104782,
+      "conditions": {
+        "raw_description": "NBS; ClTi(OiPr)3; hexanes; -20 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [
+          "ClTi(OiPr)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](OC(C)C)(OC(C)C)OC(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexanes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCC(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_3",
+      "reaction_smiles": "C=CC(=C)CC[C@@H](Br)[C@@](C)(Cl)CO.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>C=CC(=C)CC[C@@H](Br)[C@@](C)(Cl)COS(=O)(=O)C(F)(F)F",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6][C@@H:7]([Br:8])[C@@:9]([CH3:10])([Cl:11])[CH2:12][OH:13].O=S(=O)(O[S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])C(F)(F)F>ClCCl.Cc1cccc(C)n1>[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6][C@@H:7]([Br:8])[C@@:9]([CH3:10])([Cl:11])[CH2:12][O:13][S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20]",
+      "mapping_confidence": 0.1497482821672938,
+      "conditions": {
+        "raw_description": "Tf2O; 2,6-lut.; DCM; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Tf2O",
+          "2,6-lut."
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F",
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_4",
+      "reaction_smiles": "C=CC(=C)CC[C@@H](Br)[C@@](C)(Cl)COS(=O)(=O)C(F)(F)F.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>C=CC(=C)CC[C@@H](Br)C(C)(C)Cl",
+      "reaction_smiles_mapped": "O=S(=O)(O[CH2:11][C@:9]([C@@H:7]([CH2:6][CH2:5][C:3]([CH:2]=[CH2:1])=[CH2:4])[Br:8])([CH3:10])[Cl:12])C(F)(F)F>CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>[CH2:1]=[CH:2][C:3](=[CH2:4])[CH2:5][CH2:6][C@@H:7]([Br:8])[C:9]([CH3:10])([CH3:11])[Cl:12]",
+      "mapping_confidence": 0.8595222588524324,
+      "conditions": {
+        "raw_description": "L-selectride; THF; -78 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "L-selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].CCC(C)[BH-](C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_5",
+      "reaction_smiles": "C=CC(=C)CC[C@@H](Br)C(C)(C)Cl.BrBr.O=C([O-])[O-].[K+].[K+].CCCC(C)C>>CC(C)(Cl)[C@H](Br)CC/C(=C\\CBr)CBr",
+      "reaction_smiles_mapped": "[Br:12][Br:14].[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8][C:9]([CH:10]=[CH2:11])=[CH2:13]>O=C([O-])[O-].[K+].[K+].CCCC(C)C>[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8]/[C:9](=[CH:10]\\[CH2:11][Br:12])[CH2:13][Br:14]",
+      "mapping_confidence": 0.2620327227218181,
+      "conditions": {
+        "raw_description": "Br2; K2CO3; hexanes",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexanes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCC(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_6",
+      "reaction_smiles": "CC(C)(Cl)[C@H](Br)CC/C(=C\\CBr)CBr.CN(C)C=O.[Li]OC(C)=O>>CC(=O)OC/C=C(/CBr)CC[C@@H](Br)C(C)(C)Cl",
+      "reaction_smiles_mapped": "Br[CH2:5]/[CH:6]=[C:7](/[CH2:8][Br:9])[CH2:10][CH2:11][C@@H:12]([Br:13])[C:14]([CH3:15])([CH3:16])[Cl:17].[Li][O:4][C:2]([CH3:1])=[O:3]>CN(C)C=O>[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[CH:6]=[C:7](/[CH2:8][Br:9])[CH2:10][CH2:11][C@@H:12]([Br:13])[C:14]([CH3:15])([CH3:16])[Cl:17]",
+      "mapping_confidence": 0.7179574367590917,
+      "conditions": {
+        "raw_description": "LiOAc; DMF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_7",
+      "reaction_smiles": "CC(=O)OC/C=C(/CBr)CC[C@@H](Br)C(C)(C)Cl.O=C([O-])[O-].[K+].[K+].CO>>CC(C)(Cl)[C@H](Br)CC/C(=C\\CO)CBr",
+      "reaction_smiles_mapped": "CC(=O)[O:12][CH2:11]/[CH:10]=[C:9](\\[CH2:8][CH2:7][C@H:5]([C:2]([CH3:1])([CH3:3])[Cl:4])[Br:6])[CH2:13][Br:14]>O=C([O-])[O-].[K+].[K+].CO>[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8]/[C:9](=[CH:10]\\[CH2:11][OH:12])[CH2:13][Br:14]",
+      "mapping_confidence": 0.637391927779378,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 39% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "39% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_8",
+      "reaction_smiles": "CC(C)(Cl)[C@H](Br)CC/C(=C\\CO)CBr.CC(C)(C)c1cc(/C=N/[C@H](c2ccccc2)[C@@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.CC(C)(C)OCl.CC(C)(C)OCl.CC(C)O[Ti](Cl)(OC(C)C)OC(C)C.CCCC(C)C>>CC(C)(Cl)[C@H](Br)CC[C@@](Cl)(CBr)[C@@H](Cl)CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[Cl:10].CC(C)(C)O[Cl:14].[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8]/[C:9]([CH2:11][Br:12])=[CH:13]\\[CH2:15][OH:16]>CC(C)(C)c1cc(/C=N/[C@H](c2ccccc2)[C@@H](O)c2ccccc2)c(O)c(C(C)(C)C)c1.CC(C)O[Ti](Cl)(OC(C)C)OC(C)C.CCCC(C)C>[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8][C@@:9]([Cl:10])([CH2:11][Br:12])[C@@H:13]([Cl:14])[CH2:15][OH:16]",
+      "mapping_confidence": 0.21587568288602246,
+      "conditions": {
+        "raw_description": "t-BuOCl; ClTi(OiPr)3; hexanes; -20 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "t-BuOCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OCl"
+        ],
+        "CATALYSTS": [
+          "ClTi(OiPr)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](OC(C)C)(OC(C)C)OC(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexanes"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCC(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_9",
+      "reaction_smiles": "CC(C)(Cl)[C@H](Br)CC[C@@](Cl)(CBr)[C@@H](Cl)CO.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>CC(C)(Cl)[C@H](Br)CC[C@@](Cl)(CBr)[C@@H](Cl)COS(=O)(=O)C(F)(F)F",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8][C@@:9]([Cl:10])([CH2:11][Br:12])[C@@H:13]([Cl:14])[CH2:15][OH:16].O=S(=O)(O[S:17](=[O:18])(=[O:19])[C:20]([F:21])([F:22])[F:23])C(F)(F)F>ClCCl.Cc1cccc(C)n1>[CH3:1][C:2]([CH3:3])([Cl:4])[C@H:5]([Br:6])[CH2:7][CH2:8][C@@:9]([Cl:10])([CH2:11][Br:12])[C@@H:13]([Cl:14])[CH2:15][O:16][S:17](=[O:18])(=[O:19])[C:20]([F:21])([F:22])[F:23]",
+      "mapping_confidence": 0.0880893782473333,
+      "conditions": {
+        "raw_description": "Tf2O; 2,6-lut.; DCM; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Tf2O",
+          "2,6-lut."
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F",
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Halomon_2015_Burns_10",
+      "reaction_smiles": "CC(C)(Cl)[C@H](Br)CC[C@@](Cl)(CBr)[C@@H](Cl)COS(=O)(=O)C(F)(F)F.[Na+].[OH-].C1CCOC1>>C=C(Cl)[C@](Cl)(CBr)CC[C@@H](Br)C(C)(C)Cl",
+      "reaction_smiles_mapped": "O=S(=O)(O[CH2:1][C@H:2]([Cl:3])[C@:4]([Cl:5])([CH2:6][Br:7])[CH2:8][CH2:9][C@@H:10]([Br:11])[C:12]([CH3:13])([CH3:14])[Cl:15])C(F)(F)F>[Na+].[OH-].C1CCOC1>[CH2:1]=[C:2]([Cl:3])[C@:4]([Cl:5])([CH2:6][Br:7])[CH2:8][CH2:9][C@@H:10]([Br:11])[C:12]([CH3:13])([CH3:14])[Cl:15]",
+      "mapping_confidence": 0.7183392798679133,
+      "conditions": {
+        "raw_description": "NaOH (aq); THF; 0 \u00b0C; 69% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "69% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

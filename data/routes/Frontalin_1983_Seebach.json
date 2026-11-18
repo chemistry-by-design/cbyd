@@ -1,0 +1,182 @@
+{
+  "background": {
+    "name": "(+)-Frontalin",
+    "author": "Seebach",
+    "year": 1983,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Liebigs. Ann. Chem. 1983, 1930",
+    "doi": "10.1002/jlac.198319831108"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Frontalin_1983_Seebach_1",
+      "reaction_smiles": "CC(=O)CCCCl.[Na+].[I-].CC(C)=O>>CC(=O)CCCI",
+      "reaction_smiles_mapped": "Cl[CH2:6][CH2:5][CH2:4][C:2]([CH3:1])=[O:3].[I-:7]>[Na+].CC(C)=O>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH2:6][I:7]",
+      "mapping_confidence": 0.663477192758871,
+      "conditions": {
+        "raw_description": "NaI; acetone; 3 h; reflux; 85%",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frontalin_1983_Seebach_2",
+      "reaction_smiles": "CC(=O)CCCI.Cc1ccc(S(=O)(=O)O)cc1.COC(C)(C)OC>>COC(C)(CCCI)OC",
+      "reaction_smiles_mapped": "[O:2]=[C:3]([CH3:4])[CH2:5][CH2:6][CH2:7][I:8].CC(C)(O[CH3:1])[O:9][CH3:10]>Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][O:2][C:3]([CH3:4])([CH2:5][CH2:6][CH2:7][I:8])[O:9][CH3:10]",
+      "mapping_confidence": 0.5136970750604135,
+      "conditions": {
+        "raw_description": "PTSA; Me2C(OMe)2; 3 h; 75 8 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "Me2C(OMe)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(OC)OC"
+        ],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frontalin_1983_Seebach_3",
+      "reaction_smiles": "COC(C)(CCCI)OC.C[C@H]1O[C@H](C(C)(C)C)OC1=O.[Li]N(C(C)C)C(C)C>>COC(C)(CCC[C@@]1(C)O[C@H](C(C)(C)C)OC1=O)OC",
+      "reaction_smiles_mapped": "I[CH2:7][CH2:6][CH2:5][C:3]([O:2][CH3:1])([CH3:4])[O:19][CH3:20].[C@H:8]1([CH3:9])[O:10][C@H:11]([C:12]([CH3:13])([CH3:14])[CH3:15])[O:16][C:17]1=[O:18]>[Li]N(C(C)C)C(C)C>[CH3:1][O:2][C:3]([CH3:4])([CH2:5][CH2:6][CH2:7][C@@:8]1([CH3:9])[O:10][C@H:11]([C:12]([CH3:13])([CH3:14])[CH3:15])[O:16][C:17]1=[O:18])[O:19][CH3:20]",
+      "mapping_confidence": 0.48896134782228573,
+      "conditions": {
+        "raw_description": "LDA; -78 8 \u00b0C; 12 h; rt; 88%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frontalin_1983_Seebach_4",
+      "reaction_smiles": "COC(C)(CCC[C@@]1(C)O[C@H](C(C)(C)C)OC1=O)OC.[AlH4-].[Li+]>>COC(C)(CCC[C@@](C)(O)CO)OC",
+      "reaction_smiles_mapped": "CC(C)(C)[C@H]1[O:10][C@@:8]([CH2:7][CH2:6][CH2:5][C:3]([O:2][CH3:1])([CH3:4])[O:13][CH3:14])([CH3:9])[C:11](=O)[O:12]1>[AlH4-].[Li+]>[CH3:1][O:2][C:3]([CH3:4])([CH2:5][CH2:6][CH2:7][C@@:8]([CH3:9])([OH:10])[CH2:11][OH:12])[O:13][CH3:14]",
+      "mapping_confidence": 0.5094838359042462,
+      "conditions": {
+        "raw_description": "LiAlH; 20 h; rt; 93%",
+        "GENERAL_REAGENTS": [
+          "LiAlH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frontalin_1983_Seebach_5",
+      "reaction_smiles": "COC(C)(CCC[C@@](C)(O)CO)OC.Cc1ccc(S(=O)(=O)O)cc1>>C[C@@]12CCC[C@@](C)(OC1)O2",
+      "reaction_smiles_mapped": "CO[C:2](OC)([CH3:1])[CH2:3][CH2:4][CH2:5][C@:6]([CH3:7])([CH2:8][OH:9])[OH:10]>Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C@:6]([CH3:7])([CH2:8][O:9]1)[O:10]2",
+      "mapping_confidence": 0.9464509910953255,
+      "conditions": {
+        "raw_description": "PTSA; 97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frontalin_1983_Seebach_6",
+      "reaction_smiles": "C[C@H](O)C(=O)O.CC(C)(C)C=O>>C[C@H]1O[C@H](C(C)(C)C)OC1=O",
+      "reaction_smiles_mapped": "O=[CH:4][C:5]([CH3:6])([CH3:7])[CH3:8].[CH3:1][C@H:2]([OH:3])[C:10]([OH:9])=[O:11]>>[CH3:1][C@H:2]1[O:3][C@H:4]([C:5]([CH3:6])([CH3:7])[CH3:8])[O:9][C:10]1=[O:11]",
+      "mapping_confidence": 0.3190683402431057,
+      "conditions": {
+        "raw_description": "t-BuCHO",
+        "GENERAL_REAGENTS": [
+          "t-BuCHO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)C=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

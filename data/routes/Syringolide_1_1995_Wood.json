@@ -1,0 +1,211 @@
+{
+  "background": {
+    "name": "(+)-Syringolide 1",
+    "author": "Wood",
+    "year": 1995,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1995, 60, 286",
+    "doi": "10.1021/jo00107a001"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_1",
+      "reaction_smiles": "CC1(C)O[C@H](CO)[C@@H](CO)O1.[H-].[Na+].C1CCOC1.CC(C)(C)[Si](C)(C)Cl>>CC1(C)O[C@H](CO)[C@@H](CO[Si](C)(C)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "Cl[Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17].[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([CH2:6][OH:7])[C@@H:8]([CH2:9][OH:10])[O:18]1>[H-].[Na+].C1CCOC1>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([CH2:6][OH:7])[C@@H:8]([CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[O:18]1",
+      "mapping_confidence": 0.4253771766066858,
+      "conditions": {
+        "raw_description": "NaH; THF; TBSCl; 65%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "TBSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CC(C)(C)[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_2",
+      "reaction_smiles": "CC1(C)O[C@H](CO)[C@@H](CO[Si](C)(C)C(C)(C)C)O1.[O-][I+3]([O-])([O-])[O-].[Na+].ClC(Cl)(Cl)Cl.CC#N.O.Cl[Ru](Cl)Cl>>CC1(C)O[C@H](C(=O)O)[C@@H](CO[Si](C)(C)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([CH2:6][OH:8])[C@@H:9]([CH2:10][O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[O:19]1.[OH2:7]>[O-][I+3]([O-])([O-])[O-].[Na+].ClC(Cl)(Cl)Cl.CC#N.Cl[Ru](Cl)Cl>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([C:6](=[O:7])[OH:8])[C@@H:9]([CH2:10][O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[O:19]1",
+      "mapping_confidence": 0.10709717839289999,
+      "conditions": {
+        "raw_description": "RuCl3; NaIO4; CCl4/CH3CN/H2O",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [
+          "RuCl3",
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ru](Cl)Cl",
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_3",
+      "reaction_smiles": "CC1(C)O[C@H](C(=O)O)[C@@H](CO[Si](C)(C)C(C)(C)C)O1.CCN(CC)CC.C1CCOC1.CCOCC.CCOC(=O)Cl.C=[N+]=[N-]>>CC1(C)O[C@H](C(=O)C=[N+]=[N-])[C@@H](CO[Si](C)(C)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "[CH2:8]=[N+:9]=[N-:10].O[C:6]([C@H:5]1[O:4][C:2]([CH3:1])([CH3:3])[O:21][C@@H:11]1[CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])=[O:7]>CCN(CC)CC.C1CCOC1.CCOCC.CCOC(=O)Cl>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([C:6](=[O:7])[CH:8]=[N+:9]=[N-:10])[C@@H:11]([CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[O:21]1",
+      "mapping_confidence": 0.21185239802128383,
+      "conditions": {
+        "raw_description": "1) EtOC(O)Cl; Et3N; THF; -10 \u00b0C; 2) CH2N2/Et2O; 50% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "EtOC(O)Cl",
+          "Et3N",
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(=O)Cl",
+          "CCN(CC)CC",
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "50% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_4",
+      "reaction_smiles": "CC1(C)O[C@H](C(=O)C=[N+]=[N-])[C@@H](CO[Si](C)(C)C(C)(C)C)O1.Br.CCOCC>>CC1(C)O[C@H](C(=O)CBr)[C@@H](CO[Si](C)(C)C(C)(C)C)O1",
+      "reaction_smiles_mapped": "[BrH:9].[N-]=[N+]=[CH:8][C:6]([C@H:5]1[O:4][C:2]([CH3:1])([CH3:3])[O:20][C@@H:10]1[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])=[O:7]>CCOCC>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]([C:6](=[O:7])[CH2:8][Br:9])[C@@H:10]([CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[O:20]1",
+      "mapping_confidence": 0.2611324220654163,
+      "conditions": {
+        "raw_description": "HBr/Et2O; -78 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_5",
+      "reaction_smiles": "CC1(C)O[C@H](C(=O)CBr)[C@@H](CO[Si](C)(C)C(C)(C)C)O1.CCCCCC(=O)CC(=O)O.O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>>CCCCCC(=O)C1=C([C@H]2OC(C)(C)O[C@@H]2CO[Si](C)(C)C(C)(C)C)COC1=O",
+      "reaction_smiles_mapped": "O=[C:9]([C@H:10]1[O:11][C:12]([CH3:13])([CH3:14])[O:15][C@@H:16]1[CH2:17][O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25])[CH2:26]Br.[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])[CH2:8][C:28]([OH:27])=[O:29]>O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])[C:8]1=[C:9]([C@H:10]2[O:11][C:12]([CH3:13])([CH3:14])[O:15][C@@H:16]2[CH2:17][O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25])[CH2:26][O:27][C:28]1=[O:29]",
+      "mapping_confidence": 0.2649231316091871,
+      "conditions": {
+        "raw_description": "Cs2CO3; DMF; 78%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Syringolide_1_1995_Wood_6",
+      "reaction_smiles": "CCCCCC(=O)C1=C([C@H]2OC(C)(C)O[C@@H]2CO[Si](C)(C)C(C)(C)C)COC1=O.Cl.C1CCOC1>>CCCCC[C@@]1(O)O[C@H]2[C@H](O)CO[C@]23COC(=O)[C@@H]31",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:13][CH2:12][C@@H:10]1[C@@H:9]([C:14]2=[C:19]([C:6]([CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])=[O:7])[C:17](=[O:18])[O:16][CH2:15]2)[O:8]C(C)(C)[O:11]1>Cl.C1CCOC1>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][C@@:6]1([OH:7])[O:8][C@H:9]2[C@H:10]([OH:11])[CH2:12][O:13][C@:14]23[CH2:15][O:16][C:17](=[O:18])[C@H:19]13",
+      "mapping_confidence": 0.89176633633753,
+      "conditions": {
+        "raw_description": "HCl; THF; 15%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "15%"
+        ]
+      }
+    }
+  ]
+}

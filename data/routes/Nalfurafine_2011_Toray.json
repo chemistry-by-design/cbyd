@@ -1,0 +1,161 @@
+{
+  "background": {
+    "name": "Nalfurafine",
+    "author": null,
+    "year": 2011,
+    "drug_name": "Remitch",
+    "manufacturer": "Toray",
+    "citation": "Bioorg. Med. Chem. 2011, 19, 1136",
+    "doi": "10.1016/j.bmc.2010.12.038"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Nalfurafine_2011_Toray_1",
+      "reaction_smiles": "O=C(O)c1ccccc1.O=C1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.CNCc1ccccc1.C1CCOC1>>C/[N+](Cc1ccccc1)=C1/CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][CH2:3][c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1.O=[C:10]1[CH2:11][CH2:12][C@@:13]2([OH:14])[C@H:15]3[CH2:16][c:17]4[cH:18][cH:19][c:20]([OH:21])[c:22]5[c:23]4[C@@:24]2([CH2:25][CH2:26][N:27]3[CH2:28][CH:29]2[CH2:30][CH2:31]2)[C@H:32]1[O:33]5>O=C(O)c1ccccc1.C1CCOC1>[CH3:1]/[N+:2]([CH2:3][c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)=[C:10]1/[CH2:11][CH2:12][C@@:13]2([OH:14])[C@H:15]3[CH2:16][c:17]4[cH:18][cH:19][c:20]([OH:21])[c:22]5[c:23]4[C@@:24]2([CH2:25][CH2:26][N:27]3[CH2:28][CH:29]2[CH2:30][CH2:31]2)[C@H:32]1[O:33]5",
+      "mapping_confidence": 0.8856177871522495,
+      "conditions": {
+        "raw_description": "4\u00c5; THF; reflux; 88% (2 steps); CNCc1ccccc1",
+        "GENERAL_REAGENTS": [
+          "CNCc1ccccc1"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CNCc1ccccc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nalfurafine_2011_Toray_2",
+      "reaction_smiles": "C/[N+](Cc1ccccc1)=C1/CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.[BH3-]C#N.[Na+]>>CN(Cc1ccccc1)[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "[CH3:1]/[N+:2]([CH2:3][c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)=[C:10]1/[CH2:11][CH2:12][C@@:13]2([OH:14])[C@H:15]3[CH2:16][c:17]4[cH:18][cH:19][c:20]([OH:21])[c:22]5[c:23]4[C@@:24]2([CH2:25][CH2:26][N:27]3[CH2:28][CH:29]2[CH2:30][CH2:31]2)[C@H:32]1[O:33]5>[BH3-]C#N.[Na+]>[CH3:1][N:2]([CH2:3][c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)[C@@H:10]1[CH2:11][CH2:12][C@@:13]2([OH:14])[C@H:15]3[CH2:16][c:17]4[cH:18][cH:19][c:20]([OH:21])[c:22]5[c:23]4[C@@:24]2([CH2:25][CH2:26][N:27]3[CH2:28][CH:29]2[CH2:30][CH2:31]2)[C@H:32]1[O:33]5",
+      "mapping_confidence": 0.923709786316944,
+      "conditions": {
+        "raw_description": "NaBH3CN; 88% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nalfurafine_2011_Toray_3",
+      "reaction_smiles": "CN(Cc1ccccc1)[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.O=C(O)c1ccccc1C(=O)O.[HH].[C].[Pd].CO>>CN[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "c1ccc(C[N:2]([CH3:1])[C@@H:3]2[CH2:4][CH2:5][C@@:6]3([OH:7])[C@H:8]4[CH2:9][c:10]5[cH:11][cH:12][c:13]([OH:14])[c:15]6[c:16]5[C@@:17]3([CH2:18][CH2:19][N:20]4[CH2:21][CH:22]3[CH2:23][CH2:24]3)[C@H:25]2[O:26]6)cc1>O=C(O)c1ccccc1C(=O)O.[HH].[C].[Pd].CO>[CH3:1][NH:2][C@@H:3]1[CH2:4][CH2:5][C@@:6]2([OH:7])[C@H:8]3[CH2:9][c:10]4[cH:11][cH:12][c:13]([OH:14])[c:15]5[c:16]4[C@@:17]2([CH2:18][CH2:19][N:20]3[CH2:21][CH:22]2[CH2:23][CH2:24]2)[C@H:25]1[O:26]5",
+      "mapping_confidence": 0.957094942346043,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; 54%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Nalfurafine_2011_Toray_4",
+      "reaction_smiles": "CN[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.O=C(Cl)/C=C/c1ccoc1.O=C([O-])O.[Na+].C1CCOC1.O>>CN(C(=O)/C=C/c1ccoc1)[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][C@@H:12]1[CH2:13][CH2:14][C@@:15]2([OH:16])[C@H:17]3[CH2:18][c:19]4[cH:20][cH:21][c:22]([OH:23])[c:24]5[c:25]4[C@@:26]2([CH2:27][CH2:28][N:29]3[CH2:30][CH:31]2[CH2:32][CH2:33]2)[C@H:34]1[O:35]5.Cl[C:3](=[O:4])/[CH:5]=[CH:6]/[c:7]1[cH:8][cH:9][o:10][cH:11]1>O=C([O-])O.[Na+].C1CCOC1.O>[CH3:1][N:2]([C:3](=[O:4])/[CH:5]=[CH:6]/[c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@H:12]1[CH2:13][CH2:14][C@@:15]2([OH:16])[C@H:17]3[CH2:18][c:19]4[cH:20][cH:21][c:22]([OH:23])[c:24]5[c:25]4[C@@:26]2([CH2:27][CH2:28][N:29]3[CH2:30][CH:31]2[CH2:32][CH2:33]2)[C@H:34]1[O:35]5",
+      "mapping_confidence": 0.9497336358383492,
+      "conditions": {
+        "raw_description": "NaHCO3; THF; H2O",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nalfurafine_2011_Toray_5",
+      "reaction_smiles": "CN(C(=O)/C=C/c1ccoc1)[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.Cl>>CN(C(=O)/C=C/c1ccoc1)[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "[CH3:1][N:2]([C:3](=[O:4])/[CH:5]=[CH:6]/[c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@H:12]1[CH2:13][CH2:14][C@@:15]2([OH:16])[C@H:17]3[CH2:18][c:19]4[cH:20][cH:21][c:22]([OH:23])[c:24]5[c:25]4[C@@:26]2([CH2:27][CH2:28][N:29]3[CH2:30][CH:31]2[CH2:32][CH2:33]2)[C@H:34]1[O:35]5>Cl>[CH3:1][N:2]([C:3](=[O:4])/[CH:5]=[CH:6]/[c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@H:12]1[CH2:13][CH2:14][C@@:15]2([OH:16])[C@H:17]3[CH2:18][c:19]4[cH:20][cH:21][c:22]([OH:23])[c:24]5[c:25]4[C@@:26]2([CH2:27][CH2:28][N:29]3[CH2:30][CH:31]2[CH2:32][CH2:33]2)[C@H:34]1[O:35]5",
+      "mapping_confidence": 0.9668628175545024,
+      "conditions": {
+        "raw_description": "80% (2 steps); Cl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    }
+  ]
+}

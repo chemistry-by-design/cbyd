@@ -1,0 +1,189 @@
+{
+  "background": {
+    "name": "Minodronic acid",
+    "author": null,
+    "year": 2011,
+    "drug_name": "Bonoteo",
+    "manufacturer": "Astellas",
+    "citation": "Bioorg. Med. Chem. 2011, 19, 1136",
+    "doi": "10.1016/j.bmc.2010.12.038"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_1",
+      "reaction_smiles": "CCOC(=O)CCC(=O)Cl.CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+].C1CCOC1>>CCOC(=O)CCC=O",
+      "reaction_smiles_mapped": "Cl[C:8]([CH2:7][CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])=[O:9]>CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+].C1CCOC1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH:8]=[O:9]",
+      "mapping_confidence": 0.9891793744235422,
+      "conditions": {
+        "raw_description": "LiAlH(OtBu)3; THF; 61%",
+        "GENERAL_REAGENTS": [
+          "LiAlH(OtBu)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_2",
+      "reaction_smiles": "CCOC(=O)CCC=O.C[Si](C)(C)Cl.CCN(CC)CC>>CCOC(=O)C/C=C\\O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH:8]=[O:9].Cl[Si:10]([CH3:11])([CH3:12])[CH3:13]>CCN(CC)CC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6]/[CH:7]=[CH:8]\\[O:9][Si:10]([CH3:11])([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.42783156594924837,
+      "conditions": {
+        "raw_description": "TMSCl; Et3N",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_3",
+      "reaction_smiles": "CCOC(=O)C/C=C\\O[Si](C)(C)C.BrBr.ClC(Cl)(Cl)Cl>>CCOC(=O)CC(Br)C=O",
+      "reaction_smiles_mapped": "Br[Br:8].C[Si](C)(C)[O:10]/[CH:9]=[CH:7]\\[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>ClC(Cl)(Cl)Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]([Br:8])[CH:9]=[O:10]",
+      "mapping_confidence": 0.4996579731881496,
+      "conditions": {
+        "raw_description": "Br2; CCl4; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_4",
+      "reaction_smiles": "CCOC(=O)CC(Br)C=O.Nc1ccccn1.CCN(CC)CC.CCO>>CCOC(=O)Cc1cnc2ccccn12",
+      "reaction_smiles_mapped": "O=[CH:8][CH:7](Br)[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5].[NH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][n:15]1>CCN(CC)CC.CCO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][c:7]1[cH:8][n:9][c:10]2[cH:11][cH:12][cH:13][cH:14][n:15]12",
+      "mapping_confidence": 0.9576939281633057,
+      "conditions": {
+        "raw_description": "Et3N; EtOH; reflux; 50%; Nc1ccccn1",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_5",
+      "reaction_smiles": "CCOC(=O)Cc1cnc2ccccn12.Cl.ClCCl>>O=C(O)Cc1cnc2ccccn12",
+      "reaction_smiles_mapped": "CC[O:3][C:2](=[O:1])[CH2:4][c:5]1[cH:6][n:7][c:8]2[cH:9][cH:10][cH:11][cH:12][n:13]12>Cl.ClCCl>[O:1]=[C:2]([OH:3])[CH2:4][c:5]1[cH:6][n:7][c:8]2[cH:9][cH:10][cH:11][cH:12][n:13]12",
+      "mapping_confidence": 0.9919731849191308,
+      "conditions": {
+        "raw_description": "HCl; DCM; 58%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Minodronic_acid_2011_Astellas_6",
+      "reaction_smiles": "O=C(O)Cc1cnc2ccccn12.O=[PH](O)O.Cc1ccccc1>>O=P(O)(O)C(O)(Cc1cnc2ccccn12)P(=O)(O)O",
+      "reaction_smiles_mapped": "[O:1]=[C:5]([OH:6])[CH2:7][c:8]1[cH:9][n:10][c:11]2[cH:12][cH:13][cH:14][cH:15][n:16]12.[PH:2]([OH:3])([OH:4])=[O:18]>Cc1ccccc1>[O:1]=[P:2]([OH:3])([OH:4])[C:5]([OH:6])([CH2:7][c:8]1[cH:9][n:10][c:11]2[cH:12][cH:13][cH:14][cH:15][n:16]12)[P:17](=[O:18])([OH:19])[OH:20]",
+      "mapping_confidence": 0.3963943519833917,
+      "conditions": {
+        "raw_description": "H3PO3; Toluene; reflux; 53%",
+        "GENERAL_REAGENTS": [
+          "H3PO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[PH](=O)(O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    }
+  ]
+}

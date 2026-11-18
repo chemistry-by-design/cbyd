@@ -1,0 +1,235 @@
+{
+  "background": {
+    "name": "(+/-)-Desbromopanacene",
+    "author": "Canesi",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2008, 10, 4629",
+    "doi": "10.1021/ol801921d"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_1",
+      "reaction_smiles": "CCc1cccc(O)c1.C1=COCCC1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>>CCc1cccc(OC2CCCCO2)c1",
+      "reaction_smiles_mapped": "[CH:9]1=[CH:10][CH2:11][CH2:12][CH2:13][O:14]1.[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:7]([OH:8])[cH:15]1>Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:7]([O:8][CH:9]2[CH2:10][CH2:11][CH2:12][CH2:13][O:14]2)[cH:15]1",
+      "mapping_confidence": 0.9470786076208916,
+      "conditions": {
+        "raw_description": "PPTS; CH2Cl2; 99%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_2",
+      "reaction_smiles": "CCc1cccc(OC2CCCCO2)c1.C[Si](C)(C)Cl.[Li]CCCC.C1CCOC1>>CCc1ccc([Si](C)(C)C)c(OC2CCCCO2)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:11]([O:12][CH:13]2[CH2:14][CH2:15][CH2:16][CH2:17][O:18]2)[cH:19]1.Cl[Si:7]([CH3:8])([CH3:9])[CH3:10]>[Li]CCCC.C1CCOC1>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][c:6]([Si:7]([CH3:8])([CH3:9])[CH3:10])[c:11]([O:12][CH:13]2[CH2:14][CH2:15][CH2:16][CH2:17][O:18]2)[cH:19]1",
+      "mapping_confidence": 0.3563708292937688,
+      "conditions": {
+        "raw_description": "TMSCl; nBuLi; THF; 94%",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_3",
+      "reaction_smiles": "CCc1ccc([Si](C)(C)C)c(OC2CCCCO2)c1.O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Ce+4].[NH4+].[NH4+].CC#N.O>>CCc1ccc([Si](C)(C)C)c(O)c1",
+      "reaction_smiles_mapped": "C1CCC([O:12][c:11]2[c:6]([Si:7]([CH3:8])([CH3:9])[CH3:10])[cH:5][cH:4][c:3]([CH2:2][CH3:1])[cH:13]2)OC1>O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Ce+4].[NH4+].[NH4+].CC#N.O>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][c:6]([Si:7]([CH3:8])([CH3:9])[CH3:10])[c:11]([OH:12])[cH:13]1",
+      "mapping_confidence": 0.43676589848606473,
+      "conditions": {
+        "raw_description": "CAN; MeCN; H2O; 76%",
+        "GENERAL_REAGENTS": [
+          "CAN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_4",
+      "reaction_smiles": "CCc1ccc([Si](C)(C)C)c(O)c1.c1ccoc1.CC(=O)OI(OC(C)=O)c1ccccc1.OCC(F)(F)F>>CCc1ccc([Si](C)(C)C)c2c1[C@@H]1OC=C[C@@H]1O2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][c:3]1[cH:4][cH:5][c:6]([Si:7]([CH3:8])([CH3:9])[CH3:10])[c:11]([OH:18])[cH:12]1.[cH:13]1[o:14][cH:15][cH:16][cH:17]1>CC(=O)OI(OC(C)=O)c1ccccc1.OCC(F)(F)F>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][c:6]([Si:7]([CH3:8])([CH3:9])[CH3:10])[c:11]2[c:12]1[C@@H:13]1[O:14][CH:15]=[CH:16][C@@H:17]1[O:18]2",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PIDA; TFE",
+        "GENERAL_REAGENTS": [
+          "PIDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TFE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(C(F)(F)F)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_5",
+      "reaction_smiles": "CCc1ccc([Si](C)(C)C)c2c1[C@@H]1OC=C[C@@H]1O2.CCCC[N+](CCCC)(CCCC)CCCC.[F-].[Cs+].[F-].CN(C)C=O>>CCc1cccc2c1[C@@H]1OC=C[C@@H]1O2",
+      "reaction_smiles_mapped": "C[Si](C)(C)[c:6]1[cH:5][cH:4][c:3]([CH2:2][CH3:1])[c:8]2[c:7]1[O:14][C@@H:13]1[C@H:9]2[O:10][CH:11]=[CH:12]1>CCCC[N+](CCCC)(CCCC)CCCC.[F-].[F-].[Cs+].CN(C)C=O>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]1[O:10][CH:11]=[CH:12][C@@H:13]1[O:14]2",
+      "mapping_confidence": 0.983468830699495,
+      "conditions": {
+        "raw_description": "TBAF; CsF; DMF; 44% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "CsF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "[Cs+].[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_6",
+      "reaction_smiles": "CCc1cccc2c1[C@@H]1OC=C[C@@H]1O2.[BH4-].[Na+].[Na+].[OH-].CC(=O)[O-].CC(=O)[O-].[Hg+2].CCOCC.O>>CCc1cccc2c1[C@@H]1OC(O)C[C@@H]1O2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]1[O:10][CH:11]=[CH:13][C@@H:14]1[O:15]2.[OH2:12]>[BH4-].[Na+].[Na+].[OH-].CC(=O)[O-].CC(=O)[O-].[Hg+2].CCOCC>[CH3:1][CH2:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C@@H:9]1[O:10][CH:11]([OH:12])[CH2:13][C@@H:14]1[O:15]2",
+      "mapping_confidence": 0.6131564836429705,
+      "conditions": {
+        "raw_description": "1) Hg(OAc)2; H2O; Et2O; 2) NaBH4; NaOH; 78%",
+        "GENERAL_REAGENTS": [
+          "NaBH4",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Hg(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Hg+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Desbromopanacene_2008_Canesi_7",
+      "reaction_smiles": "CCc1cccc2c1[C@@H]1OC(O)C[C@@H]1O2.C#CC[Si](C)(C)C.CCOCC.FB(F)F.ClCCl>>C=C=C[C@H]1C[C@@H]2Oc3cccc(CC)c3[C@@H]2O1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[CH2:3][C:2]#[CH:1].O[CH:4]1[CH2:5][C@@H:6]2[O:7][c:8]3[cH:9][cH:10][cH:11][c:12]([CH2:13][CH3:14])[c:15]3[C@@H:16]2[O:17]1>CCOCC.FB(F)F.ClCCl>[CH2:1]=[C:2]=[CH:3][C@H:4]1[CH2:5][C@@H:6]2[O:7][c:8]3[cH:9][cH:10][cH:11][c:12]([CH2:13][CH3:14])[c:15]3[C@@H:16]2[O:17]1",
+      "mapping_confidence": 0.7158449844360755,
+      "conditions": {
+        "raw_description": "BF3\u00b7Et2O; CH2Cl2; 63%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3\u00b7Et2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    }
+  ]
+}

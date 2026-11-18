@@ -1,0 +1,346 @@
+{
+  "background": {
+    "name": "(+)-Panepophenanthrin",
+    "author": "Porco",
+    "year": 2003,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2003, 42, 3913",
+    "doi": "10.1002/anie.200351862"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_1",
+      "reaction_smiles": "COc1ccc(O)cc1Br.CO.CC(=O)OI(OC(C)=O)c1ccccc1>>COC1(OC)C=CC(=O)C=C1Br",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[c:3]1([O:4][CH3:5])[cH:6][cH:7][c:8]([OH:9])[cH:10][c:11]1[Br:12]>CC(=O)OI(OC(C)=O)c1ccccc1>[CH3:1][O:2][C:3]1([O:4][CH3:5])[CH:6]=[CH:7][C:8](=[O:9])[CH:10]=[C:11]1[Br:12]",
+      "mapping_confidence": 0.9303215057176993,
+      "conditions": {
+        "raw_description": "PhI(OAc)2; MeOH; 96%",
+        "GENERAL_REAGENTS": [
+          "PhI(OAc)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_2",
+      "reaction_smiles": "COC1(OC)C=CC(=O)C=C1Br.CCC(CC)(CO)CO.c1cc[nH+]cc1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1>>CCC1(CC)COC2(C=CC(=O)C=C2Br)OC1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]([CH2:4][CH3:5])([CH2:6][OH:7])[CH2:17][OH:16].CO[C:8]1(OC)[CH:9]=[CH:10][C:11](=[O:12])[CH:13]=[C:14]1[Br:15]>c1cc[nH+]cc1.Cc1ccc(S(=O)(=O)[O-])cc1.c1ccccc1>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([CH:9]=[CH:10][C:11](=[O:12])[CH:13]=[C:14]2[Br:15])[O:16][CH2:17]1",
+      "mapping_confidence": 0.1964324238229256,
+      "conditions": {
+        "raw_description": "PPTS; benzene; 70%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_3",
+      "reaction_smiles": "CCC1(CC)COC2(C=CC(=O)C=C2Br)OC1.Cc1ccccc1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C.OOC(c1ccccc1)(c1ccccc1)c1ccccc1>>CCC1(CC)COC2(OC1)C(Br)=CC(=O)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C:14](=[O:15])[CH:16]=[CH:18]2.c1ccc(C(O[OH:17])(c2ccccc2)c2ccccc2)cc1>Cc1ccccc1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C:14](=[O:15])[C@@H:16]1[O:17][C@H:18]21",
+      "mapping_confidence": 0.27473363047646243,
+      "conditions": {
+        "raw_description": "NaHMDS; L-DIPT; Ph3COOH; toluene; 97%; 96%ee",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "L-DIPT",
+          "Ph3COOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C",
+          "c1ccc(cc1)C(OO)(c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97% (ee=96%)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_4",
+      "reaction_smiles": "CCC1(CC)COC2(OC1)C(Br)=CC(=O)[C@@H]1O[C@@H]12.C1CCOC1.CC[BH-](CC)CC.[Li+]>>CCC1(CC)COC2(OC1)C(Br)=C[C@H](O)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C:14](=[O:15])[C@@H:16]1[O:17][C@H:18]21>C1CCOC1.CC[BH-](CC)CC.[Li+]>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C@H:14]([OH:15])[C@@H:16]1[O:17][C@H:18]21",
+      "mapping_confidence": 0.812155149582343,
+      "conditions": {
+        "raw_description": "LiBEt3H; THF; -78\u00b0C; 98%",
+        "GENERAL_REAGENTS": [
+          "LiBEt3H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](CC)(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_5",
+      "reaction_smiles": "CCC1(CC)COC2(OC1)C(Br)=C[C@H](O)[C@@H]1O[C@@H]12.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1.C[O-].[Na+].CO.O=C(O)c1ccc([N+](=O)[O-])cc1>>CCC1(CC)COC2(OC1)C(Br)=C[C@@H](O)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C@H:14]([OH:15])[C@@H:16]1[O:17][C@H:18]21>CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1.C[O-].[Na+].CO.O=C(O)c1ccc([N+](=O)[O-])cc1>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C@@H:14]([OH:15])[C@@H:16]1[O:17][C@H:18]21",
+      "mapping_confidence": 0.7827047461771534,
+      "conditions": {
+        "raw_description": "1) DIAD; p-NO2PhCOOH; PPh3; THF; -50\u00b0C; 2) NaOMe; MeOH; rt; 80%",
+        "GENERAL_REAGENTS": [
+          "DIAD",
+          "p-NO2PhCOOH",
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C",
+          "C1=CC(=CC=C1[N+](=O)[O-])C(=O)O",
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-50",
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_6",
+      "reaction_smiles": "CCC1(CC)COC2(OC1)C(Br)=C[C@@H](O)[C@@H]1O[C@@H]12.c1c[nH]cn1.CN(C)C=O.CC(C)(C)[Si](C)(C)Cl>>CCC1(CC)COC2(OC1)C(Br)=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "Cl[Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22].[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C@@H:14]([OH:15])[C@@H:23]1[O:24][C@H:25]21>c1c[nH]cn1.CN(C)C=O>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11]([Br:12])=[CH:13][C@@H:14]([O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[C@@H:23]1[O:24][C@H:25]21",
+      "mapping_confidence": 0.20720263316248722,
+      "conditions": {
+        "raw_description": "TBSCl; im; DMF; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_7",
+      "reaction_smiles": "CCC1(CC)COC2(OC1)C(Br)=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H]1O[C@@H]12.CC(=O)[O-].CC(=O)[O-].[Pd+2].CN(C)C=O.C=CC(C)(C)O.O=C(O[Ag])O[Ag]>>CCC1(CC)COC2(OC1)C(/C=C/C(C)(C)O)=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "[CH2:12]=[CH:13][C:14]([CH3:15])([CH3:16])[OH:17].Br[C:11]1=[CH:18][C@@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[C@@H:28]2[O:29][C@@H:30]2[C:8]12[O:7][CH2:6][C:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:10][O:9]2>CC(=O)[O-].CC(=O)[O-].[Pd+2].CN(C)C=O.O=C(O[Ag])O[Ag]>[CH3:1][CH2:2][C:3]1([CH2:4][CH3:5])[CH2:6][O:7][C:8]2([O:9][CH2:10]1)[C:11](/[CH:12]=[CH:13]/[C:14]([CH3:15])([CH3:16])[OH:17])=[CH:18][C@@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[C@@H:28]1[O:29][C@H:30]21",
+      "mapping_confidence": 0.17751329656068948,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; Ag2CO3; 2-methylbut-3-en-2-2-ol; DMF; 90\u00b0C",
+        "GENERAL_REAGENTS": [
+          "2-methylbut-3-en-2-2-ol"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(O)C=C"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "Ag2CO3"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "[Ag]OC(=O)O[Ag]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_8",
+      "reaction_smiles": "CCC1(CC)COC2(OC1)C(/C=C/C(C)(C)O)=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H]1O[C@@H]12.CCC1(CC)COC2(OC1)C(/C=C/C(C)(C)O)=C[C@@H](O[Si](C)(C)C(C)(C)C)[C@@H]1O[C@@H]12.F.CC#N.ClCCl>>CC(C)(O)/C=C/[C@@]12[C@H]3[C@@H](O)[C@@H]4O[C@@H]4[C@]1(O)OC(C)(C)[C@H]2C=C1C(=O)[C@H]2O[C@H]2[C@H](O)[C@H]13",
+      "reaction_smiles_mapped": "CCC1(CC)CO[C:23]2([C:22](/[CH:21]=[CH:20]/[C:17]([OH:16])([CH3:18])[CH3:19])=[CH:30][C@@H:28]([O:29][Si](C)(C)C(C)(C)C)[C@H:27]3[C@@H:25]2[O:26]3)[O:24]C1.CCC1(CC)CO[C:14]2([C:7](/[CH:6]=[CH:5]/[C:2]([CH3:1])([CH3:3])[OH:4])=[CH:8][C@@H:9]([O:10][Si](C)(C)C(C)(C)C)[C@@H:11]3[O:12][C@@H:13]32)[O:15]C1>CC#N.ClCCl.F>[CH3:1][C:2]([CH3:3])([OH:4])/[CH:5]=[CH:6]/[C@@:7]12[C@H:8]3[C@@H:9]([OH:10])[C@@H:11]4[O:12][C@@H:13]4[C@:14]1([OH:15])[O:16][C:17]([CH3:18])([CH3:19])[C@H:20]2[CH:21]=[C:22]1[C:23](=[O:24])[C@H:25]2[O:26][C@H:27]2[C@H:28]([OH:29])[C@@H:30]31",
+      "mapping_confidence": 0.02246007082518387,
+      "conditions": {
+        "raw_description": "HF; MeCN/DCM; rt; 1h; 40%",
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_9",
+      "reaction_smiles": "COc1ccc(OC(C)=O)cc1.CC(=O)[O-].[Na+].BrBr.CC(=O)O>>COc1ccc(OC(C)=O)cc1Br",
+      "reaction_smiles_mapped": "Br[Br:13].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][C:8]([CH3:9])=[O:10])[cH:11][cH:12]1>CC(=O)[O-].[Na+].CC(=O)O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][C:8]([CH3:9])=[O:10])[cH:11][c:12]1[Br:13]",
+      "mapping_confidence": 0.4001456843322721,
+      "conditions": {
+        "raw_description": "NaOAc; Br2; AcOH; 93%",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "Br2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "BrBr",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Panepophenanthrin_2003_Porco_10",
+      "reaction_smiles": "COc1ccc(OC(C)=O)cc1Br.[K+].[OH-].CO>>COc1ccc(O)cc1Br",
+      "reaction_smiles_mapped": "CC(=O)[O:7][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:9]([Br:10])[cH:8]1>[K+].[OH-].CO>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([OH:7])[cH:8][c:9]1[Br:10]",
+      "mapping_confidence": 0.9869517053947978,
+      "conditions": {
+        "raw_description": "KOH; MeOH; 96%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    }
+  ]
+}

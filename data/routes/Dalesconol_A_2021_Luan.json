@@ -1,0 +1,477 @@
+{
+  "background": {
+    "name": "Dalesconol A",
+    "author": "Luan",
+    "year": 2021,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2021, 143, 21270",
+    "doi": "10.1021/jacs.1c12118"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_1",
+      "reaction_smiles": "Nc1ccc(Br)c2ccccc12.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Cc1ccccc1>>CC(C)(C)OC(=O)Nc1ccc(Br)c2ccccc12",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7].[NH2:8][c:9]1[cH:10][cH:11][c:12]([Br:13])[c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]12>Cc1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][c:12]([Br:13])[c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]12",
+      "mapping_confidence": 0.2709539774504229,
+      "conditions": {
+        "raw_description": "Boc2O; toluene; 75 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_2",
+      "reaction_smiles": "CC(C)(C)OC(=O)Nc1ccc(Br)c2ccccc12.CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.CC(=O)[O-].[K+].Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.C1COCCO1>>CC(C)(C)OC(=O)Nc1ccc(B2OC(C)(C)C(C)(C)O2)c2ccccc12",
+      "reaction_smiles_mapped": "Br[c:12]1[cH:11][cH:10][c:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[c:27]2[c:22]1[cH:23][cH:24][cH:25][cH:26]2.CC1(C)OB([B:13]2[O:14][C:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[O:21]2)OC1(C)C>C1COCCO1.CC(=O)[O-].Cl[Pd]Cl.[Fe+2].[K+].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][c:12]([B:13]2[O:14][C:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[O:21]2)[c:22]2[cH:23][cH:24][cH:25][cH:26][c:27]12",
+      "mapping_confidence": 0.07044029704845034,
+      "conditions": {
+        "raw_description": "Pd(dppf)Cl2; B2Pin2; KOAc; 1,4-dioxane; 91%",
+        "GENERAL_REAGENTS": [
+          "B2Pin2",
+          "KOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B1(OC(C(O1)(C)C)(C)C)B2OC(C(O2)(C)C)(C)C",
+          "CC(=O)[O-].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(dppf)Cl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)Nc1ccc(B2OC(C)(C)C(C)(C)O2)c2ccccc12.Ic1ccccc1I.O=C([O-])[O-].[K+].[K+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1COCCO1.O>>CC(C)(C)OC(=O)Nc1ccc(-c2ccccc2I)c2ccccc12",
+      "reaction_smiles_mapped": "CC1(C)OB([c:12]2[cH:11][cH:10][c:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[c:25]3[c:20]2[cH:21][cH:22][cH:23][cH:24]3)OC1(C)C.I[c:13]1[cH:14][cH:15][cH:16][cH:17][c:18]1[I:19]>C1COCCO1.O.O=C([O-])[O-].[K+].[K+].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][c:9]1[cH:10][cH:11][c:12](-[c:13]2[cH:14][cH:15][cH:16][cH:17][c:18]2[I:19])[c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]12",
+      "mapping_confidence": 0.2789046396641711,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; K2CO3; 1,4-dioxane; H2O; 100 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_4",
+      "reaction_smiles": "CC(C)(C)OC(=O)Nc1ccc(-c2ccccc2I)c2ccccc12.CC1(c2ccccc2C#CCCCBr)OCCO1.C1=CC2CCC1C2.O=C([O-])[O-].[Cs+].[Cs+].Cl[Pd]Cl.Fc1ccc(P(c2ccc(F)cc2)c2ccc(F)cc2)cc1.CC#N>>CC(C)(C)OC(=O)/N=C1/CC[C@]2(C(c3ccccc3C3(C)OCCO3)=C3CCCc4cccc2c43)c2ccccc21",
+      "reaction_smiles_mapped": "I[c:35]1[cH:30][cH:31][cH:32][cH:33][c:34]1-[c:12]1[cH:11][cH:10][c:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[c:41]2[c:36]1[cH:37][cH:38][cH:39][cH:40]2.Br[CH2:29][CH2:28][CH2:27][C:26]#[C:13][c:14]1[cH:15][cH:16][cH:17][cH:18][c:19]1[C:20]1([CH3:21])[O:22][CH2:23][CH2:24][O:25]1>C1=CC2CCC1C2.O=C([O-])[O-].[Cs+].[Cs+].Cl[Pd]Cl.Fc1ccc(P(c2ccc(F)cc2)c2ccc(F)cc2)cc1.CC#N>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])/[N:8]=[C:9]1/[CH2:10][CH2:11][C@:12]2([C:13]([c:14]3[cH:15][cH:16][cH:17][cH:18][c:19]3[C:20]3([CH3:21])[O:22][CH2:23][CH2:24][O:25]3)=[C:26]3[CH2:27][CH2:28][CH2:29][c:30]4[cH:31][cH:32][cH:33][c:34]2[c:35]43)[c:36]2[cH:37][cH:38][cH:39][cH:40][c:41]21",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PdCl2; P(4-F-C6H4)3; norbornene; Cs2CO3; MeCN; 90 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "norbornene",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC2CC1C=C2",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "PdCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl"
+        ],
+        "LIGANDS": [
+          "P(4-F-C6H4)3"
+        ],
+        "LIGANDS_SMILES": [
+          "P(c1ccc(F)cc1)(c2ccc(F)cc2)c3ccc(F)cc3"
+        ],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_5",
+      "reaction_smiles": "CC(C)(C)OC(=O)/N=C1/CC[C@]2(C(c3ccccc3C3(C)OCCO3)=C3CCCc4cccc2c43)c2ccccc21.O=S(=O)([O-])[O-].O=S(=O)([O-])[O-].O=S(=O)([O-])[O-].[Fe+3].[Fe+3].Cl.C1CCOC1>>O=C1C[C@@H]2CC(=O)c3ccccc3[C@]23C(=C2CCCc4cccc3c42)c2ccccc21",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)/N=[C:6]1/[CH2:5][CH2:4][C@@:14]2([c:13]3[c:8]1[cH:9][cH:10][cH:11][cH:12]3)[C:15]([c:26]1[cH:27][cH:28][cH:29][cH:30][c:31]1[C:2]1([CH3:3])OCCO1)=[C:16]1[CH2:17][CH2:18][CH2:19][c:20]3[cH:21][cH:22][cH:23][c:24]2[c:25]31>O=S([O-])([O-])=O.C1CCOC1.Cl.O=S(=O)([O-])[O-].O=S(=O)([O-])[O-].[Fe+3].[Fe+3]>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[cH:9][cH:10][cH:11][cH:12][c:13]3[C@:14]23[C:15](=[C:16]2[CH2:17][CH2:18][CH2:19][c:20]4[cH:21][cH:22][cH:23][c:24]3[c:25]42)[c:26]2[cH:27][cH:28][cH:29][cH:30][c:31]21",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HCl; Fe2(SO4)3; THF; 70 \u00b0C; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Fe2(SO4)3",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Fe+3].[Fe+3].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_6",
+      "reaction_smiles": "O=C1C[C@@H]2CC(=O)c3ccccc3[C@]23C(=C2CCCc4cccc3c42)c2ccccc21.O=C1c2ccccc2C(=O)N1O.O=O.Cl[Cu].N#Cc1ccccc1>>O=C1C[C@@H]2CC(=O)c3ccccc3[C@]23C(=C2CCC(=O)c4cccc3c42)c2ccccc21",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[cH:9][cH:10][cH:11][cH:12][c:13]3[C@:14]23[C:15](=[C:16]2[CH2:17][CH2:18][CH2:19][c:21]4[cH:22][cH:23][cH:24][c:25]3[c:26]42)[c:27]2[cH:28][cH:29][cH:30][cH:31][c:32]21.O=[O:20]>Cl[Cu].N#Cc1ccccc1.O=C1c2ccccc2C(=O)N1O>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[cH:9][cH:10][cH:11][cH:12][c:13]3[C@:14]23[C:15](=[C:16]2[CH2:17][CH2:18][C:19](=[O:20])[c:21]4[cH:22][cH:23][cH:24][c:25]3[c:26]42)[c:27]2[cH:28][cH:29][cH:30][cH:31][c:32]21",
+      "mapping_confidence": 0.46130224255936275,
+      "conditions": {
+        "raw_description": "CuCl; NHPI; O2; PhCN; 30 \u00b0C; 54%",
+        "GENERAL_REAGENTS": [
+          "NHPI",
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)N(C2=O)O",
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "N#CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_7",
+      "reaction_smiles": "O=C1C[C@@H]2CC(=O)c3ccccc3[C@]23C(=C2CCC(=O)c4cccc3c42)c2ccccc21.CON.CON.CON.CC(=O)O.CCO>>CO/N=C1/C[C@@H]2C/C(=N\\OC)c3ccccc3[C@]23C(=C2CC/C(=N\\OC)c4cccc3c42)c2ccccc21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][NH2:3].[NH2:9][O:10][CH3:11].[NH2:24][O:25][CH3:26].O=[C:4]1[CH2:5][C@@H:6]2[CH2:7][C:8](=O)[c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[C@:18]23[C:19](=[C:20]2[CH2:21][CH2:22][C:23](=O)[c:27]4[cH:28][cH:29][cH:30][c:31]3[c:32]42)[c:33]2[cH:34][cH:35][cH:36][cH:37][c:38]21>CC(=O)O.CCO>[CH3:1][O:2]/[N:3]=[C:4]1/[CH2:5][C@@H:6]2[CH2:7]/[C:8](=[N:9]\\[O:10][CH3:11])[c:12]3[cH:13][cH:14][cH:15][cH:16][c:17]3[C@:18]23[C:19](=[C:20]2[CH2:21][CH2:22]/[C:23](=[N:24]\\[O:25][CH3:26])[c:27]4[cH:28][cH:29][cH:30][c:31]3[c:32]42)[c:33]2[cH:34][cH:35][cH:36][cH:37][c:38]21",
+      "mapping_confidence": 0.23526276926628248,
+      "conditions": {
+        "raw_description": "MeONH2; AcOH; EtOH; 120 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "MeONH2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CON",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_8",
+      "reaction_smiles": "CO/N=C1/C[C@@H]2C/C(=N\\OC)c3ccccc3[C@]23C(=C2CC/C(=N\\OC)c4cccc3c42)c2ccccc21.[K+].[K+].[K+].[K+].[K+].O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].CC(=O)[O-].CC(=O)[O-].[Pd+2].COc1ccc(P(c2ccc(OC)cc2)c2ccc(OC)cc2)cc1.ClC=C(Cl)Cl>>CO/N=C1/C[C@@H]2C/C(=N\\OC)c3c(O)cccc3[C@]23C(=C2CC/C(=N\\OC)c4c(O)ccc3c42)c2cccc(O)c21",
+      "reaction_smiles_mapped": "[CH3:1][O:2]/[N:3]=[C:4]1/[CH2:5][C@@H:6]2[CH2:7]/[C:8](=[N:9]\\[O:10][CH3:11])[c:12]3[cH:13][cH:15][cH:16][cH:17][c:18]3[C@:19]23[C:20](=[C:21]2[CH2:22][CH2:23]/[C:24](=[N:25]\\[O:26][CH3:27])[c:28]4[cH:29][cH:31][cH:32][c:33]3[c:34]42)[c:35]2[cH:36][cH:37][cH:38][cH:39][c:41]21.O=S(=O)([O-])O[OH:40].O=S(=O)([O-])O[OH:14].O=S(=O)([O-])O[OH:30]>CC(=O)[O-].CC(=O)[O-].COc1ccc(P(c2ccc(OC)cc2)c2ccc(OC)cc2)cc1.ClC=C(Cl)Cl.O=S(=O)([O-])O.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[K+].[K+].[K+].[K+].[K+].[Pd+2]>[CH3:1][O:2]/[N:3]=[C:4]1/[CH2:5][C@@H:6]2[CH2:7]/[C:8](=[N:9]\\[O:10][CH3:11])[c:12]3[c:13]([OH:14])[cH:15][cH:16][cH:17][c:18]3[C@:19]23[C:20](=[C:21]2[CH2:22][CH2:23]/[C:24](=[N:25]\\[O:26][CH3:27])[c:28]4[c:29]([OH:30])[cH:31][cH:32][c:33]3[c:34]42)[c:35]2[cH:36][cH:37][cH:38][c:39]([OH:40])[c:41]21",
+      "mapping_confidence": 0.02077926822014512,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; P(4-MeO-C6H4)3; oxone; TCE; 120 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "oxone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[K+].[K+].[K+].[K+].OS(=O)(=O)[O-].OOS(=O)(=O)[O-].OOS(=O)(=O)[O-].[O-]S(=O)(=O)[O-]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "P(4-MeO-C6H4)3"
+        ],
+        "LIGANDS_SMILES": [
+          "P(c1ccc(OC)cc1)(c2ccc(OC)cc2)c3ccc(OC)cc3"
+        ],
+        "SOLVENTS": [
+          "TCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClC=C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_9",
+      "reaction_smiles": "CO/N=C1/C[C@@H]2C/C(=N\\OC)c3c(O)cccc3[C@]23C(=C2CC/C(=N\\OC)c4c(O)ccc3c42)c2cccc(O)c21.Cl.C1COCCO1>>O=C1C[C@@H]2CC(=O)c3c(O)cccc3[C@]23C(=C2CCC(=O)c4c(O)ccc3c42)c2cccc(O)c21",
+      "reaction_smiles_mapped": "CO/N=[C:2]1/[CH2:3][C@@H:4]2[CH2:5]/[C:6](=N\\OC)[c:8]3[c:9]([OH:10])[cH:11][cH:12][cH:13][c:14]3[C@:15]23[C:16](=[C:17]2[CH2:18][CH2:19]/[C:20](=N\\OC)[c:22]4[c:23]([OH:24])[cH:25][cH:26][c:27]3[c:28]42)[c:29]2[cH:30][cH:31][cH:32][c:33]([OH:34])[c:35]21>C1COCCO1.Cl>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[c:9]([OH:10])[cH:11][cH:12][cH:13][c:14]3[C@:15]23[C:16](=[C:17]2[CH2:18][CH2:19][C:20](=[O:21])[c:22]4[c:23]([OH:24])[cH:25][cH:26][c:27]3[c:28]42)[c:29]2[cH:30][cH:31][cH:32][c:33]([OH:34])[c:35]21",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HCl; 1,4-dioxane; 120 \u00b0C; 41% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "41% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_10",
+      "reaction_smiles": "O=C1C[C@@H]2CC(=O)c3c(O)cccc3[C@]23C(=C2CCC(=O)c4c(O)ccc3c42)c2cccc(O)c21.O=O.CC(=O)[O-].CC(=O)[O-].[Pd+2].CS(C)=O>>O=C1C[C@@H]2CC(=O)c3c(O)cccc3[C@]23C(=C2C=CC(=O)c4c(O)ccc3c42)c2cccc(O)c21",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[c:9]([OH:10])[cH:11][cH:12][cH:13][c:14]3[C@:15]23[C:16](=[C:17]2[CH2:18][CH2:19][C:20](=[O:21])[c:22]4[c:23]([OH:24])[cH:25][cH:26][c:27]3[c:28]42)[c:29]2[cH:30][cH:31][cH:32][c:33]([OH:34])[c:35]21>CC(=O)[O-].CC(=O)[O-].CS(C)=O.O=O.[Pd+2]>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[c:9]([OH:10])[cH:11][cH:12][cH:13][c:14]3[C@:15]23[C:16](=[C:17]2[CH:18]=[CH:19][C:20](=[O:21])[c:22]4[c:23]([OH:24])[cH:25][cH:26][c:27]3[c:28]42)[c:29]2[cH:30][cH:31][cH:32][c:33]([OH:34])[c:35]21",
+      "mapping_confidence": 0.888132159139382,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; DMSO; O2; 72%",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_11",
+      "reaction_smiles": "CC(=O)c1ccccc1I.OCCO.O=S(=O)(O)O.ClCCl.COC(OC)OC>>CC1(c2ccccc2I)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[I:9])=O.[OH:13][CH2:12][CH2:11][OH:10]>COC(OC)OC.ClCCl.O=S(=O)(O)O>[CH3:1][C:2]1([c:3]2[cH:4][cH:5][cH:6][cH:7][c:8]2[I:9])[O:10][CH2:11][CH2:12][O:13]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "CH(OMe)3; H2SO4; DCM; rt; 93%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "CH(OMe)3"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "COC(OC)OC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_12",
+      "reaction_smiles": "CC1(c2ccccc2I)OCCO1.C#CCCCO.CCN(CC)CC.Cl[Pd]Cl.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].C1CCOC1>>CC1(c2ccccc2C#CCCCO)OCCO1",
+      "reaction_smiles_mapped": "[CH:9]#[C:10][CH2:11][CH2:12][CH2:13][OH:14].I[c:8]1[c:3]([C:2]2([CH3:1])[O:15][CH2:16][CH2:17][O:18]2)[cH:4][cH:5][cH:6][cH:7]1>C1CCOC1.CCN(CC)CC.Cl[Pd]Cl.[Cu+].[I-].c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]1([c:3]2[cH:4][cH:5][cH:6][cH:7][c:8]2[C:9]#[C:10][CH2:11][CH2:12][CH2:13][OH:14])[O:15][CH2:16][CH2:17][O:18]1",
+      "mapping_confidence": 0.8386759789062639,
+      "conditions": {
+        "raw_description": "Pd(PPh3)2Cl2; CuI; Et3N; THF; rt; 91%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)2Cl2",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.Cl[Pd]Cl",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2021_Luan_13",
+      "reaction_smiles": "CC1(c2ccccc2C#CCCCO)OCCO1.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CC1(c2ccccc2C#CCCCBr)OCCO1",
+      "reaction_smiles_mapped": "BrC(Br)(Br)[Br:14].O[CH2:13][CH2:12][CH2:11][C:10]#[C:9][c:8]1[c:3]([C:2]2([CH3:1])[O:15][CH2:16][CH2:17][O:18]2)[cH:4][cH:5][cH:6][cH:7]1>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]1([c:3]2[cH:4][cH:5][cH:6][cH:7][c:8]2[C:9]#[C:10][CH2:11][CH2:12][CH2:13][Br:14])[O:15][CH2:16][CH2:17][O:18]1",
+      "mapping_confidence": 0.23743670997916821,
+      "conditions": {
+        "raw_description": "CBr4; PPh3; DCM; 0 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

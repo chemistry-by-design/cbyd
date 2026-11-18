@@ -1,0 +1,327 @@
+{
+  "background": {
+    "name": "(+/-)-Gymnomitrol",
+    "author": "Buechi",
+    "year": 1979,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1979, 101, 6767",
+    "doi": "10.1021/ja00516a056"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_1",
+      "reaction_smiles": "COc1cc(C)c(C=O)cc1OC.O=C(OO)c1cccc(Cl)c1.ClCCl>>COc1cc(C)c(OC=O)cc1OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[c:7]([CH:9]=[O:10])[cH:11][c:12]1[O:13][CH3:14].O=C(O[OH:8])c1cccc(Cl)c1>ClCCl>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[c:7]([O:8][CH:9]=[O:10])[cH:11][c:12]1[O:13][CH3:14]",
+      "mapping_confidence": 0.8138869905617188,
+      "conditions": {
+        "raw_description": "mCPBA; CH2Cl2; Baeyer; Villiger Oxidation",
+        "GENERAL_REAGENTS": [
+          "mCPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_2",
+      "reaction_smiles": "COc1cc(C)c(OC=O)cc1OC.[K+].[OH-]>>COc1cc(C)c(O)cc1OC",
+      "reaction_smiles_mapped": "O=C[O:8][c:7]1[c:5]([CH3:6])[cH:4][c:3]([O:2][CH3:1])[c:10]([O:11][CH3:12])[cH:9]1>[K+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[c:7]([OH:8])[cH:9][c:10]1[O:11][CH3:12]",
+      "mapping_confidence": 0.9685957605962381,
+      "conditions": {
+        "raw_description": "KOH; 85% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_3",
+      "reaction_smiles": "COc1cc(C)c(O)cc1OC.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.CO>>COC1=CC(=O)C(C)=CC1(OC)OC",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[c:3]1([O:13][CH3:14])[cH:4][c:5]([OH:6])[c:7]([CH3:8])[cH:9][c:10]1[O:11][CH3:12]>N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O>[CH3:1][O:2][C:3]1=[CH:4][C:5](=[O:6])[C:7]([CH3:8])=[CH:9][C:10]1([O:11][CH3:12])[O:13][CH3:14]",
+      "mapping_confidence": 0.534138406151376,
+      "conditions": {
+        "raw_description": "DDQ; MeOH; 0\u00b0C; 63%",
+        "GENERAL_REAGENTS": [
+          "DDQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_4",
+      "reaction_smiles": "COC1=CC(=O)C(C)=CC1(OC)OC.CC1=C(C)CCC1.Cl[Sn](Cl)(Cl)Cl.ClCCl.C[N+](=O)[O-]>>COC1=C[C@]2(C)C(=O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "[C:12]1([CH3:13])=[C:17]([CH3:18])[CH2:16][CH2:15][CH2:14]1.CO[C:3]1([O:2][CH3:1])[CH:4]=[C:5]([CH3:6])[C:7](=[O:8])[CH:9]=[C:10]1[O:11]C>Cl[Sn](Cl)(Cl)Cl.ClCCl.C[N+](=O)[O-]>[CH3:1][O:2][C:3]1=[CH:4][C@:5]2([CH3:6])[C:7](=[O:8])[C@H:9]([C:10]1=[O:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]21[CH3:18]",
+      "mapping_confidence": 0.34097897026490515,
+      "conditions": {
+        "raw_description": "SnCl4; MeNO2; CH2Cl2; -20\u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SnCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Sn](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "MeNO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_5",
+      "reaction_smiles": "COC1=C[C@]2(C)C(=O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C.[BH4-].[Na+].CO>>COC1=C[C@]2(C)[C@@H](O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[CH:4][C@:5]2([CH3:6])[C:7](=[O:8])[C@H:9]([C:10]1=[O:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]21[CH3:18]>[BH4-].[Na+].CO>[CH3:1][O:2][C:3]1=[CH:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@H:9]([C:10]1=[O:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]21[CH3:18]",
+      "mapping_confidence": 0.9546334675582696,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; -20\u00b0C; 10% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "10% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_6",
+      "reaction_smiles": "COC1=C[C@]2(C)[C@@H](O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C.[HH].[C].[Pd].CCOC(C)=O>>CO[C@H]1C[C@]2(C)[C@@H](O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[CH:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@H:9]([C:10]1=[O:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]21[CH3:18]>[HH].[C].[Pd].CCOC(C)=O>[CH3:1][O:2][C@H:3]1[CH2:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@H:9]([C:10]1=[O:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]21[CH3:18]",
+      "mapping_confidence": 0.9782832905506631,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOAc; 77%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_7",
+      "reaction_smiles": "CO[C@H]1C[C@]2(C)[C@@H](O)[C@H](C1=O)[C@]1(C)CCC[C@@]12C.C1=COCCC1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>>CO[C@H]1C[C@]2(C)[C@@H](O[C@H]3CCCCO3)[C@H](C1=O)[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "[CH:9]1=[CH:10][CH2:11][CH2:12][CH2:13][O:14]1.[CH3:1][O:2][C@H:3]1[CH2:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@H:15]([C:16]1=[O:17])[C@:18]1([CH3:19])[CH2:20][CH2:21][CH2:22][C@:23]21[CH3:24]>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>[CH3:1][O:2][C@H:3]1[CH2:4][C@:5]2([CH3:6])[C@@H:7]([O:8][C@H:9]3[CH2:10][CH2:11][CH2:12][CH2:13][O:14]3)[C@H:15]([C:16]1=[O:17])[C@:18]1([CH3:19])[CH2:20][CH2:21][CH2:22][C@:23]21[CH3:24]",
+      "mapping_confidence": 0.8874337967252532,
+      "conditions": {
+        "raw_description": "CSA; CH2Cl2; 20\u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_8",
+      "reaction_smiles": "CO[C@H]1C[C@]2(C)[C@@H](O[C@H]3CCCCO3)[C@H](C1=O)[C@]1(C)CCC[C@@]12C.[Ca].N.C1CCOC1>>C[C@]12CCC[C@@]1(C)[C@H]1C(=O)CC[C@]2(C)[C@H]1O[C@H]1CCCCO1",
+      "reaction_smiles_mapped": "CO[C@H:4]1[CH2:3][C@:2]2([CH3:1])[C@@H:8]([O:9][C@H:10]3[CH2:11][CH2:12][CH2:13][CH2:14][O:15]3)[C@H:7]([C:5]1=[O:6])[C@:16]1([CH3:17])[CH2:18][CH2:19][CH2:20][C@:21]21[CH3:22]>[Ca].N.C1CCOC1>[CH3:1][C@@:2]12[CH2:3][CH2:4][C:5](=[O:6])[C@@H:7]([C@@H:8]1[O:9][C@H:10]1[CH2:11][CH2:12][CH2:13][CH2:14][O:15]1)[C@:16]1([CH3:17])[CH2:18][CH2:19][CH2:20][C@:21]21[CH3:22]",
+      "mapping_confidence": 0.9632498274209925,
+      "conditions": {
+        "raw_description": "Ca; NH3; THF; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Ca",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Ca]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_9",
+      "reaction_smiles": "C[C@]12CCC[C@@]1(C)[C@H]1C(=O)CC[C@]2(C)[C@H]1O[C@H]1CCCCO1.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].[Li]CCCC.CS(C)=O.C1CCOC1>>C=C1CC[C@]2(C)[C@@H](O[C@H]3CCCCO3)[C@H]1[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "O=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C@@H:7]([O:8][C@H:9]3[CH2:10][CH2:11][CH2:12][CH2:13][O:14]3)[C@H:15]1[C@:16]1([CH3:17])[CH2:18][CH2:19][CH2:20][C@:21]21[CH3:22].c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>[Br-].[Li]CCCC.CS(C)=O.C1CCOC1>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C@@H:7]([O:8][C@H:9]3[CH2:10][CH2:11][CH2:12][CH2:13][O:14]3)[C@H:15]1[C@:16]1([CH3:17])[CH2:18][CH2:19][CH2:20][C@:21]21[CH3:22]",
+      "mapping_confidence": 0.6524641893771809,
+      "conditions": {
+        "raw_description": "Ph3PMeBr; nBuLi; DMSO; THF; 80\u00b0C; Wittig; Olefination",
+        "GENERAL_REAGENTS": [
+          "Ph3PMeBr",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1[P+](c2ccccc2)(c3ccccc3)C.[Br-]",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Buechi_10",
+      "reaction_smiles": "C=C1CC[C@]2(C)[C@@H](O[C@H]3CCCCO3)[C@H]1[C@]1(C)CCC[C@@]12C.CC(=O)O.C1CCOC1.O>>C=C1CC[C@]2(C)[C@@H](O)[C@H]1[C@]1(C)CCC[C@@]12C",
+      "reaction_smiles_mapped": "C1CC[C@H]([O:8][C@@H:7]2[C@@:5]3([CH3:6])[CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:9]2[C@:10]2([CH3:11])[CH2:12][CH2:13][CH2:14][C@:15]32[CH3:16])OC1>CC(=O)O.C1CCOC1.O>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@H:9]1[C@:10]1([CH3:11])[CH2:12][CH2:13][CH2:14][C@:15]21[CH3:16]",
+      "mapping_confidence": 0.9787455470887091,
+      "conditions": {
+        "raw_description": "AcOH; H2O; THF; 60\u00b0C; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

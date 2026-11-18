@@ -1,0 +1,265 @@
+{
+  "background": {
+    "name": "(-)-Curcuquinone",
+    "author": "D\u00f6tz",
+    "year": 2005,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2005, 70, 3745",
+    "doi": "10.1021/jo0500939"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_1",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/CO.CC(C)OC(=O)[C@@H](O)[C@H](O)C(=O)OC(C)C.CC(C)(C)OO.ClCCl.CC(C)O.CC(C)O.CC(C)O.CC(C)O.[Ti]>>CC(C)=CCC[C@@]1(C)O[C@@H]1CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:9].[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:10]/[CH2:11][OH:12]>CC(C)O.CC(C)O.CC(C)O.CC(C)O.CC(C)OC(=O)[C@@H](O)[C@H](O)C(=O)OC(C)C.ClCCl.[Ti]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][C@@H:10]1[CH2:11][OH:12]",
+      "mapping_confidence": 0.41926785466958777,
+      "conditions": {
+        "raw_description": "(-)-DIPT; TBHP; Ti(Oi-Pr)4; MS; DCM; -30 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "TBHP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "Ti(Oi-Pr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ti].CC(C)O.CC(C)O.CC(C)O.CC(C)O"
+        ],
+        "LIGANDS": [
+          "(-)-DIPT"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)OC(=O)[C@@H](O)[C@H](O)C(=O)OC(C)C"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [
+          "MS",
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-30"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_2",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)O[C@@H]1CO.[BH3-]C#N.[Na+].CC[O+](CC)[B-](F)(F)F.C1CCOC1>>CC(C)=CCC[C@@H](C)[C@H](O)CO",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@:7]1([CH3:8])[C@@H:9]([CH2:11][OH:12])[O:10]1>C1CCOC1.CC[O+](CC)[B-](F)(F)F.[BH3-]C#N.[Na+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@H:7]([CH3:8])[C@H:9]([OH:10])[CH2:11][OH:12]",
+      "mapping_confidence": 0.817708297388124,
+      "conditions": {
+        "raw_description": "NaBH3CN; BF3\u00b7OEt2; THF; 86%",
+        "GENERAL_REAGENTS": [
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [
+          "BF3\u00b7OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_3",
+      "reaction_smiles": "CC(C)=CCC[C@@H](C)[C@H](O)CO.[O-][I+3]([O-])([O-])[O-].[Na+].O.ClCCl.[Na+].[O-][I+3]([O-])([O-])[O-].CCCC[N+](CCCC)(CCCC)CCCC.[O-][I+3]([O-])([O-])[O-]>>CC(C)=CCC[C@@H](C)C=O",
+      "reaction_smiles_mapped": "OC[C@H:9]([C@@H:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8])[OH:10]>CCCC[N+](CCCC)(CCCC)CCCC.ClCCl.O.[Na+].[Na+].[O-][I+3]([O-])([O-])[O-].[O-][I+3]([O-])([O-])[O-].[O-][I+3]([O-])([O-])[O-]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@H:7]([CH3:8])[CH:9]=[O:10]",
+      "mapping_confidence": 0.7935420684611564,
+      "conditions": {
+        "raw_description": "NaIO4; Bu4NIO4; H2O/DCM; 0 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "NaIO4",
+          "Bu4NIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.O=I(=O)([O-])=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_4",
+      "reaction_smiles": "CC(C)=CCC[C@@H](C)C=O.[Zn].BrC(Br)(Br)Br.ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC(C)=CCC[C@@H](C)C=C(Br)Br",
+      "reaction_smiles_mapped": "Br[C:10](Br)([Br:11])[Br:12].O=[CH:9][C@@H:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8]>ClCCl.[Zn].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@H:7]([CH3:8])[CH:9]=[C:10]([Br:11])[Br:12]",
+      "mapping_confidence": 0.07928021454921402,
+      "conditions": {
+        "raw_description": "Zn; Ph3P; CBr4; DCM; 60%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_5",
+      "reaction_smiles": "CC(C)=CCC[C@@H](C)C=C(Br)Br.[Li]CCCC.C1CCOC1>>C#C[C@H](C)CCC=C(C)C",
+      "reaction_smiles_mapped": "Br[C:1](Br)=[CH:2][C@H:3]([CH3:4])[CH2:5][CH2:6][CH:7]=[C:8]([CH3:9])[CH3:10]>C1CCOC1.[Li]CCCC>[CH:1]#[C:2][C@H:3]([CH3:4])[CH2:5][CH2:6][CH:7]=[C:8]([CH3:9])[CH3:10]",
+      "mapping_confidence": 0.7423933624694402,
+      "conditions": {
+        "raw_description": "BuLi; THF; -78 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_6",
+      "reaction_smiles": "[Li]C(=C)C.C[O+](C)C.F[B-](F)(F)F.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Cr].CCOCC>>C=C(C)C(=[Cr])OC.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+]",
+      "reaction_smiles_mapped": "C[O+:6](C)[CH3:7].[O+]#[C-:1].[C-:10]#[O+:11].[C-:16]#[O+:17].[C-:8]#[O+:9].[C-:14]#[O+:15].[C-:12]#[O+:13].[Cr:5].[Li][C:2]([CH3:3])=[CH2:4]>CCOCC.F[B-](F)(F)F>[CH2:1]=[C:2]([CH3:3])[C:4](=[Cr:5])[O:6][CH3:7].[C-:8]#[O+:9].[C-:10]#[O+:11].[C-:12]#[O+:13].[C-:14]#[O+:15].[C-:16]#[O+:17]",
+      "mapping_confidence": 0.00017143397823700848,
+      "conditions": {
+        "raw_description": "OMe3BF4; Cr(CO)6; Et2O; -60 \u00b0C; 60%",
+        "GENERAL_REAGENTS": [
+          "OMe3BF4",
+          "Cr(CO)6"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O+](C)C.[B-](F)(F)(F)F",
+          "[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Cr]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-60"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Curcuquinone_2005_D\u00f6tz_7",
+      "reaction_smiles": "C#C[C@H](C)CCC=C(C)C.C=C(C)C(=[Cr])OC.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Ce+4].[NH4+].[NH4+].ClCCl.O>>CC(C)=CCC[C@@H](C)C1=CC(=O)C(C)=CC1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@H:7]([CH3:8])[C:9]#[CH:10].C[O:12][C:11](=[Cr])[C:13]([CH3:14])=[CH2:15].[C-:16]#[O+:17]>[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Ce+4].[NH4+].[NH4+].ClCCl.O>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@H:7]([CH3:8])[C:9]1=[CH:10][C:11](=[O:12])[C:13]([CH3:14])=[CH:15][C:16]1=[O:17]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) subs 1; DCM; 55 \u00b0C; 2) CAN; H2O; 0 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "CAN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[NH4+].[Ce+4].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55",
+          "0"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    }
+  ]
+}

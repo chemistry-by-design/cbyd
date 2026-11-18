@@ -1,0 +1,321 @@
+{
+  "background": {
+    "name": "Calcaridine A",
+    "author": "Lovely",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2008, 10, 5055",
+    "doi": "10.1021/ol802018r"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_1",
+      "reaction_smiles": "Cn1cnc(I)c1I.CN(C=O)c1ccccc1.CC[Mg]Br.ClCCl>>Cn1cnc(I)c1C=O",
+      "reaction_smiles_mapped": "CN(c1ccccc1)[CH:8]=[O:9].I[c:7]1[n:2]([CH3:1])[cH:3][n:4][c:5]1[I:6]>CC[Mg]Br.ClCCl>[CH3:1][n:2]1[cH:3][n:4][c:5]([I:6])[c:7]1[CH:8]=[O:9]",
+      "mapping_confidence": 0.9894790869286424,
+      "conditions": {
+        "raw_description": "EtMgBr; CHCl2; 73%",
+        "GENERAL_REAGENTS": [
+          "EtMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_2",
+      "reaction_smiles": "Cn1cnc(I)c1C=O.OCCO.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>Cn1cnc(I)c1C1OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][n:2]1[cH:3][n:4][c:5]([I:6])[c:7]1[CH:8]=[O:9].O[CH2:10][CH2:11][OH:12]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][n:2]1[cH:3][n:4][c:5]([I:6])[c:7]1[CH:8]1[O:9][CH2:10][CH2:11][O:12]1",
+      "mapping_confidence": 0.573022236402896,
+      "conditions": {
+        "raw_description": "TsOH; PhH; reflux; 97%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_3",
+      "reaction_smiles": "Cn1cnc(I)c1C1OCCO1.O=Cc1ccc(OCc2ccccc2)cc1.CC[Mg]Br.ClCCl>>Cn1cnc(C(O)c2ccc(OCc3ccccc3)cc2)c1C1OCCO1",
+      "reaction_smiles_mapped": "I[c:5]1[n:4][cH:3][n:2]([CH3:1])[c:22]1[CH:23]1[O:24][CH2:25][CH2:26][O:27]1.[CH:6](=[O:7])[c:8]1[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[cH:20][cH:21]1>CC[Mg]Br.ClCCl>[CH3:1][n:2]1[cH:3][n:4][c:5]([CH:6]([OH:7])[c:8]2[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[cH:20][cH:21]2)[c:22]1[CH:23]1[O:24][CH2:25][CH2:26][O:27]1",
+      "mapping_confidence": 0.836853948898671,
+      "conditions": {
+        "raw_description": "EtMgBr; CHCl2; 87%",
+        "GENERAL_REAGENTS": [
+          "EtMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_4",
+      "reaction_smiles": "Cn1cnc(C(O)c2ccc(OCc3ccccc3)cc2)c1C1OCCO1.Cl.C1CCOC1>>Cn1cnc(C(O)c2ccc(OCc3ccccc3)cc2)c1C=O",
+      "reaction_smiles_mapped": "C1C[O:24][CH:23]([c:22]2[n:2]([CH3:1])[cH:3][n:4][c:5]2[CH:6]([OH:7])[c:8]2[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[cH:20][cH:21]2)O1>C1CCOC1.Cl>[CH3:1][n:2]1[cH:3][n:4][c:5]([CH:6]([OH:7])[c:8]2[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[cH:20][cH:21]2)[c:22]1[CH:23]=[O:24]",
+      "mapping_confidence": 0.7549042281968337,
+      "conditions": {
+        "raw_description": "HCl; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_5",
+      "reaction_smiles": "Cn1cnc(C(O)c2ccc(OCc3ccccc3)cc2)c1C=O.CC[SiH](CC)CC.O=C(O)C(F)(F)F.ClCCl>>Cn1cnc(Cc2ccc(OCc3ccccc3)cc2)c1C=O",
+      "reaction_smiles_mapped": "O[CH:6]([c:5]1[n:4][cH:3][n:2]([CH3:1])[c:21]1[CH:22]=[O:23])[c:7]1[cH:8][cH:9][c:10]([O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[cH:19][cH:20]1>CC[SiH](CC)CC.ClCCl.O=C(O)C(F)(F)F>[CH3:1][n:2]1[cH:3][n:4][c:5]([CH2:6][c:7]2[cH:8][cH:9][c:10]([O:11][CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[cH:19][cH:20]2)[c:21]1[CH:22]=[O:23]",
+      "mapping_confidence": 0.8969600396616029,
+      "conditions": {
+        "raw_description": "Et3SiH; TFA; DCM; 65%",
+        "GENERAL_REAGENTS": [
+          "Et3SiH",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC",
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_6",
+      "reaction_smiles": "Cn1cnc(Cc2ccc(OCc3ccccc3)cc2)c1C=O.COc1cc[c]([Mg][Br])cc1.C1CCOC1>>COc1ccc(C(O)c2c(Cc3ccc(OCc4ccccc4)cc3)ncn2C)cc1",
+      "reaction_smiles_mapped": "[Br][Mg][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:31][cH:30]1.[CH:7](=[O:8])[c:9]1[c:10]([CH2:11][c:12]2[cH:13][cH:14][c:15]([O:16][CH2:17][c:18]3[cH:19][cH:20][cH:21][cH:22][cH:23]3)[cH:24][cH:25]2)[n:26][cH:27][n:28]1[CH3:29]>C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([OH:8])[c:9]2[c:10]([CH2:11][c:12]3[cH:13][cH:14][c:15]([O:16][CH2:17][c:18]4[cH:19][cH:20][cH:21][cH:22][cH:23]4)[cH:24][cH:25]3)[n:26][cH:27][n:28]2[CH3:29])[cH:30][cH:31]1",
+      "mapping_confidence": 0.880856629755005,
+      "conditions": {
+        "raw_description": "THF; reflux; 84%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_7",
+      "reaction_smiles": "COc1ccc(C(O)c2c(Cc3ccc(OCc4ccccc4)cc3)ncn2C)cc1.[H-].[Na+].CI.C1CCOC1>>COc1ccc(C(OC)c2c(Cc3ccc(OCc4ccccc4)cc3)ncn2C)cc1",
+      "reaction_smiles_mapped": "I[CH3:9].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([OH:8])[c:10]2[c:11]([CH2:12][c:13]3[cH:14][cH:15][c:16]([O:17][CH2:18][c:19]4[cH:20][cH:21][cH:22][cH:23][cH:24]4)[cH:25][cH:26]3)[n:27][cH:28][n:29]2[CH3:30])[cH:31][cH:32]1>C1CCOC1.[H-].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([O:8][CH3:9])[c:10]2[c:11]([CH2:12][c:13]3[cH:14][cH:15][c:16]([O:17][CH2:18][c:19]4[cH:20][cH:21][cH:22][cH:23][cH:24]4)[cH:25][cH:26]3)[n:27][cH:28][n:29]2[CH3:30])[cH:31][cH:32]1",
+      "mapping_confidence": 0.734867388873841,
+      "conditions": {
+        "raw_description": "NaH; THF; MeI; 84%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_8",
+      "reaction_smiles": "COc1ccc(C(OC)c2c(Cc3ccc(OCc4ccccc4)cc3)ncn2C)cc1.[Li]CCCC.Cc1ccc(S(=O)(=O)N=[N+]=[N-])cc1.C1CCOC1>>COc1ccc(C(OC)c2c(Cc3ccc(OCc4ccccc4)cc3)nc(N=[N+]=[N-])n2C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([O:8][CH3:9])[c:10]2[c:11]([CH2:12][c:13]3[cH:14][cH:15][c:16]([O:17][CH2:18][c:19]4[cH:20][cH:21][cH:22][cH:23][cH:24]4)[cH:25][cH:26]3)[n:27][cH:28][n:32]2[CH3:33])[cH:34][cH:35]1.Cc1ccc(S(=O)(=O)[N:29]=[N+:30]=[N-:31])cc1>C1CCOC1.[Li]CCCC>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([O:8][CH3:9])[c:10]2[c:11]([CH2:12][c:13]3[cH:14][cH:15][c:16]([O:17][CH2:18][c:19]4[cH:20][cH:21][cH:22][cH:23][cH:24]4)[cH:25][cH:26]3)[n:27][c:28]([N:29]=[N+:30]=[N-:31])[n:32]2[CH3:33])[cH:34][cH:35]1",
+      "mapping_confidence": 0.7586458138784885,
+      "conditions": {
+        "raw_description": "BuLi; THF; TsN3; -78 \u00b0C; 76%",
+        "GENERAL_REAGENTS": [
+          "BuLi",
+          "TsN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "Cc1ccc(cc1)S(=O)(=O)N=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_9",
+      "reaction_smiles": "COc1ccc(C(OC)c2c(Cc3ccc(OCc4ccccc4)cc3)nc(N=[N+]=[N-])n2C)cc1.O=[N+]([O-])c1ccc([C@@H]2ON2SOOc2ccccc2)cc1.ClC(Cl)Cl>>COc1ccc([C@H](OC)[C@@]2(Cc3ccc(OCc4ccccc4)cc3)N=C(N=[N+]=[N-])N(C)C2=O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:7]([O:8][CH3:9])[c:33]2[c:10]([CH2:11][c:12]3[cH:13][cH:14][c:15]([O:16][CH2:17][c:18]4[cH:19][cH:20][cH:21][cH:22][cH:23]4)[cH:24][cH:25]3)[n:26][c:27]([N:28]=[N+:29]=[N-:30])[n:31]2[CH3:32])[cH:35][cH:36]1.[O-][N+](c1ccc([C@@H]2ON2SOOc2ccccc2)cc1)=[O:34]>ClC(Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([C@H:7]([O:8][CH3:9])[C@@:10]2([CH2:11][c:12]3[cH:13][cH:14][c:15]([O:16][CH2:17][c:18]4[cH:19][cH:20][cH:21][cH:22][cH:23]4)[cH:24][cH:25]3)[N:26]=[C:27]([N:28]=[N+:29]=[N-:30])[N:31]([CH3:32])[C:33]2=[O:34])[cH:35][cH:36]1",
+      "mapping_confidence": 0.6480721271711175,
+      "conditions": {
+        "raw_description": "CHCl3; 46%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "46%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calcaridine_A_2008_Lovely_10",
+      "reaction_smiles": "COc1ccc([C@H](OC)[C@@]2(Cc3ccc(OCc4ccccc4)cc3)N=C(N=[N+]=[N-])N(C)C2=O)cc1.[HH].C.[OH-].[OH-].[Pd+2].CCO>>COc1ccc([C@H](OC)[C@@]2(Cc3ccc(O)cc3)N=C(N)N(C)C2=O)cc1",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:21][C:20]1=[N:19][C@@:10]([C@H:7]([c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:27][cH:26]2)[O:8][CH3:9])([CH2:11][c:12]2[cH:13][cH:14][c:15]([O:16]Cc3ccccc3)[cH:17][cH:18]2)[C:24](=[O:25])[N:22]1[CH3:23]>C.CCO.[HH].[OH-].[OH-].[Pd+2]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([C@H:7]([O:8][CH3:9])[C@@:10]2([CH2:11][c:12]3[cH:13][cH:14][c:15]([OH:16])[cH:17][cH:18]3)[N:19]=[C:20]([NH2:21])[N:22]([CH3:23])[C:24]2=[O:25])[cH:26][cH:27]1",
+      "mapping_confidence": 0.9509445284231968,
+      "conditions": {
+        "raw_description": "Pd(OH)2-C; H2; EtOH; 95%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2-C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    }
+  ]
+}

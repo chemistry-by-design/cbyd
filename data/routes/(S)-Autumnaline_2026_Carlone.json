@@ -1,0 +1,437 @@
+{
+  "background": {
+    "name": "(S)-Autumnaline",
+    "author": "Carlone",
+    "year": 2026,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Process Res. Dev. 2026, 30, 1789",
+    "doi": "10.1021/acs.oprd.5c00490"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_1",
+      "reaction_smiles": "COc1cc(C=O)ccc1O.BrCc1ccccc1.O=C([O-])[O-].[K+].[K+].CC#N>>COc1cc(C=O)ccc1OCc1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[CH3:1][O:2][c:3]1[cH:4][c:5]([CH:6]=[O:7])[cH:8][cH:9][c:10]1[OH:11]>CC#N.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH:6]=[O:7])[cH:8][cH:9][c:10]1[O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.9498413594382732,
+      "conditions": {
+        "raw_description": "BnBr; K2CO3; MeCN; 92%",
+        "GENERAL_REAGENTS": [
+          "BnBr",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_2",
+      "reaction_smiles": "COc1cc(C=O)ccc1OCc1ccccc1.COC(=O)CCl.C[O-].[Na+].CO>>COC(=O)C1OC1c1ccc(OCc2ccccc2)c(OC)c1",
+      "reaction_smiles_mapped": "Cl[CH2:5][C:3]([O:2][CH3:1])=[O:4].[O:6]=[CH:7][c:8]1[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[c:20]([O:21][CH3:22])[cH:23]1>CO.C[O-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[O:6][CH:7]1[c:8]1[cH:9][cH:10][c:11]([O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[c:20]([O:21][CH3:22])[cH:23]1",
+      "mapping_confidence": 0.8100869472913208,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; 98%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_3",
+      "reaction_smiles": "COC(=O)C1OC1c1ccc(OCc2ccccc2)c(OC)c1.[K+].[OH-].CO>>COc1cc(C2OC2C(=O)O)ccc1OCc1ccccc1",
+      "reaction_smiles_mapped": "C[O:11][C:9]([CH:8]1[CH:6]([c:5]2[cH:4][c:3]([O:2][CH3:1])[c:14]([O:15][CH2:16][c:17]3[cH:18][cH:19][cH:20][cH:21][cH:22]3)[cH:13][cH:12]2)[O:7]1)=[O:10]>CO.[K+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH:6]2[O:7][CH:8]2[C:9](=[O:10])[OH:11])[cH:12][cH:13][c:14]1[O:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1",
+      "mapping_confidence": 0.8578620167984086,
+      "conditions": {
+        "raw_description": "KOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_4",
+      "reaction_smiles": "COc1cc(C2OC2C(=O)O)ccc1OCc1ccccc1.[Cl-].[NH3+]O.CO>>COc1cc(C/C=N/O)ccc1OCc1ccccc1",
+      "reaction_smiles_mapped": "O=C(O)[CH:7]1O[CH:6]1[c:5]1[cH:4][c:3]([O:2][CH3:1])[c:12]([O:13][CH2:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[cH:11][cH:10]1.[NH3+:8][OH:9]>CO.[Cl-]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6]/[CH:7]=[N:8]/[OH:9])[cH:10][cH:11][c:12]1[O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.8834930116020172,
+      "conditions": {
+        "raw_description": "NH2OH\u00b7HCl; MeOH; rt; 85%",
+        "GENERAL_REAGENTS": [
+          "NH2OH\u00b7HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH3+]O.[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_5",
+      "reaction_smiles": "COc1cc(C/C=N/O)ccc1OCc1ccccc1.[Zn].CC(=O)O>>COc1cc(CCN)ccc1OCc1ccccc1",
+      "reaction_smiles_mapped": "O/[N:8]=[CH:7]/[CH2:6][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:11]([O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[cH:10][cH:9]1>CC(=O)O.[Zn]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][NH2:8])[cH:9][cH:10][c:11]1[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.904183964514027,
+      "conditions": {
+        "raw_description": "Zn; AcOH; rt; 50% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Zn]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_6",
+      "reaction_smiles": "COc1cc(CCN)ccc1OCc1ccccc1.COc1cc(CCC(=O)O)cc(OCc2ccccc2)c1OC.O=C(n1ccnc1)n1ccnc1.CCOC(C)=O>>COc1cc(CCNC(=O)CCc2cc(OC)c(OC)c(OCc3ccccc3)c2)ccc1OCc1ccccc1",
+      "reaction_smiles_mapped": "O[C:9](=[O:10])[CH2:11][CH2:12][c:13]1[cH:14][c:15]([O:16][CH3:17])[c:18]([O:19][CH3:20])[c:21]([O:22][CH2:23][c:24]2[cH:25][cH:26][cH:27][cH:28][cH:29]2)[cH:30]1.[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][NH2:8])[cH:31][cH:32][c:33]1[O:34][CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1>CCOC(C)=O.O=C(n1ccnc1)n1ccnc1>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][NH:8][C:9](=[O:10])[CH2:11][CH2:12][c:13]2[cH:14][c:15]([O:16][CH3:17])[c:18]([O:19][CH3:20])[c:21]([O:22][CH2:23][c:24]3[cH:25][cH:26][cH:27][cH:28][cH:29]3)[cH:30]2)[cH:31][cH:32][c:33]1[O:34][CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1",
+      "mapping_confidence": 0.5970024437338104,
+      "conditions": {
+        "raw_description": "CDI; EtOAc; rt; 75%",
+        "GENERAL_REAGENTS": [
+          "CDI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CN(C=N1)C(=O)N2C=CN=C2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_7",
+      "reaction_smiles": "COc1cc(CCNC(=O)CCc2cc(OC)c(OC)c(OCc3ccccc3)c2)ccc1OCc1ccccc1.O=P(Cl)(Cl)Cl.Cc1ccccc1>>COc1cc2c(cc1OCc1ccccc1)C(CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)=NCC2",
+      "reaction_smiles_mapped": "O=[C:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]2[cH:32][cH:33][cH:34][cH:35][cH:36]2)[cH:37]1)[NH:38][CH2:39][CH2:40][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:8]([O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[cH:7][cH:6]1>Cc1ccccc1.O=P(Cl)(Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[cH:37]1)=[N:38][CH2:39][CH2:40]2",
+      "mapping_confidence": 0.6562505312840234,
+      "conditions": {
+        "raw_description": "POCl; toluene",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_8",
+      "reaction_smiles": "COc1cc2c(cc1OCc1ccccc1)C(CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)=NCC2.O=CO.CCN(CC)CC.Cc1ccc(C(C)C)cc1.Cc1ccc(S(=O)(=O)[N]([Ru][Cl])[C@H](c2ccccc2)[C@H](N)c2ccccc2)cc1.O.CN(C)C=O>>COc1cc2c(cc1OCc1ccccc1)[C@H](CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)NCC2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[cH:37]1)=[N:38][CH2:39][CH2:40]2>CCN(CC)CC.CN(C)C=O.Cc1ccc(C(C)C)cc1.Cc1ccc(S(=O)(=O)[N]([Ru][Cl])[C@H](c2ccccc2)[C@H](N)c2ccccc2)cc1.O.O=CO>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C@H:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[cH:37]1)[NH:38][CH2:39][CH2:40]2",
+      "mapping_confidence": 0.6685124579791558,
+      "conditions": {
+        "raw_description": "RuCl[(R,R)- Tsdpen](p-cymene); HCOOH; NEt3; H2O; DMF; 55 \u00b0C; 60%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "RuCl[(R,R)- Tsdpen](p-cymene)"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)c1ccc(C)cc1.Cc2ccc(cc2)S(=O)(=O)N([Ru]Cl)[C@@H]([C@H](N)c3ccccc3)c4ccccc4"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "DMF",
+          "HCOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CN(C)C=O",
+          "C(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_9",
+      "reaction_smiles": "COc1cc2c(cc1OCc1ccccc1)[C@H](CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)NCC2.C=O.[BH3-]C#N.[Na+].CO>>COc1cc2c(cc1OCc1ccccc1)[C@H](CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)N(C)CC2",
+      "reaction_smiles_mapped": "O=[CH2:39].[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C@H:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[cH:37]1)[NH:38][CH2:40][CH2:41]2>CO.[BH3-]C#N.[Na+]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C@H:17]([CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][CH3:24])[c:25]([O:26][CH3:27])[c:28]([O:29][CH2:30][c:31]3[cH:32][cH:33][cH:34][cH:35][cH:36]3)[cH:37]1)[N:38]([CH3:39])[CH2:40][CH2:41]2",
+      "mapping_confidence": 0.6183154747990137,
+      "conditions": {
+        "raw_description": "NaBH3CN; HCHO; MeOH; 0 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "HCHO",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=O",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_10",
+      "reaction_smiles": "COc1cc2c(cc1OCc1ccccc1)[C@H](CCc1cc(OC)c(OC)c(OCc3ccccc3)c1)N(C)CC2.[HH].[C].[Pd].CO>>COc1cc2c(cc1O)[C@H](CCc1cc(O)c(OC)c(OC)c1)N(C)CC2",
+      "reaction_smiles_mapped": "c1ccc(C[O:9][c:8]2[c:3]([O:2][CH3:1])[cH:4][c:5]3[c:6]([cH:7]2)[C@H:10]([CH2:11][CH2:12][c:13]2[cH:14][c:15]([O:16]Cc4ccccc4)[c:17]([O:18][CH3:19])[c:20]([O:21][CH3:22])[cH:23]2)[N:24]([CH3:25])[CH2:26][CH2:27]3)cc1>CO.[C].[HH].[Pd]>[CH3:1][O:2][c:3]1[cH:4][c:5]2[c:6]([cH:7][c:8]1[OH:9])[C@H:10]([CH2:11][CH2:12][c:13]1[cH:14][c:15]([OH:16])[c:17]([O:18][CH3:19])[c:20]([O:21][CH3:22])[cH:23]1)[N:24]([CH3:25])[CH2:26][CH2:27]2",
+      "mapping_confidence": 0.8863385177078358,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; rt; 80%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_11",
+      "reaction_smiles": "COc1cc(/C=C/C(=O)O)cc(O)c1OC.[HH].[C].[Pd].C1CCOC1>>COc1cc(CCC(=O)O)cc(O)c1OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5](/[CH:6]=[CH:7]/[C:8](=[O:9])[OH:10])[cH:11][c:12]([OH:13])[c:14]1[O:15][CH3:16]>C1CCOC1.[C].[HH].[Pd]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][C:8](=[O:9])[OH:10])[cH:11][c:12]([OH:13])[c:14]1[O:15][CH3:16]",
+      "mapping_confidence": 0.9702152151437147,
+      "conditions": {
+        "raw_description": "H2; Pd/C; THF; rt; 98%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_12",
+      "reaction_smiles": "COc1cc(CCC(=O)O)cc(O)c1OC.BrCc1ccccc1.BrCc1ccccc1.O=C([O-])[O-].[K+].[K+].CC#N>>COc1cc(CCC(=O)OCc2ccccc2)cc(OCc2ccccc2)c1OC",
+      "reaction_smiles_mapped": "Br[CH2:21][c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1.Br[CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][C:8](=[O:9])[OH:10])[cH:18][c:19]([OH:20])[c:28]1[O:29][CH3:30]>CC#N.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][C:8](=[O:9])[O:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[cH:18][c:19]([O:20][CH2:21][c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[c:28]1[O:29][CH3:30]",
+      "mapping_confidence": 0.46592809090038534,
+      "conditions": {
+        "raw_description": "BnBr; K2CO3; MeCN; 80 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "BnBr",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CBr",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(S)-Autumnaline_2026_Carlone_13",
+      "reaction_smiles": "COc1cc(CCC(=O)OCc2ccccc2)cc(OCc2ccccc2)c1OC.[K+].[OH-].O.CC#N>>COc1cc(CCC(=O)O)cc(OCc2ccccc2)c1OC",
+      "reaction_smiles_mapped": "c1ccc(C[O:10][C:8]([CH2:7][CH2:6][c:5]2[cH:4][c:3]([O:2][CH3:1])[c:21]([O:22][CH3:23])[c:12]([O:13][CH2:14][c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)[cH:11]2)=[O:9])cc1>CC#N.O.[K+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][CH2:7][C:8](=[O:9])[OH:10])[cH:11][c:12]([O:13][CH2:14][c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[c:21]1[O:22][CH3:23]",
+      "mapping_confidence": 0.8515636120410309,
+      "conditions": {
+        "raw_description": "KOH; H2O; MeCN; 60 \u00b0C; 96% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "96% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

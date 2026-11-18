@@ -1,0 +1,1103 @@
+{
+  "background": {
+    "name": "Atractyligenin",
+    "author": "Corey",
+    "year": 1987,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1987, 109, 6187",
+    "doi": "10.1021/ja00254a051"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_1",
+      "reaction_smiles": "Cc1ccccc1CC(=O)O.[AlH4-].[Li+].CCOCC>>Cc1ccccc1CCO",
+      "reaction_smiles_mapped": "O=[C:9]([CH2:8][c:7]1[c:2]([CH3:1])[cH:3][cH:4][cH:5][cH:6]1)[OH:10]>CCOCC.[AlH4-].[Li+]>[CH3:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[CH2:8][CH2:9][OH:10]",
+      "mapping_confidence": 0.6746307617714801,
+      "conditions": {
+        "raw_description": "LAH; Et2O; 97%",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_2",
+      "reaction_smiles": "Cc1ccccc1CCO.[Li].N.C1CCOC1>>CC1=C(CCO)CC=CC1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[c:3]([CH2:4][CH2:5][OH:6])[cH:7][cH:8][cH:9][cH:10]1>C1CCOC1.N.[Li]>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][OH:6])[CH2:7][CH:8]=[CH:9][CH2:10]1",
+      "mapping_confidence": 0.9397054078401312,
+      "conditions": {
+        "raw_description": "Li; NH3; tAmOH; THF; -45 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "tAmOH",
+          "NH3",
+          "Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC(C)(C)O",
+          "N",
+          "[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-45"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_3",
+      "reaction_smiles": "CC1=C(CCO)CC=CC1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1c[nH]cn1.II.CCOCC.CC#N>>CC1=C(CCI)CC=CC1",
+      "reaction_smiles_mapped": "O[CH2:5][CH2:4][C:3]1=[C:2]([CH3:1])[CH2:10][CH:9]=[CH:8][CH2:7]1.I[I:6]>CC#N.CCOCC.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][I:6])[CH2:7][CH:8]=[CH:9][CH2:10]1",
+      "mapping_confidence": 0.5133182003598993,
+      "conditions": {
+        "raw_description": "PPh3; imid; I2; Et2O; MeCN; rt; 93%",
+        "GENERAL_REAGENTS": [
+          "PPh3",
+          "imid",
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+          "c1cnc[nH]1",
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_4",
+      "reaction_smiles": "CC1=C(CCI)CC=CC1.COC(=O)C1C=CC=CC1.[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>COC(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1",
+      "reaction_smiles_mapped": "I[CH2:6][CH2:7][C:8]1=[C:9]([CH3:10])[CH2:11][CH:12]=[CH:13][CH2:14]1.[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH:15]=[CH:16][CH:17]=[CH:18][CH2:19]1>C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C.[Li]N(C(C)C)C(C)C>[CH3:1][O:2][C:3](=[O:4])[C:5]1([CH2:6][CH2:7][C:8]2=[C:9]([CH3:10])[CH2:11][CH:12]=[CH:13][CH2:14]2)[CH:15]=[CH:16][CH:17]=[CH:18][CH2:19]1",
+      "mapping_confidence": 0.8849923625819816,
+      "conditions": {
+        "raw_description": "LDA; HMPA; THF; -78 \u00b0C to -20 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-20"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_5",
+      "reaction_smiles": "COC(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1.CC(C)C[AlH]CC(C)C.ClCCl>>CC1=C(CCC2(CO)C=CC=CC2)CC=CC1",
+      "reaction_smiles_mapped": "CO[C:7]([C:6]1([CH2:5][CH2:4][C:3]2=[C:2]([CH3:1])[CH2:17][CH:16]=[CH:15][CH2:14]2)[CH:9]=[CH:10][CH:11]=[CH:12][CH2:13]1)=[O:8]>CC(C)C[AlH]CC(C)C.ClCCl>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C:6]2([CH2:7][OH:8])[CH:9]=[CH:10][CH:11]=[CH:12][CH2:13]2)[CH2:14][CH:15]=[CH:16][CH2:17]1",
+      "mapping_confidence": 0.6346946010321831,
+      "conditions": {
+        "raw_description": "DIBAL; DCM; -78 \u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_6",
+      "reaction_smiles": "CC1=C(CCC2(CO)C=CC=CC2)CC=CC1.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>CC1=C(CCC2(C=O)C=CC=CC2)CC=CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C:6]2([CH2:7][OH:8])[CH:9]=[CH:10][CH:11]=[CH:12][CH2:13]2)[CH2:14][CH:15]=[CH:16][CH2:17]1>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C:6]2([CH:7]=[O:8])[CH:9]=[CH:10][CH:11]=[CH:12][CH2:13]2)[CH2:14][CH:15]=[CH:16][CH2:17]1",
+      "mapping_confidence": 0.9271522285663926,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; DCM; -60 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-60"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_7",
+      "reaction_smiles": "CC1=C(CCC2(C=O)C=CC=CC2)CC=CC1.CCOC(=O)C=[N+]=[N-].[Li]N(C(C)C)C(C)C.C1CCOC1>>CCOC(=O)C(=[N+]=[N-])C(O)C1(CCC2=C(C)CC=CC2)C=CC=CC1",
+      "reaction_smiles_mapped": "[CH:9](=[O:10])[C:11]1([CH2:12][CH2:13][C:14]2=[C:15]([CH3:16])[CH2:17][CH:18]=[CH:19][CH2:20]2)[CH:21]=[CH:22][CH:23]=[CH:24][CH2:25]1.[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]=[N+:7]=[N-:8]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[N+:7]=[N-:8])[CH:9]([OH:10])[C:11]1([CH2:12][CH2:13][C:14]2=[C:15]([CH3:16])[CH2:17][CH:18]=[CH:19][CH2:20]2)[CH:21]=[CH:22][CH:23]=[CH:24][CH2:25]1",
+      "mapping_confidence": 0.8767593376081134,
+      "conditions": {
+        "raw_description": "LDA; THF; -78 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_8",
+      "reaction_smiles": "CCOC(=O)C(=[N+]=[N-])C(O)C1(CCC2=C(C)CC=CC2)C=CC=CC1.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2].COCCOC>>CCOC(=O)CC(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1",
+      "reaction_smiles_mapped": "[N-]=[N+]=[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH:7]([OH:8])[C:9]1([CH2:10][CH2:11][C:12]2=[C:13]([CH3:14])[CH2:15][CH:16]=[CH:17][CH2:18]2)[CH:19]=[CH:20][CH:21]=[CH:22][CH2:23]1>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].COCCOC.[Rh+2].[Rh+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[C:9]1([CH2:10][CH2:11][C:12]2=[C:13]([CH3:14])[CH2:15][CH:16]=[CH:17][CH2:18]2)[CH:19]=[CH:20][CH:21]=[CH:22][CH2:23]1",
+      "mapping_confidence": 0.9444605493561026,
+      "conditions": {
+        "raw_description": "Rh2(OAc)4; DME; rt; 72%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Rh2(OAc)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Rh+2].[Rh+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_9",
+      "reaction_smiles": "CCOC(=O)CC(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1.Cc1ccc(S(=O)(=O)N=[N+]=[N-])cc1.CCN(CC)CC.CCO>>CCOC(=O)C(=[N+]=[N-])C(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:9](=[O:10])[C:11]1([CH2:12][CH2:13][C:14]2=[C:15]([CH3:16])[CH2:17][CH:18]=[CH:19][CH2:20]2)[CH:21]=[CH:22][CH:23]=[CH:24][CH2:25]1.Cc1ccc(S(=O)(=O)N=[N+:7]=[N-:8])cc1>CCN(CC)CC.CCO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6](=[N+:7]=[N-:8])[C:9](=[O:10])[C:11]1([CH2:12][CH2:13][C:14]2=[C:15]([CH3:16])[CH2:17][CH:18]=[CH:19][CH2:20]2)[CH:21]=[CH:22][CH:23]=[CH:24][CH2:25]1",
+      "mapping_confidence": 0.5319029315826717,
+      "conditions": {
+        "raw_description": "TsN3; Et3N; EtOH; rt; 96%",
+        "GENERAL_REAGENTS": [
+          "TsN3",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)N=[N+]=[N-]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_10",
+      "reaction_smiles": "CCOC(=O)C(=[N+]=[N-])C(=O)C1(CCC2=C(C)CC=CC2)C=CC=CC1.CC(C)(C)/N=C/c1ccccc1O[Cu]Oc1ccccc1/C=N/C(C)(C)C.Cc1ccccc1>>CCOC(=O)[C@@]12C(=O)[C@@]3(CCC4=C(C)CC=CC4)C=C[C@@H]1[C@@H]2C3",
+      "reaction_smiles_mapped": "[N-]=[N+]=[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:7](=[O:8])[C:9]1([CH2:10][CH2:11][C:12]2=[C:13]([CH3:14])[CH2:15][CH:16]=[CH:17][CH2:18]2)[CH:19]=[CH:20][CH:21]=[CH:22][CH2:23]1>CC(C)(C)/N=C/c1ccccc1O[Cu]Oc1ccccc1/C=N/C(C)(C)C.Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]12[C:7](=[O:8])[C@@:9]3([CH2:10][CH2:11][C:12]4=[C:13]([CH3:14])[CH2:15][CH:16]=[CH:17][CH2:18]4)[CH:19]=[CH:20][C@@H:21]1[C@@H:22]2[CH2:23]3",
+      "mapping_confidence": 0.9259505030032501,
+      "conditions": {
+        "raw_description": "toluene; \u2206; 67%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "heat"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_11",
+      "reaction_smiles": "CCOC(=O)[C@@]12C(=O)[C@@]3(CCC4=C(C)CC=CC4)C=C[C@@H]1[C@@H]2C3.[AlH4-].[Li+].CCOCC>>CC1=C(CC[C@]23C=C[C@@H]4[C@H](C2)[C@]4(CO)[C@H]3O)CC=CC1",
+      "reaction_smiles_mapped": "CCO[C:13]([C@@:12]12[C@@H:9]3[CH:8]=[CH:7][C@@:6]([CH2:5][CH2:4][C:3]4=[C:2]([CH3:1])[CH2:20][CH:19]=[CH:18][CH2:17]4)([CH2:11][C@@H:10]31)[C:15]2=[O:16])=[O:14]>CCOCC.[AlH4-].[Li+]>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C@:6]23[CH:7]=[CH:8][C@@H:9]4[C@H:10]([CH2:11]2)[C@:12]4([CH2:13][OH:14])[C@H:15]3[OH:16])[CH2:17][CH:18]=[CH:19][CH2:20]1",
+      "mapping_confidence": 0.8159117819330451,
+      "conditions": {
+        "raw_description": "LAH; Et2O; rt; 97%",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_12",
+      "reaction_smiles": "CC1=C(CC[C@]23C=C[C@@H]4[C@H](C2)[C@]4(CO)[C@H]3O)CC=CC1.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>CC1=C(CC[C@]23C=C[C@@H]4[C@H](C2)[C@]4(CO[Si](C)(C)C(C)(C)C)[C@H]3O)CC=CC1",
+      "reaction_smiles_mapped": "Cl[Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21].[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C@:6]23[CH:7]=[CH:8][C@@H:9]4[C@H:10]([CH2:11]2)[C@:12]4([CH2:13][OH:14])[C@H:22]3[OH:23])[CH2:24][CH:25]=[CH:26][CH2:27]1>CN(C)C=O.c1c[nH]cn1>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C@:6]23[CH:7]=[CH:8][C@@H:9]4[C@H:10]([CH2:11]2)[C@:12]4([CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[C@H:22]3[OH:23])[CH2:24][CH:25]=[CH:26][CH2:27]1",
+      "mapping_confidence": 0.3153411301096072,
+      "conditions": {
+        "raw_description": "TBSCl; imid; DMF; rt; 91%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "c1cnc[nH]1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_13",
+      "reaction_smiles": "CC1=C(CC[C@]23C=C[C@@H]4[C@H](C2)[C@]4(CO[Si](C)(C)C(C)(C)C)[C@H]3O)CC=CC1.Cc1cc(C(C)(C)C)nc(C(C)(C)C)c1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.CCC[N+](=O)[O-]>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC=CC[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "O[C@@H:11]1[C@:10]2([CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[C@@H:24]3[CH:23]=[CH:22][C@@:12]1([CH2:13][CH2:14][C:15]1=[C:20]([CH3:21])[CH2:19][CH:18]=[CH:17][CH2:16]1)[CH2:26][C@H:25]23>CCC[N+](=O)[O-].Cc1cc(C(C)(C)C)nc(C(C)(C)C)c1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH:17]=[CH:18][CH2:19][C@@:20]4([CH3:21])[C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[CH2:26]3",
+      "mapping_confidence": 0.1217757388173474,
+      "conditions": {
+        "raw_description": "Tf2O; 1-nitropropane; 0 \u00b0C; 69%",
+        "GENERAL_REAGENTS": [
+          "Tf2O",
+          "1-nitropropane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F",
+          "CCC[N+](=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_14",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC=CC[C@@]4(C)[C@@H]2C=C[C@@H]1C3.O=O.O=C1OC2(c3cc(I)c(O)c(I)c3Oc3c2cc(I)c(O)c3I)c2c(Cl)c(Cl)c(Cl)c(Cl)c21.ClCCl.CO>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]45C=C[C@H](C[C@@]4(C)[C@@H]2C=C[C@@H]1C3)OO5",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH:17]=[CH:18][CH2:19][C@@:20]4([CH3:21])[C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[CH2:26]3.[O:27]=[O:28]>CO.ClCCl.O=C1OC2(c3cc(I)c(O)c(I)c3Oc3c2cc(I)c(O)c3I)c2c(Cl)c(Cl)c(Cl)c(Cl)c21>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]45[CH:16]=[CH:17][C@H:18]([CH2:19][C@@:20]4([CH3:21])[C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[CH2:26]3)[O:27][O:28]5",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "O2; h\u03bd; rose bengal; DCM; MeOH; -20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "rose bengal"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=C(O1)C2=C(C(Cl)=C(Cl)C(Cl)=C2Cl)C31C4=C(C(I)=C(O)C(I)=C4)OC5=C(I)C(O)=C(I)C=C53"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CO"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_15",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]45C=C[C@H](C[C@@]4(C)[C@@H]2C=C[C@@H]1C3)OO5.C1CCOC1.O>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(O)C=C[C@@H](O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]45[O:16][O:20][C@H:19]([CH:18]=[CH:17]4)[CH2:21][C@@:22]5([CH3:23])[C@@H:24]2[CH:25]=[CH:26][C@@H:27]1[CH2:28]3>C1CCOC1.O>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]4([OH:16])[CH:17]=[CH:18][C@@H:19]([OH:20])[CH2:21][C@@:22]4([CH3:23])[C@@H:24]2[CH:25]=[CH:26][C@@H:27]1[CH2:28]3",
+      "mapping_confidence": 0.29444304283275685,
+      "conditions": {
+        "raw_description": "Al amalgam; THF; H2O; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [
+          "Al amalgam"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_16",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(O)C=C[C@@H](O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.O=[Cr](=O)=O.c1ccncc1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(O)C=CC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]4([OH:16])[CH:17]=[CH:18][C@@H:19]([OH:20])[CH2:21][C@@:22]4([CH3:23])[C@@H:24]2[CH:25]=[CH:26][C@@H:27]1[CH2:28]3>O=[Cr](=O)=O.c1ccncc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]4([OH:16])[CH:17]=[CH:18][C:19](=[O:20])[CH2:21][C@@:22]4([CH3:23])[C@@H:24]2[CH:25]=[CH:26][C@@H:27]1[CH2:28]3",
+      "mapping_confidence": 0.3437375700137639,
+      "conditions": {
+        "raw_description": "CrO3; pyr; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "CrO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyr"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_17",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(O)C=CC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.CN(C)c1ccncc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F.c1ccncc1.ClCCl>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(OC(=O)C(F)(F)F)C=CC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]4([OH:16])[CH:23]=[CH:24][C:25](=[O:26])[CH2:27][C@@:28]4([CH3:29])[C@@H:30]2[CH:31]=[CH:32][C@@H:33]1[CH2:34]3.O=C(O[C:17](=[O:18])[C:19]([F:20])([F:21])[F:22])C(F)(F)F>CN(C)c1ccncc1.ClCCl.c1ccncc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@:15]4([O:16][C:17](=[O:18])[C:19]([F:20])([F:21])[F:22])[CH:23]=[CH:24][C:25](=[O:26])[CH2:27][C@@:28]4([CH3:29])[C@@H:30]2[CH:31]=[CH:32][C@@H:33]1[CH2:34]3",
+      "mapping_confidence": 0.058001440107053694,
+      "conditions": {
+        "raw_description": "TFAA; DMAP; pyr; DCM; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyr",
+          "DCM",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1",
+          "ClCCl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_18",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@]4(OC(=O)C(F)(F)F)C=CC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.[Zn].CC(=O)O.C1CCOC1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CCC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "O=C(O[C@:15]12[CH2:14][CH2:13][C@:12]34[CH:11]=[C:10]([CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[C@H:26]([CH:25]=[CH:24][C@H:23]3[C@:21]1([CH3:22])[CH2:20][C:18](=[O:19])[CH:17]=[CH:16]2)[CH2:27]4)C(F)(F)F>C1CCOC1.CC(=O)O.[Zn]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C:18](=[O:19])[CH2:20][C@@:21]4([CH3:22])[C@@H:23]2[CH:24]=[CH:25][C@@H:26]1[CH2:27]3",
+      "mapping_confidence": 0.37004529175659356,
+      "conditions": {
+        "raw_description": "Zn; AcOH; THF; rt; 81% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "Zn",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "81% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_19",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CCC(=O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C:18](=[O:19])[CH2:20][C@@:21]4([CH3:22])[C@@H:23]2[CH:24]=[CH:25][C@@H:26]1[CH2:27]3>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C@H:18]([OH:19])[CH2:20][C@@:21]4([CH3:22])[C@@H:23]2[CH:24]=[CH:25][C@@H:26]1[CH2:27]3",
+      "mapping_confidence": 0.35257817882918185,
+      "conditions": {
+        "raw_description": "L-Selectride; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "L-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](C(C)CC)(C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_20",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](O)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.O=C(Cl)Cl.CCN(CC)CC.C1CCOC1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](OC(=O)Cl)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C@H:18]([OH:19])[CH2:23][C@@:24]4([CH3:25])[C@@H:26]2[CH:27]=[CH:28][C@@H:29]1[CH2:30]3.Cl[C:20](=[O:21])[Cl:22]>C1CCOC1.CCN(CC)CC>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C@H:18]([O:19][C:20](=[O:21])[Cl:22])[CH2:23][C@@:24]4([CH3:25])[C@@H:26]2[CH:27]=[CH:28][C@@H:29]1[CH2:30]3",
+      "mapping_confidence": 0.1556143616298949,
+      "conditions": {
+        "raw_description": "COCl2; Et3N; THF; rt",
+        "GENERAL_REAGENTS": [
+          "COCl2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_21",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](OC(=O)Cl)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.[Se]c1ccccc1.c1ccncc1.c1ccccc1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](OC(=O)[Se]c5ccccc5)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3",
+      "reaction_smiles_mapped": "Cl[C:20]([O:19][C@H:18]1[CH2:17][CH:16]=[C:15]2[CH2:14][CH2:13][C@:12]34[CH:11]=[C:10]([CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[C@H:35]([CH:34]=[CH:33][C@H:32]3[C@:30]2([CH3:31])[CH2:29]1)[CH2:36]4)=[O:21].[Se:22][c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1>c1ccccc1.c1ccncc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C:15]4=[CH:16][CH2:17][C@H:18]([O:19][C:20](=[O:21])[Se:22][c:23]5[cH:24][cH:25][cH:26][cH:27][cH:28]5)[CH2:29][C@@:30]4([CH3:31])[C@@H:32]2[CH:33]=[CH:34][C@@H:35]1[CH2:36]3",
+      "mapping_confidence": 0.3277633694417135,
+      "conditions": {
+        "raw_description": "PhSeH; pyr; benzene; rt; 80% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "PhSeH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)[Se]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyr",
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_22",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CCC4=CC[C@H](OC(=O)[Se]c5ccccc5)C[C@@]4(C)[C@@H]2C=C[C@@H]1C3.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.c1ccccc1>>CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@@H]4[C@H]5C[C@@H](C[C@@]4(C)[C@@H]2C=C[C@@H]1C3)OC5=O",
+      "reaction_smiles_mapped": "c1ccc([Se][C:28]([O:27][C@H:18]2[CH2:17][CH:16]=[C:15]3[CH2:14][CH2:13][C@:12]45[CH:11]=[C:10]([CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[C@H:25]([CH:24]=[CH:23][C@H:22]4[C@:20]3([CH3:21])[CH2:19]2)[CH2:26]5)=[O:29])cc1>CC(C)(C#N)N=NC(C)(C)C#N.CCCC[SnH](CCCC)CCCC.c1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][C:10]1=[CH:11][C@@:12]23[CH2:13][CH2:14][C@@H:15]4[C@H:16]5[CH2:17][C@@H:18]([CH2:19][C@@:20]4([CH3:21])[C@@H:22]2[CH:23]=[CH:24][C@@H:25]1[CH2:26]3)[O:27][C:28]5=[O:29]",
+      "mapping_confidence": 0.36360676314961793,
+      "conditions": {
+        "raw_description": "nBu3SnH; AIBN; benzene; \u2206; 73%",
+        "GENERAL_REAGENTS": [
+          "nBu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "heat"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_23",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC1=C[C@@]23CC[C@@H]4[C@H]5C[C@@H](C[C@@]4(C)[C@@H]2C=C[C@@H]1C3)OC5=O.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@]13C=C(CO)[C@H](C=C[C@H]12)C3",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:17][CH2:16][C:15]1=[CH:14][C@@:13]23[CH2:12][CH2:11][C@H:10]4[C@@:2]([CH3:1])([CH2:3][C@@H:4]5[CH2:5][C@H:6]4[C:7](=[O:8])[O:9]5)[C@@H:21]2[CH:20]=[CH:19][C@@H:18]1[CH2:22]3>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@:13]13[CH:14]=[C:15]([CH2:16][OH:17])[C@H:18]([CH:19]=[CH:20][C@@H:21]21)[CH2:22]3",
+      "mapping_confidence": 0.9393680537125846,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_24",
+      "reaction_smiles": "C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@]13C=C(CO)[C@H](C=C[C@H]12)C3.OOC(c1ccccc1)(c1ccccc1)c1ccccc1.Cc1cccc(C)n1.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].O=[V+2].Cc1ccccc1.c1ccccc1>>C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](C=C[C@@H]21)[C@]1(CO)O[C@H]31",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@@:13]13[CH2:14][C@@H:15]([CH:16]=[CH:17][C@@H:18]21)[C:19]([CH2:20][OH:21])=[CH:23]3.c1ccc(C(O[OH:22])(c2ccccc2)c2ccccc2)cc1>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].Cc1cccc(C)n1.Cc1ccccc1.O=[V+2].c1ccccc1>[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@@:13]13[CH2:14][C@@H:15]([CH:16]=[CH:17][C@@H:18]21)[C@:19]1([CH2:20][OH:21])[O:22][C@H:23]31",
+      "mapping_confidence": 0.5766800047881512,
+      "conditions": {
+        "raw_description": "VO(acac)2; 2,6-lutidine; toluene; benzene; rt; 96%",
+        "GENERAL_REAGENTS": [
+          "2,6-lutidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [
+          "VO(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].O=[V+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_25",
+      "reaction_smiles": "C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](C=C[C@@H]21)[C@]1(CO)O[C@H]31.[HH].[C].[Pd].CCOC(C)=O>>C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](CC[C@@H]21)[C@]1(CO)O[C@H]31",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@@:13]13[CH2:14][C@@H:15]([CH:16]=[CH:17][C@@H:18]21)[C@:19]1([CH2:20][OH:21])[O:22][C@H:23]31>CCOC(C)=O.[C].[HH].[Pd]>[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@@:13]13[CH2:14][C@@H:15]([CH2:16][CH2:17][C@@H:18]21)[C@:19]1([CH2:20][OH:21])[O:22][C@H:23]31",
+      "mapping_confidence": 0.9854508974281199,
+      "conditions": {
+        "raw_description": "Pd/C; H2; EtOAc; rt; 85%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_26",
+      "reaction_smiles": "C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](CC[C@@H]21)[C@]1(CO)O[C@H]31.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC#N>>C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](CC[C@@H]21)[C@]1(CBr)O[C@H]31",
+      "reaction_smiles_mapped": "BrC(Br)(Br)[Br:21].O[CH2:20][C@:19]12[C@H:15]3[CH2:14][C@@:13]4([CH2:12][CH2:11][C@H:10]5[C@@:2]([CH3:1])([CH2:3][C@@H:4]6[CH2:5][C@H:6]5[C:7](=[O:8])[O:9]6)[C@@H:18]4[CH2:17][CH2:16]3)[C@H:23]1[O:22]2>CC#N.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@@:2]12[CH2:3][C@@H:4]3[CH2:5][C@@H:6]([C:7](=[O:8])[O:9]3)[C@H:10]1[CH2:11][CH2:12][C@@:13]13[CH2:14][C@@H:15]([CH2:16][CH2:17][C@@H:18]21)[C@:19]1([CH2:20][Br:21])[O:22][C@H:23]31",
+      "mapping_confidence": 0.268940008110614,
+      "conditions": {
+        "raw_description": "CBr4; PPh3; MeCN; rt",
+        "GENERAL_REAGENTS": [
+          "CBr4",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_27",
+      "reaction_smiles": "C[C@@]12C[C@@H]3C[C@@H](C(=O)O3)[C@H]1CC[C@@]13C[C@@H](CC[C@@H]21)[C@]1(CBr)O[C@H]31.[Zn].CC(=O)O.C1CCOC1.CC#N>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H]5C[C@@H](C(=O)O5)[C@H]4CC[C@]3(C2)[C@H]1O",
+      "reaction_smiles_mapped": "Br[CH2:1][C@:2]12[C@@H:3]3[CH2:4][CH2:5][C@H:6]4[C@:7]5([CH3:8])[CH2:9][C@@H:10]6[CH2:11][C@@H:12]([C:13](=[O:14])[O:15]6)[C@H:16]5[CH2:17][CH2:18][C@:19]4([CH2:20]3)[C@H:21]1[O:22]2>C1CCOC1.CC#N.CC(=O)O.[Zn]>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]5[CH2:11][C@@H:12]([C:13](=[O:14])[O:15]5)[C@H:16]4[CH2:17][CH2:18][C@:19]3([CH2:20]2)[C@H:21]1[OH:22]",
+      "mapping_confidence": 0.9506382823544794,
+      "conditions": {
+        "raw_description": "Zn; AcOH; THF; MeCN; rt; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Zn",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_28",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H]5C[C@@H](C(=O)O5)[C@H]4CC[C@]3(C2)[C@H]1O.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.Cc1cccc(C)n1.ClCCl>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H]5C[C@@H](C(=O)O5)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]5[CH2:11][C@@H:12]([C:13](=[O:14])[O:15]5)[C@H:16]4[CH2:17][CH2:18][C@:19]3([CH2:20]2)[C@H:21]1[OH:22].O=S(=O)(O[Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29])C(F)(F)F>Cc1cccc(C)n1.ClCCl>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]5[CH2:11][C@@H:12]([C:13](=[O:14])[O:15]5)[C@H:16]4[CH2:17][CH2:18][C@:19]3([CH2:20]2)[C@H:21]1[O:22][Si:23]([CH3:24])([CH3:25])[C:26]([CH3:27])([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.25334187647020645,
+      "conditions": {
+        "raw_description": "TBSOTf; 2,6-lutidine; DCM; -78 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf",
+          "2,6-lutidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_29",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H]5C[C@@H](C(=O)O5)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]5[CH2:12][C@@H:13]([C:14](=[O:15])[O:16]5)[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31].[OH:11][CH3:17]>O=C([O-])[O-].[K+].[K+]>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.3058981302150117,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; rt; 95%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_30",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1>>C=C1[C@@H]2CC[C@H]3[C@]4(C)CC(=O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]>O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.3799072531081945,
+      "conditions": {
+        "raw_description": "PCC; 88%",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_31",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)CC(=O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C.I[Sm]I.O.C1CCOC1>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]>C1CCOC1.I[Sm]I.O>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.3300605314883444,
+      "conditions": {
+        "raw_description": "SmI2; H2O; THF; rt; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_32",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O[Si](C)(C)C(C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:24][C@H:23]1[C:2](=[CH2:1])[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@@:21]31[CH2:22]2>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[O:16][CH3:17])[C@H:18]4[CH2:19][CH2:20][C@:21]3([CH2:22]2)[C@H:23]1[OH:24]",
+      "mapping_confidence": 0.9804724602293412,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Atractyligenin_1987_Corey_33",
+      "reaction_smiles": "C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@H](O)C[C@@H](C(=O)OC)[C@H]4CC[C@]3(C2)[C@H]1O.CN(C)P(=O)(N(C)C)N(C)C>>C=C1[C@@H]2CC[C@H]3[C@]4(C)C[C@H](O)C[C@@H](C(=O)O)[C@H]4CC[C@]3(C2)[C@H]1O",
+      "reaction_smiles_mapped": "C[O:16][C:14]([C@@H:13]1[CH2:12][C@@H:10]([OH:11])[CH2:9][C@@:7]2([CH3:8])[C@@H:6]3[CH2:5][CH2:4][C@H:3]4[C:2](=[CH2:1])[C@H:22]([OH:23])[C@:20]3([CH2:19][CH2:18][C@@H:17]21)[CH2:21]4)=[O:15]>CN(C)P(=O)(N(C)C)N(C)C>[CH2:1]=[C:2]1[C@@H:3]2[CH2:4][CH2:5][C@H:6]3[C@:7]4([CH3:8])[CH2:9][C@H:10]([OH:11])[CH2:12][C@@H:13]([C:14](=[O:15])[OH:16])[C@H:17]4[CH2:18][CH2:19][C@:20]3([CH2:21]2)[C@H:22]1[OH:23]",
+      "mapping_confidence": 0.969838614893119,
+      "conditions": {
+        "raw_description": "nPrSLi; HMPA; 0 \u00b0C to rt; 84%",
+        "GENERAL_REAGENTS": [
+          "nPrSLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

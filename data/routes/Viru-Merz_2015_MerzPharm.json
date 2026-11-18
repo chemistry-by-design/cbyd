@@ -1,0 +1,104 @@
+{
+  "background": {
+    "name": "Viru-Merz",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Tromantadine",
+    "manufacturer": "MerzPharm",
+    "citation": "Chem. Soc. Rev. 2015, 44, 7737",
+    "doi": "10.1039/C4CS00477A"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Viru-Merz_2015_MerzPharm_1",
+      "reaction_smiles": "CN(C)CCO.[Li]CCCC.C1CCOC1>>[Li]OCCN(C)C",
+      "reaction_smiles_mapped": "[OH:2][CH2:3][CH2:4][N:5]([CH3:6])[CH3:7].CCCC[Li:1]>C1CCOC1>[Li:1][O:2][CH2:3][CH2:4][N:5]([CH3:6])[CH3:7]",
+      "mapping_confidence": 0.6967919652761942,
+      "conditions": {
+        "raw_description": "n-BuLi; THF",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Viru-Merz_2015_MerzPharm_2",
+      "reaction_smiles": "NC12CC3CC(CC(C3)C1)C2.O=C(Cl)CCl.CCN(CC)CC.C1CCOC1>>O=C(CCl)NC12CC3CC(CC(C3)C1)C2",
+      "reaction_smiles_mapped": "[NH2:5][C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][CH:12]([CH2:13]3)[CH2:14]1)[CH2:15]2.Cl[C:2](=[O:1])[CH2:3][Cl:4]>C1CCOC1.CCN(CC)CC>[O:1]=[C:2]([CH2:3][Cl:4])[NH:5][C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][CH:12]([CH2:13]3)[CH2:14]1)[CH2:15]2",
+      "mapping_confidence": 0.7976811912273771,
+      "conditions": {
+        "raw_description": "TEA; THF; 0 to 23 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Viru-Merz_2015_MerzPharm_3",
+      "reaction_smiles": "O=C(CCl)NC12CC3CC(CC(C3)C1)C2.[Li]OCCN(C)C.C1CCOC1.Cl.c1ccccc1>>CN(C)CCOCC(=O)NC12CC3CC(CC(C3)C1)C2",
+      "reaction_smiles_mapped": "Cl[CH2:7][C:8](=[O:9])[NH:10][C:11]12[CH2:12][CH:13]3[CH2:14][CH:15]([CH2:16][CH:17]([CH2:18]3)[CH2:19]1)[CH2:20]2.[Li][O:6][CH2:5][CH2:4][N:2]([CH3:1])[CH3:3]>C1CCOC1.Cl.c1ccccc1>[CH3:1][N:2]([CH3:3])[CH2:4][CH2:5][O:6][CH2:7][C:8](=[O:9])[NH:10][C:11]12[CH2:12][CH:13]3[CH2:14][CH:15]([CH2:16][CH:17]([CH2:18]3)[CH2:19]1)[CH2:20]2",
+      "mapping_confidence": 0.468435957205914,
+      "conditions": {
+        "raw_description": "1) THF; 2) HCl(g); benzene; 72%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    }
+  ]
+}

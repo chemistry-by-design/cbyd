@@ -1,0 +1,1010 @@
+{
+  "background": {
+    "name": "Capreomycin IB",
+    "author": "Williams",
+    "year": 2003,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2003, 125, 8561",
+    "doi": "10.1021/ja0351241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_1",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCCC[C@@H](NC(=O)OC(C)(C)C)C(=O)O.CCOC(=O)Cl.CN1CCOCC1.CCOC(C)=O>>CCOC(=O)OC(=O)[C@@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[OH:6][C:7](=[O:8])[C@@H:9]([CH2:10][CH2:11][CH2:12][NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20])[NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28].Cl[C:4]([O:3][CH2:2][CH3:1])=[O:5]>CCOC(C)=O.CN1CCOCC1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[O:6][C:7](=[O:8])[C@@H:9]([CH2:10][CH2:11][CH2:12][NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20])[NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.174018968207507,
+      "conditions": {
+        "raw_description": "NMM; EtOAc; 0\u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMM",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCOCC1",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_2",
+      "reaction_smiles": "CCOC(=O)OC(=O)[C@@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C.C=[N+]=[N-]>>CC(C)(C)OC(=O)NCCC[C@@H](NC(=O)OC(C)(C)C)C(=O)C=[N+]=[N-]",
+      "reaction_smiles_mapped": "[CH2:23]=[N+:24]=[N-:25].CCOC(=O)O[C:21]([C@@H:12]([CH2:11][CH2:10][CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20])=[O:22]>>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][CH2:10][CH2:11][C@@H:12]([NH:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20])[C:21](=[O:22])[CH:23]=[N+:24]=[N-:25]",
+      "mapping_confidence": 0.1391594841221685,
+      "conditions": {
+        "raw_description": "CH2N2; Et2O",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCCC[C@@H](NC(=O)OC(C)(C)C)C(=O)C=[N+]=[N-].CCN(CC)CC.O=C([O-])c1ccccc1.[Ag+].O.CO>>CC(C)(C)OC(=O)NCCC[C@@H](CC(=O)O)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH:14][C:13]([C@@H:12]([CH2:11][CH2:10][CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])=[O:15].[OH2:16]>CCN(CC)CC.CO.O=C([O-])c1ccccc1.[Ag+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][CH2:10][CH2:11][C@@H:12]([CH2:13][C:14](=[O:15])[OH:16])[NH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.06209338113750882,
+      "conditions": {
+        "raw_description": "AgOBz; CH3OH; NEt3; H2O",
+        "GENERAL_REAGENTS": [
+          "NEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "AgOBz"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ag+].[O-]C(=O)c1ccccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "CH3OH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_4",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCCC[C@@H](CC(=O)O)NC(=O)OC(C)(C)C.O=C1CCC(=O)N1O.C(=NC1CCCCC1)=NC1CCCCC1.C1CCOC1>>CC(C)(C)OC(=O)NCCCC(CC(=O)ON1C(=O)CCC1=O)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "O[C:14]([CH2:13][C@H:12]([CH2:11][CH2:10][CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])=[O:15].[OH:16][N:17]1[C:18](=[O:19])[CH2:20][CH2:21][C:22]1=[O:23]>C(=NC1CCCCC1)=NC1CCCCC1.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][CH2:10][CH2:11][CH:12]([CH2:13][C:14](=[O:15])[O:16][N:17]1[C:18](=[O:19])[CH2:20][CH2:21][C:22]1=[O:23])[NH:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.1660315735269663,
+      "conditions": {
+        "raw_description": "DCC; THF 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC(CC1)N=C=NC2CCCCC2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_5",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCCCC(CC(=O)ON1C(=O)CCC1=O)NC(=O)OC(C)(C)C.COC(=O)C(CN)NC(=O)OCc1ccccc1.CN1CCOCC1.ClCCl>>COC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "O=C1CCC(=O)N1O[C:8](=[O:9])[CH2:10][CH:11]([CH2:12][CH2:13][CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22])[NH:23][C:24](=[O:25])[O:26][C:27]([CH3:28])([CH3:29])[CH3:30].[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][NH2:7])[NH:31][C:32](=[O:33])[O:34][CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1>CN1CCOCC1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH2:6][NH:7][C:8](=[O:9])[CH2:10][C@H:11]([CH2:12][CH2:13][CH2:14][NH:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22])[NH:23][C:24](=[O:25])[O:26][C:27]([CH3:28])([CH3:29])[CH3:30])[NH:31][C:32](=[O:33])[O:34][CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1",
+      "mapping_confidence": 0.192585659555127,
+      "conditions": {
+        "raw_description": "NMM; CH2Cl2; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMM",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCOCC1",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_6",
+      "reaction_smiles": "COC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)OCc1ccccc1.[Na+].[OH-].C1CCOC1.CO>>CC(C)(C)OC(=O)NCCC[C@@H](CC(=O)NC[C@H](NC(=O)OCc1ccccc1)C(=O)O)NC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "C[O:32][C:30]([C@H:18]([CH2:17][NH:16][C:14]([CH2:13][C@H:12]([CH2:11][CH2:10][CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40])=[O:15])[NH:19][C:20](=[O:21])[O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)=[O:31]>C1CCOC1.CO.[Na+].[OH-]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][CH2:10][CH2:11][C@@H:12]([CH2:13][C:14](=[O:15])[NH:16][CH2:17][C@H:18]([NH:19][C:20](=[O:21])[O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[C:30](=[O:31])[OH:32])[NH:33][C:34](=[O:35])[O:36][C:37]([CH3:38])([CH3:39])[CH3:40]",
+      "mapping_confidence": 0.1326453709457625,
+      "conditions": {
+        "raw_description": "99%; 2N NaOH; THF; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_7",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCCC[C@@H](CC(=O)NC[C@H](NC(=O)OCc1ccccc1)C(=O)O)NC(=O)OC(C)(C)C.CCOC(=O)[C@H](N)C(OCC)OCC.On1nnc2ccccc21.CCN=C=NCCCN(C)C.Cl.ClCCl.CN1CCOCC1>>CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)OCc1ccccc1)C(OCC)OCC",
+      "reaction_smiles_mapped": "O[C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[O:39][CH2:40][c:41]1[cH:42][cH:43][cH:44][cH:45][cH:46]1.[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@H:6]([NH2:7])[CH:47]([O:48][CH2:49][CH3:50])[O:51][CH2:52][CH3:53]>CCN=C=NCCCN(C)C.CN1CCOCC1.Cl.ClCCl.On1nnc2ccccc21>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[O:39][CH2:40][c:41]1[cH:42][cH:43][cH:44][cH:45][cH:46]1)[CH:47]([O:48][CH2:49][CH3:50])[O:51][CH2:52][CH3:53]",
+      "mapping_confidence": 0.09981339635594101,
+      "conditions": {
+        "raw_description": "CH2Cl2; 0 \u00b0C to rt; EDCl; HOBt; NMM; 91%",
+        "GENERAL_REAGENTS": [
+          "HOBt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)N=NN2O"
+        ],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "NMM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CN1CCOCC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_8",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)OCc1ccccc1)C(OCC)OCC.[HH].[OH-].[OH-].[Pd+2].CCO>>CCOC(=O)C(NC(=O)[C@@H](N)CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)C(OCC)OCC",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[NH:11][C@H:10]([C:8]([NH:7][CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH:37]([O:38][CH2:39][CH3:40])[O:41][CH2:42][CH3:43])=[O:9])[CH2:12][NH:13][C:14](=[O:15])[CH2:16][C@H:17]([CH2:18][CH2:19][CH2:20][NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28])[NH:29][C:30](=[O:31])[O:32][C:33]([CH3:34])([CH3:35])[CH3:36]>CCO.[HH].[OH-].[OH-].[Pd+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@@H:10]([NH2:11])[CH2:12][NH:13][C:14](=[O:15])[CH2:16][C@H:17]([CH2:18][CH2:19][CH2:20][NH:21][C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28])[NH:29][C:30](=[O:31])[O:32][C:33]([CH3:34])([CH3:35])[CH3:36])[CH:37]([O:38][CH2:39][CH3:40])[O:41][CH2:42][CH3:43]",
+      "mapping_confidence": 0.14838861163360678,
+      "conditions": {
+        "raw_description": "H2; Pd(OH)2; EtOH; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd+2].[OH-].[OH-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_9",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@@H](N)CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)C(OCC)OCC.C[C@H](NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(=O)O.CC(C)N=C=NC(C)C.On1nnc2ccccc21.C1CCOC1.CN(C)C=O>>CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(OCC)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH2:36])[CH:57]([O:58][CH2:59][CH3:60])[O:61][CH2:62][CH3:63].O[C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][C:46]([NH2:47])=[O:48])[NH:49][C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56]>C1CCOC1.CC(C)N=C=NC(C)C.CN(C)C=O.On1nnc2ccccc21>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][C:46]([NH2:47])=[O:48])[NH:49][C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56])[CH:57]([O:58][CH2:59][CH3:60])[O:61][CH2:62][CH3:63]",
+      "mapping_confidence": 0.05774621839326059,
+      "conditions": {
+        "raw_description": "DIC; HOBt; THF; DMF; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "DIC",
+          "HOBt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N=C=NC(C)C",
+          "C1=CC=C2C(=C1)N=NN2O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_10",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(OCC)OCC.O=C(OI(OC(=O)C(F)(F)F)c1ccccc1)C(F)(F)F.c1ccncc1.CN(C)C=O.O>>CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CN)NC(=O)OC(C)(C)C)C(OCC)OCC",
+      "reaction_smiles_mapped": "O=C([CH2:45][C@@H:44]([C:42]([NH:41][C@H:39]([C:37]([NH:36][C@H:10]([C:8]([NH:7][CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH:55]([O:56][CH2:57][CH3:58])[O:59][CH2:60][CH3:61])=[O:9])[CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])=[O:38])[CH3:40])=[O:43])[NH:47][C:48](=[O:49])[O:50][C:51]([CH3:52])([CH3:53])[CH3:54])[NH2:46]>CN(C)C=O.O.O=C(OI(OC(=O)C(F)(F)F)c1ccccc1)C(F)(F)F.c1ccncc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][NH2:46])[NH:47][C:48](=[O:49])[O:50][C:51]([CH3:52])([CH3:53])[CH3:54])[CH:55]([O:56][CH2:57][CH3:58])[O:59][CH2:60][CH3:61]",
+      "mapping_confidence": 0.04087314332022567,
+      "conditions": {
+        "raw_description": "PhI(O2CCF3)2; pyridine; DMF; H2O; 87%",
+        "GENERAL_REAGENTS": [
+          "PhI(O2CCF3)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1I(OC(=O)C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "DMF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "CN(C)C=O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_11",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CN)NC(=O)OC(C)(C)C)C(OCC)OCC.N=C1NCC[C@H]([C@H](NC(=O)OCc2ccccc2)C(=O)O)N1.Cl.On1nnc2ccccc21.CCN=C=NCCCN(C)C.Cl.CN(C)C=O.C1CCOC1>>CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](NC(=O)OCc1ccccc1)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(OCC)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][NH2:46])[NH:68][C:69](=[O:70])[O:71][C:72]([CH3:73])([CH3:74])[CH3:75])[CH:76]([O:77][CH2:78][CH3:79])[O:80][CH2:81][CH3:82].O[C:47](=[O:48])[C@@H:49]([NH:50][C:51](=[O:52])[O:53][CH2:54][c:55]1[cH:56][cH:57][cH:58][cH:59][cH:60]1)[C@H:61]1[CH2:62][CH2:63][NH:64][C:65](=[NH:66])[NH:67]1>C1CCOC1.CCN=C=NCCCN(C)C.CN(C)C=O.Cl.Cl.On1nnc2ccccc21>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][NH:46][C:47](=[O:48])[C@@H:49]([NH:50][C:51](=[O:52])[O:53][CH2:54][c:55]1[cH:56][cH:57][cH:58][cH:59][cH:60]1)[C@H:61]1[CH2:62][CH2:63][NH:64][C:65](=[NH2+:66])[NH:67]1)[NH:68][C:69](=[O:70])[O:71][C:72]([CH3:73])([CH3:74])[CH3:75])[CH:76]([O:77][CH2:78][CH3:79])[O:80][CH2:81][CH3:82]",
+      "mapping_confidence": 0.04128811182036975,
+      "conditions": {
+        "raw_description": "EDCl; HOBt; DMF; THF; 0 \u00b0C; 86-89%",
+        "GENERAL_REAGENTS": [
+          "HOBt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)N=NN2O"
+        ],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "86-89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_12",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](NC(=O)OCc1ccccc1)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(OCC)OCC.[HH].[C].[Pd].CCO>>CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](N)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(OCC)OCC",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[NH:50][C@H:49]([C:47]([NH:46][CH2:45][C@@H:44]([C:42]([NH:41][C@H:39]([C:37]([NH:36][C@H:10]([C:8]([NH:7][CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH:66]([O:67][CH2:68][CH3:69])[O:70][CH2:71][CH3:72])=[O:9])[CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])=[O:38])[CH3:40])=[O:43])[NH:58][C:59](=[O:60])[O:61][C:62]([CH3:63])([CH3:64])[CH3:65])=[O:48])[C@H:51]1[CH2:52][CH2:53][NH:54][C:55](=[NH2+:56])[NH:57]1>CCO.[C].[HH].[Pd]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([NH:7][C:8](=[O:9])[C@H:10]([CH2:11][NH:12][C:13](=[O:14])[CH2:15][C@H:16]([CH2:17][CH2:18][CH2:19][NH:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[NH:28][C:29](=[O:30])[O:31][C:32]([CH3:33])([CH3:34])[CH3:35])[NH:36][C:37](=[O:38])[C@H:39]([CH3:40])[NH:41][C:42](=[O:43])[C@H:44]([CH2:45][NH:46][C:47](=[O:48])[C@@H:49]([NH2:50])[C@H:51]1[CH2:52][CH2:53][NH:54][C:55](=[NH2+:56])[NH:57]1)[NH:58][C:59](=[O:60])[O:61][C:62]([CH3:63])([CH3:64])[CH3:65])[CH:66]([O:67][CH2:68][CH3:69])[O:70][CH2:71][CH3:72]",
+      "mapping_confidence": 0.04161566962954133,
+      "conditions": {
+        "raw_description": "H2; Pd-C; EtOH",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd-C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_13",
+      "reaction_smiles": "CCOC(=O)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](N)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(OCC)OCC.[Li+].[OH-].CCO>>CCOC(OCC)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](N)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(=O)O",
+      "reaction_smiles_mapped": "CC[O:70][C:68]([CH:8]([CH:4]([O:3][CH2:2][CH3:1])[O:5][CH2:6][CH3:7])[NH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15](=[O:16])[CH2:17][C@H:18]([CH2:19][CH2:20][CH2:21][NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[NH:30][C:31](=[O:32])[O:33][C:34]([CH3:35])([CH3:36])[CH3:37])[NH:38][C:39](=[O:40])[C@H:41]([CH3:42])[NH:43][C:44](=[O:45])[C@H:46]([CH2:47][NH:48][C:49](=[O:50])[C@@H:51]([NH2:52])[C@H:53]1[CH2:54][CH2:55][NH:56][C:57](=[NH2+:58])[NH:59]1)[NH:60][C:61](=[O:62])[O:63][C:64]([CH3:65])([CH3:66])[CH3:67])=[O:69]>CCO.[Li+].[OH-]>[CH3:1][CH2:2][O:3][CH:4]([O:5][CH2:6][CH3:7])[CH:8]([NH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15](=[O:16])[CH2:17][C@H:18]([CH2:19][CH2:20][CH2:21][NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[NH:30][C:31](=[O:32])[O:33][C:34]([CH3:35])([CH3:36])[CH3:37])[NH:38][C:39](=[O:40])[C@H:41]([CH3:42])[NH:43][C:44](=[O:45])[C@H:46]([CH2:47][NH:48][C:49](=[O:50])[C@@H:51]([NH2:52])[C@H:53]1[CH2:54][CH2:55][NH:56][C:57](=[NH2+:58])[NH:59]1)[NH:60][C:61](=[O:62])[O:63][C:64]([CH3:65])([CH3:66])[CH3:67])[C:68](=[O:69])[OH:70]",
+      "mapping_confidence": 0.06417993438951862,
+      "conditions": {
+        "raw_description": "LiOH; EtOH",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_14",
+      "reaction_smiles": "CCOC(OCC)C(NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CNC(=O)[C@@H](N)[C@H]1CCNC(=[NH2+])N1)NC(=O)OC(C)(C)C)C(=O)O.On1nnc2cccnc21.CCN=C=NCCCN(C)C.Cl.ClCCl.CN(C)C=O>>CCOC(OCC)[C@H]1NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@@H](NC(=O)OC(C)(C)C)CNC(=O)C([C@H]2CCNC(=N)N2)NC1=O",
+      "reaction_smiles_mapped": "O[C:68]([CH:8]([CH:4]([O:3][CH2:2][CH3:1])[O:5][CH2:6][CH3:7])[NH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15](=[O:16])[CH2:17][C@H:18]([CH2:19][CH2:20][CH2:21][NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[NH:30][C:31](=[O:32])[O:33][C:34]([CH3:35])([CH3:36])[CH3:37])[NH:38][C:39](=[O:40])[C@H:41]([CH3:42])[NH:43][C:44](=[O:45])[C@@H:46]([NH:47][C:48](=[O:49])[O:50][C:51]([CH3:52])([CH3:53])[CH3:54])[CH2:55][NH:56][C:57](=[O:58])[C@H:59]([C@H:60]1[CH2:61][CH2:62][NH:63][C:64](=[NH2+:65])[NH:66]1)[NH2:67])=[O:69]>CCN=C=NCCCN(C)C.CN(C)C=O.Cl.ClCCl.On1nnc2cccnc21>[CH3:1][CH2:2][O:3][CH:4]([O:5][CH2:6][CH3:7])[C@H:8]1[NH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15](=[O:16])[CH2:17][C@H:18]([CH2:19][CH2:20][CH2:21][NH:22][C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[NH:30][C:31](=[O:32])[O:33][C:34]([CH3:35])([CH3:36])[CH3:37])[NH:38][C:39](=[O:40])[C@H:41]([CH3:42])[NH:43][C:44](=[O:45])[C@@H:46]([NH:47][C:48](=[O:49])[O:50][C:51]([CH3:52])([CH3:53])[CH3:54])[CH2:55][NH:56][C:57](=[O:58])[CH:59]([C@H:60]2[CH2:61][CH2:62][NH:63][C:64](=[NH:65])[NH:66]2)[NH:67][C:68]1=[O:69]",
+      "mapping_confidence": 0.04638332129808337,
+      "conditions": {
+        "raw_description": "EDCl; HOAt; CH2Cl2; DMF; rt; 20% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "HOAt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC2=C(N=C1)N(N=N2)O"
+        ],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "20% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_15",
+      "reaction_smiles": "CCOC(OCC)[C@H]1NC(=O)[C@H](CNC(=O)C[C@H](CCCNC(=O)OC(C)(C)C)NC(=O)OC(C)(C)C)NC(=O)[C@H](C)NC(=O)[C@@H](NC(=O)OC(C)(C)C)CNC(=O)C([C@H]2CCNC(=N)N2)NC1=O.O=CO>>CCOC(OCC)[C@H]1NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](C)NC(=O)[C@@H](N)CNC(=O)C([C@H]2CCNC(=N)N2)NC1=O",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:19][C@H:18]([CH2:17][C:15]([NH:14][CH2:13][C@H:12]1[C:10](=[O:11])[NH:9][C@H:8]([CH:4]([O:3][CH2:2][CH3:1])[O:5][CH2:6][CH3:7])[C:47](=[O:48])[NH:46][CH:38]([C@H:39]2[CH2:40][CH2:41][NH:42][C:43](=[NH:44])[NH:45]2)[C:36](=[O:37])[NH:35][CH2:34][C@H:32]([NH:33]C(=O)OC(C)(C)C)[C:30](=[O:31])[NH:29][C@@H:27]([CH3:28])[C:25](=[O:26])[NH:24]1)=[O:16])[CH2:20][CH2:21][CH2:22][NH:23]C(=O)OC(C)(C)C>O=CO>[CH3:1][CH2:2][O:3][CH:4]([O:5][CH2:6][CH3:7])[C@H:8]1[NH:9][C:10](=[O:11])[C@H:12]([CH2:13][NH:14][C:15](=[O:16])[CH2:17][C@@H:18]([NH2:19])[CH2:20][CH2:21][CH2:22][NH2:23])[NH:24][C:25](=[O:26])[C@H:27]([CH3:28])[NH:29][C:30](=[O:31])[C@@H:32]([NH2:33])[CH2:34][NH:35][C:36](=[O:37])[CH:38]([C@H:39]2[CH2:40][CH2:41][NH:42][C:43](=[NH:44])[NH:45]2)[NH:46][C:47]1=[O:48]",
+      "mapping_confidence": 0.7241316841596821,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_16",
+      "reaction_smiles": "CCOC(OCC)[C@H]1NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](C)NC(=O)[C@@H](N)CNC(=O)C([C@H]2CCNC(=N)N2)NC1=O.Cl.NC(N)=O.CC(C)=O>>C[C@@H]1NC(=O)[C@@H](N)CNC(=O)C([C@H]2CCNC(=N)N2)NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC1=O",
+      "reaction_smiles_mapped": "CCO[CH:24](OCC)[C@@H:23]1[C:21](=[O:22])[NH:20][CH:12]([C@H:13]2[CH2:14][CH2:15][NH:16][C:17](=[NH:18])[NH:19]2)[C:10](=[O:11])[NH:9][CH2:8][C@H:6]([NH2:7])[C:4](=[O:5])[NH:3][C@@H:2]([CH3:1])[C:45](=[O:46])[NH:44][C@@H:32]([CH2:33][NH:34][C:35](=[O:36])[CH2:37][C@@H:38]([NH2:39])[CH2:40][CH2:41][CH2:42][NH2:43])[C:30](=[O:31])[NH:29]1.[NH2:25][C:26]([NH2:27])=[O:28]>CC(C)=O.Cl>[CH3:1][C@@H:2]1[NH:3][C:4](=[O:5])[C@@H:6]([NH2:7])[CH2:8][NH:9][C:10](=[O:11])[CH:12]([C@H:13]2[CH2:14][CH2:15][NH:16][C:17](=[NH:18])[NH:19]2)[NH:20][C:21](=[O:22])/[C:23](=[CH:24]/[NH:25][C:26]([NH2:27])=[O:28])[NH:29][C:30](=[O:31])[C@H:32]([CH2:33][NH:34][C:35](=[O:36])[CH2:37][C@@H:38]([NH2:39])[CH2:40][CH2:41][CH2:42][NH2:43])[NH:44][C:45]1=[O:46]",
+      "mapping_confidence": 0.4480209818638993,
+      "conditions": {
+        "raw_description": "2N HCl; acetone; D; urea; rt; 50-60% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "urea"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "C(=O)(N)N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50-60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_17",
+      "reaction_smiles": "NC(=O)C[C@@H](NC(=O)OCc1ccccc1)C(=O)O.CC(=O)OI(OC(C)=O)c1ccccc1.CCOC(C)=O.CC#N>>NCC(NC(=O)OCc1ccccc1)C(=O)O",
+      "reaction_smiles_mapped": "O=C([NH2:1])[CH2:2][C@@H:3]([NH:4][C:5](=[O:6])[O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[C:15](=[O:16])[OH:17]>CC#N.CC(=O)OI(OC(C)=O)c1ccccc1.CCOC(C)=O>[NH2:1][CH2:2][CH:3]([NH:4][C:5](=[O:6])[O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[C:15](=[O:16])[OH:17]",
+      "mapping_confidence": 0.8436639458837009,
+      "conditions": {
+        "raw_description": "PIDA; EtOAc; CH3CN; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "PIDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_18",
+      "reaction_smiles": "NCC(NC(=O)OCc1ccccc1)C(=O)O.Cl.CO>>COC(=O)C(CN)NC(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[OH:2][CH3:1].O[C:3](=[O:4])[CH:5]([CH2:6][NH2:7])[NH:8][C:9](=[O:10])[O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>Cl>[CH3:1][O:2][C:3](=[O:4])[CH:5]([CH2:6][NH2:7])[NH:8][C:9](=[O:10])[O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.8737017025923595,
+      "conditions": {
+        "raw_description": "MeOH; HCl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_19",
+      "reaction_smiles": "O=C1CN(C(=O)OCc2ccccc2)[C@H](c2ccccc2)[C@H](c2ccccc2)O1.CCOC(OCC)OCC.Cl[Ti](Cl)(Cl)Cl.CCN(CC)CC.ClCCl>>CCOC(OCC)[C@@H]1C(=O)O[C@@H](c2ccccc2)[C@@H](c2ccccc2)N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "CCO[CH:4]([O:3][CH2:2][CH3:1])[O:5][CH2:6][CH3:7].[CH2:8]1[C:9](=[O:10])[O:11][C@@H:12]([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C@@H:19]([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[N:26]1[C:27](=[O:28])[O:29][CH2:30][c:31]1[cH:32][cH:33][cH:34][cH:35][cH:36]1>CCN(CC)CC.ClCCl.Cl[Ti](Cl)(Cl)Cl>[CH3:1][CH2:2][O:3][CH:4]([O:5][CH2:6][CH3:7])[C@@H:8]1[C:9](=[O:10])[O:11][C@@H:12]([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C@@H:19]([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[N:26]1[C:27](=[O:28])[O:29][CH2:30][c:31]1[cH:32][cH:33][cH:34][cH:35][cH:36]1",
+      "mapping_confidence": 0.1913391788036827,
+      "conditions": {
+        "raw_description": "TiCl4; NEt3; (EtO)3CH; CH2Cl2; -78 \u00b0C- 0 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "(EtO)3CH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(OCC)OCC"
+        ],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NEt3",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_20",
+      "reaction_smiles": "CCOC(OCC)[C@@H]1C(=O)O[C@@H](c2ccccc2)[C@@H](c2ccccc2)N1C(=O)OCc1ccccc1.[HH].[OH-].[OH-].[Pd+2].C1CCOC1.CO>>CCOC(OCC)[C@@H](N)C(=O)O",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[N:9]1[C@H](c2ccccc2)[C@H](c2ccccc2)[O:12][C:10](=[O:11])[C@H:8]1[CH:4]([O:3][CH2:2][CH3:1])[O:5][CH2:6][CH3:7]>C1CCOC1.CO.[HH].[OH-].[OH-].[Pd+2]>[CH3:1][CH2:2][O:3][CH:4]([O:5][CH2:6][CH3:7])[C@@H:8]([NH2:9])[C:10](=[O:11])[OH:12]",
+      "mapping_confidence": 0.7977638776805173,
+      "conditions": {
+        "raw_description": "H2; Pd(OH)2; THF: MeOH; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd+2].[OH-].[OH-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_21",
+      "reaction_smiles": "CCOC(OCC)[C@@H](N)C(=O)O.Cl.CCO>>CCOC(=O)[C@H](N)C(OCC)OCC",
+      "reaction_smiles_mapped": "[OH:3][CH2:2][CH3:1].O[C:4](=[O:5])[C@H:6]([NH2:7])[CH:8]([O:9][CH2:10][CH3:11])[O:12][CH2:13][CH3:14]>Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@H:6]([NH2:7])[CH:8]([O:9][CH2:10][CH3:11])[O:12][CH2:13][CH3:14]",
+      "mapping_confidence": 0.44962800827712146,
+      "conditions": {
+        "raw_description": "EtOH; HCl; D; 96%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [
+          "heat"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_22",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@@H](CC(N)=O)C(=O)Oc1ccc([N+](=O)[O-])cc1.C[C@H](N)C(=O)OCc1ccccc1.On1nnc2ccccc21.N.CN(C)C=O>>C[C@H](NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "O=[N+]([O-])c1ccc(O[C:4](=[O:5])[C@H:6]([CH2:7][C:8]([NH2:9])=[O:10])[NH:11][C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])cc1.[CH3:1][C@H:2]([NH2:3])[C:19](=[O:20])[O:21][CH2:22][c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1>CN(C)C=O.N.On1nnc2ccccc21>[CH3:1][C@H:2]([NH:3][C:4](=[O:5])[C@H:6]([CH2:7][C:8]([NH2:9])=[O:10])[NH:11][C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])[C:19](=[O:20])[O:21][CH2:22][c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1",
+      "mapping_confidence": 0.3547578002026754,
+      "conditions": {
+        "raw_description": "NH3; HOBt; DMF",
+        "GENERAL_REAGENTS": [
+          "HOBt",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)N=NN2O",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_23",
+      "reaction_smiles": "C[C@H](NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(=O)OCc1ccccc1.[HH].[Pd]>>C[C@H](NC(=O)[C@H](CC(N)=O)NC(=O)OC(C)(C)C)C(=O)O",
+      "reaction_smiles_mapped": "c1ccc(C[O:21][C:19]([C@H:2]([CH3:1])[NH:3][C:4](=[O:5])[C@H:6]([CH2:7][C:8]([NH2:9])=[O:10])[NH:11][C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:20])cc1>[HH].[Pd]>[CH3:1][C@H:2]([NH:3][C:4](=[O:5])[C@H:6]([CH2:7][C:8]([NH2:9])=[O:10])[NH:11][C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])[C:19](=[O:20])[OH:21]",
+      "mapping_confidence": 0.5056666600705296,
+      "conditions": {
+        "raw_description": "H2; Pd",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50-60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_24",
+      "reaction_smiles": "O=C1CN(C(=O)OCc2ccccc2)[C@@H](c2ccccc2)[C@@H](c2ccccc2)O1.CC(C)(C)[Si](C)(C)OCC/C=N\\Cc1ccccc1.C[Al](C)Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+].C1CCOC1>>CC(C)(C)[Si](C)(C)OCC[C@@H](NCc1ccccc1)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][CH2:10]/[CH:11]=[N:12]\\[CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1.[CH2:20]1[C:21](=[O:22])[O:23][C@H:24]([c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[C@H:31]([c:32]2[cH:33][cH:34][cH:35][cH:36][cH:37]2)[N:38]1[C:39](=[O:40])[O:41][CH2:42][c:43]1[cH:44][cH:45][cH:46][cH:47][cH:48]1>C1CCOC1.C[Al](C)Cl.C[Si](C)(C)[N-][Si](C)(C)C.[Li+]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][CH2:10][C@@H:11]([NH:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C@H:20]1[C:21](=[O:22])[O:23][C@H:24]([c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[C@H:31]([c:32]2[cH:33][cH:34][cH:35][cH:36][cH:37]2)[N:38]1[C:39](=[O:40])[O:41][CH2:42][c:43]1[cH:44][cH:45][cH:46][cH:47][cH:48]1",
+      "mapping_confidence": 0.2022243322976895,
+      "conditions": {
+        "raw_description": "LHMDS; -78 \u00b0C; Me2AlCl; THF; 50-60%",
+        "GENERAL_REAGENTS": [
+          "LHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].C[Si](C)(C)[N-][Si](C)(C)C"
+        ],
+        "CATALYSTS": [
+          "Me2AlCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_25",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCC[C@@H](NCc1ccccc1)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1.CS/C(=N/C(=O)OC(C)(C)C)NC(=O)OC(C)(C)C.CCN(CC)CC.O=S(=O)([O-])C(F)(F)F.[Ag+].CN(C)C=O>>CC(C)(C)OC(=O)/N=C(/NC(=O)OC(C)(C)C)N(Cc1ccccc1)[C@H](CCO[Si](C)(C)C(C)(C)C)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[NH:18]([CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C@H:26]([CH2:27][CH2:28][O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[C@H:37]1[C:38](=[O:39])[O:40][C@H:41]([c:42]2[cH:43][cH:44][cH:45][cH:46][cH:47]2)[C@H:48]([c:49]2[cH:50][cH:51][cH:52][cH:53][cH:54]2)[N:55]1[C:56](=[O:57])[O:58][CH2:59][c:60]1[cH:61][cH:62][cH:63][cH:64][cH:65]1.CS/[C:9](=[N:8]/[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17]>CCN(CC)CC.CN(C)C=O.O=S(=O)([O-])C(F)(F)F.[Ag+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])/[N:8]=[C:9](/[NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[N:18]([CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C@H:26]([CH2:27][CH2:28][O:29][Si:30]([CH3:31])([CH3:32])[C:33]([CH3:34])([CH3:35])[CH3:36])[C@H:37]1[C:38](=[O:39])[O:40][C@H:41]([c:42]2[cH:43][cH:44][cH:45][cH:46][cH:47]2)[C@H:48]([c:49]2[cH:50][cH:51][cH:52][cH:53][cH:54]2)[N:55]1[C:56](=[O:57])[O:58][CH2:59][c:60]1[cH:61][cH:62][cH:63][cH:64][cH:65]1",
+      "mapping_confidence": 0.03626747001414317,
+      "conditions": {
+        "raw_description": "74%; Et3N; AgOTf; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "AgOTf"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)[O-].[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "70-91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_26",
+      "reaction_smiles": "CC(C)(C)OC(=O)/N=C(/NC(=O)OC(C)(C)C)N(Cc1ccccc1)[C@H](CCO[Si](C)(C)C(C)(C)C)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1.F.CC#N>>CC(C)(C)OC(=O)/N=C(/NC(=O)OC(C)(C)C)N(Cc1ccccc1)[C@H](CCO)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:29][CH2:28][CH2:27][C@@H:26]([N:18](/[C:9](=[N:8]\\[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C@H:30]1[C:31](=[O:32])[O:33][C@H:34]([c:35]2[cH:36][cH:37][cH:38][cH:39][cH:40]2)[C@H:41]([c:42]2[cH:43][cH:44][cH:45][cH:46][cH:47]2)[N:48]1[C:49](=[O:50])[O:51][CH2:52][c:53]1[cH:54][cH:55][cH:56][cH:57][cH:58]1>CC#N.F>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])/[N:8]=[C:9](/[NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[N:18]([CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[C@H:26]([CH2:27][CH2:28][OH:29])[C@H:30]1[C:31](=[O:32])[O:33][C@H:34]([c:35]2[cH:36][cH:37][cH:38][cH:39][cH:40]2)[C@H:41]([c:42]2[cH:43][cH:44][cH:45][cH:46][cH:47]2)[N:48]1[C:49](=[O:50])[O:51][CH2:52][c:53]1[cH:54][cH:55][cH:56][cH:57][cH:58]1",
+      "mapping_confidence": 0.15353879546478572,
+      "conditions": {
+        "raw_description": "HF in MeCN; rt; 70-91%",
+        "GENERAL_REAGENTS": [
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_27",
+      "reaction_smiles": "CC(C)(C)OC(=O)/N=C(/NC(=O)OC(C)(C)C)N(Cc1ccccc1)[C@H](CCO)[C@H]1C(=O)O[C@H](c2ccccc2)[C@H](c2ccccc2)N1C(=O)OCc1ccccc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>CC(C)(C)OC(=O)/N=C1/N(C(=O)OC(C)(C)C)CC[C@H]([C@H]2C(=O)O[C@H](c3ccccc3)[C@H](c3ccccc3)N2C(=O)OCc2ccccc2)N1Cc1ccccc1",
+      "reaction_smiles_mapped": "O[CH2:18][CH2:19][C@H:20]([C@H:21]1[C:22](=[O:23])[O:24][C@H:25]([c:26]2[cH:27][cH:28][cH:29][cH:30][cH:31]2)[C@H:32]([c:33]2[cH:34][cH:35][cH:36][cH:37][cH:38]2)[N:39]1[C:40](=[O:41])[O:42][CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1)[N:50](/[C:9](=[N:8]\\[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[NH:10][C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[CH2:51][c:52]1[cH:53][cH:54][cH:55][cH:56][cH:57]1>C1CCOC1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])/[N:8]=[C:9]1/[N:10]([C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17])[CH2:18][CH2:19][C@H:20]([C@H:21]2[C:22](=[O:23])[O:24][C@H:25]([c:26]3[cH:27][cH:28][cH:29][cH:30][cH:31]3)[C@H:32]([c:33]3[cH:34][cH:35][cH:36][cH:37][cH:38]3)[N:39]2[C:40](=[O:41])[O:42][CH2:43][c:44]2[cH:45][cH:46][cH:47][cH:48][cH:49]2)[N:50]1[CH2:51][c:52]1[cH:53][cH:54][cH:55][cH:56][cH:57]1",
+      "mapping_confidence": 0.1265221822096951,
+      "conditions": {
+        "raw_description": "DIAD; PPh3; TH; 0 \u00b0C to rt; 87%",
+        "GENERAL_REAGENTS": [
+          "DIAD",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_28",
+      "reaction_smiles": "CC(C)(C)OC(=O)/N=C1/N(C(=O)OC(C)(C)C)CC[C@H]([C@H]2C(=O)O[C@H](c3ccccc3)[C@H](c3ccccc3)N2C(=O)OCc2ccccc2)N1Cc1ccccc1.[HH].Cl[Pd]Cl>>CC(C)(C)OC(=O)N=C1N[C@@H]([C@H](N)C(=O)O)CCN1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[N:13]1[C@@H](c2ccccc2)[C@@H](c2ccccc2)[O:16][C:14](=[O:15])[C@@H:12]1[C@@H:11]1[N:10](Cc2ccccc2)/[C:9](=[N:8]\\[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[CH2:18][CH2:17]1>Cl[Pd]Cl.[HH]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]=[C:9]1[NH:10][C@@H:11]([C@H:12]([NH2:13])[C:14](=[O:15])[OH:16])[CH2:17][CH2:18][N:19]1[C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.17362472202756019,
+      "conditions": {
+        "raw_description": "H2; PdCl2",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "PdCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_29",
+      "reaction_smiles": "CC(C)(C)OC(=O)N=C1N[C@@H]([C@H](N)C(=O)O)CCN1C(=O)OC(C)(C)C.Cl.Cl>>N=C1NCC[C@H]([C@H](N)C(=O)O)N1.Cl.Cl",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:3]=[C:4]1[N:5](C(=O)OC(C)(C)C)[CH2:6][CH2:7][C@H:8]([C@H:9]([NH2:10])[C:11](=[O:12])[OH:13])[NH:14]1.[ClH:2].[ClH:1]>>[ClH:1].[ClH:2].[NH:3]=[C:4]1[NH:5][CH2:6][CH2:7][C@H:8]([C@H:9]([NH2:10])[C:11](=[O:12])[OH:13])[NH:14]1",
+      "mapping_confidence": 0.5252604419325665,
+      "conditions": {
+        "raw_description": "HCl; Reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "42-56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_30",
+      "reaction_smiles": "N=C1NCC[C@H]([C@H](N)C(=O)O)N1.Cl.Cl.O=C(Cl)OCc1ccccc1.[Na+].[OH-]>>N=C1NCC[C@H]([C@H](NC(=O)OCc2ccccc2)C(=O)O)N1.Cl",
+      "reaction_smiles_mapped": "[ClH:1].[NH:2]=[C:3]1[NH:4][CH2:5][CH2:6][C@H:7]([C@H:8]([NH2:9])[C:20](=[O:21])[OH:22])[NH:23]1.Cl[C:10](=[O:11])[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>Cl.[Na+].[OH-]>[ClH:1].[NH:2]=[C:3]1[NH:4][CH2:5][CH2:6][C@H:7]([C@H:8]([NH:9][C:10](=[O:11])[O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[C:20](=[O:21])[OH:22])[NH:23]1",
+      "mapping_confidence": 0.4636271035600846,
+      "conditions": {
+        "raw_description": "CbzCl; aq. NaOH; 42-56%",
+        "GENERAL_REAGENTS": [
+          "CbzCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)COC(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "aq. NaOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Capreomycin_IB_2003_Williams_31",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OCCC=O.NCc1ccccc1.[Al+3].[Al+3].[O-2].[O-2].[O-2].ClCCl>>CC(C)(C)[Si](C)(C)OCC/C=N\\Cc1ccccc1",
+      "reaction_smiles_mapped": "O=[CH:11][CH2:10][CH2:9][O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7].[NH2:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>ClCCl.[Al+3].[Al+3].[O-2].[O-2].[O-2]>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9][CH2:10]/[CH:11]=[N:12]\\[CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.3626625668211,
+      "conditions": {
+        "raw_description": "BnNH2; alumina; CH2Cl2; 0 \u00b0C; 98%",
+        "GENERAL_REAGENTS": [
+          "BnNH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)CN"
+        ],
+        "CATALYSTS": [
+          "alumina"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al+3].[Al+3].[O-2].[O-2].[O-2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    }
+  ]
+}

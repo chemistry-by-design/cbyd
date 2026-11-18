@@ -1,0 +1,143 @@
+{
+  "background": {
+    "name": "(+/-)-gamma-Lycorane",
+    "author": "Baudoin",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2018, 20, 772",
+    "doi": "10.1021/acs.orglett.7b03909"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "gamma-Lycorane_2018_Baudoin_1",
+      "reaction_smiles": "CC(=O)Nc1ccccc1Cl.BrCc1cc2c(cc1Br)OCO2.[H-].[Na+].C1CCOC1.[H-].[Na+]>>CC(=O)N(Cc1cc2c(cc1Br)OCO2)c1ccccc1Cl",
+      "reaction_smiles_mapped": "Br[CH2:5][c:6]1[cH:7][c:8]2[c:9]([cH:10][c:11]1[Br:12])[O:13][CH2:14][O:15]2.[CH3:1][C:2](=[O:3])[NH:4][c:16]1[cH:17][cH:18][cH:19][cH:20][c:21]1[Cl:22]>C1CCOC1.[H-].[H-].[Na+].[Na+]>[CH3:1][C:2](=[O:3])[N:4]([CH2:5][c:6]1[cH:7][c:8]2[c:9]([cH:10][c:11]1[Br:12])[O:13][CH2:14][O:15]2)[c:16]1[cH:17][cH:18][cH:19][cH:20][c:21]1[Cl:22]",
+      "mapping_confidence": 0.985209195576916,
+      "conditions": {
+        "raw_description": "NaH; THF; reflux; 100%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "gamma-Lycorane_2018_Baudoin_2",
+      "reaction_smiles": "CC(=O)N(Cc1cc2c(cc1Br)OCO2)c1ccccc1Cl.O=C([O-])[O-].[Cs+].[Cs+].Cc1cc(C)cc(C)c1.CC(C)(C)C(=O)O.O=C([O-])[O-].[Cs+].[Cs+].C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[Pd]>>O=C1Cc2cccc3c2N1Cc1cc2c(cc1-3)OCO2",
+      "reaction_smiles_mapped": "Cl[c:8]1[cH:7][cH:6][cH:5][cH:4][c:9]1[N:10]([C:2](=[O:1])[CH3:3])[CH2:11][c:12]1[cH:13][c:14]2[c:15]([cH:16][c:17]1Br)[O:18][CH2:19][O:20]2>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC(C)(C)C(=O)O.Cc1cc(C)cc(C)c1.O=C([O-])[O-].O=C([O-])[O-].[Cs+].[Cs+].[Cs+].[Cs+].[Pd]>[O:1]=[C:2]1[CH2:3][c:4]2[cH:5][cH:6][cH:7][c:8]3[c:9]2[N:10]1[CH2:11][c:12]1[cH:13][c:14]2[c:15]([cH:16][c:17]1-3)[O:18][CH2:19][O:20]2",
+      "mapping_confidence": 0.6639946498520577,
+      "conditions": {
+        "raw_description": "Pd(PCy3)2; PivOH; Cs2CO3; Mesitylene; 140\u00b0C; 81%",
+        "GENERAL_REAGENTS": [
+          "PivOH",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)C(=O)O",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "Pd(PCy3)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1CCC(CC1)P(C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Mesitylene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC(=CC(=C1)C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "gamma-Lycorane_2018_Baudoin_3",
+      "reaction_smiles": "O=C1Cc2cccc3c2N1Cc1cc2c(cc1-3)OCO2.[Rh].[H][H].[HH].OCC(F)(F)F>>O=C1CC2CCCC3c4cc5c(cc4CN1C23)OCO5",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][c:4]2[cH:5][cH:6][cH:7][c:8]3[c:17]2[N:16]1[CH2:15][c:14]1[c:9]-3[cH:10][c:11]2[c:12]([cH:13]1)[O:18][CH2:19][O:20]2>OCC(F)(F)F.[HH].[H][H].[Rh]>[O:1]=[C:2]1[CH2:3][CH:4]2[CH2:5][CH2:6][CH2:7][CH:8]3[c:9]4[cH:10][c:11]5[c:12]([cH:13][c:14]4[CH2:15][N:16]1[CH:17]23)[O:18][CH2:19][O:20]5",
+      "mapping_confidence": 0.8898584501337294,
+      "conditions": {
+        "raw_description": "Rh/C; H2 (6 bar); Trifluoroethanol; 61%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "Trifluoroethanol"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [
+          "Rh/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Rh]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "gamma-Lycorane_2018_Baudoin_4",
+      "reaction_smiles": "O=C1CC2CCCC3c4cc5c(cc4CN1C23)OCO5.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>>c1c2c(cc3c1OCO3)C1CCCC3CCN(C2)C31",
+      "reaction_smiles_mapped": "O=[C:16]1[CH2:15][CH:14]2[CH2:13][CH2:12][CH2:11][CH:10]3[c:3]4[c:2]([cH:1][c:6]5[c:5]([cH:4]4)[O:9][CH2:8][O:7]5)[CH2:18][N:17]1[CH:19]32>C1CCOC1.[Al+3].[AlH4-].[H-].[H-].[H-].[Li+].[Li]>[cH:1]1[c:2]2[c:3]([cH:4][c:5]3[c:6]1[O:7][CH2:8][O:9]3)[CH:10]1[CH2:11][CH2:12][CH2:13][CH:14]3[CH2:15][CH2:16][N:17]([CH2:18]2)[CH:19]13",
+      "mapping_confidence": 0.929750564017442,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "background": {
+    "name": "Carotol",
+    "author": "Spino",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2016, 18, 4280",
+    "doi": "10.1021/acs.orglett.6b02023"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Carotol_2016_Spino_1",
+      "reaction_smiles": "C#CCCO.II.C[Al](C)C.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl.CCOCC.O>>C/C(=C\\I)CCO",
+      "reaction_smiles_mapped": "[CH:3]#[C:2][CH2:5][CH2:6][OH:7].C[Al](C)[CH3:1].I[I:4]>[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl.CCOCC.O>[CH3:1]/[C:2](=[CH:3]\\[I:4])[CH2:5][CH2:6][OH:7]",
+      "mapping_confidence": 0.21356598094537774,
+      "conditions": {
+        "raw_description": "1) Me3Al; Cp2ZrCl2; H2O; CH2Cl2; 2) I2; Et2O; 88%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "Me3Al"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C[Al](C)C"
+        ],
+        "CATALYSTS": [
+          "Cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[Cl-].[Cl-].[cH-]1cccc1.[cH-]1cccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "Et2O",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CCOCC",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_2",
+      "reaction_smiles": "C/C(=C\\I)CCO.C=CC(C)=O.O=C([O-])O.[Na+].CCCC[N+](CCCC)(CCCC)CCCC.[Cl-].CC(=O)[O-].CC(=O)[O-].[Pd+2].CN(C)C=O>>CC(=O)/C=C/C=C(\\C)CCO",
+      "reaction_smiles_mapped": "I/[CH:6]=[C:7](\\[CH3:8])[CH2:9][CH2:10][OH:11].[CH3:1][C:2](=[O:3])[CH:4]=[CH2:5]>CC(=O)[O-].CC(=O)[O-].CCCC[N+](CCCC)(CCCC)CCCC.CN(C)C=O.O=C([O-])O.[Cl-].[Na+].[Pd+2]>[CH3:1][C:2](=[O:3])/[CH:4]=[CH:5]/[CH:6]=[C:7](\\[CH3:8])[CH2:9][CH2:10][OH:11]",
+      "mapping_confidence": 0.8567609712256309,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; NaHCO3; Bu4NCl; DMF; 78%",
+        "GENERAL_REAGENTS": [
+          "NaHCO3",
+          "Bu4NCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_3",
+      "reaction_smiles": "CC(=O)/C=C/C=C(\\C)CCO.COC1(OC(C)=O)N=NC(C)(C)O1.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>>COC1(OCC/C(C)=C/C=C/C(C)=O)N=NC(C)(C)O1",
+      "reaction_smiles_mapped": "[OH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH:10]=[CH:11]/[C:12]([CH3:13])=[O:14].CC(=O)O[C:3]1([O:2][CH3:1])[N:15]=[N:16][C:17]([CH3:18])([CH3:19])[O:20]1>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>[CH3:1][O:2][C:3]1([O:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH:10]=[CH:11]/[C:12]([CH3:13])=[O:14])[N:15]=[N:16][C:17]([CH3:18])([CH3:19])[O:20]1",
+      "mapping_confidence": 0.6850070472421426,
+      "conditions": {
+        "raw_description": "CSA; CH2Cl2; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_4",
+      "reaction_smiles": "COC1(OCC/C(C)=C/C=C/C(C)=O)N=NC(C)(C)O1.Cc1ccccc1>>CO[C@]12OCC[C@@]1(C)C=C[C@@H]2C(C)=O",
+      "reaction_smiles_mapped": "CC1(C)N=N[C:3]([O:2][CH3:1])([O:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH:10]=[CH:11]/[C:12]([CH3:13])=[O:14])O1>Cc1ccccc1>[CH3:1][O:2][C@:3]12[O:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[CH:9]=[CH:10][C@@H:11]2[C:12]([CH3:13])=[O:14]",
+      "mapping_confidence": 0.9238889128775899,
+      "conditions": {
+        "raw_description": "toluene; reflux; 78%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_5",
+      "reaction_smiles": "CO[C@]12OCC[C@@]1(C)C=C[C@@H]2C(C)=O.C[Ti]C.c1cc[cH-]c1.c1cc[cH-]c1.Cc1ccccc1>>C=C(C)[C@H]1C=C[C@]2(C)CCO[C@]12OC",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:3])[C@H:4]1[CH:5]=[CH:6][C@:7]2([CH3:8])[CH2:9][CH2:10][O:11][C@:12]12[O:13][CH3:14].[CH2-2:1]>Cc1ccccc1.c1cc[cH-]c1.c1ccc[cH-]1.C[Ti]C>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH:5]=[CH:6][C@:7]2([CH3:8])[CH2:9][CH2:10][O:11][C@:12]12[O:13][CH3:14]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Cp2TiMe2; toluene; 70 \u00b0C; 79%",
+        "GENERAL_REAGENTS": [
+          "Cp2TiMe2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH3-].[CH3-].c1[cH-]ccc1.c2[cH-]ccc2.[Ti+4]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_6",
+      "reaction_smiles": "C=C(C)[C@H]1C=C[C@]2(C)CCO[C@]12OC.[HH].O=[Pt]=O.C1CCOC1>>CO[C@]12OCC[C@@]1(C)CC[C@@H]2C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@:3]12[O:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[CH:9]=[CH:10][C@@H:11]2[C:12]([CH3:13])=[CH2:14]>C1CCOC1.O=[Pt]=O.[HH]>[CH3:1][O:2][C@:3]12[O:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[CH2:9][CH2:10][C@@H:11]2[CH:12]([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.6547895486129168,
+      "conditions": {
+        "raw_description": "PtO2; H2; THF; 98%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_7",
+      "reaction_smiles": "CO[C@]12OCC[C@@]1(C)CC[C@@H]2C(C)C.CC(C)=O.O>>CC(C)[C@H]1CC[C@](C)(CCO)C1=O",
+      "reaction_smiles_mapped": "CO[C@@:12]12[C@@H:4]([CH:2]([CH3:1])[CH3:3])[CH2:5][CH2:6][C@:7]1([CH3:8])[CH2:9][CH2:10][O:11]2>CC(C)=O.O>[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C:12]1=[O:13]",
+      "mapping_confidence": 0.6241954903262179,
+      "conditions": {
+        "raw_description": "Amberlyst-15; Me2CO; H2O; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Me2CO",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)=O",
+          "O"
+        ],
+        "MODIFIERS": [
+          "Amberlyst-15"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_8",
+      "reaction_smiles": "CC(C)[C@H]1CC[C@](C)(CCO)C1=O.C#CC(C)(C)O[Si](C)(C)C(C)(C)C.[Li]CCCC.Cl[Ce](Cl)Cl.C1CCOC1>>CC(C)[C@H]1CC[C@](C)(CCO)[C@]1(O)C#CC(C)(C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH:14]#[C:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26].[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C:12]1=[O:13]>C1CCOC1.Cl[Ce](Cl)Cl.[Li]CCCC>[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C@:12]1([OH:13])[C:14]#[C:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.18076389210244684,
+      "conditions": {
+        "raw_description": "n-BuLi; CeCl3; THF; 0 to RT; 79%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_9",
+      "reaction_smiles": "CC(C)[C@H]1CC[C@](C)(CCO)[C@]1(O)C#CC(C)(C)O[Si](C)(C)C(C)(C)C.[HH].O=[Al]O[Al]=O.[Pd].CCOC(C)=O>>CC(C)[C@H]1CC[C@](C)(CCO)[C@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C@:12]1([OH:13])[C:14]#[C:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]>CCOC(C)=O.O=[Al]O[Al]=O.[HH].[Pd]>[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.1881866747187448,
+      "conditions": {
+        "raw_description": "H2; Pd/Al2O3; EtOAc; 81%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/Al2O3"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Al]O[Al]=O.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_10",
+      "reaction_smiles": "CC(C)[C@H]1CC[C@](C)(CCO)[C@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C.O=C1OI(=O)(O)c2ccccc21.CCOC(C)=O>>CC(C)[C@H]1CC[C@](C)(CC=O)[C@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH2:10][OH:11])[C@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]>CCOC(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][CH:2]([CH3:3])[C@H:4]1[CH2:5][CH2:6][C@:7]([CH3:8])([CH2:9][CH:10]=[O:11])[C@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.1998160566380791,
+      "conditions": {
+        "raw_description": "IBX; EtOAc; Reflux; 97%",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_11",
+      "reaction_smiles": "CC(C)[C@H]1CC[C@](C)(CC=O)[C@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].[Li]CCCC.C1CCOC1>>C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=[CH:2][CH2:3][C@@:4]1([CH3:5])[CH2:6][CH2:7][C@H:8]([CH:9]([CH3:10])[CH3:11])[C@@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26].c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>C1CCOC1.[Br-].[Li]CCCC>[CH2:1]=[CH:2][CH2:3][C@@:4]1([CH3:5])[CH2:6][CH2:7][C@H:8]([CH:9]([CH3:10])[CH3:11])[C@@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[O:19][Si:20]([CH3:21])([CH3:22])[C:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.14685951480902473,
+      "conditions": {
+        "raw_description": "Ph3PCH3Br; n-BuLi; THF; -78 \u00b0C to RT; 72%",
+        "GENERAL_REAGENTS": [
+          "Ph3PCH3Br",
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[P+](c1ccccc1)(c1ccccc1)(c1ccccc1)C.[Br-]",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_12",
+      "reaction_smiles": "C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(C)(C)O[Si](C)(C)C(C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(C)(C)O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:19][C:16]([CH2:15][CH2:14][C@@:12]1([OH:13])[C@:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH2:6][CH2:7][C@@H:8]1[CH:9]([CH3:10])[CH3:11])([CH3:17])[CH3:18]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH2:1]=[CH:2][CH2:3][C@@:4]1([CH3:5])[CH2:6][CH2:7][C@H:8]([CH:9]([CH3:10])[CH3:11])[C@@:12]1([OH:13])[CH2:14][CH2:15][C:16]([CH3:17])([CH3:18])[OH:19]",
+      "mapping_confidence": 0.5112075990953373,
+      "conditions": {
+        "raw_description": "TBAF; THF; 0 \u00b0C to RT; 97%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_13",
+      "reaction_smiles": "C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(C)(C)O.FC(F)(F)C(OS(OC(c1ccccc1)(C(F)(F)F)C(F)(F)F)(c1ccccc1)c1ccccc1)(c1ccccc1)C(F)(F)F.ClCCl>>C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(=C)C",
+      "reaction_smiles_mapped": "O[C:16]([CH2:15][CH2:14][C@@:12]1([OH:13])[C@:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH2:6][CH2:7][C@@H:8]1[CH:9]([CH3:10])[CH3:11])([CH3:17])[CH3:18]>ClCCl.FC(F)(F)C(OS(OC(c1ccccc1)(C(F)(F)F)C(F)(F)F)(c1ccccc1)c1ccccc1)(c1ccccc1)C(F)(F)F>[CH2:1]=[CH:2][CH2:3][C@@:4]1([CH3:5])[CH2:6][CH2:7][C@H:8]([CH:9]([CH3:10])[CH3:11])[C@@:12]1([OH:13])[CH2:14][CH2:15][C:16](=[CH2:17])[CH3:18]",
+      "mapping_confidence": 0.4818242374063769,
+      "conditions": {
+        "raw_description": "Martin Sulfurane; CH2Cl2; 64%",
+        "GENERAL_REAGENTS": [
+          "Martin Sulfurane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(C(F)(F)F)(C(F)(F)F)OS(C2=CC=CC=C2)(C3=CC=CC=C3)OC(C4=CC=CC=C4)(C(F)(F)F)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_14",
+      "reaction_smiles": "C=CC[C@@]1(C)CC[C@H](C(C)C)[C@@]1(O)CCC(=C)C.Cl[Ru-2](Cl)(=Cc1ccccc1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1.ClCCl>>CC1=CC[C@@]2(C)CC[C@H](C(C)C)[C@@]2(O)CC1",
+      "reaction_smiles_mapped": "C=[C:2]([CH3:1])[CH2:16][CH2:15][C@@:13]1([OH:14])[C@:5]([CH2:4][CH:3]=C)([CH3:6])[CH2:7][CH2:8][C@@H:9]1[CH:10]([CH3:11])[CH3:12]>ClCCl.Cl[Ru-2](Cl)(=Cc1ccccc1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1>[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]2([CH3:6])[CH2:7][CH2:8][C@H:9]([CH:10]([CH3:11])[CH3:12])[C@@:13]2([OH:14])[CH2:15][CH2:16]1",
+      "mapping_confidence": 0.5243184085948546,
+      "conditions": {
+        "raw_description": "Grubbs I; CH2Cl2; Reflux; 69%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs I"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ru-2](Cl)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)=Cc1ccccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_15",
+      "reaction_smiles": "COC(=O)NN.O=S(=O)([O-])[O-].[Mg+2].CC(C)=O>>COC(=O)NN=C(C)C",
+      "reaction_smiles_mapped": "O=[C:7]([CH3:8])[CH3:9].[CH3:1][O:2][C:3](=[O:4])[NH:5][NH2:6]>O=S(=O)([O-])[O-].[Mg+2]>[CH3:1][O:2][C:3](=[O:4])[NH:5][N:6]=[C:7]([CH3:8])[CH3:9]",
+      "mapping_confidence": 0.7891851523293284,
+      "conditions": {
+        "raw_description": "Acetone; MgSO4; Reflux; 100%",
+        "GENERAL_REAGENTS": [
+          "MgSO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Mg+2]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Carotol_2016_Spino_16",
+      "reaction_smiles": "COC(=O)NN=C(C)C.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].CC(=O)O.ClCCl>>COC1(OC(C)=O)N=NC(C)(C)O1",
+      "reaction_smiles_mapped": "[C:5]([CH3:6])(=[O:7])[OH:4].[CH3:1][O:2][C:3](=[O:13])[NH:8][N:9]=[C:10]([CH3:11])[CH3:12]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].ClCCl.[Pb+4]>[CH3:1][O:2][C:3]1([O:4][C:5]([CH3:6])=[O:7])[N:8]=[N:9][C:10]([CH3:11])([CH3:12])[O:13]1",
+      "mapping_confidence": 0.3320796780049556,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; AcOH; CH2Cl2; 75%",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    }
+  ]
+}

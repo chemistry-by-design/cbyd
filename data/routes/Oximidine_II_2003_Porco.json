@@ -1,0 +1,686 @@
+{
+  "background": {
+    "name": "Oximidine II",
+    "author": "Porco",
+    "year": 2003,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2003, 125, 6040",
+    "doi": "10.1021/ja034030o"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_1",
+      "reaction_smiles": "COc1ccc(COCCC=O)cc1.C=CCOCOC.COB([C@H]1CC2CC([C@@H]1C)C2(C)C)[C@H]1CC2CC([C@@H]1C)C2(C)C.CC[O+](CC)[B-](F)(F)F.[Li]C(C)CC>>C=C[C@@H](OCOC)[C@@H](O)CCOCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][O:4][CH2:5][O:6][CH3:7].[CH:8](=[O:9])[CH2:10][CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([O:18][CH3:19])[cH:20][cH:21]1>COB([C@H]1CC2CC([C@@H]1C)C2(C)C)[C@H]1CC2CC([C@@H]1C)C2(C)C.CC[O+](CC)[B-](F)(F)F.[Li]C(C)CC>[CH2:1]=[CH:2][C@@H:3]([O:4][CH2:5][O:6][CH3:7])[C@@H:8]([OH:9])[CH2:10][CH2:11][O:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([O:18][CH3:19])[cH:20][cH:21]1",
+      "mapping_confidence": 0.847898879788984,
+      "conditions": {
+        "raw_description": "sBuLi; (+)-Ipc2BOMe; BF3OEt2; -78\u00b0C; 80%; Brown allylation",
+        "GENERAL_REAGENTS": [
+          "(+)-Ipc2BOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COB([C@H]1CC2CC([C@@H]1C)C2(C)C)[C@H]3CC4CC([C@@H]3C)C4(C)C"
+        ],
+        "CATALYSTS": [
+          "BF3OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "sBuLi"
+        ],
+        "SOLVENTS_SMILES": [
+          "[Li]C(C)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_2",
+      "reaction_smiles": "C=C[C@@H](OCOC)[C@@H](O)CCOCc1ccc(OC)cc1.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>C=C[C@@H](OCOC)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@H:3]([O:4][CH2:5][O:6][CH3:7])[C@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][cH:20]1)[OH:21].Cl[Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]>c1c[nH]cn1.CN(C)C=O>[CH2:1]=[CH:2][C@@H:3]([O:4][CH2:5][O:6][CH3:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][cH:20]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.3210658643220819,
+      "conditions": {
+        "raw_description": "TBSCl; im; DMF; 94%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_3",
+      "reaction_smiles": "C=C[C@@H](OCOC)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.C[N+]1([O-])CCOCC1.O=[Os](=O)(=O)=O.C1CCOC1.O>>COCO[C@H](C(O)CO)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][C@H:5]([CH:6]=[CH2:8])[C@@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30].C[N+]1([O-:7])CCOCC1.[OH2:9]>C1CCOC1.O=[Os](=O)(=O)=O>[CH3:1][O:2][CH2:3][O:4][C@H:5]([CH:6]([OH:7])[CH2:8][OH:9])[C@@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NMO; OsO4; THF/H2O",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_4",
+      "reaction_smiles": "COCO[C@H](C(O)CO)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.O=C([O-])[O-].[K+].[K+].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].CO>>COCO[C@H](C=O)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "OC[CH:6]([C@@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][cH:20]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[OH:7]>O=C([O-])[O-].[K+].[K+].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].CO>[CH3:1][O:2][CH2:3][O:4][C@H:5]([CH:6]=[O:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][c:16]([O:17][CH3:18])[cH:19][cH:20]1)[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.3015606816491136,
+      "conditions": {
+        "raw_description": "K2CO3; Pb(OAc)4; MeOH; 0\u00b0C",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_5",
+      "reaction_smiles": "COCO[C@H](C=O)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.C=CCP(c1ccccc1)c1ccccc1.[Li]C(C)(C)C.CI.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].C1CCOC1>>C=C/C=C\\[C@@H](OCOC)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)[CH2:3][CH:2]=[CH2:1])cc1.O=[CH:4][C@@H:5]([O:6][CH2:7][O:8][CH3:9])[C@@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]>[Li]C(C)(C)C.CI.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].C1CCOC1>[CH2:1]=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]([O:6][CH2:7][O:8][CH3:9])[C@@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.13524895687290314,
+      "conditions": {
+        "raw_description": "1) tBuLi; Ti(OiPr)4; 2) MeI; THF; -78\u00b0C to 0\u00b0C; Yamamoto olefination",
+        "GENERAL_REAGENTS": [
+          "tBuLi",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "CI"
+        ],
+        "CATALYSTS": [
+          "Ti(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_6",
+      "reaction_smiles": "C=C/C=C\\[C@@H](OCOC)[C@@H](CCOCc1ccc(OC)cc1)O[Si](C)(C)C(C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=C/C=C\\[C@@H](OCOC)[C@@H](O)CCOCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:11][C@@H:10]([C@@H:5](/[CH:4]=[CH:3]\\[CH:2]=[CH2:1])[O:6][CH2:7][O:8][CH3:9])[CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][c:19]([O:20][CH3:21])[cH:22][cH:23]1>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH2:1]=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]([O:6][CH2:7][O:8][CH3:9])[C@@H:10]([OH:11])[CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][c:19]([O:20][CH3:21])[cH:22][cH:23]1",
+      "mapping_confidence": 0.9153665322336917,
+      "conditions": {
+        "raw_description": "TBAF; THF; 71% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_7",
+      "reaction_smiles": "C=C/C=C\\[C@@H](OCOC)[C@@H](O)CCOCc1ccc(OC)cc1.C/C=C/C=C/c1cccc2c1C(=O)OC(C)(C)O2.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.C1CCOC1>>C=C/C=C\\[C@@H](OCOC)[C@H](CCOCc1ccc(OC)cc1)OC(=O)c1c(/C=C/C=C/C)cccc1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CC1(C)O[C:24](=[O:25])[c:26]2[c:27](/[CH:28]=[CH:29]/[CH:30]=[CH:31]/[CH3:32])[cH:33][cH:34][cH:35][c:36]2[O:37]1.[CH2:1]=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]([O:6][CH2:7][O:8][CH3:9])[C@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[OH:23].Cl[Si:38]([CH3:39])([CH3:40])[C:41]([CH3:42])([CH3:43])[CH3:44]>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].c1c[nH]cn1.C1CCOC1>[CH2:1]=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]([O:6][CH2:7][O:8][CH3:9])[C@H:10]([CH2:11][CH2:12][O:13][CH2:14][c:15]1[cH:16][cH:17][c:18]([O:19][CH3:20])[cH:21][cH:22]1)[O:23][C:24](=[O:25])[c:26]1[c:27](/[CH:28]=[CH:29]/[CH:30]=[CH:31]/[CH3:32])[cH:33][cH:34][cH:35][c:36]1[O:37][Si:38]([CH3:39])([CH3:40])[C:41]([CH3:42])([CH3:43])[CH3:44]",
+      "mapping_confidence": 0.27264772364582324,
+      "conditions": {
+        "raw_description": "1) NaHMDS; THF; 2) TBSCl; im; 100%",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "TBSCl",
+          "im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_8",
+      "reaction_smiles": "C=C/C=C\\[C@@H](OCOC)[C@H](CCOCc1ccc(OC)cc1)OC(=O)c1c(/C=C/C=C/C)cccc1O[Si](C)(C)C(C)(C)C.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cl[Ru-2](Cl)(=Cc1ccccc1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1.ClCCl>>COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CCOCc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "C=[CH:8]/[CH:7]=[CH:6]\\[C@@H:5]([O:4][CH2:3][O:2][CH3:1])[C@@H:29]([O:28][C:26]([c:25]1[c:12](/[CH:11]=[CH:10]/[CH:9]=C/C)[cH:13][cH:14][cH:15][c:16]1[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])=[O:27])[CH2:30][CH2:31][O:32][CH2:33][c:34]1[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]1>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.Cl[Ru-2](Cl)(=Cc1ccccc1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)[P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1.ClCCl>[CH3:1][O:2][CH2:3][O:4][C@H:5]1/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28][C@H:29]1[CH2:30][CH2:31][O:32][CH2:33][c:34]1[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]1",
+      "mapping_confidence": 0.16474962547461025,
+      "conditions": {
+        "raw_description": "Grubbs II; DCM; 40\u00b0C; 48%; Grubbs; ring-closing; metathesis",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II",
+          "Grubbs"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3",
+          "Cl[Ru-2](Cl)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)([P+](C1CCCCC1)(C1CCCCC1)C1CCCCC1)=Cc1ccccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_9",
+      "reaction_smiles": "COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CCOCc1ccc(OC)cc1.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.ClCCl.O>>COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CCO",
+      "reaction_smiles_mapped": "COc1ccc(C[O:32][CH2:31][CH2:30][C@H:29]2[C@@H:5]([O:4][CH2:3][O:2][CH3:1])/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]3[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]3[C:26](=[O:27])[O:28]2)cc1>N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.ClCCl.O>[CH3:1][O:2][CH2:3][O:4][C@H:5]1/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28][C@H:29]1[CH2:30][CH2:31][OH:32]",
+      "mapping_confidence": 0.3489181741198794,
+      "conditions": {
+        "raw_description": "DDQ; DCM/H2O; 91%",
+        "GENERAL_REAGENTS": [
+          "DDQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_10",
+      "reaction_smiles": "COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CCO.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.ClCCl>>COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CC=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][C@H:5]1/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28][C@H:29]1[CH2:30][CH2:31][OH:32]>O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1.ClCCl>[CH3:1][O:2][CH2:3][O:4][C@H:5]1/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28][C@H:29]1[CH2:30][CH:31]=[O:32]",
+      "mapping_confidence": 0.3312554249136907,
+      "conditions": {
+        "raw_description": "PDC; 4 \u00c5 MS; DCM; 0\u00b0C",
+        "GENERAL_REAGENTS": [
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_11",
+      "reaction_smiles": "COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1CC=O.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1C/C=C\\I",
+      "reaction_smiles_mapped": "C1C[CH2:32]CO1.O=[CH:31][CH2:30][C@H:29]1[C@@H:5]([O:4][CH2:3][O:2][CH3:1])/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28]1>C[Si](C)(C)[N-][Si](C)(C)C.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][CH2:3][O:4][C@H:5]1/[CH:6]=[CH:7]\\[CH:8]=[CH:9]/[CH:10]=[CH:11]/[c:12]2[cH:13][cH:14][cH:15][c:16]([O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]2[C:26](=[O:27])[O:28][C@H:29]1[CH2:30]/[CH:31]=[CH:32]\\[I:33]",
+      "mapping_confidence": 0.13633176370902803,
+      "conditions": {
+        "raw_description": "(Ph3P+CH2I)I-; NaHMDS; THF; -78\u00b0C to rt; 60% (2 steps); Stork-Zhao olefination",
+        "GENERAL_REAGENTS": [
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_12",
+      "reaction_smiles": "COCO[C@H]1/C=C\\C=C/C=C/c2cccc(O[Si](C)(C)C(C)(C)C)c2C(=O)O[C@H]1C/C=C\\I.BrC(Br)(Br)Br.CC(C)O>>CC(C)(C)[Si](C)(C)Oc1cccc2c1C(=O)O[C@@H](C/C=C\\I)[C@@H](O)/C=C\\C=C/C=C/2",
+      "reaction_smiles_mapped": "COC[O:24][C@@H:23]1[C@H:18]([CH2:19]/[CH:20]=[CH:21]\\[I:22])[O:17][C:15](=[O:16])[c:14]2[c:9]([O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[cH:10][cH:11][cH:12][c:13]2/[CH:30]=[CH:29]/[CH:28]=[CH:27]\\[CH:26]=[CH:25]/1>BrC(Br)(Br)Br.CC(C)O>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][cH:12][c:13]2[c:14]1[C:15](=[O:16])[O:17][C@@H:18]([CH2:19]/[CH:20]=[CH:21]\\[I:22])[C@@H:23]([OH:24])/[CH:25]=[CH:26]\\[CH:27]=[CH:28]/[CH:29]=[CH:30]/2",
+      "mapping_confidence": 0.20213157788656286,
+      "conditions": {
+        "raw_description": "CBr4; iPrOH; 75\u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_13",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)Oc1cccc2c1C(=O)O[C@@H](C/C=C\\I)[C@@H](O)/C=C\\C=C/C=C/2.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl.Cc1cccc(C)n1>>CC(C)(C)[Si](C)(C)Oc1cccc2c1C(=O)O[C@@H](C/C=C\\I)[C@@H](O[Si](C)(C)C(C)(C)C)/C=C\\C=C/C=C/2",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31])C(F)(F)F.[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][cH:12][c:13]2[c:14]1[C:15](=[O:16])[O:17][C@@H:18]([CH2:19]/[CH:20]=[CH:21]\\[I:22])[C@@H:23]([OH:24])/[CH:32]=[CH:33]\\[CH:34]=[CH:35]/[CH:36]=[CH:37]/2>ClCCl.Cc1cccc(C)n1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][cH:12][c:13]2[c:14]1[C:15](=[O:16])[O:17][C@@H:18]([CH2:19]/[CH:20]=[CH:21]\\[I:22])[C@@H:23]([O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31])/[CH:32]=[CH:33]\\[CH:34]=[CH:35]/[CH:36]=[CH:37]/2",
+      "mapping_confidence": 0.084351283842654,
+      "conditions": {
+        "raw_description": "TBSOTf; lutidine; DCM; -78\u00b0C to 0\u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC1=NC(=CC=C1)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_14",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)Oc1cccc2c1C(=O)O[C@@H](C/C=C\\I)[C@@H](O[Si](C)(C)C(C)(C)C)/C=C\\C=C/C=C/2.CO/N=C/C=C\\C(N)=O.O=C([O-])[O-].[K+].[K+].O=C([O-])c1cccs1.[Cu+].NCCN>>CO/N=C\\C=C/C(=O)N/C=C\\C[C@@H]1OC(=O)c2c(cccc2O[Si](C)(C)C(C)(C)C)/C=C/C=C\\C=C/[C@@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "I/[CH:10]=[CH:11]\\[CH2:12][C@@H:13]1[O:14][C:15](=[O:16])[c:17]2[c:18]([cH:19][cH:20][cH:21][c:22]2[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30])/[CH:31]=[CH:32]/[CH:33]=[CH:34]\\[CH:35]=[CH:36]/[C@@H:37]1[O:38][Si:39]([CH3:40])([CH3:41])[C:42]([CH3:43])([CH3:44])[CH3:45].[CH3:1][O:2]/[N:3]=[CH:4]/[CH:5]=[CH:6]\\[C:7](=[O:8])[NH2:9]>O=C([O-])[O-].[K+].[K+].O=C([O-])c1cccs1.[Cu+].NCCN>[CH3:1][O:2]/[N:3]=[CH:4]\\[CH:5]=[CH:6]/[C:7](=[O:8])[NH:9]/[CH:10]=[CH:11]\\[CH2:12][C@@H:13]1[O:14][C:15](=[O:16])[c:17]2[c:18]([cH:19][cH:20][cH:21][c:22]2[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30])/[CH:31]=[CH:32]/[CH:33]=[CH:34]\\[CH:35]=[CH:36]/[C@@H:37]1[O:38][Si:39]([CH3:40])([CH3:41])[C:42]([CH3:43])([CH3:44])[CH3:45]",
+      "mapping_confidence": 0.10079217279386066,
+      "conditions": {
+        "raw_description": "CuTC; ethylenediamine; K2CO3; 50\u00b0C",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "CuTC"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CSC(=C1)C(=O)[O-].[Cu+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "ethylenediamine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CN)N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_15",
+      "reaction_smiles": "CO/N=C\\C=C/C(=O)N/C=C\\C[C@@H]1OC(=O)c2c(cccc2O[Si](C)(C)C(C)(C)C)/C=C/C=C\\C=C/[C@@H]1O[Si](C)(C)C(C)(C)C.c1ccncc1.C1CCOC1.F.c1ccncc1>>CO/N=C\\C=C/C(=O)N/C=C\\C[C@@H]1OC(=O)c2c(O)cccc2/C=C/C=C\\C=C/[C@@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:19][c:18]1[c:17]2[c:23]([cH:22][cH:21][cH:20]1)/[CH:24]=[CH:25]/[CH:26]=[CH:27]\\[CH:28]=[CH:29]/[C@H:30]([O:31][Si](C)(C)C(C)(C)C)[C@H:13]([CH2:12]/[CH:11]=[CH:10]\\[NH:9][C:7](/[CH:6]=[CH:5]\\[CH:4]=[N:3]/[O:2][CH3:1])=[O:8])[O:14][C:15]2=[O:16]>c1ccncc1.c1ccncc1.C1CCOC1.F>[CH3:1][O:2]/[N:3]=[CH:4]\\[CH:5]=[CH:6]/[C:7](=[O:8])[NH:9]/[CH:10]=[CH:11]\\[CH2:12][C@@H:13]1[O:14][C:15](=[O:16])[c:17]2[c:18]([OH:19])[cH:20][cH:21][cH:22][c:23]2/[CH:24]=[CH:25]/[CH:26]=[CH:27]\\[CH:28]=[CH:29]/[C@@H:30]1[OH:31]",
+      "mapping_confidence": 0.8686043354097349,
+      "conditions": {
+        "raw_description": "HF-py; py/THF; 44% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py",
+          "THF",
+          "HF-py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1",
+          "C1CCOC1",
+          "C1=CC=CC=N1.F"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_16",
+      "reaction_smiles": "O=C(O)c1c(O)cccc1O.O=S(Cl)Cl.CN(C)c1ccncc1.COCCOC.CC(C)=O>>CC1(C)OC(=O)c2c(O)cccc2O1",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:1])[CH3:3].[OH:4][C:5](=[O:6])[c:7]1[c:8]([OH:9])[cH:10][cH:11][cH:12][c:13]1[OH:14]>O=S(Cl)Cl.CN(C)c1ccncc1.COCCOC>[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[c:7]2[c:8]([OH:9])[cH:10][cH:11][cH:12][c:13]2[O:14]1",
+      "mapping_confidence": 0.4395760427600586,
+      "conditions": {
+        "raw_description": "DMAP; SOCl2; DME; acetone; 96%",
+        "GENERAL_REAGENTS": [
+          "SOCl2",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_17",
+      "reaction_smiles": "CC1(C)OC(=O)c2c(O)cccc2O1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccncc1>>CC1(C)OC(=O)c2c(cccc2OS(=O)(=O)C(F)(F)F)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[c:7]2[c:8]([cH:9][cH:10][cH:11][c:12]2[OH:13])[O:21]1.O=S(=O)(O[S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])C(F)(F)F>c1ccncc1>[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[c:7]2[c:8]([cH:9][cH:10][cH:11][c:12]2[O:13][S:14](=[O:15])(=[O:16])[C:17]([F:18])([F:19])[F:20])[O:21]1",
+      "mapping_confidence": 0.102961258008035,
+      "conditions": {
+        "raw_description": "Tf2O; py; 85%",
+        "GENERAL_REAGENTS": [
+          "Tf2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_18",
+      "reaction_smiles": "CC1(C)OC(=O)c2c(cccc2OS(=O)(=O)C(F)(F)F)O1.C/C=C/C=C/[Sn](CCCC)(CCCC)CCCC.CC(C)(C)Nc1nc2cc(Cl)c(Cl)cc2nc1S(C)(=O)=O.[Cl-].[Li+].O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1coc(P(c2ccco2)c2ccco2)c1.CN(C)C=O>>C/C=C/C=C/c1cccc2c1C(=O)OC(C)(C)O2",
+      "reaction_smiles_mapped": "CCCC[Sn](CCCC)(CCCC)/[CH:5]=[CH:4]/[CH:3]=[CH:2]/[CH3:1].O=S(=O)(O[c:6]1[cH:7][cH:8][cH:9][c:10]2[c:11]1[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[O:18]2)C(F)(F)F>CC(C)(C)Nc1nc2cc(Cl)c(Cl)cc2nc1S(C)(=O)=O.[Cl-].[Li+].O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1coc(P(c2ccco2)c2ccco2)c1.CN(C)C=O>[CH3:1]/[CH:2]=[CH:3]/[CH:4]=[CH:5]/[c:6]1[cH:7][cH:8][cH:9][c:10]2[c:11]1[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[O:18]2",
+      "mapping_confidence": 0.603536218380024,
+      "conditions": {
+        "raw_description": "compound 2; Pd2dba3; P(2-furyl)3; LiCl; DMF; 80\u00b0C; 61% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "compound 2",
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)Nc1nc2cc(Cl)c(Cl)cc2nc1S(C)(=O)=O",
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Pd2dba3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [
+          "P(2-furyl)3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=COC(=C1)P(C2=CC=CO2)C3=CC=CO3"
+        ],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "61% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_19",
+      "reaction_smiles": "O=C1C=CC(O)O1.CON.Cl.O>>CO/N=C/C=C\\C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][NH2:3].O[CH:4]1[CH:5]=[CH:6][C:7](=[O:8])[O:9]1>Cl.O>[CH3:1][O:2]/[N:3]=[CH:4]/[CH:5]=[CH:6]\\[C:7](=[O:8])[OH:9]",
+      "mapping_confidence": 0.9309493503635202,
+      "conditions": {
+        "raw_description": "MeONH2HCl; H2O; 92%",
+        "GENERAL_REAGENTS": [
+          "MeONH2HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CON.Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Oximidine_II_2003_Porco_20",
+      "reaction_smiles": "CO/N=C/C=C\\C(=O)O.CCOC(=O)Cl.[NH4+].[OH-].C1CCOC1.O.CCN(CC)CC>>CO/N=C/C=C\\C(N)=O",
+      "reaction_smiles_mapped": "O[C:7](/[CH:6]=[CH:5]\\[CH:4]=[N:3]\\[O:2][CH3:1])=[O:9].[NH4+:8]>CCOC(=O)Cl.[OH-].C1CCOC1.O.CCN(CC)CC>[CH3:1][O:2]/[N:3]=[CH:4]/[CH:5]=[CH:6]\\[C:7]([NH2:8])=[O:9]",
+      "mapping_confidence": 0.8330098772535118,
+      "conditions": {
+        "raw_description": "1) ethyl chloroformate; TEA; THF; 2) NH4OH; H2O; 95%",
+        "GENERAL_REAGENTS": [
+          "ethyl chloroformate",
+          "NH4OH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(=O)Cl",
+          "[NH4+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    }
+  ]
+}

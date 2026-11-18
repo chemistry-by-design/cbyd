@@ -1,0 +1,483 @@
+{
+  "background": {
+    "name": "Actinophyllic Acid",
+    "author": "Chen",
+    "year": 2017,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2017, 56, 12277",
+    "doi": "10.1002/anie.201706312"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_1",
+      "reaction_smiles": "O=c1cccccc1.C=CC=C.Cc1ccc(C)cc1>>O=C1[C@@H]2C=CC=C[C@H]1CC=CC2",
+      "reaction_smiles_mapped": "[CH2:4]=[CH:10][CH:11]=[CH2:9].[O:1]=[c:2]1[cH:3][cH:12][cH:5][cH:6][cH:7][cH:8]1>Cc1ccc(C)cc1>[O:1]=[C:2]1[C@@H:3]2[CH:4]=[CH:5][CH:6]=[CH:7][C@H:8]1[CH2:9][CH:10]=[CH:11][CH2:12]2",
+      "mapping_confidence": 0.09343328678201937,
+      "conditions": {
+        "raw_description": "butadiene; xylene; 130 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "butadiene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CC=C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "xylene"
+        ],
+        "SOLVENTS_SMILES": [
+          "Cc1ccc(C)cc1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_2",
+      "reaction_smiles": "O=C1[C@@H]2C=CC=C[C@H]1CC=CC2.Cc1ccc(S(=O)(=O)O)cc1.OCCO>>C1=C[C@@H]2CC=CC[C@H](C=C1)C21OCCO1",
+      "reaction_smiles_mapped": "[CH:1]1=[CH:2][C@@H:3]2[CH2:4][CH:5]=[CH:6][CH2:7][C@H:8]([CH:9]=[CH:10]1)[C:11]2=O.[OH:12][CH2:13][CH2:14][OH:15]>Cc1ccc(S(=O)(=O)O)cc1>[CH:1]1=[CH:2][C@@H:3]2[CH2:4][CH:5]=[CH:6][CH2:7][C@H:8]([CH:9]=[CH:10]1)[C:11]21[O:12][CH2:13][CH2:14][O:15]1",
+      "mapping_confidence": 0.42056360036305385,
+      "conditions": {
+        "raw_description": "ethylene glycol; TsOH\u2022H2O; rt",
+        "GENERAL_REAGENTS": [
+          "TsOH\u2022H2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "ethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_3",
+      "reaction_smiles": "C1=C[C@@H]2CC=CC[C@H](C=C1)C21OCCO1.O=[Os](=O)(=O)=O.CC(C)=O.C[N+]1([O-])CCOCC1>>O[C@@H]1C[C@H]2C=CC=C[C@@H](C[C@@H]1O)C21OCCO1",
+      "reaction_smiles_mapped": "[CH:2]1=[CH:11][CH2:10][C@@H:9]2[CH:8]=[CH:7][CH:6]=[CH:5][C@H:4]([CH2:3]1)[C:13]21[O:14][CH2:15][CH2:16][O:17]1.C[N+]1([O-:1])CCOCC1.[OH2:12]>CC(C)=O.O=[Os](=O)(=O)=O>[OH:1][C@H:2]1[CH2:3][C@@H:4]2[CH:5]=[CH:6][CH:7]=[CH:8][C@H:9]([CH2:10][C@H:11]1[OH:12])[C:13]21[O:14][CH2:15][CH2:16][O:17]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4; NMO; acetone; rt; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_4",
+      "reaction_smiles": "O[C@@H]1C[C@H]2C=CC=C[C@@H](C[C@@H]1O)C21OCCO1.O=C([O-])O.[Na+].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].c1ccccc1>>O=CC[C@H]1C=CC=C[C@@H](CC=O)C12OCCO2",
+      "reaction_smiles_mapped": "[OH:1][C@@H:2]1[CH2:3][C@H:4]2[CH:5]=[CH:6][CH:7]=[CH:8][C@@H:9]([CH2:10][C@@H:11]1[OH:12])[C:13]21[O:14][CH2:15][CH2:16][O:17]1>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].O=C([O-])O.[Na+].[Pb+4].c1ccccc1>[O:1]=[CH:2][CH2:3][C@H:4]1[CH:5]=[CH:6][CH:7]=[CH:8][C@@H:9]([CH2:10][CH:11]=[O:12])[C:13]12[O:14][CH2:15][CH2:16][O:17]2",
+      "mapping_confidence": 0.8101196559037023,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; NaHCO3; benzene; rt",
+        "GENERAL_REAGENTS": [
+          "NaHCO3",
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]",
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_5",
+      "reaction_smiles": "O=CC[C@H]1C=CC=C[C@@H](CC=O)C12OCCO2.COc1ccc(CN)cc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.O=C([O-])O.[Na+].O=[Al]O.O=[Si]=O.[Na+].CC(=O)O[BH-](OC(C)=O)OC(C)=O.[Na+].ClCCCl>>COc1ccc(CN2CC[C@H]3C=CC=C[C@@H](CC2)C32OCCO2)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][NH2:8])[cH:24][cH:25]1.O=[CH:9][CH2:10][C@@H:11]1[CH:12]=[CH:13][CH:14]=[CH:15][C@H:16]([CH2:17][CH:18]=O)[C:19]12[O:20][CH2:21][CH2:22][O:23]2>CC(=O)O[BH-](OC(C)=O)OC(C)=O.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.ClCCCl.O=C([O-])O.O=[Al]O.O=[Si]=O.[Na+].[Na+].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][N:8]2[CH2:9][CH2:10][C@H:11]3[CH:12]=[CH:13][CH:14]=[CH:15][C@@H:16]([CH2:17][CH2:18]2)[C:19]32[O:20][CH2:21][CH2:22][O:23]2)[cH:24][cH:25]1",
+      "mapping_confidence": 0.7217526771654943,
+      "conditions": {
+        "raw_description": "1) NaBH(OAc)3; PMBNH2; 4\u00c5 MS; dichloroethane; rt; 2) Boc2O; NaHCO3; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PMBNH2",
+          "Boc2O",
+          "NaHCO3",
+          "NaBH(OAc)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC1=CC=C(C=C1)CN",
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "C(=O)(O)[O-].[Na+]",
+          "[BH-](OC(=O)C)(OC(=O)C)OC(=O)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dichloroethane"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCCl"
+        ],
+        "MODIFIERS": [
+          "4\u00c5 MS",
+          "4 \u00c5 MS",
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_6",
+      "reaction_smiles": "COc1ccc(CN2CC[C@H]3C=CC=C[C@@H](CC2)C32OCCO2)cc1.C[Si](C)(C)CCOC(=O)Cl.ClCCl>>C[Si](C)(C)CCOC(=O)N1CC[C@H]2C=CC=C[C@@H](CC1)C21OCCO1",
+      "reaction_smiles_mapped": "COc1ccc(C[N:10]2[CH2:11][CH2:12][C@H:13]3[CH:14]=[CH:15][CH:16]=[CH:17][C@@H:18]([CH2:19][CH2:20]2)[C:21]32[O:22][CH2:23][CH2:24][O:25]2)cc1.Cl[C:8]([O:7][CH2:6][CH2:5][Si:2]([CH3:1])([CH3:3])[CH3:4])=[O:9]>ClCCl>[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][CH2:6][O:7][C:8](=[O:9])[N:10]1[CH2:11][CH2:12][C@H:13]2[CH:14]=[CH:15][CH:16]=[CH:17][C@@H:18]([CH2:19][CH2:20]1)[C:21]21[O:22][CH2:23][CH2:24][O:25]1",
+      "mapping_confidence": 0.44326405433292254,
+      "conditions": {
+        "raw_description": "TeocCl; CH2Cl2; rt; 89%",
+        "GENERAL_REAGENTS": [
+          "TeocCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(OCC[Si](C)(C)C)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_7",
+      "reaction_smiles": "C[Si](C)(C)CCOC(=O)N1CC[C@H]2C=CC=C[C@@H](CC1)C21OCCO1.ON=C(Br)Br.O=C([O-])O.[K+].CCOC(C)=O>>C[Si](C)(C)CCOC(=O)N1CC[C@H]2C=C[C@@H]3ON=C(Br)[C@@H]3[C@@H](CC1)C21OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][CH2:6][O:7][C:8](=[O:9])[N:10]1[CH2:11][CH2:12][C@H:13]2[CH:14]=[CH:15][CH:16]=[CH:21][C@@H:22]([CH2:23][CH2:24]1)[C:25]21[O:26][CH2:27][CH2:28][O:29]1.Br[C:19](=[N:18][OH:17])[Br:20]>CCOC(C)=O.O=C([O-])O.[K+]>[CH3:1][Si:2]([CH3:3])([CH3:4])[CH2:5][CH2:6][O:7][C:8](=[O:9])[N:10]1[CH2:11][CH2:12][C@H:13]2[CH:14]=[CH:15][C@@H:16]3[O:17][N:18]=[C:19]([Br:20])[C@@H:21]3[C@@H:22]([CH2:23][CH2:24]1)[C:25]21[O:26][CH2:27][CH2:28][O:29]1",
+      "mapping_confidence": 0.19562623222341086,
+      "conditions": {
+        "raw_description": "KHCO3; EtOAc; rt; 68%",
+        "GENERAL_REAGENTS": [
+          "KHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_8",
+      "reaction_smiles": "C[Si](C)(C)CCOC(=O)N1CC[C@H]2C=C[C@@H]3ON=C(Br)[C@@H]3[C@@H](CC1)C21OCCO1.[Li]OC.CO>>COC1=NO[C@H]2C=C[C@@H]3CCN(C(=O)OCC[Si](C)(C)C)CC[C@H]([C@@H]12)C31OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].Br[C:3]1=[N:4][O:5][C@H:6]2[CH:7]=[CH:8][C@@H:9]3[CH2:10][CH2:11][N:12]([C:13](=[O:14])[O:15][CH2:16][CH2:17][Si:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][CH2:23][C@H:24]([C@@H:25]12)[C:26]31[O:27][CH2:28][CH2:29][O:30]1>[Li]OC>[CH3:1][O:2][C:3]1=[N:4][O:5][C@H:6]2[CH:7]=[CH:8][C@@H:9]3[CH2:10][CH2:11][N:12]([C:13](=[O:14])[O:15][CH2:16][CH2:17][Si:18]([CH3:19])([CH3:20])[CH3:21])[CH2:22][CH2:23][C@H:24]([C@@H:25]12)[C:26]31[O:27][CH2:28][CH2:29][O:30]1",
+      "mapping_confidence": 0.37793460539925183,
+      "conditions": {
+        "raw_description": "MeOLi; MeOH; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "MeOLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_9",
+      "reaction_smiles": "COC1=NO[C@H]2C=C[C@@H]3CCN(C(=O)OCC[Si](C)(C)C)CC[C@H]([C@@H]12)C31OCCO1.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.Cc1ccccc1>>COc1noc2c1[C@H]1CCN(C(=O)OCC[Si](C)(C)C)CC[C@@H](C=C2)C12OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[N:4][O:5][C@@H:6]2[C@H:7]1[C@H:8]1[CH2:9][CH2:10][N:11]([C:12](=[O:13])[O:14][CH2:15][CH2:16][Si:17]([CH3:18])([CH3:19])[CH3:20])[CH2:21][CH2:22][C@@H:23]([CH:24]=[CH:25]2)[C:26]12[O:27][CH2:28][CH2:29][O:30]2>Cc1ccccc1.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O>[CH3:1][O:2][c:3]1[n:4][o:5][c:6]2[c:7]1[C@H:8]1[CH2:9][CH2:10][N:11]([C:12](=[O:13])[O:14][CH2:15][CH2:16][Si:17]([CH3:18])([CH3:19])[CH3:20])[CH2:21][CH2:22][C@@H:23]([CH:24]=[CH:25]2)[C:26]12[O:27][CH2:28][CH2:29][O:30]2",
+      "mapping_confidence": 0.3439905081004904,
+      "conditions": {
+        "raw_description": "DDQ; PhMe; reflux; 36% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DDQ"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "36% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_10",
+      "reaction_smiles": "COc1noc2c1[C@H]1CCN(C(=O)OCC[Si](C)(C)C)CC[C@@H](C=C2)C12OCCO2.ClCCl.O=C(O)C(F)(F)F>>COc1noc2c1[C@H]1CCNCC[C@@H](C=C2)C12OCCO2",
+      "reaction_smiles_mapped": "C[Si](C)(C)CCOC(=O)[N:11]1[CH2:10][CH2:9][C@@H:8]2[c:7]3[c:3]([O:2][CH3:1])[n:4][o:5][c:6]3[CH:16]=[CH:15][C@H:14]([CH2:13][CH2:12]1)[C:17]21[O:18][CH2:19][CH2:20][O:21]1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][O:2][c:3]1[n:4][o:5][c:6]2[c:7]1[C@H:8]1[CH2:9][CH2:10][NH:11][CH2:12][CH2:13][C@@H:14]([CH:15]=[CH:16]2)[C:17]12[O:18][CH2:19][CH2:20][O:21]2",
+      "mapping_confidence": 0.9525791234098455,
+      "conditions": {
+        "raw_description": "TFA; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_11",
+      "reaction_smiles": "COc1noc2c1[C@H]1CCNCC[C@@H](C=C2)C12OCCO2.O=[N+]([O-])c1ccccc1Br.O=C([O-])[O-].[Cs+].[Cs+].CC(=O)[O-].CC(=O)[O-].[Pd+2].c1coc(P(c2ccco2)c2ccco2)c1.C1CCOC1>>COc1noc2c1[C@H]1CCN3CC[C@@H]([C@@H]3C2c2ccccc2[N+](=O)[O-])C12OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[n:4][o:5][c:6]2[c:7]1[C@H:8]1[CH2:9][CH2:10][NH:11][CH2:12][CH2:13][C@@H:14]([CH:15]=[CH:16]2)[C:26]12[O:27][CH2:28][CH2:29][O:30]2.Br[c:17]1[cH:18][cH:19][cH:20][cH:21][c:22]1[N+:23](=[O:24])[O-:25]>C1CCOC1.CC(=O)[O-].CC(=O)[O-].O=C([O-])[O-].[Cs+].[Cs+].[Pd+2].c1coc(P(c2ccco2)c2ccco2)c1>[CH3:1][O:2][c:3]1[n:4][o:5][c:6]2[c:7]1[C@H:8]1[CH2:9][CH2:10][N:11]3[CH2:12][CH2:13][C@@H:14]([C@@H:15]3[CH:16]2[c:17]2[cH:18][cH:19][cH:20][cH:21][c:22]2[N+:23](=[O:24])[O-:25])[C:26]12[O:27][CH2:28][CH2:29][O:30]2",
+      "mapping_confidence": 0.8910992765213233,
+      "conditions": {
+        "raw_description": "Cs2CO3; P(2-furyl)3; Pd(OAc)2; THF; reflux; 65% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "P(2-furyl)3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=COC(=C1)P(C2=CC=CO2)C3=CC=CO3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_12",
+      "reaction_smiles": "COc1noc2c1[C@H]1CCN3CC[C@@H]([C@@H]3C2c2ccccc2[N+](=O)[O-])C12OCCO2.Cl.CO>>COc1noc2c1C1CCN3CC[C@@H](C1=O)C3C2c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "C1C[O:16][C:15]2(O1)[C@H:8]1[c:7]3[c:3]([O:2][CH3:1])[n:4][o:5][c:6]3[CH:18]([c:19]3[cH:20][cH:21][cH:22][cH:23][c:24]3[N+:25](=[O:26])[O-:27])[C@@H:17]3[N:11]([CH2:10][CH2:9]1)[CH2:12][CH2:13][C@H:14]23>CO.Cl>[CH3:1][O:2][c:3]1[n:4][o:5][c:6]2[c:7]1[CH:8]1[CH2:9][CH2:10][N:11]3[CH2:12][CH2:13][C@@H:14]([C:15]1=[O:16])[CH:17]3[CH:18]2[c:19]1[cH:20][cH:21][cH:22][cH:23][c:24]1[N+:25](=[O:26])[O-:27]",
+      "mapping_confidence": 0.88722220672077,
+      "conditions": {
+        "raw_description": "HCl; MeOH; reflux; 76%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_13",
+      "reaction_smiles": "COc1noc2c1C1CCN3CC[C@@H](C1=O)C3C2c1ccccc1[N+](=O)[O-].[HH].Cl[Pd]Cl.CC(=O)O.CO.O.O=C(O)C(F)(F)F>>O=C1C2CCN3CC[C@@H]1C3c1c([nH]c3ccccc13)[C@@H]2C(=O)O",
+      "reaction_smiles_mapped": "CO[c:21]1no[c:12]2[c:20]1[CH:3]1[C:2](=[O:1])[C@@H:9]3[CH2:8][CH2:7][N:6]([CH2:5][CH2:4]1)[CH:10]3[CH:11]2[c:19]1[c:14]([N+:13]([O-])=O)[cH:15][cH:16][cH:17][cH:18]1>CC(=O)O.CO.Cl[Pd]Cl.O.O=C(O)C(F)(F)F.[HH]>[O:1]=[C:2]1[CH:3]2[CH2:4][CH2:5][N:6]3[CH2:7][CH2:8][C@@H:9]1[CH:10]3[c:11]1[c:12]([nH:13][c:14]3[cH:15][cH:16][cH:17][cH:18][c:19]13)[C@@H:20]2[C:21](=[O:22])[OH:23]",
+      "mapping_confidence": 0.23323834997627627,
+      "conditions": {
+        "raw_description": "1) PdCl2; H2; MeOH; H2O; AcOH; 2) TFA",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "TFA",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C(=O)(C(F)(F)F)O",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "PdCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Actinophyllic_Acid_2017_Chen_14",
+      "reaction_smiles": "O=C1C2CCN3CC[C@@H]1C3c1c([nH]c3ccccc13)[C@@H]2C(=O)O.C=O.Cl.[Li]N(C(C)C)C(C)C.C1CCOC1.O=C(O)C(F)(F)F>>O=C(O)[C@@]12CO[C@@]3(O)C1CCN1CC[C@@H]3C1c1c2[nH]c2ccccc12",
+      "reaction_smiles_mapped": "[CH2:5]=[O:6].[O:1]=[C:2]([OH:3])[C@@H:4]1[CH:9]2[C:7](=[O:8])[C@@H:15]3[CH2:14][CH2:13][N:12]([CH2:11][CH2:10]2)[CH:16]3[c:17]2[c:18]1[nH:19][c:20]1[cH:21][cH:22][cH:23][cH:24][c:25]21>C1CCOC1.Cl.O=C(O)C(F)(F)F.[Li]N(C(C)C)C(C)C>[O:1]=[C:2]([OH:3])[C@@:4]12[CH2:5][O:6][C@@:7]3([OH:8])[CH:9]1[CH2:10][CH2:11][N:12]1[CH2:13][CH2:14][C@@H:15]3[CH:16]1[c:17]1[c:18]2[nH:19][c:20]2[cH:21][cH:22][cH:23][cH:24][c:25]12",
+      "mapping_confidence": 0.8277865044015705,
+      "conditions": {
+        "raw_description": "1) LDA; THF; -78 \u00b0C; 2) CH2O; THF; 3) TFA; THF; rt; 4) HCl; 70 \u00b0C; 15% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "CH2O",
+          "HCl",
+          "LDA",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=O",
+          "Cl",
+          "[Li]N(C(C)C)C(C)C",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt",
+          "70"
+        ],
+        "YIELD": [
+          "15% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

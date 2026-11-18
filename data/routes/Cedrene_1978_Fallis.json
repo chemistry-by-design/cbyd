@@ -1,0 +1,303 @@
+{
+  "background": {
+    "name": "Cedrene",
+    "author": "Fallis",
+    "year": 1978,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1978, 43, 1964",
+    "doi": "10.1021/jo00404a025"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Cedrene_1978_Fallis_1",
+      "reaction_smiles": "CC(=O)CCC=C(C)C.[H-].[H-].[H-].[Li].[Al+3].[AlH4-].[Li+]>>CC(C)=CCCC(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C:7]([CH3:8])=[O:9]>[H-].[H-].[H-].[Li].[Al+3].[AlH4-].[Li+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][CH:7]([CH3:8])[OH:9]",
+      "mapping_confidence": 0.755922725497674,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_2",
+      "reaction_smiles": "CC(C)=CCCC(C)O.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>CC(C)=CCCC(C)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][CH:7]([CH3:8])[OH:9].Cl[S:10](=[O:11])(=[O:12])[c:13]1[cH:14][cH:15][c:16]([CH3:17])[cH:18][cH:19]1>c1ccncc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][CH:7]([CH3:8])[O:9][S:10](=[O:11])(=[O:12])[c:13]1[cH:14][cH:15][c:16]([CH3:17])[cH:18][cH:19]1",
+      "mapping_confidence": 0.37312412158147923,
+      "conditions": {
+        "raw_description": "93%; 2 steps; TsCl; pyridine",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_3",
+      "reaction_smiles": "CC(C)=CCCC(C)OS(=O)(=O)c1ccc(C)cc1.[Na+].[c-]1ccccc1>>CC(C)=CCCC(C)C1=CC=CC1",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8])cc1.c1[c-:12][cH:11][cH:10][cH:9][cH:13]1>[Na+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][CH:7]([CH3:8])[C:9]1=[CH:10][CH:11]=[CH:12][CH2:13]1",
+      "mapping_confidence": 0.11348212818432121,
+      "conditions": {
+        "raw_description": "sodium cyclopentadiene; 85%",
+        "GENERAL_REAGENTS": [
+          "sodium cyclopentadiene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=CC=[C-]1.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_4",
+      "reaction_smiles": "CC(C)=CCCC(C)C1=CC=CC1.Cc1ccc(C)cc1>>CC1CC[C@H]2C(C)(C)C3C=CC12C3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH2:3][CH2:4][CH:5]=[C:6]([CH3:7])[CH3:8])[C:12]1=[CH:11][CH:10]=[CH:9][CH2:13]1>Cc1ccc(C)cc1>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH:10]=[CH:11][C:12]12[CH2:13]3",
+      "mapping_confidence": 0.719370709680632,
+      "conditions": {
+        "raw_description": "74%; xylene; 155 \u00b0 C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "xylene"
+        ],
+        "SOLVENTS_SMILES": [
+          "Cc1ccc(C)cc1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "155"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_5",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3C=CC12C3.OO.B.B>>CC1CC[C@H]2C(C)(C)C3CC12CC3O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH:12]=[CH:13]3.O[OH:14]>B.B>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][CH:13]3[OH:14]",
+      "mapping_confidence": 0.3592915875301614,
+      "conditions": {
+        "raw_description": "1) B2H6; 2) H2O2",
+        "GENERAL_REAGENTS": [
+          "B2H6",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3].[BH3]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_6",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CC3O.O=S(=O)(O)O.O=[Cr](=O)=O>>CC1CC[C@H]2C(C)(C)C3CC12CC3=O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][CH:13]3[OH:14]>O=S(=O)(O)O.O=[Cr](=O)=O>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][C:13]3=[O:14]",
+      "mapping_confidence": 0.7118575095663524,
+      "conditions": {
+        "raw_description": "CrO3; aq. H2SO4",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_7",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CC3=O.C[Si](C)(C)C#N.[I-].[I-].[Zn+2]>>CC1CC[C@H]2C(C)(C)C3CC12CC3(C#N)O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][C:13]3=[O:16].[C:14](#[N:15])[Si:17]([CH3:18])([CH3:19])[CH3:20]>[I-].[I-].[Zn+2]>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][C:13]3([C:14]#[N:15])[O:16][Si:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.35735135601059054,
+      "conditions": {
+        "raw_description": "TMSCN; ZnI2",
+        "GENERAL_REAGENTS": [
+          "TMSCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C#N"
+        ],
+        "CATALYSTS": [
+          "ZnI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn+2].[I-].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_8",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CC3(C#N)O[Si](C)(C)C.[H-].[H-].[H-].[Li].[Al+3].[AlH4-].[Li+]>>CC1CC[C@H]2C(C)(C)C3CC12CC3(CN)O[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][C:13]3([C:14]#[N:15])[O:16][Si:17]([CH3:18])([CH3:19])[CH3:20]>[H-].[H-].[H-].[Li].[Al+3].[AlH4-].[Li+]>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][C:13]3([CH2:14][NH2:15])[O:16][Si:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.3622723672199883,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_9",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CC3(CN)O[Si](C)(C)C.O=NO>>CC1CC[C@H]2C(C)(C)C3CC12CCC3=O",
+      "reaction_smiles_mapped": "C[Si](C)(C)O[C:13]1([CH2:14]N)[CH:9]2[C:6]([CH3:7])([CH3:8])[C@@H:5]3[CH2:4][CH2:3][CH:2]([CH3:1])[C:11]3([CH2:10]2)[CH2:12]1.ON=[O:15]>>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][CH2:13][C:14]3=[O:15]",
+      "mapping_confidence": 0.40756925531031857,
+      "conditions": {
+        "raw_description": "73%; 3 steps; HNO2",
+        "GENERAL_REAGENTS": [
+          "HNO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_10",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CCC3=O.[Li]C>>CC1CC[C@H]2C(C)(C)C3CC12CCC3(C)O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][CH2:13][C:14]3=[O:16].[Li][CH3:15]>>[CH3:1][CH:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH:9]3[CH2:10][C:11]12[CH2:12][CH2:13][C:14]3([CH3:15])[OH:16]",
+      "mapping_confidence": 0.7020468323443572,
+      "conditions": {
+        "raw_description": "CH3Li",
+        "GENERAL_REAGENTS": [
+          "CH3Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1978_Fallis_11",
+      "reaction_smiles": "CC1CC[C@H]2C(C)(C)C3CC12CCC3(C)O.c1ccncc1.O=S(Cl)Cl>>CC1=CCC23CC1C(C)(C)[C@@H]2CCC3C",
+      "reaction_smiles_mapped": "O[C:2]1([CH3:1])[CH2:3][CH2:4][C:5]23[CH2:6][CH:7]1[C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][CH:14]3[CH3:15]>c1ccncc1.O=S(Cl)Cl>[CH3:1][C:2]1=[CH:3][CH2:4][C:5]23[CH2:6][CH:7]1[C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][CH:14]3[CH3:15]",
+      "mapping_confidence": 0.7008379426485868,
+      "conditions": {
+        "raw_description": "pyridine; SOCl2",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "background": {
+    "name": "Lipoxazolidinone A",
+    "author": "Pierce",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2018, 58, 8682",
+    "doi": "10.1002/anie.201805078"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_1",
+      "reaction_smiles": "CCCCCCC/C(C)=C/C(=O)CC(=O)OC(C)(C)C.O=C(OC(=O)C(F)(F)F)C(F)(F)F.CC(=O)OC(C)=O.O=C(O)C(F)(F)F>>CCCCCCC/C(C)=C/C1=CC(=O)OC(C)(C)O1",
+      "reaction_smiles_mapped": "C[C:16]([O:15][C:13]([CH2:12][C:11](/[CH:10]=[C:8](/[CH2:7][CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH3:9])=[O:19])=[O:14])([CH3:17])[CH3:18]>O=C(OC(=O)C(F)(F)F)C(F)(F)F.CC(=O)OC(C)=O.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[C:11]1=[CH:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[O:19]1",
+      "mapping_confidence": 0.19296907290660004,
+      "conditions": {
+        "raw_description": "TFAA; TFA; Ac2O; -78 \u00b0C to rt; 73%",
+        "GENERAL_REAGENTS": [
+          "TFA",
+          "Ac2O",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O",
+          "CC(=O)OC(=O)C",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_2",
+      "reaction_smiles": "CCCCCCC/C(C)=C/C1=CC(=O)OC(C)(C)O1.CCCC[C@H](O[Si](C)(C)C(C)(C)C)C(N)=O.Cc1ccccc1.ClCCl.O=C(O)C(F)(F)F>>CCCCCCC/C(C)=C/C(=O)CC(=O)NC(=O)[C@H](CCCC)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CC1(C)O[C:14](=[O:15])[CH:13]=[C:11](/[CH:10]=[C:8](/[CH2:7][CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH3:9])[O:12]1.[NH2:16][C:17](=[O:18])[C@H:19]([CH2:20][CH2:21][CH2:22][CH3:23])[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]>Cc1ccccc1.ClCCl.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[C:11](=[O:12])[CH2:13][C:14](=[O:15])[NH:16][C:17](=[O:18])[C@H:19]([CH2:20][CH2:21][CH2:22][CH3:23])[O:24][Si:25]([CH3:26])([CH3:27])[C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.21343590128422965,
+      "conditions": {
+        "raw_description": "toluene; reflux; TFA; DCM; rt; 52% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "52% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_3",
+      "reaction_smiles": "CCCCCCCI.CC#CC(=O)O.CCCCC.[Li]C(C)(C)C.[Cu+].[I-].C1CCOC1.CCOCC>>CCCCCCC/C(C)=C/C(=O)O",
+      "reaction_smiles_mapped": "[C:8]([CH3:9])#[C:10][C:11](=[O:12])[OH:13].I[CH2:7][CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1]>CCCCC.[Li]C(C)(C)C.[Cu+].[I-].C1CCOC1.CCOCC>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[C:11](=[O:12])[OH:13]",
+      "mapping_confidence": 0.8183977919830605,
+      "conditions": {
+        "raw_description": "1) pentane/ether; t-BuLi; -78 \u00b0C to rt; 2) CuI; THF; 0 \u00b0C; 81%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pentane",
+          "ether",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCC",
+          "CCOCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt",
+          "0"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_4",
+      "reaction_smiles": "CCCCCCC/C(C)=C/C(=O)O.COc1nc(Cl)nc(OC)n1.CNOC.C1CCOC1>>CCCCCCC/C(C)=C/C(=O)N(C)OC",
+      "reaction_smiles_mapped": "O[C:11](/[CH:10]=[C:8](/[CH2:7][CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH3:9])=[O:12].[NH:13]([CH3:14])[O:15][CH3:16]>COc1nc(Cl)nc(OC)n1.C1CCOC1>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[C:11](=[O:12])[N:13]([CH3:14])[O:15][CH3:16]",
+      "mapping_confidence": 0.8071443767573783,
+      "conditions": {
+        "raw_description": "THF; rt; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_5",
+      "reaction_smiles": "CCCCCCC/C(C)=C/C(=O)N(C)OC.CC(=O)OC(C)(C)C.C1CCOC1.[Li]N(C(C)C)C(C)C>>CCCCCCC/C(C)=C/C(=O)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20].CON(C)[C:11](/[CH:10]=[C:8](/[CH2:7][CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[CH3:9])=[O:12]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][CH2:7]/[C:8]([CH3:9])=[CH:10]/[C:11](=[O:12])[CH2:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.40743861690844285,
+      "conditions": {
+        "raw_description": "LDA; THF; -78 \u00b0C; 55%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_6",
+      "reaction_smiles": "CCCC[C@H](N)C(=O)O.O=N[O-].[Na+].O=S(=O)(O)O>>CCCC[C@H](O)C(=O)O",
+      "reaction_smiles_mapped": "N[C@@H:5]([CH2:4][CH2:3][CH2:2][CH3:1])[C:7](=[O:8])[OH:9].O=S(=O)(O)[OH:6]>O=N[O-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][C@H:5]([OH:6])[C:7](=[O:8])[OH:9]",
+      "mapping_confidence": 0.25378090917767715,
+      "conditions": {
+        "raw_description": "NaNO2; H2SO4; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_7",
+      "reaction_smiles": "CCCC[C@H](O)C(=O)O.c1c[nH]cn1.CN(C)C=O.CC(C)(C)[Si](C)(C)Cl>>CCCC[C@H](O[Si](C)(C)C(C)(C)C)C(=O)O",
+      "reaction_smiles_mapped": "Cl[Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13].[CH3:1][CH2:2][CH2:3][CH2:4][C@H:5]([OH:6])[C:14](=[O:15])[OH:16]>c1c[nH]cn1.CN(C)C=O>[CH3:1][CH2:2][CH2:3][CH2:4][C@H:5]([O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13])[C:14](=[O:15])[OH:16]",
+      "mapping_confidence": 0.33014212984437724,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lipoxazolidinone_A_2018_Pierce_8",
+      "reaction_smiles": "CCCC[C@H](O[Si](C)(C)C(C)(C)C)C(=O)O.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC>>CCCC[C@H](O[Si](C)(C)C(C)(C)C)C(N)=O",
+      "reaction_smiles_mapped": "O[C:14]([C@H:5]([CH2:4][CH2:3][CH2:2][CH3:1])[O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13])=[O:16].CC[N:15](CC)CC>Cc1ccc(S(=O)(=O)Cl)cc1>[CH3:1][CH2:2][CH2:3][CH2:4][C@H:5]([O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13])[C:14]([NH2:15])=[O:16]",
+      "mapping_confidence": 0.30306911190923363,
+      "conditions": {
+        "raw_description": "TsCl; Et3N; rt",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

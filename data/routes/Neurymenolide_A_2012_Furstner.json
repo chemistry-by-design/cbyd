@@ -1,0 +1,514 @@
+{
+  "background": {
+    "name": "Neurymenolide A",
+    "author": "Furstner",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2012, 51, 6929",
+    "doi": "10.1002/anie.201203180"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_1",
+      "reaction_smiles": "CC/C=C\\CC=O.[Li]C#C[Si](C)(C)C.C1CCOC1>>CC/C=C\\CC(O)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6]=[O:7].[Li][C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13]>C1CCOC1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6]([OH:7])[C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.5202003749816533,
+      "conditions": {
+        "raw_description": "TMSCCLi; THF; -78 \u00b0C to rt; 84%",
+        "GENERAL_REAGENTS": [
+          "TMSCCLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C#C[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_2",
+      "reaction_smiles": "CC/C=C\\CC(O)C#C[Si](C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>C#CC(O)C/C=C\\CC",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][CH:3]([OH:4])[CH2:5]/[CH:6]=[CH:7]\\[CH2:8][CH3:9]>O=C([O-])[O-].[K+].[K+].CO>[CH:1]#[C:2][CH:3]([OH:4])[CH2:5]/[CH:6]=[CH:7]\\[CH2:8][CH3:9]",
+      "mapping_confidence": 0.9612496650078098,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 98%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_3",
+      "reaction_smiles": "C#CC(O)C/C=C\\CC.CCCC[SnH](CCCC)CCCC.[Cl-].[Cl-].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC/C=C\\CC(O)/C=C/[Sn](CCCC)(CCCC)CCCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6]([OH:7])[C:8]#[CH:9].[SnH:10]([CH2:11][CH2:12][CH2:13][CH3:14])([CH2:15][CH2:16][CH2:17][CH3:18])[CH2:19][CH2:20][CH2:21][CH3:22]>[Cl-].[Cl-].[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6]([OH:7])/[CH:8]=[CH:9]/[Sn:10]([CH2:11][CH2:12][CH2:13][CH3:14])([CH2:15][CH2:16][CH2:17][CH3:18])[CH2:19][CH2:20][CH2:21][CH3:22]",
+      "mapping_confidence": 0.3177487540834179,
+      "conditions": {
+        "raw_description": "Bu3SnH; PdCl2(Ph3P)2; 59%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "PdCl2(Ph3P)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[Cl-].[Cl-].P(c1ccccc1)(c2ccccc2)c3ccccc3.P(c1ccccc1)(c2ccccc2)c3ccccc3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_4",
+      "reaction_smiles": "CC/C=C\\CC(O)/C=C/[Sn](CCCC)(CCCC)CCCC.CC(C)(C)[Si](C)(C)OC/C=C\\I.O=C([O-])c1cccs1.[Cu+].CN1CCCC1=O>>CC/C=C\\CC(O)/C=C/C=C\\CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "I/[CH:10]=[CH:11]\\[CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20].CCCC[Sn](CCCC)(CCCC)/[CH:9]=[CH:8]/[CH:6]([CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1])[OH:7]>O=C([O-])c1cccs1.[Cu+].CN1CCCC1=O>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6]([OH:7])/[CH:8]=[CH:9]/[CH:10]=[CH:11]\\[CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.23690726095584677,
+      "conditions": {
+        "raw_description": "CuTC; NMP; Stille; coupling",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CuTC"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CSC(=C1)C(=O)[O-].[Cu+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_5",
+      "reaction_smiles": "CC/C=C\\CC(O)/C=C/C=C\\CO[Si](C)(C)C(C)(C)C.CCN(CC)CC.CC(=O)OC(C)=O.CN(C)c1ccncc1>>CC/C=C\\CC(/C=C/C=C\\CO[Si](C)(C)C(C)(C)C)OC(C)=O",
+      "reaction_smiles_mapped": "CC(=O)O[C:21]([CH3:22])=[O:23].[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6](/[CH:7]=[CH:8]/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[OH:20]>CCN(CC)CC.CN(C)c1ccncc1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6](/[CH:7]=[CH:8]/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[O:20][C:21]([CH3:22])=[O:23]",
+      "mapping_confidence": 0.11160577893124968,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; 93%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_6",
+      "reaction_smiles": "CC/C=C\\CC(/C=C/C=C\\CO[Si](C)(C)C(C)(C)C)OC(C)=O.CC(C)(C)[Si](C)(C)Cl.O=C([O-])[O-].[K+].[K+].[Li]N(C(C)C)C(C)C.CO>>CC/C=C\\C/C=C/C(/C=C\\CO[Si](C)(C)C(C)(C)C)CC(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5][CH:6](/[CH:7]=[CH:8]/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[O:23][C:21]([CH3:20])=[O:22]>CC(C)(C)[Si](C)(C)Cl.O=C([O-])[O-].[K+].[K+].[Li]N(C(C)C)C(C)C.CO>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[CH:8](/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C:21](=[O:22])[OH:23]",
+      "mapping_confidence": 0.2851167617282331,
+      "conditions": {
+        "raw_description": "LDA; TBS-Cl; K2CO3; MeOH; 93%; Ireland-Claisen rearrangement",
+        "GENERAL_REAGENTS": [
+          "TBS-Cl",
+          "K2CO3",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_7",
+      "reaction_smiles": "CC/C=C\\C/C=C/C(/C=C\\CO[Si](C)(C)C(C)(C)C)CC(=O)O.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.CN(C)c1ccncc1.CC(C)(C)O>>CC/C=C\\C/C=C/C(/C=C\\CO[Si](C)(C)C(C)(C)C)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[OH:23][C:24]([CH3:25])([CH3:26])[CH3:27].O[C:21]([CH2:20][CH:8](/[CH:7]=[CH:6]/[CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1])/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])=[O:22]>O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.CN(C)c1ccncc1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[CH:8](/[CH:9]=[CH:10]\\[CH2:11][O:12][Si:13]([CH3:14])([CH3:15])[C:16]([CH3:17])([CH3:18])[CH3:19])[CH2:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.07285487088049286,
+      "conditions": {
+        "raw_description": "1) Et3N; DMAP; 2) t-BuOH; 73%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_8",
+      "reaction_smiles": "CC/C=C\\C/C=C/C(/C=C\\CO[Si](C)(C)C(C)(C)C)CC(=O)OC(C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC/C=C\\C/C=C/C(/C=C\\CO)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:12][CH2:11]/[CH:10]=[CH:9]\\[CH:8](/[CH:7]=[CH:6]/[CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1])[CH2:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[CH:8](/[CH:9]=[CH:10]\\[CH2:11][OH:12])[CH2:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.4401504760262579,
+      "conditions": {
+        "raw_description": "TBAF; THF; 95%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_9",
+      "reaction_smiles": "CC/C=C\\C/C=C/C(/C=C\\CO)CC(=O)OC(C)(C)C.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CC/C=C\\C/C=C/C(/C=C\\CBr)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "BrC(Br)(Br)[Br:12].O[CH2:11]/[CH:10]=[CH:9]\\[CH:8](/[CH:7]=[CH:6]/[CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1])[CH2:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]>c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[CH:8](/[CH:9]=[CH:10]\\[CH2:11][Br:12])[CH2:13][C:14](=[O:15])[O:16][C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.11615836604237915,
+      "conditions": {
+        "raw_description": "CBr4; Ph3P; CH2Cl2; 0 \u00b0C; 93%; Appel reaction",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_10",
+      "reaction_smiles": "CC/C=C\\C/C=C/C(/C=C\\CBr)CC(=O)OC(C)(C)C.C#CC[Mg]Br.[Cu+].[I-].C1CCOC1>>CC#CC/C=C\\C(/C=C/C/C=C\\CC)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Br[Mg][CH2:1][C:3]#[CH:2].Br[CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]/[CH2:10]/[CH:11]=[CH:12]\\[CH2:13][CH3:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]>[Cu+].[I-].C1CCOC1>[CH3:1][C:2]#[C:3][CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]/[CH2:10]/[CH:11]=[CH:12]\\[CH2:13][CH3:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.15465235289457746,
+      "conditions": {
+        "raw_description": "propynylMgBr; CuI; THF; -10 \u00b0C; 98%",
+        "GENERAL_REAGENTS": [
+          "propynylMgBr",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C#CC[Mg]Br",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_11",
+      "reaction_smiles": "CC#CC/C=C\\C(/C=C/C/C=C\\CC)CC(=O)OC(C)(C)C.CC#CCCCCCCC#CC(=O)OC.[Li]N(C(C)C)C(C)C>>CC#CC/C=C\\C(/C=C\\CC#CC)C(C(=O)C#CCCCCCC#CC)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "C(/[CH:12]=[CH:11]\\[CH2:10]/[CH:9]=[CH:8]/[CH:7](/[CH:6]=[CH:5]\\[CH2:4][C:3]#[C:2][CH3:1])[CH2:14][C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33])[CH3:13].CO[C:15](=[O:16])[C:17]#[C:18][CH2:19][CH2:20][CH2:21][CH2:22][CH2:23]C[C:24]#[C:25][CH3:26]>[Li]N(C(C)C)C(C)C>[CH3:1][C:2]#[C:3][CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]\\[CH2:10][C:11]#[C:12][CH3:13])[CH:14]([C:15](=[O:16])[C:17]#[C:18][CH2:19][CH2:20][CH2:21][CH2:22][CH2:23][C:24]#[C:25][CH3:26])[C:27](=[O:28])[O:29][C:30]([CH3:31])([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.20149435182232275,
+      "conditions": {
+        "raw_description": "LDA; methyl dodeca-2,10-diynoate; 76%; Claisen condensation",
+        "GENERAL_REAGENTS": [
+          "methyl dodeca-2,10-diynoate",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC(=O)C#CCCCCCCC#CC",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_12",
+      "reaction_smiles": "CC#CC/C=C\\C(/C=C\\CC#CC)C(C(=O)C#CCCCCCC#CC)C(=O)OC(C)(C)C.CC(C)c1cc(C(C)C)c(-c2ccccc2[P+]([Au]N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F)(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CC(=O)O.C[N+](=O)[O-]>>CC#CC/C=C\\C(/C=C/C/C=C\\CCC)c1c(O)cc(CCCCCCC#CC)oc1=O",
+      "reaction_smiles_mapped": "CC(C)(C)[O:30][C:31]([CH:16]([CH:7](/[CH:6]=[CH:5]\\[CH2:4][C:3]#[C:2][CH3:1])/[CH:8]=[CH:9]\\[CH2:10][C:11]#[C:12][CH3:13])[C:17](=[O:18])[C:19]#[C:20][CH2:21][CH2:22][CH2:23][CH2:24][CH2:25][C:26]#[C:27][CH3:28])=[O:32].CC(C)c1cc(C(C)C)c(-c2ccccc2[P+]([Au]N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F)(C2CCC[CH2:15][CH2:14]2)C2CCCC[CH2:29]2)c(C(C)C)c1>CC(=O)O.C[N+](=O)[O-]>[CH3:1][C:2]#[C:3][CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]/[CH2:10]/[CH:11]=[CH:12]\\[CH2:13][CH2:14][CH3:15])[c:16]1[c:17]([OH:18])[cH:19][c:20]([CH2:21][CH2:22][CH2:23][CH2:24][CH2:25][CH2:26][C:27]#[C:28][CH3:29])[o:30][c:31]1=[O:32]",
+      "mapping_confidence": 0.02212488852844793,
+      "conditions": {
+        "raw_description": "MeNO2/AcOH",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeNO2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C[N+](=O)[O-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_13",
+      "reaction_smiles": "CC#CC/C=C\\C(/C=C/C/C=C\\CCC)c1c(O)cc(CCCCCCC#CC)oc1=O.CCN(CC)CC.CC(=O)OC(C)=O.ClCCl>>CC#CC/C=C\\C(/C=C/C/C=C\\CCC)c1c(OC(C)=O)cc(CCCCCCC#CC)oc1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]/[CH2:10]/[CH:11]=[CH:12]\\[CH2:13][CH2:14][CH3:15])[c:16]1[c:17]([OH:18])[cH:22][c:23]([CH2:24][CH2:25][CH2:26][CH2:27][CH2:28][CH2:29][C:30]#[C:31][CH3:32])[o:33][c:34]1=[O:35].CC(=O)O[C:19]([CH3:20])=[O:21]>CCN(CC)CC.ClCCl>[CH3:1][C:2]#[C:3][CH2:4]/[CH:5]=[CH:6]\\[CH:7](/[CH:8]=[CH:9]/[CH2:10]/[CH:11]=[CH:12]\\[CH2:13][CH2:14][CH3:15])[c:16]1[c:17]([O:18][C:19]([CH3:20])=[O:21])[cH:22][c:23]([CH2:24][CH2:25][CH2:26][CH2:27][CH2:28][CH2:29][C:30]#[C:31][CH3:32])[o:33][c:34]1=[O:35]",
+      "mapping_confidence": 0.5008773958439163,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; CH2Cl2; 0 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_14",
+      "reaction_smiles": "CC#CC/C=C\\C(/C=C/C/C=C\\CCC)c1c(OC(C)=O)cc(CCCCCCC#CC)oc1=O.COc1ccc(C[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)O[Mo-](#Cc2ccccc2)(O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)(O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)cc1.[K].Cc1ccccc1>>CC/C=C\\C/C=C/[C@H]1/C=C\\C/C=C\\CCCCCCc2cc(OC(C)=O)c1c(=O)o2",
+      "reaction_smiles_mapped": "C[C:12]#[C:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][c:20]1[cH:21][c:22]([O:23][C:24]([CH3:25])=[O:26])[c:27]([CH:8](/[CH:7]=[CH:6]\\[CH2:5][C:4]#[C:3][CH3:2])/[CH:9]=[CH:10]/[CH2:11]/C=C\\CC[CH3:1])[c:28](=[O:29])[o:30]1>COc1ccc(C[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)O[Mo-](#Cc2ccccc2)(O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)(O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)O[Si](Cc2ccc(OC)cc2)(Cc2ccc(OC)cc2)Cc2ccc(OC)cc2)cc1.[K].Cc1ccccc1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[C@H:8]1/[CH:9]=[CH:10]\\[CH2:11]/[CH:12]=[CH:13]\\[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][c:20]2[cH:21][c:22]([O:23][C:24]([CH3:25])=[O:26])[c:27]1[c:28](=[O:29])[o:30]2",
+      "mapping_confidence": 0.23514800108625125,
+      "conditions": {
+        "raw_description": "PhMe; 5A MS; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "5 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_15",
+      "reaction_smiles": "CC/C=C\\C/C=C/[C@H]1/C=C\\C/C=C\\CCCCCCc2cc(OC(C)=O)c1c(=O)o2.[HH].O=C([O-])[O-].[Ca+2].[PbH2].[Pd].CCOC(C)=O.C=CCCCC.c1ccc2ncccc2c1>>CC/C=C\\C/C=C/[C@H]1/C=C\\CC#CCCCCCCc2cc(O)c1c(=O)o2",
+      "reaction_smiles_mapped": "CC(=O)[O:23][c:22]1[cH:21][c:20]2[o:27][c:25](=[O:26])[c:24]1[C@@H:8](/[CH:7]=[CH:6]/[CH2:5]/[CH:4]=[CH:3]\\[CH2:2][CH3:1])/[CH:9]=[CH:10]\\[CH2:11]/[CH:12]=[CH:13]\\[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19]2>[HH].O=C([O-])[O-].[Ca+2].[PbH2].[Pd].CCOC(C)=O.C=CCCCC.c1ccc2ncccc2c1>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[C@H:8]1/[CH:9]=[CH:10]\\[CH2:11][C:12]#[C:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][c:20]2[cH:21][c:22]([OH:23])[c:24]1[c:25](=[O:26])[o:27]2",
+      "mapping_confidence": 0.8191255224275884,
+      "conditions": {
+        "raw_description": "H2; Lindlar cat.; quinoline; EtOAc/1-hexene; 84%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Lindlar cat."
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ca++].[Pd].[PbH2].[O-]C([O-])=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "1-hexene",
+          "quinoline"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CCCCC=C",
+          "C1=CC=C2C(=C1)C=CC=N2"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Neurymenolide_A_2012_Furstner_16",
+      "reaction_smiles": "CC/C=C\\C/C=C/[C@H]1/C=C\\CC#CCCCCCCc2cc(O)c1c(=O)o2.O=C([O-])[O-].[K+].[K+].CO>>CC/C=C\\C/C=C/[C@H]1/C=C\\C/C=C\\CCCCCCc2cc(O)c1c(=O)o2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[C@H:8]1/[CH:9]=[CH:10]\\[CH2:11][C:12]#[C:13][CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][c:20]2[cH:21][c:22]([OH:23])[c:24]1[c:25](=[O:26])[o:27]2>O=C([O-])[O-].[K+].[K+].CO>[CH3:1][CH2:2]/[CH:3]=[CH:4]\\[CH2:5]/[CH:6]=[CH:7]/[C@H:8]1/[CH:9]=[CH:10]\\[CH2:11]/[CH:12]=[CH:13]\\[CH2:14][CH2:15][CH2:16][CH2:17][CH2:18][CH2:19][c:20]2[cH:21][c:22]([OH:23])[c:24]1[c:25](=[O:26])[o:27]2",
+      "mapping_confidence": 0.8601223972374911,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

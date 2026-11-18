@@ -1,0 +1,303 @@
+{
+  "background": {
+    "name": "(+)-Calafianin",
+    "author": "Porco",
+    "year": 2006,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2006, 8, 927",
+    "doi": "10.1021/ol053115m"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Calafianin_2006_Porco_1",
+      "reaction_smiles": "COc1ccc(O)cc1Br.CO.CC(=O)OI(OC(C)=O)c1ccccc1>>COC1(OC)C=CC(=O)C=C1Br",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[c:3]1([O:4][CH3:5])[cH:6][cH:7][c:8]([OH:9])[cH:10][c:11]1[Br:12]>CC(=O)OI(OC(C)=O)c1ccccc1>[CH3:1][O:2][C:3]1([O:4][CH3:5])[CH:6]=[CH:7][C:8](=[O:9])[CH:10]=[C:11]1[Br:12]",
+      "mapping_confidence": 0.9303215057176993,
+      "conditions": {
+        "raw_description": "PhI(OAc)2; MeOH; 96%",
+        "GENERAL_REAGENTS": [
+          "PhI(OAc)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_2",
+      "reaction_smiles": "COC1(OC)C=CC(=O)C=C1Br.OCCCO.c1cc[nH+]cc1.Cc1ccc(S(=O)(=O)[O-])cc1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.c1ccccc1>>O=C1C=CC2(OCCCO2)C(Br)=C1",
+      "reaction_smiles_mapped": "CO[C:5]1(OC)[CH:4]=[CH:3][C:2](=[O:1])[CH:13]=[C:11]1[Br:12].[OH:6][CH2:7][CH2:8][CH2:9][OH:10]>Cc1ccc(S(=O)(=O)[O-])cc1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.c1cc[nH+]cc1.c1ccccc1>[O:1]=[C:2]1[CH:3]=[CH:4][C:5]2([O:6][CH2:7][CH2:8][CH2:9][O:10]2)[C:11]([Br:12])=[CH:13]1",
+      "mapping_confidence": 0.6920530568457834,
+      "conditions": {
+        "raw_description": "PPTS; benzene; 70%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_3",
+      "reaction_smiles": "O=C1C=CC2(OCCCO2)C(Br)=C1.Cc1ccccc1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C.OOC(c1ccccc1)(c1ccccc1)c1ccccc1>>O=C1C=C(Br)C2(OCCCO2)[C@H]2O[C@@H]12",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH:3]=[C:4]([Br:5])[C:6]2([O:7][CH2:8][CH2:9][CH2:10][O:11]2)[CH:12]=[CH:14]1.c1ccc(C(O[OH:13])(c2ccccc2)c2ccccc2)cc1>CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C.C[Si](C)(C)[N-][Si](C)(C)C.Cc1ccccc1.[Na+]>[O:1]=[C:2]1[CH:3]=[C:4]([Br:5])[C:6]2([O:7][CH2:8][CH2:9][CH2:10][O:11]2)[C@H:12]2[O:13][C@@H:14]12",
+      "mapping_confidence": 0.4492466404979095,
+      "conditions": {
+        "raw_description": "NaHMDS; L-DIPT; Ph3COOH; toluene; 97%; 96%ee",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "L-DIPT",
+          "Ph3COOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C",
+          "c1ccc(cc1)C(OO)(c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%, 96%ee"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_4",
+      "reaction_smiles": "COc1ccc(OC(C)=O)cc1.CC(=O)[O-].[Na+].BrBr.CC(=O)O.CC(=O)[O-].[Na+]>>COc1ccc(OC(C)=O)cc1Br",
+      "reaction_smiles_mapped": "Br[Br:13].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][C:8]([CH3:9])=[O:10])[cH:11][cH:12]1>CC(=O)O.CC(=O)[O-].CC(=O)[O-].[Na+].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([O:7][C:8]([CH3:9])=[O:10])[cH:11][c:12]1[Br:13]",
+      "mapping_confidence": 0.4001456843322721,
+      "conditions": {
+        "raw_description": "NaOAc; Br2; AcOH; 93%",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "Br2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "BrBr",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_5",
+      "reaction_smiles": "COc1ccc(OC(C)=O)cc1Br.[K+].[OH-].CO.[K+].[OH-]>>COc1ccc(O)cc1Br",
+      "reaction_smiles_mapped": "CC(=O)[O:7][c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:9]([Br:10])[cH:8]1>CO.[K+].[K+].[OH-].[OH-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([OH:7])[cH:8][c:9]1[Br:10]",
+      "mapping_confidence": 0.9869517053947978,
+      "conditions": {
+        "raw_description": "KOH; MeOH; 96%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_6",
+      "reaction_smiles": "O=C1C=C(Br)C2(OCCCO2)[C@H]2O[C@@H]12.CC(C)(C)[O-].[K+].C1CCOC1.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].CC(C)(C)[O-].[K+]>>C=C1C=C(Br)C2(OCCCO2)[C@H]2O[C@@H]12",
+      "reaction_smiles_mapped": "c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1.O=[C:2]1[CH:3]=[C:4]([Br:5])[C:6]2([O:7][CH2:8][CH2:9][CH2:10][O:11]2)[C@H:12]2[O:13][C@@H:14]12>C1CCOC1.CC(C)(C)[O-].CC(C)(C)[O-].[Br-].[K+].[K+]>[CH2:1]=[C:2]1[CH:3]=[C:4]([Br:5])[C:6]2([O:7][CH2:8][CH2:9][CH2:10][O:11]2)[C@H:12]2[O:13][C@@H:14]12",
+      "mapping_confidence": 0.8671383815985658,
+      "conditions": {
+        "raw_description": "CH3PPh3Br; tBuOK; THF; -40\u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "CH3PPh3Br"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[P+](C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_7",
+      "reaction_smiles": "C=C1C=C(Br)C2(OCCCO2)[C@H]2O[C@@H]12.CCOC(=O)C#[N+][O-].Cc1ccccc1.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Zr+4]>>CCOC(=O)C1=NO[C@@]2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1",
+      "reaction_smiles_mapped": "[C:9]1(=[CH2:22])[CH:10]=[C:11]([Br:12])[C:13]2([O:14][CH2:15][CH2:16][CH2:17][O:18]2)[C@H:19]2[O:20][C@@H:21]12.[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[N+:7][O-:8]>CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].Cc1ccccc1.[Zr+4]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1=[N:7][O:8][C@@:9]2([CH:10]=[C:11]([Br:12])[C:13]3([O:14][CH2:15][CH2:16][CH2:17][O:18]3)[C@H:19]3[O:20][C@@H:21]23)[CH2:22]1",
+      "mapping_confidence": 0.9753124174487451,
+      "conditions": {
+        "raw_description": "compound 1; Zr(OiPr)4; toluene; 85-93%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zr(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[O-]C(C)C.[O-]C(C)C.[O-]C(C)C.[O-]C(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85-93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_8",
+      "reaction_smiles": "CCOC(=O)C1=NO[C@@]2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1.CCOC(=O)C1=NO[C@@]2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1.Oc1cccnc1.NCCCCN.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Zn+2].CC(C)(C)[O-].CC(C)(C)[O-].CC(C)(C)[O-].CC(C)(C)[O-].[Zr+4].Cc1ccccc1>>O=C(NCCCCNC(=O)C1=NO[C@@]2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1)C1=NOC2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1",
+      "reaction_smiles_mapped": "CCO[C:2](=[O:1])[C:28]1=[N:29][O:30][C@@:31]2([CH:32]=[C:33]([Br:34])[C:35]3([O:36][CH2:37][CH2:38][CH2:39][O:40]3)[C@H:41]3[O:42][C@@H:43]23)[CH2:44]1.CCO[C:9](=[O:10])[C:11]1=[N:12][O:13][C@@:14]2([CH:15]=[C:16]([Br:17])[C:18]3([O:19][CH2:20][CH2:21][CH2:22][O:23]3)[C@H:24]3[O:25][C@@H:26]23)[CH2:27]1.[NH2:3][CH2:4][CH2:5][CH2:6][CH2:7][NH2:8]>CC(C)(C)[O-].CC(C)(C)[O-].CC(C)(C)[O-].CC(C)(C)[O-].Cc1ccccc1.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.Oc1cccnc1.[Zn+2].[Zr+4]>[O:1]=[C:2]([NH:3][CH2:4][CH2:5][CH2:6][CH2:7][NH:8][C:9](=[O:10])[C:11]1=[N:12][O:13][C@@:14]2([CH:15]=[C:16]([Br:17])[C:18]3([O:19][CH2:20][CH2:21][CH2:22][O:23]3)[C@H:24]3[O:25][C@@H:26]23)[CH2:27]1)[C:28]1=[N:29][O:30][C:31]2([CH:32]=[C:33]([Br:34])[C:35]3([O:36][CH2:37][CH2:38][CH2:39][O:40]3)[C@H:41]3[O:42][C@@H:43]23)[CH2:44]1",
+      "mapping_confidence": 0.35514941524221505,
+      "conditions": {
+        "raw_description": "py-2-OH; Zn(OTf)2; Zr(OtBu)4; 1,4-diaminobutane; toluene; 78%",
+        "GENERAL_REAGENTS": [
+          "py-2-OH",
+          "1,4-diaminobutane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=NC=C1O",
+          "C(CCN)CN"
+        ],
+        "CATALYSTS": [
+          "Zn(OTf)2",
+          "Zr(OtBu)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)[O-].C(F)(F)(F)S(=O)(=O)[O-].[Zn+2]",
+          "[Zr+4].[O-]C(C)(C)C.[O-]C(C)(C)C.[O-]C(C)(C)C.[O-]C(C)(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Calafianin_2006_Porco_9",
+      "reaction_smiles": "O=C(NCCCCNC(=O)C1=NO[C@@]2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1)C1=NOC2(C=C(Br)C3(OCCCO3)[C@H]3O[C@H]32)C1.F.CC#N.ClCCl>>O=C(NCCCCNC(=O)C1=NO[C@@]2(C=C(Br)C(=O)[C@H]3O[C@H]32)C1)C1=NOC2(C=C(Br)C(=O)[C@H]3O[C@H]32)C1",
+      "reaction_smiles_mapped": "C1CO[C:18]2([C:16]([Br:17])=[CH:15][C@@:14]3([O:13][N:12]=[C:11]([C:9]([NH:8][CH2:7][CH2:6][CH2:5][CH2:4][NH:3][C:2](=[O:1])[C:24]4=[N:25][O:26][C:27]5([CH:28]=[C:29]([Br:30])[C:31]6(OCCCO6)[C@H:33]6[O:34][C@@H:35]56)[CH2:36]4)=[O:10])[CH2:23]3)[C@H:22]3[C@@H:20]2[O:21]3)OC1>CC#N.ClCCl.F>[O:1]=[C:2]([NH:3][CH2:4][CH2:5][CH2:6][CH2:7][NH:8][C:9](=[O:10])[C:11]1=[N:12][O:13][C@@:14]2([CH:15]=[C:16]([Br:17])[C:18](=[O:19])[C@H:20]3[O:21][C@@H:22]23)[CH2:23]1)[C:24]1=[N:25][O:26][C:27]2([CH:28]=[C:29]([Br:30])[C:31](=[O:32])[C@H:33]3[O:34][C@@H:35]23)[CH2:36]1",
+      "mapping_confidence": 0.7441957861529706,
+      "conditions": {
+        "raw_description": "48% HF; MeCN/DCM; 90%",
+        "GENERAL_REAGENTS": [
+          "HF",
+          "48% HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F",
+          "F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "background": {
+    "name": "Dalesconol A",
+    "author": "Snyder",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2010, 49, 5146",
+    "doi": "10.1002/anie.201002264"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_1",
+      "reaction_smiles": "COc1ccc(Br)c(C=O)c1.CCOC(=O)C(CC(=O)OC(C)(C)C)P(=O)(OCC)OCC.[Cl-].[Li+].C1CCC2=NCCCN2CC1>>CCOC(=O)/C(=C/c1cc(OC)ccc1Br)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH2:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24].O=[CH:7][c:8]1[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]1[Br:16]>C1CCC2=NCCCN2CC1.[Cl-].[Li+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6](=[CH:7]/[c:8]1[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]1[Br:16])[CH2:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.47868209435547093,
+      "conditions": {
+        "raw_description": "DBU; LiCl; 99%",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_2",
+      "reaction_smiles": "CCOC(=O)/C(=C/c1cc(OC)ccc1Br)CC(=O)OC(C)(C)C.O=C(O)C(F)(F)F.O>>CCOC(=O)/C(=C/c1cc(OC)ccc1Br)CC(=O)O",
+      "reaction_smiles_mapped": "CC(C)(C)[O:20][C:18]([CH2:17]/[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])=[CH:7]\\[c:8]1[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]1[Br:16])=[O:19]>O.O=C(O)C(F)(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6](=[CH:7]/[c:8]1[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]1[Br:16])[CH2:17][C:18](=[O:19])[OH:20]",
+      "mapping_confidence": 0.9840047263107744,
+      "conditions": {
+        "raw_description": "TFA; H2O",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_3",
+      "reaction_smiles": "CCOC(=O)/C(=C/c1cc(OC)ccc1Br)CC(=O)O.CC(=O)[O-].[Na+].CC(=O)OC(C)=O>>CCOC(=O)c1cc(OC(C)=O)c2c(OC)ccc(Br)c2c1",
+      "reaction_smiles_mapped": "CC(=O)O[C:10]([CH3:11])=[O:12].[O:9]=[C:8]([CH2:7]/[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])=[CH:22]\\[c:21]1[cH:13][c:14]([O:15][CH3:16])[cH:17][cH:18][c:19]1[Br:20])O>CC(=O)[O-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([O:9][C:10]([CH3:11])=[O:12])[c:13]2[c:14]([O:15][CH3:16])[cH:17][cH:18][c:19]([Br:20])[c:21]2[cH:22]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Ac2O; NaOAc; 83% (two steps)",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (two steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_4",
+      "reaction_smiles": "CCOC(=O)c1cc(OC(C)=O)c2c(OC)ccc(Br)c2c1.[HH].[C].[Pd]>>CCOC(=O)c1cc(OC(C)=O)c2c(OC)cccc2c1",
+      "reaction_smiles_mapped": "Br[c:19]1[cH:18][cH:17][c:14]([O:15][CH3:16])[c:13]2[c:8]([O:9][C:10]([CH3:11])=[O:12])[cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[cH:21][c:20]21>[C].[HH].[Pd]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([O:9][C:10]([CH3:11])=[O:12])[c:13]2[c:14]([O:15][CH3:16])[cH:17][cH:18][cH:19][c:20]2[cH:21]1",
+      "mapping_confidence": 0.9767131077949982,
+      "conditions": {
+        "raw_description": "H2; Pd/C",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_5",
+      "reaction_smiles": "CCOC(=O)c1cc(OC(C)=O)c2c(OC)cccc2c1.C[O-].[Na+]>>CCOC(=O)c1cc(O)c2c(OC)cccc2c1",
+      "reaction_smiles_mapped": "CC(=O)[O:9][c:8]1[cH:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[cH:18][c:17]2[c:10]1[c:11]([O:12][CH3:13])[cH:14][cH:15][cH:16]2>C[O-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([OH:9])[c:10]2[c:11]([O:12][CH3:13])[cH:14][cH:15][cH:16][c:17]2[cH:18]1",
+      "mapping_confidence": 0.970573175443931,
+      "conditions": {
+        "raw_description": "NaOMe; 99% (two steps)",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99% (two steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_6",
+      "reaction_smiles": "CCOC(=O)c1cc(O)c2c(OC)cccc2c1.[H-].[Na+].BrCc1ccccc1>>CCOC(=O)c1cc(OCc2ccccc2)c2c(OC)cccc2c1",
+      "reaction_smiles_mapped": "Br[CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1.[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([OH:9])[c:17]2[c:18]([O:19][CH3:20])[cH:21][cH:22][cH:23][c:24]2[cH:25]1>[H-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([O:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][cH:15][cH:16]2)[c:17]2[c:18]([O:19][CH3:20])[cH:21][cH:22][cH:23][c:24]2[cH:25]1",
+      "mapping_confidence": 0.9499030656491925,
+      "conditions": {
+        "raw_description": "NaH; BnBr; 77%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "BnBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "C1=CC=C(C=C1)CBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_7",
+      "reaction_smiles": "CCOC(=O)c1cc(OCc2ccccc2)c2c(OC)cccc2c1.CC(C)C[AlH]CC(C)C.CC(C)(C)[O-].[K+]>>COc1cccc2cc(C=O)cc(OCc3ccccc3)c12",
+      "reaction_smiles_mapped": "CCO[C:10]([c:9]1[cH:8][c:7]2[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[c:22]2[c:13]([O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[cH:12]1)=[O:11]>CC(C)(C)[O-].CC(C)C[AlH]CC(C)C.[K+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[cH:8][c:9]([CH:10]=[O:11])[cH:12][c:13]([O:14][CH2:15][c:16]3[cH:17][cH:18][cH:19][cH:20][cH:21]3)[c:22]12",
+      "mapping_confidence": 0.8506487203459718,
+      "conditions": {
+        "raw_description": "t-BuOK; DIBALH; 67%",
+        "GENERAL_REAGENTS": [
+          "DIBALH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_8",
+      "reaction_smiles": "COc1cccc2cc(C=O)cc(OCc3ccccc3)c12.CCOP(=O)(Cc1c(Br)cccc1OC)OCC.CC(C)(C)[O-].[K+]>>COc1cccc(Br)c1/C=C/c1cc(OCc2ccccc2)c2c(OC)cccc2c1",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)[CH2:10][c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]1[Br:8].O=[CH:11][c:12]1[cH:13][c:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[c:23]2[c:24]([O:25][CH3:26])[cH:27][cH:28][cH:29][c:30]2[cH:31]1>CC(C)(C)[O-].[K+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1/[CH:10]=[CH:11]/[c:12]1[cH:13][c:14]([O:15][CH2:16][c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)[c:23]2[c:24]([O:25][CH3:26])[cH:27][cH:28][cH:29][c:30]2[cH:31]1",
+      "mapping_confidence": 0.8854391775002619,
+      "conditions": {
+        "raw_description": "KOt-Bu; 79%",
+        "GENERAL_REAGENTS": [
+          "KOt-Bu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_9",
+      "reaction_smiles": "COc1cccc(Br)c1/C=C/c1cc(OCc2ccccc2)c2c(OC)cccc2c1.COCOc1ccc(C=O)c2cccc(OC)c12.[Li]CCCC>>COCOc1ccc(C(O)c2cccc(OC)c2/C=C/c2cc(OCc3ccccc3)c3c(OC)cccc3c2)c2cccc(OC)c12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[c:41]2[cH:42][cH:43][cH:44][c:45]([O:46][CH3:47])[c:48]12.Br[c:11]1[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]1/[CH:19]=[CH:20]/[c:21]1[cH:22][c:23]([O:24][CH2:25][c:26]2[cH:27][cH:28][cH:29][cH:30][cH:31]2)[c:32]2[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]2[cH:40]1>[Li]CCCC>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]([OH:10])[c:11]2[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]2/[CH:19]=[CH:20]/[c:21]2[cH:22][c:23]([O:24][CH2:25][c:26]3[cH:27][cH:28][cH:29][cH:30][cH:31]3)[c:32]3[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]3[cH:40]2)[c:41]2[cH:42][cH:43][cH:44][c:45]([O:46][CH3:47])[c:48]12",
+      "mapping_confidence": 0.8180834843048658,
+      "conditions": {
+        "raw_description": "n-BuLI; 51%",
+        "GENERAL_REAGENTS": [
+          "n-BuLI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_10",
+      "reaction_smiles": "COCOc1ccc(C(O)c2cccc(OC)c2/C=C/c2cc(OCc3ccccc3)c3c(OC)cccc3c2)c2cccc(OC)c12.[HH].[C].[Pd].CCOC(C)=O.CCO>>COCOc1ccc(C(O)c2cccc(OC)c2/C=C/c2cc(O)c3c(OC)cccc3c2)c2cccc(OC)c12",
+      "reaction_smiles_mapped": "c1ccc(C[O:24][c:23]2[cH:22][c:21](/[CH:20]=[CH:19]/[c:18]3[c:11]([CH:9]([c:8]4[cH:7][cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[c:41]5[c:34]4[cH:35][cH:36][cH:37][c:38]5[O:39][CH3:40])[OH:10])[cH:12][cH:13][cH:14][c:15]3[O:16][CH3:17])[cH:33][c:32]3[c:25]2[c:26]([O:27][CH3:28])[cH:29][cH:30][cH:31]3)cc1>CCO.CCOC(C)=O.[C].[HH].[Pd]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]([OH:10])[c:11]2[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]2/[CH:19]=[CH:20]/[c:21]2[cH:22][c:23]([OH:24])[c:25]3[c:26]([O:27][CH3:28])[cH:29][cH:30][cH:31][c:32]3[cH:33]2)[c:34]2[cH:35][cH:36][cH:37][c:38]([O:39][CH3:40])[c:41]12",
+      "mapping_confidence": 0.9318883189824074,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOAc/EtOH",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_11",
+      "reaction_smiles": "COCOc1ccc(C(O)c2cccc(OC)c2/C=C/c2cc(O)c3c(OC)cccc3c2)c2cccc(OC)c12.OCC(F)(F)F.O=C(O)C(F)(F)F>>COCOc1ccc(C2c3cccc(OC)c3CCc3cc(O)c4c(OC)cccc4c32)c2cccc(OC)c12",
+      "reaction_smiles_mapped": "O[CH:9]([c:8]1[cH:7][cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[c:40]2[c:33]1[cH:34][cH:35][cH:36][c:37]2[O:38][CH3:39])[c:10]1[cH:11][cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]1/[CH:18]=[CH:19]/[c:20]1[cH:21][c:22]([OH:23])[c:24]2[c:25]([O:26][CH3:27])[cH:28][cH:29][cH:30][c:31]2[cH:32]1>O=C(O)C(F)(F)F.OCC(F)(F)F>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]2[c:10]3[cH:11][cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]3[CH2:18][CH2:19][c:20]3[cH:21][c:22]([OH:23])[c:24]4[c:25]([O:26][CH3:27])[cH:28][cH:29][cH:30][c:31]4[c:32]32)[c:33]2[cH:34][cH:35][cH:36][c:37]([O:38][CH3:39])[c:40]12",
+      "mapping_confidence": 0.9203498669487872,
+      "conditions": {
+        "raw_description": "TFA; 2,2,2-trifluoroethanol",
+        "GENERAL_REAGENTS": [
+          "2,2,2-trifluoroethanol",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(F)(F)F)O",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_12",
+      "reaction_smiles": "COCOc1ccc(C2c3cccc(OC)c3CCc3cc(O)c4c(OC)cccc4c32)c2cccc(OC)c12.CC(=O)OI(OC(C)=O)c1ccccc1>>COCOc1ccc2c3c(ccc(OC)c13)[C@@]13C(=CC(=O)c4c(OC)cccc41)CCc1c(OC)cccc1C23",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:40]2[c:17]3[c:18]([cH:19][c:20]([OH:21])[c:22]4[c:23]([O:24][CH3:25])[cH:26][cH:27][cH:28][c:29]34)[CH2:30][CH2:31][c:32]3[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]32)[c:9]2[cH:10][cH:11][cH:12][c:13]([O:14][CH3:15])[c:16]12>CC(=O)OI(OC(C)=O)c1ccccc1>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]2[c:9]3[c:10]([cH:11][cH:12][c:13]([O:14][CH3:15])[c:16]13)[C@@:17]13[C:18](=[CH:19][C:20](=[O:21])[c:22]4[c:23]([O:24][CH3:25])[cH:26][cH:27][cH:28][c:29]41)[CH2:30][CH2:31][c:32]1[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]1[CH:40]23",
+      "mapping_confidence": 0.7006463136614185,
+      "conditions": {
+        "raw_description": "PhI(OAc)2; 27% (three steps)",
+        "GENERAL_REAGENTS": [
+          "PhI(OAc)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI(C1=CC=CC=C1)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "27% (three steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_13",
+      "reaction_smiles": "COCOc1ccc2c3c(ccc(OC)c13)[C@@]13C(=CC(=O)c4c(OC)cccc41)CCc1c(OC)cccc1C23.[HH].[C].[Pd].CCO.CCOC(C)=O>>COCOc1ccc2c3c(ccc(OC)c13)[C@]13c4cccc(OC)c4C(=O)CC1CCc1c(OC)cccc1C23",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]2[c:9]3[c:10]([cH:11][cH:12][c:13]([O:14][CH3:15])[c:16]13)[C@:17]13[c:18]4[cH:19][cH:20][cH:21][c:22]([O:23][CH3:24])[c:25]4[C:26](=[O:27])[CH:28]=[C:29]1[CH2:30][CH2:31][c:32]1[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]1[CH:40]23>CCO.CCOC(C)=O.[C].[HH].[Pd]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]2[c:9]3[c:10]([cH:11][cH:12][c:13]([O:14][CH3:15])[c:16]13)[C@:17]13[c:18]4[cH:19][cH:20][cH:21][c:22]([O:23][CH3:24])[c:25]4[C:26](=[O:27])[CH2:28][CH:29]1[CH2:30][CH2:31][c:32]1[c:33]([O:34][CH3:35])[cH:36][cH:37][cH:38][c:39]1[CH:40]23",
+      "mapping_confidence": 0.9114409540373588,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOH/EtOAc; 65%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_14",
+      "reaction_smiles": "COCOc1ccc2c3c(ccc(OC)c13)[C@]13c4cccc(OC)c4C(=O)CC1CCc1c(OC)cccc1C23.Cl.C1CCOC1>>COc1cccc2c1CCC1CC(=O)c3c(OC)cccc3[C@@]13c1ccc(OC)c4c(O)ccc(c14)C23",
+      "reaction_smiles_mapped": "COC[O:32][c:31]1[c:30]2[c:27]([O:28][CH3:29])[cH:26][cH:25][c:24]3[c:36]2[c:35]([cH:34][cH:33]1)[CH:37]1[c:7]2[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]2[CH2:9][CH2:10][CH:11]2[CH2:12][C:13](=[O:14])[c:15]4[c:16]([O:17][CH3:18])[cH:19][cH:20][cH:21][c:22]4[C@:23]231>C1CCOC1.Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[CH2:9][CH2:10][CH:11]1[CH2:12][C:13](=[O:14])[c:15]3[c:16]([O:17][CH3:18])[cH:19][cH:20][cH:21][c:22]3[C@@:23]13[c:24]1[cH:25][cH:26][c:27]([O:28][CH3:29])[c:30]4[c:31]([OH:32])[cH:33][cH:34][c:35]([c:36]14)[CH:37]23",
+      "mapping_confidence": 0.8877662977093166,
+      "conditions": {
+        "raw_description": "conc. HCl; THF; 99%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_15",
+      "reaction_smiles": "COc1cccc2c1CCC1CC(=O)c3c(OC)cccc3[C@@]13c1ccc(OC)c4c(O)ccc(c14)C23.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.c1ccccc1>>COc1cccc2c1CCC1CC(=O)c3c(OC)cccc3[C@]13C2=C1C=CC(=O)c2c(OC)ccc3c21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[CH2:9][CH2:10][CH:11]1[CH2:12][C:13](=[O:14])[c:15]3[c:16]([O:17][CH3:18])[cH:19][cH:20][cH:21][c:22]3[C@:23]13[CH:24]2[c:25]1[cH:26][cH:27][c:28]([OH:29])[c:30]2[c:31]([O:32][CH3:33])[cH:34][cH:35][c:36]3[c:37]12>N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.c1ccccc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[CH2:9][CH2:10][CH:11]1[CH2:12][C:13](=[O:14])[c:15]3[c:16]([O:17][CH3:18])[cH:19][cH:20][cH:21][c:22]3[C@:23]13[C:24]2=[C:25]1[CH:26]=[CH:27][C:28](=[O:29])[c:30]2[c:31]([O:32][CH3:33])[cH:34][cH:35][c:36]3[c:37]21",
+      "mapping_confidence": 0.8181870742511328,
+      "conditions": {
+        "raw_description": "DDQ; benzene; 77%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DDQ"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_16",
+      "reaction_smiles": "COc1cccc2c1CCC1CC(=O)c3c(OC)cccc3[C@]13C2=C1C=CC(=O)c2c(OC)ccc3c21.O=C([O-])[O-].[K+].[K+].CC(=O)[O-].CC(=O)[O-].[Pd+2].CC(C)(C)OO>>COc1cccc2c1C(=O)CC1CC(O)c3c(OC)cccc3C3=C4C=CC(=O)c5c(OC)ccc(c54)[C@]321",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:10].[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[CH2:9][CH2:11][CH:12]1[CH2:13][C:14](=[O:15])[c:16]3[c:17]([O:18][CH3:19])[cH:20][cH:21][cH:22][c:23]3[C@:38]13[C:24]2=[C:25]1[CH:26]=[CH:27][C:28](=[O:29])[c:30]2[c:31]([O:32][CH3:33])[cH:34][cH:35][c:36]3[c:37]21>CC(=O)[O-].CC(=O)[O-].O=C([O-])[O-].[K+].[K+].[Pd+2]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C:9](=[O:10])[CH2:11][CH:12]1[CH2:13][CH:14]([OH:15])[c:16]3[c:17]([O:18][CH3:19])[cH:20][cH:21][cH:22][c:23]3[C:24]3=[C:25]4[CH:26]=[CH:27][C:28](=[O:29])[c:30]5[c:31]([O:32][CH3:33])[cH:34][cH:35][c:36]([c:37]54)[C@:38]213",
+      "mapping_confidence": 0.5971497815138797,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; t-BuOOH; K2CO3; 41%",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "41%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_17",
+      "reaction_smiles": "COc1cccc2c1C(=O)CC1CC(O)c3c(OC)cccc3C3=C4C=CC(=O)c5c(OC)ccc(c54)[C@]321.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+]>>COc1cccc2c1C(=O)CC1CC(=O)c3c(OC)cccc3[C@]13C2=C1C=CC(=O)c2c(OC)ccc3c21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C:9](=[O:10])[CH2:11][CH:12]1[CH2:13][CH:14]([OH:15])[c:16]3[c:17]([O:18][CH3:19])[cH:20][cH:21][cH:22][c:23]3[C:25]3=[C:26]4[CH:27]=[CH:28][C:29](=[O:30])[c:31]5[c:32]([O:33][CH3:34])[cH:35][cH:36][c:37]([c:38]54)[C@:24]213>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]1[C:9](=[O:10])[CH2:11][CH:12]1[CH2:13][C:14](=[O:15])[c:16]3[c:17]([O:18][CH3:19])[cH:20][cH:21][cH:22][c:23]3[C@:24]13[C:25]2=[C:26]1[CH:27]=[CH:28][C:29](=[O:30])[c:31]2[c:32]([O:33][CH3:34])[cH:35][cH:36][c:37]3[c:38]21",
+      "mapping_confidence": 0.8629023455503508,
+      "conditions": {
+        "raw_description": "NaHCO3; 99%",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_18",
+      "reaction_smiles": "COc1cccc2c1C(=O)CC1CC(=O)c3c(OC)cccc3[C@]13C2=C1C=CC(=O)c2c(OC)ccc3c21.BrB(Br)Br.ClCCl>>O=C1C[C@@H]2CC(=O)c3c(O)cccc3[C@@]23C(=C2C=CC(=O)c4c(O)ccc3c42)c2cccc(O)c21",
+      "reaction_smiles_mapped": "C[O:10][c:9]1[c:8]2[c:14]([cH:13][cH:12][cH:11]1)[C@@:15]13[CH:4]([CH2:3][C:2](=[O:1])[c:35]4[c:29]([cH:30][cH:31][cH:32][c:33]4[O:34]C)[C:16]1=[C:17]1[CH:18]=[CH:19][C:20](=[O:21])[c:22]4[c:23]([O:24]C)[cH:25][cH:26][c:27]3[c:28]41)[CH2:5][C:6]2=[O:7]>BrB(Br)Br.ClCCl>[O:1]=[C:2]1[CH2:3][C@@H:4]2[CH2:5][C:6](=[O:7])[c:8]3[c:9]([OH:10])[cH:11][cH:12][cH:13][c:14]3[C@@:15]23[C:16](=[C:17]2[CH:18]=[CH:19][C:20](=[O:21])[c:22]4[c:23]([OH:24])[cH:25][cH:26][c:27]3[c:28]42)[c:29]2[cH:30][cH:31][cH:32][c:33]([OH:34])[c:35]21",
+      "mapping_confidence": 0.8182222253113801,
+      "conditions": {
+        "raw_description": "BBr3; CH2Cl2; 66%",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_19",
+      "reaction_smiles": "CC(C)(C)OC(=O)CBr.CCOC(=O)CP(=O)(OCC)OCC.[H-].[Na+].C1CCOC1>>CCOC(=O)C(CC(=O)OC(C)(C)C)P(=O)(OCC)OCC",
+      "reaction_smiles_mapped": "Br[CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][P:15](=[O:16])([O:17][CH2:18][CH3:19])[O:20][CH2:21][CH3:22]>C1CCOC1.[H-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[P:15](=[O:16])([O:17][CH2:18][CH3:19])[O:20][CH2:21][CH3:22]",
+      "mapping_confidence": 0.2285540341072133,
+      "conditions": {
+        "raw_description": "NaH; THF; 99%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_20",
+      "reaction_smiles": "COc1ccccc1C=O.CNCCNC.CCO>>COc1ccccc1C1N(C)CCN1C",
+      "reaction_smiles_mapped": "[NH:10]([CH3:11])[CH2:12][CH2:13][NH:14][CH3:15].O=[CH:9][c:8]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][cH:7]1>CCO>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[CH:9]1[N:10]([CH3:11])[CH2:12][CH2:13][N:14]1[CH3:15]",
+      "mapping_confidence": 0.6080830688154362,
+      "conditions": {
+        "raw_description": "EtOH; 99%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_21",
+      "reaction_smiles": "COc1ccccc1C1N(C)CCN1C.[Li]C(C)(C)C.ClC(Cl)(Br)C(Cl)(Cl)Br.CCOCC>>COc1cccc(Br)c1C1N(C)CCN1C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:9]1[CH:10]1[N:11]([CH3:12])[CH2:13][CH2:14][N:15]1[CH3:16].ClC(Cl)(Br)C(Cl)(Cl)[Br:8]>CCOCC.[Li]C(C)(C)C>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[CH:10]1[N:11]([CH3:12])[CH2:13][CH2:14][N:15]1[CH3:16]",
+      "mapping_confidence": 0.5728115241950835,
+      "conditions": {
+        "raw_description": "t-BuLi; (CBrCl2)2; ether; 52%",
+        "GENERAL_REAGENTS": [
+          "t-BuLi",
+          "(CBrCl2)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C",
+          "BrC(Cl)(Cl)C(Cl)(Cl)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "ether"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_22",
+      "reaction_smiles": "COc1cccc(Br)c1C1N(C)CCN1C.[BH4-].[Na+].CO>>COc1cccc(Br)c1CO",
+      "reaction_smiles_mapped": "CN1CCN(C)[CH:10]1[c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]1[Br:8]>CO.[BH4-].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[CH2:10][OH:11]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 96%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_23",
+      "reaction_smiles": "COc1cccc(Br)c1CO.BrP(Br)Br.c1ccncc1.CCOCC>>COc1cccc(Br)c1CBr",
+      "reaction_smiles_mapped": "BrP(Br)[Br:11].O[CH2:10][c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][c:7]1[Br:8]>CCOCC.c1ccncc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([Br:8])[c:9]1[CH2:10][Br:11]",
+      "mapping_confidence": 0.3417675174555819,
+      "conditions": {
+        "raw_description": "PBr3; pyridine; Et2O; 99%",
+        "GENERAL_REAGENTS": [
+          "PBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "P(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_24",
+      "reaction_smiles": "COc1cccc(Br)c1CBr.C[Si](C)(C)[N-][Si](C)(C)C.[K+].CCO[PH](=O)OCC>>CCOP(=O)(Cc1c(Br)cccc1OC)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][PH:4](=[O:5])[O:16][CH2:17][CH3:18].Br[CH2:6][c:7]1[c:8]([Br:9])[cH:10][cH:11][cH:12][c:13]1[O:14][CH3:15]>C[Si](C)(C)[N-][Si](C)(C)C.[K+]>[CH3:1][CH2:2][O:3][P:4](=[O:5])([CH2:6][c:7]1[c:8]([Br:9])[cH:10][cH:11][cH:12][c:13]1[O:14][CH3:15])[O:16][CH2:17][CH3:18]",
+      "mapping_confidence": 0.7980594667967739,
+      "conditions": {
+        "raw_description": "KHMDS; diethyl phosphite; 90%",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "diethyl phosphite"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "CCOP(=O)(OCC)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_25",
+      "reaction_smiles": "O=S1(=O)Oc2cccc3cccc1c23.[Na+].[OH-].[K+].[OH-]>>Oc1cccc2cccc(O)c12",
+      "reaction_smiles_mapped": "O=S1(=O)[c:2]2[cH:3][cH:4][cH:5][c:6]3[cH:7][cH:8][cH:9][c:10]([c:12]23)[O:11]1.[OH-:1]>[K+].[Na+].[OH-]>[OH:1][c:2]1[cH:3][cH:4][cH:5][c:6]2[cH:7][cH:8][cH:9][c:10]([OH:11])[c:12]12",
+      "mapping_confidence": 0.24931337516249752,
+      "conditions": {
+        "raw_description": "NaOH; KOH; 210 \u00b0C; 53%",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "210"
+        ],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_26",
+      "reaction_smiles": "Oc1cccc2cccc(O)c12.[NaH].COS(=O)(=O)OC>>COc1cccc2cccc(O)c12",
+      "reaction_smiles_mapped": "COS(=O)(=O)O[CH3:1].[OH:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[cH:8][cH:9][cH:10][c:11]([OH:12])[c:13]12>[NaH]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[cH:8][cH:9][cH:10][c:11]([OH:12])[c:13]12",
+      "mapping_confidence": 0.5862125835939501,
+      "conditions": {
+        "raw_description": "NaH; Me2SO4; 99%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "Me2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "COS(=O)(=O)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_27",
+      "reaction_smiles": "COc1cccc2cccc(O)c12.O=C1CCC(=O)N1Br.CC#N>>COc1cccc2c(Br)ccc(O)c12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[cH:8][cH:10][cH:11][c:12]([OH:13])[c:14]12.O=C1CCC(=O)N1[Br:9]>CC#N>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]2[c:8]([Br:9])[cH:10][cH:11][c:12]([OH:13])[c:14]12",
+      "mapping_confidence": 0.9904670932021892,
+      "conditions": {
+        "raw_description": "NBS; CH3CN; 98%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_28",
+      "reaction_smiles": "COc1cccc2c(Br)ccc(O)c12.[H-].[Na+].COCCl>>COCOc1ccc(Br)c2cccc(OC)c12",
+      "reaction_smiles_mapped": "Cl[CH2:3][O:2][CH3:1].[OH:4][c:5]1[cH:6][cH:7][c:8]([Br:9])[c:10]2[cH:11][cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]12>[H-].[Na+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([Br:9])[c:10]2[cH:11][cH:12][cH:13][c:14]([O:15][CH3:16])[c:17]12",
+      "mapping_confidence": 0.9878448356898832,
+      "conditions": {
+        "raw_description": "NaH; MOMCl; 99%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MOMCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "COCCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dalesconol_A_2010_Snyder_29",
+      "reaction_smiles": "COCOc1ccc(Br)c2cccc(OC)c12.[Li]CCCC.C1CCOC1.CN(C)C=O>>COCOc1ccc(C=O)c2cccc(OC)c12",
+      "reaction_smiles_mapped": "CN(C)[CH:9]=[O:10].Br[c:8]1[cH:7][cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[c:18]2[c:11]1[cH:12][cH:13][cH:14][c:15]2[O:16][CH3:17]>C1CCOC1.[Li]CCCC>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][cH:7][c:8]([CH:9]=[O:10])[c:11]2[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]12",
+      "mapping_confidence": 0.9852832406959608,
+      "conditions": {
+        "raw_description": "n-BuLi; THF; DMF; 99%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "background": {
+    "name": "Janustatin A",
+    "author": "Carreira",
+    "year": 2022,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Nat. Chem. 2022, 14, 1193",
+    "doi": "10.1038/s41557-022-01020-0"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_1",
+      "reaction_smiles": "COC(=O)[C@@H](C)CO.O=C1CCC(=O)N1Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>COC(=O)[C@@H](C)CBr",
+      "reaction_smiles_mapped": "O[CH2:7][C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[CH3:6].O=C1CCC(=O)N1[Br:8]>c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]([CH3:6])[CH2:7][Br:8]",
+      "mapping_confidence": 0.9825961046233314,
+      "conditions": {
+        "raw_description": "NBS; PPh3; CH2Cl2; 86%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_2",
+      "reaction_smiles": "COC(=O)[C@@H](C)CBr.B.CSC.C1CCOC1>>C[C@H](CO)CBr",
+      "reaction_smiles_mapped": "CO[C:3]([C@@H:2]([CH3:1])[CH2:5][Br:6])=[O:4]>B.CSC.C1CCOC1>[CH3:1][C@H:2]([CH2:3][OH:4])[CH2:5][Br:6]",
+      "mapping_confidence": 0.8347311993769997,
+      "conditions": {
+        "raw_description": "BH3; Me2S; THF; 95%",
+        "GENERAL_REAGENTS": [
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Me2S"
+        ],
+        "LIGANDS_SMILES": [
+          "CSC"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_3",
+      "reaction_smiles": "Clc1ccnc(Br)c1.CN(C)C=O.C1CCOC1.[Li]N(C(C)C)C(C)C>>O=Cc1c(Cl)ccnc1Br",
+      "reaction_smiles_mapped": "CN(C)[CH:2]=[O:1].[cH:3]1[c:4]([Cl:5])[cH:6][cH:7][n:8][c:9]1[Br:10]>C1CCOC1.[Li]N(C(C)C)C(C)C>[O:1]=[CH:2][c:3]1[c:4]([Cl:5])[cH:6][cH:7][n:8][c:9]1[Br:10]",
+      "mapping_confidence": 0.9914558432078252,
+      "conditions": {
+        "raw_description": "DMF; LDA; THF; -78 \u00b0C; 74%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_4",
+      "reaction_smiles": "O=Cc1c(Cl)ccnc1Br.OC/C=C\\CO.Cc1ccc(S(=O)(=O)O)cc1.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.c1ccccc1>>Clc1ccnc(Br)c1C1OCC=CCO1",
+      "reaction_smiles_mapped": "[Cl:1][c:2]1[cH:3][cH:4][n:5][c:6]([Br:7])[c:8]1[CH:9]=O.[OH:10][CH2:11]/[CH:12]=[CH:13]\\[CH2:14][OH:15]>Cc1ccc(S(=O)(=O)O)cc1.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.c1ccccc1>[Cl:1][c:2]1[cH:3][cH:4][n:5][c:6]([Br:7])[c:8]1[CH:9]1[O:10][CH2:11][CH:12]=[CH:13][CH2:14][O:15]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "pTSA; PhH; 105 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "105"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_5",
+      "reaction_smiles": "Clc1ccnc(Br)c1C1OCC=CCO1.C[C@@H]1CC[C@@H](C)[PH]12c1ccccc1[PH]1([C@H](C)CC[C@H]1C)[Ni]2(I)I.Cc1ccccc1.CC[BH-](CC)CC.[Li+]>>Clc1ccnc(Br)c1[C@@H]1OC=CCCO1",
+      "reaction_smiles_mapped": "[Cl:1][c:2]1[cH:3][cH:4][n:5][c:6]([Br:7])[c:8]1[CH:9]1[O:10][CH2:11][CH:12]=[CH:13][CH2:14][O:15]1>C[C@@H]1CC[C@@H](C)[PH]12c1ccccc1[PH]1([C@H](C)CC[C@H]1C)[Ni]2(I)I.Cc1ccccc1.CC[BH-](CC)CC.[Li+]>[Cl:1][c:2]1[cH:3][cH:4][n:5][c:6]([Br:7])[c:8]1[C@@H:9]1[O:10][CH:11]=[CH:12][CH2:13][CH2:14][O:15]1",
+      "mapping_confidence": 0.8052490899017368,
+      "conditions": {
+        "raw_description": "LiBHEt3; PhMe; 99%",
+        "GENERAL_REAGENTS": [
+          "LiBHEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](CC)(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_6",
+      "reaction_smiles": "C[C@H](CO)CBr.[Na+].[I-].CC(C)=O>>C[C@H](CO)CI",
+      "reaction_smiles_mapped": "Br[CH2:5][C@H:2]([CH3:1])[CH2:3][OH:4].[I-:6]>[Na+].CC(C)=O>[CH3:1][C@H:2]([CH2:3][OH:4])[CH2:5][I:6]",
+      "mapping_confidence": 0.6358577312730829,
+      "conditions": {
+        "raw_description": "NaI; acetone; 56 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "56"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_7",
+      "reaction_smiles": "C[C@H](CO)CI.c1c[nH]cn1.ClCCl.CC(C)(C)[Si](C)(C)Cl>>C[C@H](CI)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13].[CH3:1][C@@H:2]([CH2:3][I:4])[CH2:5][OH:6]>c1c[nH]cn1.ClCCl>[CH3:1][C@H:2]([CH2:3][I:4])[CH2:5][O:6][Si:7]([CH3:8])([CH3:9])[C:10]([CH3:11])([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.3350406358576947,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; CH2Cl2; 0 \u00b0C; 85% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_8",
+      "reaction_smiles": "C[C@H](CI)CO[Si](C)(C)C(C)(C)C.CCC(=O)N(C)[C@@H](C)[C@@H](O)c1ccccc1.[Li+].[Cl-].C1CCOC1.[Li]N(C(C)C)C(C)C>>C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C(=O)N(C)[C@@H](C)[C@@H](O)c1ccccc1",
+      "reaction_smiles_mapped": "[CH2:13]([CH3:14])[C:15](=[O:16])[N:17]([CH3:18])[C@@H:19]([CH3:20])[C@@H:21]([OH:22])[c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1.I[CH2:12][C@@H:2]([CH3:1])[CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11]>[Li+].[Cl-].C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][C@@H:13]([CH3:14])[C:15](=[O:16])[N:17]([CH3:18])[C@@H:19]([CH3:20])[C@@H:21]([OH:22])[c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1",
+      "mapping_confidence": 0.2998839995942865,
+      "conditions": {
+        "raw_description": "LDA; LiCl; THF; -78 \u00b0C to rt; 86%",
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_9",
+      "reaction_smiles": "C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C(=O)N(C)[C@@H](C)[C@@H](O)c1ccccc1.C1CCOC1.B.N.[Li]N(C(C)C)C(C)C>>C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)CO",
+      "reaction_smiles_mapped": "C[C@@H]([C@@H](O)c1ccccc1)N(C)[C:15]([C@@H:13]([CH2:12][C@H:2]([CH3:1])[CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH3:14])=[O:16]>C1CCOC1.B.N.[Li]N(C(C)C)C(C)C>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][C@@H:13]([CH3:14])[CH2:15][OH:16]",
+      "mapping_confidence": 0.3346232214320579,
+      "conditions": {
+        "raw_description": "H3BNH3; LDA; THF; 0 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "H3BNH3",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N.B",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_10",
+      "reaction_smiles": "C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)CO.O=[Ru](=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl>>C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C=O",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][C@@H:13]([CH3:14])[CH2:15][OH:16]>O=[Ru](=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][C@@H:13]([CH3:14])[CH:15]=[O:16]",
+      "mapping_confidence": 0.3189761384469752,
+      "conditions": {
+        "raw_description": "TPAP; NMO; 4\u00c5 MS; CH2Cl2; 99%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_11",
+      "reaction_smiles": "C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C=O.BrC(Br)(Br)Br.[Zn].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C=C(Br)Br",
+      "reaction_smiles_mapped": "Br[C:16](Br)([Br:17])[Br:18].O=[CH:15][C@@H:13]([CH2:12][C@H:2]([CH3:1])[CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH3:14]>[Zn].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][C@H:2]([CH2:3][O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][C@@H:13]([CH3:14])[CH:15]=[C:16]([Br:17])[Br:18]",
+      "mapping_confidence": 0.030009648983300653,
+      "conditions": {
+        "raw_description": "CBr4; Zn; PPh3; CH2Cl2; 72%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_12",
+      "reaction_smiles": "C[C@H](CO[Si](C)(C)C(C)(C)C)C[C@@H](C)C=C(Br)Br.[Li]CCCC.C1CCOC1.CI>>CC#C[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "I[CH3:1].Br[C:2](Br)=[CH:3][C@H:4]([CH3:5])[CH2:6][C@H:7]([CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]>[Li]CCCC.C1CCOC1>[CH3:1][C:2]#[C:3][C@H:4]([CH3:5])[CH2:6][C@H:7]([CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.2897341665673817,
+      "conditions": {
+        "raw_description": "MeI; nBuLi; THF; -78 \u00b0C to rt; 88%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_13",
+      "reaction_smiles": "CC#C[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C.C[C@@H](C=O)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.Cc1ccccc1.ClCCl.CC[Zn]CC.CC[Zn]OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)F.B(C1CCCCC1)C1CCCCC1>>C/C(=C\\[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][C@H:4]([CH3:5])[CH2:6][C@H:7]([CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17].[CH:18](=[O:19])[C@H:20]([CH3:21])[C@@H:22]([CH2:23][O:24][CH2:25][c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1)[O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]>Cc1ccccc1.ClCCl.CC[Zn]CC.CC[Zn]OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)F.B(C1CCCCC1)C1CCCCC1>[CH3:1]/[C:2](=[CH:3]\\[C@H:4]([CH3:5])[CH2:6][C@H:7]([CH3:8])[CH2:9][O:10][Si:11]([CH3:12])([CH3:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([OH:19])[C@@H:20]([CH3:21])[C@@H:22]([CH2:23][O:24][CH2:25][c:26]1[cH:27][cH:28][cH:29][cH:30][cH:31]1)[O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]",
+      "mapping_confidence": 0.07583048035368337,
+      "conditions": {
+        "raw_description": "Cy2BH; Et2Zn; EtZnONf; PhMe; CH2Cl2; -15 \u00b0C; 46%",
+        "GENERAL_REAGENTS": [
+          "Et2Zn",
+          "EtZnONf",
+          "Cy2BH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC",
+          "[Zn](CC)OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)F",
+          "B(C1CCCCC1)C2CCCCC2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-15"
+        ],
+        "YIELD": [
+          "46%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_14",
+      "reaction_smiles": "C/C(=C\\[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C)[C@@H](O)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.ClCCl.C[O+](C)C.F[B-](F)(F)F.CN(C)c1cccc2cccc(N(C)C)c12>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[OH:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]([CH3:22])[C@@H:23]([CH2:24][O:25][CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[O:33][Si:34]([CH3:35])([CH3:36])[C:37]([CH3:38])([CH3:39])[CH3:40].C[O+](C)[CH3:1]>ClCCl.F[B-](F)(F)F.CN(C)c1cccc2cccc(N(C)C)c12>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH2:12][O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[C@@H:21]([CH3:22])[C@@H:23]([CH2:24][O:25][CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[O:33][Si:34]([CH3:35])([CH3:36])[C:37]([CH3:38])([CH3:39])[CH3:40]",
+      "mapping_confidence": 0.039528627813912094,
+      "conditions": {
+        "raw_description": "Me3OBF4; ProtonSponge; CH2Cl2; 0 \u00b0C to rt; 89%",
+        "GENERAL_REAGENTS": [
+          "Me3OBF4",
+          "ProtonSponge"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F[B-](F)(F)F.[O+](C)(C)C",
+          "CN(C)c1cccc2cccc(N(C)C)c12"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_15",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)CO[Si](C)(C)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.CO.C1CCOC1.CC(=O)Cl>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)CO)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:13][CH2:12][C@H:10]([CH2:9][C@H:7](/[CH:6]=[C:4](/[C@@H:3]([O:2][CH3:1])[C@@H:14]([CH3:15])[C@@H:16]([CH2:17][O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[CH3:5])[CH3:8])[CH3:11]>CO.C1CCOC1.CC(=O)Cl>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH2:12][OH:13])[C@@H:14]([CH3:15])[C@@H:16]([CH2:17][O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.209690405552574,
+      "conditions": {
+        "raw_description": "AcCl; MeOH; THF; 0 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "AcCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_16",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)CO)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C=O)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH2:12][OH:13])[C@@H:14]([CH3:15])[C@@H:16]([CH2:17][O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH:12]=[O:13])[C@@H:14]([CH3:15])[C@@H:16]([CH2:17][O:18][CH2:19][c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1)[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33]",
+      "mapping_confidence": 0.18898902390249575,
+      "conditions": {
+        "raw_description": "DMP; tBuOH; CH2Cl2; 0 \u00b0C to rt; 91%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_17",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C=O)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.[Li]C(C)(C)C.C1CCOC1.Cl[La](Cl)Cl.[Cl-].[Li+]>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(O)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH:12]=[O:13])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37].[Li][C:14]([CH3:15])([CH3:16])[CH3:17]>C1CCOC1.Cl[La](Cl)Cl.[Cl-].[Li+]>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH:12]([OH:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37]",
+      "mapping_confidence": 0.1720650920953211,
+      "conditions": {
+        "raw_description": "LaCl3\u2022LiCl; tBuLi; THF; -78 \u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "LaCl3",
+          "LiCl",
+          "tBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl[La](Cl)Cl",
+          "[Li+].[Cl-]",
+          "[Li]C(C)(C)C"
+        ],
+        "CATALYSTS": [
+          "LaCl3\u2022LiCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[La](Cl)Cl.[Li+].[Cl-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_18",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(O)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[CH:12]([OH:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][O:22][CH2:23][c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)[O:30][Si:31]([CH3:32])([CH3:33])[C:34]([CH3:35])([CH3:36])[CH3:37]",
+      "mapping_confidence": 0.1513782565901052,
+      "conditions": {
+        "raw_description": "DMP; tBuOH; CH2Cl2; 0 \u00b0C to rt; 89%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_19",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.[Pd].CCOC(C)=O.[HH].[C].[Pd]>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](CO)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "c1ccc(C[O:22][CH2:21][C@H:20]([C@@H:18]([C@H:3]([O:2][CH3:1])/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[CH3:19])[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30])cc1>[Pd].[Pd].CCOC(C)=O.[HH].[C]>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][OH:22])[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.1691286943549724,
+      "conditions": {
+        "raw_description": "H2; Pd/C; EtOAc; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_20",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](CO)O[Si](C)(C)C(C)(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](C=O)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH2:21][OH:22])[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([CH:21]=[O:22])[O:23][Si:24]([CH3:25])([CH3:26])[C:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.18123094921102145,
+      "conditions": {
+        "raw_description": "DMP; tBuOH; CH2Cl2; 0 \u00b0C to rt; 71%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_21",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H](C=O)O[Si](C)(C)C(C)(C)C.Clc1ccnc(Br)c1[C@@H]1OC=CCCO1.[Li]CCCC.Cc1ccccc1.CCOCC>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@H](O)c1nccc(Cl)c1[C@@H]1OC=CCCO1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[CH:29]=[O:30].Br[c:31]1[n:32][cH:33][cH:34][c:35]([Cl:36])[c:37]1[C@@H:38]1[O:39][CH:40]=[CH:41][CH2:42][CH2:43][O:44]1>[Li]CCCC.Cc1ccccc1.CCOCC>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@H:29]([OH:30])[c:31]1[n:32][cH:33][cH:34][c:35]([Cl:36])[c:37]1[C@@H:38]1[O:39][CH:40]=[CH:41][CH2:42][CH2:43][O:44]1",
+      "mapping_confidence": 0.15317252252654412,
+      "conditions": {
+        "raw_description": "nBuLi; PhMe; Et2O; -78 \u00b0C; 57%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_22",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@H](O)c1nccc(Cl)c1[C@@H]1OC=CCCO1.Cl[Hg]Cl.O.CC(C)=O.O=[Hg]>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]1OC(O)c2c(Cl)ccnc21",
+      "reaction_smiles_mapped": "C1=CO[C@@H:31]([c:33]2[c:34]([Cl:35])[cH:36][cH:37][n:38][c:39]2[C@H:29]([C@H:20]([C@@H:18]([C@H:3]([O:2][CH3:1])/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[CH3:19])[O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[OH:30])OCC1>Cl[Hg]Cl.O.CC(C)=O.O=[Hg]>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@H:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[C@@H:29]1[O:30][CH:31]([OH:32])[c:33]2[c:34]([Cl:35])[cH:36][cH:37][n:38][c:39]21",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HgCl2; HgO; H2O; acetone; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HgCl2",
+          "HgO"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Hg]Cl",
+          "O=[Hg]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_23",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]1OC(O)c2c(Cl)ccnc21.C[Si](C)(C)CCO.[H-].[Na+].CN(C)C=O>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H]1OC(O)c2c(Cl)ccnc2[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]([C@@H:31]1[O:32][CH:22]([OH:23])[c:24]2[c:25]([Cl:26])[cH:27][cH:28][n:29][c:30]21)[O:21][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]>CN(C)C=O.C[Si](C)(C)CCO.[H-].[Na+]>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]1[O:21][CH:22]([OH:23])[c:24]2[c:25]([Cl:26])[cH:27][cH:28][n:29][c:30]2[C@H:31]1[O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NaH; DMF; 50%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_24",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H]1OC(O)c2c(Cl)ccnc2[C@H]1O[Si](C)(C)C(C)(C)C.C[N+]1([O-])CCOCC1.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-].ClCCl>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H]1OC(=O)c2c(Cl)ccnc2[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]1[O:21][CH:22]([OH:23])[c:24]2[c:25]([Cl:26])[cH:27][cH:28][n:29][c:30]2[C@H:31]1[O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]>CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl.O=[Ru](=O)(=O)[O-]>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]1[O:21][C:22](=[O:23])[c:24]2[c:25]([Cl:26])[cH:27][cH:28][n:29][c:30]2[C@H:31]1[O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39]",
+      "mapping_confidence": 0.16726762970587475,
+      "conditions": {
+        "raw_description": "TPAP; NMO; 4\u00c5 MS; CH2Cl2; 89%",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4\u00c5 MS",
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_25",
+      "reaction_smiles": "CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H]1OC(=O)c2c(Cl)ccnc2[C@H]1O[Si](C)(C)C(C)(C)C.O.O=CO>>CO[C@H](/C(C)=C/[C@H](C)C[C@H](C)C(=O)C(C)(C)C)[C@@H](C)[C@@H]1OC(=O)c2c(O)ccnc2[C@H]1O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:32][C@H:31]1[C@H:20]([C@@H:18]([C@H:3]([O:2][CH3:1])/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[CH3:19])[O:21][C:22](=[O:23])[c:24]2[c:25](Cl)[cH:27][cH:28][n:29][c:30]21.[OH2:26]>O=CO>[CH3:1][O:2][C@H:3](/[C:4]([CH3:5])=[CH:6]/[C@H:7]([CH3:8])[CH2:9][C@H:10]([CH3:11])[C:12](=[O:13])[C:14]([CH3:15])([CH3:16])[CH3:17])[C@@H:18]([CH3:19])[C@@H:20]1[O:21][C:22](=[O:23])[c:24]2[c:25]([OH:26])[cH:27][cH:28][n:29][c:30]2[C@H:31]1[OH:32]",
+      "mapping_confidence": 0.2732246029059587,
+      "conditions": {
+        "raw_description": "H2O; HCO2H; 50 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "HCO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_26",
+      "reaction_smiles": "O=CCOCc1ccccc1.C=CC(=O)OC.c1cc(C2=N[C@H]3c4ccccc4C[C@H]3O2)nc(C2=N[C@H]3c4ccccc4C[C@H]3O2)c1.ClCCCl.CC[SiH](C)CC.C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.[Cl-].[Cl-].[Ir+].[Ir+]>>COC(=O)[C@@H](C)[C@H](O)COCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH:5]=[CH2:6].[CH:7](=[O:8])[CH2:9][O:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1>c1cc(C2=N[C@H]3c4ccccc4C[C@H]3O2)nc(C2=N[C@H]3c4ccccc4C[C@H]3O2)c1.ClCCCl.CC[SiH](C)CC.C1=C\\CC/C=C\\CC/1.C1=C\\CC/C=C\\CC/1.[Cl-].[Cl-].[Ir+].[Ir+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]([CH3:6])[C@H:7]([OH:8])[CH2:9][O:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "mapping_confidence": 0.9037443879317313,
+      "conditions": {
+        "raw_description": "[Ir(cod)Cl]2; Et2MeSiH; DCE; 74%",
+        "GENERAL_REAGENTS": [
+          "Et2MeSiH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[SiH](C)(CC)CC"
+        ],
+        "CATALYSTS": [
+          "[Ir(cod)Cl]2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ir+1].[Ir+1].[Cl-].[Cl-].C1C/C=C\\CC/C=C\\1.C1C/C=C\\CC/C=C\\1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_27",
+      "reaction_smiles": "COC(=O)[C@@H](C)[C@H](O)COCc1ccccc1.ClCCl.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.Cc1cccc(C)n1>>COC(=O)[C@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24])C(F)(F)F.[CH3:1][O:2][C:3](=[O:4])[C@@H:5]([CH3:6])[C@@H:7]([CH2:8][O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[OH:17]>ClCCl.Cc1cccc(C)n1>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH3:6])[C@@H:7]([CH2:8][O:9][CH2:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.2665832760815438,
+      "conditions": {
+        "raw_description": "TBSOTf; 2,6-lutidine; CH2Cl2; 0 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "2,6-lutidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "Cc1cccc(C)n1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_28",
+      "reaction_smiles": "COC(=O)[C@H](C)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.ClCCl.CC(C)C[AlH]CC(C)C>>C[C@@H](CO)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CO[C:3]([C@H:2]([CH3:1])[C@@H:5]([CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])=[O:4]>ClCCl.CC(C)C[AlH]CC(C)C>[CH3:1][C@@H:2]([CH2:3][OH:4])[C@@H:5]([CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.2555485691898913,
+      "conditions": {
+        "raw_description": "DibalH; CH2Cl2; -78 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "DibalH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Janustatin_A_2022_Carreira_29",
+      "reaction_smiles": "C[C@@H](CO)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>>C[C@@H](C=O)[C@@H](COCc1ccccc1)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([CH2:3][OH:4])[C@@H:5]([CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.CC(C)(C)O>[CH3:1][C@@H:2]([CH:3]=[O:4])[C@@H:5]([CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.26094403782054937,
+      "conditions": {
+        "raw_description": "DMP; tBuOH; CH2Cl2; 0 \u00b0C to rt; 96%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "background": {
+    "name": "(+)-Ricciocarpin A",
+    "author": "List",
+    "year": 2009,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Nat. Chem. 2009, 1, 225",
+    "doi": "10.1038/nchem.215"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Ricciocarpin_A_2009_List_1",
+      "reaction_smiles": "CC(=O)c1ccco1.CCCCC(C)(C)C=O.[H-].[Na+].CCO>>C=CCCC(C)(C)/C=C/C(=O)c1ccco1",
+      "reaction_smiles_mapped": "[CH3:9][C:10](=[O:11])[c:12]1[cH:13][cH:14][cH:15][o:16]1.O=[CH:8][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH3:6])[CH3:7]>[H-].[Na+].CCO>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]([CH3:6])([CH3:7])/[CH:8]=[CH:9]/[C:10](=[O:11])[c:12]1[cH:13][cH:14][cH:15][o:16]1",
+      "mapping_confidence": 0.7116603856936743,
+      "conditions": {
+        "raw_description": "NaH; EtOH; 65%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2009_List_2",
+      "reaction_smiles": "C=CCCC(C)(C)/C=C/C(=O)c1ccco1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)=Cc2cc([N+](=O)[O-])ccc2OC(C)C)c(C)c1.C/C=C/C=O.ClCCl>>CC(C)(/C=C/C(=O)c1ccco1)CC/C=C/C=O",
+      "reaction_smiles_mapped": "C/C=[CH:16]/[CH:17]=[O:18].C=[CH:15][CH2:14][CH2:13][C:2]([CH3:1])([CH3:3])/[CH:4]=[CH:5]/[C:6](=[O:7])[c:8]1[cH:9][cH:10][cH:11][o:12]1>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2[Ru](Cl)(Cl)=Cc2cc([N+](=O)[O-])ccc2OC(C)C)c(C)c1.ClCCl>[CH3:1][C:2]([CH3:3])(/[CH:4]=[CH:5]/[C:6](=[O:7])[c:8]1[cH:9][cH:10][cH:11][o:12]1)[CH2:13][CH2:14]/[CH:15]=[CH:16]/[CH:17]=[O:18]",
+      "mapping_confidence": 0.4425630978208856,
+      "conditions": {
+        "raw_description": "CH2Cl2; 90%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ricciocarpin_A_2009_List_3",
+      "reaction_smiles": "CC(C)(/C=C/C(=O)c1ccco1)CC/C=C/C=O.CN1C(=O)[C@@H](C(C)(C)C)N[C@H]1C(C)(C)C.Cl.C1COCCO1.CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1.CC(C)O[Sm](OC(C)C)OC(C)C>>CC1(C)CCC[C@@H]2C(=O)O[C@H](c3ccco3)C[C@H]21",
+      "reaction_smiles_mapped": "O=C/[CH:7]=[CH:6]/[CH2:5][CH2:4][C:2]([CH3:1])([CH3:3])/[CH:18]=[CH:17]/[C:11](=[O:10])[c:12]1[cH:13][cH:14][cH:15][o:16]1.CCOC(=O)C1=C(C)NC(C)=C([C:8](OCC)=[O:9])C1>CN1C(=O)[C@@H](C(C)(C)C)N[C@H]1C(C)(C)C.Cl.C1COCCO1.CC(C)O[Sm](OC(C)C)OC(C)C>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@H:7]2[C:8](=[O:9])[O:10][C@H:11]([c:12]3[cH:13][cH:14][cH:15][o:16]3)[CH2:17][C@@H:18]12",
+      "mapping_confidence": 0.21772482655347336,
+      "conditions": {
+        "raw_description": "1) Hantzsch ester; dioxane; 2) Sm(OiPr)3; 42%",
+        "GENERAL_REAGENTS": [
+          "Hantzsch ester"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(=O)C1=C(NC(=C(C1)C(=O)OCC)C)C"
+        ],
+        "CATALYSTS": [
+          "Sm(OiPr)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)O[Sm](OC(C)C)OC(C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "42%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "background": {
+    "name": "(+/-)-Picrinine [drawn as (\u2212)]",
+    "author": "Garg",
+    "year": 2014,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2014, 136, 4504",
+    "doi": "10.1021/ja501780w"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Picrinine_2014_Garg_1",
+      "reaction_smiles": "N[C@H]1CC[C@H](O)CC1.O=[N+]([O-])c1ccccc1S(=O)(=O)Cl.CCN(CC)CC.CC(C)O>>O=[N+]([O-])c1ccccc1S(=O)(=O)N[C@H]1CC[C@H](O)CC1",
+      "reaction_smiles_mapped": "[NH2:13][C@H:14]1[CH2:15][CH2:16][C@H:17]([OH:18])[CH2:19][CH2:20]1.Cl[S:10]([c:9]1[c:4]([N+:2](=[O:1])[O-:3])[cH:5][cH:6][cH:7][cH:8]1)(=[O:11])=[O:12]>CC(C)O.CCN(CC)CC>[O:1]=[N+:2]([O-:3])[c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[S:10](=[O:11])(=[O:12])[NH:13][C@H:14]1[CH2:15][CH2:16][C@H:17]([OH:18])[CH2:19][CH2:20]1",
+      "mapping_confidence": 0.5324258966448615,
+      "conditions": {
+        "raw_description": "NsCl; Et3N; i-PrOH; 0 to 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "o-NsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClS(C1=CC=CC=C1[N+]([O-])=O)(=O)=O",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_2",
+      "reaction_smiles": "O=[N+]([O-])c1ccccc1S(=O)(=O)N[C@H]1CC[C@H](O)CC1.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>>O=C1CCC(NS(=O)(=O)c2ccccc2[N+](=O)[O-])CC1",
+      "reaction_smiles_mapped": "[OH:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([NH:6][S:7](=[O:8])(=[O:9])[c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[N+:16](=[O:17])[O-:18])[CH2:19][CH2:20]1>ClCCl.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1>[O:1]=[C:2]1[CH2:3][CH2:4][CH:5]([NH:6][S:7](=[O:8])(=[O:9])[c:10]2[cH:11][cH:12][cH:13][cH:14][c:15]2[N+:16](=[O:17])[O-:18])[CH2:19][CH2:20]1",
+      "mapping_confidence": 0.4967773644653431,
+      "conditions": {
+        "raw_description": "PCC; CH2Cl2; rt; 64% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "64% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_3",
+      "reaction_smiles": "O=C1CCC(NS(=O)(=O)c2ccccc2[N+](=O)[O-])CC1.C/C=C(\\I)COS(=O)(=O)c1ccc(C)cc1.O=C([O-])[O-].[Cs+].[Cs+].CC#N>>C/C=C(\\I)CN(C1CCC(=O)CC1)S(=O)(=O)c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:5]/[C:3](=[CH:2]/[CH3:1])[I:4])cc1.[NH:6]([CH:7]1[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][CH2:13]1)[S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][cH:20][cH:21][c:22]1[N+:23](=[O:24])[O-:25]>CC#N.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1]/[CH:2]=[C:3](\\[I:4])[CH2:5][N:6]([CH:7]1[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][CH2:13]1)[S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][cH:20][cH:21][c:22]1[N+:23](=[O:24])[O-:25]",
+      "mapping_confidence": 0.5110155282847433,
+      "conditions": {
+        "raw_description": "Cs2CO3; MeCN; 80 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_4",
+      "reaction_smiles": "C/C=C(\\I)CN(C1CCC(=O)CC1)S(=O)(=O)c1ccccc1[N+](=O)[O-].O=C([O-])[O-].[K+].[K+].[Cl-].[Cl-].[Pd].c1ccc(P(c2ccccc2)C23C4C5C6C2[Fe]56432789C3C2C7C8(P(c2ccccc2)c2ccccc2)C39)cc1.CO>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@@H]2CCC(=O)[C@H]1C2",
+      "reaction_smiles_mapped": "I/[C:3](=[CH:2]\\[CH3:1])[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[N+:15](=[O:16])[O-:17])[CH:18]1[CH2:19][CH2:20][C:21](=[O:22])[CH2:23][CH2:24]1>CO.O=C([O-])[O-].[Cl-].[Cl-].[K+].[K+].[Pd].c1ccc(P(c2ccccc2)C23C4C5C6C2[Fe]56432789C3C2C7C8(P(c2ccccc2)c2ccccc2)C39)cc1>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@@H:18]2[CH2:19][CH2:20][C:21](=[O:22])[C@H:23]1[CH2:24]2",
+      "mapping_confidence": 0.4340105270703225,
+      "conditions": {
+        "raw_description": "PdCl2(dppf); K2CO3; MeOH; 70 \u00b0C; 63%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "PdCl2(dppf)"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[Cl-].[Cl-].c1ccc(cc1)P(c2ccccc2)C34C5[Fe]3678912(C5C6C74)C3C8C9C1(C23)P(c1ccccc1)c1ccccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_5",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@@H]2CCC(=O)[C@H]1C2.O=C1OI(=O)(O)c2ccccc21.C[N+]1([O-])CCOCC1.CS(C)=O>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@@H]2C=CC(=O)[C@H]1C2",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@@H:18]2[CH2:19][CH2:20][C:21](=[O:22])[C@H:23]1[CH2:24]2>CS(C)=O.C[N+]1([O-])CCOCC1.O=C1OI(=O)(O)c2ccccc21>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@@H:18]2[CH:19]=[CH:20][C:21](=[O:22])[C@H:23]1[CH2:24]2",
+      "mapping_confidence": 0.504065167209792,
+      "conditions": {
+        "raw_description": "IBX; NMO; DMSO; 45 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "IBX",
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O",
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_6",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@@H]2C=CC(=O)[C@H]1C2.O.O=BO[O-].[Na+].C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1C(=O)[C@@H]1O[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C:21](=[O:22])[CH:23]=[CH:25]2.O=B[O:24][O-]>C1CCOC1.O.[Na+]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C:21](=[O:22])[C@@H:23]1[O:24][C@H:25]21",
+      "mapping_confidence": 0.21468810963243695,
+      "conditions": {
+        "raw_description": "NaBO3\u2022H2O; THF; H2O; 65 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "NaBO3\u2022H2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[O-]OB=O.O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_7",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1C(=O)[C@@H]1O[C@@H]12.COC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Cl-].CC(C)(C)[O-].[K+].C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1C(C=O)=C[C@@H]2O",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C:21](=[O:23])[C@H:24]1[C@@H:25]2[O:26]1.CO[CH2:22][P+](c1ccccc1)(c1ccccc1)c1ccccc1>C1CCOC1.CC(C)(C)[O-].[Cl-].[K+]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C:21]([CH:22]=[O:23])=[CH:24][C@@H:25]2[OH:26]",
+      "mapping_confidence": 0.45827914343536297,
+      "conditions": {
+        "raw_description": "MeOCH2PPh3Cl; KOt-Bu; THF; -78 to 0 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "MeOCH2PPh3Cl",
+          "KOt-Bu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC[P+](c1ccccc1)(c2ccccc2)c3ccccc3.[Cl-]",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_8",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1C(C=O)=C[C@@H]2O.CCCC[SnH](CCCC)CCCC.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cl-].[Cl-].[Zn+2].C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C=O)C[C@@H]2O",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C:21]([CH:22]=[O:23])=[CH:24][C@@H:25]2[OH:26]>C1CCOC1.CCCC[SnH](CCCC)CCCC.[Cl-].[Cl-].[Pd].[Zn+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([CH:22]=[O:23])[CH2:24][C@@H:25]2[OH:26]",
+      "mapping_confidence": 0.5107761534575566,
+      "conditions": {
+        "raw_description": "Bu3SnH; Pd(PPh3)4; ZnCl2; THF; 23 \u00b0C; 79%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)4",
+          "ZnCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "[Cl-].[Cl-].[Zn++]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_9",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C=O)C[C@@H]2O.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].CC(C)(C)[O-].[K+].C1CCOC1>>C=C[C@H]1C[C@H](O)[C@@H]2C[C@H]1/C(=C\\C)CN2S(=O)(=O)c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "O=[CH:2][C@H:3]1[CH2:4][C@H:5]([OH:6])[C@@H:7]2[CH2:8][C@H:9]1/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[N+:24](=[O:25])[O-:26].c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>C1CCOC1.CC(C)(C)[O-].[Br-].[K+]>[CH2:1]=[CH:2][C@H:3]1[CH2:4][C@H:5]([OH:6])[C@@H:7]2[CH2:8][C@H:9]1/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[N+:24](=[O:25])[O-:26]",
+      "mapping_confidence": 0.45215165008050817,
+      "conditions": {
+        "raw_description": "Ph3PMeBr; KOt-Bu; THF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Ph3PMeBr",
+          "KOt-Bu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1[P+](c2ccccc2)(c3ccccc3)C.[Br-]",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_10",
+      "reaction_smiles": "C=C[C@H]1C[C@H](O)[C@@H]2C[C@H]1/C(=C\\C)CN2S(=O)(=O)c1ccccc1[N+](=O)[O-].CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>C=C[C@H]1CC(=O)[C@@H]2C[C@H]1/C(=C\\C)CN2S(=O)(=O)c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]1[CH2:4][C@H:5]([OH:6])[C@@H:7]2[CH2:8][C@H:9]1/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[N+:24](=[O:25])[O-:26]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O=C([O-])O.[Na+]>[CH2:1]=[CH:2][C@H:3]1[CH2:4][C:5](=[O:6])[C@@H:7]2[CH2:8][C@H:9]1/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]1[cH:19][cH:20][cH:21][cH:22][c:23]1[N+:24](=[O:25])[O-:26]",
+      "mapping_confidence": 0.5341057894480217,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; CH2Cl2; 23 \u00b0C; 80% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [
+          "80% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_11",
+      "reaction_smiles": "C=C[C@H]1CC(=O)[C@@H]2C[C@H]1/C(=C\\C)CN2S(=O)(=O)c1ccccc1[N+](=O)[O-].C=CCI.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1.CN1CCCN(C)C1=O>>C=CC[C@@H]1C(=O)[C@@H]2C[C@@H](/C(=C\\C)CN2S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]1C=C",
+      "reaction_smiles_mapped": "I[CH2:3][CH:2]=[CH2:1].[CH2:4]1[C:5](=[O:6])[C@@H:7]2[CH2:8][C@@H:9](/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]2[N+:24](=[O:25])[O-:26])[C@H:27]1[CH:28]=[CH2:29]>C1CCOC1.CN1CCCN(C)C1=O.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C:5](=[O:6])[C@@H:7]2[CH2:8][C@@H:9](/[C:10](=[CH:11]\\[CH3:12])[CH2:13][N:14]2[S:15](=[O:16])(=[O:17])[c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]2[N+:24](=[O:25])[O-:26])[C@H:27]1[CH:28]=[CH2:29]",
+      "mapping_confidence": 0.5318677811913567,
+      "conditions": {
+        "raw_description": "LHMDS; DMPU; THF; -78 \u00b0C; then allyl iodide; -45 \u00b0C; 55%",
+        "GENERAL_REAGENTS": [
+          "LHMDS",
+          "allyl iodide"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N([Si](C)(C)C)[Si](C)(C)C",
+          "C=CCI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMPU"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN1CCCN(C1=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-45"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_12",
+      "reaction_smiles": "C=CC[C@@H]1C(=O)[C@@H]2C[C@@H](/C(=C\\C)CN2S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]1C=C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1C=CC[C@@H]1C2=O",
+      "reaction_smiles_mapped": "C=C[C@@H:21]1[C@@H:20]2/[C:3](=[CH:2]\\[CH3:1])[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]3[cH:10][cH:11][cH:12][cH:13][c:14]3[N+:15](=[O:16])[O-:17])[C@@H:18]([CH2:19]2)[C:26](=[O:27])[C@H:25]1[CH2:24][CH:23]=[CH2:22]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[CH:22]=[CH:23][CH2:24][C@@H:25]1[C:26]2=[O:27]",
+      "mapping_confidence": 0.41739697738500314,
+      "conditions": {
+        "raw_description": "Hoveyda-Grubbs II (4 mol%); CH2Cl2; 40 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Hoveyda-Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_13",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1C=CC[C@@H]1C2=O.[O]=[Os](=[O])(=[O])=[O].C[N+]1([O-])CCOCC1.CC(C)=O.O>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@H](O)[C@H](O)C[C@@H]1C2=O",
+      "reaction_smiles_mapped": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-:23])[C@H]2C[C@@H]1[C@H]1C=CC[C@@H]1C2=O.[OH2:25]>CC(C)=O.C[N+]1([O-:25])CCOCC1.O=[Os](=O)(=O)=O>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@H:22]([OH:23])[C@H:24]([OH:25])[CH2:26][C@@H:27]1[C:28]2=[O:29]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4 (cat.); NMO; acetone; H2O; 23 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_14",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@H](O)[C@H](O)C[C@@H]1C2=O.O=C(OC(Cl)(Cl)Cl)OC(Cl)(Cl)Cl.ClCCl.c1ccncc1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@@H]3OC(=O)O[C@@H]3C[C@@H]1C2=O",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@H:22]([OH:23])[C@H:27]([OH:26])[CH2:28][C@@H:29]1[C:30]2=[O:31].ClC(Cl)(Cl)O[C:24](OC(Cl)(Cl)Cl)=[O:25]>ClCCl.c1ccncc1>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@@H:22]3[O:23][C:24](=[O:25])[O:26][C@@H:27]3[CH2:28][C@@H:29]1[C:30]2=[O:31]",
+      "mapping_confidence": 0.4492419709611198,
+      "conditions": {
+        "raw_description": "triphosgene; pyridine; CH2Cl2; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "triphosgene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(Cl)(Cl)OC(=O)OC(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_15",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@@H]3OC(=O)O[C@@H]3C[C@@H]1C2=O.NNc1ccccc1.O=C(O)C(F)(F)F.ClCCCl>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@@H]3OC(=O)O[C@@H]3C[C@@]13C2=Nc1ccccc13",
+      "reaction_smiles_mapped": "O=[C:30]1[C@H:18]2[N:5]([S:6](=[O:7])(=[O:8])[c:9]3[cH:10][cH:11][cH:12][cH:13][c:14]3[N+:15](=[O:16])[O-:17])[CH2:4]/[C:3](=[CH:2]/[CH3:1])[C@H:20]([CH2:19]2)[C@H:21]2[C@@H:22]3[O:23][C:24](=[O:25])[O:26][C@@H:27]3[CH2:28][C@@H:29]21.N[NH:31][c:32]1[cH:33][cH:34][cH:35][cH:36][cH:37]1>ClCCCl.O=C(O)C(F)(F)F>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@@H:22]3[O:23][C:24](=[O:25])[O:26][C@@H:27]3[CH2:28][C@@:29]13[C:30]2=[N:31][c:32]1[cH:33][cH:34][cH:35][cH:36][c:37]13",
+      "mapping_confidence": 0.37200355545466146,
+      "conditions": {
+        "raw_description": "PhNHNH2; TFA; DCE; 80 \u00b0C; 69%",
+        "GENERAL_REAGENTS": [
+          "phenylhydrazine",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)NN",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_16",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@@H]3OC(=O)O[C@@H]3C[C@@]13C2=Nc1ccccc13.[Na+].[OH-].O.C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@H](O)[C@H](O)C[C@@]13C2=Nc1ccccc13",
+      "reaction_smiles_mapped": "O=C1[O:23][C@H:22]2[C@@H:21]3[C@@H:20]4/[C:3](=[CH:2]\\[CH3:1])[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]5[cH:10][cH:11][cH:12][cH:13][c:14]5[N+:15](=[O:16])[O-:17])[C@@H:18]([CH2:19]4)[C:28]4=[N:29][c:30]5[cH:31][cH:32][cH:33][cH:34][c:35]5[C@@:27]34[CH2:26][C@H:24]2[O:25]1>C1CCOC1.O.[Na+].[OH-]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@H:22]([OH:23])[C@H:24]([OH:25])[CH2:26][C@@:27]13[C:28]2=[N:29][c:30]1[cH:31][cH:32][cH:33][cH:34][c:35]13",
+      "mapping_confidence": 0.5186818247780143,
+      "conditions": {
+        "raw_description": "NaOH; H2O; THF; 23 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_17",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@H]1[C@H](O)[C@H](O)C[C@@]13C2=Nc1ccccc13.O.O.[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C=O)[C@@]13CC(O)O[C@@]21Nc1ccccc13",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@H:21]1[C@H:22]([OH:23])[C@H:26]([OH:27])[CH2:25][C@@:24]13[C:29]2=[N:30][c:31]1[cH:32][cH:33][cH:34][cH:35][c:36]13.[OH2:28]>C1CCOC1.O.[Na+].[O-][I+3]([O-])([O-])[O-]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([CH:22]=[O:23])[C@@:24]13[CH2:25][CH:26]([OH:27])[O:28][C@@:29]21[NH:30][c:31]1[cH:32][cH:33][cH:34][cH:35][c:36]13",
+      "mapping_confidence": 0.24945348861829897,
+      "conditions": {
+        "raw_description": "NaIO4; H2O; THF; 23 \u00b0C; 81% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [
+          "81% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_18",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C=O)[C@@]13CC(O)O[C@@]21Nc1ccccc13.[O-][Cl+][O-].[Na+].[Na+].[O-][Cl+][O-].O=P([O-])(O)O.[Na+].CC(C)(C)O.O.CC=C(C)C>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C(=O)O)[C@@]13CC(O)O[C@@]21Nc1ccccc13",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([CH:22]=[O:23])[C@@:25]13[CH2:26][CH:27]([OH:28])[O:29][C@@:30]21[NH:31][c:32]1[cH:33][cH:34][cH:35][cH:36][c:37]13.[O-][Cl+][O-:38]>O=P([O-])(O)O.CC(C)(C)O.CC=C(C)C.O.[Na+].[Na+].[Na+].[O-][Cl+][O-]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([C:22]([OH:23])=[O:38])[C@@:25]13[CH2:26][CH:27]([OH:28])[O:29][C@@:30]21[NH:31][c:32]1[cH:33][cH:34][cH:35][cH:36][c:37]13",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NaClO2; NaH2PO4; 2-methyl-2-butene; t-BuOH; H2O; 23 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaClO2",
+          "NaH2PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl=O.[Na+]",
+          "OP(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH",
+          "H2O",
+          "2-methyl-2-butene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O",
+          "CC=C(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_19",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C(=O)O)[C@@]13CC(O)O[C@@]21Nc1ccccc13.C[Si](C)(C)C=[N+]=[N-].CO.C1CCOC1>>C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C(=O)OC)[C@@]13CC(O)O[C@@]21Nc1ccccc13",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([C:22](=[O:23])[OH:24])[C@@:26]13[CH2:27][CH:28]([OH:29])[O:30][C@@:31]21[NH:32][c:33]1[cH:34][cH:35][cH:36][cH:37][c:38]13.O[CH3:25]>C1CCOC1.C[Si](C)(C)C=[N+]=[N-]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]([S:6](=[O:7])(=[O:8])[c:9]2[cH:10][cH:11][cH:12][cH:13][c:14]2[N+:15](=[O:16])[O-:17])[C@H:18]2[CH2:19][C@@H:20]1[C@@H:21]([C:22](=[O:23])[O:24][CH3:25])[C@@:26]13[CH2:27][CH:28]([OH:29])[O:30][C@@:31]21[NH:32][c:33]1[cH:34][cH:35][cH:36][cH:37][c:38]13",
+      "mapping_confidence": 0.3525997166602449,
+      "conditions": {
+        "raw_description": "TMSCHN2; MeOH; THF; 23 \u00b0C; 58% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TMSCHN2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [
+          "58% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_20",
+      "reaction_smiles": "C/C=C1/CN(S(=O)(=O)c2ccccc2[N+](=O)[O-])[C@H]2C[C@@H]1[C@@H](C(=O)OC)[C@@]13CC(O)O[C@@]21Nc1ccccc13.O[Si](O)(O)CCCS.O=C([O-])[O-].[Cs+].[Cs+].CC#N>>C/C=C1/CN2[C@@H]3C[C@@]45c6ccccc6N[C@]4(O3)[C@@H]2C[C@@H]1[C@H]5C(=O)OC",
+      "reaction_smiles_mapped": "O=[N+]([O-])c1ccccc1S(=O)(=O)[N:5]1[CH2:4]/[C:3](=[CH:2]/[CH3:1])[C@@H:20]2[CH2:19][C@H:18]1[C@@:16]13[C@@:8]([CH2:7][CH:6](O)[O:17]1)([c:9]1[cH:10][cH:11][cH:12][cH:13][c:14]1[NH:15]3)[C@@H:21]2[C:22](=[O:23])[O:24][CH3:25]>CC#N.O=C([O-])[O-].O[Si](O)(O)CCCS.[Cs+].[Cs+]>[CH3:1]/[CH:2]=[C:3]1/[CH2:4][N:5]2[C@@H:6]3[CH2:7][C@@:8]45[c:9]6[cH:10][cH:11][cH:12][cH:13][c:14]6[NH:15][C@:16]4([O:17]3)[C@@H:18]2[CH2:19][C@@H:20]1[C@H:21]5[C:22](=[O:23])[O:24][CH3:25]",
+      "mapping_confidence": 0.9309716413526683,
+      "conditions": {
+        "raw_description": "SiliaMetS Thiol; Cs2CO3; MeCN; 65 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "SiliaMetS Thiol",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "SCCC[Si](O)(O)O",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_21",
+      "reaction_smiles": "CC#CCO.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>>C/C=C(/CO)[Sn](CCCC)(CCCC)CCCC",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][OH:5].[SnH:6]([CH2:7][CH2:8][CH2:9][CH3:10])([CH2:11][CH2:12][CH2:13][CH3:14])[CH2:15][CH2:16][CH2:17][CH3:18]>CC(C)(C#N)N=NC(C)(C)C#N>[CH3:1]/[CH:2]=[C:3](/[CH2:4][OH:5])[Sn:6]([CH2:7][CH2:8][CH2:9][CH3:10])([CH2:11][CH2:12][CH2:13][CH3:14])[CH2:15][CH2:16][CH2:17][CH3:18]",
+      "mapping_confidence": 0.33674479411047453,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_22",
+      "reaction_smiles": "C/C=C(/CO)[Sn](CCCC)(CCCC)CCCC.II.ClC(Cl)(Cl)Cl>>C/C=C(\\I)CO",
+      "reaction_smiles_mapped": "CCCC[Sn](CCCC)(CCCC)/[C:3](=[CH:2]\\[CH3:1])[CH2:5][OH:6].I[I:4]>ClC(Cl)(Cl)Cl>[CH3:1]/[CH:2]=[C:3](\\[I:4])[CH2:5][OH:6]",
+      "mapping_confidence": 0.5928250212195871,
+      "conditions": {
+        "raw_description": "I2; CCl4",
+        "GENERAL_REAGENTS": [
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CCl4"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Picrinine_2014_Garg_23",
+      "reaction_smiles": "C/C=C(\\I)CO.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>C/C=C(\\I)COS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[C:3](\\[I:4])[CH2:5][OH:6].Cl[S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1]/[CH:2]=[C:3](\\[I:4])[CH2:5][O:6][S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.5129696029528612,
+      "conditions": {
+        "raw_description": "TsCl; Et3N; CH2Cl2; DMAP",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

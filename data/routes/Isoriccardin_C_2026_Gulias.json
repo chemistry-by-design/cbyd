@@ -1,0 +1,322 @@
+{
+  "background": {
+    "name": "Isoriccardin C",
+    "author": "Gulias",
+    "year": 2026,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2026, 28, 4836",
+    "doi": "10.1021/acs.orglett.6c00911"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_1",
+      "reaction_smiles": "O=Cc1ccc(I)c(O)c1.C1=COCCC1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.ClCCl>>O=Cc1ccc(I)c(OC2CCCCO2)c1",
+      "reaction_smiles_mapped": "[CH:10]1=[CH:11][CH2:12][CH2:13][CH2:14][O:15]1.[O:1]=[CH:2][c:3]1[cH:4][cH:5][c:6]([I:7])[c:8]([OH:9])[cH:16]1>Cc1ccc(S(=O)(=O)[O-])cc1.ClCCl.c1cc[nH+]cc1>[O:1]=[CH:2][c:3]1[cH:4][cH:5][c:6]([I:7])[c:8]([O:9][CH:10]2[CH2:11][CH2:12][CH2:13][CH2:14][O:15]2)[cH:16]1",
+      "mapping_confidence": 0.9290756605025181,
+      "conditions": {
+        "raw_description": "PPTS; DCM; 35 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "35"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_2",
+      "reaction_smiles": "O=Cc1ccc(I)c(OC2CCCCO2)c1.COc1ccccc1B(O)O.O=P([O-])([O-])[O-].[K+].[K+].[K+].CC(=O)[O-].CC(=O)[O-].[Pd+2].COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.O.Cc1ccccc1>>COc1ccccc1-c1ccc(C=O)cc1OC1CCCCO1",
+      "reaction_smiles_mapped": "OB(O)[c:8]1[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][cH:7]1.I[c:9]1[cH:10][cH:11][c:12]([CH:13]=[O:14])[cH:15][c:16]1[O:17][CH:18]1[CH2:19][CH2:20][CH2:21][CH2:22][O:23]1>CC(=O)[O-].CC(=O)[O-].COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccccc1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+].[Pd+2]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1-[c:9]1[cH:10][cH:11][c:12]([CH:13]=[O:14])[cH:15][c:16]1[O:17][CH:18]1[CH2:19][CH2:20][CH2:21][CH2:22][O:23]1",
+      "mapping_confidence": 0.6906044216473555,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; SPhos; K3PO4; H2O; toluene; 90 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "SPhos"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "COC1=C(C(=CC=C1)OC)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_3",
+      "reaction_smiles": "COc1ccccc1-c1ccc(C=O)cc1OC1CCCCO1.Brc1ccc(C[P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.[Br-].O=C([O-])[O-].[K+].[K+].C1COCCOCCOCCOCCOCCO1.ClCCl>>COc1ccccc1-c1ccc(/C=C\\c2ccc(Br)cc2)cc1OC1CCCCO1",
+      "reaction_smiles_mapped": "c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2:14][c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][cH:21]2)cc1.O=[CH:13][c:12]1[cH:11][cH:10][c:9](-[c:8]2[c:3]([O:2][CH3:1])[cH:4][cH:5][cH:6][cH:7]2)[c:23]([O:24][CH:25]2[CH2:26][CH2:27][CH2:28][CH2:29][O:30]2)[cH:22]1>C1COCCOCCOCCOCCOCCO1.ClCCl.O=C([O-])[O-].[Br-].[K+].[K+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1-[c:9]1[cH:10][cH:11][c:12](/[CH:13]=[CH:14]\\[c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][cH:21]2)[cH:22][c:23]1[O:24][CH:25]1[CH2:26][CH2:27][CH2:28][CH2:29][O:30]1",
+      "mapping_confidence": 0.8858126067163307,
+      "conditions": {
+        "raw_description": "18-crown-6; K2CO3; DCM; 40 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "18-crown-6"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "C1COCCOCCOCCOCCOCCO1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_4",
+      "reaction_smiles": "COc1ccccc1-c1ccc(/C=C\\c2ccc(Br)cc2)cc1OC1CCCCO1.Cc1ccc(S(=O)(=O)NN)cc1.CC(=O)[O-].[Na+].C1CCOC1>>COc1ccccc1-c1ccc(CCc2ccc(Br)cc2)cc1OC1CCCCO1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1-[c:9]1[cH:10][cH:11][c:12](/[CH:13]=[CH:14]\\[c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][cH:21]2)[cH:22][c:23]1[O:24][CH:25]1[CH2:26][CH2:27][CH2:28][CH2:29][O:30]1>C1CCOC1.CC(=O)[O-].Cc1ccc(S(=O)(=O)NN)cc1.[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1-[c:9]1[cH:10][cH:11][c:12]([CH2:13][CH2:14][c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][cH:21]2)[cH:22][c:23]1[O:24][CH:25]1[CH2:26][CH2:27][CH2:28][CH2:29][O:30]1",
+      "mapping_confidence": 0.9159542347501615,
+      "conditions": {
+        "raw_description": "NaOAc; THF; ?; 78%",
+        "GENERAL_REAGENTS": [
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_5",
+      "reaction_smiles": "COc1ccccc1-c1ccc(CCc2ccc(Br)cc2)cc1OC1CCCCO1.C=Cc1ccc(OC)c(O)c1.[Cu+].[Cu+].[O-2].O=C([O-])[O-].[K+].[K+].c1ccncc1>>C=Cc1ccc(OC)c(Oc2ccc(CCc3ccc(-c4ccccc4OC)c(OC4CCCCO4)c3)cc2)c1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH3:8])[c:9]([OH:10])[cH:40]1.Br[c:11]1[cH:12][cH:13][c:14]([CH2:15][CH2:16][c:17]2[cH:18][cH:19][c:20](-[c:21]3[cH:22][cH:23][cH:24][cH:25][c:26]3[O:27][CH3:28])[c:29]([O:30][CH:31]3[CH2:32][CH2:33][CH2:34][CH2:35][O:36]3)[cH:37]2)[cH:38][cH:39]1>O=C([O-])[O-].[Cu+].[Cu+].[K+].[K+].[O-2].c1ccncc1>[CH2:1]=[CH:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH3:8])[c:9]([O:10][c:11]2[cH:12][cH:13][c:14]([CH2:15][CH2:16][c:17]3[cH:18][cH:19][c:20](-[c:21]4[cH:22][cH:23][cH:24][cH:25][c:26]4[O:27][CH3:28])[c:29]([O:30][CH:31]4[CH2:32][CH2:33][CH2:34][CH2:35][O:36]4)[cH:37]3)[cH:38][cH:39]2)[cH:40]1",
+      "mapping_confidence": 0.7897167446106073,
+      "conditions": {
+        "raw_description": "Cu2O; K2CO3; pyr; 140 \u00b0C; 66%",
+        "GENERAL_REAGENTS": [
+          "Cu2O",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-2].[Cu+].[Cu+]",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyr"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_6",
+      "reaction_smiles": "C=Cc1ccc(OC)c(Oc2ccc(CCc3ccc(-c4ccccc4OC)c(OC4CCCCO4)c3)cc2)c1.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1.CO.C1CCOC1>>C=Cc1ccc(OC)c(Oc2ccc(CCc3ccc(-c4ccccc4OC)c(O)c3)cc2)c1",
+      "reaction_smiles_mapped": "C1CCC([O:30][c:29]2[c:20](-[c:21]3[cH:22][cH:23][cH:24][cH:25][c:26]3[O:27][CH3:28])[cH:19][cH:18][c:17]([CH2:16][CH2:15][c:14]3[cH:13][cH:12][c:11]([O:10][c:9]4[c:6]([O:7][CH3:8])[cH:5][cH:4][c:3]([CH:2]=[CH2:1])[cH:34]4)[cH:33][cH:32]3)[cH:31]2)OC1>C1CCOC1.CO.Cc1ccc(S(=O)(=O)[O-])cc1.c1cc[nH+]cc1>[CH2:1]=[CH:2][c:3]1[cH:4][cH:5][c:6]([O:7][CH3:8])[c:9]([O:10][c:11]2[cH:12][cH:13][c:14]([CH2:15][CH2:16][c:17]3[cH:18][cH:19][c:20](-[c:21]4[cH:22][cH:23][cH:24][cH:25][c:26]4[O:27][CH3:28])[c:29]([OH:30])[cH:31]3)[cH:32][cH:33]2)[cH:34]1",
+      "mapping_confidence": 0.92014629072632,
+      "conditions": {
+        "raw_description": "PPTS; MeOH; THF; rt; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPTS"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=[NH+]C=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_7",
+      "reaction_smiles": "C=Cc1ccc(OC)c(Oc2ccc(CCc3ccc(-c4ccccc4OC)c(O)c3)cc2)c1.CC[C@H](C)[C@H](NC(=O)OC(C)(C)C)C(=O)O.O=C([O-])[O-].[Cs+].[Cs+].CCC(C)(C)O.CC(=O)[O-].CC(=O)[O-].[Pd+2].CC(=O)[O-].CC(=O)[O-].[Cu+2]>>COc1ccc2cc1Oc1ccc(cc1)CCc1ccc(c(O)c1)-c1c(cccc1OC)/C=C/2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH:34]=[CH2:33])[cH:7][c:8]1[O:9][c:10]1[cH:11][cH:12][c:13]([CH2:16][CH2:17][c:18]2[cH:19][cH:20][c:21](-[c:25]3[cH:26][cH:27][cH:28][cH:29][c:30]3[O:31][CH3:32])[c:22]([OH:23])[cH:24]2)[cH:14][cH:15]1>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CCC(C)(C)O.CC[C@H](C)[C@H](NC(=O)OC(C)(C)C)C(=O)O.O=C([O-])[O-].[Cs+].[Cs+].[Cu+2].[Pd+2]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][c:8]1[O:9][c:10]1[cH:11][cH:12][c:13]([cH:14][cH:15]1)[CH2:16][CH2:17][c:18]1[cH:19][cH:20][c:21]([c:22]([OH:23])[cH:24]1)-[c:25]1[c:26]([cH:27][cH:28][cH:29][c:30]1[O:31][CH3:32])/[CH:33]=[CH:34]/2",
+      "mapping_confidence": 0.513414830756339,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; Cu(OAc)2; Cs2CO3; tAmOH; 60 \u00b0C; 30%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3",
+          "tAmOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]",
+          "CCC(C)(C)O"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2",
+          "Cu(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+          "CC(=O)[O-].CC(=O)[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "30%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_8",
+      "reaction_smiles": "COc1ccc2cc1Oc1ccc(cc1)CCc1ccc(c(O)c1)-c1c(cccc1OC)/C=C/2.[HH].[C].[Pd].ClCCl.CO>>COc1ccc2cc1Oc1ccc(cc1)CCc1ccc(c(O)c1)-c1c(cccc1OC)CC2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][c:8]1[O:9][c:10]1[cH:11][cH:12][c:13]([cH:14][cH:15]1)[CH2:16][CH2:17][c:18]1[cH:19][cH:20][c:21]([c:22]([OH:23])[cH:24]1)-[c:25]1[c:26]([cH:27][cH:28][cH:29][c:30]1[O:31][CH3:32])/[CH:33]=[CH:34]/2>CO.ClCCl.[C].[HH].[Pd]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[cH:7][c:8]1[O:9][c:10]1[cH:11][cH:12][c:13]([cH:14][cH:15]1)[CH2:16][CH2:17][c:18]1[cH:19][cH:20][c:21]([c:22]([OH:23])[cH:24]1)-[c:25]1[c:26]([cH:27][cH:28][cH:29][c:30]1[O:31][CH3:32])[CH2:33][CH2:34]2",
+      "mapping_confidence": 0.9293836030710357,
+      "conditions": {
+        "raw_description": "H2; Pd/C; DCM; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Isoriccardin_C_2026_Gulias_9",
+      "reaction_smiles": "COc1ccc2cc1Oc1ccc(cc1)CCc1ccc(c(O)c1)-c1c(cccc1OC)CC2.BrB(Br)Br.ClCCl>>Oc1ccc2cc1Oc1ccc(cc1)CCc1ccc(c(O)c1)-c1c(O)cccc1CC2",
+      "reaction_smiles_mapped": "C[O:1][c:2]1[cH:3][cH:4][c:5]2[cH:6][c:7]1[O:8][c:9]1[cH:10][cH:11][c:12]([cH:13][cH:14]1)[CH2:15][CH2:16][c:17]1[cH:18][cH:19][c:20]([c:21]([OH:22])[cH:23]1)-[c:24]1[c:25]([O:26]C)[cH:27][cH:28][cH:29][c:30]1[CH2:31][CH2:32]2>BrB(Br)Br.ClCCl>[OH:1][c:2]1[cH:3][cH:4][c:5]2[cH:6][c:7]1[O:8][c:9]1[cH:10][cH:11][c:12]([cH:13][cH:14]1)[CH2:15][CH2:16][c:17]1[cH:18][cH:19][c:20]([c:21]([OH:22])[cH:23]1)-[c:24]1[c:25]([OH:26])[cH:27][cH:28][cH:29][c:30]1[CH2:31][CH2:32]2",
+      "mapping_confidence": 0.9077304785295598,
+      "conditions": {
+        "raw_description": "BBr3; DCM; 0 \u00b0C to rt; 56% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "56% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

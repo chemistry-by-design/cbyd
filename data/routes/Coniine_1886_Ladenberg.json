@@ -1,0 +1,67 @@
+{
+  "background": {
+    "name": "Coniine",
+    "author": "Ladenberg",
+    "year": 1886,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ber. Dtsch. Chem. Ges. 1886, 19, 2578",
+    "doi": "10.1002/cber.188601902215"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Coniine_1886_Ladenberg_1",
+      "reaction_smiles": "Cc1ccccn1.CC=O>>C/C=C/c1ccccn1",
+      "reaction_smiles_mapped": "O=[CH:2][CH3:1].[CH3:3][c:4]1[cH:5][cH:6][cH:7][cH:8][n:9]1>>[CH3:1]/[CH:2]=[CH:3]/[c:4]1[cH:5][cH:6][cH:7][cH:8][n:9]1",
+      "mapping_confidence": 0.971784292538428,
+      "conditions": {
+        "raw_description": "260 \u00b0C; 3.5%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "260"
+        ],
+        "YIELD": [
+          "3.5%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Coniine_1886_Ladenberg_2",
+      "reaction_smiles": "C/C=C/c1ccccn1.[Na].CCO>>CCCC1CCCCN1",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[CH:3]/[c:4]1[cH:5][cH:6][cH:7][cH:8][n:9]1>[Na].CCO>[CH3:1][CH2:2][CH2:3][CH:4]1[CH2:5][CH2:6][CH2:7][CH2:8][NH:9]1",
+      "mapping_confidence": 0.9344060568441618,
+      "conditions": {
+        "raw_description": "Na; EtOH; 99%",
+        "GENERAL_REAGENTS": [
+          "Na"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

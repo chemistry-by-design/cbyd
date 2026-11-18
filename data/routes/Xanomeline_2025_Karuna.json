@@ -1,0 +1,200 @@
+{
+  "background": {
+    "name": "Xanomeline",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Cobenfy",
+    "manufacturer": "Karuna",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_1",
+      "reaction_smiles": "O=Cc1cccnc1.[C-]#N.[K+].CC(=O)O.O>>N#CC(O)c1cccnc1",
+      "reaction_smiles_mapped": "[CH:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][n:9][cH:10]1.[N:1]#[C-:2]>CC(=O)O.O.[K+]>[N:1]#[C:2][CH:3]([OH:4])[c:5]1[cH:6][cH:7][cH:8][n:9][cH:10]1",
+      "mapping_confidence": 0.9927858593809786,
+      "conditions": {
+        "raw_description": "KCN; H2O; HOAc; 5 to 10 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "KCN",
+          "HOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[K+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "10",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_2",
+      "reaction_smiles": "N#CC(O)c1cccnc1.[Cl-].[NH4+].N.O>>N#CC(N)c1cccnc1",
+      "reaction_smiles_mapped": "[NH3:4].O[CH:3]([C:2]#[N:1])[c:5]1[cH:6][cH:7][cH:8][n:9][cH:10]1>O.[Cl-].[NH4+]>[N:1]#[C:2][CH:3]([NH2:4])[c:5]1[cH:6][cH:7][cH:8][n:9][cH:10]1",
+      "mapping_confidence": 0.873785323731615,
+      "conditions": {
+        "raw_description": "NH3; H2O; NH4Cl; 61% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NH4Cl",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[Cl-]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "61% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_3",
+      "reaction_smiles": "N#CC(N)c1cccnc1.ClSSCl.CN(C)C=O>>Clc1nsnc1-c1cccnc1",
+      "reaction_smiles_mapped": "ClS[S:4][Cl:1].[C:2](#[N:3])[CH:6]([NH2:5])[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1>CN(C)C=O>[Cl:1][c:2]1[n:3][s:4][n:5][c:6]1-[c:7]1[cH:8][cH:9][cH:10][n:11][cH:12]1",
+      "mapping_confidence": 0.2841897068985736,
+      "conditions": {
+        "raw_description": "S2Cl2; DMF; 5 to 10 \u00b0C; 66%",
+        "GENERAL_REAGENTS": [
+          "S2Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "S(SCl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5",
+          "10"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_4",
+      "reaction_smiles": "Clc1nsnc1-c1cccnc1.CCCCCCO.[Na]>>CCCCCCOc1nsnc1-c1cccnc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][OH:7].Cl[c:8]1[n:9][s:10][n:11][c:12]1-[c:13]1[cH:14][cH:15][cH:16][n:17][cH:18]1>[Na]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][c:8]1[n:9][s:10][n:11][c:12]1-[c:13]1[cH:14][cH:15][cH:16][n:17][cH:18]1",
+      "mapping_confidence": 0.9904932639812479,
+      "conditions": {
+        "raw_description": "n-hexanol; Na; 50 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "n-hexanol",
+          "Na"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCCCCO",
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_5",
+      "reaction_smiles": "CCCCCCOc1nsnc1-c1cccnc1.CI.CC(C)=O>>CCCCCCOc1nsnc1-c1ccc[n+](C)c1.[I-]",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][c:8]1[n:9][s:10][n:11][c:12]1-[c:13]1[cH:14][cH:15][cH:16][n:17][cH:19]1.[CH3:18][I:20]>CC(C)=O>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][c:8]1[n:9][s:10][n:11][c:12]1-[c:13]1[cH:14][cH:15][cH:16][n+:17]([CH3:18])[cH:19]1.[I-:20]",
+      "mapping_confidence": 0.8861679997573506,
+      "conditions": {
+        "raw_description": "MeI; acetone; 80%",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Xanomeline_2025_Karuna_6",
+      "reaction_smiles": "CCCCCCOc1nsnc1-c1ccc[n+](C)c1.[I-].[BH4-].[Na+].CCO>>CCCCCCOc1nsnc1C1=CCCN(C)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][c:8]1[n:9][s:10][n:11][c:12]1-[c:13]1[cH:14][cH:15][cH:16][n+:17]([CH3:18])[cH:19]1>CCO.[BH4-].[I-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][O:7][c:8]1[n:9][s:10][n:11][c:12]1[C:13]1=[CH:14][CH2:15][CH2:16][N:17]([CH3:18])[CH2:19]1",
+      "mapping_confidence": 0.9840176463751453,
+      "conditions": {
+        "raw_description": "NaBH4; EtOH",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

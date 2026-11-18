@@ -1,0 +1,172 @@
+{
+  "background": {
+    "name": "Frova",
+    "author": null,
+    "year": 2002,
+    "drug_name": "Frovatriptan",
+    "manufacturer": "Endo",
+    "citation": "Mini Rev. Med. Chem. 2004, 4, 207",
+    "doi": "10.2174/1389557043487457"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Frova_2002_Endo_1",
+      "reaction_smiles": "CC1(C)COC2(CCC(=O)CC2)OC1.CN.[Pd].CCO.Cl.[HH].[C].[Pd]>>CNC1CCC2(CC1)OCC(C)(C)CO2",
+      "reaction_smiles_mapped": "O=[C:3]1[CH2:4][CH2:5][C:6]2([CH2:7][CH2:8]1)[O:9][CH2:10][C:11]([CH3:12])([CH3:13])[CH2:14][O:15]2.[CH3:1][NH2:2]>[Pd].[Pd].CCO.Cl.[HH].[C]>[CH3:1][NH:2][CH:3]1[CH2:4][CH2:5][C:6]2([CH2:7][CH2:8]1)[O:9][CH2:10][C:11]([CH3:12])([CH3:13])[CH2:14][O:15]2",
+      "mapping_confidence": 0.441766464123107,
+      "conditions": {
+        "raw_description": "1) MeNH2; Pd/C; H2; EtOH; 2) HCl; 86%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "MeNH2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "CN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frova_2002_Endo_2",
+      "reaction_smiles": "CNC1CCC2(CC1)OCC(C)(C)CO2.N#Cc1ccc(NN)cc1.Cl.O.[Na+].[OH-]>>[C-]#[N+]c1ccc2[nH]c3c(c2c1)CC(NC)CC3",
+      "reaction_smiles_mapped": "CC1(C)CO[C:8]2(OC1)[CH2:9][CH2:12][CH:13]([NH:14][CH3:15])[CH2:16][CH2:17]2.N[NH:7][c:6]1[cH:5][cH:4][c:3]([C:1]#[N:2])[cH:11][cH:10]1>Cl.O.[Na+].[OH-]>[C-:1]#[N+:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][c:8]3[c:9]([c:10]2[cH:11]1)[CH2:12][CH:13]([NH:14][CH3:15])[CH2:16][CH2:17]3",
+      "mapping_confidence": 0.6251513121138548,
+      "conditions": {
+        "raw_description": "1) HCl; H2O; 2) NaOH; 72%; Fischer indolization",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [
+          "Fischer indolization"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frova_2002_Endo_3",
+      "reaction_smiles": "[C-]#[N+]c1ccc2[nH]c3c(c2c1)CC(NC)CC3.O=C1CC[C@@H](C(=O)O)N1.CO>>[C-]#[N+]c1ccc2[nH]c3c(c2c1)C[C@H](NC)CC3",
+      "reaction_smiles_mapped": "[C-:1]#[N+:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][c:8]3[c:9]([c:10]2[cH:11]1)[CH2:12][CH:13]([NH:14][CH3:15])[CH2:16][CH2:17]3>O=C1CC[C@@H](C(=O)O)N1.CO>[C-:1]#[N+:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][c:8]3[c:9]([c:10]2[cH:11]1)[CH2:12][C@H:13]([NH:14][CH3:15])[CH2:16][CH2:17]3",
+      "mapping_confidence": 0.978080083784889,
+      "conditions": {
+        "raw_description": "MeOH; 27%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "27%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frova_2002_Endo_4",
+      "reaction_smiles": "[C-]#[N+]c1ccc2[nH]c3c(c2c1)C[C@H](NC)CC3.CC(=O)O.FB(F)F>>CN[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1",
+      "reaction_smiles_mapped": "CC(=O)[OH:14].[CH3:1][NH:2][C@@H:3]1[CH2:4][CH2:5][c:6]2[nH:7][c:8]3[cH:9][cH:10][c:11]([N+:13]#[C-:12])[cH:15][c:16]3[c:17]2[CH2:18]1>FB(F)F>[CH3:1][NH:2][C@@H:3]1[CH2:4][CH2:5][c:6]2[nH:7][c:8]3[cH:9][cH:10][c:11]([C:12]([NH2:13])=[O:14])[cH:15][c:16]3[c:17]2[CH2:18]1",
+      "mapping_confidence": 0.30792819409973415,
+      "conditions": {
+        "raw_description": "AcOH; BF3\u00b7AcOH; 90-95 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "BF3\u00b7AcOH"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CC(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90",
+          "95"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Frova_2002_Endo_5",
+      "reaction_smiles": "CN[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1.O=C(O)CCC(=O)O.CCO.O>>CN[C@@H]1CCc2[nH]c3ccc(C(N)=O)cc3c2C1",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][C@@H:3]1[CH2:4][CH2:5][c:6]2[nH:7][c:8]3[cH:9][cH:10][c:11]([C:12]([NH2:13])=[O:14])[cH:15][c:16]3[c:17]2[CH2:18]1>CCO.O.O=C(O)CCC(=O)O>[CH3:1][NH:2][C@@H:3]1[CH2:4][CH2:5][c:6]2[nH:7][c:8]3[cH:9][cH:10][c:11]([C:12]([NH2:13])=[O:14])[cH:15][c:16]3[c:17]2[CH2:18]1",
+      "mapping_confidence": 0.9730120550416378,
+      "conditions": {
+        "raw_description": "EtOH; H2O; 86%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    }
+  ]
+}

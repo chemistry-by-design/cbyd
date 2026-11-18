@@ -1,0 +1,270 @@
+{
+  "background": {
+    "name": "(+)-Sterpurene",
+    "author": "Okamura",
+    "year": 1989,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1989, 111, 3717",
+    "doi": "10.1021/ja00192a033"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_1",
+      "reaction_smiles": "C#CCCBr.[Li]CCCC.C[Al](C)Cl.C[Al](C)C.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1>>CC1=C([Al](C)C)CC1",
+      "reaction_smiles_mapped": "Br[CH2:7][CH2:8][C:2]#[CH:3].C[Al:4]([CH3:5])[CH3:6].C[Al](Cl)[CH3:1]>[Li]CCCC.[cH-]1cccc1.[cH-]1cccc1.[Zr+4].[Cl-].[Cl-]>[CH3:1][C:2]1=[C:3]([Al:4]([CH3:5])[CH3:6])[CH2:7][CH2:8]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) BuLi; 2) AlMe2Cl; 3) Me3Al; cp2ZrCl2",
+        "GENERAL_REAGENTS": [
+          "BuLi",
+          "AlMe2Cl",
+          "Me3Al"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "[Al](C)(C)Cl",
+          "C[Al](C)C"
+        ],
+        "CATALYSTS": [
+          "cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[cH-]1cccc1.[cH-]1cccc1.[Zr+4].[Cl-].[Cl-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_2",
+      "reaction_smiles": "CC1=C([Al](C)C)CC1.II>>CC1=C(I)CC1",
+      "reaction_smiles_mapped": "C[Al](C)[C:3]1=[C:2]([CH3:1])[CH2:6][CH2:5]1.I[I:4]>>[CH3:1][C:2]1=[C:3]([I:4])[CH2:5][CH2:6]1",
+      "mapping_confidence": 0.5919238131551786,
+      "conditions": {
+        "raw_description": "I2; 74%",
+        "GENERAL_REAGENTS": [
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_3",
+      "reaction_smiles": "CC1=C(I)CC1.C#C[C@H](O)C(C)(C)CC=C.[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCNCC>>C=CCC(C)(C)[C@@H](O)C#CC1=C(C)CC1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[C@@H:7]([OH:8])[C:9]#[CH:10].I[C:11]1=[C:12]([CH3:13])[CH2:14][CH2:15]1>[Pd].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CCNCC>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[C@@H:7]([OH:8])[C:9]#[C:10][C:11]1=[C:12]([CH3:13])[CH2:14][CH2:15]1",
+      "mapping_confidence": 0.6701709885570489,
+      "conditions": {
+        "raw_description": "CuI; Et2NH; Pd(PPh3)4; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(PPh3)4",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2NH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCNCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_4",
+      "reaction_smiles": "C=CCC(C)(C)[C@@H](O)C#CC1=C(C)CC1.Cl[Se]c1ccccc1.C1CCOC1.CCN(CC)CC>>CC1(C)C=C2C(S(=O)c3ccccc3)=C3CC[C@@]3(C)C[C@@H]2C1",
+      "reaction_smiles_mapped": "C([CH2:4][C:2]([CH3:1])([CH3:3])[C@H:21]([C:5]#[C:6][C:15]1=[C:18]([CH3:19])[CH2:17][CH2:16]1)[OH:8])=[CH2:22].CCN(CC)C[CH3:20].Cl[Se][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1>C1CCOC1>[CH3:1][C:2]1([CH3:3])[CH:4]=[C:5]2[C:6]([S:7](=[O:8])[c:9]3[cH:10][cH:11][cH:12][cH:13][cH:14]3)=[C:15]3[CH2:16][CH2:17][C@@:18]3([CH3:19])[CH2:20][C@@H:21]2[CH2:22]1",
+      "mapping_confidence": 0.1097003428457091,
+      "conditions": {
+        "raw_description": "1) PhSeCl; TEA; THF; -78\u00b0C; 2) rt; 70%",
+        "GENERAL_REAGENTS": [
+          "PhSeCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)[Se]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_5",
+      "reaction_smiles": "CC1(C)C=C2C(S(=O)c3ccccc3)=C3CC[C@@]3(C)C[C@@H]2C1.C[Mg]Br.[Cl-].[Cl-].[Fe].[Ni+2].c1ccc(P(c2ccccc2)c2cccc(P(c3ccccc3)c3ccccc3)c2)cc1.C1CCOC1>>CC1=C2CC[C@@]2(C)C[C@@H]2CC(C)(C)C=C12",
+      "reaction_smiles_mapped": "O=S(c1ccccc1)[C:2]1=[C:3]2[CH2:4][CH2:5][C@@:6]2([CH3:7])[CH2:8][C@@H:9]2[CH2:10][C:11]([CH3:12])([CH3:13])[CH:14]=[C:15]12.Br[Mg][CH3:1]>[Cl-].[Cl-].[Fe].[Ni+2].c1ccc(P(c2ccccc2)c2cccc(P(c3ccccc3)c3ccccc3)c2)cc1.C1CCOC1>[CH3:1][C:2]1=[C:3]2[CH2:4][CH2:5][C@@:6]2([CH3:7])[CH2:8][C@@H:9]2[CH2:10][C:11]([CH3:12])([CH3:13])[CH:14]=[C:15]12",
+      "mapping_confidence": 0.7992129281456989,
+      "conditions": {
+        "raw_description": "MeMgBr; NidppfCl2; THF; 70\u00b0C; 62%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [
+          "NidppfCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ni+2].[Cl-].[Cl-].[Fe].C1=CC=CC(=C1)P(c2ccccc2)c3cccc(c3)P(c4ccccc4)c5cccc(c5)"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_6",
+      "reaction_smiles": "CC1=C2CC[C@@]2(C)C[C@@H]2CC(C)(C)C=C12.[Na].N.CC(C)(C)O>>CC1=C2CC(C)(C)C[C@H]2C[C@]2(C)CC[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[C:15]2[C@:11]([CH3:12])([CH2:10][C@H:9]3[C:3]1=[CH:4][C:5]([CH3:6])([CH3:7])[CH2:8]3)[CH2:13][CH2:14]2>[Na].N.CC(C)(C)O>[CH3:1][C:2]1=[C:3]2[CH2:4][C:5]([CH3:6])([CH3:7])[CH2:8][C@H:9]2[CH2:10][C@:11]2([CH3:12])[CH2:13][CH2:14][C@H:15]12",
+      "mapping_confidence": 0.649287809290302,
+      "conditions": {
+        "raw_description": "Na; NH3; tBuOH; 69%",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_7",
+      "reaction_smiles": "C#CC(O)C(C)(C)CC=C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>C#CC(=O)C(C)(C)CC=C",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH:3]([OH:4])[C:5]([CH3:6])([CH3:7])[CH2:8][CH:9]=[CH2:10]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH:1]#[C:2][C:3](=[O:4])[C:5]([CH3:6])([CH3:7])[CH2:8][CH:9]=[CH2:10]",
+      "mapping_confidence": 0.7600427457164567,
+      "conditions": {
+        "raw_description": "DMP; DCM; rt; 84%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Sterpurene_1989_Okamura_8",
+      "reaction_smiles": "C#CC(=O)C(C)(C)CC=C.C[C@@H](CN(C)C)C(O)(Cc1ccccc1)c1ccccc1.[AlH4-].[Li+].CCOCC>>C#C[C@H](O)C(C)(C)CC=C",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][C:3](=[O:4])[C:5]([CH3:6])([CH3:7])[CH2:8][CH:9]=[CH2:10]>C[C@@H](CN(C)C)C(O)(Cc1ccccc1)c1ccccc1.[AlH4-].[Li+].CCOCC>[CH:1]#[C:2][C@H:3]([OH:4])[C:5]([CH3:6])([CH3:7])[CH2:8][CH:9]=[CH2:10]",
+      "mapping_confidence": 0.7385716461758252,
+      "conditions": {
+        "raw_description": "LAH; Et2O; -78\u00b0C; 65%",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    }
+  ]
+}

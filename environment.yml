@@ -1,0 +1,9 @@
+name: cbyd
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.18
+  - rdkit=2024.09.4
+  - numpy=1.26.4
+  - pip=25.2

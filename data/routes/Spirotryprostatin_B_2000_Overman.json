@@ -1,0 +1,325 @@
+{
+  "background": {
+    "name": "(-)-Spirotryprostatin B",
+    "author": "Overman",
+    "year": 2000,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2000, 39, 4596",
+    "doi": "10.1002/1521-3773(20001215)39:24<4596::AID-ANIE4596>3.0.CO;2-F"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_1",
+      "reaction_smiles": "CC(C)=CC=O.C=CC(=O)OC.C1CN2CCN1CC2>>C=C(C(=O)OC)C(O)C=C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:10]([CH3:2])=[CH:9][CH:7]=[O:4]>C=CC(=O)OC.C1CN2CCN1CC2>[CH2:1]=[C:2]([C:3](=[O:4])[O:5][CH3:6])[CH:7]([OH:8])[CH:9]=[C:10]([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.9151876364037246,
+      "conditions": {
+        "raw_description": "DABCO; 35%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DABCO"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CN2CCN1CC2"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_2",
+      "reaction_smiles": "C=C(C(=O)OC)C(O)C=C(C)C.CC(=O)OC(C)=O.c1ccncc1>>C=C(C(=O)OC)C(C=C(C)C)OC(C)=O",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([C:3](=[O:4])[O:5][CH3:6])[CH:7]([CH:8]=[C:9]([CH3:10])[CH3:14])[OH:12]>CC(=O)OC(C)=O.c1ccncc1>[CH2:1]=[C:2]([C:3](=[O:4])[O:5][CH3:6])[CH:7]([CH:8]=[C:9]([CH3:10])[CH3:11])[O:12][C:13]([CH3:14])=[O:15]",
+      "mapping_confidence": 0.9540162751482264,
+      "conditions": {
+        "raw_description": "Ac2O; pyridine",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_3",
+      "reaction_smiles": "C=C(C(=O)OC)C(C=C(C)C)OC(C)=O.CCOCC.[Br-].[Br-].[Mg+2].CCN(C(C)C)C(C)C.CC(=O)O>>COC(=O)/C(=C/C=C(C)C)COC(C)=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C:5]([CH:6]([CH:7]=[C:8]([CH3:9])[CH3:10])[O:12][C:13]([CH3:14])=[O:15])=[CH2:11]>CCOCC.[Br-].[Br-].[Mg+2].CCN(C(C)C)C(C)C.CC(=O)O>[CH3:1][O:2][C:3](=[O:4])/[C:5](=[CH:6]/[CH:7]=[C:8]([CH3:9])[CH3:10])[CH2:11][O:12][C:13]([CH3:14])=[O:15]",
+      "mapping_confidence": 0.8102008672789203,
+      "conditions": {
+        "raw_description": "MgBr2.OEt2; DIPEA; AcOH; 94%",
+        "GENERAL_REAGENTS": [
+          "MgBr2.OEt2",
+          "DIPEA",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].[Br-].[Br-].CCOCC",
+          "CCN(C(C)C)C(C)C",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_4",
+      "reaction_smiles": "COC(=O)/C(=C/C=C(C)C)COC(C)=O.[Li]O>>CC(C)=C/C=C(\\CO)C(=O)O",
+      "reaction_smiles_mapped": "CC(=O)[O:8][CH2:7]/[C:6](=[CH:5]\\[CH:4]=[C:2]([CH3:1])[CH3:3])[C:9](=[O:10])[O:11]C>[Li]O>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][OH:8])[C:9](=[O:10])[OH:11]",
+      "mapping_confidence": 0.878713896911115,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_5",
+      "reaction_smiles": "CC(C)=C/C=C(\\CO)C(=O)O.CC(C)(C)[Si](Cl)(c1ccccc1)c1ccccc1>>CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[CH:4]/[CH:5]=[C:6](\\[CH2:7][OH:8])[C:26](=[O:27])[OH:28])[CH3:17]>CC(C)(C)[Si](Cl)(c1ccccc1)c1ccccc1>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25])[C:26](=[O:27])[OH:28]",
+      "mapping_confidence": 0.9496306723719772,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_6",
+      "reaction_smiles": "CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)O.Nc1ccccc1I.C[n+]1ccccc1Cl>>CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)Nc1ccccc1I",
+      "reaction_smiles_mapped": "O[C:26](/[C:6](=[CH:5]/[CH:4]=[C:2]([CH3:1])[CH3:3])[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25])=[O:27]>Nc1ccccc1I.C[n+]1ccccc1Cl>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25])[C:26](=[O:27])[NH:28][c:29]1[cH:30][cH:31][cH:32][cH:33][c:34]1[I:35]",
+      "mapping_confidence": 0.21223378489224004,
+      "conditions": {
+        "raw_description": "78%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_7",
+      "reaction_smiles": "CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)Nc1ccccc1I.[H-].[Na+].C[Si](C)(C)CCOCCl>>CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25])[C:26](=[O:27])[NH:28][c:37]1[cH:38][cH:39][cH:40][cH:41][c:42]1[I:43].Cl[CH2:29][O:30][CH2:31][CH2:32][Si:33]([CH3:34])([CH3:35])[CH3:36]>[H-].[Na+]>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][O:8][Si:9]([c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1)([c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)[C:22]([CH3:23])([CH3:24])[CH3:25])[C:26](=[O:27])[N:28]([CH2:29][O:30][CH2:31][CH2:32][Si:33]([CH3:34])([CH3:35])[CH3:36])[c:37]1[cH:38][cH:39][cH:40][cH:41][c:42]1[I:43]",
+      "mapping_confidence": 0.07630817470114637,
+      "conditions": {
+        "raw_description": "NaH; SEMCl",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "SEMCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "C[Si](C)(C)CCOCCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_8",
+      "reaction_smiles": "CC(C)=C/C=C(\\CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I.*B([3H])F>>CC(C)=C/C=C(\\CO)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](c1ccccc1)(c1ccccc1)[O:8][CH2:7]/[C:6](=[CH:5]\\[CH:4]=[C:2]([CH3:1])[CH3:3])[C:9](=[O:10])[N:11]([CH2:12][O:13][CH2:14][CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[c:20]1[cH:21][cH:22][cH:23][cH:24][c:25]1[I:26]>*B([3H])F>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][OH:8])[C:9](=[O:10])[N:11]([CH2:12][O:13][CH2:14][CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[c:20]1[cH:21][cH:22][cH:23][cH:24][c:25]1[I:26]",
+      "mapping_confidence": 0.35050534453297516,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_9",
+      "reaction_smiles": "CC(C)=C/C=C(\\CO)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21>>CC(C)=C/C=C(\\C=O)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH2:7][OH:8])[C:9](=[O:10])[N:11]([CH2:12][O:13][CH2:14][CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[c:20]1[cH:21][cH:22][cH:23][cH:24][c:25]1[I:26]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH:7]=[O:8])[C:9](=[O:10])[N:11]([CH2:12][O:13][CH2:14][CH2:15][Si:16]([CH3:17])([CH3:18])[CH3:19])[c:20]1[cH:21][cH:22][cH:23][cH:24][c:25]1[I:26]",
+      "mapping_confidence": 0.3710118655810993,
+      "conditions": {
+        "raw_description": "DMP",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_10",
+      "reaction_smiles": "CC(C)=C/C=C(\\C=O)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I.COP(=O)(OC)C1NC(=O)[C@@H]2CCCN2C1=O.CC(C)(C)O[K]>>CC(C)=C/C=C(\\C=C1/NC(=O)[C@H]2CCCN2C1=O)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I",
+      "reaction_smiles_mapped": "O=[CH:7]/[C:6](=[CH:5]\\[CH:4]=[C:2]([CH3:1])[CH3:3])[C:19](=[O:20])[N:21]([CH2:22][O:23][CH2:24][CH2:25][Si:26]([CH3:27])([CH3:28])[CH3:29])[c:30]1[cH:31][cH:32][cH:33][cH:34][c:35]1[I:36].COP(=O)(OC)[CH:8]1[NH:9][C:10](=[O:11])[C@@H:12]2[CH2:13][CH2:14][CH2:15][N:16]2[C:17]1=[O:18]>CC(C)(C)O[K]>[CH3:1][C:2]([CH3:3])=[CH:4]/[CH:5]=[C:6](\\[CH:7]=[C:8]1/[NH:9][C:10](=[O:11])[C@H:12]2[CH2:13][CH2:14][CH2:15][N:16]2[C:17]1=[O:18])[C:19](=[O:20])[N:21]([CH2:22][O:23][CH2:24][CH2:25][Si:26]([CH3:27])([CH3:28])[CH3:29])[c:30]1[cH:31][cH:32][cH:33][cH:34][c:35]1[I:36]",
+      "mapping_confidence": 0.28946674088250707,
+      "conditions": {
+        "raw_description": "KOtBu; 61% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "61% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_11",
+      "reaction_smiles": "CC(C)=C/C=C(\\C=C1/NC(=O)[C@H]2CCCN2C1=O)C(=O)N(COCC[Si](C)(C)C)c1ccccc1I.CC(=O)[O-].[K+].ClC(Cl)Cl.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].Cc1ccccc1P(c1ccccc1C)c1ccccc1C.C1CCOC1>>CC(C)=C[C@@H]1N2C(=O)[C@@H]3CCCN3C(=O)C2=C[C@@]12C(=O)N(COCC[Si](C)(C)C)c1ccccc12",
+      "reaction_smiles_mapped": "I[c:35]1[c:30]([N:21]([C:19]([C:18](=[CH:5]/[CH:4]=[C:2]([CH3:1])[CH3:3])/[CH:17]=[C:16]2\\[NH:6][C:7](=[O:8])[C@H:9]3[CH2:10][CH2:11][CH2:12][N:13]3[C:14]2=[O:15])=[O:20])[CH2:22][O:23][CH2:24][CH2:25][Si:26]([CH3:27])([CH3:28])[CH3:29])[cH:31][cH:32][cH:33][cH:34]1>C1CCOC1.CC(=O)[O-].Cc1ccccc1P(c1ccccc1C)c1ccccc1C.ClC(Cl)Cl.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[K+].[Pd].[Pd]>[CH3:1][C:2]([CH3:3])=[CH:4][C@@H:5]1[N:6]2[C:7](=[O:8])[C@@H:9]3[CH2:10][CH2:11][CH2:12][N:13]3[C:14](=[O:15])[C:16]2=[CH:17][C@@:18]12[C:19](=[O:20])[N:21]([CH2:22][O:23][CH2:24][CH2:25][Si:26]([CH3:27])([CH3:28])[CH3:29])[c:30]1[cH:31][cH:32][cH:33][cH:34][c:35]12",
+      "mapping_confidence": 0.27165735302694244,
+      "conditions": {
+        "raw_description": "[Pd(dba)3].CHCl3; (otol)3P; KOAc; THF; 70 \u00b0C; 36%",
+        "GENERAL_REAGENTS": [
+          "KOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[K+]"
+        ],
+        "CATALYSTS": [
+          "[Pd(dba)3]\u2022CHCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.O=C(/C=C/c1ccccc1)/C=C/c2ccccc2.[Pd].[Pd].ClC(Cl)Cl"
+        ],
+        "LIGANDS": [
+          "(otol)3P"
+        ],
+        "LIGANDS_SMILES": [
+          "P(c1c(C)cccc1)(c1c(C)cccc1)c1c(C)cccc1"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "36%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Spirotryprostatin_B_2000_Overman_12",
+      "reaction_smiles": "CC(C)=C[C@@H]1N2C(=O)[C@@H]3CCCN3C(=O)C2=C[C@@]12C(=O)N(COCC[Si](C)(C)C)c1ccccc12.CCN(C(C)C)C(C)C.C[Al](C)Cl>>CC(C)=C[C@@H]1N2C(=O)[C@@H]3CCCN3C(=O)C2=C[C@@]12C(=O)Nc1ccccc12",
+      "reaction_smiles_mapped": "C[Si](C)(C)CCOC[N:21]1[C:19](=[O:20])[C@:18]2([C@H:5]([CH:4]=[C:2]([CH3:1])[CH3:3])[N:6]3[C:7](=[O:8])[C@@H:9]4[CH2:10][CH2:11][CH2:12][N:13]4[C:14](=[O:15])[C:16]3=[CH:17]2)[c:27]2[c:22]1[cH:23][cH:24][cH:25][cH:26]2>CCN(C(C)C)C(C)C.C[Al](C)Cl>[CH3:1][C:2]([CH3:3])=[CH:4][C@@H:5]1[N:6]2[C:7](=[O:8])[C@@H:9]3[CH2:10][CH2:11][CH2:12][N:13]3[C:14](=[O:15])[C:16]2=[CH:17][C@@:18]12[C:19](=[O:20])[NH:21][c:22]1[cH:23][cH:24][cH:25][cH:26][c:27]12",
+      "mapping_confidence": 0.7938833475820303,
+      "conditions": {
+        "raw_description": "Me2AlCl; DIPEA; 93%",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "Me2AlCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    }
+  ]
+}

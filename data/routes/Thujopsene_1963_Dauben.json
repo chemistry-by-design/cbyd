@@ -1,0 +1,269 @@
+{
+  "background": {
+    "name": "(+/-)-Thujopsene",
+    "author": "Dauben",
+    "year": 1963,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1963, 85, 3673",
+    "doi": "10.1021/ja00905a032"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_1",
+      "reaction_smiles": "CC12CCCCC1=CC(=O)CC2.CI.CI.CC(C)(C)O[K].CC(C)(C)O>>CC12CCCC=C1C(C)(C)C(=O)CC2",
+      "reaction_smiles_mapped": "[CH3:1][C:2]12[CH2:3][CH2:4][CH2:5][CH2:6][C:7]1=[CH:8][C:11](=[O:12])[CH2:13][CH2:14]2.I[CH3:10].I[CH3:9]>CC(C)(C)O.CC(C)(C)O[K]>[CH3:1][C:2]12[CH2:3][CH2:4][CH2:5][CH:6]=[C:7]1[C:8]([CH3:9])([CH3:10])[C:11](=[O:12])[CH2:13][CH2:14]2",
+      "mapping_confidence": 0.34812629737568435,
+      "conditions": {
+        "raw_description": "MeI; KOtBu; t-BuOH; 77%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_2",
+      "reaction_smiles": "CC12CCCC=C1C(C)(C)C(=O)CC2.[Na].NN.OCCOCCO>>CC1(C)CCCC2(C)CCCC=C12",
+      "reaction_smiles_mapped": "O=[C:4]1[C:2]([CH3:1])([CH3:3])[C:13]2=[CH:12][CH2:11][CH2:10][CH2:9][C:7]2([CH3:8])[CH2:6][CH2:5]1>[Na].NN.OCCOCCO>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]2([CH3:8])[CH2:9][CH2:10][CH2:11][CH:12]=[C:13]12",
+      "mapping_confidence": 0.5996619951021865,
+      "conditions": {
+        "raw_description": "Na; H2NNH2; diethylene glycol; 87%",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "H2NNH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "NN"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "diethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(COCCO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_3",
+      "reaction_smiles": "CC1(C)CCCC2(C)CCCC=C12.CC(=O)O.O=[Cr](=O)([O-])[O-].[Na+].[Na+]>>CC1(C)CCCC2(C)CCC(=O)C=C12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]2([CH3:8])[CH2:9][CH2:10][CH2:11][CH:13]=[C:14]12.O=[Cr]([O-])([O-])=[O:12]>CC(=O)O.[Na+].[Na+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]2([CH3:8])[CH2:9][CH2:10][C:11](=[O:12])[CH:13]=[C:14]12",
+      "mapping_confidence": 0.3393238587118559,
+      "conditions": {
+        "raw_description": "Na2CrO4; AcOH; 72%",
+        "GENERAL_REAGENTS": [
+          "Na2CrO4",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[Na+].[O-][Cr](=O)(=O)[O-]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_4",
+      "reaction_smiles": "CC1CCCCC1=O.CCN(CC)CCC(C)=O.CC(C)(C)O.CI.CC(C)(C)O[K]>>CC12CCCCC1=CC(=O)CC2",
+      "reaction_smiles_mapped": "O=[C:7]1[CH:2]([CH3:1])[CH2:3][CH2:4][CH2:5][CH2:6]1.CCN(CC)[CH2:12][CH2:11][C:9]([CH3:8])=[O:10]>CC(C)(C)O.CI.CC(C)(C)O[K]>[CH3:1][C:2]12[CH2:3][CH2:4][CH2:5][CH2:6][C:7]1=[CH:8][C:9](=[O:10])[CH2:11][CH2:12]2",
+      "mapping_confidence": 0.7734813727071004,
+      "conditions": {
+        "raw_description": "MeI; KOtBu; t-BuOH; 42%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "42%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_5",
+      "reaction_smiles": "CC1(C)CCCC2(C)CCC(=O)C=C12.[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>>CC1(C)CCC[C@]2(C)CC[C@@H](O)C=C12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]2([CH3:8])[CH2:9][CH2:10][C:11](=[O:12])[CH:13]=[C:14]12>[H-].[H-].[H-].[Li].[Al+3].CCOCC.[AlH4-].[Li+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[CH2:9][CH2:10][C@@H:11]([OH:12])[CH:13]=[C:14]12",
+      "mapping_confidence": 0.8537537913860097,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 95%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_6",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)CC[C@@H](O)C=C12.[Zn].[Cu].CCOCC.COC(C)OC.ICI.COCCOC>>CC1(C)CCC[C@]2(C)CC[C@@H](O)[C@H]3C[C@@]312",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[CH2:9][CH2:10][C@@H:11]([OH:12])[CH:13]=[C:15]12.I[CH2:14]I>[Zn].[Cu].CCOCC.COC(C)OC.COCCOC>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[CH2:9][CH2:10][C@@H:11]([OH:12])[C@H:13]3[CH2:14][C@@:15]123",
+      "mapping_confidence": 0.9022983162264874,
+      "conditions": {
+        "raw_description": "CH2I2; Zn/Cu; Et2O; DME; reflux; 23%",
+        "GENERAL_REAGENTS": [
+          "CH2I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(I)I"
+        ],
+        "CATALYSTS": [
+          "Zn",
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]",
+          "[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "23%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_7",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)CC[C@@H](O)[C@H]3C[C@@]312.O=S(=O)(O)O.CC(C)=O.O.O=[Cr](=O)(O)O>>CC1(C)CCC[C@]2(C)CCC(=O)[C@H]3C[C@@]312",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[CH2:9][CH2:10][C@@H:11]([OH:12])[C@H:13]3[CH2:14][C@@:15]123>O=S(=O)(O)O.CC(C)=O.O.O=[Cr](=O)(O)O>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[CH2:9][CH2:10][C:11](=[O:12])[C@H:13]3[CH2:14][C@@:15]123",
+      "mapping_confidence": 0.8961651297403614,
+      "conditions": {
+        "raw_description": "H2CrO4; H2SO4; acetone; H2O; 97%",
+        "GENERAL_REAGENTS": [
+          "H2CrO4",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O[Cr](O)(=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Thujopsene_1963_Dauben_8",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)CCC(=O)[C@H]3C[C@@]312.CCOCC.C[Mg]I>>CC1=CC[C@@]2(C)CCCC(C)(C)[C@]23C[C@H]13",
+      "reaction_smiles_mapped": "O=[C:2]1[CH2:3][CH2:4][C@@:5]2([CH3:6])[CH2:7][CH2:8][CH2:9][C:10]([CH3:11])([CH3:12])[C@:13]23[CH2:14][C@H:15]13.I[Mg][CH3:1]>CCOCC>[CH3:1][C:2]1=[CH:3][CH2:4][C@@:5]2([CH3:6])[CH2:7][CH2:8][CH2:9][C:10]([CH3:11])([CH3:12])[C@:13]23[CH2:14][C@H:15]13",
+      "mapping_confidence": 0.7785949767249964,
+      "conditions": {
+        "raw_description": "MeMgI; Et2O; reflux; 77%",
+        "GENERAL_REAGENTS": [
+          "MeMgI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    }
+  ]
+}

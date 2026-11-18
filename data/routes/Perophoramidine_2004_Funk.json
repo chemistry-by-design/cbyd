@@ -1,0 +1,625 @@
+{
+  "background": {
+    "name": "(+/-)-Perophoramidine",
+    "author": "Funk",
+    "year": 2004,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2004, 126, 5066",
+    "doi": "10.1021/ja049569g"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_1",
+      "reaction_smiles": "Brc1ccc2cc[nH]c2c1.O=C(Cl)C(=O)Cl.B.CCOCC.C1CCOC1>>OCCc1c[nH]c2cc(Br)ccc12",
+      "reaction_smiles_mapped": "[cH:4]1[cH:5][nH:6][c:7]2[cH:8][c:9]([Br:10])[cH:11][cH:12][c:13]12.O=[C:3](Cl)[C:2](Cl)=[O:1]>B.CCOCC.C1CCOC1>[OH:1][CH2:2][CH2:3][c:4]1[cH:5][nH:6][c:7]2[cH:8][c:9]([Br:10])[cH:11][cH:12][c:13]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) (COCl)2; Et2O; 0\u00b0C; 2) BH3; THF; 70\u00b0C; 4h; 65%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "70"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_2",
+      "reaction_smiles": "OCCc1c[nH]c2cc(Br)ccc12.c1c[nH]cn1.II.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccccc1>>Brc1ccc2c(CCI)c[nH]c2c1",
+      "reaction_smiles_mapped": "I[I:9].O[CH2:8][CH2:7][c:6]1[c:5]2[cH:4][cH:3][c:2]([Br:1])[cH:13][c:12]2[nH:11][cH:10]1>c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccccc1>[Br:1][c:2]1[cH:3][cH:4][c:5]2[c:6]([CH2:7][CH2:8][I:9])[cH:10][nH:11][c:12]2[cH:13]1",
+      "mapping_confidence": 0.5008380150006936,
+      "conditions": {
+        "raw_description": "im; PPh3; I2; PhH; rt; 3h; 85%",
+        "GENERAL_REAGENTS": [
+          "im",
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CN=CN1",
+          "II"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_3",
+      "reaction_smiles": "Brc1ccc2c(CCI)c[nH]c2c1.[N-]=[N+]=[N-].[Na+].CN(C)C=O>>[N-]=[N+]=NCCc1c[nH]c2cc(Br)ccc12",
+      "reaction_smiles_mapped": "I[CH2:4][CH2:5][c:6]1[cH:7][nH:8][c:9]2[cH:10][c:11]([Br:12])[cH:13][cH:14][c:15]12.[N-:1]=[N+:2]=[N-:3]>[Na+].CN(C)C=O>[N-:1]=[N+:2]=[N:3][CH2:4][CH2:5][c:6]1[cH:7][nH:8][c:9]2[cH:10][c:11]([Br:12])[cH:13][cH:14][c:15]12",
+      "mapping_confidence": 0.45847212845673074,
+      "conditions": {
+        "raw_description": "NaN3; DMF; 50\u00b0C; 2h; 94%",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_4",
+      "reaction_smiles": "[N-]=[N+]=NCCc1c[nH]c2cc(Br)ccc12.O=C1CCC(=O)N1Br.C1CCOC1.CC(C)(C)O.O>>[N-]=[N+]=NCCC1(Br)C(=O)Nc2cc(Br)ccc21",
+      "reaction_smiles_mapped": "O=C1CCC(=[O:9])N1[Br:7].[N-:1]=[N+:2]=[N:3][CH2:4][CH2:5][c:6]1[cH:8][nH:10][c:11]2[cH:12][c:13]([Br:14])[cH:15][cH:16][c:17]12>C1CCOC1.CC(C)(C)O.O>[N-:1]=[N+:2]=[N:3][CH2:4][CH2:5][C:6]1([Br:7])[C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([Br:14])[cH:15][cH:16][c:17]21",
+      "mapping_confidence": 0.4940178470885346,
+      "conditions": {
+        "raw_description": "NBS; THF; tBuOH/H2O; rt; 1h; 92%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_5",
+      "reaction_smiles": "[N-]=[N+]=NCCC1(Br)C(=O)Nc2cc(Br)ccc21.CC(C)[Si](OCCc1c[nH]c2ccccc12)(C(C)C)C(C)C.O=C([O-])[O-].[Cs+].[Cs+].ClCCl>>CC(C)[Si](OCC[C@@]1([C@@]2(CCN=[N+]=[N-])C(=O)Nc3cc(Br)ccc32)C=Nc2ccccc21)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][c:8]1[cH:25][nH:26][c:27]2[cH:28][cH:29][cH:30][cH:31][c:32]12)([CH:33]([CH3:34])[CH3:35])[CH:36]([CH3:37])[CH3:38].Br[C:9]1([CH2:10][CH2:11][N:12]=[N+:13]=[N-:14])[C:15](=[O:16])[NH:17][c:18]2[cH:19][c:20]([Br:21])[cH:22][cH:23][c:24]21>O=C([O-])[O-].[Cs+].[Cs+].ClCCl>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@@:8]1([C@@:9]2([CH2:10][CH2:11][N:12]=[N+:13]=[N-:14])[C:15](=[O:16])[NH:17][c:18]3[cH:19][c:20]([Br:21])[cH:22][cH:23][c:24]32)[CH:25]=[N:26][c:27]2[cH:28][cH:29][cH:30][cH:31][c:32]21)([CH:33]([CH3:34])[CH3:35])[CH:36]([CH3:37])[CH3:38]",
+      "mapping_confidence": 0.23658688343098644,
+      "conditions": {
+        "raw_description": "Cs2CO3; DCM; rt; 2d; 89%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_6",
+      "reaction_smiles": "CC(C)[Si](OCC[C@@]1([C@@]2(CCN=[N+]=[N-])C(=O)Nc3cc(Br)ccc32)C=Nc2ccccc21)(C(C)C)C(C)C.[H-].[Na+].CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.C1CCOC1>>CC(C)[Si](OCC[C@@]1([C@@]2(CCN=[N+]=[N-])C(=O)N(C(=O)OC(C)(C)C)c3cc(Br)ccc32)C=Nc2ccccc21)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24].[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@@:8]1([C@@:9]2([CH2:10][CH2:11][N:12]=[N+:13]=[N-:14])[C:15](=[O:16])[NH:17][c:25]3[cH:26][c:27]([Br:28])[cH:29][cH:30][c:31]32)[CH:32]=[N:33][c:34]2[cH:35][cH:36][cH:37][cH:38][c:39]21)([CH:40]([CH3:41])[CH3:42])[CH:43]([CH3:44])[CH3:45]>[H-].[Na+].C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@@:8]1([C@@:9]2([CH2:10][CH2:11][N:12]=[N+:13]=[N-:14])[C:15](=[O:16])[N:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]3[cH:26][c:27]([Br:28])[cH:29][cH:30][c:31]32)[CH:32]=[N:33][c:34]2[cH:35][cH:36][cH:37][cH:38][c:39]21)([CH:40]([CH3:41])[CH3:42])[CH:43]([CH3:44])[CH3:45]",
+      "mapping_confidence": 0.07564715353793755,
+      "conditions": {
+        "raw_description": "NaH; Boc2O; THF; rt; 1h; 92%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_7",
+      "reaction_smiles": "CC(C)[Si](OCC[C@@]1([C@@]2(CCN=[N+]=[N-])C(=O)N(C(=O)OC(C)(C)C)c3cc(Br)ccc32)C=Nc2ccccc21)(C(C)C)C(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1.O>>CC(C)[Si](OCC[C@]12c3ccccc3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCNC1=O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:35][CH2:34][CH2:33][C@@:32]1([C@@:8]2([CH2:7][CH2:6][O:5][Si:4]([CH:2]([CH3:1])[CH3:3])([CH:38]([CH3:39])[CH3:40])[CH:41]([CH3:42])[CH3:43])[c:9]3[cH:10][cH:11][cH:12][cH:13][c:14]3[N:15]=[CH:16]2)[c:31]2[c:25]([cH:26][c:27]([Br:28])[cH:29][cH:30]2)[N:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[C:36]1=[O:37]>c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1.O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@:8]12[c:9]3[cH:10][cH:11][cH:12][cH:13][c:14]3[NH:15][C@H:16]1[N:17]([C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24])[c:25]1[cH:26][c:27]([Br:28])[cH:29][cH:30][c:31]1[C@@:32]21[CH2:33][CH2:34][NH:35][C:36]1=[O:37])([CH:38]([CH3:39])[CH3:40])[CH:41]([CH3:42])[CH3:43]",
+      "mapping_confidence": 0.12286745155044689,
+      "conditions": {
+        "raw_description": "PPh3; THF/H2O; 50\u00b0C; 5h; 89%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_8",
+      "reaction_smiles": "CC(C)[Si](OCC[C@]12c3ccccc3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCNC1=O)(C(C)C)C(C)C.O=C1CCC(=O)N1Cl.CC(=O)O>>CC(C)[Si](OCC[C@]12c3cc(Cl)cc(Cl)c3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCNC1=O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@:8]12[c:9]3[cH:10][cH:11][cH:13][cH:14][c:16]3[NH:17][C@H:18]1[N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]1[cH:28][c:29]([Br:30])[cH:31][cH:32][c:33]1[C@@:34]21[CH2:35][CH2:36][NH:37][C:38]1=[O:39])([CH:40]([CH3:41])[CH3:42])[CH:43]([CH3:44])[CH3:45].O=C1CCC(=O)N1[Cl:12]>CC(=O)O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@:8]12[c:9]3[cH:10][c:11]([Cl:12])[cH:13][c:14]([Cl:15])[c:16]3[NH:17][C@H:18]1[N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]1[cH:28][c:29]([Br:30])[cH:31][cH:32][c:33]1[C@@:34]21[CH2:35][CH2:36][NH:37][C:38]1=[O:39])([CH:40]([CH3:41])[CH3:42])[CH:43]([CH3:44])[CH3:45]",
+      "mapping_confidence": 0.17057653897724417,
+      "conditions": {
+        "raw_description": "NCS; AcOH; rt; 1d; 86%",
+        "GENERAL_REAGENTS": [
+          "NCS",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Cl",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_9",
+      "reaction_smiles": "CC(C)[Si](OCC[C@]12c3cc(Cl)cc(Cl)c3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCNC1=O)(C(C)C)C(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].O=[N+]([O-])c1ccccc1S(=O)(=O)Cl>>CC(C)[Si](OCC[C@]12c3cc(Cl)cc(Cl)c3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)C1=O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@:8]12[c:9]3[cH:10][c:11]([Cl:12])[cH:13][c:14]([Cl:15])[c:16]3[NH:17][C@H:18]1[N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]1[cH:28][c:29]([Br:30])[cH:31][cH:32][c:33]1[C@@:34]21[CH2:35][CH2:36][NH:37][C:50]1=[O:51])([CH:52]([CH3:53])[CH3:54])[CH:55]([CH3:56])[CH3:57].Cl[S:38](=[O:39])(=[O:40])[c:41]1[c:44]([N+:45](=[O:46])[O-:47])[cH:43][cH:42][cH:48][cH:49]1>C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][C@:8]12[c:9]3[cH:10][c:11]([Cl:12])[cH:13][c:14]([Cl:15])[c:16]3[NH:17][C@H:18]1[N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[c:27]1[cH:28][c:29]([Br:30])[cH:31][cH:32][c:33]1[C@@:34]21[CH2:35][CH2:36][N:37]([S:38](=[O:39])(=[O:40])[c:41]2[cH:42][cH:43][c:44]([N+:45](=[O:46])[O-:47])[cH:48][cH:49]2)[C:50]1=[O:51])([CH:52]([CH3:53])[CH3:54])[CH:55]([CH3:56])[CH3:57]",
+      "mapping_confidence": 0.08076647837057137,
+      "conditions": {
+        "raw_description": "NaHMDS; NsCl; rt; 1h; 81%",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "NsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "ClS(=O)(=O)c1ccccc1[N+](=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_10",
+      "reaction_smiles": "CC(C)[Si](OCC[C@]12c3cc(Cl)cc(Cl)c3N[C@H]1N(C(=O)OC(C)(C)C)c1cc(Br)ccc1[C@@]21CCN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)C1=O)(C(C)C)C(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>>CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@@]2(CCN(S(=O)(=O)c3ccc([N+](=O)[O-])cc3)C2=O)[C@@]2(CCO)c3cc(Cl)cc(Cl)c3N[C@@H]12",
+      "reaction_smiles_mapped": "CC(C)[Si](C(C)C)(C(C)C)[O:37][CH2:36][CH2:35][C@@:34]12[C@@:16]3([c:15]4[c:9]([cH:10][c:11]([Br:12])[cH:13][cH:14]4)[N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C@@H:47]1[NH:46][c:45]1[c:38]2[cH:39][c:40]([Cl:41])[cH:42][c:43]1[Cl:44])[CH2:17][CH2:18][N:19]([S:20](=[O:21])(=[O:22])[c:23]1[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]1)[C:32]3=[O:33]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].CC(=O)O.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[c:9]2[cH:10][c:11]([Br:12])[cH:13][cH:14][c:15]2[C@@:16]2([CH2:17][CH2:18][N:19]([S:20](=[O:21])(=[O:22])[c:23]3[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]3)[C:32]2=[O:33])[C@@:34]2([CH2:35][CH2:36][OH:37])[c:38]3[cH:39][c:40]([Cl:41])[cH:42][c:43]([Cl:44])[c:45]3[NH:46][C@@H:47]12",
+      "mapping_confidence": 0.1583263872429037,
+      "conditions": {
+        "raw_description": "TBAF; AcOH/THF; 40\u00b0C; 1d; 98%",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_11",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@@]2(CCN(S(=O)(=O)c3ccc([N+](=O)[O-])cc3)C2=O)[C@@]2(CCO)c3cc(Cl)cc(Cl)c3N[C@@H]12.[N-]=[N+]=NP(=O)(Oc1ccccc1)Oc1ccccc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@@]2(CCN(S(=O)(=O)c3ccc([N+](=O)[O-])cc3)C2=O)[C@@]2(CCN=[N+]=[N-])c3cc(Cl)cc(Cl)c3N[C@@H]12",
+      "reaction_smiles_mapped": "O[CH2:36][CH2:35][C@@:34]12[C@@:16]3([c:15]4[c:9]([cH:10][c:11]([Br:12])[cH:13][cH:14]4)[N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C@@H:49]1[NH:48][c:47]1[c:40]2[cH:41][c:42]([Cl:43])[cH:44][c:45]1[Cl:46])[CH2:17][CH2:18][N:19]([S:20](=[O:21])(=[O:22])[c:23]1[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]1)[C:32]3=[O:33].O=P(Oc1ccccc1)(Oc1ccccc1)[N:37]=[N+:38]=[N-:39]>CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[c:9]2[cH:10][c:11]([Br:12])[cH:13][cH:14][c:15]2[C@@:16]2([CH2:17][CH2:18][N:19]([S:20](=[O:21])(=[O:22])[c:23]3[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]3)[C:32]2=[O:33])[C@@:34]2([CH2:35][CH2:36][N:37]=[N+:38]=[N-:39])[c:40]3[cH:41][c:42]([Cl:43])[cH:44][c:45]([Cl:46])[c:47]3[NH:48][C@@H:49]12",
+      "mapping_confidence": 0.1581522748854371,
+      "conditions": {
+        "raw_description": "DPPA; DIAD; PPh3; THF; rt; 3h; 80%",
+        "GENERAL_REAGENTS": [
+          "DPPA",
+          "DIAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(/N=[N+]=[N-])(Oc1ccccc1)Oc2ccccc2",
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_12",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@@]2(CCN(S(=O)(=O)c3ccc([N+](=O)[O-])cc3)C2=O)[C@@]2(CCN=[N+]=[N-])c3cc(Cl)cc(Cl)c3N[C@@H]12.CP(C)C.C1CCOC1>>CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@]2(CCNS(=O)(=O)c3ccc([N+](=O)[O-])cc3)C(=O)NCC[C@]23c2cc(Cl)cc(Cl)c2N[C@@H]13",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:34][CH2:35][CH2:36][C@@:37]12[C@@:16]3([c:15]4[c:9]([cH:10][c:11]([Br:12])[cH:13][cH:14]4)[N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C@@H:47]1[NH:46][c:45]1[c:38]2[cH:39][c:40]([Cl:41])[cH:42][c:43]1[Cl:44])[CH2:17][CH2:18][N:19]([S:20](=[O:21])(=[O:22])[c:23]1[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]1)[C:32]3=[O:33]>CP(C)C.C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[c:9]2[cH:10][c:11]([Br:12])[cH:13][cH:14][c:15]2[C@:16]2([CH2:17][CH2:18][NH:19][S:20](=[O:21])(=[O:22])[c:23]3[cH:24][cH:25][c:26]([N+:27](=[O:28])[O-:29])[cH:30][cH:31]3)[C:32](=[O:33])[NH:34][CH2:35][CH2:36][C@:37]23[c:38]2[cH:39][c:40]([Cl:41])[cH:42][c:43]([Cl:44])[c:45]2[NH:46][C@@H:47]13",
+      "mapping_confidence": 0.24064571965178902,
+      "conditions": {
+        "raw_description": "PMe3; THF; rt; 2h; 86%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PMe3"
+        ],
+        "LIGANDS_SMILES": [
+          "CP(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_13",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1c2cc(Br)ccc2[C@]2(CCNS(=O)(=O)c3ccc([N+](=O)[O-])cc3)C(=O)NCC[C@]23c2cc(Cl)cc(Cl)c2N[C@@H]13.CI.O=C([O-])[O-].[Cs+].[Cs+].CC#N>>CN(CC[C@@]12C(=O)NCC[C@]13c1cc(Cl)cc(Cl)c1N[C@H]3N(C(=O)OC(C)(C)C)c1cc(Br)ccc12)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "reaction_smiles_mapped": "[NH:2]([CH2:3][CH2:4][C@@:5]12[C:6](=[O:7])[NH:8][CH2:9][CH2:10][C@:11]13[c:12]1[cH:13][c:14]([Cl:15])[cH:16][c:17]([Cl:18])[c:19]1[NH:20][C@H:21]3[N:22]([C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[c:30]1[cH:31][c:32]([Br:33])[cH:34][cH:35][c:36]12)[S:37](=[O:38])(=[O:39])[c:40]1[cH:41][cH:42][c:43]([N+:44](=[O:45])[O-:46])[cH:47][cH:48]1.I[CH3:1]>O=C([O-])[O-].[Cs+].[Cs+].CC#N>[CH3:1][N:2]([CH2:3][CH2:4][C@@:5]12[C:6](=[O:7])[NH:8][CH2:9][CH2:10][C@:11]13[c:12]1[cH:13][c:14]([Cl:15])[cH:16][c:17]([Cl:18])[c:19]1[NH:20][C@H:21]3[N:22]([C:23](=[O:24])[O:25][C:26]([CH3:27])([CH3:28])[CH3:29])[c:30]1[cH:31][c:32]([Br:33])[cH:34][cH:35][c:36]12)[S:37](=[O:38])(=[O:39])[c:40]1[cH:41][cH:42][c:43]([N+:44](=[O:45])[O-:46])[cH:47][cH:48]1",
+      "mapping_confidence": 0.22537966393946945,
+      "conditions": {
+        "raw_description": "MeI; Cs2CO3; MeCN; rt; 6h; 92%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_14",
+      "reaction_smiles": "CN(CC[C@@]12C(=O)NCC[C@]13c1cc(Cl)cc(Cl)c1N[C@H]3N(C(=O)OC(C)(C)C)c1cc(Br)ccc12)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.C[O+](C)C.F[B-](F)(F)F.CCN(C(C)C)C(C)C.ClCCl>>COC1=NCC[C@@]23c4cc(Cl)cc(Cl)c4N[C@H]2Nc2cc(Br)ccc2[C@@]13CCN(C)S(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:18]1[C@H:17]2[C@@:7]3([CH2:6][CH2:5][NH:4][C:3](=[O:2])[C@@:26]3([CH2:27][CH2:28][N:29]([CH3:30])[S:31](=[O:32])(=[O:33])[c:34]3[cH:35][cH:36][c:37]([N+:38](=[O:39])[O-:40])[cH:41][cH:42]3)[c:25]3[c:19]1[cH:20][c:21]([Br:22])[cH:23][cH:24]3)[c:8]1[cH:9][c:10]([Cl:11])[cH:12][c:13]([Cl:14])[c:15]1[NH:16]2.C[O+](C)[CH3:1]>F[B-](F)(F)F.CCN(C(C)C)C(C)C.ClCCl>[CH3:1][O:2][C:3]1=[N:4][CH2:5][CH2:6][C@@:7]23[c:8]4[cH:9][c:10]([Cl:11])[cH:12][c:13]([Cl:14])[c:15]4[NH:16][C@H:17]2[NH:18][c:19]2[cH:20][c:21]([Br:22])[cH:23][cH:24][c:25]2[C@@:26]13[CH2:27][CH2:28][N:29]([CH3:30])[S:31](=[O:32])(=[O:33])[c:34]1[cH:35][cH:36][c:37]([N+:38](=[O:39])[O-:40])[cH:41][cH:42]1",
+      "mapping_confidence": 0.14377965020834582,
+      "conditions": {
+        "raw_description": "DIPEA; Me3OBF4; DCM; rt; 2d; 68%",
+        "GENERAL_REAGENTS": [
+          "Me3OBF4",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "F[B-](F)(F)F.[O+](C)(C)C",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_15",
+      "reaction_smiles": "COC1=NCC[C@@]23c4cc(Cl)cc(Cl)c4N[C@H]2Nc2cc(Br)ccc2[C@@]13CCN(C)S(=O)(=O)c1ccc([N+](=O)[O-])cc1.Sc1ccccc1.O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>>CN1CC[C@]23C1=NCC[C@]21c2cc(Cl)cc(Cl)c2N[C@H]1Nc1cc(Br)ccc13",
+      "reaction_smiles_mapped": "CO[C:6]1=[N:7][CH2:8][CH2:9][C@:10]23[C@@:5]1([CH2:4][CH2:3][N:2](S(=O)(=O)c1ccc([N+](=O)[O-])cc1)[CH3:1])[c:28]1[c:22]([cH:23][c:24]([Br:25])[cH:26][cH:27]1)[NH:21][C@@H:20]2[NH:19][c:18]1[c:11]3[cH:12][c:13]([Cl:14])[cH:15][c:16]1[Cl:17]>Sc1ccccc1.O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>[CH3:1][N:2]1[CH2:3][CH2:4][C@:5]23[C:6]1=[N:7][CH2:8][CH2:9][C@:10]21[c:11]2[cH:12][c:13]([Cl:14])[cH:15][c:16]([Cl:17])[c:18]2[NH:19][C@H:20]1[NH:21][c:22]1[cH:23][c:24]([Br:25])[cH:26][cH:27][c:28]13",
+      "mapping_confidence": 0.9580543622995776,
+      "conditions": {
+        "raw_description": "PhSH; Cs2CO3; DMF; 45\u00b0C; 1d; 70%",
+        "GENERAL_REAGENTS": [
+          "PhSH",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)S",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_16",
+      "reaction_smiles": "CN1CC[C@]23C1=NCC[C@]21c2cc(Cl)cc(Cl)c2N[C@H]1Nc1cc(Br)ccc13.O=[Mn]=O.ClCCl>>CN1CC[C@]23C1=NCC[C@@]21C(=Nc2cc(Br)ccc23)Nc2c(Cl)cc(Cl)cc21",
+      "reaction_smiles_mapped": "[CH3:1][N:2]1[CH2:3][CH2:4][C@:5]23[C:6]1=[N:7][CH2:8][CH2:9][C@@:10]21[C@H:11]([NH:12][c:13]2[cH:14][c:15]([Br:16])[cH:17][cH:18][c:19]23)[NH:20][c:21]2[c:22]([Cl:23])[cH:24][c:25]([Cl:26])[cH:27][c:28]21>O=[Mn]=O.ClCCl>[CH3:1][N:2]1[CH2:3][CH2:4][C@:5]23[C:6]1=[N:7][CH2:8][CH2:9][C@@:10]21[C:11](=[N:12][c:13]2[cH:14][c:15]([Br:16])[cH:17][cH:18][c:19]23)[NH:20][c:21]2[c:22]([Cl:23])[cH:24][c:25]([Cl:26])[cH:27][c:28]21",
+      "mapping_confidence": 0.9687445959430694,
+      "conditions": {
+        "raw_description": "MnO2; DCM; rt; 1h; 65%",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_17",
+      "reaction_smiles": "c1ccc2[nH]ccc2c1.O=C(Cl)C(=O)Cl.B.CCOCC.C1CCOC1>>OCCc1c[nH]c2ccccc12",
+      "reaction_smiles_mapped": "O=[C:3](Cl)[C:2](Cl)=[O:1].[cH:4]1[cH:5][nH:6][c:7]2[cH:8][cH:9][cH:10][cH:11][c:12]12>B.CCOCC.C1CCOC1>[OH:1][CH2:2][CH2:3][c:4]1[cH:5][nH:6][c:7]2[cH:8][cH:9][cH:10][cH:11][c:12]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) (COCl)2; Et2O; 0\u00b0C; 2) BH3; THF; 70\u00b0C; 4h; 75%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "70"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Perophoramidine_2004_Funk_18",
+      "reaction_smiles": "OCCc1c[nH]c2ccccc12.CC(C)[Si](Cl)(C(C)C)C(C)C.c1c[nH]cn1.C1CCOC1>>CC(C)[Si](OCCc1c[nH]c2ccccc12)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "Cl[Si:4]([CH:2]([CH3:1])[CH3:3])([CH:17]([CH3:18])[CH3:19])[CH:20]([CH3:21])[CH3:22].[OH:5][CH2:6][CH2:7][c:8]1[cH:9][nH:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]12>c1c[nH]cn1.C1CCOC1>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][c:8]1[cH:9][nH:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]12)([CH:17]([CH3:18])[CH3:19])[CH:20]([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.2003720091995741,
+      "conditions": {
+        "raw_description": "TIPSCl; im; THF; rt; 1h; 100%",
+        "GENERAL_REAGENTS": [
+          "TIPSCl",
+          "im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Si](C(C)C)(C(C)C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    }
+  ]
+}

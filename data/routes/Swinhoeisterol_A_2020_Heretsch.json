@@ -1,0 +1,1024 @@
+{
+  "background": {
+    "name": "Swinhoeisterol A",
+    "author": "Heretsch",
+    "year": 2020,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2020, 142, 104",
+    "doi": "10.1021/jacs.9b12899"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_1",
+      "reaction_smiles": "COC(=O)[C@H](C)CO.C[Mg]Br.C[Mg]Br.CCOCC>>C[C@H](CO)C(C)(C)O",
+      "reaction_smiles_mapped": "CO[C:5]([C@H:2]([CH3:1])[CH2:3][OH:4])=[O:8].Br[Mg][CH3:6].Br[Mg][CH3:7]>CCOCC>[CH3:1][C@H:2]([CH2:3][OH:4])[C:5]([CH3:6])([CH3:7])[OH:8]",
+      "mapping_confidence": 0.4351449080362724,
+      "conditions": {
+        "raw_description": "MeMgBr; Et2O; 25 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_2",
+      "reaction_smiles": "C[C@H](CO)C(C)(C)O.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>Cc1ccc(S(=O)(=O)OC[C@@H](C)C(C)(C)O)cc1",
+      "reaction_smiles_mapped": "[OH:9][CH2:10][C@@H:11]([CH3:12])[C:13]([CH3:14])([CH3:15])[OH:16].Cl[S:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:18][cH:17]1)(=[O:7])=[O:8]>c1ccncc1>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][CH2:10][C@@H:11]([CH3:12])[C:13]([CH3:14])([CH3:15])[OH:16])[cH:17][cH:18]1",
+      "mapping_confidence": 0.4230439767800031,
+      "conditions": {
+        "raw_description": "TsCl; py; \u201310 to 25 \u00b0C; 62%",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10",
+          "25"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_3",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)OC[C@@H](C)C(C)(C)O)cc1.CS(=O)(=O)Cl.CCN(CC)CC.CCOCC>>C=C(C)[C@@H](C)COS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "O[C:2]([CH3:1])([CH3:3])[C@H:4]([CH3:5])[CH2:6][O:7][S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1>CCN(CC)CC.CCOCC.CS(=O)(=O)Cl>[CH2:1]=[C:2]([CH3:3])[C@@H:4]([CH3:5])[CH2:6][O:7][S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1",
+      "mapping_confidence": 0.25906111229068474,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; Et2O; 0 to 25 \u00b0C; 52%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_4",
+      "reaction_smiles": "C=C(C)[C@@H](C)COS(=O)(=O)c1ccc(C)cc1.[HH].[C].[Pt].CCOC(C)=O>>Cc1ccc(S(=O)(=O)OC[C@H](C)C(C)C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][CH2:10][C@H:11]([CH3:12])[C:13](=[CH2:14])[CH3:15])[cH:16][cH:17]1>CCOC(C)=O.[C].[HH].[Pt]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][CH2:10][C@H:11]([CH3:12])[CH:13]([CH3:14])[CH3:15])[cH:16][cH:17]1",
+      "mapping_confidence": 0.31211705026786407,
+      "conditions": {
+        "raw_description": "Pt/C; H2; EtOAc; 25 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pt/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pt].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_5",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)OC[C@H](C)C(C)C)cc1.Sc1nnnn1-c1ccccc1.[Li]I.CCN(CC)CC.C1CCOC1>>CC(C)[C@H](C)CSc1nnnn1-c1ccccc1",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:6][C@@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])cc1.[SH:7][c:8]1[n:9][n:10][n:11][n:12]1-[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>C1CCOC1.CCN(CC)CC.[Li]I>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][S:7][c:8]1[n:9][n:10][n:11][n:12]1-[c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.6599107114087125,
+      "conditions": {
+        "raw_description": "LiI; Et3N; THF; 85 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "LiI",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "I[Li]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_6",
+      "reaction_smiles": "CC(C)[C@H](C)CSc1nnnn1-c1ccccc1.O=C(OO)c1cccc(Cl)c1.O=C(OO)c1cccc(Cl)c1.ClCCl>>CC(C)[C@H](C)CS(=O)(=O)c1nnnn1-c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][S:7][c:10]1[n:11][n:12][n:13][n:14]1-[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1.[OH:8]OC(c1cccc(Cl)c1)=O.[OH:9]OC(c1cccc(Cl)c1)=O>ClCCl>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][S:7](=[O:8])(=[O:9])[c:10]1[n:11][n:12][n:13][n:14]1-[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "mCPBA; CH2Cl2; 25 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "mCPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_7",
+      "reaction_smiles": "CC(C)[C@H](C)/C=C/[C@H](C)[C@@H]1CC[C@@H]2C3=CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@@]21C.CS(=O)(=O)Cl.c1ccncc1>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC=C4C[C@@H](OS(C)(=O)=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@H:8]([CH3:9])[C@@H:10]1[CH2:11][CH2:12][C@@H:13]2[C:14]3=[CH:15][CH:16]=[C:17]4[CH2:18][C@@H:19]([OH:20])[CH2:25][CH2:26][C@:27]4([CH3:28])[C@H:29]3[CH2:30][CH2:31][C@:32]12[CH3:33].Cl[S:21]([CH3:22])(=[O:23])=[O:24]>c1ccncc1>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]2[C:14]3=[CH:15][CH:16]=[C:17]4[CH2:18][C@@H:19]([O:20][S:21]([CH3:22])(=[O:23])=[O:24])[CH2:25][CH2:26][C@:27]4([CH3:28])[C@H:29]3[CH2:30][CH2:31][C@:32]12[CH3:33]",
+      "mapping_confidence": 0.4229030573053536,
+      "conditions": {
+        "raw_description": "MsCl; py; 10 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "10"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_8",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC=C4C[C@@H](OS(C)(=O)=O)CC[C@]4(C)[C@H]3CC[C@]12C.O=C([O-])O.[K+].CC(C)=O.O>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=C[C@@H](O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[C@@H:20]1[CH2:19][C:18]2=[CH:16][CH:15]=[C:14]3[C@@H:13]4[CH2:12][CH2:11][C@H:10]([C@@H:8](/[CH:7]=[CH:6]/[C@@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[C@@:28]4([CH3:29])[CH2:27][CH2:26][C@@H:25]3[C@@:23]2([CH3:24])[CH2:22][CH2:21]1.[OH2:17]>CC(C)=O.O=C([O-])O.[K+]>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]2[C:14]3=[CH:15][C@@H:16]([OH:17])[C@:18]45[CH2:19][C@H:20]4[CH2:21][CH2:22][C@:23]5([CH3:24])[C@H:25]3[CH2:26][CH2:27][C@:28]12[CH3:29]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "KHCO3; Me2CO/H2O 4:1; 90 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "KHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Me2CO",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)=O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_9",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=C[C@@H](O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C.O=[Cr](=O)=O.c1ccncc1>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC(=O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]2[C:14]3=[CH:15][C@@H:16]([OH:17])[C@:18]45[CH2:19][C@H:20]4[CH2:21][CH2:22][C@:23]5([CH3:24])[C@H:25]3[CH2:26][CH2:27][C@:28]12[CH3:29]>O=[Cr](=O)=O.c1ccncc1>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]2[C:14]3=[CH:15][C:16](=[O:17])[C@:18]45[CH2:19][C@H:20]4[CH2:21][CH2:22][C@:23]5([CH3:24])[C@H:25]3[CH2:26][CH2:27][C@:28]12[CH3:29]",
+      "mapping_confidence": 0.7542542828963511,
+      "conditions": {
+        "raw_description": "CrO3; py; 25 \u00b0C; 58% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "CrO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "58% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_10",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC(=O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C.CC(C)(C)OO.O=[Se]=O.ClCCl>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:14].[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]2[C:15]3=[CH:16][C:17](=[O:18])[C@:19]45[CH2:20][C@H:21]4[CH2:22][CH2:23][C@:24]5([CH3:25])[C@H:26]3[CH2:27][CH2:28][C@:29]12[CH3:30]>ClCCl.O=[Se]=O>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@:13]2([OH:14])[C:15]3=[CH:16][C:17](=[O:18])[C@:19]45[CH2:20][C@H:21]4[CH2:22][CH2:23][C@:24]5([CH3:25])[C@H:26]3[CH2:27][CH2:28][C@:29]12[CH3:30]",
+      "mapping_confidence": 0.651614000603513,
+      "conditions": {
+        "raw_description": "SeO2; TBHP; CH2Cl2; 60 \u00b0C; 72%",
+        "GENERAL_REAGENTS": [
+          "TBHP",
+          "SeO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO",
+          "O=[Se]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_11",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@@]2(O)C3=CC(=O)[C@]45C[C@H]4CC[C@]5(C)[C@H]3CC[C@]12C.II.O=[Hg].c1ccccc1>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CCC(=O)C2=C3C(=CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31C2=O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@:13]2([OH:14])[C:16]3=[CH:15][C:29](=[O:30])[C@@:28]45[C@@:22]([CH3:23])([C@H:17]3[CH2:18][CH2:19][C@:20]12[CH3:21])[CH2:24][CH2:25][C@@H:26]4[CH2:27]5>II.O=[Hg].c1ccccc1>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C:15]2=[C:16]3[C:17](=[CH:18][CH2:19][C@:20]13[CH3:21])[C@@:22]1([CH3:23])[CH2:24][CH2:25][C@@H:26]3[CH2:27][C@:28]13[C:29]2=[O:30]",
+      "mapping_confidence": 0.6755132397845568,
+      "conditions": {
+        "raw_description": "HgO; I2; PhH; 105 \u00b0C; 68%",
+        "GENERAL_REAGENTS": [
+          "I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II"
+        ],
+        "CATALYSTS": [
+          "HgO"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Hg]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "105"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_12",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CCC(=O)C2=C3C(=CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31C2=O.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>[Li]OC1=C2C(=O)[C@]34C[C@H]3CC[C@]4(C)C3=C2[C@](C)(CC3)[C@@H]([C@H](C)/C=C/[C@H](C)C(C)C)CC1",
+      "reaction_smiles_mapped": "[O:2]=[C:3]1[C:4]2=[C:15]3[C:14](=[CH:19][CH2:18][C@:16]3([CH3:17])[C@@H:20]([C@H:21]([CH3:22])/[CH:23]=[CH:24]/[C@H:25]([CH3:26])[CH:27]([CH3:28])[CH3:29])[CH2:30][CH2:31]1)[C@:12]1([CH3:13])[C@@:7]3([C:5]2=[O:6])[CH2:8][C@H:9]3[CH2:10][CH2:11]1.[Li+:1]>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC>[Li:1][O:2][C:3]1=[C:4]2[C:5](=[O:6])[C@:7]34[CH2:8][C@H:9]3[CH2:10][CH2:11][C@:12]4([CH3:13])[C:14]3=[C:15]2[C@:16]([CH3:17])([CH2:18][CH2:19]3)[C@@H:20]([C@H:21]([CH3:22])/[CH:23]=[CH:24]/[C@H:25]([CH3:26])[CH:27]([CH3:28])[CH3:29])[CH2:30][CH2:31]1",
+      "mapping_confidence": 0.6363650971405557,
+      "conditions": {
+        "raw_description": "L-selectride; THF; \u201378 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "L-selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].CCC(C)[BH-](C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_13",
+      "reaction_smiles": "[Li]OC1=C2C(=O)[C@]34C[C@H]3CC[C@]4(C)C3=C2[C@](C)(CC3)[C@@H]([C@H](C)/C=C/[C@H](C)C(C)C)CC1.[AlH4-].[Li+].C1CCOC1>>CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O",
+      "reaction_smiles_mapped": "[Li][O:14][C:13]1=[C:15]2[C:16]3=[C:17]([CH2:18][CH2:19][C@:20]3([CH3:21])[C@@H:10]([C@@H:8](/[CH:7]=[CH:6]/[C@@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[CH2:11][CH2:12]1)[C@@:22]1([CH3:23])[CH2:24][CH2:25][C@@H:26]3[CH2:27][C@:28]13[C:29]2=[O:30]>C1CCOC1.[AlH4-].[Li+]>[CH3:1][CH:2]([CH3:3])[C@@H:4]([CH3:5])/[CH:6]=[CH:7]/[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@H:15]2[C:16]3=[C:17]([CH2:18][CH2:19][C@:20]13[CH3:21])[C@@:22]1([CH3:23])[CH2:24][CH2:25][C@@H:26]3[CH2:27][C@:28]13[C@H:29]2[OH:30]",
+      "mapping_confidence": 0.4538487636395691,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; -78 to 0 \u00b0C; 55% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": [
+          "55% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_14",
+      "reaction_smiles": "CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O.O=[O+][O-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl.c1ccncc1>>C[C@H](C=O)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O",
+      "reaction_smiles_mapped": "CC(C)[C@@H](C)/C=[CH:3]/[C@@H:2]([CH3:1])[C@H:5]1[CH2:6][CH2:7][C:8](=[O:9])[C@H:10]2[C:11]3=[C:12]([CH2:13][CH2:14][C@:15]13[CH3:16])[C@@:17]1([CH3:18])[CH2:19][CH2:20][C@@H:21]3[CH2:22][C@:23]13[C@H:24]2[OH:25].[O-][O+]=[O:4]>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccncc1>[CH3:1][C@H:2]([CH:3]=[O:4])[C@H:5]1[CH2:6][CH2:7][C:8](=[O:9])[C@H:10]2[C:11]3=[C:12]([CH2:13][CH2:14][C@:15]13[CH3:16])[C@@:17]1([CH3:18])[CH2:19][CH2:20][C@@H:21]3[CH2:22][C@:23]13[C@H:24]2[OH:25]",
+      "mapping_confidence": 0.43801354729867387,
+      "conditions": {
+        "raw_description": "O3; PPh3; CH2Cl2/py (99:1); \u201378 to 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_15",
+      "reaction_smiles": "C[C@H](C=O)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O.CC(C)[C@H](C)CS(=O)(=O)c1nnnn1-c1ccccc1.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>CC(C)[C@H](C)/C=C\\[C@@H](C)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O",
+      "reaction_smiles_mapped": "O=S(=O)(c1nnnn1-c1ccccc1)[CH2:6][C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5].O=[CH:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@H:15]2[C:16]3=[C:17]([CH2:18][CH2:19][C@:20]13[CH3:21])[C@@:22]1([CH3:23])[CH2:24][CH2:25][C@@H:26]3[CH2:27][C@:28]13[C@H:29]2[OH:30]>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])/[CH:6]=[CH:7]\\[C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@H:15]2[C:16]3=[C:17]([CH2:18][CH2:19][C@:20]13[CH3:21])[C@@:22]1([CH3:23])[CH2:24][CH2:25][C@@H:26]3[CH2:27][C@:28]13[C@H:29]2[OH:30]",
+      "mapping_confidence": 0.8468526106449852,
+      "conditions": {
+        "raw_description": "1) Subsequence 1; 2) LiHMDS; THF; \u201378 to \u201365 \u00b0C; 63% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-65"
+        ],
+        "YIELD": [
+          "63% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_16",
+      "reaction_smiles": "CC(C)[C@H](C)/C=C\\[C@@H](C)[C@H]1CCC(=O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O.B.C1CCOC1.[Na+].[OH-].OO.C1CCOC1>>CC(C)[C@H](C)C(O)C[C@@H](C)[C@H]1CC[C@H](O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])/[CH:6]=[CH:8]\\[C@@H:9]([CH3:10])[C@H:11]1[CH2:12][CH2:13][C:14](=[O:15])[C@H:16]2[C:17]3=[C:18]([CH2:19][CH2:20][C@:21]13[CH3:22])[C@@:23]1([CH3:24])[CH2:25][CH2:26][C@@H:27]3[CH2:28][C@:29]13[C@H:30]2[OH:31].O[OH:7]>B.C1CCOC1.C1CCOC1.[Na+].[OH-]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH:6]([OH:7])[CH2:8][C@@H:9]([CH3:10])[C@H:11]1[CH2:12][CH2:13][C@H:14]([OH:15])[C@H:16]2[C:17]3=[C:18]([CH2:19][CH2:20][C@:21]13[CH3:22])[C@@:23]1([CH3:24])[CH2:25][CH2:26][C@@H:27]3[CH2:28][C@:29]13[C@H:30]2[OH:31]",
+      "mapping_confidence": 0.3772248448868356,
+      "conditions": {
+        "raw_description": "BH3\u2022THF; THF; 0 to 25 \u00b0C; then NaOH; H2O2",
+        "GENERAL_REAGENTS": [
+          "BH3\u2022THF",
+          "NaOH",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3].C1CCCO1",
+          "[OH-].[Na+]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_17",
+      "reaction_smiles": "CC(C)[C@H](C)C(O)C[C@@H](C)[C@H]1CC[C@H](O)[C@H]2C3=C(CC[C@@]31C)[C@@]1(C)CC[C@@H]3C[C@@]31[C@H]2O.COC(C)(C)OC.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>>CC(C)[C@H](C)C(O)C[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH:6]([OH:7])[CH2:8][C@@H:9]([CH3:10])[C@H:11]1[CH2:12][CH2:13][C@H:14]([OH:15])[C@@H:21]2[C@H:20]([OH:19])[C@@:34]34[C@@:28]([CH3:29])([C:23]5=[C:22]2[C@:26]1([CH3:27])[CH2:25][CH2:24]5)[CH2:30][CH2:31][C@@H:32]3[CH2:33]4.CO[C:16](OC)([CH3:17])[CH3:18]>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH:6]([OH:7])[CH2:8][C@@H:9]([CH3:10])[C@H:11]1[CH2:12][CH2:13][C@@H:14]2[O:15][C:16]([CH3:17])([CH3:18])[O:19][C@H:20]3[C@@H:21]2[C:22]2=[C:23]([CH2:24][CH2:25][C@:26]12[CH3:27])[C@@:28]1([CH3:29])[CH2:30][CH2:31][C@@H:32]2[CH2:33][C@:34]312",
+      "mapping_confidence": 0.33400200119225726,
+      "conditions": {
+        "raw_description": "CSA; CH2Cl2; 0 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_18",
+      "reaction_smiles": "CC(C)[C@H](C)C(O)C[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231.C[Si](C)(C)[N-][Si](C)(C)C.[K+].CI.S=C=S.C1CCOC1>>CSC(=S)OC(C[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231)[C@@H](C)C(C)C",
+      "reaction_smiles_mapped": "[OH:5][CH:6]([CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@H:13]2[O:14][C:15]([CH3:16])([CH3:17])[O:18][C@H:19]3[C@@H:20]2[C:21]2=[C:22]([CH2:23][CH2:24][C@:25]12[CH3:26])[C@@:27]1([CH3:28])[CH2:29][CH2:30][C@@H:31]2[CH2:32][C@:33]312)[C@@H:34]([CH3:35])[CH:36]([CH3:37])[CH3:38].I[CH3:1].[S:2]=[C:3]=[S:4]>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[K+]>[CH3:1][S:2][C:3](=[S:4])[O:5][CH:6]([CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@H:13]2[O:14][C:15]([CH3:16])([CH3:17])[O:18][C@H:19]3[C@@H:20]2[C:21]2=[C:22]([CH2:23][CH2:24][C@:25]12[CH3:26])[C@@:27]1([CH3:28])[CH2:29][CH2:30][C@@H:31]2[CH2:32][C@:33]312)[C@@H:34]([CH3:35])[CH:36]([CH3:37])[CH3:38]",
+      "mapping_confidence": 0.36005526959087136,
+      "conditions": {
+        "raw_description": "KHMDS; CS2; MeI; THF; \u201378 to 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CS2",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(=S)=S",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_19",
+      "reaction_smiles": "CSC(=S)OC(C[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231)[C@@H](C)C(C)C.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.c1ccccc1>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231",
+      "reaction_smiles_mapped": "CSC(=S)O[CH:6]([C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@H:13]2[O:14][C:15]([CH3:16])([CH3:17])[O:18][C@H:19]3[C@@H:20]2[C:21]2=[C:22]([CH2:23][CH2:24][C@:25]12[CH3:26])[C@@:27]1([CH3:28])[CH2:29][CH2:30][C@@H:31]2[CH2:32][C@:33]312>CC(C)(C#N)N=NC(C)(C)C#N.CCCC[SnH](CCCC)CCCC.c1ccccc1>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@@H:13]2[O:14][C:15]([CH3:16])([CH3:17])[O:18][C@H:19]3[C@@H:20]2[C:21]2=[C:22]([CH2:23][CH2:24][C@:25]12[CH3:26])[C@@:27]1([CH3:28])[CH2:29][CH2:30][C@@H:31]2[CH2:32][C@:33]312",
+      "mapping_confidence": 0.47322588355463713,
+      "conditions": {
+        "raw_description": "AIBN; nBu3SnH; PhH; 85 \u00b0C; 53% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "nBu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": [
+          "53% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_20",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@@H]2OC(C)(C)O[C@H]3[C@@H]2C2=C(CC[C@@]21C)[C@@]1(C)CC[C@@H]2C[C@]231.CC[O+](CC)[B-](F)(F)F.CC(=O)O.CCOCC>>CC(=O)O[C@H]1CC[C@@]2(C)C(=C[C@@H]3C4=C2CC[C@]4(C)[C@@H]([C@H](C)CC[C@@H](C)C(C)C)CC[C@@H]3O)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[OH:4].CC1(C)O[C@@H:11]2[C@:10]34[C@H:5]([CH2:6][CH2:7][C@:8]3([CH3:9])[C:14]3=[C:13]5[C@@H:12]2[C@H:31]([CH2:30][CH2:29][C@H:19]([C@H:20]([CH3:21])[CH2:22][CH2:23][C@@H:24]([CH3:25])[CH:26]([CH3:27])[CH3:28])[C@@:17]5([CH3:18])[CH2:16][CH2:15]3)[O:32]1)[CH2:33]4>CCOCC.CC[O+](CC)[B-](F)(F)F>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][C@@:8]2([CH3:9])[C:10](=[CH:11][C@@H:12]3[C:13]4=[C:14]2[CH2:15][CH2:16][C@:17]4([CH3:18])[C@@H:19]([C@H:20]([CH3:21])[CH2:22][CH2:23][C@@H:24]([CH3:25])[CH:26]([CH3:27])[CH3:28])[CH2:29][CH2:30][C@@H:31]3[OH:32])[CH2:33]1",
+      "mapping_confidence": 0.5785476000770609,
+      "conditions": {
+        "raw_description": "BF3\u2022OEt2; AcOH; Et2O; 0 to 25 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "BF3\u2022OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_21",
+      "reaction_smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(=C[C@@H]3C4=C2CC[C@]4(C)[C@@H]([C@H](C)CC[C@@H](C)C(C)C)CC[C@@H]3O)C1.CC(C)C[AlH]CC(C)C.C1CCOC1>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@H](O)[C@@H]2C=C3C[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "CC(=O)[O:20][C@@H:19]1[CH2:18][C:17]2=[CH:16][C@H:15]3[C@@H:13]([OH:14])[CH2:12][CH2:11][C@H:10]([C@@H:8]([CH2:7][CH2:6][C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[C@:27]4([CH3:28])[C:26]3=[C:25]([C@@:23]2([CH3:24])[CH2:22][CH2:21]1)[CH2:30][CH2:29]4>C1CCOC1.CC(C)C[AlH]CC(C)C>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]([OH:14])[C@@H:15]2[CH:16]=[C:17]3[CH2:18][C@@H:19]([OH:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3",
+      "mapping_confidence": 0.6047761594082691,
+      "conditions": {
+        "raw_description": "DIBAl-H; THF; \u201378 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "DIBAl-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_22",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@H](O)[C@@H]2C=C3C[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C=C3CC(=O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C@H:13]([OH:14])[C@@H:15]2[CH:16]=[C:17]3[CH2:18][C@@H:19]([OH:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O=C([O-])O.[Na+]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH:16]=[C:17]3[CH2:18][C:19](=[O:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3",
+      "mapping_confidence": 0.8641801705886869,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; CH2Cl2; 25 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_23",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C=C3CC(=O)CC[C@]3(C)C3=C2[C@]1(C)CC3.C1CCC2=NCCCN2CC1.ClCCl>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=CC(=O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH:16]=[C:17]3[CH2:18][C:19](=[O:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3>C1CCC2=NCCCN2CC1.ClCCl>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C:19](=[O:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3",
+      "mapping_confidence": 0.8268907080552205,
+      "conditions": {
+        "raw_description": "DBU; CH2Cl2; 25 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_24",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=CC(=O)CC[C@]3(C)C3=C2[C@]1(C)CC3.[BH4-].[Na+].O.O.O.O.O.O.O.[Ce+3].[Cl-].[Cl-].[Cl-].CO>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C:19](=[O:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3>CO.O.O.O.O.O.O.O.[BH4-].[Ce+3].[Cl-].[Cl-].[Cl-].[Na+]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C@@H:19]([OH:20])[CH2:21][CH2:22][C@:23]3([CH3:24])[C:25]3=[C:26]2[C@:27]1([CH3:28])[CH2:29][CH2:30]3",
+      "mapping_confidence": 0.7480855795875282,
+      "conditions": {
+        "raw_description": "NaBH4; CeCl3\u20227 H2O; MeOH; \u201310 \u00b0C; 81%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "CeCl3\u20227 H2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ce+3].[Cl-].[Cl-].[Cl-].O.O.O.O.O.O.O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_25",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3.C[Si](C)(Cl)CCl.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O[Si](C)(C)CCl)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C@@H:19]([OH:20])[CH2:26][CH2:27][C@:28]3([CH3:29])[C:30]3=[C:31]2[C@:32]1([CH3:33])[CH2:34][CH2:35]3.Cl[Si:21]([CH3:22])([CH3:23])[CH2:24][Cl:25]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C@@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[CH2:24][Cl:25])[CH2:26][CH2:27][C@:28]3([CH3:29])[C:30]3=[C:31]2[C@:32]1([CH3:33])[CH2:34][CH2:35]3",
+      "mapping_confidence": 0.5111265718551564,
+      "conditions": {
+        "raw_description": "Et3N; DMAP; CH2Cl2; 25 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_26",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O[Si](C)(C)CCl)CC[C@]3(C)C3=C2[C@]1(C)CC3.[I-].[Na+].CC(C)=O>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O[Si](C)(C)CI)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "Cl[CH2:24][Si:21]([O:20][C@@H:19]1[CH:18]=[C:17]2[CH2:16][C@H:15]3[C:13](=[O:14])[CH2:12][CH2:11][C@H:10]([C@@H:8]([CH2:7][CH2:6][C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[C@:32]4([CH3:33])[C:31]3=[C:30]([C@@:28]2([CH3:29])[CH2:27][CH2:26]1)[CH2:35][CH2:34]4)([CH3:22])[CH3:23].[I-:25]>CC(C)=O.[Na+]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C:17]3=[CH:18][C@@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[CH2:24][I:25])[CH2:26][CH2:27][C@:28]3([CH3:29])[C:30]3=[C:31]2[C@:32]1([CH3:33])[CH2:34][CH2:35]3",
+      "mapping_confidence": 0.4827032998269343,
+      "conditions": {
+        "raw_description": "NaI; acetone; 60 \u00b0C; 71% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "71% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_27",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2CC3=C[C@@H](O[Si](C)(C)CI)CC[C@]3(C)C3=C2[C@]1(C)CC3.CCCC[Sn](Cl)(CCCC)CCCC.[BH3-]C#N.[Na+].CC(C)(C#N)N=NC(C)(C)C#N.CC(C)(C)O>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@H]4C[Si](C)(C)O[C@H]4CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "I[CH2:19][Si:20]([CH3:21])([CH3:22])[O:23][C@@H:24]1[CH:18]=[C:17]2[CH2:16][C@H:15]3[C:13](=[O:14])[CH2:12][CH2:11][C@H:10]([C@@H:8]([CH2:7][CH2:6][C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[C@:31]4([CH3:32])[C:30]3=[C:29]([C@@:27]2([CH3:28])[CH2:26][CH2:25]1)[CH2:34][CH2:33]4>CC(C)(C#N)N=NC(C)(C)C#N.CC(C)(C)O.CCCC[Sn](Cl)(CCCC)CCCC.[BH3-]C#N.[Na+]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C@H:17]3[C@H:18]4[CH2:19][Si:20]([CH3:21])([CH3:22])[O:23][C@H:24]4[CH2:25][CH2:26][C@:27]3([CH3:28])[C:29]3=[C:30]2[C@:31]1([CH3:32])[CH2:33][CH2:34]3",
+      "mapping_confidence": 0.4780497303351438,
+      "conditions": {
+        "raw_description": "nBu3SnCl; NaBH3CN; AIBN; tBuOH; 85 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "nBu3SnCl",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[Sn](CCCC)(CCCC)Cl",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_28",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@H]4C[Si](C)(C)O[C@H]4CC[C@]3(C)C3=C2[C@]1(C)CC3.[F-].[K+].O=C([O-])O.[K+].OO.CO.C1CCOC1>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@@H](CO)[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "C[Si]1(C)[CH2:19][C@@H:18]2[C@@H:17]3[CH2:16][C@H:15]4[C:13](=[O:14])[CH2:12][CH2:11][C@H:10]([C@@H:8]([CH2:7][CH2:6][C@H:4]([CH:2]([CH3:1])[CH3:3])[CH3:5])[CH3:9])[C@:29]5([CH3:30])[C:28]4=[C:27]([C@@:25]3([CH3:26])[CH2:24][CH2:23][C@@H:21]2[O:22]1)[CH2:32][CH2:31]5.O[OH:20]>C1CCOC1.CO.O=C([O-])O.[F-].[K+].[K+]>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C@H:17]3[C@@H:18]([CH2:19][OH:20])[C@@H:21]([OH:22])[CH2:23][CH2:24][C@:25]3([CH3:26])[C:27]3=[C:28]2[C@:29]1([CH3:30])[CH2:31][CH2:32]3",
+      "mapping_confidence": 0.3207142351566514,
+      "conditions": {
+        "raw_description": "then KF; KHCO3; H2O2; MeOH/THF; 25 \u00b0C; 60% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KF",
+          "KHCO3",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[F-]",
+          "C(=O)(O)[O-].[K+]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_29",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@@H](CO)[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3.Cc1cc(C(C)(C)C)nc(C(C)(C)C)c1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F>>CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@@H](COS(=O)(=O)C(F)(F)F)[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C@H:17]3[C@@H:18]([CH2:19][OH:20])[C@@H:28]([OH:29])[CH2:30][CH2:31][C@:32]3([CH3:33])[C:34]3=[C:35]2[C@:36]1([CH3:37])[CH2:38][CH2:39]3.O=S(=O)(O[S:21](=[O:22])(=[O:23])[C:24]([F:25])([F:26])[F:27])C(F)(F)F>Cc1cc(C(C)(C)C)nc(C(C)(C)C)c1>[CH3:1][CH:2]([CH3:3])[C@H:4]([CH3:5])[CH2:6][CH2:7][C@@H:8]([CH3:9])[C@H:10]1[CH2:11][CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][C@H:17]3[C@@H:18]([CH2:19][O:20][S:21](=[O:22])(=[O:23])[C:24]([F:25])([F:26])[F:27])[C@@H:28]([OH:29])[CH2:30][CH2:31][C@:32]3([CH3:33])[C:34]3=[C:35]2[C@:36]1([CH3:37])[CH2:38][CH2:39]3",
+      "mapping_confidence": 0.08877963661674414,
+      "conditions": {
+        "raw_description": "2,6-di-tBu-4-Me-py; Tf2O",
+        "GENERAL_REAGENTS": [
+          "2,6-di-tBu-4-Me-py",
+          "Tf2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1cc(nc(c1)C(C)(C)C)C(C)(C)C",
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Swinhoeisterol_A_2020_Heretsch_30",
+      "reaction_smiles": "CC(C)[C@H](C)CC[C@@H](C)[C@H]1CCC(=O)[C@@H]2C[C@H]3[C@@H](COS(=O)(=O)C(F)(F)F)[C@@H](O)CC[C@]3(C)C3=C2[C@]1(C)CC3.C1CCC2=NCCCN2CC1.ClCCl.CO>>C=C1[C@@H](O)CC[C@]2(C)C3=C4[C@@H](C[C@@H]12)C(=O)CC[C@H]([C@H](C)CC[C@@H](C)C(C)C)[C@@]4(C)CC3",
+      "reaction_smiles_mapped": "O=S(=O)(O[CH2:1][C@H:2]1[C@@H:3]([OH:4])[CH2:5][CH2:6][C@:7]2([CH3:8])[C:9]3=[C:10]4[C@@H:11]([CH2:12][C@@H:13]12)[C:14](=[O:15])[CH2:16][CH2:17][C@H:18]([C@H:19]([CH3:20])[CH2:21][CH2:22][C@@H:23]([CH3:24])[CH:25]([CH3:26])[CH3:27])[C@@:28]4([CH3:29])[CH2:30][CH2:31]3)C(F)(F)F>C1CCC2=NCCCN2CC1.CO.ClCCl>[CH2:1]=[C:2]1[C@@H:3]([OH:4])[CH2:5][CH2:6][C@:7]2([CH3:8])[C:9]3=[C:10]4[C@@H:11]([CH2:12][C@@H:13]12)[C:14](=[O:15])[CH2:16][CH2:17][C@H:18]([C@H:19]([CH3:20])[CH2:21][CH2:22][C@@H:23]([CH3:24])[CH:25]([CH3:26])[CH3:27])[C@@:28]4([CH3:29])[CH2:30][CH2:31]3",
+      "mapping_confidence": 0.7752555699112335,
+      "conditions": {
+        "raw_description": "then MeOH; DBU; CH2Cl2; \u201378 to 25 \u00b0C; 73% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "25"
+        ],
+        "YIELD": [
+          "73% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

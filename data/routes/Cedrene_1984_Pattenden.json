@@ -1,0 +1,335 @@
+{
+  "background": {
+    "name": "(+/-)-Cedrene",
+    "author": "Pattenden",
+    "year": 1984,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Chem. Soc., Perkin Trans, 1 1984, 811",
+    "doi": "10.1039/P19840000811"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_1",
+      "reaction_smiles": "CC1CCCC(O)C1O.[O-][I+3]([O-])([O-])O[Na]>>CC(C=O)CCCC=O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH:3]([OH:4])[CH:8]([OH:9])[CH2:7][CH2:6][CH2:5]1>[O-][I+3]([O-])([O-])O[Na]>[CH3:1][CH:2]([CH:3]=[O:4])[CH2:5][CH2:6][CH2:7][CH:8]=[O:9]",
+      "mapping_confidence": 0.9931102382744461,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_2",
+      "reaction_smiles": "CC(C=O)CCCC=O.O[K]>>CC1C=C(C=O)CC1",
+      "reaction_smiles_mapped": "O=[CH:3][CH:2]([CH3:1])[CH2:8][CH2:7][CH2:4][CH:5]=[O:6]>O[K]>[CH3:1][CH:2]1[CH:3]=[C:4]([CH:5]=[O:6])[CH2:7][CH2:8]1",
+      "mapping_confidence": 0.8778915485913593,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_3",
+      "reaction_smiles": "CC1C=C(C=O)CC1.C=C[Mg]Br>>C=CC(O)C1=CC(C)CC1",
+      "reaction_smiles_mapped": "[CH2:1]1[CH:7]([CH3:8])[CH:6]=[C:5]([CH:3]=[O:4])[CH2:10]1>C=C[Mg]Br>[CH2:1]=[CH:2][CH:3]([OH:4])[C:5]1=[CH:6][CH:7]([CH3:8])[CH2:9][CH2:10]1",
+      "mapping_confidence": 0.9969180627821193,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_4",
+      "reaction_smiles": "C=CC(O)C1=CC(C)CC1.O=[Mn]=O>>C=CC(=O)C1=CC(C)CC1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH:3]([OH:4])[C:5]1=[CH:6][CH:7]([CH3:8])[CH2:9][CH2:10]1>O=[Mn]=O>[CH2:1]=[CH:2][C:3](=[O:4])[C:5]1=[CH:6][CH:7]([CH3:8])[CH2:9][CH2:10]1",
+      "mapping_confidence": 0.9932166083090161,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_5",
+      "reaction_smiles": "C=CC(=O)C1=CC(C)CC1.O=P(O)(O)O>>CC1CCC2=C1CCC2=O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C:5]([C:9]([CH:8]=[CH2:7])=[O:10])=[CH:6]1>O=P(O)(O)O>[CH3:1][CH:2]1[CH2:3][CH2:4][C:5]2=[C:6]1[CH2:7][CH2:8][C:9]2=[O:10]",
+      "mapping_confidence": 0.9633059820475357,
+      "conditions": {
+        "raw_description": "Polyphosphoric acid",
+        "GENERAL_REAGENTS": [
+          "Polyphosphoric acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OP(O)(O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_6",
+      "reaction_smiles": "CC1CCC2=C1CCC2=O.C/C=C(/C)[N+](=O)[O-].[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C>>CC1CCC2=C1CC(C(C)C(C)[N+](=O)[O-])C2=O",
+      "reaction_smiles_mapped": "[CH:9](\\[CH3:10])=[C:11](/[CH3:12])[N+:13](=[O:14])[O-:15].[CH3:1][CH:2]1[CH2:3][CH2:4][C:5]2=[C:6]1[CH2:7][CH2:8][C:16]2=[O:17]>[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C>[CH3:1][CH:2]1[CH2:3][CH2:4][C:5]2=[C:6]1[CH2:7][CH:8]([CH:9]([CH3:10])[CH:11]([CH3:12])[N+:13](=[O:14])[O-:15])[C:16]2=[O:17]",
+      "mapping_confidence": 0.9709113348491415,
+      "conditions": {
+        "raw_description": "LDA; HMPA; 92%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_7",
+      "reaction_smiles": "CC1CCC2=C1CC(C(C)C(C)[N+](=O)[O-])C2=O.CCCON=O.C>>CC(=O)C(C)C1CC2=C(CCC2C)C1=O",
+      "reaction_smiles_mapped": "[O-][N+]([CH:2]([CH3:1])[CH:4]([CH3:5])[CH:6]1[CH2:7][C:8]2=[C:9]([CH2:10][CH2:11][CH:12]2[CH3:13])[C:14]1=[O:15])=[O:3]>CCCON=O.C>[CH3:1][C:2](=[O:3])[CH:4]([CH3:5])[CH:6]1[CH2:7][C:8]2=[C:9]([CH2:10][CH2:11][CH:12]2[CH3:13])[C:14]1=[O:15]",
+      "mapping_confidence": 0.8845869248475945,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_8",
+      "reaction_smiles": "CC(=O)C(C)C1CC2=C(CCC2C)C1=O.CC(C)(C)[O-].[K+].CC(C)(C)O>>CC1C(=O)CC23CC1C(=O)[C@@H]2CCC3C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([C:3](=[O:4])[CH3:5])[CH:8]1[CH2:7][C:6]2=[C:11]([C:9]1=[O:10])[CH2:12][CH2:13][CH:14]2[CH3:15]>CC(C)(C)[O-].[K+].CC(C)(C)O>[CH3:1][CH:2]1[C:3](=[O:4])[CH2:5][C:6]23[CH2:7][CH:8]1[C:9](=[O:10])[C@@H:11]2[CH2:12][CH2:13][CH:14]3[CH3:15]",
+      "mapping_confidence": 0.9322738103873432,
+      "conditions": {
+        "raw_description": "tBuOK; tBuOH",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOK",
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_9",
+      "reaction_smiles": "CC1C(=O)CC23CC1C(=O)[C@@H]2CCC3C.OCCO.Cc1ccc(S(=O)(=O)O)cc1>>CC1C2CC3(CC14OCCO4)C(C)CC[C@H]3C2=O",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH:3]2[CH2:4][C:5]3([CH2:6][C:7]1=[O:8])[CH:12]([CH3:13])[CH2:14][CH2:15][C@H:16]3[C:17]2=[O:11]>OCCO.Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][CH:2]1[CH:3]2[CH2:4][C:5]3([CH2:6][C:7]14[O:8][CH2:9][CH2:10][O:11]4)[CH:12]([CH3:13])[CH2:14][CH2:15][C@H:16]3[C:17]2=[O:18]",
+      "mapping_confidence": 0.9570267088632345,
+      "conditions": {
+        "raw_description": "PTSA",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_10",
+      "reaction_smiles": "CC1C2CC3(CC14OCCO4)C(C)CC[C@H]3C2=O.C=P(c1ccccc1)(c1ccccc1)c1ccccc1>>C=C1C2CC3(CC4(OCCO4)C2C)C(C)CC[C@@H]13",
+      "reaction_smiles_mapped": "O=[C:2]1[CH:3]2[CH2:4][C:5]3([CH2:6][C:7]4([O:8][CH2:9][CH2:10][O:11]4)[CH:12]2[CH3:13])[CH:14]([CH3:1])[CH2:16][CH2:17][C@@H:18]13>C=P(c1ccccc1)(c1ccccc1)c1ccccc1>[CH2:1]=[C:2]1[CH:3]2[CH2:4][C:5]3([CH2:6][C:7]4([O:8][CH2:9][CH2:10][O:11]4)[CH:12]2[CH3:13])[CH:14]([CH3:15])[CH2:16][CH2:17][C@@H:18]13",
+      "mapping_confidence": 0.9721141596086591,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_11",
+      "reaction_smiles": "C=C1C2CC3(CC4(OCCO4)C2C)C(C)CC[C@@H]13.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>>C=C1C2CC3(CC(O)C2C)C(C)CC[C@@H]13",
+      "reaction_smiles_mapped": "C1C[O:8][C:7]2(O1)[CH2:6][C:5]13[CH2:4][CH:3]([C:2](=[CH2:1])[C@@H:15]1[CH2:14][CH2:13][CH:11]3[CH3:12])[CH:9]2[CH3:10]>CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH2:1]=[C:2]1[CH:3]2[CH2:4][C:5]3([CH2:6][CH:7]([OH:8])[CH:9]2[CH3:10])[CH:11]([CH3:12])[CH2:13][CH2:14][C@@H:15]13",
+      "mapping_confidence": 0.9505174184867625,
+      "conditions": {
+        "raw_description": "L-selectride",
+        "GENERAL_REAGENTS": [
+          "L-selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].CCC(C)[BH-](C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_12",
+      "reaction_smiles": "C=C1C2CC3(CC(O)C2C)C(C)CC[C@@H]13.CC[Zn]CC.ICI.O=O>>CC1C(O)CC23CC1C1(CC1)[C@@H]2CCC3C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH:3]([OH:4])[CH2:5][C:6]23[CH2:7][CH:8]1[C:9](=[CH2:10])[C@@H:12]2[CH2:13][CH2:14][CH:15]3[CH3:16].I[CH2:11]I>CC[Zn]CC.O=O>[CH3:1][CH:2]1[CH:3]([OH:4])[CH2:5][C:6]23[CH2:7][CH:8]1[C:9]1([CH2:10][CH2:11]1)[C@@H:12]2[CH2:13][CH2:14][CH:15]3[CH3:16]",
+      "mapping_confidence": 0.7973380300721236,
+      "conditions": {
+        "raw_description": "Zn(Et)2-CH2I2; O2",
+        "GENERAL_REAGENTS": [
+          "Zn(Et)2-CH2I2",
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC.ICI",
+          "O=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_13",
+      "reaction_smiles": "CC1C(O)CC23CC1C1(CC1)[C@@H]2CCC3C.[HH]>>CC1C(O)CC23CC1C(C)(C)[C@@H]2CCC3C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH:3]([OH:4])[CH2:5][C:6]23[CH2:7][CH:8]1[C:9]1([CH2:10][CH2:11]1)[C@@H:12]2[CH2:13][CH2:14][CH:15]3[CH3:16]>[HH]>[CH3:1][CH:2]1[CH:3]([OH:4])[CH2:5][C:6]23[CH2:7][CH:8]1[C:9]([CH3:10])([CH3:11])[C@@H:12]2[CH2:13][CH2:14][CH:15]3[CH3:16]",
+      "mapping_confidence": 0.8695435501480967,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Cedrene_1984_Pattenden_14",
+      "reaction_smiles": "CC1C(O)CC23CC1C(C)(C)[C@@H]2CCC3C.O=P(Cl)(Cl)Cl.c1ccncc1>>CC1=CCC23CC1C(C)(C)[C@@H]2CCC3C",
+      "reaction_smiles_mapped": "O[CH:3]1[CH:2]([CH3:1])[CH:7]2[CH2:6][C:5]3([CH2:4]1)[C@H:11]([C:8]2([CH3:9])[CH3:10])[CH2:12][CH2:13][CH:14]3[CH3:15]>O=P(Cl)(Cl)Cl.c1ccncc1>[CH3:1][C:2]1=[CH:3][CH2:4][C:5]23[CH2:6][CH:7]1[C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][CH:14]3[CH3:15]",
+      "mapping_confidence": 0.6856454993952951,
+      "conditions": {
+        "raw_description": "POCl3; pyridine",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "background": {
+    "name": "Juvenile Hormone",
+    "author": "Shinada",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Synlett 2012, 23, 1213.",
+    "doi": "10.1055/s-0031-1290803"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_1",
+      "reaction_smiles": "COC(=O)CC(C)=O.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.Cn1ccnc1.ClCCl>>COC(=O)/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][C:6]([CH3:7])=[O:8].Cl[S:9](=[O:10])(=[O:11])[c:12]1[cH:13][cH:14][c:15]([CH3:16])[cH:17][cH:18]1>CCN(CC)CC.Cn1ccnc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](\\[CH3:7])[O:8][S:9](=[O:10])(=[O:11])[c:12]1[cH:13][cH:14][c:15]([CH3:16])[cH:17][cH:18]1",
+      "mapping_confidence": 0.45429319382789646,
+      "conditions": {
+        "raw_description": "TsCl; NMI; Et3N; CH2Cl2; 90%",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMI",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1C=CN=C1",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_2",
+      "reaction_smiles": "COC(=O)/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1.[AlH4-].[Li+]>>C/C(=C\\CO)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "CO[C:4](/[CH:3]=[C:2](\\[CH3:1])[O:6][S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1)=[O:5]>[AlH4-].[Li+]>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][OH:5])[O:6][S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.5222277440404047,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_3",
+      "reaction_smiles": "C/C(=C\\CO)OS(=O)(=O)c1ccc(C)cc1.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>C/C(=C\\CBr)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "O[CH2:4]/[CH:3]=[C:2](\\[CH3:1])[O:6][S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1>BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][Br:5])[O:6][S:7](=[O:8])(=[O:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.5408435682496867,
+      "conditions": {
+        "raw_description": "CBr4; Ph3P",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_4",
+      "reaction_smiles": "C/C(=C\\CBr)OS(=O)(=O)c1ccc(C)cc1.[Li]OC(=C)/C=C(/OC)O[Na]>>COC(=O)CC(=O)CC/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "Br[CH2:9]/[CH:10]=[C:11](\\[CH3:12])[O:13][S:14](=[O:2])(=[O:4])[c:17]1[cH:18][cH:1][c:20]([CH3:21])[cH:22][cH:23]1>[Li]OC(=C)/C=C(/OC)O[Na]>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C:6](=[O:7])[CH2:8][CH2:9]/[CH:10]=[C:11](\\[CH3:12])[O:13][S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][c:20]([CH3:21])[cH:22][cH:23]1",
+      "mapping_confidence": 0.7358615627131844,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_5",
+      "reaction_smiles": "COC(=O)CC(=O)CC/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1.[Cl-].[Li+].Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.Cn1ccnc1.ClCCl>>COC(=O)/C=C(/CC/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1)OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][C:6]([CH2:7][CH2:8]/[CH:9]=[C:10](\\[CH3:11])[O:12][S:13](=[O:14])(=[O:15])[c:16]1[cH:17][cH:18][c:19]([CH3:20])[cH:21][cH:22]1)=[O:23].Cl[S:24](=[O:25])(=[O:26])[c:27]1[cH:28][cH:29][c:30]([CH3:31])[cH:32][cH:33]1>[Cl-].[Li+].CCN(CC)CC.Cn1ccnc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](/[CH2:7][CH2:8]/[CH:9]=[C:10](\\[CH3:11])[O:12][S:13](=[O:14])(=[O:15])[c:16]1[cH:17][cH:18][c:19]([CH3:20])[cH:21][cH:22]1)[O:23][S:24](=[O:25])(=[O:26])[c:27]1[cH:28][cH:29][c:30]([CH3:31])[cH:32][cH:33]1",
+      "mapping_confidence": 0.1815739708328631,
+      "conditions": {
+        "raw_description": "LiCl; TsCl; NMI; Et3N; CH2Cl2; 33% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "TsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]",
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMI",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1C=CN=C1",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "33% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_6",
+      "reaction_smiles": "COC(=O)/C=C(/CC/C=C(\\C)OS(=O)(=O)c1ccc(C)cc1)OS(=O)(=O)c1ccc(C)cc1.CC[Zn]CC.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].CC(C)(C)P(F)C1CCCCC1>>CC/C(C)=C/CC/C(=C/C(=O)OC)CC",
+      "reaction_smiles_mapped": "[Zn]([CH2:2][CH3:1])[CH2:14][CH3:15].Cc1ccc(S(=O)(=O)O/[C:3]([CH3:4])=[CH:5]/[CH2:6][CH2:7]/[C:8](OS(=O)(=O)c2ccc(C)cc2)=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])cc1>CC(C)(C)P(F)C1CCCCC1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]>[CH3:1][CH2:2]/[C:3]([CH3:4])=[CH:5]/[CH2:6][CH2:7]/[C:8](=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH3:15]",
+      "mapping_confidence": 0.30083189221768203,
+      "conditions": {
+        "raw_description": "cat. Pd2(dba)3; cat. CyPF-t-Bu; Et2Zn; 84%",
+        "GENERAL_REAGENTS": [
+          "Et2Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3",
+          "CyPF-t-Bu"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+          "CC(C)(C)P(C1CCCCC1)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_7",
+      "reaction_smiles": "CC/C(C)=C/CC/C(=C/C(=O)OC)CC.CC[C@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](Oc1nnc(O[C@H](c2ccnc3ccc(OC)cc23)[C@H]2C[C@@H]3CC[N@@]2C[C@@H]3CC)c2ccccc12)c1ccnc2ccc(OC)cc12.N#C[Fe-3](C#N)(C#N)(C#N)(C#N)C#N.O.O.O=C([O-])[O-].O=[Os](=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[K+].[K+].CS(N)(=O)=O.CC(C)(C)O>>CC/C(=C\\C(=O)OC)CC[C@H](O)[C@@](C)(O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3](=[CH:4]\\[C:5](=[O:6])[O:7][CH3:8])[CH2:9][CH2:10]/[CH:11]=[C:13](\\[CH3:14])[CH2:16][CH3:17].O=[Os](=O)(=[O:12])=[O:15]>CC[C@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](Oc1nnc(O[C@H](c2ccnc3ccc(OC)cc23)[C@H]2C[C@@H]3CC[N@@]2C[C@@H]3CC)c2ccccc12)c1ccnc2ccc(OC)cc12.N#C[Fe-3](C#N)(C#N)(C#N)(C#N)C#N.O.O.O=C([O-])[O-].O=[Os](=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[K+].[K+].CS(N)(=O)=O.CC(C)(C)O.O>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[C:5](=[O:6])[O:7][CH3:8])[CH2:9][CH2:10][C@H:11]([OH:12])[C@@:13]([CH3:14])([OH:15])[CH2:16][CH3:17]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "AD-mix a; MeSO2NH2; t-BuOH-H2O; 96%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AD-mix a"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[C@H]1C[N@@]2CC[C@@H]1C[C@@H]2[C@H](Oc1nnc(O[C@H](c2ccnc3ccc(OC)cc23)[C@H]2C[C@@H]3CC[N@@]2C[C@@H]3CC)c2ccccc12)c1ccnc2ccc(OC)cc12.N#C[Fe-3](C#N)(C#N)(C#N)(C#N)C#N.O.O.O=C([O-])[O-].O=[Os](=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[K+].[K+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeSO2NH2",
+          "t-BuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)(=O)N",
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_8",
+      "reaction_smiles": "CC/C(=C\\C(=O)OC)CC[C@H](O)[C@@](C)(O)CC.CS(=O)(=O)Cl.c1ccncc1>>CC/C(=C\\C(=O)OC)CC[C@H](OS(C)(=O)=O)[C@@](C)(O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3](=[CH:4]\\[C:5](=[O:6])[O:7][CH3:8])[CH2:9][CH2:10][C@H:11]([OH:12])[C@@:17]([CH3:18])([OH:19])[CH2:20][CH3:21]>CS(=O)(=O)Cl.c1ccncc1>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[C:5](=[O:6])[O:7][CH3:8])[CH2:9][CH2:10][C@H:11]([O:12][S:13]([CH3:14])(=[O:15])=[O:16])[C@@:17]([CH3:18])([OH:19])[CH2:20][CH3:21]",
+      "mapping_confidence": 0.9956278373012206,
+      "conditions": {
+        "raw_description": "MsCl; pyridine",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_9",
+      "reaction_smiles": "CC/C(=C\\C(=O)OC)CC[C@H](OS(C)(=O)=O)[C@@](C)(O)CC.O=C([O-])[O-].[K+].[K+].CO>>CC/C(=C\\C(=O)OC)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[C@@H:11]([CH2:10][CH2:9]/[C:3]([CH2:2][CH3:1])=[CH:4]/[C:5](=[O:6])[O:7][CH3:8])[C@:13]([OH:12])([CH3:14])[CH2:15][CH3:16]>O=C([O-])[O-].[K+].[K+].CO>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[C:5](=[O:6])[O:7][CH3:8])[CH2:9][CH2:10][C@H:11]1[O:12][C@@:13]1([CH3:14])[CH2:15][CH3:16]",
+      "mapping_confidence": 0.8670601171919781,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 92% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_10",
+      "reaction_smiles": "CC/C(=C\\C(=O)OC)CC[C@H]1O[C@@]1(C)CC.[AlH4-].[Li+]>>CC/C(=C\\CO)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "CO[C:5](/[CH:4]=[C:3](\\[CH2:2][CH3:1])[CH2:7][CH2:8][C@H:9]1[O:10][C@@:11]1([CH3:12])[CH2:13][CH3:14])=[O:6]>[AlH4-].[Li+]>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][OH:6])[CH2:7][CH2:8][C@H:9]1[O:10][C@@:11]1([CH3:12])[CH2:13][CH3:14]",
+      "mapping_confidence": 0.8684278452390167,
+      "conditions": {
+        "raw_description": "LiAlH4; 97%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_11",
+      "reaction_smiles": "CC/C(=C\\CO)CC[C@H]1O[C@@]1(C)CC.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC/C(=C\\CBr)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "O[CH2:5]/[CH:4]=[C:3](\\[CH2:2][CH3:1])[CH2:7][CH2:8][C@H:9]1[O:10][C@@:11]1([CH3:12])[CH2:13][CH3:14]>BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][Br:6])[CH2:7][CH2:8][C@H:9]1[O:10][C@@:11]1([CH3:12])[CH2:13][CH3:14]",
+      "mapping_confidence": 0.9949606618101264,
+      "conditions": {
+        "raw_description": "CBr4; Ph3P; 59%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_12",
+      "reaction_smiles": "CC/C(=C\\CBr)CC[C@H]1O[C@@]1(C)CC.[Li]OC(=C)/C=C(/OC)O[Na]>>CC/C(=C\\CCC(=O)CC(=O)OC)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "Br[CH2:5]/[CH:4]=[C:3](\\[CH2:2][CH3:1])[CH2:14][CH2:15][C@H:16]1[O:8][C@@:18]1([CH3:6])[CH2:20][CH3:21]>[Li]OC(=C)/C=C(/OC)O[Na]>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6][C:7](=[O:8])[CH2:9][C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][C@H:16]1[O:17][C@@:18]1([CH3:19])[CH2:20][CH3:21]",
+      "mapping_confidence": 0.9956367831308351,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_13",
+      "reaction_smiles": "CC/C(=C\\CCC(=O)CC(=O)OC)CC[C@H]1O[C@@]1(C)CC.[Cl-].[Li+].Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.Cn1ccnc1.ClCCl>>CC/C(=C\\CC/C(=C/C(=O)OC)OS(=O)(=O)c1ccc(C)cc1)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6][C:7]([CH2:8][C:9](=[O:10])[O:11][CH3:12])=[O:13])[CH2:24][CH2:25][C@H:26]1[O:27][C@@:28]1([CH3:29])[CH2:30][CH3:31].Cl[S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][c:20]([CH3:21])[cH:22][cH:23]1>[Cl-].[Li+].CCN(CC)CC.Cn1ccnc1.ClCCl>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7](=[CH:8]/[C:9](=[O:10])[O:11][CH3:12])[O:13][S:14](=[O:15])(=[O:16])[c:17]1[cH:18][cH:19][c:20]([CH3:21])[cH:22][cH:23]1)[CH2:24][CH2:25][C@H:26]1[O:27][C@@:28]1([CH3:29])[CH2:30][CH3:31]",
+      "mapping_confidence": 0.3917987183373519,
+      "conditions": {
+        "raw_description": "LiCl; TsCl; NMI; Et3N; CH2Cl2; 82%",
+        "GENERAL_REAGENTS": [
+          "LiCl",
+          "TsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]",
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMI",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1C=CN=C1",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_2012_Shinada_14",
+      "reaction_smiles": "CC/C(=C\\CC/C(=C/C(=O)OC)OS(=O)(=O)c1ccc(C)cc1)CC[C@H]1O[C@@]1(C)CC.C[Zn]C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].CC(C)(C)P(F)C1CCCCC1>>CC/C(=C\\CC/C(C)=C/C(=O)OC)CC[C@H]1O[C@@]1(C)CC",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O/[C:7]([CH2:6][CH2:5]/[CH:4]=[C:3](\\[CH2:2][CH3:1])[CH2:14][CH2:15][C@H:16]2[O:17][C@@:18]2([CH3:19])[CH2:20][CH3:21])=[CH:9]\\[C:10](=[O:11])[O:12][CH3:13])cc1.C[Zn][CH3:8]>CC(C)(C)P(F)C1CCCCC1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][C@H:16]1[O:17][C@@:18]1([CH3:19])[CH2:20][CH3:21]",
+      "mapping_confidence": 0.4710918443498293,
+      "conditions": {
+        "raw_description": "cat. Pd2(dba)3; cat. CyPF-t-Bu; Me2Zn; 79%",
+        "GENERAL_REAGENTS": [
+          "Me2Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Zn]C"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3",
+          "CyPF-t-Bu"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+          "CC(C)(C)P(C1CCCCC1)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "background": {
+    "name": "Silphinene",
+    "author": "Crimmins",
+    "year": 1986,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1986, 108, 3435",
+    "doi": "10.1021/ja00272a044"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_1",
+      "reaction_smiles": "CC(C)C=O.C=CCO.Cc1ccc(S(=O)(=O)O)cc1.Cc1ccc(C(C)C)cc1>>C=CCC(C)(C)C=O",
+      "reaction_smiles_mapped": "O[CH2:3][CH:2]=[CH2:1].[CH:4]([CH3:5])([CH3:6])[CH:7]=[O:8]>Cc1ccc(S(=O)(=O)O)cc1.Cc1ccc(C(C)C)cc1>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]=[O:8]",
+      "mapping_confidence": 0.6667842236323698,
+      "conditions": {
+        "raw_description": "TsOH; p-cymene; reflux; 2d; 93%",
+        "GENERAL_REAGENTS": [
+          "TsOH",
+          "p-cymene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O",
+          "CC1=CC=C(C=C1)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_2",
+      "reaction_smiles": "C=CCC(C)(C)C=O.O=O.Cl[Pd]Cl.Cl[Cu].CN(C)C=O.O>>CC(=O)CC(C)(C)C=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:4][C:5]([CH3:6])([CH3:7])[CH:8]=[O:9].O=[O:3]>Cl[Pd]Cl.Cl[Cu].CN(C)C=O.O>[CH3:1][C:2](=[O:3])[CH2:4][C:5]([CH3:6])([CH3:7])[CH:8]=[O:9]",
+      "mapping_confidence": 0.5422295554583221,
+      "conditions": {
+        "raw_description": "PdCl2; CuCl; O2; DMF/H2O; rt; 0.2h; 84%; Wacker oxidation",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "PdCl2",
+          "CuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl",
+          "Cl[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_3",
+      "reaction_smiles": "CC(=O)CC(C)(C)C=O.[K+].[OH-].C1CCOC1.CCOCC>>CC1(C)C=CC(=O)C1",
+      "reaction_smiles_mapped": "O=[CH:4][C:2]([CH3:1])([CH3:3])[CH2:8][C:6]([CH3:5])=[O:7]>[K+].[OH-].C1CCOC1.CCOCC>[CH3:1][C:2]1([CH3:3])[CH:4]=[CH:5][C:6](=[O:7])[CH2:8]1",
+      "mapping_confidence": 0.659951292936599,
+      "conditions": {
+        "raw_description": "KOH; THF/Et2O; 50\u00b0C; 2d; 82%; Aldol condensation",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [
+          "Aldol condensation"
+        ],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_4",
+      "reaction_smiles": "CC1(C)C=CC(=O)C1.COC(=O)/C=C(/CI)OC.C=CCC[Mg]Br.CCCCP(CCCC)CCCC.[Cu+].[I-].C1CCOC1>>C=CCC[C@H]1[C@H](C/C(=C/C(=O)OC)OC)C(=O)CC1(C)C",
+      "reaction_smiles_mapped": "Br[Mg][CH2:4][CH2:3][CH:2]=[CH2:1].[CH:5]1=[CH:6][C:16](=[O:17])[CH2:18][C:19]1([CH3:20])[CH3:21].I[CH2:7]/[C:8](=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[O:14][CH3:15]>CCCCP(CCCC)CCCC.[Cu+].[I-].C1CCOC1>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@H:6]([CH2:7]/[C:8](=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[O:14][CH3:15])[C:16](=[O:17])[CH2:18][C:19]1([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.8335376348454423,
+      "conditions": {
+        "raw_description": "1) Bu3PCuI; THF; 2) 58%",
+        "GENERAL_REAGENTS": [
+          "Bu3PCuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu+].[I-].P(CCCC)(CCCC)CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_5",
+      "reaction_smiles": "C=CCC[C@H]1[C@H](C/C(=C/C(=O)OC)OC)C(=O)CC1(C)C.[O-][Cl+3]([O-])([O-])O.ClCCl>>C=CCC[C@H]1[C@H](CC(=O)CC(=O)OC)C(=O)CC1(C)C",
+      "reaction_smiles_mapped": "C[O:9]/[C:8]([CH2:7][C@H:6]1[C@H:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:18]([CH3:19])([CH3:20])[CH2:17][C:15]1=[O:16])=[CH:10]\\[C:11](=[O:12])[O:13][CH3:14]>[O-][Cl+3]([O-])([O-])O.ClCCl>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@H:6]([CH2:7][C:8](=[O:9])[CH2:10][C:11](=[O:12])[O:13][CH3:14])[C:15](=[O:16])[CH2:17][C:18]1([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.7091348556909719,
+      "conditions": {
+        "raw_description": "70% HClO4; DCM",
+        "GENERAL_REAGENTS": [
+          "HClO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OCl(=O)(=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_6",
+      "reaction_smiles": "C=CCC[C@H]1[C@H](CC(=O)CC(=O)OC)C(=O)CC1(C)C.C[O-].[Na+].CO>>C=CCC[C@H]1[C@@H]2CC(=O)C(C(=O)OC)=C2CC1(C)C",
+      "reaction_smiles_mapped": "O=[C:15]1[C@@H:6]([CH2:7][C:8](=[O:9])[CH2:10][C:11](=[O:12])[O:13][CH3:14])[C@H:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:17]([CH3:18])([CH3:19])[CH2:16]1>C[O-].[Na+].CO>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@@H:6]2[CH2:7][C:8](=[O:9])[C:10]([C:11](=[O:12])[O:13][CH3:14])=[C:15]2[CH2:16][C:17]1([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.7183361987317162,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; 0\u00b0C; 1h; 100%; Dieckmann condensation",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_7",
+      "reaction_smiles": "C=CCC[C@H]1[C@@H]2CC(=O)C(C(=O)OC)=C2CC1(C)C.C[Cu-]C.[Li+].CCOCC>>C=CCC[C@H]1[C@@H]2CC(=O)C(C(=O)OC)[C@]2(C)CC1(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@@H:6]2[CH2:7][C:8](=[O:9])[C:10]([C:11](=[O:12])[O:13][CH3:14])=[C:15]2[CH2:17][C:18]1([CH3:19])[CH3:20].C[Cu-][CH3:16]>[Li+].CCOCC>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@@H:6]2[CH2:7][C:8](=[O:9])[CH:10]([C:11](=[O:12])[O:13][CH3:14])[C@:15]2([CH3:16])[CH2:17][C:18]1([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.3972651769584086,
+      "conditions": {
+        "raw_description": "Me2CuLi; Et2O; 0\u00b0C; 0.2h; 89%",
+        "GENERAL_REAGENTS": [
+          "Me2CuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)(C)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_8",
+      "reaction_smiles": "C=CCC[C@H]1[C@@H]2CC(=O)C(C(=O)OC)[C@]2(C)CC1(C)C.[Cl-].[Li+].CS(C)=O.O>>C=CCC[C@H]1[C@@H]2CC(=O)C[C@]2(C)CC1(C)C",
+      "reaction_smiles_mapped": "COC(=O)[CH:10]1[C:8](=[O:9])[CH2:7][C@H:6]2[C@H:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:14]([CH3:15])([CH3:16])[CH2:13][C@:11]21[CH3:12]>[Cl-].[Li+].CS(C)=O.O>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@@H:6]2[CH2:7][C:8](=[O:9])[CH2:10][C@:11]2([CH3:12])[CH2:13][C:14]1([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.7308873850586068,
+      "conditions": {
+        "raw_description": "LiCl; DMSO/H2O; 145\u00b0C to rt; 1h; 96%; Krapcho; decarboxylation",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "145",
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_9",
+      "reaction_smiles": "C=CCC[C@H]1[C@@H]2CC(=O)C[C@]2(C)CC1(C)C.CCOC(=O)C[Si](C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].O=C1C=CC(=O)C=C1.CC(=O)[O-].CC(=O)[O-].[Pd+2].CC#N>>C=CCC[C@H]1C2=CC(=O)C[C@]2(C)CC1(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C@@H:6]2[CH2:7][C:8](=[O:9])[CH2:10][C@:11]2([CH3:12])[CH2:13][C:14]1([CH3:15])[CH3:16]>CCOC(=O)C[Si](C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].O=C1C=CC(=O)C=C1.CC(=O)[O-].CC(=O)[O-].[Pd+2].CC#N>[CH2:1]=[CH:2][CH2:3][CH2:4][C@H:5]1[C:6]2=[CH:7][C:8](=[O:9])[CH2:10][C@:11]2([CH3:12])[CH2:13][C:14]1([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.6641429148944427,
+      "conditions": {
+        "raw_description": "1) TBAF; -78\u00b0C; 1h; 2) pBQ; Pd(OAc)2; MeCN; rt; 18h; 89%; Saegusa oxidation",
+        "GENERAL_REAGENTS": [
+          "TBAF",
+          "pBQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+          "O=C1C=CC(=O)C=C1"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_10",
+      "reaction_smiles": "C=CCC[C@H]1C2=CC(=O)C[C@]2(C)CC1(C)C.CCCCCC>>CC1(C)C[C@@]2(C)CC(=O)[C@@H]3C[C@H]4CC[C@H]1[C@]432",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C@@:5]2([CH3:6])[CH2:7][C:8](=[O:9])[CH:10]=[C:16]2[C@@H:15]1[CH2:14][CH2:13][CH:12]=[CH2:11]>CCCCCC>[CH3:1][C:2]1([CH3:3])[CH2:4][C@@:5]2([CH3:6])[CH2:7][C:8](=[O:9])[C@@H:10]3[CH2:11][C@H:12]4[CH2:13][CH2:14][C@H:15]1[C@@:16]234",
+      "mapping_confidence": 0.6441000089841897,
+      "conditions": {
+        "raw_description": "h\u03bd; hexane; rt; 4h; 94%; 2+2-cycloaddition",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "hexane"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_11",
+      "reaction_smiles": "CC1(C)C[C@@]2(C)CC(=O)[C@@H]3C[C@H]4CC[C@H]1[C@]432.C[Si](C)(C)Cl.[I-].[Na+].CC#N>>CC1(C)C[C@@]2(C)CC(=O)C[C@]23[C@@H](CI)CC[C@H]13",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C@@:5]2([CH3:6])[CH2:7][C:8](=[O:9])[C@H:10]3[C@:11]24[C@@H:12]([CH2:13]3)[CH2:15][CH2:16][C@H:17]14.[I-:14]>C[Si](C)(C)Cl.[Na+].CC#N>[CH3:1][C:2]1([CH3:3])[CH2:4][C@@:5]2([CH3:6])[CH2:7][C:8](=[O:9])[CH2:10][C@:11]23[C@@H:12]([CH2:13][I:14])[CH2:15][CH2:16][C@H:17]13",
+      "mapping_confidence": 0.8847965090223789,
+      "conditions": {
+        "raw_description": "TMSCl; NaI; MeCN; 80\u00b0C; 2d; 79% brsm",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "79% (BORSM)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_12",
+      "reaction_smiles": "CC1(C)C[C@@]2(C)CC(=O)C[C@]23[C@@H](CI)CC[C@H]13.CCCC[SnH](CCCC)CCCC.c1ccccc1>>C[C@H]1CC[C@@H]2C(C)(C)C[C@@]3(C)CC(=O)C[C@]213",
+      "reaction_smiles_mapped": "I[CH2:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][C@@:10]3([CH3:11])[CH2:12][C:13](=[O:14])[CH2:15][C@@:16]123>CCCC[SnH](CCCC)CCCC.c1ccccc1>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][C@@:10]3([CH3:11])[CH2:12][C:13](=[O:14])[CH2:15][C@@:16]123",
+      "mapping_confidence": 0.8292039055812914,
+      "conditions": {
+        "raw_description": "Bu3SnH; PhH; 90\u00b0C; 1h; 98%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_13",
+      "reaction_smiles": "C[C@H]1CC[C@@H]2C(C)(C)C[C@@]3(C)CC(=O)C[C@]213.CCOP(=O)(Cl)OCC.[Li]N(C(C)C)C(C)C.CC(C)(C)O.C1CCOC1>>CCOP(=O)(OCC)OC1=C[C@]23[C@H](CC[C@@H]2C)C(C)(C)C[C@@]3(C)C1",
+      "reaction_smiles_mapped": "Cl[P:4]([O:3][CH2:2][CH3:1])(=[O:5])[O:6][CH2:7][CH3:8].[O:9]=[C:10]1[CH2:11][C@:12]23[C@H:13]([CH2:14][CH2:15][C@@H:16]2[CH3:17])[C:18]([CH3:19])([CH3:20])[CH2:21][C@@:22]3([CH3:23])[CH2:24]1>[Li]N(C(C)C)C(C)C.CC(C)(C)O.C1CCOC1>[CH3:1][CH2:2][O:3][P:4](=[O:5])([O:6][CH2:7][CH3:8])[O:9][C:10]1=[CH:11][C@:12]23[C@H:13]([CH2:14][CH2:15][C@@H:16]2[CH3:17])[C:18]([CH3:19])([CH3:20])[CH2:21][C@@:22]3([CH3:23])[CH2:24]1",
+      "mapping_confidence": 0.7159368550915625,
+      "conditions": {
+        "raw_description": "LDA; (EtO)2POCl; tBuOH/THF; -78\u00b0C; 65%",
+        "GENERAL_REAGENTS": [
+          "(EtO)2POCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOP(=O)(Cl)OCC",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_14",
+      "reaction_smiles": "CCOP(=O)(OCC)OC1=C[C@]23[C@H](CC[C@@H]2C)C(C)(C)C[C@@]3(C)C1.[Li].CN>>C[C@H]1CC[C@@H]2C(C)(C)C[C@@]3(C)CC=C[C@]213",
+      "reaction_smiles_mapped": "CCOP(=O)(OCC)O[C:13]1=[CH:14][C@@:15]23[C@@H:2]([CH3:1])[CH2:3][CH2:4][C@@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][C@@:10]3([CH3:11])[CH2:12]1>[Li].CN>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][C@@:10]3([CH3:11])[CH2:12][CH:13]=[CH:14][C@@:15]123",
+      "mapping_confidence": 0.8594894016518553,
+      "conditions": {
+        "raw_description": "Li; MeNH2; 40\u00b0C; 1h; 83%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Li"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Li]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeNH2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_15",
+      "reaction_smiles": "COC(=O)CC(C)=O.O=S(=O)(O)O.COC(OC)OC>>COC(=O)/C=C(/C)OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][C:6]([CH3:7])=[O:8].COC(OC)O[CH3:9]>O=S(=O)(O)O>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](/[CH3:7])[O:8][CH3:9]",
+      "mapping_confidence": 0.5325209561305546,
+      "conditions": {
+        "raw_description": "CH(OMe)3; H2SO4; rt; 1d; 89%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH(OMe)3"
+        ],
+        "SOLVENTS_SMILES": [
+          "COC(OC)OC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_16",
+      "reaction_smiles": "COC(=O)/C=C(/C)OC.O=C1CCC(=O)N1Br.O=C(OOC(=O)c1ccccc1)c1ccccc1.ClC(Cl)(Cl)Cl>>COC(=O)/C=C(/CBr)OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](/[CH3:7])[O:9][CH3:10].O=C1CCC(=O)N1[Br:8]>O=C(OOC(=O)c1ccccc1)c1ccccc1.ClC(Cl)(Cl)Cl>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](/[CH2:7][Br:8])[O:9][CH3:10]",
+      "mapping_confidence": 0.9809242161087529,
+      "conditions": {
+        "raw_description": "h\u03bd; NBS; (PhCO2)2; CCl4; reflux; 1h; 78%; Wohl-Ziegler; bromination",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "(PhCO2)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "O=C(OOC(=O)c1ccccc1)c2ccccc2"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "bromination"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Silphinene_1986_Crimmins_17",
+      "reaction_smiles": "COC(=O)/C=C(/CBr)OC.[I-].[Na+].CC(C)=O>>COC(=O)/C=C(/CI)OC",
+      "reaction_smiles_mapped": "Br[CH2:7]/[C:6](=[CH:5]/[C:3]([O:2][CH3:1])=[O:4])[O:9][CH3:10].[I-:8]>[Na+].CC(C)=O>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[C:6](/[CH2:7][I:8])[O:9][CH3:10]",
+      "mapping_confidence": 0.9858861504856825,
+      "conditions": {
+        "raw_description": "NaI; acetone; rt; 3h; 98%; Finkelstein reaction",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [
+          "Finkelstein"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    }
+  ]
+}

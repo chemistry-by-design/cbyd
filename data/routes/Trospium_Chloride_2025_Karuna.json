@@ -1,0 +1,164 @@
+{
+  "background": {
+    "name": "Trospium Chloride",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Cobenfy",
+    "manufacturer": "Karuna",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Trospium_Chloride_2025_Karuna_1",
+      "reaction_smiles": "O=C(O)C(O)(c1ccccc1)c1ccccc1.ClP(Cl)(Cl)(Cl)Cl>>O=C(Cl)C(Cl)(c1ccccc1)c1ccccc1",
+      "reaction_smiles_mapped": "ClP(Cl)(Cl)([Cl:3])[Cl:5].O[C:2](=[O:1])[C:4](O)([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1>>[O:1]=[C:2]([Cl:3])[C:4]([Cl:5])([c:6]1[cH:7][cH:8][cH:9][cH:10][cH:11]1)[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1",
+      "mapping_confidence": 0.06959914603149041,
+      "conditions": {
+        "raw_description": "PCl5; 0 to 145 \u00b0C to rt; 65-80%",
+        "GENERAL_REAGENTS": [
+          "PCl5"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "P(Cl)(Cl)(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "145",
+          "rt"
+        ],
+        "YIELD": [
+          "65-80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trospium_Chloride_2025_Karuna_2",
+      "reaction_smiles": "O=C(Cl)C(Cl)(c1ccccc1)c1ccccc1.O=C(OCc1ccccc1)N1[C@@H]2CC[C@H]1CC(O)C2.c1ccncc1.ClC(Cl)Cl>>O=C(OCc1ccccc1)N1[C@@H]2CC[C@H]1CC(OC(=O)C(Cl)(c1ccccc1)c1ccccc1)C2",
+      "reaction_smiles_mapped": "Cl[C:19](=[O:20])[C:21]([Cl:22])([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)[c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1.[O:1]=[C:2]([O:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[N:11]1[C@@H:12]2[CH2:13][CH2:14][C@H:15]1[CH2:16][CH:17]([OH:18])[CH2:35]2>ClC(Cl)Cl.c1ccncc1>[O:1]=[C:2]([O:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[N:11]1[C@@H:12]2[CH2:13][CH2:14][C@H:15]1[CH2:16][CH:17]([O:18][C:19](=[O:20])[C:21]([Cl:22])([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)[c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1)[CH2:35]2",
+      "mapping_confidence": 0.4832015408571805,
+      "conditions": {
+        "raw_description": "pyridine; CHCl3",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trospium_Chloride_2025_Karuna_3",
+      "reaction_smiles": "O=C(OCc1ccccc1)N1[C@@H]2CC[C@H]1CC(OC(=O)C(Cl)(c1ccccc1)c1ccccc1)C2.O=C([O-])[O-].[K+].[K+].O>>O=C(OCc1ccccc1)N1[C@@H]2CC[C@H]1CC(OC(=O)C(O)(c1ccccc1)c1ccccc1)C2",
+      "reaction_smiles_mapped": "[OH2:22].Cl[C:21]([C:19]([O:18][CH:17]1[CH2:16][C@H:15]2[N:11]([C:2](=[O:1])[O:3][CH2:4][c:5]3[cH:6][cH:7][cH:8][cH:9][cH:10]3)[C@H:12]([CH2:13][CH2:14]2)[CH2:35]1)=[O:20])([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)[c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1>O=C([O-])[O-].[K+].[K+]>[O:1]=[C:2]([O:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1)[N:11]1[C@@H:12]2[CH2:13][CH2:14][C@H:15]1[CH2:16][CH:17]([O:18][C:19](=[O:20])[C:21]([OH:22])([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)[c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1)[CH2:35]2",
+      "mapping_confidence": 0.3074281495737152,
+      "conditions": {
+        "raw_description": "K2CO3; H2O; reflux",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trospium_Chloride_2025_Karuna_4",
+      "reaction_smiles": "O=C(OCc1ccccc1)N1[C@@H]2CC[C@H]1CC(OC(=O)C(O)(c1ccccc1)c1ccccc1)C2.[HH].[C].[Pd].CO>>O=C(OC1C[C@H]2CC[C@@H](C1)N2)C(O)(c1ccccc1)c1ccccc1",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[N:11]1[C@@H:6]2[CH2:5][CH:4]([O:3][C:2](=[O:1])[C:12]([OH:13])([c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[c:20]3[cH:21][cH:22][cH:23][cH:24][cH:25]3)[CH2:10][C@H:9]1[CH2:8][CH2:7]2>CO.[C].[HH].[Pd]>[O:1]=[C:2]([O:3][CH:4]1[CH2:5][C@H:6]2[CH2:7][CH2:8][C@@H:9]([CH2:10]1)[NH:11]2)[C:12]([OH:13])([c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[c:20]1[cH:21][cH:22][cH:23][cH:24][cH:25]1",
+      "mapping_confidence": 0.6475494548185288,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trospium_Chloride_2025_Karuna_5",
+      "reaction_smiles": "O=C(OC1C[C@H]2CC[C@@H](C1)N2)C(O)(c1ccccc1)c1ccccc1.ClCCCCCl.CCN(CC)CC.CC#N>>O=C(OC1C[C@H]2CC[C@@H](C1)[N+]21CCCC1)C(O)(c1ccccc1)c1ccccc1.[Cl-]",
+      "reaction_smiles_mapped": "Cl[CH2:15][CH2:14][CH2:13][CH2:12][Cl:30].[O:1]=[C:2]([O:3][CH:4]1[CH2:5][C@H:6]2[CH2:7][CH2:8][C@@H:9]([CH2:10]1)[NH:11]2)[C:16]([OH:17])([c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)[c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1>CC#N.CCN(CC)CC>[O:1]=[C:2]([O:3][CH:4]1[CH2:5][C@H:6]2[CH2:7][CH2:8][C@@H:9]([CH2:10]1)[N+:11]21[CH2:12][CH2:13][CH2:14][CH2:15]1)[C:16]([OH:17])([c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)[c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1.[Cl-:30]",
+      "mapping_confidence": 0.31932649320041323,
+      "conditions": {
+        "raw_description": "Et3N; MeCN; 45 to 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45",
+          "50"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "background": {
+    "name": "Corannulene",
+    "author": "Lawton",
+    "year": 1971,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1971, 93, 1730",
+    "doi": "10.1021/ja00736a028"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Corannulene_1971_Lawton_1",
+      "reaction_smiles": "c1cc2c3c(cccc3c1)CC2.O=C1C=CC(=O)O1>>O=C1CC(C2Cc3cccc4cccc2c34)C(=O)O1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH:3]=[CH:4][C:17](=[O:18])[O:19]1.[CH2:5]1[CH2:6][c:7]2[cH:8][cH:9][cH:10][c:11]3[cH:12][cH:13][cH:14][c:15]1[c:16]23>>[O:1]=[C:2]1[CH2:3][CH:4]([CH:5]2[CH2:6][c:7]3[cH:8][cH:9][cH:10][c:11]4[cH:12][cH:13][cH:14][c:15]2[c:16]34)[C:17](=[O:18])[O:19]1",
+      "mapping_confidence": 0.5540615812002306,
+      "conditions": {
+        "raw_description": "210 \u00b0C; 24 h",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "210"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_2",
+      "reaction_smiles": "O=C1CC(C2Cc3cccc4cccc2c34)C(=O)O1.[Cl-].[Na+].Cl[Al](Cl)Cl>>O=C1CC(C(=O)O)C2Cc3cccc4ccc1c2c34",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH:4]([CH:8]2[CH2:9][c:10]3[cH:11][cH:12][cH:13][c:14]4[cH:15][cH:16][cH:17][c:18]2[c:19]34)[C:5](=[O:6])[O:7]1>[Cl-].[Na+].Cl[Al](Cl)Cl>[O:1]=[C:2]1[CH2:3][CH:4]([C:5](=[O:6])[OH:7])[CH:8]2[CH2:9][c:10]3[cH:11][cH:12][cH:13][c:14]4[cH:15][cH:16][c:17]1[c:18]2[c:19]34",
+      "mapping_confidence": 0.8875532782019858,
+      "conditions": {
+        "raw_description": "Liquid NaCl; AlCl3; (eutectic mixture)",
+        "GENERAL_REAGENTS": [
+          "Liquid NaCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_3",
+      "reaction_smiles": "O=C1CC(C(=O)O)C2Cc3cccc4ccc1c2c34.NN.[K+].[OH-]>>O=C(O)C1CCc2ccc3cccc4c3c2C1C4",
+      "reaction_smiles_mapped": "O=[C:6]1[CH2:5][CH:4]([C:2](=[O:1])[OH:3])[CH:17]2[c:16]3[c:7]1[cH:8][cH:9][c:10]1[cH:11][cH:12][cH:13][c:14]([c:15]13)[CH2:18]2>NN.[K+].[OH-]>[O:1]=[C:2]([OH:3])[CH:4]1[CH2:5][CH2:6][c:7]2[cH:8][cH:9][c:10]3[cH:11][cH:12][cH:13][c:14]4[c:15]3[c:16]2[CH:17]1[CH2:18]4",
+      "mapping_confidence": 0.8425328324445532,
+      "conditions": {
+        "raw_description": "H2NNH2; KOH",
+        "GENERAL_REAGENTS": [
+          "H2NNH2",
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_4",
+      "reaction_smiles": "O=C(O)C1CCc2ccc3cccc4c3c2C1C4.O=S(=O)(O)O.CCO>>CCOC(=O)C1CCc2ccc3cccc4c3c2C1C4",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][OH:3].O[C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[CH:19]1[CH2:20]4>O=S(=O)(O)O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[CH:19]1[CH2:20]4",
+      "mapping_confidence": 0.6594539870500075,
+      "conditions": {
+        "raw_description": "EtOH; aq. H2SO4",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_5",
+      "reaction_smiles": "CCOC(=O)C1CCc2ccc3cccc4c3c2C1C4.[C].[Pd]>>CCOC(=O)c1ccc2ccc3cccc4c3c2c1C4",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[CH:19]1[CH2:20]4>[C].[Pd]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[c:19]1[CH2:20]4",
+      "mapping_confidence": 0.9730633576044126,
+      "conditions": {
+        "raw_description": "Pd/C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_6",
+      "reaction_smiles": "CCOC(=O)c1ccc2ccc3cccc4c3c2c1C4.O=C1CCC(=O)N1Br.ClC(Cl)(Cl)Cl>>CCOC(=O)c1ccc2ccc3cccc4c3c2c1C4Br",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[c:19]1[CH2:20]4.O=C1CCC(=O)N1[Br:21]>ClC(Cl)(Cl)Cl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]2[cH:10][cH:11][c:12]3[cH:13][cH:14][cH:15][c:16]4[c:17]3[c:18]2[c:19]1[CH:20]4[Br:21]",
+      "mapping_confidence": 0.9751814814336348,
+      "conditions": {
+        "raw_description": "NBS; CCl4; reflux; 12h; 92%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_7",
+      "reaction_smiles": "CCOC(=O)c1ccc2ccc3cccc4c3c2c1C4Br.CCOC(=O)CC(C(=O)OCC)C(=O)OCC.CC(C)(C)O[K].CC(C)(C)O.c1ccccc1>>CCOC(=O)CC(C(=O)OCC)(C(=O)OCC)C1c2cccc3ccc4ccc(C(=O)OCC)c1c4c23",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]([C:8](=[O:9])[O:10][CH2:11][CH3:12])[C:13](=[O:14])[O:15][CH2:16][CH3:17].Br[CH:18]1[c:19]2[cH:20][cH:21][cH:22][c:23]3[cH:24][cH:25][c:26]4[cH:27][cH:28][c:29]([C:30](=[O:31])[O:32][CH2:33][CH3:34])[c:35]1[c:36]4[c:37]23>CC(C)(C)O[K].CC(C)(C)O.c1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7]([C:8](=[O:9])[O:10][CH2:11][CH3:12])([C:13](=[O:14])[O:15][CH2:16][CH3:17])[CH:18]1[c:19]2[cH:20][cH:21][cH:22][c:23]3[cH:24][cH:25][c:26]4[cH:27][cH:28][c:29]([C:30](=[O:31])[O:32][CH2:33][CH3:34])[c:35]1[c:36]4[c:37]23",
+      "mapping_confidence": 0.5265670504757652,
+      "conditions": {
+        "raw_description": "KOtBu; tBuOH; benzene; 50 \u00b0C; 1 h",
+        "GENERAL_REAGENTS": [
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_8",
+      "reaction_smiles": "CCOC(=O)CC(C(=O)OCC)(C(=O)OCC)C1c2cccc3ccc4ccc(C(=O)OCC)c1c4c23.[K+].[OH-].CO>>CCOC(=O)C(CC(=O)O)(C(=O)OCC)C1c2cccc3ccc4ccc(C(=O)O)c1c4c23",
+      "reaction_smiles_mapped": "CC[O:10][C:8]([CH2:7][C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])([C:11](=[O:12])[O:13][CH2:14][CH3:15])[CH:16]1[c:17]2[cH:18][cH:19][cH:20][c:21]3[cH:22][cH:23][c:24]4[cH:25][cH:26][c:27]([C:28](=[O:29])[O:30]CC)[c:31]1[c:32]4[c:33]23)=[O:9]>[K+].[OH-].CO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]([CH2:7][C:8](=[O:9])[OH:10])([C:11](=[O:12])[O:13][CH2:14][CH3:15])[CH:16]1[c:17]2[cH:18][cH:19][cH:20][c:21]3[cH:22][cH:23][c:24]4[cH:25][cH:26][c:27]([C:28](=[O:29])[OH:30])[c:31]1[c:32]4[c:33]23",
+      "mapping_confidence": 0.55121647187595,
+      "conditions": {
+        "raw_description": "KOH; MeOH; Reflux; 6 h; 97% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_9",
+      "reaction_smiles": "CCOC(=O)C(CC(=O)O)(C(=O)OCC)C1c2cccc3ccc4ccc(C(=O)O)c1c4c23.O=P(O)(O)O>>CCOC(=O)C1(C(=O)OCC)CC(=O)c2ccc3ccc4ccc(C(=O)O)c5c4c3c2C51",
+      "reaction_smiles_mapped": "O[C:13]([CH2:12][C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH:32]1[c:28]2[c:24]([C:25](=[O:26])[OH:27])[cH:23][cH:22][c:21]3[cH:20][cH:19][c:18]4[cH:17][cH:16][cH:15][c:31]1[c:30]4[c:29]32)=[O:14]>O=P(O)(O)O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH2:12][C:13](=[O:14])[c:15]2[cH:16][cH:17][c:18]3[cH:19][cH:20][c:21]4[cH:22][cH:23][c:24]([C:25](=[O:26])[OH:27])[c:28]5[c:29]4[c:30]3[c:31]2[CH:32]15",
+      "mapping_confidence": 0.6994552114825824,
+      "conditions": {
+        "raw_description": "Polyphosphoric acid; 85 \u00b0C; 1 h; 73%",
+        "GENERAL_REAGENTS": [
+          "Polyphosphoric acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OP(O)(O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_10",
+      "reaction_smiles": "CCOC(=O)C1(C(=O)OCC)CC(=O)c2ccc3ccc4ccc(C(=O)O)c5c4c3c2C51.[HH].[O-][Cl+3]([O-])([O-])O.CC(=O)O.[C].[Pd].O>>CCOC(=O)C1(C(=O)OCC)CC(=O)[C@@H]2CC[C@@H]3CCc4ccc(C(=O)O)c5c4[C@@H]3[C@@H]2[C@H]51",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH2:12][C:13](=[O:14])[c:15]2[cH:16][cH:17][c:18]3[cH:19][cH:20][c:21]4[cH:22][cH:23][c:24]([C:25](=[O:26])[OH:27])[c:28]5[c:29]4[c:30]3[c:31]2[CH:32]15>[HH].[O-][Cl+3]([O-])([O-])O.CC(=O)O.[C].[Pd].O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][CH2:17][C@@H:18]3[CH2:19][CH2:20][c:21]4[cH:22][cH:23][c:24]([C:25](=[O:26])[OH:27])[c:28]5[c:29]4[C@@H:30]3[C@@H:31]2[C@@H:32]15",
+      "mapping_confidence": 0.8523026259030415,
+      "conditions": {
+        "raw_description": "H2; Pd/C; HClO4; 3 atm; AcOH; H2O; rt; 22 h; 54%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HClO4",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "OCl(=O)(=O)=O",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_11",
+      "reaction_smiles": "CCOC(=O)C1(C(=O)OCC)CC(=O)[C@@H]2CC[C@@H]3CCc4ccc(C(=O)O)c5c4[C@@H]3[C@@H]2[C@H]51.C=[N+]=[N-].CCOCC>>CCOC(=O)C1(C(=O)OCC)CC(=O)[C@@H]2CC[C@@H]3CCc4ccc(C(=O)OC)c5c4[C@@H]3[C@@H]2[C@H]51",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH2:28].[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][CH2:17][C@@H:18]3[CH2:19][CH2:20][c:21]4[cH:22][cH:23][c:24]([C:25](=[O:26])[OH:27])[c:29]5[c:30]4[C@@H:31]3[C@@H:32]2[C@@H:33]15>CCOCC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([C:7](=[O:8])[O:9][CH2:10][CH3:11])[CH2:12][C:13](=[O:14])[C@@H:15]2[CH2:16][CH2:17][C@@H:18]3[CH2:19][CH2:20][c:21]4[cH:22][cH:23][c:24]([C:25](=[O:26])[O:27][CH3:28])[c:29]5[c:30]4[C@@H:31]3[C@@H:32]2[C@@H:33]15",
+      "mapping_confidence": 0.8243406015846241,
+      "conditions": {
+        "raw_description": "CH2N2; Et2O; rt; 3 h; 93%",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_12",
+      "reaction_smiles": "CCOC(=O)C1(C(=O)OCC)CC(=O)[C@@H]2CC[C@@H]3CCc4ccc(C(=O)OC)c5c4[C@@H]3[C@@H]2[C@H]51.[Na].N.CCOCC.CO>>O=C1c2ccc3c4c2[C@H]2[C@@H]5[C@@H](CC[C@H](CC3)[C@H]45)CC[C@@]2(C(=O)O)C1O",
+      "reaction_smiles_mapped": "CCO[C:24]([C:20]1([C:21](=[O:22])[O:23]CC)[C@H:9]2[c:8]3[c:3]([C:2](OC)=[O:1])[cH:4][cH:5][c:6]4[c:7]3[C@@H:17]3[C@H:10]2[C@@H:11]([CH2:12][CH2:13][C@@H:14]3[CH2:15][CH2:16]4)[C:18](=O)[CH2:19]1)=[O:25]>[Na].N.CCOCC.CO>[O:1]=[C:2]1[c:3]2[cH:4][cH:5][c:6]3[c:7]4[c:8]2[C@H:9]2[C@@H:10]5[C@@H:11]([CH2:12][CH2:13][C@H:14]([CH2:15][CH2:16]3)[C@H:17]45)[CH2:18][CH2:19][C@@:20]2([C:21](=[O:22])[OH:23])[CH:24]1[OH:25]",
+      "mapping_confidence": 0.3167477025266746,
+      "conditions": {
+        "raw_description": "Na; Et2O; NH3; MeOH; -78 \u00b0C; 15 min; 48%",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_13",
+      "reaction_smiles": "O=C1c2ccc3c4c2[C@H]2[C@@H]5[C@@H](CC[C@H](CC3)[C@H]45)CC[C@@]2(C(=O)O)C1O.[BH4-].[Na+].CCCO>>O=C(O)[C@@]12CC[C@@H]3CC[C@@H]4CCc5ccc(c6c5[C@@H]4[C@@H]3[C@H]61)C(O)C2O",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([OH:3])[C@@:4]12[CH2:5][CH2:6][C@@H:7]3[CH2:8][CH2:9][C@@H:10]4[CH2:11][CH2:12][c:13]5[cH:14][cH:15][c:16]([c:17]6[c:18]5[C@@H:19]4[C@@H:20]3[C@@H:21]16)[C:22](=[O:23])[CH:24]2[OH:25]>[BH4-].[Na+].CCCO>[O:1]=[C:2]([OH:3])[C@@:4]12[CH2:5][CH2:6][C@@H:7]3[CH2:8][CH2:9][C@@H:10]4[CH2:11][CH2:12][c:13]5[cH:14][cH:15][c:16]([c:17]6[c:18]5[C@@H:19]4[C@@H:20]3[C@@H:21]16)[CH:22]([OH:23])[CH:24]2[OH:25]",
+      "mapping_confidence": 0.6919407515759138,
+      "conditions": {
+        "raw_description": "NaBH4; nPrOH; rt; 1.5 h; NYG",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "nPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCO"
+        ],
+        "MODIFIERS": [
+          "NYG"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_14",
+      "reaction_smiles": "O=C(O)[C@@]12CC[C@@H]3CC[C@@H]4CCc5ccc(c6c5[C@@H]4[C@@H]3[C@H]61)C(O)C2O.Cl.CC(=O)O.O>>O=C(O)[C@@]12CC[C@@H]3CC[C@@H]4CCc5ccc(c6c5[C@@H]4[C@@H]3[C@H]61)CC2=O",
+      "reaction_smiles_mapped": "O[CH:22]1[c:16]2[cH:15][cH:14][c:13]3[c:18]4[c:17]2[C@@H:21]2[C@@:4]([C:2](=[O:1])[OH:3])([CH2:5][CH2:6][C@@H:7]5[CH2:8][CH2:9][C@H:10]([CH2:11][CH2:12]3)[C@H:19]4[C@@H:20]52)[CH:23]1[OH:24]>Cl.CC(=O)O.O>[O:1]=[C:2]([OH:3])[C@@:4]12[CH2:5][CH2:6][C@@H:7]3[CH2:8][CH2:9][C@@H:10]4[CH2:11][CH2:12][c:13]5[cH:14][cH:15][c:16]([c:17]6[c:18]5[C@@H:19]4[C@@H:20]3[C@@H:21]16)[CH2:22][C:23]2=[O:24]",
+      "mapping_confidence": 0.8951462984152291,
+      "conditions": {
+        "raw_description": "HCl; AcOH; H2O; reflux; 5 min",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_15",
+      "reaction_smiles": "O=C(O)[C@@]12CC[C@@H]3CC[C@@H]4CCc5ccc(c6c5[C@@H]4[C@@H]3[C@H]61)CC2=O>>O=C1Cc2ccc3c4c2[C@@H]2C1CC[C@@H]1CC[C@H](CC3)[C@H]4[C@@H]12",
+      "reaction_smiles_mapped": "O=C(O)[C@:11]12[C:2](=[O:1])[CH2:3][c:4]3[cH:5][cH:6][c:7]4[c:8]5[c:9]3[C@H:10]1[C@@H:21]1[C@H:14]([CH2:13][CH2:12]2)[CH2:15][CH2:16][C@H:17]([CH2:18][CH2:19]4)[C@H:20]51>>[O:1]=[C:2]1[CH2:3][c:4]2[cH:5][cH:6][c:7]3[c:8]4[c:9]2[C@@H:10]2[CH:11]1[CH2:12][CH2:13][C@@H:14]1[CH2:15][CH2:16][C@H:17]([CH2:18][CH2:19]3)[C@H:20]4[C@H:21]21",
+      "mapping_confidence": 0.7918884825066802,
+      "conditions": {
+        "raw_description": "Vacuum; 100 \u00b0C; 10 h; 92% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "92% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_16",
+      "reaction_smiles": "O=C1Cc2ccc3c4c2[C@@H]2C1CC[C@@H]1CC[C@H](CC3)[C@H]4[C@@H]12.[BH4-].[Na+].c1ccccc1.CCO>>OC1Cc2ccc3c4c2[C@@H]2C1CC[C@@H]1CC[C@H](CC3)[C@H]4[C@@H]12",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][c:4]2[cH:5][cH:6][c:7]3[c:8]4[c:9]2[C@@H:10]2[CH:11]1[CH2:12][CH2:13][C@@H:14]1[CH2:15][CH2:16][C@H:17]([CH2:18][CH2:19]3)[C@H:20]4[C@H:21]21>[BH4-].[Na+].c1ccccc1.CCO>[OH:1][CH:2]1[CH2:3][c:4]2[cH:5][cH:6][c:7]3[c:8]4[c:9]2[C@@H:10]2[CH:11]1[CH2:12][CH2:13][C@@H:14]1[CH2:15][CH2:16][C@H:17]([CH2:18][CH2:19]3)[C@H:20]4[C@H:21]21",
+      "mapping_confidence": 0.9763886089214253,
+      "conditions": {
+        "raw_description": "NaBH4; benzene; EtOH; rt; 30 min; 94%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Corannulene_1971_Lawton_17",
+      "reaction_smiles": "OC1Cc2ccc3c4c2[C@@H]2C1CC[C@@H]1CC[C@H](CC3)[C@H]4[C@@H]12.[C].[Pd]>>c1cc2ccc3ccc4ccc5ccc1c1c2c3c4c51",
+      "reaction_smiles_mapped": "O[CH:1]1[CH2:2][c:3]2[cH:4][cH:5][c:6]3[c:18]4[c:17]2[C@@H:16]2[CH:15]1[CH2:14][CH2:13][C@@H:12]1[CH2:11][CH2:10][C@H:9]([CH2:8][CH2:7]3)[C@H:19]4[C@@H:20]12>[C].[Pd]>[cH:1]1[cH:2][c:3]2[cH:4][cH:5][c:6]3[cH:7][cH:8][c:9]4[cH:10][cH:11][c:12]5[cH:13][cH:14][c:15]1[c:16]1[c:17]2[c:18]3[c:19]4[c:20]51",
+      "mapping_confidence": 0.6107428691902606,
+      "conditions": {
+        "raw_description": "Pd/C; 100 - 275 \u00b0C; 2 h; 16%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100",
+          "275"
+        ],
+        "YIELD": [
+          "16%"
+        ]
+      }
+    }
+  ]
+}

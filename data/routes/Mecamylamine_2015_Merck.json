@@ -1,0 +1,71 @@
+{
+  "background": {
+    "name": "Mecamylamine",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Inversine",
+    "manufacturer": "Merck",
+    "citation": "Chem. Soc. Rev. 2015, 44, 7737",
+    "doi": "10.1039/c4cs00477a"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Mecamylamine_2015_Merck_1",
+      "reaction_smiles": "C=C1C2CCC(C2)C1(C)C.[H+].O.C#N>>CC1(C)C2CCC(C2)[C@@]1(C)NC=O",
+      "reaction_smiles_mapped": "[N:11]#[CH:12].[CH3:1][C:2]1([CH3:3])[CH:4]2[CH2:5][CH2:6][CH:7]([CH2:8]2)[C:9]1=[CH2:10].[OH2:13]>[H+]>[CH3:1][C:2]1([CH3:3])[CH:4]2[CH2:5][CH2:6][CH:7]([CH2:8]2)[C@@:9]1([CH3:10])[NH:11][CH:12]=[O:13]",
+      "mapping_confidence": 0.6732620247923472,
+      "conditions": {
+        "raw_description": "1) HCN/H+; <5 \u00b0C; 2) H2O; OH-; 73%",
+        "GENERAL_REAGENTS": [
+          "HCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Mecamylamine_2015_Merck_2",
+      "reaction_smiles": "CC1(C)C2CCC(C2)[C@@]1(C)NC=O.[H-].[H-].[H-].[Li].[Al+3].[AlH4-].[Li+]>>CN[C@]1(C)C2CCC(C2)C1(C)C",
+      "reaction_smiles_mapped": "O=[CH:1][NH:2][C@:3]1([CH3:4])[CH:5]2[CH2:6][CH2:7][CH:8]([CH2:9]2)[C:10]1([CH3:11])[CH3:12]>[Al+3].[AlH4-].[H-].[H-].[H-].[Li+].[Li]>[CH3:1][NH:2][C@:3]1([CH3:4])[CH:5]2[CH2:6][CH2:7][CH:8]([CH2:9]2)[C:10]1([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.7709070335115771,
+      "conditions": {
+        "raw_description": "LiAlH4; 92%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    }
+  ]
+}

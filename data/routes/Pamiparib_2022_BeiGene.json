@@ -1,0 +1,357 @@
+{
+  "background": {
+    "name": "Pamiparib",
+    "author": null,
+    "year": 2022,
+    "drug_name": "Partruvix",
+    "manufacturer": "BeiGene",
+    "citation": "J. Med. Chem. 2024, 67, 4376",
+    "doi": "10.1021/acs.jmedchem.3c02374"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_1",
+      "reaction_smiles": "CC1=NCCC1.CC(C)(C)OC(=O)CBr.CC#N>>CC1=[N+](CC(=O)OC(C)(C)C)CCC1",
+      "reaction_smiles_mapped": "Br[CH2:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11].[CH3:1][C:2]1=[N:3][CH2:12][CH2:13][CH2:14]1>CC#N>[CH3:1][C:2]1=[N+:3]([CH2:4][C:5](=[O:6])[O:7][C:8]([CH3:9])([CH3:10])[CH3:11])[CH2:12][CH2:13][CH2:14]1",
+      "mapping_confidence": 0.3400340937824176,
+      "conditions": {
+        "raw_description": "MeCN; 60%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_2",
+      "reaction_smiles": "CC1=[N+](CC(=O)OC(C)(C)C)CCC1.C#C[Si](C)(C)C.[Li]CCCC.C1CCOC1>>CC(C)(C)OC(=O)CN1CCCC1(C)C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH:15]#[C:16][Si:17]([CH3:18])([CH3:19])[CH3:20].[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][N+:9]1=[C:13]([CH3:14])[CH2:12][CH2:11][CH2:10]1>C1CCOC1.[Li]CCCC>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][N:9]1[CH2:10][CH2:11][CH2:12][C:13]1([CH3:14])[C:15]#[C:16][Si:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.11389434400937141,
+      "conditions": {
+        "raw_description": "n-BuLi; THF",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)CN1CCCC1(C)C#C[Si](C)(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C#CC1(C)CCCN1CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][C:3]1([CH3:4])[CH2:5][CH2:6][CH2:7][N:8]1[CH2:9][C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH:1]#[C:2][C:3]1([CH3:4])[CH2:5][CH2:6][CH2:7][N:8]1[CH2:9][C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.28677041000442266,
+      "conditions": {
+        "raw_description": "TBAF; THF; 69% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_4",
+      "reaction_smiles": "C#CC1(C)CCCN1CC(=O)OC(C)(C)C.Cc1ccc(C(=O)O[C@@H](C(=O)O)[C@@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.COC(C)(C)C.C1CCOC1.[Na+].[OH-]>>C#C[C@@]1(C)CCCN1CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][C:3]1([CH3:4])[CH2:5][CH2:6][CH2:7][N:8]1[CH2:9][C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16]>C1CCOC1.COC(C)(C)C.Cc1ccc(C(=O)O[C@@H](C(=O)O)[C@@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.[Na+].[OH-]>[CH:1]#[C:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][CH2:7][N:8]1[CH2:9][C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.40618422270566207,
+      "conditions": {
+        "raw_description": "1) THF; 2) MTBE; 3) aq. NaOH; 26%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MTBE",
+          "THF",
+          "aq. NaOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)OC",
+          "C1CCOC1",
+          "[OH-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "26%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_5",
+      "reaction_smiles": "C#C[C@@]1(C)CCCN1CC(=O)OC(C)(C)C.COC(=O)c1cc(F)cc(NS(=O)(=O)c2ccc(C)cc2)c1Br.Cl[Pd]Cl.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.[Cu+].[I-].CN(C)C=O.CN(C)C(=N)N(C)C>>COC(=O)c1cc(F)cc2c1cc([C@@]1(C)CCCN1CC(=O)OC(C)(C)C)n2S(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH:12]#[C:13][C@@:14]1([CH3:15])[CH2:16][CH2:17][CH2:18][N:19]1[CH2:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27].Br[c:11]1[c:5]([C:3]([O:2][CH3:1])=[O:4])[cH:6][c:7]([F:8])[cH:9][c:10]1[NH:28][S:29](=[O:30])(=[O:31])[c:32]1[cH:33][cH:34][c:35]([CH3:36])[cH:37][cH:38]1>CN(C)C(=N)N(C)C.CN(C)C=O.Cl[Pd]Cl.[Cu+].[I-].c1ccc([PH+](c2ccccc2)c2ccccc2)cc1.c1ccc([PH+](c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]2[c:11]1[cH:12][c:13]([C@@:14]1([CH3:15])[CH2:16][CH2:17][CH2:18][N:19]1[CH2:20][C:21](=[O:22])[O:23][C:24]([CH3:25])([CH3:26])[CH3:27])[n:28]2[S:29](=[O:30])(=[O:31])[c:32]1[cH:33][cH:34][c:35]([CH3:36])[cH:37][cH:38]1",
+      "mapping_confidence": 0.19558830591685147,
+      "conditions": {
+        "raw_description": "Pd(PPh3)2Cl2; CuI; TMG; DMF; 85%",
+        "GENERAL_REAGENTS": [
+          "TMG"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN(C)C(=N)N(C)C"
+        ],
+        "CATALYSTS": [
+          "Pd(PPh3)2Cl2",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)[PH+](C2=CC=CC=C2)C3=CC=CC=C3.Cl[Pd]Cl",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_6",
+      "reaction_smiles": "COC(=O)c1cc(F)cc2c1cc([C@@]1(C)CCCN1CC(=O)OC(C)(C)C)n2S(=O)(=O)c1ccc(C)cc1.O=S(=O)(O)C(F)(F)F>>COC(=O)c1cc(F)cc2[nH]c3c(c12)C(=O)CN1CCC[C@]31C",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[n:11]2[c:10]3[cH:9][c:7]([F:8])[cH:6][c:5]([C:3]([O:2][CH3:1])=[O:4])[c:14]3[cH:13][c:12]2[C@:22]2([CH3:23])[N:18]([CH2:17][C:15](OC(C)(C)C)=[O:16])[CH2:19][CH2:20][CH2:21]2)cc1>O=S(=O)(O)C(F)(F)F>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]2[nH:11][c:12]3[c:13]([c:14]12)[C:15](=[O:16])[CH2:17][N:18]1[CH2:19][CH2:20][CH2:21][C@:22]31[CH3:23]",
+      "mapping_confidence": 0.9754857888606128,
+      "conditions": {
+        "raw_description": "CF3SO3H; 94%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CF3SO3H"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_7",
+      "reaction_smiles": "COC(=O)c1cc(F)cc2[nH]c3c(c12)C(=O)CN1CCC[C@]31C.NN.O=C([O-])[O-].[K+].[K+].CC(=O)O.O=C(O)CN(CCNCCN(CC(=O)O)CC(=O)O)CC(=O)O.O.CC(C)O.CO>>C[C@]12CCCN1CC1=NNC(=O)c3cc(F)cc4[nH]c2c1c34",
+      "reaction_smiles_mapped": "CO[C:11](=[O:12])[c:13]1[cH:14][c:15]([F:16])[cH:17][c:18]2[nH:19][c:20]3[c:21]([c:22]12)[C:8](=O)[CH2:7][N:6]1[C@:2]3([CH3:1])[CH2:3][CH2:4][CH2:5]1.[NH2:9][NH2:10]>CC(=O)O.CC(C)O.CO.O.O=C(O)CN(CCNCCN(CC(=O)O)CC(=O)O)CC(=O)O.O=C([O-])[O-].[K+].[K+]>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][N:6]1[CH2:7][C:8]1=[N:9][NH:10][C:11](=[O:12])[c:13]3[cH:14][c:15]([F:16])[cH:17][c:18]4[nH:19][c:20]2[c:21]1[c:22]34",
+      "mapping_confidence": 0.5578330784920122,
+      "conditions": {
+        "raw_description": "1) NH2NH2 H2O; AcOH; MeOH; (+)-DTTA; i-PrOH; 2) K2CO3; H2O; i-PrOH; H2O; 50%",
+        "GENERAL_REAGENTS": [
+          "NH2NH2",
+          "K2CO3",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "(+)-DTTA"
+        ],
+        "LIGANDS_SMILES": [
+          "OC(=O)CN(CCNCCN(CC(O)=O)CC(O)=O)CC(O)=O"
+        ],
+        "SOLVENTS": [
+          "H2O",
+          "i-PrOH",
+          "H2O",
+          "H2O",
+          "MeOH",
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC(C)O",
+          "O",
+          "O",
+          "CO",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_8",
+      "reaction_smiles": "O=C(O)c1cc(F)ccc1Br.O=[N+]([O-])O.O=S(=O)(O)O>>O=C(O)c1cc(F)cc([N+](=O)[O-])c1Br",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([OH:3])[c:4]1[cH:5][c:6]([F:7])[cH:8][cH:9][c:13]1[Br:14].O[N+:10](=[O:11])[O-:12]>O=S(=O)(O)O>[O:1]=[C:2]([OH:3])[c:4]1[cH:5][c:6]([F:7])[cH:8][c:9]([N+:10](=[O:11])[O-:12])[c:13]1[Br:14]",
+      "mapping_confidence": 0.7636901074608479,
+      "conditions": {
+        "raw_description": "HNO3; H2SO4",
+        "GENERAL_REAGENTS": [
+          "HNO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N+](=O)(O)[O-]",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_9",
+      "reaction_smiles": "O=C(O)c1cc(F)cc([N+](=O)[O-])c1Br.O=S(Cl)Cl.CO>>COC(=O)c1cc(F)cc([N+](=O)[O-])c1Br",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].O[C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]([N+:11](=[O:12])[O-:13])[c:14]1[Br:15]>O=S(Cl)Cl>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]([N+:11](=[O:12])[O-:13])[c:14]1[Br:15]",
+      "mapping_confidence": 0.7070083804309442,
+      "conditions": {
+        "raw_description": "SOCl2; MeOH; 42% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "42% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_10",
+      "reaction_smiles": "COC(=O)c1cc(F)cc([N+](=O)[O-])c1Br.[Cl-].[NH4+].[Fe].CCO.O>>COC(=O)c1cc(F)cc(N)c1Br",
+      "reaction_smiles_mapped": "O=[N+:11]([O-])[c:10]1[cH:9][c:7]([F:8])[cH:6][c:5]([C:3]([O:2][CH3:1])=[O:4])[c:12]1[Br:13]>CCO.O.[Cl-].[Fe].[NH4+]>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]([NH2:11])[c:12]1[Br:13]",
+      "mapping_confidence": 0.9835811576150054,
+      "conditions": {
+        "raw_description": "Fe; NH4Cl; EtOH; H2O",
+        "GENERAL_REAGENTS": [
+          "NH4Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pamiparib_2022_BeiGene_11",
+      "reaction_smiles": "COC(=O)c1cc(F)cc(N)c1Br.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1.ClCCl>>COC(=O)c1cc(F)cc(NS(=O)(=O)c2ccc(C)cc2)c1Br",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]([NH2:11])[c:22]1[Br:23].Cl[S:12](=[O:13])(=[O:14])[c:15]1[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]1>ClCCl.c1ccncc1>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][c:7]([F:8])[cH:9][c:10]([NH:11][S:12](=[O:13])(=[O:14])[c:15]2[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]2)[c:22]1[Br:23]",
+      "mapping_confidence": 0.509488651883164,
+      "conditions": {
+        "raw_description": "TsCl; py; DCM",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

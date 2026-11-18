@@ -1,0 +1,334 @@
+{
+  "background": {
+    "name": "(+/-)-Brussonol",
+    "author": "Burtoloso",
+    "year": 2019,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2019, 21, 6079",
+    "doi": "10.1021/acs.orglett.9b02221"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_1",
+      "reaction_smiles": "CC1=CC(=O)CCC1.C=CCBr.CN1CCCN(C)C1=O.C[SH](C)[Cu]Br.C[Mg]Br>>C=CC[C@@H]1C(=O)CCCC1(C)C",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[CH:4]1=[C:10]([CH3:11])[CH2:9][CH2:8][CH2:7][C:5]1=[O:6].[CH3:12][Mg]Br>C[SH]([Cu]Br)C.CN1CCCN(C)C1=O>[CH2:1]=[CH:2][CH2:3][C@@H:4]1[C:5](=[O:6])[CH2:7][CH2:8][CH2:9][C:10]1([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.3469130186644304,
+      "conditions": {
+        "raw_description": "CuBrSMe2; MeMgBr; DMPU; 0\u00b0 to rt; 79%",
+        "GENERAL_REAGENTS": [
+          "CuBrSMe2",
+          "MeMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br[Cu]S(C)C",
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMPU"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCN(C1=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_2",
+      "reaction_smiles": "C=CC[C@@H]1C(=O)CCCC1(C)C.C[S+](C)C.CS(C)=O.CC(C)(C)[O-].[K+]>>C=CC[C@H]1C(C)(C)CCC[C@]12CO2",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@H:4]1[C:5]([CH3:6])([CH3:7])[CH2:8][CH2:9][CH2:10][C:11]1=[O:13].C[S+](C)[CH3:12]>CC(C)(C)[O-].CS(C)=O.[K+]>[CH2:1]=[CH:2][CH2:3][C@H:4]1[C:5]([CH3:6])([CH3:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH2:12][O:13]2",
+      "mapping_confidence": 0.2340598826879627,
+      "conditions": {
+        "raw_description": "tBuOK; DMSO; rt; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_3",
+      "reaction_smiles": "C=CC[C@H]1C(C)(C)CCC[C@]12CO2.[O-2].[O-2].[O-2].[O-2].[Os+8].C[N+]1([O-])CCOCC1.C1CCOC1.O.[O-][I+3]([O-])([O-])[O-].[Na+].[Na+].[O-][I+3]([O-])([O-])[O-].O=[Os](=O)(=O)=O>>CC1(C)CCC[C@]2(CO2)[C@H]1CC=O",
+      "reaction_smiles_mapped": "C=[CH:12][CH2:11][C@H:10]1[C:2]([CH3:1])([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]12[CH2:8][O:9]2.[O-][I+3]([O-])([O-])[O-:13]>C1CCOC1.C[N+]1([O-])CCOCC1.O.[Na+].[Na+].[O-2].[O-2].[O-2].[O-2].[Os+8].O=[Os](=O)(=O)=O.[O-][I+3]([O-])([O-])[O-]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH2:8][O:9]2)[C@H:10]1[CH2:11][CH:12]=[O:13]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) OsO4; NMO; THF/H2O; 2) NaIO4; 89% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaIO4",
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]",
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_4",
+      "reaction_smiles": "COC(=O)c1cccc(OC)c1OC.C[Mg]Br.C[Mg]Br.C1CCOC1>>COc1cccc(C(C)(C)O)c1OC",
+      "reaction_smiles_mapped": "CO[C:8]([c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[c:12]1[O:13][CH3:14])=[O:11].Br[Mg][CH3:9].Br[Mg][CH3:10]>C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([C:8]([CH3:9])([CH3:10])[OH:11])[c:12]1[O:13][CH3:14]",
+      "mapping_confidence": 0.42360045337340424,
+      "conditions": {
+        "raw_description": "MeMgBr; THF; 0 \u00b0C to rt; 96%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_5",
+      "reaction_smiles": "COc1cccc(C(C)(C)O)c1OC.O=S(=O)(O)O.CCOC(C)=O.[Pd].[H][H].[HH].[C].[Pd]>>COc1cccc(C(C)C)c1OC",
+      "reaction_smiles_mapped": "O[C:8]([c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[c:11]1[O:12][CH3:13])([CH3:9])[CH3:10]>CCOC(C)=O.O=S(=O)(O)O.[C].[HH].[H][H].[Pd].[Pd]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH:8]([CH3:9])[CH3:10])[c:11]1[O:12][CH3:13]",
+      "mapping_confidence": 0.5960153445553952,
+      "conditions": {
+        "raw_description": "H2SO4; EtOAc; Pd/C; H2; 91%",
+        "GENERAL_REAGENTS": [
+          "H2SO4",
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O",
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_6",
+      "reaction_smiles": "COc1cccc(C(C)C)c1OC.BrBr.CN(C)CCN(C)C.CCOCC.[Li]CCCC>>COc1c(Br)ccc(C(C)C)c1OC",
+      "reaction_smiles_mapped": "Br[Br:5].[CH3:1][O:2][c:3]1[cH:4][cH:6][cH:7][c:8]([CH:9]([CH3:10])[CH3:11])[c:12]1[O:13][CH3:14]>CCOCC.CN(C)CCN(C)C.[Li]CCCC>[CH3:1][O:2][c:3]1[c:4]([Br:5])[cH:6][cH:7][c:8]([CH:9]([CH3:10])[CH3:11])[c:12]1[O:13][CH3:14]",
+      "mapping_confidence": 0.3269844756485009,
+      "conditions": {
+        "raw_description": "TMEDA; nBuLi; Br2; Et2O; 0 \u00b0C to -78 \u00b0C; 65-81%",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "TMEDA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)CCN(C)C"
+        ],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "-78"
+        ],
+        "YIELD": [
+          "65-81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_7",
+      "reaction_smiles": "CC1(C)CCC[C@]2(CO2)[C@H]1CC=O.COc1c(Br)ccc(C(C)C)c1OC.[I-].[Na+].CC[NH+](CC)CC.[Cl-].I[Ni]I.[Zn].COc1ccnc(-c2cc(OC)ccn2)c1.c1ccncc1.CN1CCCN(C)C1=O>>COc1c(C[C@@]23CCCC(C)(C)[C@@H]2CC(O)O3)ccc(C(C)C)c1OC",
+      "reaction_smiles_mapped": "[CH2:5]1[C@:6]2([CH2:7][CH2:8][CH2:9][C:10]([CH3:11])([CH3:12])[C@@H:13]2[CH2:14][CH:15]=[O:16])[O:17]1.Br[c:4]1[c:3]([O:2][CH3:1])[c:24]([O:25][CH3:26])[c:20]([CH:21]([CH3:22])[CH3:23])[cH:19][cH:18]1>CC[NH+](CC)CC.CN1CCCN(C)C1=O.COc1ccnc(-c2cc(OC)ccn2)c1.I[Ni]I.[Cl-].[I-].[Na+].[Zn].c1ccncc1>[CH3:1][O:2][c:3]1[c:4]([CH2:5][C@@:6]23[CH2:7][CH2:8][CH2:9][C:10]([CH3:11])([CH3:12])[C@@H:13]2[CH2:14][CH:15]([OH:16])[O:17]3)[cH:18][cH:19][c:20]([CH:21]([CH3:22])[CH3:23])[c:24]1[O:25][CH3:26]",
+      "mapping_confidence": 0.5843923073343393,
+      "conditions": {
+        "raw_description": "NiI2; 4,4'-dimethoxy-2,2'-bipyridine; pyridine; NaI; Zn; Et3N\u00b7HCl; DMPU; 40%",
+        "GENERAL_REAGENTS": [
+          "NaI",
+          "Et3N\u00b7HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]",
+          "CC[NH+](CC)CC.[Cl-]"
+        ],
+        "CATALYSTS": [
+          "NiI2",
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ni](I)I",
+          "[Zn]"
+        ],
+        "LIGANDS": [
+          "4,4'-dimethoxy-2,2'-bipyridine"
+        ],
+        "LIGANDS_SMILES": [
+          "COc1ccnc(c1)-c1cc(OC)ccn1"
+        ],
+        "SOLVENTS": [
+          "pyridine",
+          "DMPU"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "CN1CCCN(C1=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "40%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_8",
+      "reaction_smiles": "COc1c(C[C@@]23CCCC(C)(C)[C@@H]2CC(O)O3)ccc(C(C)C)c1OC.FB(F)F.CCOCC.ClCCl>>COc1c(C(C)C)cc2c(c1OC)C[C@@]13CCCC(C)(C)[C@@H]1C[C@@H]2O3",
+      "reaction_smiles_mapped": "O[CH:24]1[CH2:23][C@@H:22]2[C@@:15]([CH2:14][c:10]3[cH:9][cH:8][c:4]([CH:5]([CH3:6])[CH3:7])[c:3]([O:2][CH3:1])[c:11]3[O:12][CH3:13])([CH2:16][CH2:17][CH2:18][C:19]2([CH3:20])[CH3:21])[O:25]1>CCOCC.ClCCl.FB(F)F>[CH3:1][O:2][c:3]1[c:4]([CH:5]([CH3:6])[CH3:7])[cH:8][c:9]2[c:10]([c:11]1[O:12][CH3:13])[CH2:14][C@@:15]13[CH2:16][CH2:17][CH2:18][C:19]([CH3:20])([CH3:21])[C@@H:22]1[CH2:23][C@@H:24]2[O:25]3",
+      "mapping_confidence": 0.565543010472183,
+      "conditions": {
+        "raw_description": "BF3; Et2O; DCM; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Brussonol_2019_Burtoloso_9",
+      "reaction_smiles": "COc1c(C(C)C)cc2c(c1OC)C[C@@]13CCCC(C)(C)[C@@H]1C[C@@H]2O3.[H-].[Na+].CN(C)C=O.CCS.[H-].[Na+]>>CC(C)c1cc2c(c(O)c1O)C[C@@]13CCCC(C)(C)[C@@H]1C[C@@H]2O3",
+      "reaction_smiles_mapped": "C[O:9][c:8]1[c:7]2[c:6]([cH:5][c:4]([CH:2]([CH3:1])[CH3:3])[c:10]1[O:11]C)[C@@H:22]1[CH2:21][C@@H:20]3[C@@:13]([CH2:12]2)([CH2:14][CH2:15][CH2:16][C:17]3([CH3:18])[CH3:19])[O:23]1>CCS.CN(C)C=O.[H-].[H-].[Na+].[Na+]>[CH3:1][CH:2]([CH3:3])[c:4]1[cH:5][c:6]2[c:7]([c:8]([OH:9])[c:10]1[OH:11])[CH2:12][C@@:13]13[CH2:14][CH2:15][CH2:16][C:17]([CH3:18])([CH3:19])[C@@H:20]1[CH2:21][C@@H:22]2[O:23]3",
+      "mapping_confidence": 0.49691587680327876,
+      "conditions": {
+        "raw_description": "EtSH; NaH; DMF; 89%",
+        "GENERAL_REAGENTS": [
+          "EtSH",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCS",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    }
+  ]
+}

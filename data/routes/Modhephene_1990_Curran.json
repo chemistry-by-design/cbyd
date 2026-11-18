@@ -1,0 +1,415 @@
+{
+  "background": {
+    "name": "(+/-)-Modhephene",
+    "author": "Curran",
+    "year": 1990,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1990, 112, 5601",
+    "doi": "10.1021/ja00170a025"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Modhephene_1990_Curran_1",
+      "reaction_smiles": "COC(=O)C1CCCC1=O.[H-].[Na+].CCOCC.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F>>COC(=O)C1=C(OS(=O)(=O)C(F)(F)F)CCC1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH:5]1[C:6](=[O:7])[CH2:15][CH2:16][CH2:17]1.O=S(=O)(O[S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])C(F)(F)F>[H-].[Na+].CCOCC>[CH3:1][O:2][C:3](=[O:4])[C:5]1=[C:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[CH2:15][CH2:16][CH2:17]1",
+      "mapping_confidence": 0.10316325795125152,
+      "conditions": {
+        "raw_description": "NaH; Et2O; Tf2O",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_2",
+      "reaction_smiles": "COC(=O)C1=C(OS(=O)(=O)C(F)(F)F)CCC1.C1CCOC1.C[Sn](C)(C)Sc1ccccc1.[Cu].[Li]>>COC(=O)C1=C([Sn](C)(C)C)CCC1",
+      "reaction_smiles_mapped": "O=S(=O)(O[C:6]1=[C:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:13][CH2:12][CH2:11]1)C(F)(F)F.c1ccc(S[Sn:7]([CH3:8])([CH3:9])[CH3:10])cc1>C1CCOC1.[Cu].[Li]>[CH3:1][O:2][C:3](=[O:4])[C:5]1=[C:6]([Sn:7]([CH3:8])([CH3:9])[CH3:10])[CH2:11][CH2:12][CH2:13]1",
+      "mapping_confidence": 0.43897788339506455,
+      "conditions": {
+        "raw_description": "C6H5S(Me3Sn)CuLi; THF",
+        "GENERAL_REAGENTS": [
+          "C6H5S(Me3Sn)",
+          "CuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1ccccc1S[Sn](C)(C)C",
+          "[Li].[Cu]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_3",
+      "reaction_smiles": "COC(=O)C1=C([Sn](C)(C)C)CCC1.CC(Br)CCBr.[Li]N(C(C)C)C(C)C>>COC(=O)C1(CCC(C)Br)CCC=C1[Sn](C)(C)C",
+      "reaction_smiles_mapped": "Br[CH2:6][CH2:7][CH:8]([CH3:9])[Br:10].[CH3:1][O:2][C:3](=[O:4])[C:5]1=[C:14]([Sn:15]([CH3:16])([CH3:17])[CH3:18])[CH2:13][CH2:12][CH2:11]1>[Li]N(C(C)C)C(C)C>[CH3:1][O:2][C:3](=[O:4])[C:5]1([CH2:6][CH2:7][CH:8]([CH3:9])[Br:10])[CH2:11][CH2:12][CH:13]=[C:14]1[Sn:15]([CH3:16])([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.47190249165845155,
+      "conditions": {
+        "raw_description": "LDA; 89%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_4",
+      "reaction_smiles": "COC(=O)C1(CCC(C)Br)CCC=C1[Sn](C)(C)C.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>>COC(=O)[C@@]12CCC=C1[C@@H](C)CC2",
+      "reaction_smiles_mapped": "C[Sn](C)(C)[C:9]1=[CH:8][CH2:7][CH2:6][C:5]1([C:3]([O:2][CH3:1])=[O:4])[CH2:13][CH2:12][CH:10](Br)[CH3:11]>CC(C)(C#N)N=NC(C)(C)C#N.CCCC[SnH](CCCC)CCCC>[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH2:6][CH2:7][CH:8]=[C:9]1[C@@H:10]([CH3:11])[CH2:12][CH2:13]2",
+      "mapping_confidence": 0.9807868290094996,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN; 90%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_5",
+      "reaction_smiles": "COC(=O)[C@@]12CCC=C1[C@@H](C)CC2.[Na+].[OH-]>>C[C@H]1CC[C@]2(C(=O)O)CCC=C12",
+      "reaction_smiles_mapped": "C[O:8][C:6]([C@:5]12[CH2:4][CH2:3][C@H:2]([CH3:1])[C:12]1=[CH:11][CH2:10][CH2:9]2)=[O:7]>[Na+].[OH-]>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])[OH:8])[CH2:9][CH2:10][CH:11]=[C:12]12",
+      "mapping_confidence": 0.9672047363770048,
+      "conditions": {
+        "raw_description": "NaOH; 98%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_6",
+      "reaction_smiles": "C[C@H]1CC[C@]2(C(=O)O)CCC=C12.O=C(Cl)C(=O)Cl>>C[C@H]1CC[C@]2(C(=O)OCl)CCC=C12",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])[OH:8])[CH2:10][CH2:11][CH:12]=[C:13]12.O=C(Cl)C(=O)[Cl:9]>>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])[O:8][Cl:9])[CH2:10][CH2:11][CH:12]=[C:13]12",
+      "mapping_confidence": 0.682782413247685,
+      "conditions": {
+        "raw_description": "(COCl)2",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_7",
+      "reaction_smiles": "C[C@H]1CC[C@]2(C(=O)OCl)CCC=C12.C[Si](C)(C)C#C[Zn]Cl.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Pd].C1CCOC1>>C[C@H]1CC[C@]2(C(=O)C#C[Si](C)(C)C)CCC=C12",
+      "reaction_smiles_mapped": "ClO[C:6]([C@:5]12[CH2:4][CH2:3][C@H:2]([CH3:1])[C:17]1=[CH:16][CH2:15][CH2:14]2)=[O:7].Cl[Zn][C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13]>c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.[Pd].C1CCOC1>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])[C:8]#[C:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[CH2:14][CH2:15][CH:16]=[C:17]12",
+      "mapping_confidence": 0.40865933716726094,
+      "conditions": {
+        "raw_description": "Pd(PPh3)4; THF",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(PPh3)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_8",
+      "reaction_smiles": "C[C@H]1CC[C@]2(C(=O)C#C[Si](C)(C)C)CCC=C12.[F-].[K+].CN(C)C=O>>C#CC(=O)[C@@]12CCC=C1[C@@H](C)CC2",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2][C:3](=[O:4])[C@@:5]12[CH2:6][CH2:7][CH:8]=[C:9]1[C@@H:10]([CH3:11])[CH2:12][CH2:13]2>[F-].[K+].CN(C)C=O>[CH:1]#[C:2][C:3](=[O:4])[C@@:5]12[CH2:6][CH2:7][CH:8]=[C:9]1[C@@H:10]([CH3:11])[CH2:12][CH2:13]2",
+      "mapping_confidence": 0.9688006360319654,
+      "conditions": {
+        "raw_description": "KF; DMF",
+        "GENERAL_REAGENTS": [
+          "KF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_9",
+      "reaction_smiles": "C#CC(=O)[C@@]12CCC=C1[C@@H](C)CC2.C[Si](C)(C)I.CCN(C(C)C)C(C)C>>C[C@H]1CC[C@]2(C(=O)/C=C/I)CCC=C12",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])[C:8]#[CH:9])[CH2:11][CH2:12][CH:13]=[C:14]12.C[Si](C)(C)[I:10]>CCN(C(C)C)C(C)C>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]2([C:6](=[O:7])/[CH:8]=[CH:9]/[I:10])[CH2:11][CH2:12][CH:13]=[C:14]12",
+      "mapping_confidence": 0.9858881150064497,
+      "conditions": {
+        "raw_description": "TMSI; (i-Pr)2NEt; 72% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "TMSI",
+          "(i-Pr)2NEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)I",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_10",
+      "reaction_smiles": "C[C@H]1CC[C@]2(C(=O)/C=C/I)CCC=C12.CCCC[Sn](CCCC)CCCC.CC(C)(C#N)/N=N/C(C)(C)C#N.c1ccc(P(CCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>>C[C@H]1CC[C@]23CCC[C@]12C=CC3=O",
+      "reaction_smiles_mapped": "I/[CH:10]=[CH:11]/[C:12]([C@:5]12[CH2:4][CH2:3][C@H:2]([CH3:1])[C:9]1=[CH:8][CH2:7][CH2:6]2)=[O:13]>CCCC[Sn](CCCC)CCCC.CC(C)(C#N)/N=N/C(C)(C)C#N.c1ccc(P(CCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[CH:10]=[CH:11][C:12]3=[O:13]",
+      "mapping_confidence": 0.9437566929929397,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN; DPPE",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [
+          "DPPE"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)CCP(c3ccccc3)c4ccccc4"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_11",
+      "reaction_smiles": "C[C@H]1CC[C@]23CCC[C@]12C=CC3=O.[Li]C>>C[C@H]1CC[C@]23CCC[C@]12C=CC3(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[CH:10]=[CH:11][C:12]3=[O:14].[Li][CH3:13]>>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[CH:10]=[CH:11][C:12]3([CH3:13])[OH:14]",
+      "mapping_confidence": 0.9894590109449417,
+      "conditions": {
+        "raw_description": "MeLi",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_12",
+      "reaction_smiles": "C[C@H]1CC[C@]23CCC[C@]12C=CC3(C)O.O=S(=O)(O)O.O=[Cr](=O)=O>>CC1=CC(=O)[C@]23CCC[C@]12CC[C@@H]3C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([OH:5])[CH:3]=[CH:4][C@:6]23[CH2:7][CH2:8][CH2:9][C@:10]12[CH2:11][CH2:12][C@@H:13]3[CH3:14]>O=S(=O)(O)O.O=[Cr](=O)=O>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[C@:6]23[CH2:7][CH2:8][CH2:9][C@:10]12[CH2:11][CH2:12][C@@H:13]3[CH3:14]",
+      "mapping_confidence": 0.3802762091274729,
+      "conditions": {
+        "raw_description": "CrO3; H2SO4; 95%",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_13",
+      "reaction_smiles": "CC1=CC(=O)[C@]23CCC[C@]12CC[C@@H]3C.C[Cu](C)C#N.[Li].[Li]>>C[C@H]1CC[C@]23CCC[C@]12C(=O)CC3(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[C:10](=[O:11])[CH:12]=[C:13]3[CH3:14].C[Cu](C#N)[CH3:15]>[Li].[Li]>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[C:10](=[O:11])[CH2:12][C:13]3([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.6191436767857196,
+      "conditions": {
+        "raw_description": "Me2CuCNLi2; 85%",
+        "GENERAL_REAGENTS": [
+          "Me2CuCNLi2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Cu](C)C#N.[Li].[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_14",
+      "reaction_smiles": "C[C@H]1CC[C@]23CCC[C@]12C(=O)CC3(C)C.[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1>>C=C1CC(C)(C)[C@@]23CCC[C@@]12[C@@H](C)CC3",
+      "reaction_smiles_mapped": "O=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[C@@H:12]([CH3:13])[CH2:14][CH2:15]3.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2-:1])cc1>>[CH2:1]=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[C@@H:12]([CH3:13])[CH2:14][CH2:15]3",
+      "mapping_confidence": 0.6543520102394592,
+      "conditions": {
+        "raw_description": "Ph3PCH2",
+        "GENERAL_REAGENTS": [
+          "Ph3PCH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH2-][P+](c1ccccc1)(c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1990_Curran_15",
+      "reaction_smiles": "C=C1CC(C)(C)[C@@]23CCC[C@@]12[C@@H](C)CC3>>CC1=CC(C)(C)[C@@]23CCC[C@@]12[C@@H](C)CC3",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[C@@H:12]([CH3:13])[CH2:14][CH2:15]3>>[CH3:1][C:2]1=[CH:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[C@@H:12]([CH3:13])[CH2:14][CH2:15]3",
+      "mapping_confidence": 0.7984144637560165,
+      "conditions": {
+        "raw_description": "acid",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

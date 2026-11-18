@@ -1,0 +1,179 @@
+{
+  "background": {
+    "name": "Pazopanib hydrochloride",
+    "author": null,
+    "year": 2011,
+    "drug_name": "Votrient",
+    "manufacturer": "GSK",
+    "citation": "Bioorg. Med. Chem. 2011, 19, 1136",
+    "doi": "10.1016/j.bmc.2010.12.038"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pazopanib_hydrochloride_2011_GSK_1",
+      "reaction_smiles": "Cc1n[nH]c2cc([N+](=O)[O-])ccc12.COC(OC)OC.CCOCC.FB(F)F.ClCCl>>Cc1c2ccc([N+](=O)[O-])cc2nn1C",
+      "reaction_smiles_mapped": "CO[CH:14](OC)OC.[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][c:11]2[nH:12][n:13]1>CCOCC.FB(F)F.ClCCl>[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][c:11]2[n:12][n:13]1[CH3:14]",
+      "mapping_confidence": 0.4856998937908511,
+      "conditions": {
+        "raw_description": "HC(OMe)3; BF3.OEt2; DCM; 65%",
+        "GENERAL_REAGENTS": [
+          "HC(OMe)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC(OC)OC"
+        ],
+        "CATALYSTS": [
+          "BF3.OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazopanib_hydrochloride_2011_GSK_2",
+      "reaction_smiles": "Cc1c2ccc([N+](=O)[O-])cc2nn1C.O=C[O-].[NH4+].CO.[C].[Pd]>>Cc1c2ccc(N)cc2nn1C",
+      "reaction_smiles_mapped": "O=[N+:7]([O-])[c:6]1[cH:5][cH:4][c:3]2[c:2]([CH3:1])[n:11]([CH3:12])[n:10][c:9]2[cH:8]1>O=C[O-].[NH4+].CO.[C].[Pd]>[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([NH2:7])[cH:8][c:9]2[n:10][n:11]1[CH3:12]",
+      "mapping_confidence": 0.983996045685463,
+      "conditions": {
+        "raw_description": "NH4HCO2; Pd/C; aq MeOH; 97%",
+        "GENERAL_REAGENTS": [
+          "NH4HCO2",
+          "MeOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=C[O-].[NH4+]",
+          "CO"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "aq MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazopanib_hydrochloride_2011_GSK_3",
+      "reaction_smiles": "Cc1c2ccc(N)cc2nn1C.Clc1ccnc(Cl)n1.O=C([O-])O.[Na+].CCO.C1CCOC1>>Cc1c2ccc(Nc3ccnc(Cl)n3)cc2nn1C",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([NH2:7])[cH:15][c:16]2[n:17][n:18]1[CH3:19].Cl[c:8]1[cH:9][cH:10][n:11][c:12]([Cl:13])[n:14]1>O=C([O-])O.[Na+].CCO.C1CCOC1>[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([NH:7][c:8]3[cH:9][cH:10][n:11][c:12]([Cl:13])[n:14]3)[cH:15][c:16]2[n:17][n:18]1[CH3:19]",
+      "mapping_confidence": 0.9757750368740894,
+      "conditions": {
+        "raw_description": "2,4-dichloropyrimidine; NaHCO3; EtOH; THF; 90%",
+        "GENERAL_REAGENTS": [
+          "2,4-dichloropyrimidine",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CN=C(N=C1Cl)Cl",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazopanib_hydrochloride_2011_GSK_4",
+      "reaction_smiles": "Cc1c2ccc(Nc3ccnc(Cl)n3)cc2nn1C.CI.O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>>Cc1c2ccc(N(C)c3ccnc(Cl)n3)cc2nn1C",
+      "reaction_smiles_mapped": "I[CH3:8].[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([NH:7][c:9]3[cH:10][cH:11][n:12][c:13]([Cl:14])[n:15]3)[cH:16][c:17]2[n:18][n:19]1[CH3:20]>O=C([O-])[O-].[Cs+].[Cs+].CN(C)C=O>[CH3:1][c:2]1[c:3]2[cH:4][cH:5][c:6]([N:7]([CH3:8])[c:9]3[cH:10][cH:11][n:12][c:13]([Cl:14])[n:15]3)[cH:16][c:17]2[n:18][n:19]1[CH3:20]",
+      "mapping_confidence": 0.9481705496367311,
+      "conditions": {
+        "raw_description": "CH3I; Cs2CO3; DMF; 83%",
+        "GENERAL_REAGENTS": [
+          "CH3I",
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pazopanib_hydrochloride_2011_GSK_5",
+      "reaction_smiles": "Cc1c2ccc(N(C)c3ccnc(Cl)n3)cc2nn1C.Cc1ccc(N)cc1S(N)(=O)=O.Cl.CC(C)O>>Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+      "reaction_smiles_mapped": "Cl[c:7]1[n:8][cH:9][cH:10][c:11]([N:12]([CH3:13])[c:14]2[cH:15][cH:16][c:17]3[c:18]([CH3:19])[n:20]([CH3:21])[n:22][c:23]3[cH:24]2)[n:25]1.[CH3:1][c:2]1[cH:3][cH:4][c:5]([NH2:6])[cH:26][c:27]1[S:28]([NH2:29])(=[O:30])=[O:31]>Cl.CC(C)O>[CH3:1][c:2]1[cH:3][cH:4][c:5]([NH:6][c:7]2[n:8][cH:9][cH:10][c:11]([N:12]([CH3:13])[c:14]3[cH:15][cH:16][c:17]4[c:18]([CH3:19])[n:20]([CH3:21])[n:22][c:23]4[cH:24]3)[n:25]2)[cH:26][c:27]1[S:28]([NH2:29])(=[O:30])=[O:31]",
+      "mapping_confidence": 0.6933044896549752,
+      "conditions": {
+        "raw_description": "HCl; iPrOH; reflux; 81%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    }
+  ]
+}

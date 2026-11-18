@@ -1,0 +1,103 @@
+{
+  "background": {
+    "name": "Elafibranor",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Iqirvo",
+    "manufacturer": "Genfit",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Elafibranor_2025_Genfit_1",
+      "reaction_smiles": "Cc1cc(C=O)cc(C)c1O.CSc1ccc(C(C)=O)cc1.Cl.CCO>>CSc1ccc(C(=O)/C=C/c2cc(C)c(O)c(C)c2)cc1",
+      "reaction_smiles_mapped": "[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([C:7](=[O:8])[CH3:9])[cH:20][cH:21]1.O=[CH:10][c:11]1[cH:12][c:13]([CH3:14])[c:15]([OH:16])[c:17]([CH3:18])[cH:19]1>CCO.Cl>[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([C:7](=[O:8])/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]([CH3:14])[c:15]([OH:16])[c:17]([CH3:18])[cH:19]2)[cH:20][cH:21]1",
+      "mapping_confidence": 0.6241063936964051,
+      "conditions": {
+        "raw_description": "HCl; EtOH; rt",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elafibranor_2025_Genfit_2",
+      "reaction_smiles": "CSc1ccc(C(=O)/C=C/c2cc(C)c(O)c(C)c2)cc1.CC(C)OC(=O)C(C)(C)Br.O=C([O-])[O-].[K+].[K+].CC#N>>CSc1ccc(C(=O)/C=C/c2cc(C)c(OC(C)(C)C(=O)OC(C)C)c(C)c2)cc1",
+      "reaction_smiles_mapped": "Br[C:17]([CH3:18])([CH3:19])[C:20](=[O:21])[O:22][CH:23]([CH3:24])[CH3:25].[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([C:7](=[O:8])/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]([CH3:14])[c:15]([OH:16])[c:26]([CH3:27])[cH:28]2)[cH:29][cH:30]1>CC#N.O=C([O-])[O-].[K+].[K+]>[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([C:7](=[O:8])/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]([CH3:14])[c:15]([O:16][C:17]([CH3:18])([CH3:19])[C:20](=[O:21])[O:22][CH:23]([CH3:24])[CH3:25])[c:26]([CH3:27])[cH:28]2)[cH:29][cH:30]1",
+      "mapping_confidence": 0.39284147060723035,
+      "conditions": {
+        "raw_description": "K2CO3; MeCN; reflux",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elafibranor_2025_Genfit_3",
+      "reaction_smiles": "CSc1ccc(C(=O)/C=C/c2cc(C)c(OC(C)(C)C(=O)OC(C)C)c(C)c2)cc1.O=C(O)C(F)(F)F.ClCCl>>CSc1ccc(C(=O)/C=C/c2cc(C)c(OC(C)(C)C(=O)O)c(C)c2)cc1",
+      "reaction_smiles_mapped": "CC(C)[O:22][C:20]([C:17]([O:16][c:15]1[c:13]([CH3:14])[cH:12][c:11](/[CH:10]=[CH:9]/[C:7]([c:6]2[cH:5][cH:4][c:3]([S:2][CH3:1])[cH:27][cH:26]2)=[O:8])[cH:25][c:23]1[CH3:24])([CH3:18])[CH3:19])=[O:21]>ClCCl.O=C(O)C(F)(F)F>[CH3:1][S:2][c:3]1[cH:4][cH:5][c:6]([C:7](=[O:8])/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]([CH3:14])[c:15]([O:16][C:17]([CH3:18])([CH3:19])[C:20](=[O:21])[OH:22])[c:23]([CH3:24])[cH:25]2)[cH:26][cH:27]1",
+      "mapping_confidence": 0.6942755395082046,
+      "conditions": {
+        "raw_description": "TFA; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

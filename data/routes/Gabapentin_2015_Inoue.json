@@ -1,0 +1,161 @@
+{
+  "background": {
+    "name": "Gabapentin",
+    "author": "Inoue",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2015, 54, 1537",
+    "doi": "10.1002/anie.201410186"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gabapentin_2015_Inoue_1",
+      "reaction_smiles": "CC1(C)OC(=O)CC(=O)O1.O=C1CCCCC1.C1CCNCC1.c1ccncc1>>CC1(C)OC(=O)C(=C2CCCCC2)C(=O)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[CH2:7][C:14](=[O:15])[O:16]1.O=[C:8]1[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13]1>C1CCNCC1.c1ccncc1>[CH3:1][C:2]1([CH3:3])[O:4][C:5](=[O:6])[C:7](=[C:8]2[CH2:9][CH2:10][CH2:11][CH2:12][CH2:13]2)[C:14](=[O:15])[O:16]1",
+      "mapping_confidence": 0.5921317351564782,
+      "conditions": {
+        "raw_description": "pyridine; piperidine; Knoevenagel; condensation",
+        "GENERAL_REAGENTS": [
+          "piperidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCNCC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gabapentin_2015_Inoue_2",
+      "reaction_smiles": "CC1(C)OC(=O)C(=C2CCCCC2)C(=O)O1.CC(C)(C)OC(=O)NCC(=O)[Te]c1ccccc1.CCN(CC)CC.ClCCl>>CC(C)(C)OC(=O)NCC1(C2C(=O)OC(C)(C)OC2=O)CCCCC1",
+      "reaction_smiles_mapped": "O=C([Te]c1ccccc1)[CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7].[C:10]1(=[C:11]2[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[O:18][C:19]2=[O:20])[CH2:21][CH2:22][CH2:23][CH2:24][CH2:25]1>CCN(CC)CC.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][C:10]1([CH:11]2[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[O:18][C:19]2=[O:20])[CH2:21][CH2:22][CH2:23][CH2:24][CH2:25]1",
+      "mapping_confidence": 0.1725557419198241,
+      "conditions": {
+        "raw_description": "Et3N; CH2Cl2; air; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "air"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gabapentin_2015_Inoue_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCC1(C2C(=O)OC(C)(C)OC2=O)CCCCC1.Cl>>NCC1(CC(=O)O)CCCCC1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:1][CH2:2][C:3]1([CH:4]2C(=O)OC(C)(C)[O:7][C:5]2=[O:6])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1>Cl>[NH2:1][CH2:2][C:3]1([CH2:4][C:5](=[O:6])[OH:7])[CH2:8][CH2:9][CH2:10][CH2:11][CH2:12]1",
+      "mapping_confidence": 0.6546616788471068,
+      "conditions": {
+        "raw_description": "HCl; reflux; 52% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "52% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gabapentin_2015_Inoue_4",
+      "reaction_smiles": "CC(C)(C)OC(=O)NCC(=O)O.CC(C)COC(=O)Cl.C1CCOC1.CN1CCOCC1>>CC(C)COC(=O)OC(=O)CNC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[OH:8][C:9](=[O:10])[CH2:11][NH:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19].Cl[C:6]([O:5][CH2:4][CH:2]([CH3:1])[CH3:3])=[O:7]>C1CCOC1.CN1CCOCC1>[CH3:1][CH:2]([CH3:3])[CH2:4][O:5][C:6](=[O:7])[O:8][C:9](=[O:10])[CH2:11][NH:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.3347274121511518,
+      "conditions": {
+        "raw_description": "NMM; THF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "NMM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN1CCOCC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gabapentin_2015_Inoue_5",
+      "reaction_smiles": "CC(C)COC(=O)OC(=O)CNC(=O)OC(C)(C)C.c1ccc([Te][Te]c2ccccc2)cc1.[BH4-].[Na+].C1CCOC1.CO>>CC(C)(C)OC(=O)NCC(=O)[Te]c1ccccc1",
+      "reaction_smiles_mapped": "CC(C)COC(=O)O[C:10]([CH2:9][NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])=[O:11].c1ccc([Te][Te:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)cc1>C1CCOC1.CO.[BH4-].[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][CH2:9][C:10](=[O:11])[Te:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.250148885054366,
+      "conditions": {
+        "raw_description": "NaBH4; THF; MeOH; 0 \u00b0C; 79%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    }
+  ]
+}

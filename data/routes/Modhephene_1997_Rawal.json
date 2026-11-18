@@ -1,0 +1,233 @@
+{
+  "background": {
+    "name": "(+/-)-Modhephene",
+    "author": "Rawal",
+    "year": 1997,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Chem. Commun. 1997, 2381",
+    "doi": "10.1039/A704260D"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Modhephene_1997_Rawal_1",
+      "reaction_smiles": "C=CCCC12CC3CC1C1O[C@@]2(C)C31.CC(C)N([Mg]I)C(C)C.C1CCOC1>>C=CCCC12CC3CC1C(O)C3C2=C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]12[CH2:6][CH:7]3[CH2:8][CH:9]1[CH:10]1[O:11][C@@:13]2([CH3:14])[CH:12]31>CC(C)N([Mg]I)C(C)C.C1CCOC1>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]12[CH2:6][CH:7]3[CH2:8][CH:9]1[CH:10]([OH:11])[CH:12]3[C:13]2=[CH2:14]",
+      "mapping_confidence": 0.9516325958082601,
+      "conditions": {
+        "raw_description": "iPr2NMgI; THF; 87%",
+        "GENERAL_REAGENTS": [
+          "iPr2NMgI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N(C(C)C)[Mg]I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_2",
+      "reaction_smiles": "C=CCCC12CC3CC1C(O)C3C2=C.[Li]c1cc(C(C)(C)C)ccc1-c1ccc(C(C)(C)C)cc1.C1CCOC1>>C=CCC[C@]12CCC[C@H]1C(=O)C=C2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]12[CH2:6][CH:7]3[CH2:8][CH:9]1[CH:10]([OH:11])[CH:12]3[C:13]2=[CH2:14]>[Li]c1cc(C(C)(C)C)ccc1-c1ccc(C(C)(C)C)cc1.C1CCOC1>[CH2:1]=[CH:2][CH2:3][CH2:4][C@:5]12[CH2:6][CH2:7][CH2:8][C@H:9]1[C:10](=[O:11])[CH:12]=[C:13]2[CH3:14]",
+      "mapping_confidence": 0.9050090019346183,
+      "conditions": {
+        "raw_description": "LDBB; THF; 80%",
+        "GENERAL_REAGENTS": [
+          "LDBB"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li][c]1cc(C(C)(C)C)ccc1-c1ccc(C(C)(C)C)cc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_3",
+      "reaction_smiles": "C=CCC[C@]12CCC[C@H]1C(=O)C=C2C.Cl[Se]c1ccccc1.[Li]N(C(C)C)C(C)C.C1CCOC1>>C=CCC[C@]12CCC[C@@]1([Se]c1ccccc1)C(=O)C=C2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C@:5]12[CH2:6][CH2:7][CH2:8][C@H:9]1[C:17](=[O:18])[CH:19]=[C:20]2[CH3:21].Cl[Se:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>[Li]N(C(C)C)C(C)C.C1CCOC1>[CH2:1]=[CH:2][CH2:3][CH2:4][C@:5]12[CH2:6][CH2:7][CH2:8][C@@:9]1([Se:10][c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1)[C:17](=[O:18])[CH:19]=[C:20]2[CH3:21]",
+      "mapping_confidence": 0.9236238814162956,
+      "conditions": {
+        "raw_description": "LDA; THF; PhSeCl; 61%",
+        "GENERAL_REAGENTS": [
+          "PhSeCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)[Se]Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_4",
+      "reaction_smiles": "C=CCC[C@]12CCC[C@@]1([Se]c1ccccc1)C(=O)C=C2C.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.c1ccccc1>>CC1=CC(=O)[C@]23CCC[C@]12CCC3C",
+      "reaction_smiles_mapped": "c1ccc([Se][C@:6]23[C:4](=[O:5])[CH:3]=[C:2]([CH3:1])[C@@:10]2([CH2:11][CH2:12][CH:13]=[CH2:14])[CH2:9][CH2:8][CH2:7]3)cc1>CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.c1ccccc1>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[C@:6]23[CH2:7][CH2:8][CH2:9][C@:10]12[CH2:11][CH2:12][CH:13]3[CH3:14]",
+      "mapping_confidence": 0.9205453733863947,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN; PhH; reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_5",
+      "reaction_smiles": "CC1=CC(=O)[C@]23CCC[C@]12CCC3C.C[Cu-]C.[C-]#N.[Li+].[Li+].C1CCOC1.CCOCC.FB(F)F>>CC1CC[C@]23CCC[C@]12C(=O)CC3(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[C:10](=[O:11])[CH:12]=[C:13]3[CH3:14].C[Cu-][CH3:15]>[C-]#N.[Li+].[Li+].C1CCOC1.CCOCC.FB(F)F>[CH3:1][CH:2]1[CH2:3][CH2:4][C@:5]23[CH2:6][CH2:7][CH2:8][C@:9]12[C:10](=[O:11])[CH2:12][C:13]3([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.6198324920370998,
+      "conditions": {
+        "raw_description": "Me2CuLiCN; THF; Et2O\u00b7BF3",
+        "GENERAL_REAGENTS": [
+          "Me2CuLiCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Li+].[Cu-](C)(C).[C-]#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O\u00b7BF3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "B(F)(F)F.CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_6",
+      "reaction_smiles": "CC1CC[C@]23CCC[C@]12C(=O)CC3(C)C.[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C=C1CC(C)(C)[C@@]23CCC[C@@]12C(C)CC3",
+      "reaction_smiles_mapped": "O=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[CH:12]([CH3:13])[CH2:14][CH2:15]3.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2-:1])cc1>c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>[CH2:1]=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[CH:12]([CH3:13])[CH2:14][CH2:15]3",
+      "mapping_confidence": 0.6209057367022928,
+      "conditions": {
+        "raw_description": "Ph3P=CH2; THF; MPLC; 85%",
+        "GENERAL_REAGENTS": [
+          "Ph3P=CH2",
+          "Ph3P"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "MPLC"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Modhephene_1997_Rawal_7",
+      "reaction_smiles": "C=C1CC(C)(C)[C@@]23CCC[C@@]12C(C)CC3.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>>CC1=CC(C)(C)[C@@]23CCC[C@@]12C(C)CC3",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[CH:12]([CH3:13])[CH2:14][CH2:15]3>Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH3:1][C:2]1=[CH:3][C:4]([CH3:5])([CH3:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C@@:11]12[CH:12]([CH3:13])[CH2:14][CH2:15]3",
+      "mapping_confidence": 0.8201709154966753,
+      "conditions": {
+        "raw_description": "TsOH; CH2Cl2; 100%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    }
+  ]
+}

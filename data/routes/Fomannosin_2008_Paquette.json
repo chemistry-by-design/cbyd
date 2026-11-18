@@ -1,0 +1,1019 @@
+{
+  "background": {
+    "name": "(+)-Fomannosin",
+    "author": "Paquette",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2008, 73, 4548",
+    "doi": "10.1021/jo8004233"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_1",
+      "reaction_smiles": "CC1(C)O[C@H]2O[C@H]([C@H]3COC(C)(C)O3)[C@H](O)[C@H]2O1.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.CN(C)c1ccncc1.ClCCl>>Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2[C@H]2COC(C)(C)O2)cc1",
+      "reaction_smiles_mapped": "[OH:9][C@@H:10]1[C@H:11]2[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]2[O:18][C@@H:19]1[C@H:20]1[CH2:21][O:22][C:23]([CH3:24])([CH3:25])[O:26]1.Cl[S:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:28][cH:27]1)(=[O:7])=[O:8]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][C@@H:10]2[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18][C@@H:19]2[C@H:20]2[CH2:21][O:22][C:23]([CH3:24])([CH3:25])[O:26]2)[cH:27][cH:28]1",
+      "mapping_confidence": 0.24369127239590066,
+      "conditions": {
+        "raw_description": "TsCl; Et3N; DMAP; DCM",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_2",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2[C@H]2COC(C)(C)O2)cc1.O=S(=O)(O)O.CO>>Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2[C@H](O)CO)cc1",
+      "reaction_smiles_mapped": "CC1(C)[O:21][C@@H:20]([C@@H:19]2[C@H:10]([O:9][S:6]([c:5]3[cH:4][cH:3][c:2]([CH3:1])[cH:25][cH:24]3)(=[O:7])=[O:8])[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18]2)[CH2:22][O:23]1>CO.O=S(=O)(O)O>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][C@@H:10]2[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18][C@@H:19]2[C@H:20]([OH:21])[CH2:22][OH:23])[cH:24][cH:25]1",
+      "mapping_confidence": 0.36046739659924615,
+      "conditions": {
+        "raw_description": "H2SO4; MeOH",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_3",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2[C@H](O)CO)cc1.[Na+].[O-][I+3]([O-])([O-])[O-]>>Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2C=O)cc1",
+      "reaction_smiles_mapped": "OC[C@H:20]([C@@H:19]1[C@H:10]([O:9][S:6]([c:5]2[cH:4][cH:3][c:2]([CH3:1])[cH:23][cH:22]2)(=[O:7])=[O:8])[C@H:11]2[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]2[O:18]1)[OH:21]>[Na+].[O-][I+3]([O-])([O-])[O-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][C@@H:10]2[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18][C@@H:19]2[CH:20]=[O:21])[cH:22][cH:23]1",
+      "mapping_confidence": 0.36199556669338734,
+      "conditions": {
+        "raw_description": "NaIO4",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_4",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2C=O)cc1.[O-][Cl+][O-].[Na+].[Na+].[O-][Cl+][O-]>>Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2C(=O)O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][C@@H:10]2[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18][C@@H:19]2[CH:20]=[O:21])[cH:23][cH:24]1.[O-][Cl+][O-:25]>[Na+].[Na+].[O-][Cl+][O-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([S:6](=[O:7])(=[O:8])[O:9][C@@H:10]2[C@H:11]3[O:12][C:13]([CH3:14])([CH3:15])[O:16][C@H:17]3[O:18][C@@H:19]2[C:20]([OH:21])=[O:25])[cH:23][cH:24]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "NaClO2",
+        "GENERAL_REAGENTS": [
+          "NaClO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_5",
+      "reaction_smiles": "Cc1ccc(S(=O)(=O)O[C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2C(=O)O)cc1.C=[N+]=[N-]>>COC(=O)[C@H]1O[C@@H]2OC(C)(C)O[C@@H]2[C@H]1OS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH2:1].[OH:2][C:3](=[O:4])[C@H:5]1[O:6][C@@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12][C@@H:13]2[C@H:14]1[O:15][S:16](=[O:17])(=[O:18])[c:19]1[cH:20][cH:21][c:22]([CH3:23])[cH:24][cH:25]1>>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[O:6][C@@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12][C@@H:13]2[C@H:14]1[O:15][S:16](=[O:17])(=[O:18])[c:19]1[cH:20][cH:21][c:22]([CH3:23])[cH:24][cH:25]1",
+      "mapping_confidence": 0.32792874508933817,
+      "conditions": {
+        "raw_description": "CH2N2",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_6",
+      "reaction_smiles": "COC(=O)[C@H]1O[C@@H]2OC(C)(C)O[C@@H]2[C@H]1OS(=O)(=O)c1ccc(C)cc1.C1CCC2=NCCCN2CC1>>COC(=O)C1=C[C@H]2OC(C)(C)O[C@H]2O1",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[C@H:6]2[C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[O:14][C@H:13]3[C@@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12]3)cc1>C1CCC2=NCCCN2CC1>[CH3:1][O:2][C:3](=[O:4])[C:5]1=[CH:6][C@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12][C@H:13]2[O:14]1",
+      "mapping_confidence": 0.666813284815718,
+      "conditions": {
+        "raw_description": "DBU",
+        "GENERAL_REAGENTS": [
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_7",
+      "reaction_smiles": "COC(=O)C1=C[C@H]2OC(C)(C)O[C@H]2O1.[HH].[C].[Pd]>>COC(=O)[C@H]1C[C@H]2OC(C)(C)O[C@H]2O1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C:5]1=[CH:6][C@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12][C@H:13]2[O:14]1>[C].[HH].[Pd]>[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:6][C@H:7]2[O:8][C:9]([CH3:10])([CH3:11])[O:12][C@H:13]2[O:14]1",
+      "mapping_confidence": 0.6831317226946934,
+      "conditions": {
+        "raw_description": "Pd/C; H2; 90% (5 steps)",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90% (5 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_8",
+      "reaction_smiles": "COC(=O)[C@H]1C[C@H]2OC(C)(C)O[C@H]2O1.C=O.[Li]N(C(C)C)C(C)C>>COC(=O)[C@@]1(CO)C[C@H]2OC(C)(C)O[C@H]2O1",
+      "reaction_smiles_mapped": "[CH2:6]=[O:7].[CH3:1][O:2][C:3](=[O:4])[C@H:5]1[CH2:8][C@H:9]2[O:10][C:11]([CH3:12])([CH3:13])[O:14][C@H:15]2[O:16]1>[Li]N(C(C)C)C(C)C>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([CH2:6][OH:7])[CH2:8][C@H:9]2[O:10][C:11]([CH3:12])([CH3:13])[O:14][C@H:15]2[O:16]1",
+      "mapping_confidence": 0.6657928124911997,
+      "conditions": {
+        "raw_description": "LDA; CH2O; 52%",
+        "GENERAL_REAGENTS": [
+          "LDA",
+          "CH2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C",
+          "C=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_9",
+      "reaction_smiles": "COC(=O)[C@@]1(CO)C[C@H]2OC(C)(C)O[C@H]2O1.CC(C)(C)[Si](Cl)(c1ccccc1)c1ccccc1.c1c[nH]cn1>>COC(=O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@H]2OC(C)(C)O[C@H]2O1",
+      "reaction_smiles_mapped": "Cl[Si:8]([c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1)([c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1)[C:21]([CH3:22])([CH3:23])[CH3:24].[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([CH2:6][OH:7])[CH2:25][C@H:26]2[O:27][C:28]([CH3:29])([CH3:30])[O:31][C@H:32]2[O:33]1>c1c[nH]cn1>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([CH2:6][O:7][Si:8]([c:9]2[cH:10][cH:11][cH:12][cH:13][cH:14]2)([c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)[C:21]([CH3:22])([CH3:23])[CH3:24])[CH2:25][C@H:26]2[O:27][C:28]([CH3:29])([CH3:30])[O:31][C@H:32]2[O:33]1",
+      "mapping_confidence": 0.13759127123948894,
+      "conditions": {
+        "raw_description": "TBDPSCl; imidazole; 90%",
+        "GENERAL_REAGENTS": [
+          "TBDPSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C1=CC=CC=C1)(C2=CC=CC=C2)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_10",
+      "reaction_smiles": "COC(=O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@H]2OC(C)(C)O[C@H]2O1.CC(C)C[AlH]CC(C)C>>CC1(C)O[C@H]2O[C@](C=O)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C[C@H]2O1",
+      "reaction_smiles_mapped": "CO[C:8]([C@:7]1([CH2:10][O:11][Si:12]([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)([c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)[C:25]([CH3:26])([CH3:27])[CH3:28])[O:6][C@@H:5]2[O:4][C:2]([CH3:1])([CH3:3])[O:31][C@@H:30]2[CH2:29]1)=[O:9]>CC(C)C[AlH]CC(C)C>[CH3:1][C:2]1([CH3:3])[O:4][C@H:5]2[O:6][C@:7]([CH:8]=[O:9])([CH2:10][O:11][Si:12]([c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)([c:19]3[cH:20][cH:21][cH:22][cH:23][cH:24]3)[C:25]([CH3:26])([CH3:27])[CH3:28])[CH2:29][C@H:30]2[O:31]1",
+      "mapping_confidence": 0.16018710199232977,
+      "conditions": {
+        "raw_description": "DIBAL-H",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_11",
+      "reaction_smiles": "CC1(C)O[C@H]2O[C@](C=O)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)C[C@H]2O1.C=P(c1ccccc1)(c1ccccc1)c1ccccc1.[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1>>C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@H]2OC(C)(C)O[C@H]2O1",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[CH2:1])cc1.O=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@H:24]2[O:25][C:26]([CH3:27])([CH3:28])[O:29][C@H:30]2[O:31]1>[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1>[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@H:24]2[O:25][C:26]([CH3:27])([CH3:28])[O:29][C@H:30]2[O:31]1",
+      "mapping_confidence": 0.1073640917469439,
+      "conditions": {
+        "raw_description": "Ph3P=CH2; 81% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Ph3P=CH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_12",
+      "reaction_smiles": "C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@H]2OC(C)(C)O[C@H]2O1.CO.Cl>>C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](O)[C@H](OC)O1",
+      "reaction_smiles_mapped": "C[C:28]1(C)[O:25][C@@H:24]2[CH2:23][C@@:3]([CH:2]=[CH2:1])([CH2:4][O:5][Si:6]([c:7]3[cH:8][cH:9][cH:10][cH:11][cH:12]3)([c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[C:19]([CH3:20])([CH3:21])[CH3:22])[O:29][C@@H:26]2[O:27]1>CO.Cl>[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([OH:25])[C@H:26]([O:27][CH3:28])[O:29]1",
+      "mapping_confidence": 0.14481434040208993,
+      "conditions": {
+        "raw_description": "HCl; MeOH; 73%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_13",
+      "reaction_smiles": "C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](O)[C@H](OC)O1.COc1ccc(CBr)cc1.[H-].[Na+].CN(C)C=O>>C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H](OC)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([OH:25])[C@H:35]([O:36][CH3:37])[O:38]1.Br[CH2:26][c:27]1[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]1>CN(C)C=O.[H-].[Na+]>[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([O:25][CH2:26][c:27]2[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]2)[C@H:35]([O:36][CH3:37])[O:38]1",
+      "mapping_confidence": 0.17899214578967806,
+      "conditions": {
+        "raw_description": "NaH; PMBBr; DMF; 82%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "PMBBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "COC1=CC=C(C=C1)CBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_14",
+      "reaction_smiles": "C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H](OC)O1.[Zr+2].c1cc[cH-]c1.c1cc[cH-]c1.C1CCOC1>>C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O",
+      "reaction_smiles_mapped": "C[O:36][C@@H:35]1O[C@:3]([CH:2]=[CH2:1])([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@H:24]1[O:25][CH2:26][c:27]1[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]1>C1CCOC1.[Zr+2].c1cc[cH-]c1.c1cc[cH-]c1>[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([O:25][CH2:26][c:27]2[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]2)[C@H:35]1[OH:36]",
+      "mapping_confidence": 0.0875272111747705,
+      "conditions": {
+        "raw_description": "Cp2Zr; THF; 60%",
+        "GENERAL_REAGENTS": [
+          "Cp2Zr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zr+2].[CH-]1C=CC=C1.[CH-]1C=CC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_15",
+      "reaction_smiles": "C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1>>C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([O:25][CH2:26][c:27]2[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]2)[C@H:35]1[OH:36].Cl[Si:37]([CH3:38])([CH3:39])[C:40]([CH3:41])([CH3:42])[CH3:43]>c1c[nH]cn1>[CH2:1]=[CH:2][C@@:3]1([CH2:4][O:5][Si:6]([c:7]2[cH:8][cH:9][cH:10][cH:11][cH:12]2)([c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:23][C@@H:24]([O:25][CH2:26][c:27]2[cH:28][cH:29][c:30]([O:31][CH3:32])[cH:33][cH:34]2)[C@H:35]1[O:36][Si:37]([CH3:38])([CH3:39])[C:40]([CH3:41])([CH3:42])[CH3:43]",
+      "mapping_confidence": 0.08373000712419768,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; 82%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_16",
+      "reaction_smiles": "C=C[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C.O=[O+][O-].CSC>>COc1ccc(CO[C@@H]2C[C@@](C=O)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)[C@@H]2O[Si](C)(C)C(C)(C)C)cc1",
+      "reaction_smiles_mapped": "C=[CH:12][C@@:11]1([CH2:14][O:15][Si:16]([c:17]2[cH:18][cH:19][cH:20][cH:21][cH:22]2)([c:23]2[cH:24][cH:25][cH:26][cH:27][cH:28]2)[C:29]([CH3:30])([CH3:31])[CH3:32])[CH2:10][C@@H:9]([O:8][CH2:7][c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:43][cH:42]2)[C@H:33]1[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41].[O-][O+]=[O:13]>CSC>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]([CH:12]=[O:13])([CH2:14][O:15][Si:16]([c:17]3[cH:18][cH:19][cH:20][cH:21][cH:22]3)([c:23]3[cH:24][cH:25][cH:26][cH:27][cH:28]3)[C:29]([CH3:30])([CH3:31])[CH3:32])[C@@H:33]2[O:34][Si:35]([CH3:36])([CH3:37])[C:38]([CH3:39])([CH3:40])[CH3:41])[cH:42][cH:43]1",
+      "mapping_confidence": 0.022635520527022605,
+      "conditions": {
+        "raw_description": "O3; (CH3)2S",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "(CH3)2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_17",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@](C=O)(CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)[C@@H]2O[Si](C)(C)C(C)(C)C)cc1.[Li]CC(C)(C)CC=C.C1CCOC1>>C=CCC(C)(C)CC(O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH:8](=[O:9])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50].[Li][CH2:7][C:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH3:6]>C1CCOC1>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][CH:8]([OH:9])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50]",
+      "mapping_confidence": 0.04452797031596847,
+      "conditions": {
+        "raw_description": "2,2-dimethylpent-4-enyllithium; THF; -78 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_18",
+      "reaction_smiles": "C=CCC(C)(C)CC(O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C.O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1>>C=CCC(C)(C)CC(=O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][CH:8]([OH:9])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50]>O=[Cr](=O)([O-])O[Cr](=O)(=O)[O-].c1cc[nH+]cc1.c1cc[nH+]cc1>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][C:8](=[O:9])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50]",
+      "mapping_confidence": 0.04277200678878287,
+      "conditions": {
+        "raw_description": "PDC; 80%",
+        "GENERAL_REAGENTS": [
+          "PDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].C1=CC=[NH+]C=C1.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_19",
+      "reaction_smiles": "C=CCC(C)(C)CC(=O)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C.[Li]C[Si](C)(C)C>>C=CCC(C)(C)CC(O)(C[Si](C)(C)C)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][C:8](=[O:9])[C@@:15]1([CH2:16][O:17][Si:18]([c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)([c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[C:31]([CH3:32])([CH3:33])[CH3:34])[CH2:35][C@@H:36]([O:37][CH2:38][c:39]2[cH:40][cH:41][c:42]([O:43][CH3:44])[cH:45][cH:46]2)[C@H:47]1[O:48][Si:49]([CH3:50])([CH3:51])[C:52]([CH3:53])([CH3:54])[CH3:55].[Li][CH2:10][Si:11]([CH3:12])([CH3:13])[CH3:14]>>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][C:8]([OH:9])([CH2:10][Si:11]([CH3:12])([CH3:13])[CH3:14])[C@@:15]1([CH2:16][O:17][Si:18]([c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)([c:25]2[cH:26][cH:27][cH:28][cH:29][cH:30]2)[C:31]([CH3:32])([CH3:33])[CH3:34])[CH2:35][C@@H:36]([O:37][CH2:38][c:39]2[cH:40][cH:41][c:42]([O:43][CH3:44])[cH:45][cH:46]2)[C@H:47]1[O:48][Si:49]([CH3:50])([CH3:51])[C:52]([CH3:53])([CH3:54])[CH3:55]",
+      "mapping_confidence": 0.02042296984572273,
+      "conditions": {
+        "raw_description": "TMSCH2Li",
+        "GENERAL_REAGENTS": [
+          "TMSCH2Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_20",
+      "reaction_smiles": "C=CCC(C)(C)CC(O)(C[Si](C)(C)C)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C.Cc1ccc(S(=O)(=O)O)cc1>>C=CCC(C)(C)CC(=C)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[CH2:9][C:8](O)([CH2:7][C:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH3:6])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50]>Cc1ccc(S(=O)(=O)O)cc1>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH2:7][C:8](=[CH2:9])[C@@:10]1([CH2:11][O:12][Si:13]([c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)([c:20]2[cH:21][cH:22][cH:23][cH:24][cH:25]2)[C:26]([CH3:27])([CH3:28])[CH3:29])[CH2:30][C@@H:31]([O:32][CH2:33][c:34]2[cH:35][cH:36][c:37]([O:38][CH3:39])[cH:40][cH:41]2)[C@H:42]1[O:43][Si:44]([CH3:45])([CH3:46])[C:47]([CH3:48])([CH3:49])[CH3:50]",
+      "mapping_confidence": 0.06273604907883643,
+      "conditions": {
+        "raw_description": "p-TsOH; 83% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_21",
+      "reaction_smiles": "C=CCC(C)(C)CC(=C)[C@@]1(CO[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O[Si](C)(C)C(C)(C)C.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1>>COc1ccc(CO[C@@H]2C[C@](CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)(C3=CCC(C)(C)C3)[C@@H]2O[Si](C)(C)C(C)(C)C)cc1",
+      "reaction_smiles_mapped": "C=[C:31]([C@@:11]1([CH2:12][O:13][Si:14]([c:15]2[cH:16][cH:17][cH:18][cH:19][cH:20]2)([c:21]2[cH:22][cH:23][cH:24][cH:25][cH:26]2)[C:27]([CH3:28])([CH3:29])[CH3:30])[CH2:10][C@@H:9]([O:8][CH2:7][c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:48][cH:47]2)[C@H:38]1[O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46])[CH2:37][C:34]([CH2:33][CH:32]=C)([CH3:35])[CH3:36]>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@:11]([CH2:12][O:13][Si:14]([c:15]3[cH:16][cH:17][cH:18][cH:19][cH:20]3)([c:21]3[cH:22][cH:23][cH:24][cH:25][cH:26]3)[C:27]([CH3:28])([CH3:29])[CH3:30])([C:31]3=[CH:32][CH2:33][C:34]([CH3:35])([CH3:36])[CH2:37]3)[C@@H:38]2[O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46])[cH:47][cH:48]1",
+      "mapping_confidence": 0.023518346804318562,
+      "conditions": {
+        "raw_description": "Grubbs II; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_22",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@](CO[Si](c3ccccc3)(c3ccccc3)C(C)(C)C)(C3=CCC(C)(C)C3)[C@@H]2O[Si](C)(C)C(C)(C)C)cc1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>COc1ccc(CO[C@@H]2C[C@](CO)(C3=CCC(C)(C)C3)[C@@H]2O)cc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](c1ccccc1)(c1ccccc1)[O:13][CH2:12][C@:11]1([C:14]2=[CH:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]2)[CH2:10][C@@H:9]([O:8][CH2:7][c:6]2[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:24][cH:23]2)[C@H:21]1[O:22][Si](C)(C)C(C)(C)C>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@:11]([CH2:12][OH:13])([C:14]3=[CH:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]3)[C@@H:21]2[OH:22])[cH:23][cH:24]1",
+      "mapping_confidence": 0.6988828169170377,
+      "conditions": {
+        "raw_description": "TBAF; THF; 76%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_23",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@](CO)(C3=CCC(C)(C)C3)[C@@H]2O)cc1.CCSC(=O)CC(=O)O.CCN=C=NCCCN(C)C.ClCCl>>CCSC(=O)CC(=O)OC[C@]1(C2=CCC(C)(C)C2)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O",
+      "reaction_smiles_mapped": "O[C:7]([CH2:6][C:4]([S:3][CH2:2][CH3:1])=[O:5])=[O:8].[OH:9][CH2:10][C@:11]1([C:12]2=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]2)[CH2:19][C@@H:20]([O:21][CH2:22][c:23]2[cH:24][cH:25][c:26]([O:27][CH3:28])[cH:29][cH:30]2)[C@H:31]1[OH:32]>CCN=C=NCCCN(C)C.ClCCl>[CH3:1][CH2:2][S:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[O:9][CH2:10][C@:11]1([C:12]2=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]2)[CH2:19][C@@H:20]([O:21][CH2:22][c:23]2[cH:24][cH:25][c:26]([O:27][CH3:28])[cH:29][cH:30]2)[C@H:31]1[OH:32]",
+      "mapping_confidence": 0.4689991970259251,
+      "conditions": {
+        "raw_description": "HO2CCH2COSEt; EDCI; DCM",
+        "GENERAL_REAGENTS": [
+          "HO2CCH2COSEt",
+          "EDCI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)[CH2]C(=O)SCC",
+          "CCN=C=NCCCN(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_24",
+      "reaction_smiles": "CCSC(=O)CC(=O)OC[C@]1(C2=CCC(C)(C)C2)C[C@@H](OCc2ccc(OC)cc2)[C@H]1O.O=C1OI(=O)(O)c2ccccc21.CS(C)=O>>CCSC(=O)C1C(=O)OC[C@]2(C3=CCC(C)(C)C3)C[C@@H](OCc3ccc(OC)cc3)[C@]12O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][S:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[O:9][CH2:10][C@:11]1([C:12]2=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]2)[CH2:19][C@@H:20]([O:21][CH2:22][c:23]2[cH:24][cH:25][c:26]([O:27][CH3:28])[cH:29][cH:30]2)[C@H:31]1[OH:32]>CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][CH2:2][S:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[O:9][CH2:10][C@:11]2([C:12]3=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]3)[CH2:19][C@@H:20]([O:21][CH2:22][c:23]3[cH:24][cH:25][c:26]([O:27][CH3:28])[cH:29][cH:30]3)[C@:31]12[OH:32]",
+      "mapping_confidence": 0.6089908151957457,
+      "conditions": {
+        "raw_description": "IBX; DMSO; 44% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_25",
+      "reaction_smiles": "CCSC(=O)C1C(=O)OC[C@]2(C3=CCC(C)(C)C3)C[C@@H](OCc3ccc(OC)cc3)[C@]12O.CC[SiH](CC)CC.[C].[Pd]>>COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)/C(=C\\O)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "CCS[C:24]([CH:23]1[C:21](=[O:22])[O:20][CH2:19][C@:11]2([C:12]3=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]3)[CH2:10][C@@H:9]([O:8][CH2:7][c:6]3[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:29][cH:28]3)[C@@:26]21[OH:27])=[O:25]>CC[SiH](CC)CC.[C].[Pd]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]4)[CH2:19][O:20][C:21](=[O:22])/[C:23](=[CH:24]\\[OH:25])[C@@:26]23[OH:27])[cH:28][cH:29]1",
+      "mapping_confidence": 0.6191443391733675,
+      "conditions": {
+        "raw_description": "Pd/C; Et3SiH; 74%",
+        "GENERAL_REAGENTS": [
+          "Et3SiH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_26",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)/C(=C\\O)[C@@]23O)cc1.[BH4-].[Na+].O=P([O-])(O)O.[K+].CC(=O)O.CO>>COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)[C@@H](CO)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]4)[CH2:19][O:20][C:21](=[O:22])/[C:23](=[CH:24]\\[OH:25])[C@@:26]23[OH:27])[cH:28][cH:29]1>CC(=O)O.CO.O=P([O-])(O)O.[BH4-].[K+].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]4)[CH2:19][O:20][C:21](=[O:22])[C@@H:23]([CH2:24][OH:25])[C@@:26]23[OH:27])[cH:28][cH:29]1",
+      "mapping_confidence": 0.662929184540704,
+      "conditions": {
+        "raw_description": "NaBH4; KH2PO4; AcOH; MeOH; 43%",
+        "GENERAL_REAGENTS": [
+          "NaBH4",
+          "KH2PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]",
+          "OP(=O)(O)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOH",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "43%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_27",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)[C@@H](CO)[C@@]23O)cc1.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.Cc1cccc(C)n1>>COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])C(F)(F)F.[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]4)[CH2:19][O:20][C:21](=[O:22])[C@@H:23]([CH2:24][OH:25])[C@@:33]23[OH:34])[cH:35][cH:36]1>Cc1cccc(C)n1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:13][CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18]4)[CH2:19][O:20][C:21](=[O:22])[C@@H:23]([CH2:24][O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[C@@:33]23[OH:34])[cH:35][cH:36]1",
+      "mapping_confidence": 0.18679696728437958,
+      "conditions": {
+        "raw_description": "TBSOTf; 2,6-lutidine; 89%",
+        "GENERAL_REAGENTS": [
+          "TBSOTf",
+          "2,6-lutidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F",
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_28",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3(C4=CCC(C)(C)C4)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1.O=[Os](=O)(=O)=O.C1CCOC1.c1ccncc1>>COc1ccc(CO[C@@H]2C[C@@]3([C@]4(O)CC(C)(C)C[C@H]4O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C:12]4=[CH:19][CH2:18][C:15]([CH3:16])([CH3:17])[CH2:14]4)[CH2:21][O:22][C:23](=[O:24])[C@@H:25]([CH2:26][O:27][Si:28]([CH3:29])([CH3:30])[C:31]([CH3:32])([CH3:33])[CH3:34])[C@@:35]23[OH:36])[cH:37][cH:38]1.O=[Os](=O)(=[O:13])=[O:20]>C1CCOC1.c1ccncc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C@:12]4([OH:13])[CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18][C@H:19]4[OH:20])[CH2:21][O:22][C:23](=[O:24])[C@@H:25]([CH2:26][O:27][Si:28]([CH3:29])([CH3:30])[C:31]([CH3:32])([CH3:33])[CH3:34])[C@@:35]23[OH:36])[cH:37][cH:38]1",
+      "mapping_confidence": 0.09716160645484277,
+      "conditions": {
+        "raw_description": "OsO4; THF; pyridine; 76%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_29",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3([C@]4(O)CC(C)(C)C[C@H]4O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O>>COc1ccc(CO[C@@H]2C[C@@]3([C@]4(O)CC(C)(C)CC4=O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C@:12]4([OH:13])[CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18][C@H:19]4[OH:20])[CH2:21][O:22][C:23](=[O:24])[C@@H:25]([CH2:26][O:27][Si:28]([CH3:29])([CH3:30])[C:31]([CH3:32])([CH3:33])[CH3:34])[C@@:35]23[OH:36])[cH:37][cH:38]1>CCN(CC)CC.CS(C)=O.O=C(Cl)C(=O)Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C@:12]4([OH:13])[CH2:14][C:15]([CH3:16])([CH3:17])[CH2:18][C:19]4=[O:20])[CH2:21][O:22][C:23](=[O:24])[C@@H:25]([CH2:26][O:27][Si:28]([CH3:29])([CH3:30])[C:31]([CH3:32])([CH3:33])[CH3:34])[C@@:35]23[OH:36])[cH:37][cH:38]1",
+      "mapping_confidence": 0.2385144147987336,
+      "conditions": {
+        "raw_description": "(COCl)2; Et3N; DMSO; 79%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_30",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3([C@]4(O)CC(C)(C)CC4=O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1.I[Sm]I.C1CCOC1.CC(C)(C)O>>COc1ccc(CO[C@@H]2C[C@@]3([C@H]4CC(C)(C)CC4=O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1",
+      "reaction_smiles_mapped": "O[C@@:12]1([C@@:11]23[CH2:10][C@@H:9]([O:8][CH2:7][c:6]4[cH:5][cH:4][c:3]([O:2][CH3:1])[cH:37][cH:36]4)[C@:34]2([OH:35])[C@H:24]([CH2:25][O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[C:22](=[O:23])[O:21][CH2:20]3)[CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17][C:18]1=[O:19]>C1CCOC1.CC(C)(C)O.I[Sm]I>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([CH2:7][O:8][C@@H:9]2[CH2:10][C@@:11]3([C@H:12]4[CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17][C:18]4=[O:19])[CH2:20][O:21][C:22](=[O:23])[C@@H:24]([CH2:25][O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[C@@:34]23[OH:35])[cH:36][cH:37]1",
+      "mapping_confidence": 0.1752532727231631,
+      "conditions": {
+        "raw_description": "SmI2; THF; t-BuOH (4:1); 64%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_31",
+      "reaction_smiles": "COc1ccc(CO[C@@H]2C[C@@]3([C@H]4CC(C)(C)CC4=O)COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]23O)cc1.O=C(O)C(F)(F)F.ClCCl>>CC1(C)CC(=O)[C@@H]([C@]23COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]2(O)[C@H](O)C3)C1",
+      "reaction_smiles_mapped": "COc1ccc(C[O:26][C@H:25]2[C@@:23]3([OH:24])[C@:8]([C@@H:7]4[C:5](=[O:6])[CH2:4][C:2]([CH3:1])([CH3:3])[CH2:28]4)([CH2:9][O:10][C:11](=[O:12])[C@H:13]3[CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:27]2)cc1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@@H:7]([C@:8]23[CH2:9][O:10][C:11](=[O:12])[C@@H:13]([CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[C@@:23]2([OH:24])[C@H:25]([OH:26])[CH2:27]3)[CH2:28]1",
+      "mapping_confidence": 0.23458727380627742,
+      "conditions": {
+        "raw_description": "TFA; DCM; rt; 50%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_32",
+      "reaction_smiles": "CC1(C)CC(=O)[C@@H]([C@]23COC(=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@]2(O)[C@H](O)C3)C1.O=S(Cl)Cl.CCN(CC)CC.C1CCC2=NCCCN2CC1.ClCCl>>CC1(C)CC(=O)[C@H]([C@]23COC(=O)C(CO[Si](C)(C)C(C)(C)C)=C2[C@H](O)C3)C1",
+      "reaction_smiles_mapped": "O[C@:23]12[C@:8]([C@@H:7]3[C:5](=[O:6])[CH2:4][C:2]([CH3:1])([CH3:3])[CH2:27]3)([CH2:9][O:10][C:11](=[O:12])[C@H:13]1[CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[CH2:26][C@H:24]2[OH:25]>C1CCC2=NCCCN2CC1.CCN(CC)CC.ClCCl.O=S(Cl)Cl>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@H:7]([C@:8]23[CH2:9][O:10][C:11](=[O:12])[C:13]([CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])=[C:23]2[C@H:24]([OH:25])[CH2:26]3)[CH2:27]1",
+      "mapping_confidence": 0.2690587965818423,
+      "conditions": {
+        "raw_description": "SOCl2; Et3N; DCM; then DBU; DCM; 35%",
+        "GENERAL_REAGENTS": [
+          "SOCl2",
+          "Et3N",
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl",
+          "CCN(CC)CC",
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_33",
+      "reaction_smiles": "CC1(C)CC(=O)[C@H]([C@]23COC(=O)C(CO[Si](C)(C)C(C)(C)C)=C2[C@H](O)C3)C1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.c1ccncc1.ClCCl>>CC1(C)CC(=O)[C@H]([C@]23COC(=O)C(CO[Si](C)(C)C(C)(C)C)=C2[C@H](OS(=O)(=O)C(F)(F)F)C3)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@H:7]([C@:8]23[CH2:9][O:10][C:11](=[O:12])[C:13]([CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])=[C:23]2[C@H:24]([OH:25])[CH2:33]3)[CH2:34]1.O=S(=O)(O[S:26](=[O:27])(=[O:28])[C:29]([F:30])([F:31])[F:32])C(F)(F)F>ClCCl.c1ccncc1>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@H:7]([C@:8]23[CH2:9][O:10][C:11](=[O:12])[C:13]([CH2:14][O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])=[C:23]2[C@H:24]([O:25][S:26](=[O:27])(=[O:28])[C:29]([F:30])([F:31])[F:32])[CH2:33]3)[CH2:34]1",
+      "mapping_confidence": 0.02296175194658738,
+      "conditions": {
+        "raw_description": "Tf2O; pyridine; DCM; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Tf2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_34",
+      "reaction_smiles": "CC1(C)CC(=O)[C@H]([C@]23COC(=O)C(CO[Si](C)(C)C(C)(C)C)=C2[C@H](OS(=O)(=O)C(F)(F)F)C3)C1.C1CCC2=NCCCN2CC1.c1ccccc1>>CC1(C)CC(=O)[C@@H]([C@@]23C=CC2=C(CO[Si](C)(C)C(C)(C)C)C(=O)OC3)C1",
+      "reaction_smiles_mapped": "O=S(=O)(O[C@@H:10]1[CH2:9][C@:8]2([C@H:7]3[C:5](=[O:6])[CH2:4][C:2]([CH3:1])([CH3:3])[CH2:26]3)[C:11]1=[C:12]([CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[C:22](=[O:23])[O:24][CH2:25]2)C(F)(F)F>C1CCC2=NCCCN2CC1.c1ccccc1>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@@H:7]([C@@:8]23[CH:9]=[CH:10][C:11]2=[C:12]([CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[C:22](=[O:23])[O:24][CH2:25]3)[CH2:26]1",
+      "mapping_confidence": 0.2966746836319011,
+      "conditions": {
+        "raw_description": "DBU; benzene; 35% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "35% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fomannosin_2008_Paquette_35",
+      "reaction_smiles": "CC1(C)CC(=O)[C@@H]([C@@]23C=CC2=C(CO[Si](C)(C)C(C)(C)C)C(=O)OC3)C1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC1(C)CC(=O)[C@@H]([C@@]23C=CC2=C(CO)C(=O)OC3)C1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:14][CH2:13][C:12]1=[C:11]2[C@@:8]([C@@H:7]3[C:5](=[O:6])[CH2:4][C:2]([CH3:1])([CH3:3])[CH2:19]3)([CH:9]=[CH:10]2)[CH2:18][O:17][C:15]1=[O:16]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][C:2]1([CH3:3])[CH2:4][C:5](=[O:6])[C@@H:7]([C@@:8]23[CH:9]=[CH:10][C:11]2=[C:12]([CH2:13][OH:14])[C:15](=[O:16])[O:17][CH2:18]3)[CH2:19]1",
+      "mapping_confidence": 0.8391665571021536,
+      "conditions": {
+        "raw_description": "TBAF; THF; 0 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    }
+  ]
+}

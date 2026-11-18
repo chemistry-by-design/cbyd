@@ -1,0 +1,108 @@
+{
+  "background": {
+    "name": "(R)-Thiabutazide",
+    "author": "List",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2008, 130, 15786",
+    "doi": "10.1021/ja8071034"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "(R)-Thiabutazide_2008_List_1",
+      "reaction_smiles": "Nc1cccc(Cl)c1.O=S(=O)(O)Cl.O=S(=O)(O)Cl.[Cl-].[Na+].ClC(Cl)C(Cl)Cl>>Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl",
+      "reaction_smiles_mapped": "[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[cH:6][cH:11][cH:12]1.O=[S:13]([OH:14])(=[O:15])[Cl:16].O=[S:7]([OH:8])(=[O:9])[Cl:10]>ClC(Cl)C(Cl)Cl.[Cl-].[Na+]>[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[c:6]([S:7](=[O:8])(=[O:9])[Cl:10])[cH:11][c:12]1[S:13](=[O:14])(=[O:15])[Cl:16]",
+      "mapping_confidence": 0.03580009361496583,
+      "conditions": {
+        "raw_description": "ClSO3H; NaCl; Cl2CHCHCl2",
+        "GENERAL_REAGENTS": [
+          "ClSO3H",
+          "NaCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)Cl",
+          "[Na+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Cl2CHCHCl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClC(Cl)C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(R)-Thiabutazide_2008_List_2",
+      "reaction_smiles": "Nc1cc(Cl)c(S(=O)(=O)Cl)cc1S(=O)(=O)Cl.N>>Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
+      "reaction_smiles_mapped": "[NH3:8].Cl[S:7]([c:6]1[c:4]([Cl:5])[cH:3][c:2]([NH2:1])[c:12]([S:13](Cl)(=[O:15])=[O:16])[cH:11]1)(=[O:9])=[O:10]>>[NH2:1][c:2]1[cH:3][c:4]([Cl:5])[c:6]([S:7]([NH2:8])(=[O:9])=[O:10])[cH:11][c:12]1[S:13]([NH2:14])(=[O:15])=[O:16]",
+      "mapping_confidence": 0.24763610400329295,
+      "conditions": {
+        "raw_description": "NH3; 57% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "57% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(R)-Thiabutazide_2008_List_3",
+      "reaction_smiles": "Nc1cc(Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O.ClCCl.CC(C)CC=O.CC(C)c1cc(C(C)C)c(-c2cc3ccccc3c3c2OP(=O)(O)Oc2c(-c4c(C(C)C)cc(C(C)C)cc4C(C)C)cc4ccccc4c2-3)c(C(C)C)c1>>CC(C)C[C@@H]1Nc2cc(Cl)c(S(N)(=O)=O)cc2S(=O)(=O)N1",
+      "reaction_smiles_mapped": "O=[CH:5][CH2:4][CH:2]([CH3:1])[CH3:3].[NH2:6][c:7]1[cH:8][c:9]([Cl:10])[c:11]([S:12]([NH2:13])(=[O:14])=[O:15])[cH:16][c:17]1[S:18](=[O:19])(=[O:20])[NH2:21]>ClCCl.CC(C)c1cc(C(C)C)c(-c2cc3ccccc3c3c2OP(=O)(O)Oc2c(-c4c(C(C)C)cc(C(C)C)cc4C(C)C)cc4ccccc4c2-3)c(C(C)C)c1>[CH3:1][CH:2]([CH3:3])[CH2:4][C@@H:5]1[NH:6][c:7]2[cH:8][c:9]([Cl:10])[c:11]([S:12]([NH2:13])(=[O:14])=[O:15])[cH:16][c:17]2[S:18](=[O:19])(=[O:20])[NH:21]1",
+      "mapping_confidence": 0.28114908836698976,
+      "conditions": {
+        "raw_description": "(S)-Ad-TRIP (10 mol%); 3-methylbutanal; 5 \u00c5 MS; CH2Cl2; r.t.; 81%",
+        "GENERAL_REAGENTS": [
+          "3-methylbutanal"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)CC=O"
+        ],
+        "CATALYSTS": [
+          "(S)-Ad-TRIP"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=P1(OC2=C(C3=C(C(C)C)C=C(C(C)C)C=C3C(C)C)C=C4C=CC=CC4=[C@]2[C@]5=C6C=CC=CC6=CC(C7=C(C(C)C)C=C(C(C)C)C=C7C(C)C)=C5O1)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "5 \u00c5 MS",
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "background": {
+    "name": "Odevixibat",
+    "author": null,
+    "year": 2021,
+    "drug_name": "Bylvay",
+    "manufacturer": "AlbereoPharm",
+    "citation": "J. Med. Chem. 2023, 66, 10150",
+    "doi": "10.1021/acs.jmedchem.3c00501"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_1",
+      "reaction_smiles": "COc1cccc(S)c1.COc1cccc(S)c1.BrBr.BrBr.CO>>COc1cc(SSc2cc(OC)c(Br)cc2Br)c(Br)cc1Br",
+      "reaction_smiles_mapped": "[Br:14][Br:19].[Br:17][Br:22].[CH3:1][O:2][c:3]1[cH:4][c:5]([SH:6])[cH:18][cH:20][cH:21]1.[SH:7][c:8]1[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:15][cH:16]1>CO>[CH3:1][O:2][c:3]1[cH:4][c:5]([S:6][S:7][c:8]2[cH:9][c:10]([O:11][CH3:12])[c:13]([Br:14])[cH:15][c:16]2[Br:17])[c:18]([Br:19])[cH:20][c:21]1[Br:22]",
+      "mapping_confidence": 0.04763329812881582,
+      "conditions": {
+        "raw_description": "Br2; MeOH; 37%",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "37%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_2",
+      "reaction_smiles": "COc1cc(SSc2cc(OC)c(Br)cc2Br)c(Br)cc1Br.O=S(=O)(Cl)Cl.O=[N+]([O-])[O-].[K+].CC#N>>COc1cc(S(=O)(=O)Cl)c(Br)cc1Br",
+      "reaction_smiles_mapped": "COc1cc(S[S:6][c:5]2[cH:4][c:3]([O:2][CH3:1])[c:13]([Br:14])[cH:12][c:10]2[Br:11])c(Br)cc1Br.ClS(=[O:7])(=[O:8])[Cl:9]>CC#N.O=[N+]([O-])[O-].[K+]>[CH3:1][O:2][c:3]1[cH:4][c:5]([S:6](=[O:7])(=[O:8])[Cl:9])[c:10]([Br:11])[cH:12][c:13]1[Br:14]",
+      "mapping_confidence": 0.0897095323816919,
+      "conditions": {
+        "raw_description": "SO2Cl2; KNO3; MeCN; 91%",
+        "GENERAL_REAGENTS": [
+          "SO2Cl2",
+          "KNO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)(Cl)Cl",
+          "[N+](=O)([O-])[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_3",
+      "reaction_smiles": "COc1cc(S(=O)(=O)Cl)c(Br)cc1Br.CCCCC(N)(CCCC)CNc1ccccc1.CCN(CC)CC.C1CCOC1>>CCCCC(CCCC)(CNc1ccccc1)NS(=O)(=O)c1cc(OC)c(Br)cc1Br",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([CH2:6][CH2:7][CH2:8][CH3:9])([CH2:10][NH:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[NH2:18].Cl[S:19](=[O:20])(=[O:21])[c:22]1[cH:23][c:24]([O:25][CH3:26])[c:27]([Br:28])[cH:29][c:30]1[Br:31]>C1CCOC1.CCN(CC)CC>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([CH2:6][CH2:7][CH2:8][CH3:9])([CH2:10][NH:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[NH:18][S:19](=[O:20])(=[O:21])[c:22]1[cH:23][c:24]([O:25][CH3:26])[c:27]([Br:28])[cH:29][c:30]1[Br:31]",
+      "mapping_confidence": 0.5146254505988109,
+      "conditions": {
+        "raw_description": "TEA; THF; 59%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_4",
+      "reaction_smiles": "CCCCC(CCCC)(CNc1ccccc1)NS(=O)(=O)c1cc(OC)c(Br)cc1Br.[Cu].O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OC)cc2S(=O)(=O)N1",
+      "reaction_smiles_mapped": "Br[c:18]1[cH:19][c:20]([Br:21])[c:22]([O:23][CH3:24])[cH:25][c:26]1[S:27](=[O:28])(=[O:29])[NH:30][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][NH:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1>CN(C)C=O.O=C([O-])[O-].[Cu].[K+].[K+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([O:23][CH3:24])[cH:25][c:26]2[S:27](=[O:28])(=[O:29])[NH:30]1",
+      "mapping_confidence": 0.5008309270922776,
+      "conditions": {
+        "raw_description": "Cu powder; K2CO3; DMF; 75%",
+        "GENERAL_REAGENTS": [
+          "Cu powder",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu]",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_5",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OC)cc2S(=O)(=O)N1.COc1ccc(CBr)cc1.O=C([O-])[O-].[Cs+].[Cs+].CN1CCCC1=O.CC#N>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OC)cc2S(=O)(=O)N1Cc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([O:23][CH3:24])[cH:25][c:26]2[S:27](=[O:28])(=[O:29])[NH:30]1.Br[CH2:31][c:32]1[cH:33][cH:34][c:35]([O:36][CH3:37])[cH:38][cH:39]1>CC#N.CN1CCCC1=O.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([Br:21])[c:22]([O:23][CH3:24])[cH:25][c:26]2[S:27](=[O:28])(=[O:29])[N:30]1[CH2:31][c:32]1[cH:33][cH:34][c:35]([O:36][CH3:37])[cH:38][cH:39]1",
+      "mapping_confidence": 0.5066941422131637,
+      "conditions": {
+        "raw_description": "Cs2CO3; NMP; MeCN; 64% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_6",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(Br)c(OC)cc2S(=O)(=O)N1Cc1ccc(OC)cc1.C[S-].[Na+].CN(C)C=O>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(O)cc2S(=O)(=O)N1Cc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "C[O:24][c:23]1[c:20](Br)[cH:19][c:18]2[c:26]([cH:25]1)[S:27](=[O:28])(=[O:29])[N:30]([CH2:31][c:32]1[cH:33][cH:34][c:35]([O:36][CH3:37])[cH:38][cH:39]1)[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[S-:21][CH3:22]>CN(C)C=O.[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([OH:24])[cH:25][c:26]2[S:27](=[O:28])(=[O:29])[N:30]1[CH2:31][c:32]1[cH:33][cH:34][c:35]([O:36][CH3:37])[cH:38][cH:39]1",
+      "mapping_confidence": 0.5110464058371339,
+      "conditions": {
+        "raw_description": "NaSMe; DMF; 65%",
+        "GENERAL_REAGENTS": [
+          "NaSMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[S-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_7",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(O)cc2S(=O)(=O)N1Cc1ccc(OC)cc1.CC(C)(C)OC(=O)CBr.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)OC(C)(C)C)cc2S(=O)(=O)N1Cc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "Br[CH2:25][C:26](=[O:27])[O:28][C:29]([CH3:30])([CH3:31])[CH3:32].[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([OH:24])[cH:33][c:34]2[S:35](=[O:36])(=[O:37])[N:38]1[CH2:39][c:40]1[cH:41][cH:42][c:43]([O:44][CH3:45])[cH:46][cH:47]1>CN(C)C=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[O:28][C:29]([CH3:30])([CH3:31])[CH3:32])[cH:33][c:34]2[S:35](=[O:36])(=[O:37])[N:38]1[CH2:39][c:40]1[cH:41][cH:42][c:43]([O:44][CH3:45])[cH:46][cH:47]1",
+      "mapping_confidence": 0.18345194767179415,
+      "conditions": {
+        "raw_description": "K2CO3; DMF; 66%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_8",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)OC(C)(C)C)cc2S(=O)(=O)N1Cc1ccc(OC)cc1.c1ccc(N(c2ccccc2)c2ccccc2)cc1.O=C(O)C(F)(F)F.Cc1ccccc1>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)N1Cc1ccc(OC)cc1",
+      "reaction_smiles_mapped": "CC(C)(C)[O:28][C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:30]([cH:29]1)[S:31](=[O:32])(=[O:33])[N:34]([CH2:35][c:36]1[cH:37][cH:38][c:39]([O:40][CH3:41])[cH:42][cH:43]1)[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27]>Cc1ccccc1.O=C(O)C(F)(F)F.c1ccc(N(c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[OH:28])[cH:29][c:30]2[S:31](=[O:32])(=[O:33])[N:34]1[CH2:35][c:36]1[cH:37][cH:38][c:39]([O:40][CH3:41])[cH:42][cH:43]1",
+      "mapping_confidence": 0.4638448509830871,
+      "conditions": {
+        "raw_description": "TFA; PH3N; PhMe; 80%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PH3N"
+        ],
+        "LIGANDS_SMILES": [
+          "N(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_9",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)N1Cc1ccc(OC)cc1.CC[SiH](CC)CC.O=C(O)C(F)(F)F.ClCCl>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)N1",
+      "reaction_smiles_mapped": "COc1ccc(C[N:34]2[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[c:18]3[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[OH:28])[cH:29][c:30]3[S:31]2(=[O:32])=[O:33])cc1>CC[SiH](CC)CC.ClCCl.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[OH:28])[cH:29][c:30]2[S:31](=[O:32])(=[O:33])[NH:34]1",
+      "mapping_confidence": 0.47731956769979894,
+      "conditions": {
+        "raw_description": "TFA; Et3SiH; DCM; 70%",
+        "GENERAL_REAGENTS": [
+          "Et3SiH",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[SiH](CC)CC",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_10",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)O)cc2S(=O)(=O)N1.CC(C)(C)OC(=O)[C@H](N)c1ccc(O)cc1.CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[B-](F)(F)F.ClCCl.O=C(O)C(F)(F)F>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)O)c3ccc(O)cc3)cc2S(=O)(=O)N1",
+      "reaction_smiles_mapped": "CC(C)(C)[O:32][C:30]([C@H:29]([NH2:28])[c:33]1[cH:34][cH:35][c:36]([OH:37])[cH:38][cH:39]1)=[O:31].O[C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:41]([cH:40]1)[S:42](=[O:43])(=[O:44])[NH:45][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27]>CN(C)C(On1nnc2ccccc21)=[N+](C)C.ClCCl.F[B-](F)(F)F.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[NH:28][C@@H:29]([C:30](=[O:31])[OH:32])[c:33]3[cH:34][cH:35][c:36]([OH:37])[cH:38][cH:39]3)[cH:40][c:41]2[S:42](=[O:43])(=[O:44])[NH:45]1",
+      "mapping_confidence": 0.5249535286499837,
+      "conditions": {
+        "raw_description": "TBTU; DCM; TFA; 77%",
+        "GENERAL_REAGENTS": [
+          "TBTU",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_11",
+      "reaction_smiles": "CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)O)c3ccc(O)cc3)cc2S(=O)(=O)N1.CC[C@H](N)C(=O)OC(C)(C)C.CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[B-](F)(F)F.CN(C)C=O.O=C(O)C(F)(F)F.ClCCl>>CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)N[C@@H](CC)C(=O)O)c3ccc(O)cc3)cc2S(=O)(=O)N1",
+      "reaction_smiles_mapped": "O[C:30]([C@H:29]([NH:28][C:26]([CH2:25][O:24][c:23]1[c:20]([S:21][CH3:22])[cH:19][c:18]2[c:47]([cH:46]1)[S:48](=[O:49])(=[O:50])[NH:51][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]2[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)=[O:27])[c:39]1[cH:40][cH:41][c:42]([OH:43])[cH:44][cH:45]1)=[O:31].CC(C)(C)[O:38][C:36]([C@@H:33]([NH2:32])[CH2:34][CH3:35])=[O:37]>CN(C)C(On1nnc2ccccc21)=[N+](C)C.CN(C)C=O.ClCCl.F[B-](F)(F)F.O=C(O)C(F)(F)F>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]1([CH2:6][CH2:7][CH2:8][CH3:9])[CH2:10][N:11]([c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[c:18]2[cH:19][c:20]([S:21][CH3:22])[c:23]([O:24][CH2:25][C:26](=[O:27])[NH:28][C@@H:29]([C:30](=[O:31])[NH:32][C@@H:33]([CH2:34][CH3:35])[C:36](=[O:37])[OH:38])[c:39]3[cH:40][cH:41][c:42]([OH:43])[cH:44][cH:45]3)[cH:46][c:47]2[S:48](=[O:49])(=[O:50])[NH:51]1",
+      "mapping_confidence": 0.49026572181476313,
+      "conditions": {
+        "raw_description": "TBTU; DMF; TFA; DCM; 66%",
+        "GENERAL_REAGENTS": [
+          "TBTU",
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1",
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_12",
+      "reaction_smiles": "CCCCC(N)C(=O)O.O=S(Cl)Cl.CCO>>CCCCC(N)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH:5]([NH2:6])[C:7](=[O:8])[OH:9].O[CH2:10][CH3:11]>O=S(Cl)Cl>[CH3:1][CH2:2][CH2:3][CH2:4][CH:5]([NH2:6])[C:7](=[O:8])[O:9][CH2:10][CH3:11]",
+      "mapping_confidence": 0.49758778277830057,
+      "conditions": {
+        "raw_description": "SOCl2; EtOH; 97%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_13",
+      "reaction_smiles": "CCCCC(N)C(=O)OCC.O=Cc1ccccc1.O=S(=O)([O-])[O-].[Mg+2].CCN(CC)CC.ClCCl>>CCCCC(/N=C/c1ccccc1)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH:5]([NH2:6])[C:14](=[O:15])[O:16][CH2:17][CH3:18].O=[CH:7][c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1>CCN(CC)CC.ClCCl.O=S(=O)([O-])[O-].[Mg+2]>[CH3:1][CH2:2][CH2:3][CH2:4][CH:5](/[N:6]=[CH:7]/[c:8]1[cH:9][cH:10][cH:11][cH:12][cH:13]1)[C:14](=[O:15])[O:16][CH2:17][CH3:18]",
+      "mapping_confidence": 0.9332813530738973,
+      "conditions": {
+        "raw_description": "TEA; MgSO4; DCM; 98%",
+        "GENERAL_REAGENTS": [
+          "MgSO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]S(=O)(=O)[O-].[Mg+2]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_14",
+      "reaction_smiles": "CCCCC(/N=C/c1ccccc1)C(=O)OCC.CCCCI.[H-].[Na+].CN(C)C=O>>CCCCC(CCCC)(/N=C/c1ccccc1)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH:5]([CH2:6][CH2:7][CH2:8][CH3:9])(/[N:10]=[CH:11]/[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18](=[O:19])[O:20][CH2:21][CH3:22].I[CH2:4][CH2:3][CH2:2][CH3:1]>CN(C)C=O.[H-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([CH2:6][CH2:7][CH2:8][CH3:9])(/[N:10]=[CH:11]/[c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18](=[O:19])[O:20][CH2:21][CH3:22]",
+      "mapping_confidence": 0.7374066693698494,
+      "conditions": {
+        "raw_description": "NaH; DMF; 95%",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_15",
+      "reaction_smiles": "CCCCC(CCCC)(/N=C/c1ccccc1)C(=O)OCC.Cl.O.CCCCCC>>CCCCC(N)(CCCC)C(=O)OCC",
+      "reaction_smiles_mapped": "C(\\c1ccccc1)=[N:6]/[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([CH2:7][CH2:8][CH2:9][CH3:10])[C:11](=[O:12])[O:13][CH2:14][CH3:15]>CCCCCC.Cl.O>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([NH2:6])([CH2:7][CH2:8][CH2:9][CH3:10])[C:11](=[O:12])[O:13][CH2:14][CH3:15]",
+      "mapping_confidence": 0.9791736617845475,
+      "conditions": {
+        "raw_description": "HCl; H2O; petroleum ether; 52%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "petroleum ether"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CCCCCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "52%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_16",
+      "reaction_smiles": "CCCCC(N)(CCCC)C(=O)OCC.Nc1ccccc1.[CH2-]CCC.[Li+].C1CCOC1>>CCCCC(N)(CCCC)C(=O)Nc1ccccc1",
+      "reaction_smiles_mapped": "CCO[C:11]([C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([NH2:6])[CH2:7][CH2:8][CH2:9][CH3:10])=[O:12].[NH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>C1CCOC1.[CH2-]CCC.[Li+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([NH2:6])([CH2:7][CH2:8][CH2:9][CH3:10])[C:11](=[O:12])[NH:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.8754659607893926,
+      "conditions": {
+        "raw_description": "nBuLi; THF",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "[Li+].CCC[CH2-]",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Odevixibat_2021_AlbereoPharm_17",
+      "reaction_smiles": "CCCCC(N)(CCCC)C(=O)Nc1ccccc1.B.CSC.C1CCOC1>>CCCCC(N)(CCCC)CNc1ccccc1",
+      "reaction_smiles_mapped": "O=[C:11]([C:5]([CH2:4][CH2:3][CH2:2][CH3:1])([NH2:6])[CH2:7][CH2:8][CH2:9][CH3:10])[NH:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>B.C1CCOC1.CSC>[CH3:1][CH2:2][CH2:3][CH2:4][C:5]([NH2:6])([CH2:7][CH2:8][CH2:9][CH3:10])[CH2:11][NH:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.9094452649760919,
+      "conditions": {
+        "raw_description": "BH3; Me2S; THF; 39% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "BH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Me2S"
+        ],
+        "LIGANDS_SMILES": [
+          "CSC"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "39% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

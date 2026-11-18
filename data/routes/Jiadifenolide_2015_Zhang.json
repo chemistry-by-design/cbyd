@@ -1,0 +1,650 @@
+{
+  "background": {
+    "name": "(-)-Jiadifenolide",
+    "author": "Zhang",
+    "year": 2015,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2015, 17, 5480",
+    "doi": "10.1021/acs.orglett.5b02845"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_1",
+      "reaction_smiles": "CC(C)=C1CC[C@H](C)CC1=O.BrBr.O=C([O-])O.[Na+].CCOCC>>C[C@@H]1CCC(Br)(C(C)(C)Br)C(=O)C1",
+      "reaction_smiles_mapped": "[Br:6][Br:10].[CH3:1][C@H:2]1[CH2:3][CH2:4][C:5](=[C:7]([CH3:8])[CH3:9])[C:11](=[O:12])[CH2:13]1>O=C([O-])O.[Na+].CCOCC>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C:5]([Br:6])([C:7]([CH3:8])([CH3:9])[Br:10])[C:11](=[O:12])[CH2:13]1",
+      "mapping_confidence": 0.3784238360103985,
+      "conditions": {
+        "raw_description": "Br2; NaHCO3; Et2O; -10 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_2",
+      "reaction_smiles": "C[C@@H]1CCC(Br)(C(C)(C)Br)C(=O)C1.CC[O-].[Na+].CCO>>CCOC(=O)C1C(=C(C)C)CC[C@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][OH:3].Br[C:7]1([C:8](Br)([CH3:9])[CH3:10])[C:4](=[O:5])[CH2:6][C@H:13]([CH3:14])[CH2:12][CH2:11]1>CC[O-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[C:8]([CH3:9])[CH3:10])[CH2:11][CH2:12][C@H:13]1[CH3:14]",
+      "mapping_confidence": 0.5525521769319116,
+      "conditions": {
+        "raw_description": "NaOEt; EtOH; 55 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_3",
+      "reaction_smiles": "CCOC(=O)C1C(=C(C)C)CC[C@H]1C.O=[O+][O-].CSC.ClCCl>>CCOC(=O)C1C(=O)CC[C@H]1C",
+      "reaction_smiles_mapped": "CC(C)=[C:7]1[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C@H:11]([CH3:12])[CH2:10][CH2:9]1.[O-][O+]=[O:8]>CSC.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@H:11]1[CH3:12]",
+      "mapping_confidence": 0.5504392089938989,
+      "conditions": {
+        "raw_description": "1) O3; DCM; -78 \u00b0C; 2) Me2S; 90% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "Me2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "90% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_4",
+      "reaction_smiles": "CCOC(=O)C1C(=O)CC[C@H]1C.C=CCBr.O=C([O-])[O-].[Cs+].[Cs+].CC(C)=O>>C=CC[C@]1(C(=O)OCC)C(=O)CC[C@H]1C",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[CH:4]1([C:5](=[O:6])[O:7][CH2:8][CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C@H:14]1[CH3:15]>O=C([O-])[O-].[Cs+].[Cs+].CC(C)=O>[CH2:1]=[CH:2][CH2:3][C@:4]1([C:5](=[O:6])[O:7][CH2:8][CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C@H:14]1[CH3:15]",
+      "mapping_confidence": 0.9804601632853964,
+      "conditions": {
+        "raw_description": "Cs2CO3; Acetone; -78 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_5",
+      "reaction_smiles": "C=CC[C@]1(C(=O)OCC)C(=O)CC[C@H]1C.O=[O+][O-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>CCOC(=O)[C@@]1(CC=O)C(=O)CC[C@H]1C",
+      "reaction_smiles_mapped": "C=[CH:8][CH2:7][C@:6]1([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:10](=[O:11])[CH2:12][CH2:13][C@H:14]1[CH3:15].[O-][O+]=[O:9]>c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH2:7][CH:8]=[O:9])[C:10](=[O:11])[CH2:12][CH2:13][C@H:14]1[CH3:15]",
+      "mapping_confidence": 0.45785170405737047,
+      "conditions": {
+        "raw_description": "1) O3; DCM; -78 \u00b0C; 2) PPh3; rt; 92%",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_6",
+      "reaction_smiles": "CCOC(=O)[C@@]1(CC=O)C(=O)CC[C@H]1C.CC1=CC(=O)OC1.CCN(CC)CC.CCCCB(CCCC)OS(=O)(=O)C(F)(F)F.ClCCl>>CCOC(=O)[C@@]1(CC(O)C2=C(C)COC2=O)C(=O)CC[C@H]1C",
+      "reaction_smiles_mapped": "[CH:10]1=[C:11]([CH3:12])[CH2:13][O:14][C:15]1=[O:16].[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH2:7][CH:8]=[O:9])[C:17](=[O:18])[CH2:19][CH2:20][C@H:21]1[CH3:22]>CCN(CC)CC.CCCCB(CCCC)OS(=O)(=O)C(F)(F)F.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1([CH2:7][CH:8]([OH:9])[C:10]2=[C:11]([CH3:12])[CH2:13][O:14][C:15]2=[O:16])[C:17](=[O:18])[CH2:19][CH2:20][C@H:21]1[CH3:22]",
+      "mapping_confidence": 0.9830379822374015,
+      "conditions": {
+        "raw_description": "Et3N; Bu2BOTf; DCM; -78 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "Bu2BOTf"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(CCCC)(CCCC)OS(=O)(=O)C(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_7",
+      "reaction_smiles": "CCOC(=O)[C@@]1(CC(O)C2=C(C)COC2=O)C(=O)CC[C@H]1C.CCN(CC)CC.CC(=O)OC(C)=O.CN(C)c1ccncc1.ClCCl>>CCOC(=O)[C@@]1(/C=C/C2=C(C)COC2=O)C(=O)CC[C@H]1C",
+      "reaction_smiles_mapped": "O[CH:8]([CH2:7][C@:6]1([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:16](=[O:17])[CH2:18][CH2:19][C@H:20]1[CH3:21])[C:9]1=[C:10]([CH3:11])[CH2:12][O:13][C:14]1=[O:15]>CCN(CC)CC.CC(=O)OC(C)=O.CN(C)c1ccncc1.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@:6]1(/[CH:7]=[CH:8]/[C:9]2=[C:10]([CH3:11])[CH2:12][O:13][C:14]2=[O:15])[C:16](=[O:17])[CH2:18][CH2:19][C@H:20]1[CH3:21]",
+      "mapping_confidence": 0.9735831518317358,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; DCM; 85%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_8",
+      "reaction_smiles": "CCOC(=O)[C@@]1(/C=C/C2=C(C)COC2=O)C(=O)CC[C@H]1C.CC(C)C[AlH]CC(C)C.[Li]N(C(C)C)C(C)C.C1CCOC1.CCCCCC>>CC1=C(/C=C/[C@]2(CO)C(=O)CC[C@H]2C)C(=O)OC1",
+      "reaction_smiles_mapped": "CCO[C:7]([C@@:6]1(/[CH:5]=[CH:4]/[C:3]2=[C:2]([CH3:1])[CH2:18][O:17][C:15]2=[O:16])[C:9](=[O:10])[CH2:11][CH2:12][C@H:13]1[CH3:14])=[O:8]>CC(C)C[AlH]CC(C)C.[Li]N(C(C)C)C(C)C.C1CCOC1.CCCCCC>[CH3:1][C:2]1=[C:3](/[CH:4]=[CH:5]/[C@:6]2([CH2:7][OH:8])[C:9](=[O:10])[CH2:11][CH2:12][C@H:13]2[CH3:14])[C:15](=[O:16])[O:17][CH2:18]1",
+      "mapping_confidence": 0.8677296704259988,
+      "conditions": {
+        "raw_description": "1) LDA; THF; -78 \u00b0C; 2) DIBAL-H; hexane; -78 \u00b0C to rt; 78%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "hexane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCCCCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_9",
+      "reaction_smiles": "CC1=C(/C=C/[C@]2(CO)C(=O)CC[C@H]2C)C(=O)OC1.[HH].O=[Pt]=O.CCOC(C)=O>>CC1=C(CC[C@]2(CO)C(=O)CC[C@H]2C)C(=O)OC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[C:3](/[CH:4]=[CH:5]/[C@:6]2([CH2:7][OH:8])[C:9](=[O:10])[CH2:11][CH2:12][C@H:13]2[CH3:14])[C:15](=[O:16])[O:17][CH2:18]1>[HH].O=[Pt]=O.CCOC(C)=O>[CH3:1][C:2]1=[C:3]([CH2:4][CH2:5][C@:6]2([CH2:7][OH:8])[C:9](=[O:10])[CH2:11][CH2:12][C@H:13]2[CH3:14])[C:15](=[O:16])[O:17][CH2:18]1",
+      "mapping_confidence": 0.9807148563409679,
+      "conditions": {
+        "raw_description": "PtO2; H2; EtOAc; 85%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_10",
+      "reaction_smiles": "CC1=C(CC[C@]2(CO)C(=O)CC[C@H]2C)C(=O)OC1.I[Sm]I.C1CCOC1.O>>C[C@@H]1CC[C@]2(O)[C@@]1(CO)CC[C@@]1(C)C(=O)OC[C@@]21C",
+      "reaction_smiles_mapped": "C1CO[CH2:13]C1.[CH3:1][C@@H:2]1[CH2:3][CH2:4][C:5](=[O:6])[C@@:7]1([CH2:8][OH:9])[CH2:10][CH2:11][C:12]1=[C:18]([CH3:19])[CH2:17][O:16][C:14]1=[O:15]>I[Sm]I.O>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]2([OH:6])[C@@:7]1([CH2:8][OH:9])[CH2:10][CH2:11][C@@:12]1([CH3:13])[C:14](=[O:15])[O:16][CH2:17][C@@:18]21[CH3:19]",
+      "mapping_confidence": 0.47769985822732697,
+      "conditions": {
+        "raw_description": "SmI2; THF/H2O; 80%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_11",
+      "reaction_smiles": "C[C@@H]1CC[C@]2(O)[C@@]1(CO)CC[C@@]1(C)C(=O)OC[C@@]21C.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>C[C@@H]1CC[C@@]2(O)[C@]3(C)COC(=O)[C@]3(C)CC[C@@]12C=O",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@@:5]2([OH:6])[C@:7]3([CH3:8])[CH2:9][O:10][C:11](=[O:12])[C@:13]3([CH3:14])[CH2:15][CH2:16][C@@:17]12[CH2:18][OH:19]>O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@@:5]2([OH:6])[C@:7]3([CH3:8])[CH2:9][O:10][C:11](=[O:12])[C@:13]3([CH3:14])[CH2:15][CH2:16][C@@:17]12[CH:18]=[O:19]",
+      "mapping_confidence": 0.9117734513233778,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; DCM; -78 \u00b0C; quant.",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "quant."
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_12",
+      "reaction_smiles": "C[C@@H]1CC[C@@]2(O)[C@]3(C)COC(=O)[C@]3(C)CC[C@@]12C=O.C[Si](C)(C)C=[N+]=[N-].[Cl-].[Li+].[Li]CCCC.C1CCOC1>>C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)C12CC[C@@]1(C)C(=O)OC[C@]13C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]2([OH:6])[C@@:14]1([CH:8]=[O:9])[CH2:15][CH2:16][C@@:17]1([CH3:18])[C:19](=[O:20])[O:21][CH2:22][C@@:23]21[CH3:24].[N-]=[N+]=[CH:7][Si:10]([CH3:11])([CH3:12])[CH3:13]>[Cl-].[Li+].[Li]CCCC.C1CCOC1>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][CH2:7][CH:8]([O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C:14]12[CH2:15][CH2:16][C@@:17]1([CH3:18])[C:19](=[O:20])[O:21][CH2:22][C@@:23]31[CH3:24]",
+      "mapping_confidence": 0.27071750835842995,
+      "conditions": {
+        "raw_description": "TMSCHN2; nBuLi; LiCl; THF; -78 \u00b0C; 78%; [4+1] Annulation",
+        "GENERAL_REAGENTS": [
+          "TMSCHN2",
+          "LiCl",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C=[N+]=[N-]",
+          "[Li+].[Cl-]",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_13",
+      "reaction_smiles": "C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)C12CC[C@@]1(C)C(=O)OC[C@]13C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].Br[Se]c1ccccc1.C1CCOC1>>C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)[C@]12CCC1([Se]c2ccccc2)C(=O)OC[C@]13C",
+      "reaction_smiles_mapped": "Br[Se:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1.C[C@@:17]12[CH2:16][CH2:15][C:14]34[C@H:2]([CH3:1])[CH2:3][CH2:4][C@@:5]3([O:6][CH2:7][CH:8]4[O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C@:29]1([CH3:30])[CH2:28][O:27][C:25]2=[O:26]>C[Si](C)(C)[N-][Si](C)(C)C.[K+].C1CCOC1>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][CH2:7][CH:8]([O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C@:14]12[CH2:15][CH2:16][C:17]1([Se:18][c:19]2[cH:20][cH:21][cH:22][cH:23][cH:24]2)[C:25](=[O:26])[O:27][CH2:28][C@@:29]31[CH3:30]",
+      "mapping_confidence": 0.4652661431584844,
+      "conditions": {
+        "raw_description": "KHMDS; PhSeBr; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "PhSeBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "C1=CC=C(C=C1)[Se]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_14",
+      "reaction_smiles": "C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)[C@]12CCC1([Se]c2ccccc2)C(=O)OC[C@]13C.OO.O=C([O-])O.[Na+]>>C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)C12CC=C1C(=O)OC[C@]13C",
+      "reaction_smiles_mapped": "c1ccc([Se][C:17]23[CH2:16][CH2:15][C@@:14]45[C@H:2]([CH3:1])[CH2:3][CH2:4][C@@:5]4([O:6][CH2:7][CH:8]5[O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C@:22]2([CH3:23])[CH2:21][O:20][C:18]3=[O:19])cc1>OO.O=C([O-])O.[Na+]>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][CH2:7][CH:8]([O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C:14]12[CH2:15][CH:16]=[C:17]1[C:18](=[O:19])[O:20][CH2:21][C@@:22]31[CH3:23]",
+      "mapping_confidence": 0.4820207613532105,
+      "conditions": {
+        "raw_description": "H2O2; NaHCO3; 88% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2O2",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_15",
+      "reaction_smiles": "C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)C12CC=C1C(=O)OC[C@]13C.CC1(C)OO1.O=S(=O)([O-])[O-].[Na+].[Na+]>>C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)[C@]12C[C@@H]1O[C@@]12C(=O)OC[C@@]32C",
+      "reaction_smiles_mapped": "CC1(C)O[O:17]1.[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][CH2:7][CH:8]([O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C:14]12[CH2:15][CH:16]=[C:18]1[C:19](=[O:20])[O:21][CH2:22][C@@:23]31[CH3:24]>O=S(=O)([O-])[O-].[Na+].[Na+]>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][CH2:7][CH:8]([O:9][Si:10]([CH3:11])([CH3:12])[CH3:13])[C@:14]12[CH2:15][C@@H:16]1[O:17][C@@:18]12[C:19](=[O:20])[O:21][CH2:22][C@@:23]32[CH3:24]",
+      "mapping_confidence": 0.3799072739176273,
+      "conditions": {
+        "raw_description": "DMDO; Na2SO4; 80%",
+        "GENERAL_REAGENTS": [
+          "DMDO",
+          "Na2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(OO1)C",
+          "[O-]S(=O)(=O)[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_16",
+      "reaction_smiles": "C[C@@H]1CC[C@]23OCC(O[Si](C)(C)C)[C@]12C[C@@H]1O[C@@]12C(=O)OC[C@@]32C.[Na+].[O-][I+3]([O-])([O-])[O-].Cl[Ru](Cl)Cl.ClC(Cl)(Cl)Cl.CC#N.O>>C[C@@H]1CC[C@]23OC(=O)C(=O)[C@]12C[C@@H]1O[C@@]12C(=O)OC[C@@]32C",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:10][CH:9]1[CH2:7][O:6][C@@:5]23[CH2:4][CH2:3][C@@H:2]([CH3:1])[C@:11]21[CH2:12][C@@H:13]1[O:14][C@@:15]12[C:16](=[O:17])[O:18][CH2:19][C@@:20]32[CH3:21].[OH2:8]>[Na+].[O-][I+3]([O-])([O-])[O-].Cl[Ru](Cl)Cl.ClC(Cl)(Cl)Cl.CC#N>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][C:7](=[O:8])[C:9](=[O:10])[C@:11]12[CH2:12][C@@H:13]1[O:14][C@@:15]12[C:16](=[O:17])[O:18][CH2:19][C@@:20]32[CH3:21]",
+      "mapping_confidence": 0.8445426343630242,
+      "conditions": {
+        "raw_description": "RuCl3; NaIO4; CCl4; MeCN/H2O; 84%",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [
+          "RuCl3",
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ru](Cl)Cl",
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_17",
+      "reaction_smiles": "C[C@@H]1CC[C@]23OC(=O)C(=O)[C@]12C[C@@H]1O[C@@]12C(=O)OC[C@@]32C.[Li+].[OH-].C1CCOC1>>C[C@@H]1CC[C@]23OC(=O)[C@@]4(O)O[C@H](C[C@@]124)[C@@]1(O)C(=O)OC[C@@]31C",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][C:7](=[O:8])[C:9](=[O:10])[C@:14]12[CH2:13][C@@H:12]1[O:11][C@@:15]12[C:17](=[O:18])[O:19][CH2:20][C@@:21]32[CH3:22].[OH-:16]>[Li+].C1CCOC1>[CH3:1][C@@H:2]1[CH2:3][CH2:4][C@:5]23[O:6][C:7](=[O:8])[C@@:9]4([OH:10])[O:11][C@H:12]([CH2:13][C@@:14]124)[C@@:15]1([OH:16])[C:17](=[O:18])[O:19][CH2:20][C@@:21]31[CH3:22]",
+      "mapping_confidence": 0.9536842187181219,
+      "conditions": {
+        "raw_description": "LiOH; THF; 71%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_18",
+      "reaction_smiles": "CC(C)=CC(=O)O.O=C1CCC(=O)N1Br.O=C(OOC(=O)c1ccccc1)c1ccccc1.[Na+].[OH-].c1ccccc1.O>>O=C1C=C(CBr)CO1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([CH:3]=[C:4]([CH3:5])[CH3:7])[OH:8].O=C1CCC(=O)N1[Br:6]>O=C(OOC(=O)c1ccccc1)c1ccccc1.[Na+].[OH-].c1ccccc1.O>[O:1]=[C:2]1[CH:3]=[C:4]([CH2:5][Br:6])[CH2:7][O:8]1",
+      "mapping_confidence": 0.4059573653962805,
+      "conditions": {
+        "raw_description": "1) NBS; (PhCO2)2; Benzene; reflux; 2) NaOH; H2O; rt; 56%",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "(PhCO2)2",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "O=C(OOC(=O)c1ccccc1)c2ccccc2",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux",
+          "rt"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Jiadifenolide_2015_Zhang_19",
+      "reaction_smiles": "O=C1C=C(CBr)CO1.CC(=O)O.[Zn].O>>CC1=CC(=O)OC1",
+      "reaction_smiles_mapped": "Br[CH2:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH2:7]1>CC(=O)O.O>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH2:7]1",
+      "mapping_confidence": 0.9881607649947017,
+      "conditions": {
+        "raw_description": "Zn; H2O; AcOH; 89%",
+        "GENERAL_REAGENTS": [
+          "AcOH",
+          "Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Zn]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    }
+  ]
+}

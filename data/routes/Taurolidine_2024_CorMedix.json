@@ -1,0 +1,73 @@
+{
+  "background": {
+    "name": "Taurolidine",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Defencath",
+    "manufacturer": "CorMedix",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Taurolidine_2024_CorMedix_1",
+      "reaction_smiles": "NS(=O)(=O)CCNC(=O)OCc1ccccc1.[HH].Cl.[C].[OH-].[OH-].[Pd+2].CO>>NCCS(N)(=O)=O",
+      "reaction_smiles_mapped": "O=C(OCc1ccccc1)[NH:1][CH2:2][CH2:3][S:4]([NH2:5])(=[O:6])=[O:7]>CO.Cl.[C].[HH].[OH-].[OH-].[Pd+2]>[NH2:1][CH2:2][CH2:3][S:4]([NH2:5])(=[O:6])=[O:7]",
+      "mapping_confidence": 0.5739154196902266,
+      "conditions": {
+        "raw_description": "Pd(OH)2/C; H2; HCl; MeOH",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Taurolidine_2024_CorMedix_2",
+      "reaction_smiles": "NCCS(N)(=O)=O.C=O.O=C([O-])O.[Na+]>>O=S1(=O)CCN(CN2CCS(=O)(=O)NC2)CN1",
+      "reaction_smiles_mapped": "[O:1]=[CH2:7].[S:2](=[O:3])([CH2:4][CH2:5][NH2:6])([NH2:8])=[O:12].[O-][C:9](O)=[O:13]>[Na+]>[O:1]=[S:2]1(=[O:3])[CH2:4][CH2:5][N:6]([CH2:7][N:8]2[CH2:9][CH2:10][S:11](=[O:12])(=[O:13])[NH:14][CH2:15]2)[CH2:16][NH:17]1",
+      "mapping_confidence": 0.492311877202354,
+      "conditions": {
+        "raw_description": "CH2O; NaHCO3",
+        "GENERAL_REAGENTS": [
+          "CH2O",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

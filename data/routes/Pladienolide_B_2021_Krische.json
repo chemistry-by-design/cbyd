@@ -1,0 +1,861 @@
+{
+  "background": {
+    "name": "Pladienolide B",
+    "author": "Krische",
+    "year": 2021,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2021, 60, 13923",
+    "doi": "10.1002/anie.202103845"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_1",
+      "reaction_smiles": "C=C(C)C=O.C=C[Mg]Br.C1CCOC1>>C=CC(O)C(=C)C",
+      "reaction_smiles_mapped": "[CH:3](=[O:4])[C:5](=[CH2:6])[CH3:7].Br[Mg][CH:2]=[CH2:1]>C1CCOC1>[CH2:1]=[CH:2][CH:3]([OH:4])[C:5](=[CH2:6])[CH3:7]",
+      "mapping_confidence": 0.9177177499540461,
+      "conditions": {
+        "raw_description": "THF; rt; 79%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_2",
+      "reaction_smiles": "C=CC(O)C(=C)C.CC(C)(OO)c1ccccc1.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4].CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C.ClCCl>>C=C[C@H](O)[C@@]1(C)CO1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH:3]([OH:4])[C:5]([CH3:6])=[CH2:7].CC(C)(O[OH:8])c1ccccc1>CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].ClCCl.[Ti+4]>[CH2:1]=[CH:2][C@H:3]([OH:4])[C@@:5]1([CH3:6])[CH2:7][O:8]1",
+      "mapping_confidence": 0.28316788711754304,
+      "conditions": {
+        "raw_description": "Ti(OiPr)4; (+)-DIPT; DCM; -45 \u00b0C; 31%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Ti(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]"
+        ],
+        "LIGANDS": [
+          "(+)-DIPT"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-45"
+        ],
+        "YIELD": [
+          "31%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_3",
+      "reaction_smiles": "C=C[C@H](O)[C@@]1(C)CO1.CC(=O)CC(=O)OC(C)(C)C.C1CCOC1>>C=C[C@H](O)[C@](C)(O)CCC(=O)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([OH:4])[C@:5]1([CH3:6])[O:7][CH2:8]1.[CH3:9][C:10](=[O:11])[CH2:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19]>C1CCOC1>[CH2:1]=[CH:2][C@H:3]([OH:4])[C@:5]([CH3:6])([OH:7])[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.4355615499851105,
+      "conditions": {
+        "raw_description": "tButyl Acetoacetate; NaH; nBuLi; THF; 0 to 45 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "tButyl Acetoacetate"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)CC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "45"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_4",
+      "reaction_smiles": "C=C[C@H](O)[C@](C)(O)CCC(=O)CC(=O)OC(C)(C)C.CC(=O)OC(C)=O>>C=C[C@H](OC(C)=O)[C@](C)(O)CCC(=O)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([OH:4])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C:13](=[O:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22].CC(=O)O[C:5]([CH3:6])=[O:7]>>[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C:13](=[O:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.24429427393743963,
+      "conditions": {
+        "raw_description": "Ac2O; 86%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ac2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_5",
+      "reaction_smiles": "C=C[C@H](OC(C)=O)[C@](C)(O)CCC(=O)CC(=O)OC(C)(C)C.O=CO.CCN(CC)CC.Cc1ccc(S(=O)(=O)N([C@@H](c2ccccc2)[C@@H](N)c2ccccc2)[Ru](Cl)[P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Clc1ccccc1>>C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@@H](O)CC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C:13](=[O:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]>CCN(CC)CC.Cc1ccc(S(=O)(=O)N([C@@H](c2ccccc2)[C@@H](N)c2ccccc2)[Ru](Cl)[P+](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Clc1ccccc1.O=CO>[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C@@H:13]([OH:14])[CH2:15][C:16](=[O:17])[O:18][C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.43990774355456225,
+      "conditions": {
+        "raw_description": "RuCl[(R, R)-TsDPEN](PhMe3); HCOOH; Et3N; PhCl; 0 \u00b0C; 72%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "RuCl[(R, R)-TsDPEN](PhMe3)"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cc1ccc(S(=O)(N([C@@H](c2ccccc2)[C@H](c3ccccc3)N)[Ru]([P+](C4=CC=CC=C4)(C5=CC=CC=C5)C6=CC=CC=C6)Cl)=O)cc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhCl",
+          "HCOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C(C=C1)Cl",
+          "C(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_6",
+      "reaction_smiles": "C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@@H](O)CC(=O)OC(C)(C)C.ClCCl.O=C(O)C(F)(F)F>>C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@@H](O)CC(=O)O",
+      "reaction_smiles_mapped": "CC(C)(C)[O:18][C:16]([CH2:15][C@@H:13]([CH2:12][CH2:11][C@@:8]([C@H:3]([CH:2]=[CH2:1])[O:4][C:5]([CH3:6])=[O:7])([CH3:9])[OH:10])[OH:14])=[O:17]>ClCCl.O=C(O)C(F)(F)F>[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C@@H:13]([OH:14])[CH2:15][C:16](=[O:17])[OH:18]",
+      "mapping_confidence": 0.9879288844834964,
+      "conditions": {
+        "raw_description": "TFA; DCM; 0 \u00b0C; 63%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_7",
+      "reaction_smiles": "C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@@H](O)CC(=O)O.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C@H:13]([CH2:14][C:15](=[O:16])[OH:17])[OH:18].Cl[Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25]>CN(C)C=O.c1c[nH]cn1>[CH2:1]=[CH:2][C@H:3]([O:4][C:5]([CH3:6])=[O:7])[C@:8]([CH3:9])([OH:10])[CH2:11][CH2:12][C@H:13]([CH2:14][C:15](=[O:16])[OH:17])[O:18][Si:19]([CH3:20])([CH3:21])[C:22]([CH3:23])([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.35166168363743433,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMF; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_8",
+      "reaction_smiles": "C=C[C@H](OC(C)=O)[C@](C)(O)CC[C@H](CC(=O)O)O[Si](C)(C)C(C)(C)C.O=C([O-])[O-].[K+].[K+].CO>>C=C[C@H](O)[C@](C)(O)CC[C@H](CC(=O)O)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "CC(=O)[O:4][C@@H:3]([CH:2]=[CH2:1])[C@:5]([CH3:6])([OH:7])[CH2:8][CH2:9][C@H:10]([CH2:11][C:12](=[O:13])[OH:14])[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22]>CO.O=C([O-])[O-].[K+].[K+]>[CH2:1]=[CH:2][C@H:3]([OH:4])[C@:5]([CH3:6])([OH:7])[CH2:8][CH2:9][C@H:10]([CH2:11][C:12](=[O:13])[OH:14])[O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.365602532093667,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; 63% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_9",
+      "reaction_smiles": "C=C[C@H](O)[C@](C)(O)CC[C@H](CC(=O)O)O[Si](C)(C)C(C)(C)C.C=C[C@H](C)[C@H](O)/C(C)=C/I.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl.CCN(CC)CC.CN(C)c1ccncc1.C1CCOC1>>C=C[C@H](C)[C@H](OC(=O)C[C@@H](CC[C@@](C)(O)[C@@H](O)C=C)O[Si](C)(C)C(C)(C)C)/C(C)=C/I",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@H:5]([OH:6])/[C:28]([CH3:29])=[CH:30]/[I:31].O[C:7](=[O:8])[CH2:9][C@@H:10]([CH2:11][CH2:12][C@@:13]([CH3:14])([OH:15])[C@@H:16]([OH:17])[CH:18]=[CH2:19])[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27]>C1CCOC1.CCN(CC)CC.CN(C)c1ccncc1.O=C(Cl)c1c(Cl)cc(Cl)cc1Cl>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@H:5]([O:6][C:7](=[O:8])[CH2:9][C@@H:10]([CH2:11][CH2:12][C@@:13]([CH3:14])([OH:15])[C@@H:16]([OH:17])[CH:18]=[CH2:19])[O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])/[C:28]([CH3:29])=[CH:30]/[I:31]",
+      "mapping_confidence": 0.3054887000581577,
+      "conditions": {
+        "raw_description": "2,4,6-Cl3BzCl; DMAP; Et3N; THF; 63%",
+        "GENERAL_REAGENTS": [
+          "2,4,6-Cl3BzCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(=O)c1c(Cl)cc(Cl)cc1Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_10",
+      "reaction_smiles": "C=C[C@H](C)[C@H](OC(=O)C[C@@H](CC[C@@](C)(O)[C@@H](O)C=C)O[Si](C)(C)C(C)(C)C)/C(C)=C/I.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>>C/C(=C\\I)[C@H]1OC(=O)C[C@H](O[Si](C)(C)C(C)(C)C)CC[C@@](C)(O)[C@@H](O)/C=C/[C@@H]1C",
+      "reaction_smiles_mapped": "C=[CH:26][C@@H:24]([C@:21]([CH2:20][CH2:19][C@H:10]([CH2:9][C:7]([O:6][C@H:5](/[C:2]([CH3:1])=[CH:3]/[I:4])[C@H:28]([CH:27]=C)[CH3:29])=[O:8])[O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])([CH3:22])[OH:23])[OH:25]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>[CH3:1]/[C:2](=[CH:3]\\[I:4])[C@H:5]1[O:6][C:7](=[O:8])[CH2:9][C@H:10]([O:11][Si:12]([CH3:13])([CH3:14])[C:15]([CH3:16])([CH3:17])[CH3:18])[CH2:19][CH2:20][C@@:21]([CH3:22])([OH:23])[C@@H:24]([OH:25])/[CH:26]=[CH:27]/[C@@H:28]1[CH3:29]",
+      "mapping_confidence": 0.2801071935486355,
+      "conditions": {
+        "raw_description": "HG-II; toluene; 120 \u00b0C; 51%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG-II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_11",
+      "reaction_smiles": "C/C(=C\\I)[C@H]1OC(=O)C[C@H](O[Si](C)(C)C(C)(C)C)CC[C@@](C)(O)[C@@H](O)/C=C/[C@@H]1C.CCN(CC)CC.CN(C)c1ccncc1.ClCCl.CC(=O)OC(C)=O>>CC(=O)O[C@H]1/C=C/[C@H](C)[C@@H](/C(C)=C/I)OC(=O)C[C@H](O[Si](C)(C)C(C)(C)C)CC[C@@]1(C)O",
+      "reaction_smiles_mapped": "[OH:4][C@H:5]1/[CH:6]=[CH:7]/[C@H:8]([CH3:9])[C@@H:10](/[C:11]([CH3:12])=[CH:13]/[I:14])[O:15][C:16](=[O:17])[CH2:18][C@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[CH2:28][CH2:29][C@@:30]1([CH3:31])[OH:32].CC(=O)O[C:2]([CH3:1])=[O:3]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1/[CH:6]=[CH:7]/[C@H:8]([CH3:9])[C@@H:10](/[C:11]([CH3:12])=[CH:13]/[I:14])[O:15][C:16](=[O:17])[CH2:18][C@H:19]([O:20][Si:21]([CH3:22])([CH3:23])[C:24]([CH3:25])([CH3:26])[CH3:27])[CH2:28][CH2:29][C@@:30]1([CH3:31])[OH:32]",
+      "mapping_confidence": 0.1641176277947244,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; DCM; 0 to 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "Ac2O",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_12",
+      "reaction_smiles": "CC(=O)O[C@H]1/C=C/[C@H](C)[C@@H](/C(C)=C/I)OC(=O)C[C@H](O[Si](C)(C)C(C)(C)C)CC[C@@]1(C)O.Cl>>CC(=O)O[C@H]1/C=C/[C@H](C)[C@@H](/C(C)=C/I)OC(=O)C[C@H](O)CC[C@@]1(C)O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:20][C@H:19]1[CH2:18][C:16](=[O:17])[O:15][C@H:10](/[C:11]([CH3:12])=[CH:13]/[I:14])[C@@H:8]([CH3:9])/[CH:7]=[CH:6]/[C@H:5]([O:4][C:2]([CH3:1])=[O:3])[C@:23]([CH3:24])([OH:25])[CH2:22][CH2:21]1>Cl>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1/[CH:6]=[CH:7]/[C@H:8]([CH3:9])[C@@H:10](/[C:11]([CH3:12])=[CH:13]/[I:14])[O:15][C:16](=[O:17])[CH2:18][C@H:19]([OH:20])[CH2:21][CH2:22][C@@:23]1([CH3:24])[OH:25]",
+      "mapping_confidence": 0.9931126267019262,
+      "conditions": {
+        "raw_description": "HCl; 67% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "67% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_13",
+      "reaction_smiles": "CC(=O)O[C@H]1/C=C/[C@H](C)[C@@H](/C(C)=C/I)OC(=O)C[C@H](O)CC[C@@]1(C)O.C/C=C/[C@@H](C)C[C@H]1O[C@@H]1[C@H](C)[C@@H](O)CC.[Ag+].[Ag+].[O-2].O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].c1ccc([As](c2ccccc2)c2ccccc2)cc1.C1CCOC1>>CC[C@H](O)[C@@H](C)[C@H]1O[C@@H]1C[C@H](C)/C=C/C=C(\\C)[C@H]1OC(=O)C[C@H](O)CC[C@@](C)(O)[C@@H](OC(C)=O)/C=C/[C@@H]1C",
+      "reaction_smiles_mapped": "C/[CH:14]=[CH:13]/[C@H:11]([CH2:10][C@@H:9]1[C@@H:7]([C@@H:5]([C@H:3]([CH2:2][CH3:1])[OH:4])[CH3:6])[O:8]1)[CH3:12].I/[CH:15]=[C:16](\\[CH3:17])[C@H:18]1[O:19][C:20](=[O:21])[CH2:22][C@H:23]([OH:24])[CH2:25][CH2:26][C@@:27]([CH3:28])([OH:29])[C@@H:30]([O:31][C:32]([CH3:33])=[O:34])/[CH:35]=[CH:36]/[C@@H:37]1[CH3:38]>C1CCOC1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Ag+].[Ag+].[O-2].[Pd].[Pd].c1ccc([As](c2ccccc2)c2ccccc2)cc1>[CH3:1][CH2:2][C@H:3]([OH:4])[C@@H:5]([CH3:6])[C@H:7]1[O:8][C@@H:9]1[CH2:10][C@H:11]([CH3:12])/[CH:13]=[CH:14]/[CH:15]=[C:16](\\[CH3:17])[C@H:18]1[O:19][C:20](=[O:21])[CH2:22][C@H:23]([OH:24])[CH2:25][CH2:26][C@@:27]([CH3:28])([OH:29])[C@@H:30]([O:31][C:32]([CH3:33])=[O:34])/[CH:35]=[CH:36]/[C@@H:37]1[CH3:38]",
+      "mapping_confidence": 0.8131726468950808,
+      "conditions": {
+        "raw_description": "Pd2(dba)3; Ag2O; Ph3As; THF; rt; 65%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Ag2O",
+          "Pd2(dba)3",
+          "Ph3As"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-2].[Ag+].[Ag+]",
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+          "C1=CC=C(C=C1)[As](C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_14",
+      "reaction_smiles": "C#C[Si](C(C)C)(C(C)C)C(C)C.CCOCC.CN(C)C=O.[CH2-]CCC.[Li+]>>CC(C)[Si](C#CC=O)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([C:5]#[CH:6])([CH:9]([CH3:10])[CH3:11])[CH:12]([CH3:13])[CH3:14].CN(C)[CH:7]=[O:8]>CCOCC.[CH2-]CCC.[Li+]>[CH3:1][CH:2]([CH3:3])[Si:4]([C:5]#[C:6][CH:7]=[O:8])([CH:9]([CH3:10])[CH3:11])[CH:12]([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.10396029416312973,
+      "conditions": {
+        "raw_description": "DMF; nBuLi; Et2O; 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CN(C)C=O",
+          "[Li+].CCC[CH2-]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_15",
+      "reaction_smiles": "CC(C)[Si](C#CC=O)(C(C)C)C(C)C.C=CCOC(C)=O.O=C([O-])[O-].[Cs+].[Cs+].[Ir].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1.CC(C)O.C1CCOC1.O>>C=CC[C@@H](O)C#C[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "CC(=O)O[CH2:3][CH:2]=[CH2:1].[CH:4](=[O:5])[C:6]#[C:7][Si:8]([CH:9]([CH3:10])[CH3:11])([CH:12]([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17]>C1CCOC1.CC(C)O.O.O=C([O-])[O-].[Cs+].[Cs+].[Ir].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([OH:5])[C:6]#[C:7][Si:8]([CH:9]([CH3:10])[CH3:11])([CH:12]([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.10380200948404376,
+      "conditions": {
+        "raw_description": "(R)-Ir-SEGPHOS; iPrOH; Cs2CO3; H2O; THF; 100 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "(R)-Ir-SEGPHOS"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ir].C1OC2=C(O1)C(=C(C=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)C5=C(C=CC6=C5OCO6)P(C7=CC=CC=C7)C8=CC=CC=C8"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH",
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_16",
+      "reaction_smiles": "C=CC[C@@H](O)C#C[Si](C(C)C)(C(C)C)C(C)C.COC(=O)Cl.CN(C)c1ccncc1.ClCCl.c1ccncc1>>C=CC[C@@H](C#C[Si](C(C)C)(C(C)C)C(C)C)OC(=O)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@H:4]([C:5]#[C:6][Si:7]([CH:8]([CH3:9])[CH3:10])([CH:11]([CH3:12])[CH3:13])[CH:14]([CH3:15])[CH3:16])[OH:17].Cl[C:18](=[O:19])[O:20][CH3:21]>CN(C)c1ccncc1.ClCCl.c1ccncc1>[CH2:1]=[CH:2][CH2:3][C@@H:4]([C:5]#[C:6][Si:7]([CH:8]([CH3:9])[CH3:10])([CH:11]([CH3:12])[CH3:13])[CH:14]([CH3:15])[CH3:16])[O:17][C:18](=[O:19])[O:20][CH3:21]",
+      "mapping_confidence": 0.12297912602136185,
+      "conditions": {
+        "raw_description": "ClCO2Me; pyridine; DMAP; DCM; 90%",
+        "GENERAL_REAGENTS": [
+          "ClCO2Me"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "pyridine",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1=CC=NC=C1",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_17",
+      "reaction_smiles": "C=CC[C@@H](C#C[Si](C(C)C)(C(C)C)C(C)C)OC(=O)OC.C[Mg]Br.[Cu+].[I-].C1CCOC1>>C=CC[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "COC(=O)O[C@@H:4]([CH2:3][CH:2]=[CH2:1])[C:6]#[C:7][Si:8]([CH:9]([CH3:10])[CH3:11])([CH:12]([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17].Br[Mg][CH3:5]>C1CCOC1.[Cu+].[I-]>[CH2:1]=[CH:2][CH2:3][C@H:4]([CH3:5])[C:6]#[C:7][Si:8]([CH:9]([CH3:10])[CH3:11])([CH:12]([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.12722170236126856,
+      "conditions": {
+        "raw_description": "CuI; MeMgBr; THF; 78%",
+        "GENERAL_REAGENTS": [
+          "MeMgBr",
+          "CuI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br",
+          "[Cu+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_18",
+      "reaction_smiles": "C=CC[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C.C=C[C@H](C)[C@@H](CC)O[Si](C)(C)C(C)(C)C.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>>CC[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)/C=C/C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "C=[CH:15][CH2:16][C@H:17]([CH3:18])[C:19]#[C:20][Si:21]([CH:22]([CH3:23])[CH3:24])([CH:25]([CH3:26])[CH3:27])[CH:28]([CH3:29])[CH3:30].C=[CH:14][C@@H:12]([C@@H:3]([CH2:2][CH3:1])[O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[CH3:13]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.ClCCl>[CH3:1][CH2:2][C@H:3]([O:4][Si:5]([CH3:6])([CH3:7])[C:8]([CH3:9])([CH3:10])[CH3:11])[C@@H:12]([CH3:13])/[CH:14]=[CH:15]/[CH2:16][C@H:17]([CH3:18])[C:19]#[C:20][Si:21]([CH:22]([CH3:23])[CH3:24])([CH:25]([CH3:26])[CH3:27])[CH:28]([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.01391296181529898,
+      "conditions": {
+        "raw_description": "HG-II; DCM; 40 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG-II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_19",
+      "reaction_smiles": "CC[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C)/C=C/C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC[C@H](O)[C@@H](C)/C=C/C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:4][C@@H:3]([CH2:2][CH3:1])[C@@H:5]([CH3:6])/[CH:7]=[CH:8]/[CH2:9][C@H:10]([CH3:11])[C:12]#[C:13][Si:14]([CH:15]([CH3:16])[CH3:17])([CH:18]([CH3:19])[CH3:20])[CH:21]([CH3:22])[CH3:23]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][CH2:2][C@H:3]([OH:4])[C@@H:5]([CH3:6])/[CH:7]=[CH:8]/[CH2:9][C@H:10]([CH3:11])[C:12]#[C:13][Si:14]([CH:15]([CH3:16])[CH3:17])([CH:18]([CH3:19])[CH3:20])[CH:21]([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.10375328356173805,
+      "conditions": {
+        "raw_description": "TBAF; THF; 50 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_20",
+      "reaction_smiles": "CC[C@H](O)[C@@H](C)/C=C/C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C.CC1(C)O[C@@H]2CO[C@]3(COC(C)(C)O3)C(=O)[C@@H]2O1.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].O=C([O-])CN(CCN(CC(=O)O)CC(=O)O)CC(=O)[O-].[Na+].[Na+].[Na+].[Na+].[O-]B1OB2OB([O-])OB(O1)O2.CC#N>>CC[C@H](O)[C@@H](C)[C@H]1O[C@@H]1C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "CC1(C)O[C@@H]2C[O:8][C@]3(COC(C)(C)O3)C(=O)[C@@H]2O1.[CH3:1][CH2:2][C@H:3]([OH:4])[C@@H:5]([CH3:6])/[CH:7]=[CH:9]/[CH2:10][C@H:11]([CH3:12])[C:13]#[C:14][Si:15]([CH:16]([CH3:17])[CH3:18])([CH:19]([CH3:20])[CH3:21])[CH:22]([CH3:23])[CH3:24]>CC#N.O=C([O-])CN(CCN(CC(=O)O)CC(=O)O)CC(=O)[O-].O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[Na+].[Na+].[Na+].[Na+].[O-]B1OB2OB([O-])OB(O1)O2>[CH3:1][CH2:2][C@H:3]([OH:4])[C@@H:5]([CH3:6])[C@H:7]1[O:8][C@@H:9]1[CH2:10][C@H:11]([CH3:12])[C:13]#[C:14][Si:15]([CH:16]([CH3:17])[CH3:18])([CH:19]([CH3:20])[CH3:21])[CH:22]([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.046203263363213835,
+      "conditions": {
+        "raw_description": "Shi's Ketone; Oxone; Na2EDTA-Na2B4O7; MeCN; 0 to 25 \u00b0C; 53%",
+        "GENERAL_REAGENTS": [
+          "Shi's Ketone",
+          "Oxone",
+          "Na2EDTA-Na2B4O7"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(C)O[C@@H]2CO[C@]3(COC(C)(C)O3)C(=O)[C@@H]2O1",
+          "[K+].[K+].[K+].[K+].[K+].OS(=O)(=O)[O-].OOS(=O)(=O)[O-].OOS(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+          "[O-]B1OB2OB([O-])OB(O2)O1.O=C([O-])CN(CC([O-])=O)CCN(CC(O)=O)CC(O)=O.[Na+].[Na+].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_21",
+      "reaction_smiles": "CC[C@H](O)[C@@H](C)[C@H]1O[C@@H]1C[C@H](C)C#C[Si](C(C)C)(C(C)C)C(C)C.C[O-].[Na+].[Cu].CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.CCO>>C/C=C/[C@@H](C)C[C@H]1O[C@@H]1[C@H](C)[C@@H](O)CC",
+      "reaction_smiles_mapped": "OC[CH3:1].CC(C)[Si](C(C)C)(C(C)C)[C:2]#[C:3][C@@H:4]([CH3:5])[CH2:6][C@H:7]1[O:8][C@@H:9]1[C@H:10]([CH3:11])[C@@H:12]([OH:13])[CH2:14][CH3:15]>CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.C[O-].[Cu].[Na+]>[CH3:1]/[CH:2]=[CH:3]/[C@@H:4]([CH3:5])[CH2:6][C@H:7]1[O:8][C@@H:9]1[C@H:10]([CH3:11])[C@@H:12]([OH:13])[CH2:14][CH3:15]",
+      "mapping_confidence": 0.5814674756132752,
+      "conditions": {
+        "raw_description": "Cu; B2pin2; NaOMe; EtOH; rt; 60%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]"
+        ],
+        "LIGANDS": [
+          "B2pin2"
+        ],
+        "LIGANDS_SMILES": [
+          "B1(OC(C(O1)(C)C)(C)C)B2OC(C(O2)(C)C)(C)C"
+        ],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_22",
+      "reaction_smiles": "C#CCO.II.C[Al](C)C.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1.ClCCl>>C/C(=C\\I)CO",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH2:5][OH:6].I[I:4].[CH3:3][Al](C)C>C[Al](C)C.ClCCl.[Cl-].[Cl-].[Zr+4].c1cc[cH-]c1.c1cc[cH-]c1>[CH3:1]/[C:2](=[CH:3]\\[I:4])[CH2:5][OH:6]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) Cp2ZrCl2; AlMe3; DCM; 2) I2; 53%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "AlMe3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C[Al](C)C"
+        ],
+        "CATALYSTS": [
+          "Cp2ZrCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zr+4].[Cl-].[Cl-].[cH-]1cccc1.[cH-]1cccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_23",
+      "reaction_smiles": "C/C(=C\\I)CO.C=CC(C)OC(C)=O.[C-]#N.O=C(O)c1ccc([N+](=O)[O-])cc1.O=P([O-])([O-])[O-].[K+].[K+].[K+].[Ir].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1.O.C1CCOC1>>C=C[C@H](C)[C@H](O)/C(C)=C/I",
+      "reaction_smiles_mapped": "[CH2:5]([OH:6])/[C:7]([CH3:8])=[CH:9]/[I:10].CC(=O)O[CH:3]([CH:2]=[CH2:1])[CH3:4]>C1CCOC1.O.O=C(O)c1ccc([N+](=O)[O-])cc1.O=P([O-])([O-])[O-].[C-]#N.[Ir].[K+].[K+].[K+].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@H:5]([OH:6])/[C:7]([CH3:8])=[CH:9]/[I:10]",
+      "mapping_confidence": 0.9065099250938542,
+      "conditions": {
+        "raw_description": "(S)-Ir-SEGPHOS; CN; NO2-BzOH; K3PO4; H2O; THF; 60 \u00b0C; 62%",
+        "GENERAL_REAGENTS": [
+          "CN",
+          "NO2-BzOH",
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N",
+          "OC(=O)c1ccc(cc1)[N+](=O)[O-]",
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "(S)-Ir-SEGPHOS"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ir].C1OC2=C(O1)C(=C(C=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)C5=C(C=CC6=C5OCO6)P(C7=CC=CC=C7)C8=CC=CC=C8"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_24",
+      "reaction_smiles": "CCCO.C=CC=C.CC1(C)O[C@@H](C(O)(c2ccccc2)c2ccccc2)[C@H](C(O)(c2ccccc2)c2ccccc2)O1.[C-]#[O+].[RhH].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1.CC(C)=O>>C=C[C@H](C)[C@@H](O)CC",
+      "reaction_smiles_mapped": "C([CH:2]=[CH2:1])=[CH2:4].CC1(C)O[C@@H:3](C(O)(c2ccccc2)c2ccccc2)[C@H:5]([C:7](O)(c2ccccc2)c2ccccc2)[O:6]1.OCC[CH3:8]>CC(C)=O.[C-]#[O+].[RhH].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@@H:5]([OH:6])[CH2:7][CH3:8]",
+      "mapping_confidence": 0.011194716240675699,
+      "conditions": {
+        "raw_description": "(S)-SEGPHOS; H2Ru(CO)(PPh3)3; TADDOL; Me2CO; 95 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TADDOL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(O[C@H]([C@@H](O1)C(C2=CC=CC=C2)(C3=CC=CC=C3)O)C(C4=CC=CC=C4)(C5=CC=CC=C5)O)C"
+        ],
+        "CATALYSTS": [
+          "H2Ru(CO)(PPh3)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#[O+].C1(P(C2=CC=CC=C2)C3=CC=CC=C3)=CC=CC=C1.C4(P(C5=CC=CC=C5)C6=CC=CC=C6)=CC=CC=C4.C7(P(C8=CC=CC=C8)C9=CC=CC=C9)=CC=CC=C7.[RhH]"
+        ],
+        "LIGANDS": [
+          "(S)-SEGPHOS"
+        ],
+        "LIGANDS_SMILES": [
+          "C1OC2=C(O1)C(=C(C=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)C5=C(C=CC6=C5OCO6)P(C7=CC=CC=C7)C8=CC=CC=C8"
+        ],
+        "SOLVENTS": [
+          "Me2CO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pladienolide_B_2021_Krische_25",
+      "reaction_smiles": "C=C[C@H](C)[C@@H](O)CC.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.CN(C)C=O>>C=C[C@H](C)[C@@H](CC)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@H:5]([CH2:6][CH3:7])[OH:8].Cl[Si:9]([CH3:10])([CH3:11])[C:12]([CH3:13])([CH3:14])[CH3:15]>CN(C)C=O.c1c[nH]cn1>[CH2:1]=[CH:2][C@H:3]([CH3:4])[C@@H:5]([CH2:6][CH3:7])[O:8][Si:9]([CH3:10])([CH3:11])[C:12]([CH3:13])([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.39972004134175115,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DMF; 60 \u00b0C; 59% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "59% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

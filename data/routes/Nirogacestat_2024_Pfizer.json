@@ -1,0 +1,205 @@
+{
+  "background": {
+    "name": "Nirogacestat",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Ogsiveo",
+    "manufacturer": "Pfizer",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_1",
+      "reaction_smiles": "COC(=O)C(C)(C)n1cnc([N+](=O)[O-])c1.CC(C)[CH2][AlH][CH2]C(C)C.ClCCl>>CC(C)(C=O)n1cnc([N+](=O)[O-])c1",
+      "reaction_smiles_mapped": "CO[C:4]([C:2]([CH3:1])([CH3:3])[n:6]1[cH:7][n:8][c:9]([N+:10](=[O:11])[O-:12])[cH:13]1)=[O:5]>CC(C)[CH2][AlH][CH2]C(C)C.ClCCl>[CH3:1][C:2]([CH3:3])([CH:4]=[O:5])[n:6]1[cH:7][n:8][c:9]([N+:10](=[O:11])[O-:12])[cH:13]1",
+      "mapping_confidence": 0.6023206346871309,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; -30 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_2",
+      "reaction_smiles": "CC(C)(C=O)n1cnc([N+](=O)[O-])c1.CC(C)(C)CN.CC(=O)O[BH-](OC(C)=O)OC(C)=O.[Na+].ClCCl>>CC(C)(C)CNCC(C)(C)n1cnc([N+](=O)[O-])c1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[CH2:5][NH2:6].O=[CH:7][C:8]([CH3:9])([CH3:10])[n:11]1[cH:12][n:13][c:14]([N+:15](=[O:16])[O-:17])[cH:18]1>CC(=O)O[BH-](OC(C)=O)OC(C)=O.ClCCl.[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[CH2:5][NH:6][CH2:7][C:8]([CH3:9])([CH3:10])[n:11]1[cH:12][n:13][c:14]([N+:15](=[O:16])[O-:17])[cH:18]1",
+      "mapping_confidence": 0.5095791748182285,
+      "conditions": {
+        "raw_description": "Na(OAc)3BH; DCM",
+        "GENERAL_REAGENTS": [
+          "Na(OAc)3BH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH-](OC(=O)C)(OC(=O)C)OC(=O)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_3",
+      "reaction_smiles": "CC(C)(C)CNCC(C)(C)n1cnc([N+](=O)[O-])c1.[HH].[C].[Pd].CO>>CC(C)(C)CNCC(C)(C)n1cnc(N)c1",
+      "reaction_smiles_mapped": "O=[N+:15]([O-])[c:14]1[n:13][cH:12][n:11]([C:8]([CH2:7][NH:6][CH2:5][C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:9])[CH3:10])[cH:16]1>CO.[C].[HH].[Pd]>[CH3:1][C:2]([CH3:3])([CH3:4])[CH2:5][NH:6][CH2:7][C:8]([CH3:9])([CH3:10])[n:11]1[cH:12][n:13][c:14]([NH2:15])[cH:16]1",
+      "mapping_confidence": 0.4563127952047436,
+      "conditions": {
+        "raw_description": "H2; Pd/C; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_4",
+      "reaction_smiles": "CC(C)(C)CNCC(C)(C)n1cnc(N)c1.CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)O.CN(C)C(On1ccccc1=O)=[N+](C)C.F[B-](F)(F)F.CCN(C(C)C)C(C)C.CN(C)C=O>>CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)Nc1cn(C(C)(C)CNCC(C)(C)C)cn1",
+      "reaction_smiles_mapped": "[NH2:20][c:21]1[cH:22][n:23]([C:24]([CH3:25])([CH3:26])[CH2:27][NH:28][CH2:29][C:30]([CH3:31])([CH3:32])[CH3:33])[cH:34][n:35]1.O[C:18]([C@H:4]([CH2:3][CH2:2][CH3:1])[NH:5][C@H:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)=[O:19]>CCN(C(C)C)C(C)C.CN(C)C(On1ccccc1=O)=[N+](C)C.CN(C)C=O.F[B-](F)(F)F>[CH3:1][CH2:2][CH2:3][C@H:4]([NH:5][C@H:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)[C:18](=[O:19])[NH:20][c:21]1[cH:22][n:23]([C:24]([CH3:25])([CH3:26])[CH2:27][NH:28][CH2:29][C:30]([CH3:31])([CH3:32])[CH3:33])[cH:34][n:35]1",
+      "mapping_confidence": 0.4057309466809889,
+      "conditions": {
+        "raw_description": "TPTU; DIPEA; DMF",
+        "GENERAL_REAGENTS": [
+          "TPTU",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C=CC=CC1=O",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_5",
+      "reaction_smiles": "O=C1CCc2cc(F)cc(F)c2C1.CCC[C@H](N)C(=O)OC(C)(C)C.CC(=O)O[BH-](OC(C)=O)OC(C)=O.[Na+].ClCCl>>CCCC(NC1CCc2cc(F)cc(F)c2C1)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][C@H:4]([NH2:5])[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24].O=[C:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1>CC(=O)O[BH-](OC(C)=O)OC(C)=O.ClCCl.[Na+]>[CH3:1][CH2:2][CH2:3][CH:4]([NH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.45907905695052703,
+      "conditions": {
+        "raw_description": "Na(OAc)3BH; DCM",
+        "GENERAL_REAGENTS": [
+          "Na(OAc)3BH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH-](OC(=O)C)(OC(=O)C)OC(=O)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_6",
+      "reaction_smiles": "CCCC(NC1CCc2cc(F)cc(F)c2C1)C(=O)OC(C)(C)C>>CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH:4]([NH:5][CH:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24]>>[CH3:1][CH2:2][CH2:3][C@H:4]([NH:5][C@H:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)[C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.4566880272037965,
+      "conditions": {
+        "raw_description": "Chiral HPLC",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "Chiral HPLC"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Nirogacestat_2024_Pfizer_7",
+      "reaction_smiles": "CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)OC(C)(C)C.Cl>>CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)O",
+      "reaction_smiles_mapped": "CC(C)(C)[O:20][C:18]([C@H:4]([CH2:3][CH2:2][CH3:1])[NH:5][C@H:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)=[O:19]>Cl>[CH3:1][CH2:2][CH2:3][C@H:4]([NH:5][C@H:6]1[CH2:7][CH2:8][c:9]2[cH:10][c:11]([F:12])[cH:13][c:14]([F:15])[c:16]2[CH2:17]1)[C:18](=[O:19])[OH:20]",
+      "mapping_confidence": 0.9924865446310756,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

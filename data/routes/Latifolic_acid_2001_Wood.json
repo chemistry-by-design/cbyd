@@ -1,0 +1,193 @@
+{
+  "background": {
+    "name": "(+)-Latifolic acid",
+    "author": "Wood",
+    "year": 2001,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 2001, 66, 7025",
+    "doi": "10.1021/jo015741c"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Latifolic_acid_2001_Wood_1",
+      "reaction_smiles": "CC(=O)C(=[N+]=[N-])C(=O)OCc1ccccc1.C/C=C/[C@H](C)O.FB(F)F.O=C([O-])C(F)(F)F.[Rh].CC[O+](CC)[B-](F)(F)F.c1ccccc1>>C/C=C/[C@@H](C)[C@](O)(C(C)=O)C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[CH:3]/[C@H:4]([CH3:5])[OH:7].[N-]=[N+]=[C:6]([C:8]([CH3:9])=[O:10])[C:11](=[O:12])[O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1>CC[O+](CC)[B-](F)(F)F.FB(F)F.O=C([O-])C(F)(F)F.[Rh].c1ccccc1>[CH3:1]/[CH:2]=[CH:3]/[C@@H:4]([CH3:5])[C@:6]([OH:7])([C:8]([CH3:9])=[O:10])[C:11](=[O:12])[O:13][CH2:14][c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.754031072320086,
+      "conditions": {
+        "raw_description": "1) Rh2(TFA)4; benzene; reflux; 2) BF3\u00b7OEt2; benzene; RT; 70%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Rh2(TFA)4",
+          "BF3\u00b7OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Rh].[O-]C(=O)C(F)(F)F",
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Latifolic_acid_2001_Wood_2",
+      "reaction_smiles": "C/C=C/[C@@H](C)[C@](O)(C(C)=O)C(=O)OCc1ccccc1.[Na+].[BH4-].[Cl-].[Cl-].[Zn+2].CCOCC.C1CCOC1.[BH4-].[Na+].[Cl-].[Cl-].[Zn+2]>>C/C=C/[C@@H](C)[C@@](O)(C(=O)OCc1ccccc1)[C@@H](C)O",
+      "reaction_smiles_mapped": "[CH3:1]/[CH:2]=[CH:3]/[C@@H:4]([CH3:5])[C@@:6]([OH:7])([C:8](=[O:9])[O:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C:18]([CH3:19])=[O:20]>C1CCOC1.CCOCC.[BH4-].[BH4-].[Cl-].[Cl-].[Cl-].[Cl-].[Na+].[Na+].[Zn+2].[Zn+2]>[CH3:1]/[CH:2]=[CH:3]/[C@@H:4]([CH3:5])[C@@:6]([OH:7])([C:8](=[O:9])[O:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1)[C@@H:18]([CH3:19])[OH:20]",
+      "mapping_confidence": 0.8940854223685095,
+      "conditions": {
+        "raw_description": "NaBH4; ZnCl2/Et2O; THF; -30 to -15 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "ZnCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cl-].[Cl-].[Zn++]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30",
+          "-15"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Latifolic_acid_2001_Wood_3",
+      "reaction_smiles": "C/C=C/[C@@H](C)[C@@](O)(C(=O)OCc1ccccc1)[C@@H](C)O.O=[O+][O-].ClCCl.CSC>>C[C@@H]1C(O)O[C@H](C)[C@]1(O)C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "C/C=[CH:3]/[C@@H:2]([CH3:1])[C@@:8]([C@H:6]([OH:5])[CH3:7])([OH:9])[C:10](=[O:11])[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1.[O-][O+]=[O:4]>CSC.ClCCl>[CH3:1][C@@H:2]1[CH:3]([OH:4])[O:5][C@H:6]([CH3:7])[C@:8]1([OH:9])[C:10](=[O:11])[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.2871047369482099,
+      "conditions": {
+        "raw_description": "1) O3; DCM; -78 \u00b0C; 2) DMS; -78 \u00b0C to RT",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "DMS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Latifolic_acid_2001_Wood_4",
+      "reaction_smiles": "C[C@@H]1C(O)O[C@H](C)[C@]1(O)C(=O)OCc1ccccc1.O=[Ru](=O)(=O)[O-].CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl.CCC[N+](CCC)(CCC)CCC.O=[Ru](=O)(=O)[O-]>>C[C@@H]1C(=O)O[C@H](C)[C@]1(O)C(=O)OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[CH:3]([OH:4])[O:5][C@H:6]([CH3:7])[C@:8]1([OH:9])[C:10](=[O:11])[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CCC[N+](CCC)(CCC)CCC.CCC[N+](CCC)(CCC)CCC.C[N+]1([O-])CCOCC1.ClCCl.O=[Ru](=O)(=O)[O-].O=[Ru](=O)(=O)[O-]>[CH3:1][C@@H:2]1[C:3](=[O:4])[O:5][C@H:6]([CH3:7])[C@:8]1([OH:9])[C:10](=[O:11])[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.884916936529239,
+      "conditions": {
+        "raw_description": "TPAP; NMO; 3\u00c5 MS; DCM; 0 \u00b0C; 60% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [
+          "TPAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "[N+](CCC)(CCC)(CCC)CCC.[O-][Ru](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "60% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Latifolic_acid_2001_Wood_5",
+      "reaction_smiles": "C[C@@H]1C(=O)O[C@H](C)[C@]1(O)C(=O)OCc1ccccc1.[H][H].[Pd].CCOC(C)=O.[HH].[C].[Pd]>>C[C@@H]1C(=O)O[C@H](C)[C@]1(O)C(=O)O",
+      "reaction_smiles_mapped": "c1ccc(C[O:12][C:10]([C@:8]2([OH:9])[C@H:2]([CH3:1])[C:3](=[O:4])[O:5][C@@H:6]2[CH3:7])=[O:11])cc1>CCOC(C)=O.[C].[HH].[H][H].[Pd].[Pd]>[CH3:1][C@@H:2]1[C:3](=[O:4])[O:5][C@H:6]([CH3:7])[C@:8]1([OH:9])[C:10](=[O:11])[OH:12]",
+      "mapping_confidence": 0.983125453590762,
+      "conditions": {
+        "raw_description": "H2; Pd/C; 1 atm; EtOAc; 100%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    }
+  ]
+}

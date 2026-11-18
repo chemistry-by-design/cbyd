@@ -1,0 +1,183 @@
+{
+  "background": {
+    "name": "Methionine",
+    "author": "Marvel",
+    "year": 1930,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1930, 52, 2575",
+    "doi": "10.1021/ja01369a066"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Methionine_1930_Marvel_1",
+      "reaction_smiles": "CS.OCCCl.CC[O-].[Na+].CCO>>CSCCO",
+      "reaction_smiles_mapped": "[CH3:1][SH:2].Cl[CH2:3][CH2:4][OH:5]>CC[O-].[Na+].CCO>[CH3:1][S:2][CH2:3][CH2:4][OH:5]",
+      "mapping_confidence": 0.9323394875820724,
+      "conditions": {
+        "raw_description": "NaOEt; EtOH; OCCCl",
+        "GENERAL_REAGENTS": [
+          "NaOEt",
+          "OCCCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]",
+          "OCCCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_2",
+      "reaction_smiles": "CSCCO.O=S(Cl)Cl>>CSCCCl",
+      "reaction_smiles_mapped": "O[CH2:4][CH2:3][S:2][CH3:1].O=S(Cl)[Cl:5]>>[CH3:1][S:2][CH2:3][CH2:4][Cl:5]",
+      "mapping_confidence": 0.6550391007572391,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_3",
+      "reaction_smiles": "CSCCCl.CCOC(=O)CC(=O)OCC.CC[O-].[Na+]>>CCOC(=O)C(CCSC)C(=O)OCC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:11](=[O:12])[O:13][CH2:14][CH3:15].Cl[CH2:7][CH2:8][S:9][CH3:10]>CC[O-].[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([CH2:7][CH2:8][S:9][CH3:10])[C:11](=[O:12])[O:13][CH2:14][CH3:15]",
+      "mapping_confidence": 0.9466704002622001,
+      "conditions": {
+        "raw_description": "NaOEt; 45%",
+        "GENERAL_REAGENTS": [
+          "NaOEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_4",
+      "reaction_smiles": "CCOC(=O)C(CCSC)C(=O)OCC.[K+].[OH-]>>CSCCC(C(=O)O)C(=O)O",
+      "reaction_smiles_mapped": "CC[O:8][C:6]([CH:5]([CH2:4][CH2:3][S:2][CH3:1])[C:9](=[O:10])[O:11]CC)=[O:7]>[K+].[OH-]>[CH3:1][S:2][CH2:3][CH2:4][CH:5]([C:6](=[O:7])[OH:8])[C:9](=[O:10])[OH:11]",
+      "mapping_confidence": 0.7111187061588877,
+      "conditions": {
+        "raw_description": "KOH; 72%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_5",
+      "reaction_smiles": "CSCCC(C(=O)O)C(=O)O.BrBr>>CSCCC(Br)(C(=O)O)C(=O)O",
+      "reaction_smiles_mapped": "Br[Br:6].[CH3:1][S:2][CH2:3][CH2:4][CH:5]([C:7](=[O:8])[OH:9])[C:10](=[O:11])[OH:12]>>[CH3:1][S:2][CH2:3][CH2:4][C:5]([Br:6])([C:7](=[O:8])[OH:9])[C:10](=[O:11])[OH:12]",
+      "mapping_confidence": 0.3567060498422129,
+      "conditions": {
+        "raw_description": "BrBr",
+        "GENERAL_REAGENTS": [
+          "BrBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_6",
+      "reaction_smiles": "CSCCC(Br)(C(=O)O)C(=O)O.N>>CSCCC(N)(C(=O)O)C(=O)O",
+      "reaction_smiles_mapped": "Br[C:5]([CH2:4][CH2:3][S:2][CH3:1])([C:7](=[O:8])[OH:9])[C:10](=[O:11])[OH:12].[NH3:6]>>[CH3:1][S:2][CH2:3][CH2:4][C:5]([NH2:6])([C:7](=[O:8])[OH:9])[C:10](=[O:11])[OH:12]",
+      "mapping_confidence": 0.6945695377763118,
+      "conditions": {
+        "raw_description": "N",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Methionine_1930_Marvel_7",
+      "reaction_smiles": "CSCCC(N)(C(=O)O)C(=O)O>>CSCCC(N)C(=O)O",
+      "reaction_smiles_mapped": "O=C(O)[C:5]([CH2:4][CH2:3][S:2][CH3:1])([NH2:6])[C:7](=[O:8])[OH:9]>>[CH3:1][S:2][CH2:3][CH2:4][CH:5]([NH2:6])[C:7](=[O:8])[OH:9]",
+      "mapping_confidence": 0.515676669281416,
+      "conditions": {
+        "raw_description": "140 \u00b0C; 24% (3 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": [
+          "24% (3 steps)"
+        ]
+      }
+    }
+  ]
+}

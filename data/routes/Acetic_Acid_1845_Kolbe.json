@@ -1,0 +1,109 @@
+{
+  "background": {
+    "name": "Acetic Acid",
+    "author": "Kolbe",
+    "year": 1845,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ann. Chem. Pharm. 1845, 54, 145",
+    "doi": "10.1002/jlac.18450540202"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Acetic_Acid_1845_Kolbe_1",
+      "reaction_smiles": "S=C=S.ClCl.ClCl>>ClC(Cl)(Cl)Cl",
+      "reaction_smiles_mapped": "[Cl:3][Cl:4].[Cl:1][Cl:5].S=[C:2]=S>>[Cl:1][C:2]([Cl:3])([Cl:4])[Cl:5]",
+      "mapping_confidence": 0.16121587936863976,
+      "conditions": {
+        "raw_description": "Cl2",
+        "GENERAL_REAGENTS": [
+          "Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Acetic_Acid_1845_Kolbe_2",
+      "reaction_smiles": "ClC(Cl)(Cl)Cl.ClC(Cl)(Cl)Cl>>ClC(Cl)=C(Cl)Cl",
+      "reaction_smiles_mapped": "Cl[C:4](Cl)([Cl:5])[Cl:6].Cl[C:2](Cl)([Cl:1])[Cl:3]>>[Cl:1][C:2]([Cl:3])=[C:4]([Cl:5])[Cl:6]",
+      "mapping_confidence": 0.00992100139624786,
+      "conditions": {
+        "raw_description": "vapour; red-hot tube",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "red-hot tube"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Acetic_Acid_1845_Kolbe_3",
+      "reaction_smiles": "ClC(Cl)=C(Cl)Cl.ClCl.O.O>>O=C(O)C(Cl)(Cl)Cl",
+      "reaction_smiles_mapped": "Cl[C:2](=[C:4]([Cl:6])[Cl:7])Cl.[OH2:1].[OH2:3].[Cl:5]Cl>>[O:1]=[C:2]([OH:3])[C:4]([Cl:5])([Cl:6])[Cl:7]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Cl2; H2O; sunlight",
+        "GENERAL_REAGENTS": [
+          "Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [
+          "sunlight"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Acetic_Acid_1845_Kolbe_4",
+      "reaction_smiles": "O=C(O)C(Cl)(Cl)Cl>>CC(=O)O",
+      "reaction_smiles_mapped": "Cl[C:1](Cl)(Cl)[C:2](=[O:3])[OH:4]>>[CH3:1][C:2](=[O:3])[OH:4]",
+      "mapping_confidence": 0.9543748598886622,
+      "conditions": {
+        "raw_description": "Acid",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

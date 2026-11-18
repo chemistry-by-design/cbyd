@@ -1,0 +1,250 @@
+{
+  "background": {
+    "name": "Pirtobrutinib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Jaypirca",
+    "manufacturer": "RedxPharma",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_1",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)O.O=S(Cl)Cl.CC#N>>COc1ccc(F)cc1C(=O)Cl",
+      "reaction_smiles_mapped": "O[C:10]([c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([F:7])[cH:8]1)=[O:11].O=S(Cl)[Cl:12]>CC#N>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[Cl:12]",
+      "mapping_confidence": 0.5457400431114152,
+      "conditions": {
+        "raw_description": "SOCl2; CH3CN; 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_2",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)Cl.NCc1ccc(C(=O)O)cc1.CCN(CC)CC.CC#N>>COc1ccc(F)cc1C(=O)NCc1ccc(C(=O)O)cc1",
+      "reaction_smiles_mapped": "Cl[C:10]([c:9]1[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([F:7])[cH:8]1)=[O:11].[NH2:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([C:18](=[O:19])[OH:20])[cH:21][cH:22]1>CC#N.CCN(CC)CC>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([C:18](=[O:19])[OH:20])[cH:21][cH:22]1",
+      "mapping_confidence": 0.9287269259563086,
+      "conditions": {
+        "raw_description": "Et3N; CH3CN",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_3",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)NCc1ccc(C(=O)O)cc1.O=S(Cl)Cl.CC#N>>COc1ccc(F)cc1C(=O)NCc1ccc(C(=O)Cl)cc1",
+      "reaction_smiles_mapped": "O[C:18]([c:17]1[cH:16][cH:15][c:14]([CH2:13][NH:12][C:10]([c:9]2[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([F:7])[cH:8]2)=[O:11])[cH:22][cH:21]1)=[O:19].O=S(Cl)[Cl:20]>CC#N>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([C:18](=[O:19])[Cl:20])[cH:21][cH:22]1",
+      "mapping_confidence": 0.6001300912300438,
+      "conditions": {
+        "raw_description": "SOCl2; CH3CN; 25 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_4",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)NCc1ccc(C(=O)Cl)cc1.N#CCC#N.CCN(CC)CC.CC#N>>COc1ccc(F)cc1C(=O)NCc1ccc(C(O)=C(C#N)C#N)cc1",
+      "reaction_smiles_mapped": "Cl[C:18]([c:17]1[cH:16][cH:15][c:14]([CH2:13][NH:12][C:10]([c:9]2[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([F:7])[cH:8]2)=[O:11])[cH:26][cH:25]1)=[O:19].[CH2:20]([C:21]#[N:22])[C:23]#[N:24]>CC#N.CCN(CC)CC>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17]([C:18]([OH:19])=[C:20]([C:21]#[N:22])[C:23]#[N:24])[cH:25][cH:26]1",
+      "mapping_confidence": 0.7199874511067897,
+      "conditions": {
+        "raw_description": "Et3N; CH3CN; -5 to 10 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5",
+          "10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_5",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)NCc1ccc(C(O)=C(C#N)C#N)cc1.COC(OC)OC>>COC(=C(C#N)C#N)c1ccc(CNC(=O)c2cc(F)ccc2OC)cc1",
+      "reaction_smiles_mapped": "COC(OC)O[CH3:1].[OH:2][C:3](=[C:4]([C:5]#[N:6])[C:7]#[N:8])[c:9]1[cH:10][cH:11][c:12]([CH2:13][NH:14][C:15](=[O:16])[c:17]2[cH:18][c:19]([F:20])[cH:21][cH:22][c:23]2[O:24][CH3:25])[cH:26][cH:27]1>>[CH3:1][O:2][C:3](=[C:4]([C:5]#[N:6])[C:7]#[N:8])[c:9]1[cH:10][cH:11][c:12]([CH2:13][NH:14][C:15](=[O:16])[c:17]2[cH:18][c:19]([F:20])[cH:21][cH:22][c:23]2[O:24][CH3:25])[cH:26][cH:27]1",
+      "mapping_confidence": 0.30417940467852217,
+      "conditions": {
+        "raw_description": "TMOF; 92 \u00b0C; 64%",
+        "GENERAL_REAGENTS": [
+          "TMOF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "92"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_6",
+      "reaction_smiles": "COC(=C(C#N)C#N)c1ccc(CNC(=O)c2cc(F)ccc2OC)cc1.C[C@H](NN)C(F)(F)F.CCO>>COc1ccc(F)cc1C(=O)NCc1ccc(-c2nn([C@@H](C)C(F)(F)F)c(N)c2C#N)cc1",
+      "reaction_smiles_mapped": "CO[C:18]([c:17]1[cH:16][cH:15][c:14]([CH2:13][NH:12][C:10]([c:9]2[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([F:7])[cH:8]2)=[O:11])[cH:33][cH:32]1)=[C:29]([C:27]#[N:28])[C:30]#[N:31].[NH2:19][NH:20][C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26]>CCO>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][n:20]([C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26])[c:27]([NH2:28])[c:29]2[C:30]#[N:31])[cH:32][cH:33]1",
+      "mapping_confidence": 0.3136334693712412,
+      "conditions": {
+        "raw_description": "EtOH; 25 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_7",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)NCc1ccc(-c2nn([C@@H](C)C(F)(F)F)c(N)c2C#N)cc1.CS(=O)(=O)O.O>>COc1ccc(F)cc1C(=O)NCc1ccc(-c2nn([C@@H](C)C(F)(F)F)c(N)c2C(=N)O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][n:20]([C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26])[c:27]([NH2:28])[c:29]2[C:30]#[N:31])[cH:33][cH:34]1.CS(=O)(=O)[OH:32]>O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][n:20]([C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26])[c:27]([NH2:28])[c:29]2[C:30](=[NH:31])[OH:32])[cH:33][cH:34]1",
+      "mapping_confidence": 0.2255215596990974,
+      "conditions": {
+        "raw_description": "H2O; MsOH; 85 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "MsOH"
+        ],
+        "CATALYSTS_SMILES": [
+          "CS(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pirtobrutinib_2024_RedxPharma_8",
+      "reaction_smiles": "COc1ccc(F)cc1C(=O)NCc1ccc(-c2nn([C@@H](C)C(F)(F)F)c(N)c2C(=N)O)cc1.[NH4+].[OH-].O>>COc1ccc(F)cc1C(=O)NCc1ccc(-c2nn([C@@H](C)C(F)(F)F)c(N)c2C(N)=O)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][n:20]([C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26])[c:27]([NH2:28])[c:29]2[C:30](=[NH:31])[OH:32])[cH:33][cH:34]1>O.[NH4+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[C:10](=[O:11])[NH:12][CH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][n:20]([C@@H:21]([CH3:22])[C:23]([F:24])([F:25])[F:26])[c:27]([NH2:28])[c:29]2[C:30]([NH2:31])=[O:32])[cH:33][cH:34]1",
+      "mapping_confidence": 0.33585393817305936,
+      "conditions": {
+        "raw_description": "NH4OH; H2O; 0 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "NH4OH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1054 @@
+{
+  "background": {
+    "name": "Dioxepandehydrothyrsiferol",
+    "author": "Jamison",
+    "year": 2009,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2009, 131, 12084",
+    "doi": "10.1021/ja9052366"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_1",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CO.CC(C)O.CC(C)O.CC(C)O.CC(C)O.[Ti].CC(C)N(CCc1c[nH]c2ccccc12)C(C)C.CC(C)(C)OO.ClCCl>>CC(C)=CCC/C(C)=C/CC[C@]1(C)OC1CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:14].[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][CH2:11]/[C:12]([CH3:13])=[CH:15]/[CH2:16][OH:17]>CC(C)N(CCc1c[nH]c2ccccc12)C(C)C.CC(C)O.CC(C)O.CC(C)O.CC(C)O.ClCCl.[Ti]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][OH:17]",
+      "mapping_confidence": 0.5578396665140697,
+      "conditions": {
+        "raw_description": "L-(+)-DIPT; Ti(Oi-Pr)4; t-BuOOH; 4 \u00c5 MS; CH2Cl2; -48 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "Ti(Oi-Pr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ti].CC(C)O.CC(C)O.CC(C)O.CC(C)O"
+        ],
+        "LIGANDS": [
+          "L-(+)-DIPT"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)OC(=O)[C@H](O)[C@@H](O)C(=O)OC(C)C"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-48"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_2",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/CC[C@]1(C)OC1CO.CC(C)[Si](Cl)(C(C)C)C(C)C.c1c[nH]cn1.ClCCl>>CC(C)=CCC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][OH:17].Cl[Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27]>ClCCl.c1c[nH]cn1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27]",
+      "mapping_confidence": 0.1081387193614232,
+      "conditions": {
+        "raw_description": "TIPSCl; imidazole; CH2Cl2; rt; 90%",
+        "GENERAL_REAGENTS": [
+          "TIPSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Si](C(C)C)(C(C)C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_3",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C.O=C(O)c1ccccc1O.O=[Se]=O.CC(C)(C)OO.ClCCl>>C/C(=C\\CC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:28].[CH3:1][C:2](=[CH:3][CH2:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10][C@:11]1([CH3:12])[O:13][CH:14]1[CH2:15][O:16][Si:17]([CH:18]([CH3:19])[CH3:20])([CH:21]([CH3:22])[CH3:23])[CH:24]([CH3:25])[CH3:26])[CH3:27]>ClCCl.O=C(O)c1ccccc1O.O=[Se]=O>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10][C@:11]1([CH3:12])[O:13][CH:14]1[CH2:15][O:16][Si:17]([CH:18]([CH3:19])[CH3:20])([CH:21]([CH3:22])[CH3:23])[CH:24]([CH3:25])[CH3:26])[CH2:27][OH:28]",
+      "mapping_confidence": 0.07340783378475511,
+      "conditions": {
+        "raw_description": "SeO2; t-BuOOH; salicylic acid; CH2Cl2; rt; 73%",
+        "GENERAL_REAGENTS": [
+          "salicylic acid",
+          "SeO2",
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C(=C1)C(=O)O)O",
+          "O=[Se]=O",
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_4",
+      "reaction_smiles": "C/C(=C\\CC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CO.CCN(CC)CC.CN(C)c1ccncc1.ClCCl.CC(=O)OC(C)=O>>CC(=O)OC/C(C)=C/CC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[OH:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10]/[C:11]([CH3:12])=[CH:13]/[CH2:14][CH2:15][C@:16]1([CH3:17])[O:18][CH:19]1[CH2:20][O:21][Si:22]([CH:23]([CH3:24])[CH3:25])([CH:26]([CH3:27])[CH3:28])[CH:29]([CH3:30])[CH3:31].CC(=O)O[C:2]([CH3:1])=[O:3]>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10]/[C:11]([CH3:12])=[CH:13]/[CH2:14][CH2:15][C@:16]1([CH3:17])[O:18][CH:19]1[CH2:20][O:21][Si:22]([CH:23]([CH3:24])[CH3:25])([CH:26]([CH3:27])[CH3:28])[CH:29]([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.08865447249432873,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; DMAP; CH2Cl2; rt; 89%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "Ac2O",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_5",
+      "reaction_smiles": "CC(=O)OC/C(C)=C/CC/C(C)=C/CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C.CC1(C)OC2C(=O)[C@@]3(COC(C)(C)O3)OC[C@H]2O1.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].O=C([O-])[O-].[K+].[K+].[Na+].[Na+].[O-]B1OB2OB([O-])OB(O1)O2.CCCC[N+](CCCC)(CCCC)CCCC.O=S(=O)([O-])O.COCOC.CC#N.O>>CC(=O)OC/C(C)=C/CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10]/[C:11]([CH3:12])=[CH:14]/[CH2:15][CH2:16][C@:17]1([CH3:18])[O:19][CH:20]1[CH2:21][O:22][Si:23]([CH:24]([CH3:25])[CH3:26])([CH:27]([CH3:28])[CH3:29])[CH:30]([CH3:31])[CH3:32].CC1(C)OC[C@]2(OC[C@@H]3C(OC(C)(C)[O:13]3)C2=O)O1>CC#N.CCCC[N+](CCCC)(CCCC)CCCC.COCOC.O.O=C([O-])[O-].O=S(=O)([O-])O.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].[K+].[K+].[Na+].[Na+].[O-]B1OB2OB([O-])OB(O1)O2>[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][CH2:10][C@@:11]1([CH3:12])[O:13][CH:14]1[CH2:15][CH2:16][C@:17]1([CH3:18])[O:19][CH:20]1[CH2:21][O:22][Si:23]([CH:24]([CH3:25])[CH3:26])([CH:27]([CH3:28])[CH3:29])[CH:30]([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.060663558544430694,
+      "conditions": {
+        "raw_description": "oxone; Bu4NHSO4; K2CO3; Na2B4O7; pH 10.5; DMM/CH3CN/H2O; 0 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "oxone",
+          "K2CO3",
+          "Na2B4O7"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[K+].[K+].[K+].[K+].OS(=O)(=O)[O-].OOS(=O)(=O)[O-].OOS(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "B1(OB2OB(OB(O1)O2)[O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Bu4NHSO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.OS(=O)(=O)[O-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMM",
+          "CH3CN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCOC",
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_6",
+      "reaction_smiles": "CC(=O)OC/C(C)=C/CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C.[Li+].[OH-].C1CCOC1.CO.O>>C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CO",
+      "reaction_smiles_mapped": "CC(=O)[O:29][CH2:28]/[C:2]([CH3:1])=[CH:3]/[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27]>C1CCOC1.CO.O.[Li+].[OH-]>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])[CH2:28][OH:29]",
+      "mapping_confidence": 0.1280095549849395,
+      "conditions": {
+        "raw_description": "aq. LiOH; THF/MeOH/H2O; rt; 84%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_7",
+      "reaction_smiles": "C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CO.CS(=O)(=O)Cl.CCN(CC)CC.ClCCl>>C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)COS(C)(=O)=O",
+      "reaction_smiles_mapped": "[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])[CH2:28][OH:29].Cl[S:30]([CH3:31])(=[O:32])=[O:33]>CCN(CC)CC.ClCCl>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])[CH2:28][O:29][S:30]([CH3:31])(=[O:32])=[O:33]",
+      "mapping_confidence": 0.09751623013108239,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; CH2Cl2; -78 \u00b0C to -10 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-10"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_8",
+      "reaction_smiles": "C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)COS(C)(=O)=O.[Br-].[Li+].C1CCOC1>>C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CBr",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:28]/[C:2]([CH3:1])=[CH:3]/[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27].[Br-:29]>C1CCOC1.[Li+]>[CH3:1]/[C:2](=[CH:3]\\[CH2:4][CH2:5][C@@:6]1([CH3:7])[O:8][CH:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[O:14][CH:15]1[CH2:16][O:17][Si:18]([CH:19]([CH3:20])[CH3:21])([CH:22]([CH3:23])[CH3:24])[CH:25]([CH3:26])[CH3:27])[CH2:28][Br:29]",
+      "mapping_confidence": 0.19393452951085527,
+      "conditions": {
+        "raw_description": "LiBr; THF; 0 \u00b0C to 8 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "8"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_9",
+      "reaction_smiles": "C/C(=C\\CC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C)CBr.CC[BH-](CC)CC.[Li+].C1CCOC1>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "Br[CH2:3]/[C:2]([CH3:1])=[CH:4]/[CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][O:18][Si:19]([CH:20]([CH3:21])[CH3:22])([CH:23]([CH3:24])[CH3:25])[CH:26]([CH3:27])[CH3:28]>C1CCOC1.CC[BH-](CC)CC.[Li+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][O:18][Si:19]([CH:20]([CH3:21])[CH3:22])([CH:23]([CH3:24])[CH3:25])[CH:26]([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.1587382140813352,
+      "conditions": {
+        "raw_description": "LiBEt3H; THF; -78 \u00b0C; 69%; 3 steps",
+        "GENERAL_REAGENTS": [
+          "LiBEt3H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](CC)(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "69%, 3 steps"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_10",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CO[Si](C(C)C)(C(C)C)C(C)C.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CO",
+      "reaction_smiles_mapped": "CC(C)[Si](C(C)C)(C(C)C)[O:18][CH2:17][CH:16]1[C@@:13]([CH2:12][CH2:11][CH:10]2[C@:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])([CH3:8])[O:9]2)([CH3:14])[O:15]1>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][OH:18]",
+      "mapping_confidence": 0.7640313657651426,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 85%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_11",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CO.O=S(=O)=O.c1ccncc1.CCN(CC)CC.CS(C)=O.ClCCl>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1C=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][OH:18]>CCN(CC)CC.CS(C)=O.ClCCl.O=S(=O)=O.c1ccncc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH:17]=[O:18]",
+      "mapping_confidence": 0.7882207665028422,
+      "conditions": {
+        "raw_description": "SO3\u2022pyr; Et3N; DMSO; CH2Cl2; 0 \u00b0C to rt; 81%",
+        "GENERAL_REAGENTS": [
+          "SO3\u2022pyr",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)=O.c1ccncc1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_12",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1C=O.CCOC(=O)C=P(c1ccccc1)(c1ccccc1)c1ccccc1.ClCCl>>CCOC(=O)/C=C/C1O[C@@]1(C)CCC1O[C@]1(C)CCC=C(C)C",
+      "reaction_smiles_mapped": "O=[CH:7][CH:8]1[O:9][C@@:10]1([CH3:11])[CH2:12][CH2:13][CH:14]1[O:15][C@:16]1([CH3:17])[CH2:18][CH2:19][CH:20]=[C:21]([CH3:22])[CH3:23].c1ccc(P(c2ccccc2)(c2ccccc2)=[CH:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])cc1>ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[CH:7]/[CH:8]1[O:9][C@@:10]1([CH3:11])[CH2:12][CH2:13][CH:14]1[O:15][C@:16]1([CH3:17])[CH2:18][CH2:19][CH:20]=[C:21]([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.7924739509913697,
+      "conditions": {
+        "raw_description": "CH2Cl2; rt; 99%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_13",
+      "reaction_smiles": "CCOC(=O)/C=C/C1O[C@@]1(C)CCC1O[C@]1(C)CCC=C(C)C.O=C(c1ccccc1)c1ccc(O)c(O)c1O.[SiH3]c1ccccc1.C1CCOC1>>CCOC(=O)CCC1O[C@@]1(C)CCC1O[C@]1(C)CCC=C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[CH:7]/[CH:8]1[O:9][C@@:10]1([CH3:11])[CH2:12][CH2:13][CH:14]1[O:15][C@:16]1([CH3:17])[CH2:18][CH2:19][CH:20]=[C:21]([CH3:22])[CH3:23]>C1CCOC1.O=C(c1ccccc1)c1ccc(O)c(O)c1O.[SiH3]c1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:7][CH:8]1[O:9][C@@:10]1([CH3:11])[CH2:12][CH2:13][CH:14]1[O:15][C@:16]1([CH3:17])[CH2:18][CH2:19][CH:20]=[C:21]([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.6993368394873608,
+      "conditions": {
+        "raw_description": "[(Ph3P)CuH]6; PhSiH3; THF; 0 \u00b0C to rt; 95%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "(Ph3P)CuH]6"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)C2=C(C(=C(C=C2)O)O)O"
+        ],
+        "LIGANDS": [
+          "PhSiH3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)[SiH3]"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_14",
+      "reaction_smiles": "CCOC(=O)CCC1O[C@@]1(C)CCC1O[C@]1(C)CCC=C(C)C.CC(C)C[AlH]CC(C)C.Cc1ccccc1>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC=O",
+      "reaction_smiles_mapped": "CCO[C:19]([CH2:18][CH2:17][CH:16]1[C@@:13]([CH2:12][CH2:11][CH:10]2[C@:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])([CH3:8])[O:9]2)([CH3:14])[O:15]1)=[O:20]>CC(C)C[AlH]CC(C)C.Cc1ccccc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18][CH:19]=[O:20]",
+      "mapping_confidence": 0.7313829317386427,
+      "conditions": {
+        "raw_description": "DIBAL-H; PhMe; -78 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_15",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC=O.CC(C=O)=P(c1ccccc1)(c1ccccc1)c1ccccc1.c1ccccc1>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CC/C=C(\\C)C=O",
+      "reaction_smiles_mapped": "O=[CH:19][CH2:18][CH2:17][CH:16]1[C@@:13]([CH2:12][CH2:11][CH:10]2[C@:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])([CH3:8])[O:9]2)([CH3:14])[O:15]1.c1ccc(P(c2ccccc2)(c2ccccc2)=[C:20]([CH3:21])[CH:22]=[O:23])cc1>c1ccccc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18]/[CH:19]=[C:20](\\[CH3:21])[CH:22]=[O:23]",
+      "mapping_confidence": 0.7290972994851861,
+      "conditions": {
+        "raw_description": "benzene; reflux; 64%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_16",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CC/C=C(\\C)C=O.[BH4-].[Na+].CO>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CC/C=C(\\C)CO",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18]/[CH:19]=[C:20](\\[CH3:21])[CH:22]=[O:23]>CO.[BH4-].[Na+]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18]/[CH:19]=[C:20](\\[CH3:21])[CH2:22][OH:23]",
+      "mapping_confidence": 0.7559917550915064,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C; 81%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_17",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CC/C=C(\\C)CO.CC(C)O.CC(C)O.CC(C)O.CC(C)O.[Ti].CCN(CC)C(=O)c1cccc(C)c1.CC(C)(C)OO.ClCCl>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC1O[C@@]1(C)CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:20].[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18]/[CH:19]=[C:21](\\[CH3:22])[CH2:23][OH:24]>CC(C)O.CC(C)O.CC(C)O.CC(C)O.CCN(CC)C(=O)c1cccc(C)c1.ClCCl.[Ti]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18][CH:19]1[O:20][C@@:21]1([CH3:22])[CH2:23][OH:24]",
+      "mapping_confidence": 0.5357113663991784,
+      "conditions": {
+        "raw_description": "L-(+)-DET; Ti(Oi-Pr)4; t-BuOOH; 4 \u00c5 MS; CH2Cl2; -48 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "t-BuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "Ti(Oi-Pr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Ti].CC(C)O.CC(C)O.CC(C)O.CC(C)O"
+        ],
+        "LIGANDS": [
+          "L-(+)-DET"
+        ],
+        "LIGANDS_SMILES": [
+          "CCOC(=O)[C@H](O)[C@@H](O)C(=O)OCC"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-48"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_18",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC1O[C@@]1(C)CO.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Cc1ccccc1>>CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC1O[C@@]1(C)COC(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31].[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18][CH:19]1[O:20][C@@:21]1([CH3:22])[CH2:23][OH:24]>Cc1ccccc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][CH2:12][C@:13]1([CH3:14])[O:15][CH:16]1[CH2:17][CH2:18][CH:19]1[O:20][C@@:21]1([CH3:22])[CH2:23][O:24][C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31]",
+      "mapping_confidence": 0.2663786708907398,
+      "conditions": {
+        "raw_description": "Boc2O; PhMe; 0 \u00b0C to rt; 68%",
+        "GENERAL_REAGENTS": [
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_19",
+      "reaction_smiles": "CC(C)=CCC[C@@]1(C)OC1CC[C@]1(C)OC1CCC1O[C@@]1(C)COC(=O)OC(C)(C)C.O=C1CCC(=O)N1Br.OC(C(F)(F)F)C(F)(F)F>>CC1(C)O[C@@H]2CC[C@@]3(C)O[C@H]([C@@]4(C)COC(=O)O4)CC[C@@H]3O[C@@]2(C)CC[C@@H]1Br",
+      "reaction_smiles_mapped": "CC(C)(C)[O:18][C:16]([O:15][CH2:14][C@:12]1([CH3:13])[O:10][CH:11]1[CH2:19][CH2:6][CH:5]1[O:4][C@:8]1([CH2:7][CH2:20][CH:21]1[O:22][C@:23]1([CH3:24])[CH2:25][CH2:26][CH:27]=[C:2]([CH3:1])[CH3:3])[CH3:9])=[O:17].O=C1CCC(=O)N1[Br:28]>OC(C(F)(F)F)C(F)(F)F>[CH3:1][C:2]1([CH3:3])[O:4][C@@H:5]2[CH2:6][CH2:7][C@@:8]3([CH3:9])[O:10][C@H:11]([C@@:12]4([CH3:13])[CH2:14][O:15][C:16](=[O:17])[O:18]4)[CH2:19][CH2:20][C@@H:21]3[O:22][C@@:23]2([CH3:24])[CH2:25][CH2:26][C@@H:27]1[Br:28]",
+      "mapping_confidence": 0.24049465944379944,
+      "conditions": {
+        "raw_description": "NBS; HFIP; 4 \u00c5 MS; 0 \u00b0C; 33%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HFIP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(C(F)(F)F)(C(F)(F)F)O"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "33%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_20",
+      "reaction_smiles": "CC1(C)O[C@@H]2CC[C@@]3(C)O[C@H]([C@@]4(C)COC(=O)O4)CC[C@@H]3O[C@@]2(C)CC[C@@H]1Br.[Na+].[OH-].CO>>CC1(C)O[C@@H]2CC[C@@]3(C)O[C@H]([C@](C)(O)CO)CC[C@@H]3O[C@@]2(C)CC[C@@H]1Br",
+      "reaction_smiles_mapped": "O=C1[O:14][C@:12]([C@H:11]2[O:10][C@:8]3([CH3:9])[CH2:7][CH2:6][C@H:5]4[O:4][C:2]([CH3:1])([CH3:3])[C@@H:25]([Br:26])[CH2:24][CH2:23][C@:21]4([CH3:22])[O:20][C@H:19]3[CH2:18][CH2:17]2)([CH3:13])[CH2:15][O:16]1>CO.[Na+].[OH-]>[CH3:1][C:2]1([CH3:3])[O:4][C@@H:5]2[CH2:6][CH2:7][C@@:8]3([CH3:9])[O:10][C@H:11]([C@:12]([CH3:13])([OH:14])[CH2:15][OH:16])[CH2:17][CH2:18][C@@H:19]3[O:20][C@@:21]2([CH3:22])[CH2:23][CH2:24][C@@H:25]1[Br:26]",
+      "mapping_confidence": 0.8486212371560269,
+      "conditions": {
+        "raw_description": "NaOH; MeOH; rt; 83%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_21",
+      "reaction_smiles": "CC1(C)O[C@@H]2CC[C@@]3(C)O[C@H]([C@](C)(O)CO)CC[C@@H]3O[C@@]2(C)CC[C@@H]1Br.[Na+].[O-][I+3]([O-])([O-])[O-].C1CCOC1.O>>CC(=O)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1",
+      "reaction_smiles_mapped": "OC[C@@:2]([CH3:1])([OH:3])[C@@H:4]1[CH2:5][CH2:6][C@@H:7]2[O:8][C@@:9]3([CH3:10])[CH2:11][CH2:12][C@H:13]([Br:14])[C:15]([CH3:16])([CH3:17])[O:18][C@@H:19]3[CH2:20][CH2:21][C@@:22]2([CH3:23])[O:24]1>C1CCOC1.O.[Na+].[O-][I+3]([O-])([O-])[O-]>[CH3:1][C:2](=[O:3])[C@@H:4]1[CH2:5][CH2:6][C@@H:7]2[O:8][C@@:9]3([CH3:10])[CH2:11][CH2:12][C@H:13]([Br:14])[C:15]([CH3:16])([CH3:17])[O:18][C@@H:19]3[CH2:20][CH2:21][C@@:22]2([CH3:23])[O:24]1",
+      "mapping_confidence": 0.5386038116919092,
+      "conditions": {
+        "raw_description": "NaIO4; THF/H2O; rt; 96%",
+        "GENERAL_REAGENTS": [
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_22",
+      "reaction_smiles": "CC(=O)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1.O=S(=O)(N(c1ccc(Cl)cn1)S(=O)(=O)C(F)(F)F)C(F)(F)F.[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>>C=C(OS(=O)(=O)C(F)(F)F)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[C@@H:11]1[CH2:12][CH2:13][C@@H:14]2[O:15][C@@:16]3([CH3:17])[CH2:18][CH2:19][C@H:20]([Br:21])[C:22]([CH3:23])([CH3:24])[O:25][C@@H:26]3[CH2:27][CH2:28][C@@:29]2([CH3:30])[O:31]1.O=S(=O)(N(c1ccc(Cl)cn1)[S:4](=[O:5])(=[O:6])[C:7]([F:8])([F:9])[F:10])C(F)(F)F>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH2:1]=[C:2]([O:3][S:4](=[O:5])(=[O:6])[C:7]([F:8])([F:9])[F:10])[C@@H:11]1[CH2:12][CH2:13][C@@H:14]2[O:15][C@@:16]3([CH3:17])[CH2:18][CH2:19][C@H:20]([Br:21])[C:22]([CH3:23])([CH3:24])[O:25][C@@H:26]3[CH2:27][CH2:28][C@@:29]2([CH3:30])[O:31]1",
+      "mapping_confidence": 0.07652864064568193,
+      "conditions": {
+        "raw_description": "(OTf)2NC5H3NCl; LiHMDS; THF; -78 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "(OTf)2NC5H3NCl",
+          "LiHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "c1c(Cl)cnc(c1)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F",
+          "C[Si](C)(C)N([Li])[Si](C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_23",
+      "reaction_smiles": "C=C(OS(=O)(=O)C(F)(F)F)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1.CC[Si](CC)(CC)O[C@H](CCB1C2CCCC1CCC2)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1.O=C([O-])[O-].[Cs+].[Cs+].[Cl-].[Cl-].[Pd].c1ccc(P(c2ccccc2)C23C4C5C6C2[Fe]56432789C3C2C7C8(P(c2ccccc2)c2ccccc2)C39)cc1.C1CCOC1.O.CN(C)C=O>>C=C(CC[C@@H](O[Si](CC)(CC)CC)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1",
+      "reaction_smiles_mapped": "O=S(=O)(O[C:2](=[CH2:1])[C@@H:31]1[CH2:32][CH2:33][C@@H:34]2[O:35][C@@:36]3([CH3:37])[CH2:38][CH2:39][C@H:40]([Br:41])[C:42]([CH3:43])([CH3:44])[O:45][C@@H:46]3[CH2:47][CH2:48][C@@:49]2([CH3:50])[O:51]1)C(F)(F)F.C1CC2CCCC(C1)B2[CH2:3][CH2:4][C@@H:5]([O:6][Si:7]([CH2:8][CH3:9])([CH2:10][CH3:11])[CH2:12][CH3:13])[C@:14]1([CH3:15])[CH2:16][CH2:17][C@@H:18]([C:19]([CH3:20])([CH3:21])[O:22][Si:23]([CH2:24][CH3:25])([CH2:26][CH3:27])[CH2:28][CH3:29])[O:30]1>C1CCOC1.CN(C)C=O.O.O=C([O-])[O-].[Cl-].[Cl-].[Cs+].[Cs+].[Pd].c1ccc(P(c2ccccc2)C23C4C5C6C2[Fe]56432789C3C2C7C8(P(c2ccccc2)c2ccccc2)C39)cc1>[CH2:1]=[C:2]([CH2:3][CH2:4][C@@H:5]([O:6][Si:7]([CH2:8][CH3:9])([CH2:10][CH3:11])[CH2:12][CH3:13])[C@:14]1([CH3:15])[CH2:16][CH2:17][C@@H:18]([C:19]([CH3:20])([CH3:21])[O:22][Si:23]([CH2:24][CH3:25])([CH2:26][CH3:27])[CH2:28][CH3:29])[O:30]1)[C@@H:31]1[CH2:32][CH2:33][C@@H:34]2[O:35][C@@:36]3([CH3:37])[CH2:38][CH2:39][C@H:40]([Br:41])[C:42]([CH3:43])([CH3:44])[O:45][C@@H:46]3[CH2:47][CH2:48][C@@:49]2([CH3:50])[O:51]1",
+      "mapping_confidence": 0.09817816691641,
+      "conditions": {
+        "raw_description": "PdCl2(dppf); aq. Cs2CO3; THF/H2O/DMF; 40 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "aq. Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [
+          "PdCl2(dppf)"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[Cl-].[Cl-].c1ccc(cc1)P(c2ccccc2)C34C5[Fe]3678912(C5C6C74)C3C8C9C1(C23)P(c1ccccc1)c1ccccc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_24",
+      "reaction_smiles": "C=C(CC[C@@H](O[Si](CC)(CC)CC)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=C(CC[C@@H](O)[C@]1(C)CC[C@@H](C(C)(C)O)O1)[C@@H]1CC[C@@H]2O[C@@]3(C)CC[C@H](Br)C(C)(C)O[C@@H]3CC[C@@]2(C)O1",
+      "reaction_smiles_mapped": "CC[Si](CC)(CC)[O:6][C@H:5]([CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:17]1[CH2:18][CH2:19][C@@H:20]2[O:21][C@@:22]3([CH3:23])[CH2:24][CH2:25][C@H:26]([Br:27])[C:28]([CH3:29])([CH3:30])[O:31][C@@H:32]3[CH2:33][CH2:34][C@@:35]2([CH3:36])[O:37]1)[C@:7]1([CH3:8])[CH2:9][CH2:10][C@@H:11]([C:12]([CH3:13])([CH3:14])[O:15][Si](CC)(CC)CC)[O:16]1>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH2:1]=[C:2]([CH2:3][CH2:4][C@@H:5]([OH:6])[C@:7]1([CH3:8])[CH2:9][CH2:10][C@@H:11]([C:12]([CH3:13])([CH3:14])[OH:15])[O:16]1)[C@@H:17]1[CH2:18][CH2:19][C@@H:20]2[O:21][C@@:22]3([CH3:23])[CH2:24][CH2:25][C@H:26]([Br:27])[C:28]([CH3:29])([CH3:30])[O:31][C@@H:32]3[CH2:33][CH2:34][C@@:35]2([CH3:36])[O:37]1",
+      "mapping_confidence": 0.5022161905792085,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 83%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_25",
+      "reaction_smiles": "CC(C)=CCC/C(C)=C/CO.CC(C)(C)OO.CCN(CC)C(=O)c1cccc(C)c1.CC(C)O.CC(C)O.CC(C)O.CC(C)O.[Ti].ClCCl>>CC(C)=CCC[C@]1(C)OC1CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:9].[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:10]/[CH2:11][OH:12]>CC(C)O.CC(C)O.CC(C)O.CC(C)O.CCN(CC)C(=O)c1cccc(C)c1.ClCCl.[Ti]>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@:7]1([CH3:8])[O:9][CH:10]1[CH2:11][OH:12]",
+      "mapping_confidence": 0.5748696718003622,
+      "conditions": {
+        "raw_description": "Ti(Oi-Pr)4; (-)-DET; TBHP; CH2Cl2; -25 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "TBHP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "Ti(Oi-Pr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN(CC)C(=O)c1cccc(C)c1",
+          "[Ti].CC(C)O.CC(C)O.CC(C)O.CC(C)O"
+        ],
+        "LIGANDS": [
+          "(-)-DET"
+        ],
+        "LIGANDS_SMILES": [
+          "CCOC(=O)[C@@H](O)[C@H](O)C(=O)OCC"
+        ],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-25"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_26",
+      "reaction_smiles": "CC(C)=CCC[C@]1(C)OC1CO.CC1(C)OC2C(=O)[C@@]3(COC(C)(C)O3)OC[C@H]2O1.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+].CC#N.COCOC.O>>CC1(C)OC1CC[C@]1(C)OC1CO",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[CH:5][CH2:6][CH2:7][C@:8]1([CH3:9])[O:10][CH:11]1[CH2:12][OH:13].CC1(C)OC[C@]2(OC[C@@H]3C(OC(C)(C)[O:4]3)C2=O)O1>CC#N.COCOC.O.O=S(=O)([O-])O.O=S(=O)([O-])OO.O=S(=O)([O-])OO.O=S(=O)([O-])[O-].[K+].[K+].[K+].[K+].[K+]>[CH3:1][C:2]1([CH3:3])[O:4][CH:5]1[CH2:6][CH2:7][C@:8]1([CH3:9])[O:10][CH:11]1[CH2:12][OH:13]",
+      "mapping_confidence": 0.20089647148015374,
+      "conditions": {
+        "raw_description": "Oxone; pH 10) 5 MeCN/DMM/H2O; 0 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "Oxone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[K+].[K+].[K+].[K+].OS(=O)(=O)[O-].OOS(=O)(=O)[O-].OOS(=O)(=O)[O-].[O-]S(=O)(=O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "DMM",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "COCOC",
+          "O"
+        ],
+        "MODIFIERS": [
+          "pH 10"
+        ],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_27",
+      "reaction_smiles": "CC1(C)OC1CC[C@]1(C)OC1CO.[Na+].[OH-].C1CCOC1.O>>CC(C)(O)[C@@H]1CC[C@@](C)([C@H]2CO2)O1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[O:4][CH:5]1[CH2:6][CH2:7][C@@:8]1([CH3:9])[CH:10]([CH2:11][OH:12])[O:13]1>C1CCOC1.O.[Na+].[OH-]>[CH3:1][C:2]([CH3:3])([OH:4])[C@@H:5]1[CH2:6][CH2:7][C@@:8]([CH3:9])([C@H:10]2[CH2:11][O:12]2)[O:13]1",
+      "mapping_confidence": 0.7513100498543848,
+      "conditions": {
+        "raw_description": "NaOH; THF/H2O; rt; 59%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "59%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_28",
+      "reaction_smiles": "CC(C)(O)[C@@H]1CC[C@@](C)([C@H]2CO2)O1.C[S+](C)C.[I-].[Li]CCCC.C1CCOC1>>C=C[C@@H](O)[C@]1(C)CC[C@@H](C(C)(C)O)O1",
+      "reaction_smiles_mapped": "[CH2:2]1[C@H:3]([C@:5]2([CH3:6])[CH2:7][CH2:8][C@@H:9]([C:10]([CH3:11])([CH3:12])[OH:13])[O:14]2)[O:4]1.C[S+](C)[CH3:1]>C1CCOC1.[I-].[Li]CCCC>[CH2:1]=[CH:2][C@@H:3]([OH:4])[C@:5]1([CH3:6])[CH2:7][CH2:8][C@@H:9]([C:10]([CH3:11])([CH3:12])[OH:13])[O:14]1",
+      "mapping_confidence": 0.13918152584615037,
+      "conditions": {
+        "raw_description": "(CH3)3SI; n-BuLi; THF; -13 to 5 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "(CH3)3SI",
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[S+](C)C.[I-]",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-13",
+          "5"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_29",
+      "reaction_smiles": "C=C[C@@H](O)[C@]1(C)CC[C@@H](C(C)(C)O)O1.CC[Si](Cl)(CC)CC.c1c[nH]cn1.CN(C)C=O>>C=C[C@@H](O[Si](CC)(CC)CC)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@H:3]([OH:4])[C@:12]1([CH3:13])[CH2:14][CH2:15][C@@H:16]([C:17]([CH3:18])([CH3:19])[OH:20])[O:28]1.Cl[Si:5]([CH2:6][CH3:7])([CH2:8][CH3:9])[CH2:22][CH3:23].O=[CH:26]N([CH3:10])[CH3:27].n1[cH:11][nH][cH:24][cH:25]1>>[CH2:1]=[CH:2][C@@H:3]([O:4][Si:5]([CH2:6][CH3:7])([CH2:8][CH3:9])[CH2:10][CH3:11])[C@:12]1([CH3:13])[CH2:14][CH2:15][C@@H:16]([C:17]([CH3:18])([CH3:19])[O:20][Si:21]([CH2:22][CH3:23])([CH2:24][CH3:25])[CH2:26][CH3:27])[O:28]1",
+      "mapping_confidence": 0.14119546342646389,
+      "conditions": {
+        "raw_description": "TESCl; imidazole; DMF; rt; 95%",
+        "GENERAL_REAGENTS": [
+          "TESCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Si](CC)(CC)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dioxepandehydrothyrsiferol_2009_Jamison_30",
+      "reaction_smiles": "C=C[C@@H](O[Si](CC)(CC)CC)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1.B1C2CCCC1CCC2.C1CCOC1>>CC[Si](CC)(CC)O[C@H](CCB1C2CCCC1CCC2)[C@]1(C)CC[C@@H](C(C)(C)O[Si](CC)(CC)CC)O1",
+      "reaction_smiles_mapped": "[BH:12]1[CH:13]2[CH2:14][CH2:15][CH2:16][CH:17]1[CH2:18][CH2:19][CH2:20]2.[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]([CH:10]=[CH2:11])[C@:21]1([CH3:22])[CH2:23][CH2:24][C@@H:25]([C:26]([CH3:27])([CH3:28])[O:29][Si:30]([CH2:31][CH3:32])([CH2:33][CH3:34])[CH2:35][CH3:36])[O:37]1>C1CCOC1>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][C@H:9]([CH2:10][CH2:11][B:12]1[CH:13]2[CH2:14][CH2:15][CH2:16][CH:17]1[CH2:18][CH2:19][CH2:20]2)[C@:21]1([CH3:22])[CH2:23][CH2:24][C@@H:25]([C:26]([CH3:27])([CH3:28])[O:29][Si:30]([CH2:31][CH3:32])([CH2:33][CH3:34])[CH2:35][CH3:36])[O:37]1",
+      "mapping_confidence": 0.055262402879576254,
+      "conditions": {
+        "raw_description": "9-BBN dimer; THF; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "9-BBN dimer"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B1C2CCCC1CCC2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

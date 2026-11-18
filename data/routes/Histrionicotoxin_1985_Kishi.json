@@ -1,0 +1,949 @@
+{
+  "background": {
+    "name": "(+/-)-Histrionicotoxin",
+    "author": "Kishi",
+    "year": 1985,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron Lett. 1985, 26, 5887",
+    "doi": "10.1016/S0040-4039(00)98253-4"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_1",
+      "reaction_smiles": "COC(=O)CCCC(=O)Cl.C1CCC([Cd]C2CCCC2)C1>>C=CCCCC(=O)CCCC(=O)OC",
+      "reaction_smiles_mapped": "C1CCC([Cd][CH:8]2[CH2:1][CH2:2][CH2:3][CH2:4]2)C1.Cl[C:6]([CH2:5][CH2:9][CH2:10][C:11](=[O:12])[O:13][CH3:14])=[O:7]>>[CH2:1]=[CH:2][CH2:3][CH2:4][CH2:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][C:11](=[O:12])[O:13][CH3:14]",
+      "mapping_confidence": 0.352719698666466,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_2",
+      "reaction_smiles": "C=CCCCC(=O)CCCC(=O)OC.CC(C)(C)O[K]>>C=CCCC1C(=O)CCCC1=O",
+      "reaction_smiles_mapped": "CO[C:11]([CH2:10][CH2:9][CH2:8][C:6]([CH2:5][CH2:4][CH2:3][CH:2]=[CH2:1])=[O:7])=[O:12]>CC(C)(C)O[K]>[CH2:1]=[CH:2][CH2:3][CH2:4][CH:5]1[C:6](=[O:7])[CH2:8][CH2:9][CH2:10][C:11]1=[O:12]",
+      "mapping_confidence": 0.8667897388219884,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_3",
+      "reaction_smiles": "C=CCCC1C(=O)CCCC1=O.[H+].CCO>>C=CCCC1=C(OCC)CCCC1=O",
+      "reaction_smiles_mapped": "O=[C:6]1[CH:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:13](=[O:14])[CH2:12][CH2:11][CH2:10]1.[OH:7][CH2:8][CH3:9]>[H+]>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([O:7][CH2:8][CH3:9])[CH2:10][CH2:11][CH2:12][C:13]1=[O:14]",
+      "mapping_confidence": 0.796327882232797,
+      "conditions": {
+        "raw_description": "EtOH; H+",
+        "GENERAL_REAGENTS": [
+          "H+"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_4",
+      "reaction_smiles": "C=CCCC1=C(OCC)CCCC1=O.C=C[Mg]Br>>C=CCCC1=C(C=C)CCCC1=O",
+      "reaction_smiles_mapped": "CCO[C:6]1=[C:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:12](=[O:13])[CH2:11][CH2:10][CH2:9]1.Br[Mg][CH:7]=[CH2:8]>>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([CH:7]=[CH2:8])[CH2:9][CH2:10][CH2:11][C:12]1=[O:13]",
+      "mapping_confidence": 0.9484020522571441,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_5",
+      "reaction_smiles": "C=CCCC1=C(C=C)CCCC1=O.COC(=O)CC(N)=O.C[O-].[Na+]>>C=CCCC1=C(CCC(C(N)=O)C(=O)OC)CCCC1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([CH:7]=[CH2:8])[CH2:17][CH2:18][CH2:19][C:20]1=[O:21].[CH2:9]([C:10]([NH2:11])=[O:12])[C:13](=[O:14])[O:15][CH3:16]>C[O-].[Na+]>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([CH2:7][CH2:8][CH:9]([C:10]([NH2:11])=[O:12])[C:13](=[O:14])[O:15][CH3:16])[CH2:17][CH2:18][CH2:19][C:20]1=[O:21]",
+      "mapping_confidence": 0.9529567668814903,
+      "conditions": {
+        "raw_description": "H2NCOCH2CO2Me; NaOMe",
+        "GENERAL_REAGENTS": [
+          "H2NCOCH2CO2Me",
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NC(=O)CC(=O)OC",
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_6",
+      "reaction_smiles": "C=CCCC1=C(CCC(C(N)=O)C(=O)OC)CCCC1=O.[Na+].[OH-].O>>C=CCCC1=C(CCC(C(N)=O)C(=O)O)CCCC1=O",
+      "reaction_smiles_mapped": "C[O:15][C:13]([CH:9]([CH2:8][CH2:7][C:6]1=[C:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:19](=[O:20])[CH2:18][CH2:17][CH2:16]1)[C:10]([NH2:11])=[O:12])=[O:14]>O.[Na+].[OH-]>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([CH2:7][CH2:8][CH:9]([C:10]([NH2:11])=[O:12])[C:13](=[O:14])[OH:15])[CH2:16][CH2:17][CH2:18][C:19]1=[O:20]",
+      "mapping_confidence": 0.9473764800454301,
+      "conditions": {
+        "raw_description": "NaOH; H2O",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_7",
+      "reaction_smiles": "C=CCCC1=C(CCC(C(N)=O)C(=O)O)CCCC1=O.C1COCCO1>>C=CCCC1=C(CCCC(N)=O)CCCC1=O",
+      "reaction_smiles_mapped": "O=C(O)[CH:9]([CH2:8][CH2:7][C:6]1=[C:5]([CH2:4][CH2:3][CH:2]=[CH2:1])[C:16](=[O:17])[CH2:15][CH2:14][CH2:13]1)[C:10]([NH2:11])=[O:12]>C1COCCO1>[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:6]([CH2:7][CH2:8][CH2:9][C:10]([NH2:11])=[O:12])[CH2:13][CH2:14][CH2:15][C:16]1=[O:17]",
+      "mapping_confidence": 0.9788615401255301,
+      "conditions": {
+        "raw_description": "dioxane; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_8",
+      "reaction_smiles": "C=CCCC1=C(CCCC(N)=O)CCCC1=O.CCOC(OCC)OCC.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CCO>>C=CCC[C@@H]1C(=O)CCC[C@]12CCCC(=O)N2",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C:5]1=[C:11]([CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH2:17])[CH2:10][CH2:9][CH2:8][C:6]1=[O:7]>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CCO.CCOC(OCC)OCC>[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]1[C:6](=[O:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]2",
+      "mapping_confidence": 0.9141017941391792,
+      "conditions": {
+        "raw_description": "HC(OEt)3; EtOH; CSA",
+        "GENERAL_REAGENTS": [
+          "HC(OEt)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(OCC)OCC"
+        ],
+        "CATALYSTS": [
+          "CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(O)=O)C(C2)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_9",
+      "reaction_smiles": "C=CCC[C@@H]1C(=O)CCC[C@]12CCCC(=O)N2.[Na].N>>C=CCC[C@@H]1[C@@H](O)CCC[C@]12CCCC(=O)N2",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]1[C:6](=[O:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]2>N.[Na]>[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]1[C@@H:6]([OH:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]2",
+      "mapping_confidence": 0.9871093255726476,
+      "conditions": {
+        "raw_description": "Na; NH3",
+        "GENERAL_REAGENTS": [
+          "Na",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_10",
+      "reaction_smiles": "C=CCC[C@@H]1[C@@H](O)CCC[C@]12CCCC(=O)N2.CC(=O)OC(C)=O>>C=CCC[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=O)N2",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]1[C@@H:6]([OH:7])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C:18](=[O:19])[NH:20]2.CC(=O)O[C:8]([CH3:9])=[O:10]>>[CH2:1]=[CH:2][CH2:3][CH2:4][C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C:18](=[O:19])[NH:20]2",
+      "mapping_confidence": 0.5647636886252666,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_11",
+      "reaction_smiles": "C=CCC[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=O)N2.[Na+].[O-][I+3]([O-])([O-])[O-].O.O=[Os](=O)(=O)=O>>CC(=O)O[C@H]1CCC[C@]2(CCCC(=O)N2)[C@@H]1CCC=O",
+      "reaction_smiles_mapped": "C=[CH:19][CH2:18][CH2:17][C@@H:16]1[C@@H:5]([O:4][C:2]([CH3:1])=[O:3])[CH2:6][CH2:7][CH2:8][C@:9]12[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[NH:15]2.[O-][I+3]([O-])([O-])[O-:20]>O.[Na+].O=[Os](=O)(=O)=O>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][CH2:8][C@:9]2([CH2:10][CH2:11][CH2:12][C:13](=[O:14])[NH:15]2)[C@@H:16]1[CH2:17][CH2:18][CH:19]=[O:20]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "OsO4-NaIO4; dioxane-H2O",
+        "GENERAL_REAGENTS": [
+          "NaIO4",
+          "dioxane-H2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]I(=O)(=O)=O.[Na+]",
+          "O"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_12",
+      "reaction_smiles": "CC(=O)O[C@H]1CCC[C@]2(CCCC(=O)N2)[C@@H]1CCC=O.[Na+].[OH-].CO>>O=C1CCC[C@]2(CCC[C@@H]3O[C@@H](O)CC[C@H]32)N1",
+      "reaction_smiles_mapped": "CC(=O)[O:13][C@H:10]1[CH2:9][CH2:8][CH2:7][C@:6]2([CH2:5][CH2:4][CH2:3][C:2](=[O:1])[NH:17]2)[C@@H:16]1[CH2:15][CH2:14][CH:12]=[O:11]>CO.[Na+].[OH-]>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH2:7][CH2:8][CH2:9][C@@H:10]3[O:11][C@@H:12]([OH:13])[CH2:14][CH2:15][C@@H:16]23)[NH:17]1",
+      "mapping_confidence": 0.7179069543549412,
+      "conditions": {
+        "raw_description": "NaOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_13",
+      "reaction_smiles": "O=C1CCC[C@]2(CCC[C@@H]3O[C@@H](O)CC[C@H]32)N1.CC(=O)OC(C)=O.c1ccncc1>>CC(=O)O[C@H]1CC[C@@H]2[C@H](CCC[C@]23CCCC(=O)N3)O1",
+      "reaction_smiles_mapped": "CC(=O)O[C:2]([CH3:1])=[O:3].[OH:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@H:9]([CH2:10][CH2:11][CH2:12][C@:13]23[CH2:14][CH2:15][CH2:16][C:17](=[O:18])[NH:19]3)[O:20]1>c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][C@@H:8]2[C@H:9]([CH2:10][CH2:11][CH2:12][C@:13]23[CH2:14][CH2:15][CH2:16][C:17](=[O:18])[NH:19]3)[O:20]1",
+      "mapping_confidence": 0.5574705406297752,
+      "conditions": {
+        "raw_description": "Ac2O; pyridine",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_14",
+      "reaction_smiles": "CC(=O)O[C@H]1CC[C@@H]2[C@H](CCC[C@]23CCCC(=O)N3)O1>>O=C1CCC[C@]2(CCC[C@@H]3OC=CC[C@H]32)N1",
+      "reaction_smiles_mapped": "CC(=O)O[C@@H:12]1[O:11][C@H:10]2[CH2:9][CH2:8][CH2:7][C@:6]3([CH2:5][CH2:4][CH2:3][C:2](=[O:1])[NH:16]3)[C@@H:15]2[CH2:14][CH2:13]1>>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH2:7][CH2:8][CH2:9][C@@H:10]3[O:11][CH:12]=[CH:13][CH2:14][C@@H:15]23)[NH:16]1",
+      "mapping_confidence": 0.9695994778838956,
+      "conditions": {
+        "raw_description": "180 \u00b0C; 11 mm Hg",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "11 mm Hg"
+        ],
+        "TEMPERATURE": [
+          "180"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_15",
+      "reaction_smiles": "O=C1CCC[C@]2(CCC[C@@H]3OC=CC[C@H]32)N1.BrBr.CO.ClCCl>>CO[C@@H]1O[C@H]2CCC[C@]3(CCCC(=O)N3)[C@@H]2C[C@H]1Br",
+      "reaction_smiles_mapped": "Br[Br:19].[CH3:1][OH:2].[CH:3]1=[CH:18][CH2:17][C@@H:16]2[C@@H:5]([O:4]1)[CH2:6][CH2:7][CH2:8][C@:9]21[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[NH:15]1>ClCCl>[CH3:1][O:2][C@@H:3]1[O:4][C@H:5]2[CH2:6][CH2:7][CH2:8][C@:9]3([CH2:10][CH2:11][CH2:12][C:13](=[O:14])[NH:15]3)[C@@H:16]2[CH2:17][C@H:18]1[Br:19]",
+      "mapping_confidence": 0.5281807863178409,
+      "conditions": {
+        "raw_description": "Br2; MeOH; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_16",
+      "reaction_smiles": "CO[C@@H]1O[C@H]2CCC[C@]3(CCCC(=O)N3)[C@@H]2C[C@H]1Br.C1CCC2=NCCCN2CC1.CS(C)=O>>CO[C@H]1C=C[C@@H]2[C@H](CCC[C@]23CCCC(=O)N3)O1",
+      "reaction_smiles_mapped": "Br[C@H:4]1[C@H:3]([O:2][CH3:1])[O:18][C@@H:7]2[C@@H:6]([CH2:5]1)[C@:11]1([CH2:10][CH2:9][CH2:8]2)[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]1>C1CCC2=NCCCN2CC1.CS(C)=O>[CH3:1][O:2][C@H:3]1[CH:4]=[CH:5][C@@H:6]2[C@H:7]([CH2:8][CH2:9][CH2:10][C@:11]23[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]3)[O:18]1",
+      "mapping_confidence": 0.9867057001538386,
+      "conditions": {
+        "raw_description": "DBU; DMSO",
+        "GENERAL_REAGENTS": [
+          "DBU"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_17",
+      "reaction_smiles": "CO[C@H]1C=C[C@@H]2[C@H](CCC[C@]23CCCC(=O)N3)O1.CC(=O)O.O>>O=C/C=C\\[C@@H]1[C@@H](O)CCC[C@]12CCCC(=O)N2",
+      "reaction_smiles_mapped": "C[O:1][C@H:2]1[CH:3]=[CH:4][C@@H:5]2[C@@H:6]([O:7]1)[CH2:8][CH2:9][CH2:10][C@:11]21[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]1>CC(=O)O.O>[O:1]=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([OH:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH2:12][CH2:13][CH2:14][C:15](=[O:16])[NH:17]2",
+      "mapping_confidence": 0.9429567259785333,
+      "conditions": {
+        "raw_description": "AcOH; H2O",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_18",
+      "reaction_smiles": "O=C/C=C\\[C@@H]1[C@@H](O)CCC[C@]12CCCC(=O)N2.[BH4-].[Na+].C1CCOC1.O>>O=C1CCC[C@]2(CCC[C@H](O)[C@H]2/C=C\\CO)N1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH2:7][CH2:8][CH2:9][C@H:10]([OH:11])[C@H:12]2/[CH:13]=[CH:14]\\[CH:15]=[O:16])[NH:17]1>C1CCOC1.O.[BH4-].[Na+]>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH2:7][CH2:8][CH2:9][C@H:10]([OH:11])[C@H:12]2/[CH:13]=[CH:14]\\[CH2:15][OH:16])[NH:17]1",
+      "mapping_confidence": 0.982157812170329,
+      "conditions": {
+        "raw_description": "NaBH4; THF-H2O",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_19",
+      "reaction_smiles": "O=C1CCC[C@]2(CCC[C@H](O)[C@H]2/C=C\\CO)N1.CC(=O)OC(C)=O.c1ccncc1>>CC(=O)OC/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=O)N2",
+      "reaction_smiles_mapped": "O([C:2]([CH3:1])=[O:3])[C:11]([CH3:12])=[O:13].[OH:4][CH2:5]/[CH:6]=[CH:7]\\[C@@H:8]1[C@@H:9]([OH:10])[CH2:14][CH2:15][CH2:16][C@:17]12[CH2:18][CH2:19][CH2:20][C:21](=[O:22])[NH:23]2>c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[CH:6]=[CH:7]\\[C@@H:8]1[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[CH2:14][CH2:15][CH2:16][C@:17]12[CH2:18][CH2:19][CH2:20][C:21](=[O:22])[NH:23]2",
+      "mapping_confidence": 0.6027025739434521,
+      "conditions": {
+        "raw_description": "Ac2O; pyridine",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_20",
+      "reaction_smiles": "CC(=O)OC/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=O)N2.S=P(=S)SP(=S)=S.c1ccncc1>>CC(=O)OC/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=S)N2",
+      "reaction_smiles_mapped": "O=[C:21]1[CH2:20][CH2:19][CH2:18][C@@:17]2([C@H:8](/[CH:7]=[CH:6]\\[CH2:5][O:4][C:2]([CH3:1])=[O:3])[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[CH2:14][CH2:15][CH2:16]2)[NH:23]1.S=P(=S)SP(=S)=[S:22]>c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][CH2:5]/[CH:6]=[CH:7]\\[C@@H:8]1[C@@H:9]([O:10][C:11]([CH3:12])=[O:13])[CH2:14][CH2:15][CH2:16][C@:17]12[CH2:18][CH2:19][CH2:20][C:21](=[S:22])[NH:23]2",
+      "mapping_confidence": 0.2610060667094948,
+      "conditions": {
+        "raw_description": "P2S5; pyridine",
+        "GENERAL_REAGENTS": [
+          "P2S5"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "S=P(=S)SP(=S)=S"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_21",
+      "reaction_smiles": "CC(=O)OC/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCCC(=S)N2.CCOC(=O)C(Br)C(C)=O.O=C([O-])[O-].[K+].[K+].CO>>CCOC(=O)/C(C(C)=O)=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\COC(C)=O)N1",
+      "reaction_smiles_mapped": "S=[C:10]1[CH2:11][CH2:12][CH2:13][C@:14]2([CH2:15][CH2:16][CH2:17][C@H:18]([O:19][C:20]([CH3:21])=[O:22])[C@H:23]2/[CH:24]=[CH:25]\\[CH2:26][O:27][C:28]([CH3:29])=[O:30])[NH:31]1.Br[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:7]([CH3:8])=[O:9]>CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6]([C:7]([CH3:8])=[O:9])=[C:10]1/[CH2:11][CH2:12][CH2:13][C@:14]2([CH2:15][CH2:16][CH2:17][C@H:18]([O:19][C:20]([CH3:21])=[O:22])[C@H:23]2/[CH:24]=[CH:25]\\[CH2:26][O:27][C:28]([CH3:29])=[O:30])[NH:31]1",
+      "mapping_confidence": 0.9572183838574982,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_22",
+      "reaction_smiles": "CCOC(=O)/C(C(C)=O)=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\COC(C)=O)N1.[Na+].[OH-].O.CO>>CCOC(=O)/C(C(C)=O)=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C=O)N1",
+      "reaction_smiles_mapped": "CC(=O)[O:27][CH2:26]/[CH:25]=[CH:24]\\[C@H:23]1[C@@:14]2([CH2:13][CH2:12][CH2:11]/[C:10](=[C:6](/[C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:7]([CH3:8])=[O:9])[NH:28]2)[CH2:15][CH2:16][CH2:17][C@@H:18]1[O:19][C:20]([CH3:21])=[O:22]>CO.O.[Na+].[OH-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[C:6]([C:7]([CH3:8])=[O:9])=[C:10]1/[CH2:11][CH2:12][CH2:13][C@:14]2([CH2:15][CH2:16][CH2:17][C@H:18]([O:19][C:20]([CH3:21])=[O:22])[C@H:23]2/[CH:24]=[CH:25]\\[CH:26]=[O:27])[NH:28]1",
+      "mapping_confidence": 0.9587995047806492,
+      "conditions": {
+        "raw_description": "NaOH; H2O; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_23",
+      "reaction_smiles": "CCOC(=O)/C(C(C)=O)=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C=O)N1.ClC(Cl)=P(c1ccccc1)(c1ccccc1)c1ccccc1.[Na+].[OH-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCO>>C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC/C(=C(\\C(C)=O)C(=O)OCC)N2",
+      "reaction_smiles_mapped": "O=[CH:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17]/[C:18](=[C:19](\\[C:20]([CH3:21])=[O:22])[C:23](=[O:24])[O:25][CH2:26][CH3:27])[NH:28]2.Cl[C:1](Cl)=P(c1ccccc1)(c1ccccc1)c1ccccc1>CCO.[Na+].[OH-].c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17]/[C:18](=[C:19](\\[C:20]([CH3:21])=[O:22])[C:23](=[O:24])[O:25][CH2:26][CH3:27])[NH:28]2",
+      "mapping_confidence": 0.36053206773453605,
+      "conditions": {
+        "raw_description": "1) Ph3P=CCl2; 2) NaOH; EtOH",
+        "GENERAL_REAGENTS": [
+          "Ph3P=CCl2",
+          "NaOH",
+          "Ph3P"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "ClC(Cl)=P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+          "[OH-].[Na+]",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_24",
+      "reaction_smiles": "C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC/C(=C(\\C(C)=O)C(=O)OCC)N2.[Li]C.C[Si](C)(C)Cl>>CCOC(=O)/C=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1",
+      "reaction_smiles_mapped": "CC(=O)/[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])=[C:7]1\\[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[CH:24])[NH:29]1.Cl[Si:25]([CH3:26])([CH3:27])[CH3:28]>[Li]C>[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7]1/[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[C:24][Si:25]([CH3:26])([CH3:27])[CH3:28])[NH:29]1",
+      "mapping_confidence": 0.3540368004184616,
+      "conditions": {
+        "raw_description": "MeLi; TMSCl",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "TMSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_25",
+      "reaction_smiles": "CCOC(=O)/C=C1/CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1.[BH3-]C#N.[Na+]>>CCOC(=O)C[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])/[CH:6]=[C:7]1/[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[C:24][Si:25]([CH3:26])([CH3:27])[CH3:28])[NH:29]1>[BH3-]C#N.[Na+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C@@H:7]1[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[C:24][Si:25]([CH3:26])([CH3:27])[CH3:28])[NH:29]1",
+      "mapping_confidence": 0.3824595447083539,
+      "conditions": {
+        "raw_description": "NaBH3CN",
+        "GENERAL_REAGENTS": [
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_26",
+      "reaction_smiles": "CCOC(=O)C[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1.[AlH4-].[Li+]>>C[Si](C)(C)C#C/C=C\\[C@@H]1[C@@H](O)CCC[C@]12CCC[C@@H](CCO)N2",
+      "reaction_smiles_mapped": "CCO[C:21]([CH2:20][C@@H:19]1[CH2:18][CH2:17][CH2:16][C@@:15]2([C@H:9](/[CH:8]=[CH:7]\\[C:6]#[C:5][Si:2]([CH3:1])([CH3:3])[CH3:4])[C@@H:10]([O:11]C(C)=O)[CH2:12][CH2:13][CH2:14]2)[NH:23]1)=[O:22]>[AlH4-].[Li+]>[CH3:1][Si:2]([CH3:3])([CH3:4])[C:5]#[C:6]/[CH:7]=[CH:8]\\[C@@H:9]1[C@@H:10]([OH:11])[CH2:12][CH2:13][CH2:14][C@:15]12[CH2:16][CH2:17][CH2:18][C@@H:19]([CH2:20][CH2:21][OH:22])[NH:23]2",
+      "mapping_confidence": 0.2715622888248824,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_27",
+      "reaction_smiles": "C[Si](C)(C)C#C/C=C\\[C@@H]1[C@@H](O)CCC[C@]12CCC[C@@H](CCO)N2.CC(=O)OC(C)=O.c1ccncc1>>CC(=O)OCC[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1",
+      "reaction_smiles_mapped": "O([C:2]([CH3:1])=[O:3])[C:17]([CH3:18])=[O:19].[OH:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([OH:16])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[C:24][Si:25]([CH3:26])([CH3:27])[CH3:28])[NH:29]1>c1ccncc1>[CH3:1][C:2](=[O:3])[O:4][CH2:5][CH2:6][C@@H:7]1[CH2:8][CH2:9][CH2:10][C@:11]2([CH2:12][CH2:13][CH2:14][C@H:15]([O:16][C:17]([CH3:18])=[O:19])[C@H:20]2/[CH:21]=[CH:22]\\[C:23]#[C:24][Si:25]([CH3:26])([CH3:27])[CH3:28])[NH:29]1",
+      "mapping_confidence": 0.32710418632264043,
+      "conditions": {
+        "raw_description": "Ac2O; pyridine",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_28",
+      "reaction_smiles": "CC(=O)OCC[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C[Si](C)(C)C)N1.[Na+].[OH-].CO>>CC(=O)O[C@H]1CCC[C@]2(CCC[C@@H](CCO)N2)[C@@H]1/C=C\\C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "CC(=O)[O:16][CH2:15][CH2:14][C@@H:13]1[CH2:12][CH2:11][CH2:10][C@:9]2([CH2:8][CH2:7][CH2:6][C@H:5]([O:4][C:2]([CH3:1])=[O:3])[C@H:18]2/[CH:19]=[CH:20]\\[C:21]#[C:22][Si:23]([CH3:24])([CH3:25])[CH3:26])[NH:17]1>CO.[Na+].[OH-]>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][CH2:8][C@:9]2([CH2:10][CH2:11][CH2:12][C@@H:13]([CH2:14][CH2:15][OH:16])[NH:17]2)[C@@H:18]1/[CH:19]=[CH:20]\\[C:21]#[C:22][Si:23]([CH3:24])([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.420043515408373,
+      "conditions": {
+        "raw_description": "NaOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_29",
+      "reaction_smiles": "CC(=O)O[C@H]1CCC[C@]2(CCC[C@@H](CCO)N2)[C@@H]1/C=C\\C#C[Si](C)(C)C.CS(=O)(=O)Cl.CCN(CC)CC.ClCCl>>CC(=O)O[C@H]1CCC[C@]2(CCC[C@@H](CCOS(C)(=O)=O)N2)[C@@H]1/C=C\\C#C[Si](C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][CH2:8][C@:9]2([CH2:10][CH2:11][CH2:12][C@@H:13]([CH2:14][CH2:15][OH:16])[NH:21]2)[C@@H:22]1/[CH:23]=[CH:24]\\[C:25]#[C:26][Si:27]([CH3:28])([CH3:29])[CH3:30].Cl[S:17]([CH3:18])(=[O:19])=[O:20]>CCN(CC)CC.ClCCl>[CH3:1][C:2](=[O:3])[O:4][C@H:5]1[CH2:6][CH2:7][CH2:8][C@:9]2([CH2:10][CH2:11][CH2:12][C@@H:13]([CH2:14][CH2:15][O:16][S:17]([CH3:18])(=[O:19])=[O:20])[NH:21]2)[C@@H:22]1/[CH:23]=[CH:24]\\[C:25]#[C:26][Si:27]([CH3:28])([CH3:29])[CH3:30]",
+      "mapping_confidence": 0.22745927462095872,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_30",
+      "reaction_smiles": "CC(=O)O[C@H]1CCC[C@]2(CCC[C@@H](CCOS(C)(=O)=O)N2)[C@@H]1/C=C\\C#C[Si](C)(C)C.Cl.CCOCC.ClCCl>>C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCOS(C)(=O)=O)[NH2+]2",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19][CH2:20][O:21][S:22]([CH3:23])(=[O:24])=[O:25])[NH:26]2>CCOCC.Cl.ClCCl>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19][CH2:20][O:21][S:22]([CH3:23])(=[O:24])=[O:25])[NH2+:26]2",
+      "mapping_confidence": 0.6306821955407524,
+      "conditions": {
+        "raw_description": "HCl; Et2O; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_31",
+      "reaction_smiles": "C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCOS(C)(=O)=O)[NH2+]2.[Cl-].[Br-].[Li+].CN(C)C=O>>C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCOS(C)(=O)=O)[NH2+]2.[Br-]",
+      "reaction_smiles_mapped": "[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19][CH2:20][O:21][S:22]([CH3:23])(=[O:24])=[O:25])[NH2+:26]2.[Br-:27]>CN(C)C=O.[Cl-].[Li+]>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19][CH2:20][O:21][S:22]([CH3:23])(=[O:24])=[O:25])[NH2+:26]2.[Br-:27]",
+      "mapping_confidence": 0.5886182264648134,
+      "conditions": {
+        "raw_description": "LiBr; DMF",
+        "GENERAL_REAGENTS": [
+          "LiBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_32",
+      "reaction_smiles": "C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCOS(C)(=O)=O)[NH2+]2.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC#N>>C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCP(Br)(c1ccccc1)(c1ccccc1)c1ccccc1)[NH2+]2",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:20][CH2:19][C@@H:18]1[CH2:17][CH2:16][CH2:15][C@@:14]2([C@H:5](/[CH:4]=[CH:3]\\[C:2]#[CH:1])[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13]2)[NH2+:41]1.[P:21]([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)([c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1)[c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1>CC#N>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19][CH2:20][P:21]([Br:22])([c:23]1[cH:24][cH:25][cH:26][cH:27][cH:28]1)([c:29]1[cH:30][cH:31][cH:32][cH:33][cH:34]1)[c:35]1[cH:36][cH:37][cH:38][cH:39][cH:40]1)[NH2+:41]2",
+      "mapping_confidence": 0.2346361190694556,
+      "conditions": {
+        "raw_description": "Ph3P; MeCN",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "Ph3P"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_33",
+      "reaction_smiles": "C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](CCP(Br)(c1ccccc1)(c1ccccc1)c1ccccc1)[NH2+]2.C[Si](C)(C)C#CC=O.[Li]N(C(C)C)C(C)C>>C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](C/C=C\\C#C[Si](C)(C)C)N2",
+      "reaction_smiles_mapped": "BrP(c1ccccc1)(c1ccccc1)(c1ccccc1)[CH2:20][CH2:19][C@@H:18]1[CH2:17][CH2:16][CH2:15][C@@:14]2([C@H:5](/[CH:4]=[CH:3]\\[C:2]#[CH:1])[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13]2)[NH2+:28]1.O=[CH:21][C:22]#[C:23][Si:24]([CH3:25])([CH3:26])[CH3:27]>[Li]N(C(C)C)C(C)C>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[C@@H:5]1[C@@H:6]([O:7][C:8]([CH3:9])=[O:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH2:15][CH2:16][CH2:17][C@@H:18]([CH2:19]/[CH:20]=[CH:21]\\[C:22]#[C:23][Si:24]([CH3:25])([CH3:26])[CH3:27])[NH:28]2",
+      "mapping_confidence": 0.3025308643691721,
+      "conditions": {
+        "raw_description": "LDA; then",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_34",
+      "reaction_smiles": "C#C/C=C\\[C@@H]1[C@@H](OC(C)=O)CCC[C@]12CCC[C@@H](C/C=C\\C#C[Si](C)(C)C)N2.*.[3H]B(C)F>>C#C/C=C\\C[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C)N1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[C:1]#[C:2]/[CH:3]=[CH:4]\\[CH2:5][C@@H:6]1[CH2:7][CH2:8][CH2:9][C@:10]2([CH2:11][CH2:12][CH2:13][C@H:14]([O:15][C:16]([CH3:17])=[O:18])[C@H:19]2/[CH:20]=[CH:21]\\[C:22]#[CH:23])[NH:24]1>*.[3H]B(C)F>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[CH2:5][C@@H:6]1[CH2:7][CH2:8][CH2:9][C@:10]2([CH2:11][CH2:12][CH2:13][C@H:14]([O:15][C:16]([CH3:17])=[O:18])[C@H:19]2/[CH:20]=[CH:21]\\[C:22]#[CH:23])[NH:24]1",
+      "mapping_confidence": 0.941750692899968,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Histrionicotoxin_1985_Kishi_35",
+      "reaction_smiles": "C#C/C=C\\C[C@@H]1CCC[C@]2(CCC[C@H](OC(C)=O)[C@H]2/C=C\\C#C)N1.[Na+].[OH-].CO>>C#C/C=C\\C[C@@H]1CCC[C@]2(CCC[C@H](O)[C@H]2/C=C\\C#C)N1",
+      "reaction_smiles_mapped": "CC(=O)[O:15][C@H:14]1[CH2:13][CH2:12][CH2:11][C@:10]2([CH2:9][CH2:8][CH2:7][C@@H:6]([CH2:5]/[CH:4]=[CH:3]\\[C:2]#[CH:1])[NH:21]2)[C@@H:16]1/[CH:17]=[CH:18]\\[C:19]#[CH:20]>CO.[Na+].[OH-]>[CH:1]#[C:2]/[CH:3]=[CH:4]\\[CH2:5][C@@H:6]1[CH2:7][CH2:8][CH2:9][C@:10]2([CH2:11][CH2:12][CH2:13][C@H:14]([OH:15])[C@H:16]2/[CH:17]=[CH:18]\\[C:19]#[CH:20])[NH:21]1",
+      "mapping_confidence": 0.9771854504634581,
+      "conditions": {
+        "raw_description": "NaOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

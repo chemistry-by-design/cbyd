@@ -1,0 +1,191 @@
+{
+  "background": {
+    "name": "Serratene",
+    "author": "Baran",
+    "year": 2026,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2026, 65, e21852",
+    "doi": "10.1002/anie.202521852"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Serratene_2026_Baran_1",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)[C@H]3CC(=O)O[C@]3(C)CC[C@@H]12.CNOC.[CH3][Al]([CH3])[CH3].ClCCl>>CON(C)C(=O)C[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O",
+      "reaction_smiles_mapped": "[C:5]1(=[O:6])[CH2:7][C@@H:8]2[C@@:9]3([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[C@@H:17]3[CH2:18][CH2:19][C@@:20]2([CH3:21])[O:22]1.[CH3:1][O:2][NH:3][CH3:4]>ClCCl.[CH3][Al]([CH3])[CH3]>[CH3:1][O:2][N:3]([CH3:4])[C:5](=[O:6])[CH2:7][C@@H:8]1[C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[C@@H:17]2[CH2:18][CH2:19][C@@:20]1([CH3:21])[OH:22]",
+      "mapping_confidence": 0.8002914129332982,
+      "conditions": {
+        "raw_description": "AlMe3; MeN(H)OMe; DCM; 92%",
+        "GENERAL_REAGENTS": [
+          "MeN(H)OMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CNOC"
+        ],
+        "CATALYSTS": [
+          "AlMe3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Serratene_2026_Baran_2",
+      "reaction_smiles": "CON(C)C(=O)C[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O.O=S(Cl)Cl.c1ccncc1.ClCCl>>C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC(=O)N(C)OC",
+      "reaction_smiles_mapped": "O[C@:2]1([CH3:1])[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][C:16](=[O:17])[N:18]([CH3:19])[O:20][CH3:21]>ClCCl.O=S(Cl)Cl.c1ccncc1>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][C:16](=[O:17])[N:18]([CH3:19])[O:20][CH3:21]",
+      "mapping_confidence": 0.704211267466925,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine; DCM; -78 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Serratene_2026_Baran_3",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC(=O)N(C)OC.[K+].[OH-].CO.O>>C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC(=O)O",
+      "reaction_smiles_mapped": "CON(C)[C:16]([CH2:15][C@H:14]1[C:2](=[CH2:1])[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@@:12]21[CH3:13])=[O:17].[OH-:18]>CO.O.[K+]>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][C:16](=[O:17])[OH:18]",
+      "mapping_confidence": 0.4063154253187159,
+      "conditions": {
+        "raw_description": "KOH; MeOH; H2O; 80 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Serratene_2026_Baran_4",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC(=O)O.C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC(=O)O.C[N+](C)(C)C.[OH-].CC(C)=O.CCCCCC>>C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC[C@H]1C(=C)CC[C@H]2C(C)(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "O=C(O)[CH2:16][C@H:17]1[C:18](=[CH2:19])[CH2:20][CH2:21][C@H:22]2[C:23]([CH3:24])([CH3:25])[CH2:26][CH2:27][CH2:28][C@:29]12[CH3:30].O=C(O)[CH2:15][C@H:14]1[C:2](=[CH2:1])[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@@:12]21[CH3:13]>CC(C)=O.CCCCCC.C[N+](C)(C)C.[OH-]>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][CH2:16][C@H:17]1[C:18](=[CH2:19])[CH2:20][CH2:21][C@H:22]2[C:23]([CH3:24])([CH3:25])[CH2:26][CH2:27][CH2:28][C@:29]12[CH3:30]",
+      "mapping_confidence": 0.28411265265256613,
+      "conditions": {
+        "raw_description": "Me4NOH; actone/hexane; RVC/RVC 100 mA; 50 ms rAP; 6.0 F/mol; 57%",
+        "GENERAL_REAGENTS": [
+          "Me4NOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+](C)(C)C.[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "hexane"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "CCCCCC"
+        ],
+        "MODIFIERS": [
+          "RVC/RVC 100 mA",
+          "50 ms rAP",
+          "6.0 F/mol"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Serratene_2026_Baran_5",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1CC[C@H]1C(=C)CC[C@H]2C(C)(C)CCC[C@]12C.CCCC[N+](CCCC)(CCCC)CCCC.F[B-](F)(F)F.CC(C)(C)c1cc(/C=N/[C@@H]2CCCC[C@H]2/N=C/c2cc(C(C)(C)C)cc(C(C)(C)C)c2[O-])c([O-])c(C(C)(C)C)c1.[Co+2].OC(C(F)(F)F)C(F)(F)F.CC(C)=O.C1CCOC1>>CC1(C)CCC[C@@]2(C)[C@H]1CC[C@@]1(C)CC3=CC[C@H]4C(C)(C)CCC[C@]4(C)[C@H]3CC[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]2([CH3:8])[C@H:9]1[CH2:10][CH2:11][C:12](=[CH2:13])[C@@H:30]2[CH2:29][CH2:28][C@H:27]1[C:15](=[CH2:14])[CH2:16][CH2:17][C@H:18]2[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][CH2:24][C@@:25]21[CH3:26]>C1CCOC1.CC(C)(C)c1cc(/C=N/[C@@H]2CCCC[C@H]2/N=C/c2cc(C(C)(C)C)cc(C(C)(C)C)c2[O-])c([O-])c(C(C)(C)C)c1.CC(C)=O.CCCC[N+](CCCC)(CCCC)CCCC.F[B-](F)(F)F.OC(C(F)(F)F)C(F)(F)F.[Co+2]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]2([CH3:8])[C@H:9]1[CH2:10][CH2:11][C@@:12]1([CH3:13])[CH2:14][C:15]3=[CH:16][CH2:17][C@H:18]4[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][CH2:24][C@:25]4([CH3:26])[C@H:27]3[CH2:28][CH2:29][C@H:30]21",
+      "mapping_confidence": 0.11915684087302841,
+      "conditions": {
+        "raw_description": "R,R-CoII(cyclohexylsalentBu,tBu); TBA\u00b7BF4; HFIP; acetone/THF; (+)-Zn/(-)-Ni-foam; 53%",
+        "GENERAL_REAGENTS": [
+          "TBA\u00b7BF4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.F[B-](F)(F)F"
+        ],
+        "CATALYSTS": [
+          "R,R-CoII(cyclohexylsalentBu,tBu)"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Co+2].CC(C)(C)c1cc(C(C)(C)C)c([O-])c(/C=N/[C@@H]2CCCC[C@H]2/N=C/c2cc(C(C)(C)C)cc(C(C)(C)C)c2[O-])c1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HFIP",
+          "acetone",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(C(F)(F)F)(C(F)(F)F)O",
+          "CC(=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [
+          "(+)-Zn/(-)-Ni-foam"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    }
+  ]
+}

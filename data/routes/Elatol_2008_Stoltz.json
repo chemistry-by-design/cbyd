@@ -1,0 +1,341 @@
+{
+  "background": {
+    "name": "(+)-Elatol",
+    "author": "Stoltz",
+    "year": 2008,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2008, 130, 810",
+    "doi": "10.1021/ja710294k"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Elatol_2008_Stoltz_1",
+      "reaction_smiles": "CC1(C)CC(=O)CC(=O)C1.Cc1ccc(S(=O)(=O)O)cc1.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.c1ccccc1.CC(C)CO>>CCC(C)OC1=CC(=O)CC(C)(C)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH2:3][OH:5])[CH3:4].O=[C:6]1[CH2:7][C:8](=[O:9])[CH2:10][C:11]([CH3:12])([CH3:13])[CH2:14]1>Cc1ccc(S(=O)(=O)O)cc1.O=C1OCc2c(Cl)c(Cl)c(Cl)c(Cl)c21.c1ccccc1>[CH3:1][CH2:2][CH:3]([CH3:4])[O:5][C:6]1=[CH:7][C:8](=[O:9])[CH2:10][C:11]([CH3:12])([CH3:13])[CH2:14]1",
+      "mapping_confidence": 0.2489563045755903,
+      "conditions": {
+        "raw_description": "iBuOH; TsOH; PhH; 90\u00b0C; 90%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH",
+          "iBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CC(C)CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_2",
+      "reaction_smiles": "CCC(C)OC1=CC(=O)CC(C)(C)C1.C=CC(C)=O.C1CCOC1.[Li]N(C(C)C)C(C)C>>CCC(C)OC1=CC(=O)C(CCC(C)=O)C(C)(C)C1",
+      "reaction_smiles_mapped": "[CH2:11]=[CH:12][C:13]([CH3:14])=[O:15].[CH3:1][CH2:2][CH:3]([CH3:4])[O:5][C:6]1=[CH:7][C:8](=[O:9])[CH2:10][C:16]([CH3:17])([CH3:18])[CH2:19]1>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][CH:3]([CH3:4])[O:5][C:6]1=[CH:7][C:8](=[O:9])[CH:10]([CH2:11][CH2:12][C:13]([CH3:14])=[O:15])[C:16]([CH3:17])([CH3:18])[CH2:19]1",
+      "mapping_confidence": 0.6645714257016242,
+      "conditions": {
+        "raw_description": "LDA; MVK; THF; -78\u00b0C",
+        "GENERAL_REAGENTS": [
+          "MVK",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CC(=O)C",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_3",
+      "reaction_smiles": "CCC(C)OC1=CC(=O)C(CCC(C)=O)C(C)(C)C1.C1CCOC1.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]>>C=C(C)CCC1C(=O)C=C(OC(C)CC)CC1(C)C",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:3])[CH2:4][CH2:5][CH:6]1[C:7](=[O:8])[CH:9]=[C:10]([O:11][CH:12]([CH3:13])[CH2:14][CH3:15])[CH2:16][C:17]1([CH3:18])[CH3:19].c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>C1CCOC1.[Br-]>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH:6]1[C:7](=[O:8])[CH:9]=[C:10]([O:11][CH:12]([CH3:13])[CH2:14][CH3:15])[CH2:16][C:17]1([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.6489558027713636,
+      "conditions": {
+        "raw_description": "Ph3PCH2Br; THF; 0-70\u00b0C; 74% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Ph3PCH2Br"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[P+](c1ccccc1)(c2ccccc2)c3ccccc3.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "70"
+        ],
+        "YIELD": [
+          "74% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_4",
+      "reaction_smiles": "C=C(C)CCC1C(=O)C=C(OC(C)CC)CC1(C)C.C=C(Cl)COC(=O)Cl.CN(C)CCN(C)C.C1CCOC1.[Li]N(C(C)C)C(C)C>>C=C(C)CCC1=C(OC(=O)OCC(=C)Cl)C=C(OC(C)CC)CC1(C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH:6]1[C:7](=[O:8])[CH:16]=[C:17]([O:18][CH:19]([CH3:20])[CH2:21][CH3:22])[CH2:23][C:24]1([CH3:25])[CH3:26].Cl[C:9](=[O:10])[O:11][CH2:12][C:13](=[CH2:14])[Cl:15]>CN(C)CCN(C)C.C1CCOC1.[Li]N(C(C)C)C(C)C>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][C:6]1=[C:7]([O:8][C:9](=[O:10])[O:11][CH2:12][C:13](=[CH2:14])[Cl:15])[CH:16]=[C:17]([O:18][CH:19]([CH3:20])[CH2:21][CH3:22])[CH2:23][C:24]1([CH3:25])[CH3:26]",
+      "mapping_confidence": 0.782017663736767,
+      "conditions": {
+        "raw_description": "1) LDA; 2) TMEDA; THF; -78\u00b0C",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "TMEDA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)CCN(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_5",
+      "reaction_smiles": "C=C(Cl)CO.O=C(Cl)OC(Cl)(Cl)Cl.CCOCC>>C=C(Cl)COC(=O)Cl",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([Cl:3])[CH2:4][OH:5].ClC(Cl)(Cl)O[C:6](=[O:7])[Cl:8]>CCOCC>[CH2:1]=[C:2]([Cl:3])[CH2:4][O:5][C:6](=[O:7])[Cl:8]",
+      "mapping_confidence": 0.9033581698728661,
+      "conditions": {
+        "raw_description": "Et2O; -30\u00b0C to rt; 51%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30",
+          "rt"
+        ],
+        "YIELD": [
+          "51%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_6",
+      "reaction_smiles": "C=C(C)CCC1=C(OC(=O)OCC(=C)Cl)C=C(OC(C)CC)CC1(C)C.CC(C)(C)[C@@H]1COC(c2cc(C(F)(F)F)ccc2P(c2ccc(C(F)(F)F)cc2)c2ccc(C(F)(F)F)cc2)=N1.COc1cc(/C=C/C(=O)/C=C/c2cc(OC)cc(OC)c2)cc(OC)c1.COc1cc(/C=C/C(=O)/C=C/c2cc(OC)cc(OC)c2)cc(OC)c1.[Pd].c1ccccc1>>C=C(C)CC[C@@]1(CC(=C)Cl)C(=O)C=C(OC(C)CC)CC1(C)C",
+      "reaction_smiles_mapped": "O=C(O[CH2:7][C:8](=[CH2:9])[Cl:10])[O:12][C:11]1=[C:6]([CH2:5][CH2:4][C:2](=[CH2:1])[CH3:3])[C:21]([CH3:22])([CH3:23])[CH2:20][C:14]([O:15][CH:16]([CH3:17])[CH2:18][CH3:19])=[CH:13]1>CC(C)(C)[C@@H]1COC(c2cc(C(F)(F)F)ccc2P(c2ccc(C(F)(F)F)cc2)c2ccc(C(F)(F)F)cc2)=N1.COc1cc(/C=C/C(=O)/C=C/c2cc(OC)cc(OC)c2)cc(OC)c1.COc1cc(/C=C/C(=O)/C=C/c2cc(OC)cc(OC)c2)cc(OC)c1.[Pd].c1ccccc1>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][C@@:6]1([CH2:7][C:8](=[CH2:9])[Cl:10])[C:11](=[O:12])[CH:13]=[C:14]([O:15][CH:16]([CH3:17])[CH2:18][CH3:19])[CH2:20][C:21]1([CH3:22])[CH3:23]",
+      "mapping_confidence": 0.6155720727194407,
+      "conditions": {
+        "raw_description": "Pd(dmdba)2; benzene; 11\u00b0C; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd(dmdba)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].COc1cc(OC)cc(\\C=C\\C(=O)/C=C/c2cc(OC)cc(OC)c2)c1.COc3cc(OC)cc(\\C=C\\C(=O)/C=C/c4cc(OC)cc(OC)c4)c3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "11"
+        ],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_7",
+      "reaction_smiles": "C=C(C)CC[C@@]1(CC(=C)Cl)C(=O)C=C(OC(C)CC)CC1(C)C.C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.c1ccccc1>>CCC(C)OC1=CC(=O)[C@]2(CCC(C)=C(Cl)C2)C(C)(C)C1",
+      "reaction_smiles_mapped": "C=[C:13]([CH2:12][CH2:11][C@@:10]1([CH2:17][C:15](=C)[Cl:16])[C:8](=[O:9])[CH:7]=[C:6]([O:5][CH:3]([CH2:2][CH3:1])[CH3:4])[CH2:21][C:18]1([CH3:19])[CH3:20])[CH3:14]>C1CCC([PH+](C2CCCCC2)C2CCCCC2)CC1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2)c(C)c1.c1ccccc1>[CH3:1][CH2:2][CH:3]([CH3:4])[O:5][C:6]1=[CH:7][C:8](=[O:9])[C@:10]2([CH2:11][CH2:12][C:13]([CH3:14])=[C:15]([Cl:16])[CH2:17]2)[C:18]([CH3:19])([CH3:20])[CH2:21]1",
+      "mapping_confidence": 0.30660238862746036,
+      "conditions": {
+        "raw_description": "Grubbs II; benzene; 60\u00b0C; 97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Grubbs II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C.C1CCC(CC1)[PH+](C2CCCCC2)C3CCCCC3"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_8",
+      "reaction_smiles": "CCC(C)OC1=CC(=O)[C@]2(CCC(C)=C(Cl)C2)C(C)(C)C1.[Li]C.Cl.C1CCOC1.Cl[Ce](Cl)Cl>>CC1=CC(=O)CC(C)(C)[C@@]12CCC(C)=C(Cl)C2",
+      "reaction_smiles_mapped": "CCC(C)[O:5][C:4]1=[CH:3][C:2](=O)[C@@:10]2([C:7]([CH3:8])([CH3:9])[CH2:6]1)[CH2:11][CH2:12][C:13]([CH3:14])=[C:15]([Cl:16])[CH2:17]2.[Li][CH3:1]>Cl.C1CCOC1.Cl[Ce](Cl)Cl>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[CH2:6][C:7]([CH3:8])([CH3:9])[C@@:10]12[CH2:11][CH2:12][C:13]([CH3:14])=[C:15]([Cl:16])[CH2:17]2",
+      "mapping_confidence": 0.6692679018642924,
+      "conditions": {
+        "raw_description": "1) MeLi; CeCl3; 2) 10% HCl; THF; -78\u00b0C to rt; 89%",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_9",
+      "reaction_smiles": "CC1=CC(=O)CC(C)(C)[C@@]12CCC(C)=C(Cl)C2.BrBr.Br.CC(=O)O>>CC1=C(Cl)C[C@]2(CC1)C(CBr)=CC(=O)[C@H](Br)C2(C)C",
+      "reaction_smiles_mapped": "[Br:11][Br:16].[CH3:1][C:2]1=[C:3]([Cl:4])[CH2:5][C@:6]2([CH2:7][CH2:8]1)[C:9]([CH3:10])=[CH:12][C:13](=[O:14])[CH2:15][C:17]2([CH3:18])[CH3:19]>Br.CC(=O)O>[CH3:1][C:2]1=[C:3]([Cl:4])[CH2:5][C@:6]2([CH2:7][CH2:8]1)[C:9]([CH2:10][Br:11])=[CH:12][C:13](=[O:14])[C@H:15]([Br:16])[C:17]2([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.17698379112264778,
+      "conditions": {
+        "raw_description": "Br2; HBr/HOAc",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elatol_2008_Stoltz_10",
+      "reaction_smiles": "CC1=C(Cl)C[C@]2(CC1)C(CBr)=CC(=O)[C@H](Br)C2(C)C.CC(C)C[Al+]CC(C)C.[H-].C1CCOC1.CC(C)C[AlH]CC(C)C>>C=C1C[C@H](O)[C@H](Br)C(C)(C)[C@@]12CCC(C)=C(Cl)C2",
+      "reaction_smiles_mapped": "Br[CH2:1][C:2]1=[CH:3][C:4](=[O:5])[C@H:6]([Br:7])[C:8]([CH3:9])([CH3:10])[C@@:11]12[CH2:12][CH2:13][C:14]([CH3:15])=[C:16]([Cl:17])[CH2:18]2>CC(C)C[Al+]CC(C)C.[H-].C1CCOC1.CC(C)C[AlH]CC(C)C>[CH2:1]=[C:2]1[CH2:3][C@H:4]([OH:5])[C@H:6]([Br:7])[C:8]([CH3:9])([CH3:10])[C@@:11]12[CH2:12][CH2:13][C:14]([CH3:15])=[C:16]([Cl:17])[CH2:18]2",
+      "mapping_confidence": 0.7687636553863125,
+      "conditions": {
+        "raw_description": "DIBAL-H; THF; -78-60\u00b0C; 32% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-60"
+        ],
+        "YIELD": [
+          "32% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

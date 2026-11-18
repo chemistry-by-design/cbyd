@@ -1,0 +1,409 @@
+{
+  "background": {
+    "name": "(+/-)-Gymnomitrol",
+    "author": "Paquette",
+    "year": 1979,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1979, 44, 3731",
+    "doi": "10.1021/jo01335a032"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_1",
+      "reaction_smiles": "C[C@]12CC(=O)C[C@@]1(C)CC(=O)C2.OCCO.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>C[C@@]12CC(=O)C[C@]1(C)CC1(C2)OCCO1",
+      "reaction_smiles_mapped": "O=[C:10]1[CH2:9][C@@:7]2([CH3:8])[C@:2]([CH3:1])([CH2:3][C:4](=[O:5])[CH2:6]2)[CH2:11]1.[OH:12][CH2:13][CH2:14][OH:15]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][C@@:2]12[CH2:3][C:4](=[O:5])[CH2:6][C@:7]1([CH3:8])[CH2:9][C:10]1([CH2:11]2)[O:12][CH2:13][CH2:14][O:15]1",
+      "mapping_confidence": 0.46680377169699827,
+      "conditions": {
+        "raw_description": "TsOH; Benzene; reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_2",
+      "reaction_smiles": "C[C@@]12CC(=O)C[C@]1(C)CC1(C2)OCCO1.NN.[K+].[OH-].OCCO>>C[C@@]12CCC[C@]1(C)CC1(C2)OCCO1",
+      "reaction_smiles_mapped": "O=[C:4]1[CH2:3][C@:2]2([CH3:1])[C@:6]([CH3:7])([CH2:5]1)[CH2:8][C:9]1([CH2:10]2)[O:11][CH2:12][CH2:13][O:14]1>NN.[K+].[OH-].OCCO>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[CH2:8][C:9]1([CH2:10]2)[O:11][CH2:12][CH2:13][O:14]1",
+      "mapping_confidence": 0.8683720576017865,
+      "conditions": {
+        "raw_description": "NH2NH2; KOH; Ethylene glycol; reflux; 82%",
+        "GENERAL_REAGENTS": [
+          "NH2NH2",
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_3",
+      "reaction_smiles": "C[C@@]12CCC[C@]1(C)CC1(C2)OCCO1.[OH3+]>>C[C@@]12CCC[C@]1(C)CC(=O)C2",
+      "reaction_smiles_mapped": "C1C[O:10][C:9]2(O1)[CH2:8][C@:6]1([CH3:7])[C@@:2]([CH3:1])([CH2:3][CH2:4][CH2:5]1)[CH2:11]2>[OH3+]>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[CH2:8][C:9](=[O:10])[CH2:11]2",
+      "mapping_confidence": 0.8490701339935913,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_4",
+      "reaction_smiles": "C[C@@]12CCC[C@]1(C)CC(=O)C2.CNc1ccccc1.O=C(O)C(F)(F)F.C1COCCO1>>C=C1C(=O)C[C@]2(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "c1ccc(N[CH3:1])cc1.[CH2:2]1[C:3](=[O:4])[CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH3:12]>O=C(O)C(F)(F)F.C1COCCO1>[CH2:1]=[C:2]1[C:3](=[O:4])[CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][CH2:10][C@:11]12[CH3:12]",
+      "mapping_confidence": 0.5430499129212036,
+      "conditions": {
+        "raw_description": "Dioxane; PhNHCH3\u00b7TFA; 45%",
+        "GENERAL_REAGENTS": [
+          "PhNHCH3\u00b7TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CNc1ccccc1.OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_5",
+      "reaction_smiles": "C=C1C(=O)C[C@]2(C)CCC[C@]12C.C[Si](C)(C)/C=C/C[Mg]Br.CI.CSC.[Cu]Br.CN(C)P(=O)(N(C)C)N(C)C>>C[C@@]12CCC[C@]1(C)[C@](C)(C/C=C/[Si](C)(C)C)C(=O)C2",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[C:8](=[CH2:9])[C:17](=[O:18])[CH2:19]2.Br[Mg][CH2:10]/[CH:11]=[CH:12]/[Si:13]([CH3:14])([CH3:15])[CH3:16]>CI.CSC.[Cu]Br.CN(C)P(=O)(N(C)C)N(C)C>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[C@:8]([CH3:9])([CH2:10]/[CH:11]=[CH:12]/[Si:13]([CH3:14])([CH3:15])[CH3:16])[C:17](=[O:18])[CH2:19]2",
+      "mapping_confidence": 0.3196793623287908,
+      "conditions": {
+        "raw_description": "CuBr\u00b7SMe2; MeI; HMPA; 66%",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [
+          "CuBr\u00b7SMe2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]Br.CSC"
+        ],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_6",
+      "reaction_smiles": "C[C@@]12CCC[C@]1(C)[C@](C)(C/C=C/[Si](C)(C)C)C(=O)C2.O=C(OO)c1cccc(Cl)c1.ClCCl>>C[C@@]12CCC[C@]1(C)[C@](C)(CC1OC1[Si](C)(C)C)C(=O)C2",
+      "reaction_smiles_mapped": "[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[C@:8]([CH3:9])([CH2:10]/[CH:11]=[CH:13]/[Si:14]([CH3:15])([CH3:16])[CH3:17])[C:18](=[O:19])[CH2:20]2.O=C(O[OH:12])c1cccc(Cl)c1>ClCCl>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[C@:8]([CH3:9])([CH2:10][CH:11]1[O:12][CH:13]1[Si:14]([CH3:15])([CH3:16])[CH3:17])[C:18](=[O:19])[CH2:20]2",
+      "mapping_confidence": 0.5328390482625691,
+      "conditions": {
+        "raw_description": "mCPBA; CH2Cl2; 74%",
+        "GENERAL_REAGENTS": [
+          "mCPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_7",
+      "reaction_smiles": "CO.CO.C[C@@]12CCC[C@]1(C)[C@](C)(CC1OC1[Si](C)(C)C)C(=O)C2.O=S(=O)(O)O>>COC(CC[C@]1(C)C(=O)C[C@]2(C)CCC[C@@]21C)OC",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].O[CH3:19].C[Si](C)(C)[CH:3]1[CH:4]([CH2:5][C@:6]2([CH3:7])[C:8](=[O:9])[CH2:10][C@:11]3([CH3:12])[CH2:13][CH2:14][CH2:15][C@:16]23[CH3:17])[O:18]1>O=S(=O)(O)O>[CH3:1][O:2][CH:3]([CH2:4][CH2:5][C@:6]1([CH3:7])[C:8](=[O:9])[CH2:10][C@:11]2([CH3:12])[CH2:13][CH2:14][CH2:15][C@:16]12[CH3:17])[O:18][CH3:19]",
+      "mapping_confidence": 0.5048951472463247,
+      "conditions": {
+        "raw_description": "H2SO4; MeOH; reflux; 74%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_8",
+      "reaction_smiles": "COC(CC[C@]1(C)C(=O)C[C@]2(C)CCC[C@@]21C)OC.CC(=O)O.O>>C[C@@]12CCC[C@]1(C)[C@](C)(CCC=O)C(=O)C2",
+      "reaction_smiles_mapped": "CO[CH:12]([CH2:11][CH2:10][C@@:8]1([CH3:9])[C@:6]2([CH3:7])[C@@:2]([CH3:1])([CH2:3][CH2:4][CH2:5]2)[CH2:16][C:14]1=[O:15])[O:13]C>CC(=O)O.O>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@:6]1([CH3:7])[C@:8]([CH3:9])([CH2:10][CH2:11][CH:12]=[O:13])[C:14](=[O:15])[CH2:16]2",
+      "mapping_confidence": 0.7113191676241275,
+      "conditions": {
+        "raw_description": "H2O; AcOH; 74%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_9",
+      "reaction_smiles": "C[C@@]12CCC[C@]1(C)[C@](C)(CCC=O)C(=O)C2.[K+].[OH-].CO>>CC12CCC[C@@]1(C)[C@H]1C(=O)[C@@]2(C)CCC1O",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C@@:6]1([CH3:7])[CH2:8][C:9](=[O:10])[C@@:11]2([CH3:12])[CH2:13][CH2:14][CH:15]=[O:16]>[K+].[OH-].CO>[CH3:1][C:2]12[CH2:3][CH2:4][CH2:5][C@@:6]1([CH3:7])[C@H:8]1[C:9](=[O:10])[C@@:11]2([CH3:12])[CH2:13][CH2:14][CH:15]1[OH:16]",
+      "mapping_confidence": 0.6943423195683613,
+      "conditions": {
+        "raw_description": "KOH; MeOH; 26%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "26%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_10",
+      "reaction_smiles": "CC12CCC[C@@]1(C)[C@H]1C(=O)[C@@]2(C)CCC1O.O=[Cr](=O)=O.O=S(=O)(O)O.CC(C)=O>>C[C@@]12CCC[C@@]1(C)[C@@H]1C(=O)CC[C@]2(C)C1=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]12[CH2:3][CH2:4][CH2:5][C@@:6]1([CH3:7])[C@@H:8]1[CH:9]([OH:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C:15]1=[O:16]>O=[Cr](=O)=O.O=S(=O)(O)O.CC(C)=O>[CH3:1][C@@:2]12[CH2:3][CH2:4][CH2:5][C@@:6]1([CH3:7])[C@@H:8]1[C:9](=[O:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C:15]1=[O:16]",
+      "mapping_confidence": 0.8524142986988151,
+      "conditions": {
+        "raw_description": "CrO3; H2SO4; Acetone; 89%",
+        "GENERAL_REAGENTS": [
+          "CrO3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Cr](=O)=O",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_11",
+      "reaction_smiles": "C[C@@]12CCC[C@@]1(C)[C@@H]1C(=O)CC[C@]2(C)C1=O.[Li]C>>CC1(O)CC[C@]2(C)C(=O)[C@@H]1[C@]1(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "[C:2]1(=[O:3])[CH2:4][CH2:5][C@:6]2([CH3:7])[C:8](=[O:9])[C@@H:10]1[C@:11]1([CH3:12])[CH2:13][CH2:14][CH2:15][C@@:16]21[CH3:17].[Li][CH3:1]>>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C@:6]2([CH3:7])[C:8](=[O:9])[C@@H:10]1[C@:11]1([CH3:12])[CH2:13][CH2:14][CH2:15][C@@:16]21[CH3:17]",
+      "mapping_confidence": 0.887276931324964,
+      "conditions": {
+        "raw_description": "MeLi; -78\u00b0C; 70%",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_12",
+      "reaction_smiles": "CC1(O)CC[C@]2(C)C(=O)[C@@H]1[C@]1(C)CCC[C@]12C.O=P(Cl)(Cl)Cl.c1ccncc1>>C=C1CC[C@]2(C)C(=O)[C@@H]1[C@]1(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "O[C:2]1([CH3:1])[CH2:3][CH2:4][C@:5]2([CH3:6])[C:7](=[O:8])[C@@H:9]1[C@:10]1([CH3:11])[CH2:12][CH2:13][CH2:14][C@@:15]21[CH3:16]>O=P(Cl)(Cl)Cl.c1ccncc1>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C:7](=[O:8])[C@@H:9]1[C@:10]1([CH3:11])[CH2:12][CH2:13][CH2:14][C@@:15]21[CH3:16]",
+      "mapping_confidence": 0.9689546182200478,
+      "conditions": {
+        "raw_description": "POCl3; Pyridine; reflux; 70%",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gymnomitrol_1979_Paquette_13",
+      "reaction_smiles": "C=C1CC[C@]2(C)C(=O)[C@@H]1[C@]1(C)CCC[C@]12C.[AlH4-].[Li+].C1CCOC1>>C=C1CC[C@]2(C)[C@@H](O)[C@@H]1[C@]1(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C:7](=[O:8])[C@@H:9]1[C@:10]1([CH3:11])[CH2:12][CH2:13][CH2:14][C@@:15]21[CH3:16]>[AlH4-].[Li+].C1CCOC1>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@:5]2([CH3:6])[C@@H:7]([OH:8])[C@@H:9]1[C@:10]1([CH3:11])[CH2:12][CH2:13][CH2:14][C@@:15]21[CH3:16]",
+      "mapping_confidence": 0.9847319885705839,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0\u00b0C; 45%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "45%"
+        ]
+      }
+    }
+  ]
+}

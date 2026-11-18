@@ -1,0 +1,163 @@
+{
+  "background": {
+    "name": "L-Methyldopa",
+    "author": null,
+    "year": 2005,
+    "drug_name": "Aldomet",
+    "manufacturer": "Merck",
+    "citation": "Chirality 2005, 17, S249",
+    "doi": "10.1002/chir.20143"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_1",
+      "reaction_smiles": "COc1cc(C=O)ccc1O.CC[N+](=O)[O-].O=C([O-])[O-].[K+].[K+].Cl.CN>>COc1cc(/C=C(\\C)[N+](=O)[O-])ccc1O",
+      "reaction_smiles_mapped": "[CH2:7]([CH3:8])[N+:9](=[O:10])[O-:11].O=[CH:6][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:14]([OH:15])[cH:13][cH:12]1>O=C([O-])[O-].[K+].[K+].Cl.CN>[CH3:1][O:2][c:3]1[cH:4][c:5](/[CH:6]=[C:7](\\[CH3:8])[N+:9](=[O:10])[O-:11])[cH:12][cH:13][c:14]1[OH:15]",
+      "mapping_confidence": 0.9614020229837109,
+      "conditions": {
+        "raw_description": "K2CO3; MeNH2; HCl",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeNH2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_2",
+      "reaction_smiles": "COc1cc(/C=C(\\C)[N+](=O)[O-])ccc1O.[Cu].Cl.Cl[Fe](Cl)Cl>>COc1cc(CC(C)=O)ccc1O",
+      "reaction_smiles_mapped": "[O-][N+](/[C:7](=[CH:6]/[c:5]1[cH:4][c:3]([O:2][CH3:1])[c:12]([OH:13])[cH:11][cH:10]1)[CH3:8])=[O:9]>[Cu].Cl.Cl[Fe](Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][C:7]([CH3:8])=[O:9])[cH:10][cH:11][c:12]1[OH:13]",
+      "mapping_confidence": 0.7800793816115752,
+      "conditions": {
+        "raw_description": "Cu; HCl aq.; FeCl3; Nef reaction",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Cu",
+          "FeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]",
+          "Cl[Fe](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_3",
+      "reaction_smiles": "COc1cc(CC(C)=O)ccc1O.[C-]#N.[K+].[Cl-].[NH4+]>>[C-]#[N+]C(C)(N)Cc1ccc(O)c(OC)c1",
+      "reaction_smiles_mapped": "O=[C:3]([CH3:4])[CH2:6][c:7]1[cH:8][cH:9][c:10]([OH:11])[c:12]([O:13][CH3:14])[cH:15]1.[C-:1]#[N:2].[NH4+:5]>[K+].[Cl-]>[C-:1]#[N+:2][C:3]([CH3:4])([NH2:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]([OH:11])[c:12]([O:13][CH3:14])[cH:15]1",
+      "mapping_confidence": 0.22475599144004918,
+      "conditions": {
+        "raw_description": "KCN; NH4Cl; Strecker reaction",
+        "GENERAL_REAGENTS": [
+          "KCN",
+          "NH4Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[K+]",
+          "[NH4+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_4",
+      "reaction_smiles": "[C-]#[N+]C(C)(N)Cc1ccc(O)c(OC)c1.CC(=O)OC(C)=O>>COc1cc(CC(C)(C#N)NC(C)=O)ccc1O",
+      "reaction_smiles_mapped": "CC(=O)O[C:12]([CH3:13])=[O:14].[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][C:7]([CH3:8])([N+:10]#[C-:9])[NH2:11])[cH:15][cH:16][c:17]1[OH:18]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][C:7]([CH3:8])([C:9]#[N:10])[NH:11][C:12]([CH3:13])=[O:14])[cH:15][cH:16][c:17]1[OH:18]",
+      "mapping_confidence": 0.6466574837436617,
+      "conditions": {
+        "raw_description": "Ac2O",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_5",
+      "reaction_smiles": "COc1cc(CC(C)(C#N)NC(C)=O)ccc1O>>COc1cc(C[C@](C)(C#N)NC(C)=O)ccc1O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][C:7]([CH3:8])([C:9]#[N:10])[NH:11][C:12]([CH3:13])=[O:14])[cH:15][cH:16][c:17]1[OH:18]>>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH2:6][C@:7]([CH3:8])([C:9]#[N:10])[NH:11][C:12]([CH3:13])=[O:14])[cH:15][cH:16][c:17]1[OH:18]",
+      "mapping_confidence": 0.9939766680706923,
+      "conditions": {
+        "raw_description": "Chiral Resolution",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "L-Methyldopa_2005_Merck_6",
+      "reaction_smiles": "COc1cc(C[C@](C)(C#N)NC(C)=O)ccc1O.Cl>>C[C@@](N)(Cc1ccc(O)c(O)c1)C(=O)O",
+      "reaction_smiles_mapped": "C[O:11][c:10]1[c:8]([OH:9])[cH:7][cH:6][c:5]([CH2:4][C@@:2](C#N)([CH3:1])[NH:3][C:13](C)=[O:14])[cH:12]1>Cl>[CH3:1][C@@:2]([NH2:3])([CH2:4][c:5]1[cH:6][cH:7][c:8]([OH:9])[c:10]([OH:11])[cH:12]1)[C:13](=[O:14])[OH:15]",
+      "mapping_confidence": 0.8934465776315031,
+      "conditions": {
+        "raw_description": "conc. HCl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

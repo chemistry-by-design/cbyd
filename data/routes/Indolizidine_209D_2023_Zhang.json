@@ -1,0 +1,269 @@
+{
+  "background": {
+    "name": "Indolizidine 209D",
+    "author": "Zhang",
+    "year": 2023,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2023, 25, 2058",
+    "doi": "10.1021/acs.orglett.3c00406"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_1",
+      "reaction_smiles": "CCCCCC[C@H](N)C(=O)O.O=S(Cl)Cl.CO>>CCCCCC[C@H](N)C(=O)OC",
+      "reaction_smiles_mapped": "O[C:9]([C@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[NH2:8])=[O:10].[OH:11][CH3:12]>O=S(Cl)Cl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]([NH2:8])[C:9](=[O:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.5763784470427117,
+      "conditions": {
+        "raw_description": "SOCl2; MeOH; reflux; 98%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_2",
+      "reaction_smiles": "CCCCCC[C@H](N)C(=O)OC.COC1CCC(OC)O1.CC(=O)O.O.CC(=O)[O-].[Na+]>>CCCCCC[C@@H](C(=O)OC)n1cccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]([C:8](=[O:9])[O:10][CH3:11])[NH2:12].CO[CH:13]1O[CH:16](OC)[CH2:15][CH2:14]1>CC(=O)O.O.CC(=O)[O-].[Na+]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]([C:8](=[O:9])[O:10][CH3:11])[n:12]1[cH:13][cH:14][cH:15][cH:16]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "AcOH; H2O; NaOAc; 95 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_3",
+      "reaction_smiles": "CCCCCC[C@@H](C(=O)OC)n1cccc1.CC[Mg]Br.C1CCOC1.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]>>CCCCCC[C@H](n1cccc1)C1(O)CC1",
+      "reaction_smiles_mapped": "CO[C:13]([C@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[n:8]1[cH:9][cH:10][cH:11][cH:12]1)=[O:14].Br[Mg][CH2:16][CH3:15]>C1CCOC1.CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]([n:8]1[cH:9][cH:10][cH:11][cH:12]1)[C:13]1([OH:14])[CH2:15][CH2:16]1",
+      "mapping_confidence": 0.3291209496460068,
+      "conditions": {
+        "raw_description": "Ti(OiPr)4; EtMgBr; THF; 0 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "EtMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Mg]Br"
+        ],
+        "CATALYSTS": [
+          "Ti(OiPr)4"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_4",
+      "reaction_smiles": "CCCCCC[C@H](n1cccc1)C1(O)CC1.C1COCCO1.O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Fe+3]>>CCCCCC[C@H]1C(=O)CCc2cccn21",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@@H:7]([C:8]1([OH:9])[CH2:10][CH2:11]1)[n:16]1[cH:12][cH:13][cH:14][cH:15]1>C1COCCO1.O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Fe+3]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[C:8](=[O:9])[CH2:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][n:16]21",
+      "mapping_confidence": 0.6226057408617034,
+      "conditions": {
+        "raw_description": "Fe(NO3)3; dioxane",
+        "GENERAL_REAGENTS": [
+          "Fe(NO3)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[N+]([O-])[O-].O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Fe+3]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_5",
+      "reaction_smiles": "CCCCCC[C@H]1C(=O)CCc2cccn21.[Na+].[BH4-].CO>>CCCCCC[C@H]1[C@@H](O)CCc2cccn21",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[C:8](=[O:9])[CH2:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][n:16]21>[Na+].[BH4-].CO>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[C@@H:8]([OH:9])[CH2:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][n:16]21",
+      "mapping_confidence": 0.9840315873053933,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; -60 \u00b0C; 71% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-60"
+        ],
+        "YIELD": [
+          "71% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_6",
+      "reaction_smiles": "CCCCCC[C@H]1[C@@H](O)CCc2cccn21.CCN(CC)CC.ClCCl.CS(=O)(=O)Cl>>CCCCCC[C@H]1[C@H](OS(C)(=O)=O)CCc2cccn21",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[C@@H:8]([OH:9])[CH2:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][n:20]21.Cl[S:10]([CH3:11])(=[O:12])=[O:13]>CCN(CC)CC.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[C@H:8]([O:9][S:10]([CH3:11])(=[O:12])=[O:13])[CH2:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][n:20]21",
+      "mapping_confidence": 0.5253923543854755,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; DCM; 74%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_7",
+      "reaction_smiles": "CCCCCC[C@H]1[C@H](OS(C)(=O)=O)CCc2cccn21.CC(C)C[Al+]CC(C)C.[H-].Cc1ccccc1.CC(C)C[AlH]CC(C)C>>CCCCCC[C@H]1CCCc2cccn21",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[C@H:8]1[C@H:7]([CH2:6][CH2:5][CH2:4][CH2:3][CH2:2][CH3:1])[n:15]2[c:11]([cH:12][cH:13][cH:14]2)[CH2:10][CH2:9]1>CC(C)C[Al+]CC(C)C.[H-].Cc1ccccc1.CC(C)C[AlH]CC(C)C>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][CH2:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][n:15]21",
+      "mapping_confidence": 0.9654572663890695,
+      "conditions": {
+        "raw_description": "DIBAL-H; toluene; 110 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Indolizidine_209D_2023_Zhang_8",
+      "reaction_smiles": "CCCCCC[C@H]1CCCc2cccn21.[Pd].CC(=O)O.[HH].[C].[Pd]>>CCCCCC[C@H]1CCC[C@H]2CCCN12",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][CH2:9][CH2:10][c:11]2[cH:12][cH:13][cH:14][n:15]21>[Pd].[Pd].CC(=O)O.[HH].[C]>[CH3:1][CH2:2][CH2:3][CH2:4][CH2:5][CH2:6][C@H:7]1[CH2:8][CH2:9][CH2:10][C@H:11]2[CH2:12][CH2:13][CH2:14][N:15]12",
+      "mapping_confidence": 0.9857762026697657,
+      "conditions": {
+        "raw_description": "H2; Pd/C; AcOH; 73%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    }
+  ]
+}

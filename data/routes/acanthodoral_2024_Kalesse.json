@@ -1,0 +1,467 @@
+{
+  "background": {
+    "name": "(+/-)-acanthodoral",
+    "author": "Kalesse",
+    "year": 2024,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2024, 26, 2893",
+    "doi": "10.1021/acs.orglett.3c03717"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_1",
+      "reaction_smiles": "COc1cccc(CC(=O)O)c1.[AlH4-].[Li+].C1CCOC1>>COc1cccc(CCO)c1",
+      "reaction_smiles_mapped": "O=[C:9]([CH2:8][c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[cH:11]1)[OH:10]>C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH2:8][CH2:9][OH:10])[cH:11]1",
+      "mapping_confidence": 0.6801878199308156,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C; 98%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_2",
+      "reaction_smiles": "COc1cccc(CCO)c1.BrC(Br)(Br)Br.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>COc1cccc(CCBr)c1",
+      "reaction_smiles_mapped": "BrC(Br)(Br)[Br:10].O[CH2:9][CH2:8][c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[cH:11]1>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH2:8][CH2:9][Br:10])[cH:11]1",
+      "mapping_confidence": 0.27152351759375165,
+      "conditions": {
+        "raw_description": "CBr4; PPh3; DCM; 0 \u00b0C to rt; 96%",
+        "GENERAL_REAGENTS": [
+          "CBr4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Br)(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_3",
+      "reaction_smiles": "COc1cccc(CCBr)c1.CC1(C)CO1.[Mg].[C-]#N.[Cu+].C1CCOC1>>COc1cccc(CCCC(C)(C)O)c1",
+      "reaction_smiles_mapped": "[CH2:10]1[C:11]([CH3:12])([CH3:13])[O:14]1.Br[CH2:9][CH2:8][c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[cH:15]1>C1CCOC1.[C-]#N.[Cu+].[Mg]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][c:7]([CH2:8][CH2:9][CH2:10][C:11]([CH3:12])([CH3:13])[OH:14])[cH:15]1",
+      "mapping_confidence": 0.6285751687725977,
+      "conditions": {
+        "raw_description": "Mg; CuCN; THF; rt to -20 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Mg",
+          "CuCN"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Mg]",
+          "[C-]#N.[Cu+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "-20"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_4",
+      "reaction_smiles": "COc1cccc(CCCC(C)(C)O)c1.O=P(O)(O)OP(=O)(O)O>>COc1ccc2c(c1)CCCC2(C)C",
+      "reaction_smiles_mapped": "O[C:12]([CH2:11][CH2:10][CH2:9][c:7]1[cH:6][cH:5][cH:4][c:3]([O:2][CH3:1])[cH:8]1)([CH3:13])[CH3:14]>O=P(O)(O)OP(=O)(O)O>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[CH2:9][CH2:10][CH2:11][C:12]2([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.6865679920256172,
+      "conditions": {
+        "raw_description": "PPA; 18 \u00b0C; 70%",
+        "GENERAL_REAGENTS": [
+          "PPA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OP(=O)(O)OP(=O)(O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "18"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_5",
+      "reaction_smiles": "COc1ccc2c(c1)CCCC2(C)C.[Li].N.CC(C)(C)O>>COC1=CCC2=C(CCCC2(C)C)C1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:14]1)[CH2:8][CH2:9][CH2:10][C:11]2([CH3:12])[CH3:13]>CC(C)(C)O.N.[Li]>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][C:6]2=[C:7]([CH2:8][CH2:9][CH2:10][C:11]2([CH3:12])[CH3:13])[CH2:14]1",
+      "mapping_confidence": 0.8046304722862355,
+      "conditions": {
+        "raw_description": "Li; NH3; t-BuOH; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NH3",
+          "Li"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N",
+          "[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_6",
+      "reaction_smiles": "COC1=CCC2=C(CCCC2(C)C)C1.O=S(=O)(O)O.C1CCOC1>>CC1(C)CCCC2=CC(=O)CCC21",
+      "reaction_smiles_mapped": "C[O:10][C:9]1=[CH:11][CH2:12][C:13]2=[C:7]([CH2:6][CH2:5][CH2:4][C:2]2([CH3:1])[CH3:3])[CH2:8]1>C1CCOC1.O=S(=O)(O)O>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C:7]2=[CH:8][C:9](=[O:10])[CH2:11][CH2:12][CH:13]12",
+      "mapping_confidence": 0.788756944652387,
+      "conditions": {
+        "raw_description": "H2SO4; THF; 70 \u00b0C; 83% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_7",
+      "reaction_smiles": "CC1(C)CCCC2=CC(=O)CCC21.C=C=C.CO>>C=C1C[C@]23CCCC(C)(C)[C@@H]2CCC(=O)C13",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]=[CH2:3].[C:4]12=[CH:16][C:14](=[O:15])[CH2:13][CH2:12][CH:11]1[C:8]([CH3:9])([CH3:10])[CH2:7][CH2:6][CH2:5]2>CO>[CH2:1]=[C:2]1[CH2:3][C@:4]23[CH2:5][CH2:6][CH2:7][C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][C:14](=[O:15])[CH:16]13",
+      "mapping_confidence": 0.6232130621397955,
+      "conditions": {
+        "raw_description": "allene; h\u03bd; MeOH; -77 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "allene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=C=C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-77"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_8",
+      "reaction_smiles": "C=C1C[C@]23CCCC(C)(C)[C@@H]2CCC(=O)C13.CCCC[N+](CCCC)(CCCC)CCCC.[Br-].I[Sm]I.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>C=C1C[C@]23CCCC(C)(C)[C@@H]2CC[C@@]1(O)C3",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][C@:4]23[CH2:5][CH2:6][CH2:7][C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][C:14](=[O:15])[CH:16]13>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.CN(C)P(=O)(N(C)C)N(C)C.I[Sm]I.[Br-]>[CH2:1]=[C:2]1[CH2:3][C@:4]23[CH2:5][CH2:6][CH2:7][C:8]([CH3:9])([CH3:10])[C@@H:11]2[CH2:12][CH2:13][C@@:14]1([OH:15])[CH2:16]3",
+      "mapping_confidence": 0.8022927090809839,
+      "conditions": {
+        "raw_description": "SmI2; TBABr; HMPA; THF; reflux; 79%",
+        "GENERAL_REAGENTS": [
+          "TBABr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [
+          "SmI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "I[Sm]I"
+        ],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_9",
+      "reaction_smiles": "C=C1C[C@]23CCCC(C)(C)[C@@H]2CC[C@@]1(O)C3.Cl.CO>>CC1(C)CCC[C@]23CC(=O)[C@](C)(CC[C@@H]12)C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:16][C:11](=[CH2:12])[C@@:9]([OH:10])([CH2:13][CH2:14][C@@H:15]12)[CH2:8]3>CO.Cl>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]23[CH2:8][C:9](=[O:10])[C@:11]([CH3:12])([CH2:13][CH2:14][C@@H:15]12)[CH2:16]3",
+      "mapping_confidence": 0.5571067823148171,
+      "conditions": {
+        "raw_description": "HCl; MeOH; reflux; 76%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_10",
+      "reaction_smiles": "CC1(C)CCC[C@]23CC(=O)[C@](C)(CC[C@@H]12)C3.CC(C)CCON=O.CC(C)(C)O[K].C1CCOC1>>CC1(C)CCC[C@@]23C[C@@](C)(CC[C@@H]12)C(=O)/C3=N/O",
+      "reaction_smiles_mapped": "CC(C)CCO[N:17]=[O:18].[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C@@:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C:14](=[O:15])[CH2:16]3>C1CCOC1.CC(C)(C)O[K]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C@@:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C:14](=[O:15])/[C:16]3=[N:17]/[OH:18]",
+      "mapping_confidence": 0.5212814580216769,
+      "conditions": {
+        "raw_description": "KOtBu; THF; -78 \u00b0C to rt; 55%",
+        "GENERAL_REAGENTS": [
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_11",
+      "reaction_smiles": "CC1(C)CCC[C@@]23C[C@@](C)(CC[C@@H]12)C(=O)/C3=N/O.[Na+].[O-]Cl.N>>CC1(C)CCC[C@@]23C[C@@](C)(CC[C@@H]12)C(=O)C3=[N+]=[N-]",
+      "reaction_smiles_mapped": "O/[N:17]=[C:16]1\\[C@@:7]23[CH2:6][CH2:5][CH2:4][C:2]([CH3:1])([CH3:3])[C@@H:13]2[CH2:12][CH2:11][C@:9]([CH3:10])([CH2:8]3)[C:14]1=[O:15].[NH3:18]>[Na+].[O-]Cl>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C@@:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C:14](=[O:15])[C:16]3=[N+:17]=[N-:18]",
+      "mapping_confidence": 0.7874352434023222,
+      "conditions": {
+        "raw_description": "NaOCl; NH3; 0 \u00b0C; 57%",
+        "GENERAL_REAGENTS": [
+          "NaOCl",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]Cl.[Na+]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "57%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_12",
+      "reaction_smiles": "CC1(C)CCC[C@@]23C[C@@](C)(CC[C@@H]12)C(=O)C3=[N+]=[N-].CO>>COC(=O)[C@@H]1C2(C)CC[C@H]3C(C)(C)CCC[C@]13C2",
+      "reaction_smiles_mapped": "[N-]=[N+]=[C:5]1[C:3](=[O:4])[C@:6]2([CH3:7])[CH2:8][CH2:9][C@H:10]3[C:11]([CH3:12])([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]13[CH2:18]2.[CH3:1][OH:2]>>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6]2([CH3:7])[CH2:8][CH2:9][C@H:10]3[C:11]([CH3:12])([CH3:13])[CH2:14][CH2:15][CH2:16][C@:17]13[CH2:18]2",
+      "mapping_confidence": 0.7382098677392364,
+      "conditions": {
+        "raw_description": "h\u03bd; MeOH; -77 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-77"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_13",
+      "reaction_smiles": "COC(=O)[C@@H]1C2(C)CC[C@H]3C(C)(C)CCC[C@]13C2.[AlH4-].[Li+].CCOCC>>CC1(C)CCC[C@@]23CC(C)(CC[C@@H]12)[C@H]3CO",
+      "reaction_smiles_mapped": "CO[C:15]([C@H:14]1[C@@:7]23[CH2:6][CH2:5][CH2:4][C:2]([CH3:1])([CH3:3])[C@@H:13]2[CH2:12][CH2:11][C:9]1([CH3:10])[CH2:8]3)=[O:16]>CCOCC.[AlH4-].[Li+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C@H:14]3[CH2:15][OH:16]",
+      "mapping_confidence": 0.6370226661965848,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 0 \u00b0C to rt; 82%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "acanthodoral_2024_Kalesse_14",
+      "reaction_smiles": "CC1(C)CCC[C@@]23CC(C)(CC[C@@H]12)[C@H]3CO.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>CC1(C)CCC[C@@]23CC(C)(CC[C@@H]12)[C@H]3C=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C@H:14]3[CH2:15][OH:16]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O=C([O-])O.[Na+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]23[CH2:8][C:9]([CH3:10])([CH2:11][CH2:12][C@@H:13]12)[C@H:14]3[CH:15]=[O:16]",
+      "mapping_confidence": 0.915943882140185,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; DCM; 0 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    }
+  ]
+}

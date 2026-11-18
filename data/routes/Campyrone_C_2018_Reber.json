@@ -1,0 +1,165 @@
+{
+  "background": {
+    "name": "Campyrone C",
+    "author": "Reber",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Nat. Prod. 2018, 81, 292",
+    "doi": "10.1021/acs.jnatprod.7b00720"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Campyrone_C_2018_Reber_1",
+      "reaction_smiles": "CC(C)[C@H](NC(=O)OC(C)(C)C)C(=O)O.CC(C)COC(=O)Cl.c1ccc2n[nH]nc2c1.C1CCOC1.CN1CCOCC1>>CC(C)[C@H](NC(=O)OC(C)(C)C)C(=O)n1nnc2ccccc21",
+      "reaction_smiles_mapped": "O[C:13]([C@H:4]([CH:2]([CH3:1])[CH3:3])[NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])=[O:14].[n:15]1[nH:16][n:17][c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]12>C1CCOC1.CC(C)COC(=O)Cl.CN1CCOCC1>[CH3:1][CH:2]([CH3:3])[C@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[C:13](=[O:14])[n:15]1[n:16][n:17][c:18]2[cH:19][cH:20][cH:21][cH:22][c:23]12",
+      "mapping_confidence": 0.28632723282395206,
+      "conditions": {
+        "raw_description": "NMM; Benzotriazole; THF; 64%",
+        "GENERAL_REAGENTS": [
+          "Benzotriazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC2=NNN=C2C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "NMM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN1CCOCC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "NMM, Benzotriazole, THF, , 64%, CC(C)COC(=O)Cl"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Campyrone_C_2018_Reber_2",
+      "reaction_smiles": "CC(C)[C@H](NC(=O)OC(C)(C)C)C(=O)n1nnc2ccccc21.CC1=CC(=O)OC(C)(C)O1.[Li]N(C(C)C)C(C)C.C1CCOC1>>CC(C)[C@H](NC(=O)OC(C)(C)C)C(=O)CC1=CC(=O)OC(C)(C)O1",
+      "reaction_smiles_mapped": "c1ccc2c(c1)nnn2[C:13]([C@H:4]([CH:2]([CH3:1])[CH3:3])[NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])=[O:14].[CH3:15][C:16]1=[CH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[O:24]1>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH:2]([CH3:3])[C@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[C:13](=[O:14])[CH2:15][C:16]1=[CH:17][C:18](=[O:19])[O:20][C:21]([CH3:22])([CH3:23])[O:24]1",
+      "mapping_confidence": 0.22907511524345336,
+      "conditions": {
+        "raw_description": "LDA; THF; 68%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "LDA, THF, , 68%, CC1=CC(=O)OC(C)(C)O1"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Campyrone_C_2018_Reber_3",
+      "reaction_smiles": "CC(C)[C@H](NC(=O)OC(C)(C)C)C(=O)CC1=CC(=O)OC(C)(C)O1.Cc1ccccc1>>CC(C)[C@H](NC(=O)OC(C)(C)C)c1cc(O)cc(=O)o1",
+      "reaction_smiles_mapped": "CC1(C)[O:16][C:15]([CH2:14][C:13](=O)[C@H:4]([CH:2]([CH3:1])[CH3:3])[NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])=[CH:17][C:18](=[O:19])[O:20]1>Cc1ccccc1>[CH3:1][CH:2]([CH3:3])[C@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[c:13]1[cH:14][c:15]([OH:16])[cH:17][c:18](=[O:19])[o:20]1",
+      "mapping_confidence": 0.25879258435642205,
+      "conditions": {
+        "raw_description": "toluene; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Campyrone_C_2018_Reber_4",
+      "reaction_smiles": "CC(C)[C@H](NC(=O)OC(C)(C)C)c1cc(O)cc(=O)o1.COS(=O)(=O)c1ccc(C)cc1.O=C([O-])[O-].[K+].[K+].CC#N>>COc1cc([C@@H](NC(=O)OC(C)(C)C)C(C)C)oc(=O)c1",
+      "reaction_smiles_mapped": "[OH:2][c:3]1[cH:4][c:5]([C@@H:6]([NH:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17])[o:18][c:19](=[O:20])[cH:21]1.Cc1ccc(S(=O)(=O)O[CH3:1])cc1>CC#N.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][c:3]1[cH:4][c:5]([C@@H:6]([NH:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[CH:15]([CH3:16])[CH3:17])[o:18][c:19](=[O:20])[cH:21]1",
+      "mapping_confidence": 0.24496204245010483,
+      "conditions": {
+        "raw_description": "MeOTs; K2CO3; CH3CN; 63%",
+        "GENERAL_REAGENTS": [
+          "MeOTs",
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)OC",
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "p-TSA, K2CO3, CH3CN, , , 63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Campyrone_C_2018_Reber_5",
+      "reaction_smiles": "COc1cc([C@@H](NC(=O)OC(C)(C)C)C(C)C)oc(=O)c1.ClCCl.O=C(O)C(F)(F)F.CC(=O)OC(C)=O.CCN(CC)CC>>COc1cc([C@@H](NC(C)=O)C(C)C)oc(=O)c1",
+      "reaction_smiles_mapped": "CC(=O)O[C:8](=[O:10])[CH3:9].CC(C)(C)OC([NH:7][C@H:6]([c:5]1[cH:4][c:3]([O:2][CH3:1])[cH:17][c:15](=[O:16])[o:14]1)[CH:11]([CH3:12])[CH3:13])=O>CCN(CC)CC.ClCCl.O=C(O)C(F)(F)F>[CH3:1][O:2][c:3]1[cH:4][c:5]([C@@H:6]([NH:7][C:8]([CH3:9])=[O:10])[CH:11]([CH3:12])[CH3:13])[o:14][c:15](=[O:16])[cH:17]1",
+      "mapping_confidence": 0.2959934363336232,
+      "conditions": {
+        "raw_description": "1) TFA; DCM; 2) Ac2O; NEt3; 81%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "Ac2O",
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CC(=O)OC(=O)C",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "TFA, DCM,, then Ac2O, NEt3, , 81%"
+        ]
+      }
+    }
+  ]
+}

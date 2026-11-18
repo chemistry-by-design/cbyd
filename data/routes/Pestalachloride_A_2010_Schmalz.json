@@ -1,0 +1,406 @@
+{
+  "background": {
+    "name": "(+/-)-Pestalachloride A",
+    "author": "Schmalz",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2010, 49, 7588",
+    "doi": "10.1002/anie.201003755"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_1",
+      "reaction_smiles": "Cc1cc(O)cc(O)c1.O=S(=O)(Cl)Cl.ClC(Cl)Cl.CC#N>>Cc1c(Cl)c(O)cc(O)c1Cl",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][c:5]([OH:6])[cH:7][c:8]([OH:9])[cH:10]1.O=S(=O)([Cl:4])[Cl:11]>ClC(Cl)Cl.CC#N>[CH3:1][c:2]1[c:3]([Cl:4])[c:5]([OH:6])[cH:7][c:8]([OH:9])[c:10]1[Cl:11]",
+      "mapping_confidence": 0.15510467637048048,
+      "conditions": {
+        "raw_description": "SO2Cl2; CHCl3/MeCN",
+        "GENERAL_REAGENTS": [
+          "SO2Cl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_2",
+      "reaction_smiles": "Cc1c(Cl)c(O)cc(O)c1Cl.BrBr.CC#N>>Cc1c(Cl)c(O)c(Br)c(O)c1Cl",
+      "reaction_smiles_mapped": "Br[Br:8].[CH3:1][c:2]1[c:3]([Cl:4])[c:5]([OH:6])[cH:7][c:9]([OH:10])[c:11]1[Cl:12]>CC#N>[CH3:1][c:2]1[c:3]([Cl:4])[c:5]([OH:6])[c:7]([Br:8])[c:9]([OH:10])[c:11]1[Cl:12]",
+      "mapping_confidence": 0.40556313520290743,
+      "conditions": {
+        "raw_description": "Br2; MeCN",
+        "GENERAL_REAGENTS": [
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_3",
+      "reaction_smiles": "Cc1c(Cl)c(O)c(Br)c(O)c1Cl.[H-].[Na+].COS(=O)(=O)OC.CN(C)C=O>>COc1c(Cl)c(C)c(Cl)c(OC)c1Br",
+      "reaction_smiles_mapped": "O=S(=O)(O[CH3:1])O[CH3:12].[OH:2][c:3]1[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]([OH:11])[c:13]1[Br:14]>[H-].[Na+].CN(C)C=O>[CH3:1][O:2][c:3]1[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]([O:11][CH3:12])[c:13]1[Br:14]",
+      "mapping_confidence": 0.44170160440303424,
+      "conditions": {
+        "raw_description": "NaH; Me2SO4; DMF; 83% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "Me2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "COS(=O)(=O)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_4",
+      "reaction_smiles": "COc1cc(C=O)cc(OC)c1.O=C1CCC(=O)N1Br.CC#N>>COc1cc(OC)c(Br)c(C=O)c1Br",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[cH:8][c:10]([CH:11]=[O:12])[cH:13]1.O=C1CCC(=O)N1[Br:9]>CC#N>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]([Br:9])[c:10]([CH:11]=[O:12])[c:13]1[Br:14]",
+      "mapping_confidence": 0.533800589811913,
+      "conditions": {
+        "raw_description": "NBS; MeCN; 91%",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_5",
+      "reaction_smiles": "COc1c(Cl)c(C)c(Cl)c(OC)c1Br.COc1cc(OC)c(Br)c(C=O)c1Br.[Li]CCCC.CC1CCCO1>>COc1cc(OC)c(Br)c(C(O)c2c(OC)c(Cl)c(C)c(Cl)c2OC)c1Br",
+      "reaction_smiles_mapped": "Br[c:13]1[c:14]([O:15][CH3:16])[c:17]([Cl:18])[c:19]([CH3:20])[c:21]([Cl:22])[c:23]1[O:24][CH3:25].[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]([Br:9])[c:10]([CH:11]=[O:12])[c:26]1[Br:27]>[Li]CCCC.CC1CCCO1>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]([Br:9])[c:10]([CH:11]([OH:12])[c:13]2[c:14]([O:15][CH3:16])[c:17]([Cl:18])[c:19]([CH3:20])[c:21]([Cl:22])[c:23]2[O:24][CH3:25])[c:26]1[Br:27]",
+      "mapping_confidence": 0.6380023644939647,
+      "conditions": {
+        "raw_description": "BuLi; 2-Me-THF; -35\u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "2-Me-THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1CCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-35"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_6",
+      "reaction_smiles": "COc1cc(OC)c(Br)c(C(O)c2c(OC)c(Cl)c(C)c(Cl)c2OC)c1Br.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>COc1cc(OC)c(Br)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OC)c1Br",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]([Br:9])[c:10]([CH:11]([OH:12])[c:13]2[c:14]([O:15][CH3:16])[c:17]([Cl:18])[c:19]([CH3:20])[c:21]([Cl:22])[c:23]2[O:24][CH3:25])[c:26]1[Br:27]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]([Br:9])[c:10]([C:11](=[O:12])[c:13]2[c:14]([O:15][CH3:16])[c:17]([Cl:18])[c:19]([CH3:20])[c:21]([Cl:22])[c:23]2[O:24][CH3:25])[c:26]1[Br:27]",
+      "mapping_confidence": 0.872439045185956,
+      "conditions": {
+        "raw_description": "DMP; DCM; 88%; Dess-Martin oxidation",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "Dess-Martin"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "CC(=O)OI1(C2=CC=CC=C2C(=O)O1)(OC(=O)C)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_7",
+      "reaction_smiles": "COc1cc(OC)c(Br)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OC)c1Br.BrB(Br)Br.ClCCl>>COc1c(Cl)c(C)c(Cl)c(O)c1C(=O)c1c(Br)c(O)cc(O)c1Br",
+      "reaction_smiles_mapped": "C[O:11][c:10]1[c:8]([Cl:9])[c:6]([CH3:7])[c:4]([Cl:5])[c:3]([O:2][CH3:1])[c:12]1[C:13](=[O:14])[c:15]1[c:16]([Br:17])[c:18]([O:19]C)[cH:20][c:21]([O:22]C)[c:23]1[Br:24]>BrB(Br)Br.ClCCl>[CH3:1][O:2][c:3]1[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]([OH:11])[c:12]1[C:13](=[O:14])[c:15]1[c:16]([Br:17])[c:18]([OH:19])[cH:20][c:21]([OH:22])[c:23]1[Br:24]",
+      "mapping_confidence": 0.46926533567454465,
+      "conditions": {
+        "raw_description": "BBr3; DCM; 97%",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_8",
+      "reaction_smiles": "COc1c(Cl)c(C)c(Cl)c(O)c1C(=O)c1c(Br)c(O)cc(O)c1Br.COCOC.COCOC.CC(=O)Cl.CCN(C(C)C)C(C)C.Br[Zn]Br.ClCCl>>COCOc1cc(OCOC)c(Br)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1Br",
+      "reaction_smiles_mapped": "O([CH3:3])[CH2:9][O:10][CH3:11].[CH3:1][O:2][CH2:29][O:30][CH3:31].[OH:4][c:5]1[cH:6][c:7]([OH:8])[c:12]([Br:13])[c:14]([C:15](=[O:16])[c:17]2[c:18]([O:19][CH3:20])[c:21]([Cl:22])[c:23]([CH3:24])[c:25]([Cl:26])[c:27]2[OH:28])[c:32]1[Br:33]>Br[Zn]Br.CC(=O)Cl.CCN(C(C)C)C(C)C.ClCCl>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([O:8][CH2:9][O:10][CH3:11])[c:12]([Br:13])[c:14]([C:15](=[O:16])[c:17]2[c:18]([O:19][CH3:20])[c:21]([Cl:22])[c:23]([CH3:24])[c:25]([Cl:26])[c:27]2[O:28][CH2:29][O:30][CH3:31])[c:32]1[Br:33]",
+      "mapping_confidence": 0.022885094146352015,
+      "conditions": {
+        "raw_description": "AcCl; CH2(OMe)2; ZnBr2; DIPEA; DCM; 84%",
+        "GENERAL_REAGENTS": [
+          "AcCl",
+          "DIPEA",
+          "CH2(OMe)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)Cl",
+          "CCN(C(C)C)C(C)C",
+          "COCOC"
+        ],
+        "CATALYSTS": [
+          "ZnBr2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn](Br)Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_9",
+      "reaction_smiles": "COCOc1cc(OCOC)c(Br)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1Br.[C-]#N.[Cu+].[Li+].[Cl-].C1CCOC1.[Li]c1ccccc1.CC=C(C)CBr>>COCOc1cc(OCOC)c(CC=C(C)C)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1Br",
+      "reaction_smiles_mapped": "Br[CH2:17][C:15](=[CH:14][CH3:13])[CH3:16].Br[c:12]1[c:7]([O:8][CH2:9][O:10][CH3:11])[cH:6][c:5]([O:4][CH2:3][O:2][CH3:1])[c:36]([Br:37])[c:18]1[C:19](=[O:20])[c:21]1[c:22]([O:23][CH3:24])[c:25]([Cl:26])[c:27]([CH3:28])[c:29]([Cl:30])[c:31]1[O:32][CH2:33][O:34][CH3:35]>[C-]#N.[Cu+].[Li+].[Cl-].C1CCOC1.[Li]c1ccccc1>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([O:8][CH2:9][O:10][CH3:11])[c:12]([CH2:13][CH:14]=[C:15]([CH3:16])[CH3:17])[c:18]([C:19](=[O:20])[c:21]2[c:22]([O:23][CH3:24])[c:25]([Cl:26])[c:27]([CH3:28])[c:29]([Cl:30])[c:31]2[O:32][CH2:33][O:34][CH3:35])[c:36]1[Br:37]",
+      "mapping_confidence": 0.7115647583399097,
+      "conditions": {
+        "raw_description": "1) PhLi; 2) CuCN\u00b7LiCl; prenylBr; THF; -78\u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "PhLi",
+          "prenylBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]c1ccccc1",
+          "CC=C(C)CBr"
+        ],
+        "CATALYSTS": [
+          "CuCN\u00b7LiCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#N.[Cu+].[Li+].[Cl-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_10",
+      "reaction_smiles": "COCOc1cc(OCOC)c(CC=C(C)C)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1Br.[Li]CCCC.[Li+].[Cl-].C1CCOC1.CCOC=O>>COCOc1cc(OCOC)c(CC=C(C)C)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1C=O",
+      "reaction_smiles_mapped": "CCO[CH:37]=[O:38].Br[c:36]1[c:5]([O:4][CH2:3][O:2][CH3:1])[cH:6][c:7]([O:8][CH2:9][O:10][CH3:11])[c:12]([CH2:13][CH:14]=[C:15]([CH3:16])[CH3:17])[c:18]1[C:19](=[O:20])[c:21]1[c:22]([O:23][CH3:24])[c:25]([Cl:26])[c:27]([CH3:28])[c:29]([Cl:30])[c:31]1[O:32][CH2:33][O:34][CH3:35]>[Li]CCCC.[Li+].[Cl-].C1CCOC1>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([O:8][CH2:9][O:10][CH3:11])[c:12]([CH2:13][CH:14]=[C:15]([CH3:16])[CH3:17])[c:18]([C:19](=[O:20])[c:21]2[c:22]([O:23][CH3:24])[c:25]([Cl:26])[c:27]([CH3:28])[c:29]([Cl:30])[c:31]2[O:32][CH2:33][O:34][CH3:35])[c:36]1[CH:37]=[O:38]",
+      "mapping_confidence": 0.7608177045321982,
+      "conditions": {
+        "raw_description": "1) BuLi; LiCl; 2) HCO2Et; THF; -78\u00b0C to rt; 56%",
+        "GENERAL_REAGENTS": [
+          "BuLi",
+          "LiCl",
+          "HCO2Et"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "[Li+].[Cl-]",
+          "CCOC=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_11",
+      "reaction_smiles": "COCOc1cc(OCOC)c(CC=C(C)C)c(C(=O)c2c(OC)c(Cl)c(C)c(Cl)c2OCOC)c1C=O.Cl.C1COCCO1>>COc1c(Cl)c(C)c(Cl)c(O)c1C(=O)c1c(C=O)c(O)cc(O)c1CC=C(C)C",
+      "reaction_smiles_mapped": "COC[O:11][c:10]1[c:8]([Cl:9])[c:6]([CH3:7])[c:4]([Cl:5])[c:3]([O:2][CH3:1])[c:12]1[C:13](=[O:14])[c:15]1[c:16]([CH:17]=[O:18])[c:19]([O:20]COC)[cH:21][c:22]([O:23]COC)[c:24]1[CH2:25][CH:26]=[C:27]([CH3:28])[CH3:29]>Cl.C1COCCO1>[CH3:1][O:2][c:3]1[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]([OH:11])[c:12]1[C:13](=[O:14])[c:15]1[c:16]([CH:17]=[O:18])[c:19]([OH:20])[cH:21][c:22]([OH:23])[c:24]1[CH2:25][CH:26]=[C:27]([CH3:28])[CH3:29]",
+      "mapping_confidence": 0.6010995056460101,
+      "conditions": {
+        "raw_description": "HCl; dioxane; 63\u00b0C; 66%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "63"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pestalachloride_A_2010_Schmalz_12",
+      "reaction_smiles": "COc1c(Cl)c(C)c(Cl)c(O)c1C(=O)c1c(C=O)c(O)cc(O)c1CC=C(C)C.N.[Cl-].[NH4+].O.C1COCCO1>>COc1c(Cl)c(C)c(Cl)c(O)c1C1NC(=O)C2C(O)=CC(O)=C(CC=C(C)C)C21",
+      "reaction_smiles_mapped": "O=[C:13]([c:12]1[c:3]([O:2][CH3:1])[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]1[OH:11])[c:29]1[c:17]([CH:15]=[O:16])[c:18]([OH:19])[cH:20][c:21]([OH:22])[c:23]1[CH2:24][CH:25]=[C:26]([CH3:27])[CH3:28].[NH3:14]>[Cl-].[NH4+].O.C1COCCO1>[CH3:1][O:2][c:3]1[c:4]([Cl:5])[c:6]([CH3:7])[c:8]([Cl:9])[c:10]([OH:11])[c:12]1[CH:13]1[NH:14][C:15](=[O:16])[CH:17]2[C:18]([OH:19])=[CH:20][C:21]([OH:22])=[C:23]([CH2:24][CH:25]=[C:26]([CH3:27])[CH3:28])[CH:29]12",
+      "mapping_confidence": 0.652527297033428,
+      "conditions": {
+        "raw_description": "NH3/NH4Cl; H2O/dioxane; 48%",
+        "GENERAL_REAGENTS": [
+          "NH4Cl",
+          "NH3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[Cl-]",
+          "N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    }
+  ]
+}

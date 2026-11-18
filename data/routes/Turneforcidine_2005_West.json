@@ -1,0 +1,163 @@
+{
+  "background": {
+    "name": "(+/-)-Turneforcidine",
+    "author": "West",
+    "year": 2005,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2005, 9, 2949",
+    "doi": "10.1021/ol050915o"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Turneforcidine_2005_West_1",
+      "reaction_smiles": "COC(=O)C1CCN1Cc1ccccc1.O=C[O-].[NH4+].[C].[Pd].CO>>COC(=O)C1CCN1",
+      "reaction_smiles_mapped": "c1ccc(C[N:8]2[CH:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:6][CH2:7]2)cc1>O=C[O-].[NH4+].[C].[Pd].CO>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][CH2:7][NH:8]1",
+      "mapping_confidence": 0.940904041349906,
+      "conditions": {
+        "raw_description": "Pd/C; NH4O2CH; MeOH",
+        "GENERAL_REAGENTS": [
+          "NH4O2CH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=C[O-].[NH4+]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Turneforcidine_2005_West_2",
+      "reaction_smiles": "COC(=O)C1CCN1.[N-]=[N+]=CC(=O)CCBr.CCN(C(C)C)C(C)C.CC#N>>COC(=O)C1CCN1CCC(=O)C=[N+]=[N-]",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][CH2:7][NH:8]1.Br[CH2:9][CH2:10][C:11](=[O:12])[CH:13]=[N+:14]=[N-:15]>CCN(C(C)C)C(C)C.CC#N>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][CH2:7][N:8]1[CH2:9][CH2:10][C:11](=[O:12])[CH:13]=[N+:14]=[N-:15]",
+      "mapping_confidence": 0.977929652384433,
+      "conditions": {
+        "raw_description": "(i-Pr)2NEt; CH3CN; 96% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "(i-Pr)2NEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Turneforcidine_2005_West_3",
+      "reaction_smiles": "COC(=O)C1CCN1CCC(=O)C=[N+]=[N-].CC(=O)/C=C(/C)O.CC(=O)/C=C(/C)O.[Cu].Cc1ccccc1>>COC(=O)[C@@H]1CCN2CCC(=O)[C@@H]12",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH:13][C:11]([CH2:10][CH2:9][N:8]1[CH:5]([C:3]([O:2][CH3:1])=[O:4])[CH2:6][CH2:7]1)=[O:12]>CC(=O)/C=C(/C)O.CC(=O)/C=C(/C)O.Cc1ccccc1.[Cu]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][C:11](=[O:12])[C@@H:13]12",
+      "mapping_confidence": 0.9646059501265193,
+      "conditions": {
+        "raw_description": "Cu(acac)2; PhCH3; reflux; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Cu(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/O.C/C(=C/C(=O)C)/O.[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhCH3"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Turneforcidine_2005_West_4",
+      "reaction_smiles": "COC(=O)[C@@H]1CCN2CCC(=O)[C@@H]12.[HH].O=[Pt]=O>>COC(=O)[C@@H]1CCN2CC[C@@H](O)[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][C:11](=[O:12])[C@@H:13]12>O=[Pt]=O.[HH]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[CH2:6][CH2:7][N:8]2[CH2:9][CH2:10][C@@H:11]([OH:12])[C@@H:13]12",
+      "mapping_confidence": 0.9912732674165301,
+      "conditions": {
+        "raw_description": "H2; PtO2",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Turneforcidine_2005_West_5",
+      "reaction_smiles": "COC(=O)[C@@H]1CCN2CC[C@@H](O)[C@@H]12.[AlH4-].[Li+].C1CCOC1>>OC[C@@H]1CCN2CC[C@@H](O)[C@@H]12",
+      "reaction_smiles_mapped": "CO[C:2](=[O:1])[C@@H:3]1[CH2:4][CH2:5][N:6]2[CH2:7][CH2:8][C@@H:9]([OH:10])[C@@H:11]12>C1CCOC1.[AlH4-].[Li+]>[OH:1][CH2:2][C@@H:3]1[CH2:4][CH2:5][N:6]2[CH2:7][CH2:8][C@@H:9]([OH:10])[C@@H:11]12",
+      "mapping_confidence": 0.7676918669347198,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 91%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "background": {
+    "name": "Emtricitabine",
+    "author": null,
+    "year": 2014,
+    "drug_name": "Emtriva",
+    "manufacturer": "Gilead",
+    "citation": "Chem. Rev. 2014, 114, 2432",
+    "doi": "10.1021/cr4002879"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_1",
+      "reaction_smiles": "OC/C=C\\CO.CCCCC(=O)Cl.CCCCC(=O)Cl.CCN(CC)CC.CN(C)c1ccncc1>>CCCCC(=O)OC/C=C\\COC(=O)CCCC",
+      "reaction_smiles_mapped": "Cl[C:5]([CH2:4][CH2:3][CH2:2][CH3:1])=[O:6].Cl[C:13](=[O:14])[CH2:15][CH2:16][CH2:17][CH3:18].[OH:7][CH2:8]/[CH:9]=[CH:10]\\[CH2:11][OH:12]>CCN(CC)CC.CN(C)c1ccncc1>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8]/[CH:9]=[CH:10]\\[CH2:11][O:12][C:13](=[O:14])[CH2:15][CH2:16][CH2:17][CH3:18]",
+      "mapping_confidence": 0.5593172068485828,
+      "conditions": {
+        "raw_description": "n-BuCOCl; Et3N; DMAP; 95%",
+        "GENERAL_REAGENTS": [
+          "n-BuCOCl",
+          "Et3N",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCCC(=O)Cl",
+          "CCN(CC)CC",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_2",
+      "reaction_smiles": "CCCCC(=O)OC/C=C\\COC(=O)CCCC.O=[O+][O-].CO.NC(N)=S>>CCCCC(=O)OCC(O)OC",
+      "reaction_smiles_mapped": "CCCCC(=O)OC/C=[CH:9]\\[CH2:8][O:7][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])=[O:6].[OH:11][CH3:12].O=[O+:10][O-]>NC(N)=S>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]([OH:10])[O:11][CH3:12]",
+      "mapping_confidence": 0.23334974107499468,
+      "conditions": {
+        "raw_description": "1) O3; MeOH; 2) thiourea",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "thiourea"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "C(=S)(N)N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_3",
+      "reaction_smiles": "CCCCC(=O)OCC(O)OC.Cc1ccccc1.O=C(O)CS>>CCCCC(=O)OCC1OC(=O)CS1",
+      "reaction_smiles_mapped": "CO[CH:9](O)[CH2:8][O:7][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])=[O:6].[OH:10][C:11](=[O:12])[CH2:13][SH:14]>Cc1ccccc1>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]1[O:10][C:11](=[O:12])[CH2:13][S:14]1",
+      "mapping_confidence": 0.3727406836089604,
+      "conditions": {
+        "raw_description": "HSCH2CO2H; PhMe; 54%",
+        "GENERAL_REAGENTS": [
+          "HSCH2CO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(=O)O)S"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_4",
+      "reaction_smiles": "CCCCC(=O)OCC1OC(=O)CS1.CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+]>>CCCCC(=O)OCC1OC(O)CS1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]1[O:10][C:11](=[O:12])[CH2:13][S:14]1>CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+]>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]1[O:10][CH:11]([OH:12])[CH2:13][S:14]1",
+      "mapping_confidence": 0.9922890813305658,
+      "conditions": {
+        "raw_description": "LiAl(Ot-Bu)3",
+        "GENERAL_REAGENTS": [
+          "LiAl(Ot-Bu)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[AlH-](OC(C)(C)C)OC(C)(C)C.[Li+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_5",
+      "reaction_smiles": "CCCCC(=O)OCC1OC(O)CS1.CC(=O)OC(C)=O.CN(C)c1ccncc1>>CCCCC(=O)OCC1OC(OC(C)=O)CS1",
+      "reaction_smiles_mapped": "CC(=O)O[C:13]([CH3:14])=[O:15].[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]1[O:10][CH:11]([OH:12])[CH2:16][S:17]1>CN(C)c1ccncc1>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][CH:9]1[O:10][CH:11]([O:12][C:13]([CH3:14])=[O:15])[CH2:16][S:17]1",
+      "mapping_confidence": 0.5758648506903314,
+      "conditions": {
+        "raw_description": "Ac2O; DMAP; 87%",
+        "GENERAL_REAGENTS": [
+          "Ac2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_6",
+      "reaction_smiles": "CCCCC(=O)OCC1OC(OC(C)=O)CS1.C[Si](C)(C)Nc1nc(O[Si](C)(C)C)ncc1F.C[Si](C)(C)I.ClCCl>>CCCCC(=O)OC[C@H]1O[C@@H](n2cc(F)c(N)nc2=O)CS1",
+      "reaction_smiles_mapped": "CC(=O)O[CH:11]1[O:10][CH:9]([CH2:8][O:7][C:5]([CH2:4][CH2:3][CH2:2][CH3:1])=[O:6])[S:22][CH2:21]1.C[Si](C)(C)[NH:17][c:16]1[c:14]([F:15])[cH:13][n:12][c:19]([O:20][Si](C)(C)C)[n:18]1>C[Si](C)(C)I.ClCCl>[CH3:1][CH2:2][CH2:3][CH2:4][C:5](=[O:6])[O:7][CH2:8][C@H:9]1[O:10][C@@H:11]([n:12]2[cH:13][c:14]([F:15])[c:16]([NH2:17])[n:18][c:19]2=[O:20])[CH2:21][S:22]1",
+      "mapping_confidence": 0.9814502946161355,
+      "conditions": {
+        "raw_description": "1) TMSI; CH2Cl2; 2) crystalization",
+        "GENERAL_REAGENTS": [
+          "TMSI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Emtricitabine_2014_Gilead_7",
+      "reaction_smiles": "CCCCC(=O)OC[C@H]1O[C@@H](n2cc(F)c(N)nc2=O)CS1>>Nc1nc(=O)n([C@H]2CS[C@@H](CO)O2)cc1F",
+      "reaction_smiles_mapped": "CCCCC(=O)[O:12][CH2:11][C@@H:10]1[S:9][CH2:8][C@H:7]([n:6]2[c:4](=[O:5])[n:3][c:2]([NH2:1])[c:15]([F:16])[cH:14]2)[O:13]1>>[NH2:1][c:2]1[n:3][c:4](=[O:5])[n:6]([C@H:7]2[CH2:8][S:9][C@@H:10]([CH2:11][OH:12])[O:13]2)[cH:14][c:15]1[F:16]",
+      "mapping_confidence": 0.9970044834719524,
+      "conditions": {
+        "raw_description": "DOWEX SBR (OH) resin; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    }
+  ]
+}

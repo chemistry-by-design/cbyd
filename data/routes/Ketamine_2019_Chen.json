@@ -1,0 +1,268 @@
+{
+  "background": {
+    "name": "(-)-Ketamine",
+    "author": "Chen",
+    "year": 2019,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2019, 21, 6575",
+    "doi": "10.1021/acs.orglett.9b02575"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Ketamine_2019_Chen_1",
+      "reaction_smiles": "COC1=C(Br)CCCC1=O.OB(O)c1ccccc1Cl.CC(=O)[O-].CC(=O)[O-].[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1.O=C([O-])[O-].[K+].[K+].C1CCOC1.O>>COC1=C(c2ccccc2Cl)CCCC1=O",
+      "reaction_smiles_mapped": "Br[C:4]1=[C:3]([O:2][CH3:1])[C:15](=[O:16])[CH2:14][CH2:13][CH2:12]1.OB(O)[c:5]1[cH:6][cH:7][cH:8][cH:9][c:10]1[Cl:11]>CC(=O)[O-].CC(=O)[O-].[Pd+2].c1ccc(P(c2ccccc2)c2ccccc2)cc1.O=C([O-])[O-].[K+].[K+].C1CCOC1.O>[CH3:1][O:2][C:3]1=[C:4]([c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[Cl:11])[CH2:12][CH2:13][CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.8927993225403014,
+      "conditions": {
+        "raw_description": "Pd(OAc)2; PPh3; K2CO3; THF/H2O; 88%; Suzuki reaction",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_2",
+      "reaction_smiles": "O=C1CCCC=C1O.BrBr.CCN(CC)CC>>O=C1CCCC(Br)=C1O",
+      "reaction_smiles_mapped": "Br[Br:7].[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][CH:6]=[C:8]1[OH:9]>CCN(CC)CC>[O:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C:6]([Br:7])=[C:8]1[OH:9]",
+      "mapping_confidence": 0.4553152939552291,
+      "conditions": {
+        "raw_description": "Br2/ Et3N; 90 %",
+        "GENERAL_REAGENTS": [
+          "Br2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "BrBr",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_3",
+      "reaction_smiles": "O=C1CCCC(Br)=C1O.CCOCC.C=[N+]=[N-]>>COC1=C(Br)CCCC1=O",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH2:1].[OH:2][C:3]1=[C:4]([Br:5])[CH2:6][CH2:7][CH2:8][C:9]1=[O:10]>CCOCC>[CH3:1][O:2][C:3]1=[C:4]([Br:5])[CH2:6][CH2:7][CH2:8][C:9]1=[O:10]",
+      "mapping_confidence": 0.7788657322725034,
+      "conditions": {
+        "raw_description": "CH2N2; Et2O; 79%",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_4",
+      "reaction_smiles": "COC1=C(c2ccccc2Cl)CCCC1=O.Cc1ccc(S(=O)(=O)N2[C@@H](c3ccccc3)[C@H](c3ccccc3)N(CCCc3ccccc3)->[Ru]2Cl)cc1.CCN(CC)CC.O=CO>>COC1=C(c2ccccc2Cl)CCC[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[C:4]([c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[Cl:11])[CH2:12][CH2:13][CH2:14][C:15]1=[O:16]>Cc1ccc(S(=O)(=O)N2[C@@H](c3ccccc3)[C@H](c3ccccc3)N(CCCc3ccccc3)->[Ru]2Cl)cc1.CCN(CC)CC.O=CO>[CH3:1][O:2][C:3]1=[C:4]([c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[Cl:11])[CH2:12][CH2:13][CH2:14][C@@H:15]1[OH:16]",
+      "mapping_confidence": 0.9353858736766805,
+      "conditions": {
+        "raw_description": "Et3N-HCO2H; 80 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "HCO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_5",
+      "reaction_smiles": "COC1=C(c2ccccc2Cl)CCC[C@@H]1O.O=C=NC(=O)C(Cl)(Cl)Cl.ClCCl>>COC1=C(c2ccccc2Cl)CCC[C@@H]1OC(N)=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[C:4]([c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[Cl:11])[CH2:12][CH2:13][CH2:14][C@@H:15]1[OH:16].O=C(C(Cl)(Cl)Cl)[N:18]=[C:17]=[O:19]>ClCCl>[CH3:1][O:2][C:3]1=[C:4]([c:5]2[cH:6][cH:7][cH:8][cH:9][c:10]2[Cl:11])[CH2:12][CH2:13][CH2:14][C@@H:15]1[O:16][C:17]([NH2:18])=[O:19]",
+      "mapping_confidence": 0.9407883284422853,
+      "conditions": {
+        "raw_description": "DCM; 0 \u00b0C to rt; 99%.",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_6",
+      "reaction_smiles": "COC1=C(c2ccccc2Cl)CCC[C@@H]1OC(N)=O.O=C(OC(=O)C(F)(F)F)C(F)(F)F.ClCCl.CCN(CC)CC>>COC1=CCCC[C@]1(N=C=O)c1ccccc1Cl",
+      "reaction_smiles_mapped": "O([C@@H:4]1[C:3]([O:2][CH3:1])=[C:8]([c:12]2[cH:13][cH:14][cH:15][cH:16][c:17]2[Cl:18])[CH2:7][CH2:6][CH2:5]1)[C:10]([NH2:9])=[O:11]>O=C(OC(=O)C(F)(F)F)C(F)(F)F.ClCCl.CCN(CC)CC>[CH3:1][O:2][C:3]1=[CH:4][CH2:5][CH2:6][CH2:7][C@:8]1([N:9]=[C:10]=[O:11])[c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1[Cl:18]",
+      "mapping_confidence": 0.885586077301861,
+      "conditions": {
+        "raw_description": "TFAA; Tt3N; DCM; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "Tt3N",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_7",
+      "reaction_smiles": "COC1=CCCC[C@]1(N=C=O)c1ccccc1Cl.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>>CN[C@]1(c2ccccc2Cl)CCCC=C1OC",
+      "reaction_smiles_mapped": "O=[C:1]=[N:2][C@:3]1([c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[Cl:10])[CH2:11][CH2:12][CH2:13][CH:14]=[C:15]1[O:16][CH3:17]>[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>[CH3:1][NH:2][C@:3]1([c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[Cl:10])[CH2:11][CH2:12][CH2:13][CH:14]=[C:15]1[O:16][CH3:17]",
+      "mapping_confidence": 0.9876460646256119,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 70 \u00b0C; 80%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Ketamine_2019_Chen_8",
+      "reaction_smiles": "CN[C@]1(c2ccccc2Cl)CCCC=C1OC.Cl.C1CCOC1>>CN[C@]1(c2ccccc2Cl)CCCCC1=O",
+      "reaction_smiles_mapped": "C[O:16][C:15]1=[CH:14][CH2:13][CH2:12][CH2:11][C@:3]1([NH:2][CH3:1])[c:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1[Cl:10]>Cl.C1CCOC1>[CH3:1][NH:2][C@:3]1([c:4]2[cH:5][cH:6][cH:7][cH:8][c:9]2[Cl:10])[CH2:11][CH2:12][CH2:13][CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.9630477333918313,
+      "conditions": {
+        "raw_description": "HCl/THF; 70 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    }
+  ]
+}

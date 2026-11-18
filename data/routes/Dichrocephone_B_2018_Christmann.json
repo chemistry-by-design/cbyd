@@ -1,0 +1,669 @@
+{
+  "background": {
+    "name": "Dichrocephone B",
+    "author": "Christmann",
+    "year": 2018,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2018, 57, 2419",
+    "doi": "10.1002/anie.201711766"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_1",
+      "reaction_smiles": "O=C1CCC(=O)C1.CC(=O)[O-].[Na+].C=CCOC(C)=O.C=CC[Pd]Cl.C=CC[Pd]Cl.c1ccc(P(CCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1.C1CCOC1>>C=CCC1=C(O)CCC1=O",
+      "reaction_smiles_mapped": "Cl[Pd][CH2:3][CH:2]=[CH2:1].[CH2:4]1[C:5](=[O:6])[CH2:7][CH2:8][C:9]1=[O:10]>C1CCOC1.C=CCOC(C)=O.C=CC[Pd]Cl.CC(=O)[O-].[Na+].c1ccc(P(CCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][CH2:3][C:4]1=[C:5]([OH:6])[CH2:7][CH2:8][C:9]1=[O:10]",
+      "mapping_confidence": 0.3693776826354112,
+      "conditions": {
+        "raw_description": "[Pd(C3H5)Cl]2; BSA; NaOAc; dppe; allyl acetate; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "allyl acetate"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)OCC=C"
+        ],
+        "CATALYSTS": [
+          "[Pd(C3H5)Cl]2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]CC=C.C=CC[Pd]Cl"
+        ],
+        "LIGANDS": [
+          "dppe"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)CCP(c3ccccc3)c4ccccc4"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_2",
+      "reaction_smiles": "C=CCC1=C(O)CCC1=O.C#CCBr.CC(C)(C)O[K].CS(C)=O>>C#CCC1(CC=C)C(=O)CCC1=O",
+      "reaction_smiles_mapped": "Br[CH2:3][C:2]#[CH:1].[C:4]1([CH2:5][CH:6]=[CH2:7])=[C:8]([OH:9])[CH2:10][CH2:11][C:12]1=[O:13]>CC(C)(C)O[K].CS(C)=O>[CH:1]#[C:2][CH2:3][C:4]1([CH2:5][CH:6]=[CH2:7])[C:8](=[O:9])[CH2:10][CH2:11][C:12]1=[O:13]",
+      "mapping_confidence": 0.8655140590938459,
+      "conditions": {
+        "raw_description": "KOtBu; 57% (2 steps); DMSO; r.t.",
+        "GENERAL_REAGENTS": [
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "57% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_3",
+      "reaction_smiles": "C#CCC1(CC=C)C(=O)CCC1=O.O=C1c2ccc([N+](=O)[O-])cc2C(=O)N1Br.O=[N+]([O-])O[Ag].CC(C)=O>>C=CCC1(CC#CBr)C(=O)CCC1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C:6]#[CH:7])[C:9](=[O:10])[CH2:11][CH2:12][C:13]1=[O:14].O=C1c2ccc([N+](=O)[O-])cc2C(=O)N1[Br:8]>CC(C)=O.O=[N+]([O-])O[Ag]>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C:6]#[C:7][Br:8])[C:9](=[O:10])[CH2:11][CH2:12][C:13]1=[O:14]",
+      "mapping_confidence": 0.762087822652401,
+      "conditions": {
+        "raw_description": "Me2CO; r.t.; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Me2CO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_4",
+      "reaction_smiles": "C=CCC1(CC#CBr)C(=O)CCC1=O.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F.[Au+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCCl.O>>C=CCC1(CC(=O)CBr)C(=O)CCC1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C:6]#[C:8][Br:9])[C:10](=[O:11])[CH2:12][CH2:13][C:14]1=[O:15].[OH2:7]>ClCCCl.O=S(=O)([N-]S(=O)(C(F)(F)F)=O)C(F)(F)F.[Au+].c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH2:1]=[CH:2][CH2:3][C:4]1([CH2:5][C:6](=[O:7])[CH2:8][Br:9])[C:10](=[O:11])[CH2:12][CH2:13][C:14]1=[O:15]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PPh3AuNTf2; H2O; 1,2-DCE; r.t.; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PPh3AuNTf2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Au+].P(c1ccccc1)(c2ccccc2)c3ccccc3.[N-](S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,2-DCE",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_5",
+      "reaction_smiles": "C=CCC1(CC(=O)CBr)C(=O)CCC1=O.C[C@@H]1CC[C@@H](C)P1c1ccccc1P1[C@H](C)CC[C@H]1C.CCC1CO1.[SiH3]c1ccccc1.C1COCCO1>>C=CC[C@@]12CC(=O)C=C1CCC2=O",
+      "reaction_smiles_mapped": "O=[C:9]1[C:4]([CH2:3][CH:2]=[CH2:1])([CH2:5][C:6](=[O:7])[CH2:8]Br)[C:12](=[O:13])[CH2:11][CH2:10]1>C1COCCO1.CCC1CO1.C[C@@H]1CC[C@@H](C)P1c1ccccc1P1[C@H](C)CC[C@H]1C.[SiH3]c1ccccc1>[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][C:6](=[O:7])[CH:8]=[C:9]1[CH2:10][CH2:11][C:12]2=[O:13]",
+      "mapping_confidence": 0.7318963620214989,
+      "conditions": {
+        "raw_description": "1,4-dioxane; 150 \u00b0C; PhSiH3; butylene oxide; 60%",
+        "GENERAL_REAGENTS": [
+          "butylene oxide"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC1CO1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PhSiH3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)[SiH3]"
+        ],
+        "SOLVENTS": [
+          "1,4-dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_6",
+      "reaction_smiles": "C=CC[C@@]12CC(=O)C=C1CCC2=O.C=C[Cu](C#N)c1cccs1.[Br-].[Li].[Mg+2].C1CCOC1>>C=CC[C@]12CC(=O)CC1(C=C)CCC2=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C@@:4]12[CH2:5][C:6](=[O:7])[CH:8]=[C:9]1[CH2:12][CH2:13][C:14]2=[O:15].N#C[Cu](c1cccs1)[CH:10]=[CH2:11]>C1CCOC1.[Br-].[Li].[Mg+2]>[CH2:1]=[CH:2][CH2:3][C@:4]12[CH2:5][C:6](=[O:7])[CH2:8][C:9]1([CH:10]=[CH2:11])[CH2:12][CH2:13][C:14]2=[O:15]",
+      "mapping_confidence": 0.8186429239462182,
+      "conditions": {
+        "raw_description": "vinyl (2-Th)CuCNLiMgBr; THF; -78 to -50 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "vinyl (2-Th)CuCNLiMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=C[Cu](c1cccs1)C#N.[Li].[Mg+2].[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-50"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_7",
+      "reaction_smiles": "C=CC[C@]12CC(=O)CC1(C=C)CCC2=O.CC(C)Oc1ccc(NC(=O)C(F)(F)F)cc1C=[Ru]=C1N(c2c(C(C)C)cccc2C(C)C)CCN1c1c(C(C)C)cccc1C(C)C.Cc1ccccc1>>O=C1CC23C=CC[C@@]2(C1)C(=O)CC3",
+      "reaction_smiles_mapped": "C=[CH:5][C:4]12[CH2:3][C:2](=[O:1])[CH2:9][C@:8]1([CH2:7][CH:6]=C)[C:10](=[O:11])[CH2:12][CH2:13]2>CC(C)Oc1ccc(NC(=O)C(F)(F)F)cc1C=[Ru]=C1N(c2c(C(C)C)cccc2C(C)C)CCN1c1c(C(C)C)cccc1C(C)C.Cc1ccccc1>[O:1]=[C:2]1[CH2:3][C:4]23[CH:5]=[CH:6][CH2:7][C@@:8]2([CH2:9]1)[C:10](=[O:11])[CH2:12][CH2:13]3",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "PhMe; 110 \u00b0C; Umicore M71SIPr",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_8",
+      "reaction_smiles": "O=C1CC23C=CC[C@@]2(C1)C(=O)CC3.CCC(C)[BH-](C(C)CC)C(C)CC.[K+].C1CCOC1>>O=C1CCC23C=CC[C@@]12CC(O)C3",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH2:3][CH2:4][C:5]23[CH:6]=[CH:7][CH2:8][C@@:9]12[CH2:10][C:11](=[O:12])[CH2:13]3>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[K+]>[O:1]=[C:2]1[CH2:3][CH2:4][C:5]23[CH:6]=[CH:7][CH2:8][C@@:9]12[CH2:10][CH:11]([OH:12])[CH2:13]3",
+      "mapping_confidence": 0.9384731495496621,
+      "conditions": {
+        "raw_description": "THF; -98 to -40 \u00b0C; 85% (2 steps); K-selectride",
+        "GENERAL_REAGENTS": [
+          "K-selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH-](C(C)CC)(C(C)CC)C(C)CC.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-98",
+          "-40"
+        ],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_9",
+      "reaction_smiles": "O=C1CCC23C=CC[C@@]12CC(O)C3.C[Mg]Cl.C1CCOC1>>CC1(O)CCC23C=CC[C@@]12CC(O)C3",
+      "reaction_smiles_mapped": "Cl[Mg][CH3:1].[C:2]1(=[O:3])[CH2:4][CH2:5][C:6]23[CH:7]=[CH:8][CH2:9][C@@:10]12[CH2:11][CH:12]([OH:13])[CH2:14]3>C1CCOC1>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH:7]=[CH:8][CH2:9][C@@:10]12[CH2:11][CH:12]([OH:13])[CH2:14]3",
+      "mapping_confidence": 0.9676857453004837,
+      "conditions": {
+        "raw_description": "62%; THF; 50 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_10",
+      "reaction_smiles": "CC1(O)CCC23C=CC[C@@]12CC(O)C3.[C].[Pd].CCO>>CC1(O)CCC23CCC[C@@]12CC(O)C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH:7]=[CH:8][CH2:9][C@@:10]12[CH2:11][CH:12]([OH:13])[CH2:14]3>CCO.[C].[Pd]>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[CH2:11][CH:12]([OH:13])[CH2:14]3",
+      "mapping_confidence": 0.9820288223014253,
+      "conditions": {
+        "raw_description": "EtOH; r.t.; H2; Pd/C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_11",
+      "reaction_smiles": "CC1(O)CCC23CCC[C@@]12CC(O)C3.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.CC(=O)O.ClCCl>>CC1(O)CCC23CCC[C@@]12CC(=O)C3",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[CH2:11][CH:12]([OH:13])[CH2:14]3>CC(=O)O.ClCCl.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[CH2:11][C:12](=[O:13])[CH2:14]3",
+      "mapping_confidence": 0.9553743475817121,
+      "conditions": {
+        "raw_description": "PCC; AcOH; CH2Cl2; r.t.; 82% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "82% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_12",
+      "reaction_smiles": "CC1(O)CCC23CCC[C@@]12CC(=O)C3.CN(C)CN(C)C.CN(C)CN(C)C.CC(=O)OC(C)=O.CN(C)C=O>>C=C1C(=O)C(=C)[C@@]23CCCC12CCC3(C)O",
+      "reaction_smiles_mapped": "[CH2:2]1[C:3](=[O:4])[CH2:5][C@@:7]23[CH2:8][CH2:9][CH2:10][C:11]12[CH2:12][CH2:13][C:14]3([CH3:15])[OH:16].CN(C)[CH2:6]N(C)C.CN(C)[CH2:1]N(C)C>>[CH2:1]=[C:2]1[C:3](=[O:4])[C:5](=[CH2:6])[C@@:7]23[CH2:8][CH2:9][CH2:10][C:11]12[CH2:12][CH2:13][C:14]3([CH3:15])[OH:16]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "DMF; 95 \u00b0C; 73%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_13",
+      "reaction_smiles": "C=C1C(=O)C(=C)[C@@]23CCCC12CCC3(C)O.C[S+](C)(C)=O.[I-].[H-].[Na+].CS(C)=O.C1CCOC1>>C=C1C(=O)C2(CC2)C23CCC[C@]12C(C)(O)CC3",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C:3](=[O:4])[C:5](=[CH2:6])[C:8]23[CH2:9][CH2:10][CH2:11][C@:12]12[C:13]([CH3:14])([OH:15])[CH2:16][CH2:17]3.C[S+](C)(=O)[CH3:7]>C1CCOC1.CS(C)=O.[H-].[I-].[Na+]>[CH2:1]=[C:2]1[C:3](=[O:4])[C:5]2([CH2:6][CH2:7]2)[C:8]23[CH2:9][CH2:10][CH2:11][C@:12]12[C:13]([CH3:14])([OH:15])[CH2:16][CH2:17]3",
+      "mapping_confidence": 0.19928529732213823,
+      "conditions": {
+        "raw_description": "Me3SOI; NaH; DMSO; THF; 0 \u00b0C; 63%",
+        "GENERAL_REAGENTS": [
+          "Me3SOI",
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[S+](C)(C)C.[I-]",
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_14",
+      "reaction_smiles": "C=C1C(=O)C2(CC2)C23CCC[C@]12C(C)(O)CC3.OO.O=P([O-])([O-])O.[Na+].[Na+].O=C(OC(=O)C(F)(F)F)C(F)(F)F.ClCCl>>CC1(O)CCC23CCC[C@@]12C1(CO1)C(=O)C31CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[C:11](=[CH2:12])[C:14](=[O:15])[C:16]31[CH2:17][CH2:18]1.O[OH:13]>ClCCl.O=C(OC(=O)C(F)(F)F)C(F)(F)F.O=P([O-])([O-])O.[Na+].[Na+]>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[C:11]1([CH2:12][O:13]1)[C:14](=[O:15])[C:16]31[CH2:17][CH2:18]1",
+      "mapping_confidence": 0.4433994926134142,
+      "conditions": {
+        "raw_description": "TFAA; H2O2; Na2HPO4; CH2Cl2; -40 to 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2O2",
+          "Na2HPO4",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO",
+          "OP(=O)([O-])[O-].[Na+].[Na+]",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40",
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_15",
+      "reaction_smiles": "CC1(O)CCC23CCC[C@@]12C1(CO1)C(=O)C31CC1.[AlH4-].[Li+].CCOCC>>CC1(O)CCC23CCC[C@@]12C(C)(O)C(O)C31CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[C:11]1([CH2:12][O:13]1)[C:14](=[O:15])[C:16]31[CH2:17][CH2:18]1>CCOCC.[AlH4-].[Li+]>[CH3:1][C:2]1([OH:3])[CH2:4][CH2:5][C:6]23[CH2:7][CH2:8][CH2:9][C@@:10]12[C:11]([CH3:12])([OH:13])[CH:14]([OH:15])[C:16]31[CH2:17][CH2:18]1",
+      "mapping_confidence": 0.9184775789756626,
+      "conditions": {
+        "raw_description": "Et2O; 0 \u00b0C  to r.t.; 85% (2 steps); LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "85% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_16",
+      "reaction_smiles": "CC1(O)CCC23CCC[C@@]12C(C)(O)C(O)C31CC1.O=[Pt]=O.CC(=O)O>>CC1(C)C(O)C(C)(O)[C@@]23CCCC12CCC3(C)O",
+      "reaction_smiles_mapped": "[CH2:1]1[C:2]2([CH2:3]1)[CH:4]([OH:5])[C:6]([CH3:7])([OH:8])[C@@:9]13[CH2:10][CH2:11][CH2:12][C:13]21[CH2:14][CH2:15][C:16]3([CH3:17])[OH:18]>CC(=O)O.O=[Pt]=O>[CH3:1][C:2]1([CH3:3])[CH:4]([OH:5])[C:6]([CH3:7])([OH:8])[C@@:9]23[CH2:10][CH2:11][CH2:12][C:13]12[CH2:14][CH2:15][C:16]3([CH3:17])[OH:18]",
+      "mapping_confidence": 0.4951765001246948,
+      "conditions": {
+        "raw_description": "AcOH; r.t.; PtO2; H2; 99%",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_17",
+      "reaction_smiles": "CC1(C)C(O)C(C)(O)[C@@]23CCCC12CCC3(C)O.O=S(=O)=O.c1ccncc1.CCN(CC)CC.CS(C)=O.ClCCl>>CC1(C)C(=O)C(C)(O)[C@@]23CCCC12CCC3(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH:4]([OH:5])[C:6]([CH3:7])([OH:8])[C@@:9]23[CH2:10][CH2:11][CH2:12][C:13]12[CH2:14][CH2:15][C:16]3([CH3:17])[OH:18]>CCN(CC)CC.CS(C)=O.ClCCl.O=S(=O)=O.c1ccncc1>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[C:6]([CH3:7])([OH:8])[C@@:9]23[CH2:10][CH2:11][CH2:12][C:13]12[CH2:14][CH2:15][C:16]3([CH3:17])[OH:18]",
+      "mapping_confidence": 0.8160758111636476,
+      "conditions": {
+        "raw_description": "py\u2022SO3; Et3N; DMSO; CH2Cl2; r.t.; 95%",
+        "GENERAL_REAGENTS": [
+          "py\u2022SO3",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)=O.c1ccncc1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_18",
+      "reaction_smiles": "CC1(C)C(=O)C(C)(O)[C@@]23CCCC12CCC3(C)O.O=CO>>CC1=CCC23CCC[C@@]12C(C)(O)C(=O)C3(C)C",
+      "reaction_smiles_mapped": "O[C:2]1([CH3:1])[CH2:3][CH2:4][C:5]23[CH2:6][CH2:7][CH2:8][C@@:9]12[C:10]([CH3:11])([OH:12])[C:13](=[O:14])[C:15]3([CH3:16])[CH3:17]>O=CO>[CH3:1][C:2]1=[CH:3][CH2:4][C:5]23[CH2:6][CH2:7][CH2:8][C@@:9]12[C:10]([CH3:11])([OH:12])[C:13](=[O:14])[C:15]3([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.816366375354507,
+      "conditions": {
+        "raw_description": "HCO2H; rt; 86%",
+        "GENERAL_REAGENTS": [
+          "HCO2H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_19",
+      "reaction_smiles": "CC1=CCC23CCC[C@@]12C(C)(O)C(=O)C3(C)C.O=O.CC(=O)[CH-]C(C)=O.CC(=O)[CH-]C(C)=O.[Co+2].[SiH3]c1ccccc1.C1CCOC1>>CC1(C)C(=O)C(C)(O)[C@@]23CCCC12CCC3(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[C:6]([CH3:7])([OH:8])[C@@:9]23[CH2:10][CH2:11][CH2:12][C:13]12[CH2:14][CH:15]=[C:16]3[CH3:17].O=[O:18]>C1CCOC1.CC(=O)[CH-]C(C)=O.CC(=O)[CH-]C(C)=O.[Co+2].[SiH3]c1ccccc1>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[C:6]([CH3:7])([OH:8])[C@@:9]23[CH2:10][CH2:11][CH2:12][C:13]12[CH2:14][CH2:15][C:16]3([CH3:17])[OH:18]",
+      "mapping_confidence": 0.22589282980277392,
+      "conditions": {
+        "raw_description": "THF; r.t.; Co(acac)2; PhSiH3; O2; 58%",
+        "GENERAL_REAGENTS": [
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "Co(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[CH-]C(=O)C.CC(=O)[CH-]C(=O)C.[Co+2]"
+        ],
+        "LIGANDS": [
+          "PhSiH3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)[SiH3]"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "58%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dichrocephone_B_2018_Christmann_20",
+      "reaction_smiles": "CC1(C)C(=O)C(C)(O)[C@@]23CCCC12CCC3(C)O.CC[O+](CC)[B-](F)(F)F.ClCCl>>CC1(C)C(=O)[C@]2(C)OC3(C)CCC14CCC[C@@]342",
+      "reaction_smiles_mapped": "O[C:9]1([CH3:10])[CH2:11][CH2:12][C:13]23[C:2]([CH3:1])([CH3:3])[C:4](=[O:5])[C:6]([CH3:7])([OH:8])[C@:17]12[CH2:16][CH2:15][CH2:14]3>CC[O+](CC)[B-](F)(F)F.ClCCl>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[C@:6]2([CH3:7])[O:8][C:9]3([CH3:10])[CH2:11][CH2:12][C:13]14[CH2:14][CH2:15][CH2:16][C@@:17]234",
+      "mapping_confidence": 0.7173294015911257,
+      "conditions": {
+        "raw_description": "CH2Cl2; 0; BF3\u2022OEt2; 88%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3\u2022OEt2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[O+](CC)[B-](F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    }
+  ]
+}

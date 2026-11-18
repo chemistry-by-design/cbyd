@@ -1,0 +1,455 @@
+{
+  "background": {
+    "name": "(+)-Dactyloxene B",
+    "author": "Paquette",
+    "year": 1993,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron Lett. 1993, 34, 5693",
+    "doi": "10.1016/S0040-4039(00)73835-4"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_1",
+      "reaction_smiles": "C=C[C@](C)(O)CCC=C(C)C.O=[O+][O-].ClCCl.c1ccncc1>>C=C[C@@]1(C)CCC(O)O1",
+      "reaction_smiles_mapped": "CC(C)=[CH:7][CH2:6][CH2:5][C@@:3]([CH:2]=[CH2:1])([CH3:4])[OH:9].[O-][O+]=[O:8]>ClCCl.c1ccncc1>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][CH:7]([OH:8])[O:9]1",
+      "mapping_confidence": 0.4042136780767135,
+      "conditions": {
+        "raw_description": "O3; DCM/py; -78 \u00b0C; (dr 1:1)",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_2",
+      "reaction_smiles": "C=C[C@@]1(C)CCC(O)O1.CCN(CC)CC.O=C(Cl)c1ccccc1>>C=C[C@@]1(C)CC=CO1",
+      "reaction_smiles_mapped": "O[CH:7]1[CH2:6][CH2:5][C@@:3]([CH:2]=[CH2:1])([CH3:4])[O:8]1>CCN(CC)CC.O=C(Cl)c1ccccc1>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH:6]=[CH:7][O:8]1",
+      "mapping_confidence": 0.9697443293042863,
+      "conditions": {
+        "raw_description": "1) BzCl; TEA; 2) 160\u00b0C; 2 torr; 50% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "BzCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "160"
+        ],
+        "YIELD": [
+          "50% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_3",
+      "reaction_smiles": "CC1=C(O)C(=O)CC1.Cl.CO>>COC1=C(C)CCC1=O",
+      "reaction_smiles_mapped": "O[C:3]1=[C:4]([CH3:5])[CH2:6][CH2:7][C:8]1=[O:9].[OH:2][CH3:1]>Cl>[CH3:1][O:2][C:3]1=[C:4]([CH3:5])[CH2:6][CH2:7][C:8]1=[O:9]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HCl; MeOH",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_4",
+      "reaction_smiles": "COC1=C(C)CCC1=O.[AlH4-].[Li+].CCOCC>>COC1=C(C)CCC1O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3]1=[C:4]([CH3:5])[CH2:6][CH2:7][C:8]1=[O:9]>CCOCC.[AlH4-].[Li+]>[CH3:1][O:2][C:3]1=[C:4]([CH3:5])[CH2:6][CH2:7][CH:8]1[OH:9]",
+      "mapping_confidence": 0.993623128365026,
+      "conditions": {
+        "raw_description": "LAH; Et2O",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_5",
+      "reaction_smiles": "COC1=C(C)CCC1O.O=S(=O)(O)O.C1CCOC1>>CC1=CCCC1=O",
+      "reaction_smiles_mapped": "CO[C:6]1=[C:2]([CH3:1])[CH2:3][CH2:4][CH:5]1O>C1CCOC1.O=S(=O)(O)O>[CH3:1][C:2]1=[CH:3][CH2:4][CH2:5][C:6]1=[O:7]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "3M H2SO4; THF; 64% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "64% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_6",
+      "reaction_smiles": "CC1=CCCC1=O.CCOCC.Cl.CO.C[Cu-]C.[Li+]>>C[C@H]1CCC(=O)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH:2]1=[C:7]([CH3:8])[C:5](=[O:6])[CH2:4][CH2:3]1.C[Cu-][CH3:1]>CCOCC.CO.Cl.[Li+]>[CH3:1][C@H:2]1[CH2:3][CH2:4][C:5](=[O:6])[C@@H:7]1[CH3:8]",
+      "mapping_confidence": 0.5670337117113151,
+      "conditions": {
+        "raw_description": "1) Me2CuLi; Et2O; 0 \u00b0C; 2) HCl; MeOH",
+        "GENERAL_REAGENTS": [
+          "Me2CuLi",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)(C)",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_7",
+      "reaction_smiles": "C[C@H]1CCC(=O)[C@@H]1C.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>C[C@@H]1[C@@H](C)CC[C@@H]1O",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]1[C@@H:3]([CH3:4])[CH2:5][CH2:6][C:7]1=[O:8]>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][C@@H:2]1[C@@H:3]([CH3:4])[CH2:5][CH2:6][C@@H:7]1[OH:8]",
+      "mapping_confidence": 0.9751807150703139,
+      "conditions": {
+        "raw_description": "L-Selectride; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "L-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](C(C)CC)(C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_8",
+      "reaction_smiles": "C[C@@H]1[C@@H](C)CC[C@@H]1O.CCN(CC)CC.O=C(Cl)CCl>>C[C@H]1[C@@H](OC(=O)CCl)CC[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([OH:6])[C@@H:11]1[CH3:12].Cl[C:7](=[O:8])[CH2:9][Cl:10]>CCN(CC)CC>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([O:6][C:7](=[O:8])[CH2:9][Cl:10])[C@@H:11]1[CH3:12]",
+      "mapping_confidence": 0.992138812850663,
+      "conditions": {
+        "raw_description": "ClCH2COCl; TEA",
+        "GENERAL_REAGENTS": [
+          "ClCH2COCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_9",
+      "reaction_smiles": "C[C@H]1[C@@H](OC(=O)CCl)CC[C@@H]1C>>C[C@H]1[C@@H](OC(=O)CCl)CC[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([O:6][C:7](=[O:8])[CH2:9][Cl:10])[C@@H:11]1[CH3:12]>>[CH3:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([O:6][C:7](=[O:8])[CH2:9][Cl:10])[C@@H:11]1[CH3:12]",
+      "mapping_confidence": 0.9960817001921647,
+      "conditions": {
+        "raw_description": "lipase P-30; 80% ee",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80% ee"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_10",
+      "reaction_smiles": "C[C@H]1[C@@H](OC(=O)CCl)CC[C@@H]1C.[Na+].[OH-].CO>>C[C@@H]1[C@@H](C)CC[C@@H]1O",
+      "reaction_smiles_mapped": "O=C(CCl)[O:8][C@@H:7]1[C@H:2]([CH3:1])[C@@H:3]([CH3:4])[CH2:5][CH2:6]1>CO.[Na+].[OH-]>[CH3:1][C@@H:2]1[C@@H:3]([CH3:4])[CH2:5][CH2:6][C@@H:7]1[OH:8]",
+      "mapping_confidence": 0.9262256717235173,
+      "conditions": {
+        "raw_description": "NaOH; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_11",
+      "reaction_smiles": "C=C[C@@]1(C)CC=CO1.[Li]C(C)(C)C.C1CCOC1.Cl[Ce](Cl)Cl>>C=C[C@@]1(C)CC=C([Ce](Cl)Cl)O1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH:6]=[CH:7][O:11]1.Cl[Ce:8]([Cl:9])[Cl:10]>C1CCOC1.[Li]C(C)(C)C>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH:6]=[C:7]([Ce:8]([Cl:9])[Cl:10])[O:11]1",
+      "mapping_confidence": 0.20583768216028095,
+      "conditions": {
+        "raw_description": "t-BuLi; CeCl3; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "t-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C(C)(C)C"
+        ],
+        "CATALYSTS": [
+          "CeCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ce](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_12",
+      "reaction_smiles": "C[C@@H]1[C@@H](C)CC[C@@H]1O.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>>C[C@H]1CCC(=O)[C@@H]1C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][C@H:5]([OH:6])[C@@H:7]1[CH3:8]>ClCCl.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1>[CH3:1][C@H:2]1[CH2:3][CH2:4][C:5](=[O:6])[C@@H:7]1[CH3:8]",
+      "mapping_confidence": 0.8469264382454934,
+      "conditions": {
+        "raw_description": "PCC; DCM",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_13",
+      "reaction_smiles": "C[C@H]1CCC(=O)[C@@H]1C.C=C[C@@]1(C)CC=C([Ce](Cl)Cl)O1.ClCCl.COC(=O)CCC(N)C(=O)O>>C=C[C@@]1(C)CC[C@]2(O1)C(=O)CC[C@H](C)[C@H]2C",
+      "reaction_smiles_mapped": "Cl[Ce](Cl)[C:7]1=[CH:6][CH2:5][C@@:3]([CH:2]=[CH2:1])([CH3:4])[O:8]1.[C:9]1(=[O:10])[CH2:11][CH2:12][C@H:13]([CH3:14])[C@H:15]1[CH3:16]>COC(=O)CCC(N)C(=O)O.ClCCl>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][C@:7]2([O:8]1)[C:9](=[O:10])[CH2:11][CH2:12][C@H:13]([CH3:14])[C@H:15]2[CH3:16]",
+      "mapping_confidence": 0.9321733319569729,
+      "conditions": {
+        "raw_description": "then Dowex 50; DCM; 44%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Dowex 50"
+        ],
+        "CATALYSTS_SMILES": [
+          "COC(=O)CCC(C(=O)O)N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "44%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_14",
+      "reaction_smiles": "C=C[C@@]1(C)CC[C@]2(O1)C(=O)CC[C@H](C)[C@H]2C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].C[Si](C)(C)[N-][Si](C)(C)C.[K+].O=S(=O)(N(c1ccccc1)S(=O)(=O)C(F)(F)F)C(F)(F)F>>C=C[C@@]1(C)CC[C@]2(O1)C(OS(=O)(=O)C(F)(F)F)=CC[C@H](C)[C@H]2C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][C@:7]2([O:8]1)[C:9](=[O:10])[CH2:18][CH2:19][C@H:20]([CH3:21])[C@H:22]2[CH3:23].O=S(=O)(N(c1ccccc1)[S:11](=[O:12])(=[O:13])[C:14]([F:15])([F:16])[F:17])C(F)(F)F>C[Si](C)(C)[N-][Si](C)(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].[K+]>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][C@:7]2([O:8]1)[C:9]([O:10][S:11](=[O:12])(=[O:13])[C:14]([F:15])([F:16])[F:17])=[CH:18][CH2:19][C@H:20]([CH3:21])[C@H:22]2[CH3:23]",
+      "mapping_confidence": 0.10566299990345698,
+      "conditions": {
+        "raw_description": "KHMDS; PhNTf2",
+        "GENERAL_REAGENTS": [
+          "KHMDS",
+          "PhNTf2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]",
+          "C1=CC=C(C=C1)N(S(=O)(=O)C(F)(F)F)S(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Dactyloxene_B_1993_Paquette_15",
+      "reaction_smiles": "C=C[C@@]1(C)CC[C@]2(O1)C(OS(=O)(=O)C(F)(F)F)=CC[C@H](C)[C@H]2C.C1CCOC1.CCOCC.C[Cu-]C.[Li+]>>C=C[C@@]1(C)CC[C@]2(O1)C(C)=CC[C@H](C)[C@H]2C",
+      "reaction_smiles_mapped": "O=S(=O)(O[C:9]1=[CH:11][CH2:12][C@H:13]([CH3:14])[C@@H:15]([CH3:16])[C@:7]12[CH2:6][CH2:5][C@@:3]([CH:2]=[CH2:1])([CH3:4])[O:8]2)C(F)(F)F.C[Cu-][CH3:10]>C1CCOC1.CCOCC.[Li+]>[CH2:1]=[CH:2][C@@:3]1([CH3:4])[CH2:5][CH2:6][C@:7]2([O:8]1)[C:9]([CH3:10])=[CH:11][CH2:12][C@H:13]([CH3:14])[C@H:15]2[CH3:16]",
+      "mapping_confidence": 0.42626946512475183,
+      "conditions": {
+        "raw_description": "Me2CuLi; THF/Et2O; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Me2CuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cu-](C)(C)"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

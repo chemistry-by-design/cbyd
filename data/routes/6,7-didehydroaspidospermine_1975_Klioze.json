@@ -1,0 +1,738 @@
+{
+  "background": {
+    "name": "(+/-)-6,7-didehydroaspidospermine",
+    "author": "Klioze",
+    "year": 1975,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1975, 40, 1588",
+    "doi": "10.1021/jo00899a015"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_1",
+      "reaction_smiles": "CCCC(=O)OCC.CCOC=O.[Li]N(C(C)C)C(C)C.C1CCOC1>>CCOC(=O)C(C=O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH2:9][CH3:10].CCO[CH:7]=[O:8]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([CH:7]=[O:8])[CH2:9][CH3:10]",
+      "mapping_confidence": 0.9139662639795064,
+      "conditions": {
+        "raw_description": "LDA; HCO2Et; THF; -78 \u00b0C to rt; 60%",
+        "GENERAL_REAGENTS": [
+          "HCO2Et",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC=O",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_2",
+      "reaction_smiles": "CCOC(=O)C(C=O)CC.C=CC(C)=O.CC(C)(C)[O-].[K+].CC(C)(C)O>>CCOC(=O)C(C=O)(CC)CCC(C)=O",
+      "reaction_smiles_mapped": "[CH2:11]=[CH:12][C:13]([CH3:14])=[O:15].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([CH:7]=[O:8])[CH2:9][CH3:10]>CC(C)(C)O.CC(C)(C)[O-].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]([CH:7]=[O:8])([CH2:9][CH3:10])[CH2:11][CH2:12][C:13]([CH3:14])=[O:15]",
+      "mapping_confidence": 0.9876420659673755,
+      "conditions": {
+        "raw_description": "tBuOK; tBuOH",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOK",
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_3",
+      "reaction_smiles": "CCOC(=O)C(C=O)(CC)CCC(C)=O.C1CC[NH2+]CC1.CC(=O)O.c1ccccc1>>CCOC(=O)C1(CC)C=CC(=O)CC1",
+      "reaction_smiles_mapped": "O=[CH:9][C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])([CH2:7][CH3:8])[CH2:14][CH2:13][C:11]([CH3:10])=[O:12]>C1CC[NH2+]CC1.CC(=O)O.c1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([CH2:7][CH3:8])[CH:9]=[CH:10][C:11](=[O:12])[CH2:13][CH2:14]1",
+      "mapping_confidence": 0.9450499409383483,
+      "conditions": {
+        "raw_description": "73% (2 steps); AcOH; benzene",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_4",
+      "reaction_smiles": "CCOC(=O)C1(CC)C=CC(=O)CC1.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1.OCCO>>CCOC(=O)C1(CC)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([CH2:7][CH3:8])[CH:9]=[CH:10][C:11](=O)[CH2:12][CH2:13]1.[OH:14][CH2:15][CH2:16][OH:17]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1([CH2:7][CH3:8])[CH:9]=[CH:10][C:11]2([CH2:12][CH2:13]1)[O:14][CH2:15][CH2:16][O:17]2",
+      "mapping_confidence": 0.5579130945638301,
+      "conditions": {
+        "raw_description": "ethylene glycol; p-TsOH; benzene; reflux",
+        "GENERAL_REAGENTS": [
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "ethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "C(CO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_5",
+      "reaction_smiles": "CCOC(=O)C1(CC)C=CC2(CC1)OCCO2.[AlH4-].[Li+].CCOCC>>CCC1(CO)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "CCO[C:4]([C:3]1([CH2:2][CH3:1])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2)=[O:5]>CCOCC.[AlH4-].[Li+]>[CH3:1][CH2:2][C:3]1([CH2:4][OH:5])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2",
+      "mapping_confidence": 0.918231907618458,
+      "conditions": {
+        "raw_description": "57% (2 steps); LiAlH4; Et2O",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_6",
+      "reaction_smiles": "CCC1(CO)C=CC2(CC1)OCCO2.O=S(=O)=O.c1ccncc1.CCN(CC)CC.CS(C)=O>>CCC1(C=O)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([CH2:4][OH:5])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2>CCN(CC)CC.CS(C)=O.O=S(=O)=O.c1ccncc1>[CH3:1][CH2:2][C:3]1([CH:4]=[O:5])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2",
+      "mapping_confidence": 0.8854678197502263,
+      "conditions": {
+        "raw_description": "py.SO3; Et3N; DMSO; 85%",
+        "GENERAL_REAGENTS": [
+          "py.SO3",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(=O)=O.c1ccncc1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_7",
+      "reaction_smiles": "CCC1(C=O)C=CC2(CC1)OCCO2.ClC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Li]c1ccccc1.CCOCC>>CCC1(/C=C/Cl)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "O=[CH:4][C:3]1([CH2:2][CH3:1])[CH:7]=[CH:8][C:9]2([CH2:10][CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2:5][Cl:6])cc1>CCOCC.[Li]c1ccccc1>[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]/[Cl:6])[CH:7]=[CH:8][C:9]2([CH2:10][CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2",
+      "mapping_confidence": 0.939410693170317,
+      "conditions": {
+        "raw_description": "97%; PhLi; Et2O; reflux",
+        "GENERAL_REAGENTS": [
+          "PhLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]c1ccccc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_8",
+      "reaction_smiles": "CCC1(/C=C/Cl)C=CC2(CC1)OCCO2.CN(C)P(=O)(N(C)C)N(C)C.COCCOC.CC(C)(C)[O-].[K+]>>C#CC1(CC)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "Cl/[CH:1]=[CH:2]/[C:3]1([CH2:4][CH3:5])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2>CC(C)(C)[O-].CN(C)P(=O)(N(C)C)N(C)C.COCCOC.[K+]>[CH:1]#[C:2][C:3]1([CH2:4][CH3:5])[CH:6]=[CH:7][C:8]2([CH2:9][CH2:10]1)[O:11][CH2:12][CH2:13][O:14]2",
+      "mapping_confidence": 0.9436480674159945,
+      "conditions": {
+        "raw_description": "glyme; tBuOK; HMPA; 91%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "glyme",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_9",
+      "reaction_smiles": "C#CC1(CC)C=CC2(CC1)OCCO2.[Li]C.C=O.COCCOC>>CCC1(C#CCO)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([C:4]#[CH:5])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2.[CH2:6]=[O:7]>COCCOC.[Li]C>[CH3:1][CH2:2][C:3]1([C:4]#[C:5][CH2:6][OH:7])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.8295097614673825,
+      "conditions": {
+        "raw_description": "MeLi; HCHO; glyme; 97%",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "HCHO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "C=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "glyme"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_10",
+      "reaction_smiles": "CCC1(C#CCO)C=CC2(CC1)OCCO2.[HH].CCN(CC)CC.O=[Pt]=O.CCOC(C)=O>>CCC1(/C=C\\CO)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1([C:4]#[C:5][CH2:6][OH:7])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2>CCN(CC)CC.CCOC(C)=O.O=[Pt]=O.[HH]>[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]\\[CH2:6][OH:7])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.9198498189203994,
+      "conditions": {
+        "raw_description": "H2; PtO2; Et3N; EtOAc; 99%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_11",
+      "reaction_smiles": "CCC1(/C=C\\CO)C=CC2(CC1)OCCO2.[Li]C.CS(=O)(=O)Cl.c1ccccc1>>CCC1(/C=C\\COS(C)(=O)=O)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]\\[CH2:6][OH:7])[CH:12]=[CH:13][C:14]2([CH2:15][CH2:16]1)[O:17][CH2:18][CH2:19][O:20]2.Cl[S:8]([CH3:9])(=[O:10])=[O:11]>[Li]C.c1ccccc1>[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]\\[CH2:6][O:7][S:8]([CH3:9])(=[O:10])=[O:11])[CH:12]=[CH:13][C:14]2([CH2:15][CH2:16]1)[O:17][CH2:18][CH2:19][O:20]2",
+      "mapping_confidence": 0.5522337281131736,
+      "conditions": {
+        "raw_description": "MeLi; MsCl; benzene; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_12",
+      "reaction_smiles": "CCC1(/C=C\\COS(C)(=O)=O)C=CC2(CC1)OCCO2.[N-]=[N+]=[N-].[Na+].CS(C)=O.O>>CCC1(/C=C\\CN=[N+]=[N-])C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH2:6]/[CH:5]=[CH:4]\\[C:3]1([CH2:2][CH3:1])[CH:10]=[CH:11][C:12]2([CH2:13][CH2:14]1)[O:15][CH2:16][CH2:17][O:18]2.[N-:7]=[N+:8]=[N-:9]>CS(C)=O.O.[Na+]>[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]\\[CH2:6][N:7]=[N+:8]=[N-:9])[CH:10]=[CH:11][C:12]2([CH2:13][CH2:14]1)[O:15][CH2:16][CH2:17][O:18]2",
+      "mapping_confidence": 0.6724743151980602,
+      "conditions": {
+        "raw_description": "88% (2 steps); NaN3; DMSO-H2O",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_13",
+      "reaction_smiles": "CCC1(/C=C\\CN=[N+]=[N-])C=CC2(CC1)OCCO2.[Hg].[Na].CCOCC.CO>>CCC1(/C=C\\CN)C=CC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:7][CH2:6]/[CH:5]=[CH:4]\\[C:3]1([CH2:2][CH3:1])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2>CCOCC.CO.[Hg].[Na]>[CH3:1][CH2:2][C:3]1(/[CH:4]=[CH:5]\\[CH2:6][NH2:7])[CH:8]=[CH:9][C:10]2([CH2:11][CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.8840607217500366,
+      "conditions": {
+        "raw_description": "Na-Hg; Et2O; MeOH; 81%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Na-Hg"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Na].[Hg]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_14",
+      "reaction_smiles": "CCC1(/C=C\\CN)C=CC2(CC1)OCCO2.Cl.CO>>CC[C@]12C=CCN[C@H]1CC(=O)CC2",
+      "reaction_smiles_mapped": "C1C[O:11][C:10]2(O1)[CH:9]=[CH:8][C:3]([CH2:2][CH3:1])(/[CH:4]=[CH:5]\\[CH2:6][NH2:7])[CH2:13][CH2:12]2>CO.Cl>[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][NH:7][C@H:8]1[CH2:9][C:10](=[O:11])[CH2:12][CH2:13]2",
+      "mapping_confidence": 0.6901127406070814,
+      "conditions": {
+        "raw_description": "HCl; MeOH; rt; 86%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_15",
+      "reaction_smiles": "CC[C@]12C=CCN[C@H]1CC(=O)CC2.O=C(Cl)CCl.CCN(CC)CC.ClCCl>>CC[C@]12C=CCN(C(=O)CCl)[C@H]1CC(=O)CC2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][NH:7][C@H:12]1[CH2:13][C:14](=[O:15])[CH2:16][CH2:17]2.Cl[C:8](=[O:9])[CH2:10][Cl:11]>CCN(CC)CC.ClCCl>[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]([C:8](=[O:9])[CH2:10][Cl:11])[C@H:12]1[CH2:13][C:14](=[O:15])[CH2:16][CH2:17]2",
+      "mapping_confidence": 0.994700819137236,
+      "conditions": {
+        "raw_description": "ClCH2COCl; Et3N; DCM; 0 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "ClCH2COCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_16",
+      "reaction_smiles": "CC[C@]12C=CCN(C(=O)CCl)[C@H]1CC(=O)CC2.c1ccccc1.CC(C)(C)[O-].[K+]>>CC[C@@]12C=CCN3C(=O)C[C@@H](C(=O)CC1)[C@H]32",
+      "reaction_smiles_mapped": "Cl[CH2:10][C:8]([N:7]1[CH2:6][CH:5]=[CH:4][C@:3]2([CH2:2][CH3:1])[CH2:15][CH2:14][C:12](=[O:13])[CH2:11][C@@H:16]21)=[O:9]>CC(C)(C)[O-].[K+].c1ccccc1>[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[C:8](=[O:9])[CH2:10][C@@H:11]([C:12](=[O:13])[CH2:14][CH2:15]1)[C@@H:16]23",
+      "mapping_confidence": 0.9912434177682407,
+      "conditions": {
+        "raw_description": "tBuOK; benzene; reflux; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_17",
+      "reaction_smiles": "CC[C@@]12C=CCN3C(=O)C[C@@H](C(=O)CC1)[C@H]32.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1.OCCO>>CC[C@]12C=CCN3C(=O)C[C@H]([C@H]31)C1(CC2)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[C:8](=[O:9])[CH2:10][C@H:11]([C@@H:12]13)[C:13](=O)[CH2:14][CH2:15]2.[OH:16][CH2:17][CH2:18][OH:19]>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[C:8](=[O:9])[CH2:10][C@H:11]([C@@H:12]13)[C:13]1([CH2:14][CH2:15]2)[O:16][CH2:17][CH2:18][O:19]1",
+      "mapping_confidence": 0.583136160141331,
+      "conditions": {
+        "raw_description": "ethylene glycol; p-TsOH; benzene; reflux; 90%",
+        "GENERAL_REAGENTS": [
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene",
+          "ethylene glycol"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "C(CO)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_18",
+      "reaction_smiles": "CC[C@]12C=CCN3C(=O)C[C@H]([C@H]31)C1(CC2)OCCO1.[AlH4-].[Li+].CCOCC>>CC[C@]12C=CCN3CC[C@H]([C@H]31)C1(CC2)OCCO1",
+      "reaction_smiles_mapped": "O=[C:8]1[N:7]2[CH2:6][CH:5]=[CH:4][C@@:3]3([CH2:2][CH3:1])[C@@H:11]2[C@@H:10]([CH2:9]1)[C:12]1([CH2:13][CH2:14]3)[O:15][CH2:16][CH2:17][O:18]1>CCOCC.[AlH4-].[Li+]>[CH3:1][CH2:2][C@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@H:10]([C@@H:11]13)[C:12]1([CH2:13][CH2:14]2)[O:15][CH2:16][CH2:17][O:18]1",
+      "mapping_confidence": 0.9349759017607753,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; rt; 95%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_19",
+      "reaction_smiles": "CC[C@]12C=CCN3CC[C@H]([C@H]31)C1(CC2)OCCO1.Cl.CO.O>>CC[C@@]12C=CCN3CC[C@@H](C(=O)CC1)[C@H]32",
+      "reaction_smiles_mapped": "C1CO[C:11]2(O1)[C@@H:10]1[CH2:9][CH2:8][N:7]3[CH2:6][CH:5]=[CH:4][C@:3]([CH2:2][CH3:1])([CH2:14][CH2:13]2)[C@@H:15]31>CO.Cl.O>[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@H:10]([C:11](=[O:12])[CH2:13][CH2:14]1)[C@@H:15]23",
+      "mapping_confidence": 0.8245578630702481,
+      "conditions": {
+        "raw_description": "HCl; MeOH-H2O; 97%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_20",
+      "reaction_smiles": "CC[C@@]12C=CCN3CC[C@@H](C(=O)CC1)[C@H]32.COc1ccccc1NN.CC(=O)O>>CC[C@@]12C=CCN3CC[C@@]4(C(=Nc5c(OC)cccc54)CC1)[C@H]32",
+      "reaction_smiles_mapped": "O=[C:11]1[C@@H:10]2[CH2:9][CH2:8][N:7]3[CH2:6][CH:5]=[CH:4][C@:3]([CH2:2][CH3:1])([CH2:22][CH2:21]1)[C@@H:23]32.N[NH:12][c:13]1[c:14]([O:15][CH3:16])[cH:17][cH:18][cH:19][cH:20]1>CC(=O)O>[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@@:10]4([C:11](=[N:12][c:13]5[c:14]([O:15][CH3:16])[cH:17][cH:18][cH:19][c:20]54)[CH2:21][CH2:22]1)[C@@H:23]23",
+      "mapping_confidence": 0.9251849229400794,
+      "conditions": {
+        "raw_description": "AcOH; reflux",
+        "GENERAL_REAGENTS": [
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_21",
+      "reaction_smiles": "CC[C@@]12C=CCN3CC[C@@]4(C(=Nc5c(OC)cccc54)CC1)[C@H]32.[AlH4-].[Li+].CCOCC>>CC[C@@]12C=CCN3CC[C@]4(c5cccc(OC)c5N[C@@H]4CC1)[C@H]32",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]5[N:19]=[C:20]4[CH2:21][CH2:22]1)[C@@H:23]23>CCOCC.[AlH4-].[Li+]>[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]5[NH:19][C@@H:20]4[CH2:21][CH2:22]1)[C@@H:23]23",
+      "mapping_confidence": 0.9920119584808647,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_22",
+      "reaction_smiles": "CC[C@@]12C=CCN3CC[C@]4(c5cccc(OC)c5N[C@@H]4CC1)[C@H]32.CC(=O)[O-].[Na+].CC(=O)OC(C)=O>>CC[C@@]12C=CCN3CC[C@]4(c5cccc(OC)c5N(C(C)=O)[C@@H]4CC1)[C@H]32",
+      "reaction_smiles_mapped": "CC(=O)O[C:20]([CH3:21])=[O:22].[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]5[NH:19][C@@H:23]4[CH2:24][CH2:25]1)[C@@H:26]23>CC(=O)[O-].[Na+]>[CH3:1][CH2:2][C@@:3]12[CH:4]=[CH:5][CH2:6][N:7]3[CH2:8][CH2:9][C@:10]4([c:11]5[cH:12][cH:13][cH:14][c:15]([O:16][CH3:17])[c:18]5[N:19]([C:20]([CH3:21])=[O:22])[C@@H:23]4[CH2:24][CH2:25]1)[C@@H:26]23",
+      "mapping_confidence": 0.4998473164542715,
+      "conditions": {
+        "raw_description": "9% (3 steps); Ac2O; NaOAc; rt",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_23",
+      "reaction_smiles": "COc1ccccc1N.O=N[O-].[Na+].Cl>>COc1ccccc1[N+]#N",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[NH2:9].O=[N:10][O-]>Cl.[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[N+:9]#[N:10]",
+      "mapping_confidence": 0.9466088348603751,
+      "conditions": {
+        "raw_description": "NaNO2; HCl",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "6,7-didehydroaspidospermine_1975_Klioze_24",
+      "reaction_smiles": "COc1ccccc1[N+]#N.Cl[Sn]Cl>>COc1ccccc1NN",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[N+:9]#[N:10]>Cl[Sn]Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][cH:6][cH:7][c:8]1[NH:9][NH2:10]",
+      "mapping_confidence": 0.9796229842574887,
+      "conditions": {
+        "raw_description": "SnCl2",
+        "GENERAL_REAGENTS": [
+          "SnCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl[Sn]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "background": {
+    "name": "Scabrolide A",
+    "author": "Furstner",
+    "year": 2022,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2022, 144, 1528",
+    "doi": "10.1021/jacs.1c12401"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_1",
+      "reaction_smiles": "C[C@]1(O)C=CCC1.[H-].[Na+].CC(C)(C)[Si](C)(C)Cl.C1CCOC1>>CC(C)(C)[Si](C)(C)O[C@@]1(C)C=CCC1",
+      "reaction_smiles_mapped": "Cl[Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7].[OH:8][C@@:9]1([CH3:10])[CH:11]=[CH:12][CH2:13][CH2:14]1>[H-].[Na+].C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@@:9]1([CH3:10])[CH:11]=[CH:12][CH2:13][CH2:14]1",
+      "mapping_confidence": 0.38766422370540304,
+      "conditions": {
+        "raw_description": "NaH; TBSCl; THF; 65 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "TBSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CC(C)(C)[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_2",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@@]1(C)C=CCC1.CC(=O)[O-].CC(=O)[O-].[Mg+2].Cl[Ru](Cl)Cl.ClCCl.CC(C)(C)OO>>CC(C)(C)[Si](C)(C)O[C@@]1(C)C=CC(=O)C1",
+      "reaction_smiles_mapped": "CC(C)(C)O[OH:14].[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@@:9]1([CH3:10])[CH:11]=[CH:12][CH2:13][CH2:15]1>CC(=O)[O-].CC(=O)[O-].[Mg+2].Cl[Ru](Cl)Cl.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@@:9]1([CH3:10])[CH:11]=[CH:12][C:13](=[O:14])[CH2:15]1",
+      "mapping_confidence": 0.21603466808364158,
+      "conditions": {
+        "raw_description": "RuCl3; Mg(OAc)2; tBuOOH; CH2Cl2; 55% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Mg(OAc)2",
+          "tBuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Mg+2].CC(=O)[O-].CC(=O)[O-]",
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "RuCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ru](Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_3",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@@]1(C)C=CC(=O)C1.C=CC=C.Cl[Al](Cl)Cl.Cc1ccccc1>>CC(C)(C)[Si](C)(C)O[C@]1(C)CC(=O)[C@@H]2CC=CC[C@@H]21",
+      "reaction_smiles_mapped": "[CH2:15]=[CH:16][CH:17]=[CH2:18].[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C:12](=[O:13])[CH:14]=[CH:19]1>Cl[Al](Cl)Cl.Cc1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C:12](=[O:13])[C@@H:14]2[CH2:15][CH:16]=[CH:17][CH2:18][C@H:19]12",
+      "mapping_confidence": 0.2290253550008038,
+      "conditions": {
+        "raw_description": "1,3-butadiene; AlCl3; PhMe",
+        "GENERAL_REAGENTS": [
+          "1,3-butadiene"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CC=C"
+        ],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_4",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@]1(C)CC(=O)[C@@H]2CC=CC[C@@H]21.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@H](O)[C@@H]2CC=CC[C@@H]21",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C:12](=[O:13])[C@@H:14]2[CH2:15][CH:16]=[CH:17][CH2:18][C@H:19]12>CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@H:12]([OH:13])[C@@H:14]2[CH2:15][CH:16]=[CH:17][CH2:18][C@H:19]12",
+      "mapping_confidence": 0.33903976228074023,
+      "conditions": {
+        "raw_description": "L-Selectride; THF; -78 \u00b0C; 69% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "L-Selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](C(C)CC)(C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "69% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_5",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@H](O)[C@@H]2CC=CC[C@@H]21.O=[O+][O-].ClCCl>>CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(O)C[C@@H]2[C@@H]1CC=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@H:12]([OH:13])[C@@H:17]2[CH2:16][CH:14]=[CH:20][CH2:19][C@H:18]12.[O-:15][O+]=[O:21]>ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@@H:12]2[O:13][CH:14]([OH:15])[CH2:16][C@@H:17]2[C@@H:18]1[CH2:19][CH:20]=[O:21]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "O3; CH2Cl2; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "O3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_6",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(O)C[C@@H]2[C@@H]1CC=O.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>>CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(=O)C[C@@H]2[C@@H]1CC=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@@H:12]2[O:13][CH:14]([OH:15])[CH2:16][C@@H:17]2[C@@H:18]1[CH2:19][CH:20]=[O:21]>O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@@H:12]2[O:13][C:14](=[O:15])[CH2:16][C@@H:17]2[C@@H:18]1[CH2:19][CH:20]=[O:21]",
+      "mapping_confidence": 0.3568982517508348,
+      "conditions": {
+        "raw_description": "PCC; 4\u00c5 MS; CH2Cl2; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_7",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(=O)C[C@@H]2[C@@H]1CC=O.[BH4-].[Na+].C1CCOC1>>CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(=O)C[C@@H]2[C@@H]1CCO",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@@H:12]2[O:13][C:14](=[O:15])[CH2:16][C@@H:17]2[C@@H:18]1[CH2:19][CH:20]=[O:21]>[BH4-].[Na+].C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][C@:9]1([CH3:10])[CH2:11][C@@H:12]2[O:13][C:14](=[O:15])[CH2:16][C@@H:17]2[C@@H:18]1[CH2:19][CH2:20][OH:21]",
+      "mapping_confidence": 0.35688723366950587,
+      "conditions": {
+        "raw_description": "NaBH4; THF; 0 \u00b0C; 44% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "44% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_8",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)O[C@]1(C)C[C@@H]2OC(=O)C[C@@H]2[C@@H]1CCO.N#C[Se]c1ccccc1[N+](=O)[O-].O=C([O-])O.[Na+].OO.CCCCP(CCCC)CCCC.C1CCOC1.O>>C=C[C@H]1[C@H]2CC(=O)O[C@H]2C[C@@]1(C)O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O[CH2:1][CH2:2][C@H:3]1[C@H:4]2[CH2:5][C:6](=[O:7])[O:8][C@H:9]2[CH2:10][C@@:11]1([CH3:12])[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]>N#C[Se]c1ccccc1[N+](=O)[O-].O=C([O-])O.[Na+].OO.CCCCP(CCCC)CCCC.C1CCOC1.O>[CH2:1]=[CH:2][C@H:3]1[C@H:4]2[CH2:5][C:6](=[O:7])[O:8][C@H:9]2[CH2:10][C@@:11]1([CH3:12])[O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.261576402109882,
+      "conditions": {
+        "raw_description": "o-NO2PhSeCN; nBu3P; THF; NaHCO3; H2O2; H2O; 88%",
+        "GENERAL_REAGENTS": [
+          "o-NO2PhSeCN",
+          "NaHCO3",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[N+](C1=CC=CC=C1[Se]C#N)[O-]",
+          "C(=O)(O)[O-].[Na+]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "nBu3P"
+        ],
+        "LIGANDS_SMILES": [
+          "CCCCP(CCCC)CCCC"
+        ],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_9",
+      "reaction_smiles": "C=C[C@H]1[C@H]2CC(=O)O[C@H]2C[C@@]1(C)O[Si](C)(C)C(C)(C)C.[Li]N([Si](C)(C)C)[Si](C)(C)C.CSS(C)(=O)=O.C1CCOC1>>C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O[Si](C)(C)C(C)(C)C)OC(=O)[C@H]2SC",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[O:17][C:18](=[O:19])[CH2:20]2.CS(=O)(=O)[S:21][CH3:22]>[Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1>[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[O:17][C:18](=[O:19])[C@H:20]2[S:21][CH3:22]",
+      "mapping_confidence": 0.21957859855226863,
+      "conditions": {
+        "raw_description": "LiHMDS; MeSSO2Me; THF; -78 to -30 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "LiHMDS",
+          "MeSSO2Me"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C",
+          "CSS(=O)(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-30"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_10",
+      "reaction_smiles": "C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O[Si](C)(C)C(C)(C)C)OC(=O)[C@H]2SC.C=C(C)[C@@H]1CC=C(CI)CC2(C1)OCCO2.CC(C)(C)c1cccc(C(C)(C)C)n1.CC(C)(C)O[K].F[B-](F)(F)F.[Ag+].CC#N>>C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O[Si](C)(C)C(C)(C)C)OC(=O)[C@]2(SC)C1C[C@@H](C(=C)C)CC2(CC1=C)OCCO2",
+      "reaction_smiles_mapped": "I[CH2:33][C:32]1=[CH:23][CH2:24][C@@H:25]([C:26](=[CH2:27])[CH3:28])[CH2:29][C:30]2([CH2:31]1)[O:34][CH2:35][CH2:36][O:37]2.[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[O:17][C:18](=[O:19])[C@H:20]2[S:21][CH3:22]>CC(C)(C)c1cccc(C(C)(C)C)n1.CC(C)(C)O[K].F[B-](F)(F)F.[Ag+].CC#N>[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[O:9][Si:10]([CH3:11])([CH3:12])[C:13]([CH3:14])([CH3:15])[CH3:16])[O:17][C:18](=[O:19])[C@:20]2([S:21][CH3:22])[CH:23]1[CH2:24][C@@H:25]([C:26](=[CH2:27])[CH3:28])[CH2:29][C:30]2([CH2:31][C:32]1=[CH2:33])[O:34][CH2:35][CH2:36][O:37]2",
+      "mapping_confidence": 0.2525984427495768,
+      "conditions": {
+        "raw_description": "1) 2,6-di-tert-butylpyridine; AgBF4; MeCN; 2) KOtBu; MeCN",
+        "GENERAL_REAGENTS": [
+          "2,6-di-tert-butylpyridine",
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)C1=NC(=CC=C1)C(C)(C)C",
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [
+          "AgBF4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[B-](F)(F)(F)F.[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_11",
+      "reaction_smiles": "C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O[Si](C)(C)C(C)(C)C)OC(=O)[C@]2(SC)C1C[C@@H](C(=C)C)CC2(CC1=C)OCCO2.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O)OC(=O)[C@]2(SC)C1C[C@@H](C(=C)C)CC2(CC1=C)OCCO2",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:9][C@@:7]1([CH3:8])[C@@H:3]([CH:2]=[CH2:1])[C@@H:4]2[C@H:5]([CH2:6]1)[O:10][C:11](=[O:12])[C@:13]2([S:14][CH3:15])[CH:16]1[CH2:17][C@@H:18]([C:19](=[CH2:20])[CH3:21])[CH2:22][C:23]2([CH2:24][C:25]1=[CH2:26])[O:27][CH2:28][CH2:29][O:30]2>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[OH:9])[O:10][C:11](=[O:12])[C@:13]2([S:14][CH3:15])[CH:16]1[CH2:17][C@@H:18]([C:19](=[CH2:20])[CH3:21])[CH2:22][C:23]2([CH2:24][C:25]1=[CH2:26])[O:27][CH2:28][CH2:29][O:30]2",
+      "mapping_confidence": 0.9292510276829211,
+      "conditions": {
+        "raw_description": "TBAF; THF; 80 \u00b0C; 31% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "31% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_12",
+      "reaction_smiles": "C=C[C@H]1[C@@H]2[C@H](C[C@@]1(C)O)OC(=O)[C@]2(SC)C1C[C@@H](C(=C)C)CC2(CC1=C)OCCO2.CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.Cc1ccccc1>>C=C[C@H]1[C@H]2C(C3C[C@@H](C(=C)C)CC4(CC3=C)OCCO4)C(=O)O[C@H]2C[C@@]1(C)O",
+      "reaction_smiles_mapped": "CS[C@@:5]1([CH:6]2[CH2:7][C@@H:8]([C:9](=[CH2:10])[CH3:11])[CH2:12][C:13]3([CH2:14][C:15]2=[CH2:16])[O:17][CH2:18][CH2:19][O:20]3)[C@@H:4]2[C@H:3]([CH:2]=[CH2:1])[C@:26]([CH3:27])([OH:28])[CH2:25][C@@H:24]2[O:23][C:21]1=[O:22]>CCCC[SnH](CCCC)CCCC.CC(C)(C#N)N=NC(C)(C)C#N.Cc1ccccc1>[CH2:1]=[CH:2][C@H:3]1[C@H:4]2[CH:5]([CH:6]3[CH2:7][C@@H:8]([C:9](=[CH2:10])[CH3:11])[CH2:12][C:13]4([CH2:14][C:15]3=[CH2:16])[O:17][CH2:18][CH2:19][O:20]4)[C:21](=[O:22])[O:23][C@H:24]2[CH2:25][C@@:26]1([CH3:27])[OH:28]",
+      "mapping_confidence": 0.8518167665871186,
+      "conditions": {
+        "raw_description": "Bu3SnH; AIBN; PhMe; 85 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Bu3SnH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[SnH](CCCC)CCCC"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "85"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_13",
+      "reaction_smiles": "C=C[C@H]1[C@H]2C(C3C[C@@H](C(=C)C)CC4(CC3=C)OCCO4)C(=O)O[C@H]2C[C@@]1(C)O.C1CCC2=NCCCN2CC1.CC#N>>C=C[C@H]1[C@H]2[C@H]([C@@H]3C[C@@H](C(=C)C)CC4(CC3=C)OCCO4)C(=O)O[C@H]2C[C@@]1(C)O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[OH:9])[O:10][C:11](=[O:12])[CH:13]2[CH:14]1[CH2:15][C@@H:16]([C:17](=[CH2:18])[CH3:19])[CH2:20][C:21]2([CH2:22][C:23]1=[CH2:24])[O:25][CH2:26][CH2:27][O:28]2>C1CCC2=NCCCN2CC1.CC#N>[CH2:1]=[CH:2][C@H:3]1[C@@H:4]2[C@H:5]([CH2:6][C@@:7]1([CH3:8])[OH:9])[O:10][C:11](=[O:12])[C@H:13]2[C@@H:14]1[CH2:15][C@@H:16]([C:17](=[CH2:18])[CH3:19])[CH2:20][C:21]2([CH2:22][C:23]1=[CH2:24])[O:25][CH2:26][CH2:27][O:28]2",
+      "mapping_confidence": 0.7949934946105822,
+      "conditions": {
+        "raw_description": "DBU; MeCN; 80 \u00b0C; 79% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "79% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_14",
+      "reaction_smiles": "C=C[C@H]1[C@H]2[C@H]([C@@H]3C[C@@H](C(=C)C)CC4(CC3=C)OCCO4)C(=O)O[C@H]2C[C@@]1(C)O.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>>C=C(C)[C@@H]1C[C@@H]2C(=C[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@H]42)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "C=[C:7]1[C@H:6]([C@H:19]2[C@@H:10]3[C@H:9]([CH:8]=C)[C@:13]([CH3:14])([OH:15])[CH2:12][C@@H:11]3[O:16][C:17]2=[O:18])[CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:22][C:21]2([CH2:20]1)[O:23][CH2:24][CH2:25][O:26]2>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][C@@H:6]2[C:7](=[CH:8][C@H:9]3[CH:10]4[C@H:11]([CH2:12][C@@:13]3([CH3:14])[OH:15])[O:16][C:17](=[O:18])[C@@H:19]24)[CH2:20][C:21]2([CH2:22]1)[O:23][CH2:24][CH2:25][O:26]2",
+      "mapping_confidence": 0.8492105002731882,
+      "conditions": {
+        "raw_description": "HG-II; PhMe; 100 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG-II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_15",
+      "reaction_smiles": "C=C(C)[C@@H]1C[C@@H]2C(=C[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@H]42)CC2(C1)OCCO2.O.O=[Si]=O.O=[Si]=O.O=[Si]=O.O=[Si]=O.[Al+3].[Al+3].[O-2].[O-2].[O-2].ClCCl>>C=C(C)[C@H]1CC(=O)CC2=C[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@H]4[C@@H]2C1",
+      "reaction_smiles_mapped": "C1CO[C:6]2(O1)[CH2:5][C@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:23][C@@H:22]1[C:9](=[CH:10][C@H:11]3[CH:12]4[C@H:13]([CH2:14][C@@:15]3([CH3:16])[OH:17])[O:18][C:19](=[O:20])[C@H:21]41)[CH2:8]2>ClCCl.O.O=[Si]=O.O=[Si]=O.O=[Si]=O.O=[Si]=O.[Al+3].[Al+3].[O-2].[O-2].[O-2]>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH2:8][C:9]2=[CH:10][C@H:11]3[CH:12]4[C@H:13]([CH2:14][C@@:15]3([CH3:16])[OH:17])[O:18][C:19](=[O:20])[C@H:21]4[C@@H:22]2[CH2:23]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Montmorillonite K-10; CH2Cl2",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Montmorillonite K-10"
+        ],
+        "CATALYSTS_SMILES": [
+          "O.[O-2].[O-2].[O-2].O=[Si]=O.O=[Si]=O.O=[Si]=O.O=[Si]=O.[Al+3].[Al+3]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_16",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)CC2=C[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@H]4[C@@H]2C1.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].O=[V+2].Cc1ccccc1.CC(C)(C)OO>>C=C(C)[C@H]1CC(=O)C[C@@]23O[C@@H]2[C@H]2C4[C@H](C[C@@]2(C)O)OC(=O)[C@H]4[C@@H]3C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH2:8][C:9]2=[CH:11][C@H:12]3[CH:13]4[C@H:14]([CH2:15][C@@:16]3([CH3:17])[OH:18])[O:19][C:20](=[O:21])[C@H:22]4[C@@H:23]2[CH2:24]1.CC(C)(C)O[OH:10]>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].O=[V+2].Cc1ccccc1>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH2:8][C@@:9]23[O:10][C@@H:11]2[C@H:12]2[CH:13]4[C@H:14]([CH2:15][C@@:16]2([CH3:17])[OH:18])[O:19][C:20](=[O:21])[C@H:22]4[C@@H:23]3[CH2:24]1",
+      "mapping_confidence": 0.4506117920154292,
+      "conditions": {
+        "raw_description": "VO(acac)2; tBuOOH; 4\u00c5 MS; PhMe; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "tBuOOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO"
+        ],
+        "CATALYSTS": [
+          "VO(acac)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].O=[V+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_17",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)C[C@@]23O[C@@H]2[C@H]2C4[C@H](C[C@@]2(C)O)OC(=O)[C@H]4[C@@H]3C1.CCN(CC)CC.ClCCl>>C=C(C)[C@H]1CC(=O)C=C2[C@@H](C1)[C@H]1C(=O)O[C@H]3C[C@@](C)(O)[C@H](C31)[C@H]2O",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH2:8][C@:9]23[C@@H:10]([CH2:11]1)[C@@H:12]1[C:13](=[O:14])[O:15][C@H:16]4[CH2:17][C@@:18]([CH3:19])([OH:20])[C@H:21]([CH:22]14)[C@H:23]2[O:24]3>CCN(CC)CC.ClCCl>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH:8]=[C:9]2[C@@H:10]([CH2:11]1)[C@H:12]1[C:13](=[O:14])[O:15][C@H:16]3[CH2:17][C@@:18]([CH3:19])([OH:20])[C@H:21]([CH:22]13)[C@H:23]2[OH:24]",
+      "mapping_confidence": 0.9481315893262269,
+      "conditions": {
+        "raw_description": "Et3N; CH2Cl2; 55% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_18",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)C=C2[C@@H](C1)[C@H]1C(=O)O[C@H]3C[C@@](C)(O)[C@H](C31)[C@H]2O.O=C1OI(=O)(O)c2ccccc21.CC#N>>C=C(C)[C@H]1CC(=O)C=C2C(=O)[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@@H]4[C@@H]2C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH:8]=[C:9]2[C@H:10]([OH:11])[C@H:12]3[CH:13]4[C@H:14]([CH2:15][C@@:16]3([CH3:17])[OH:18])[O:19][C:20](=[O:21])[C@@H:22]4[C@@H:23]2[CH2:24]1>O=C1OI(=O)(O)c2ccccc21.CC#N>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH:8]=[C:9]2[C:10](=[O:11])[C@H:12]3[CH:13]4[C@H:14]([CH2:15][C@@:16]3([CH3:17])[OH:18])[O:19][C:20](=[O:21])[C@@H:22]4[C@@H:23]2[CH2:24]1",
+      "mapping_confidence": 0.9118021013201899,
+      "conditions": {
+        "raw_description": "IBX; MeCN; 50 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_19",
+      "reaction_smiles": "C=C(C)[C@H]1CC(=O)C=C2C(=O)[C@H]3C4[C@H](C[C@@]3(C)O)OC(=O)[C@@H]4[C@@H]2C1.O=C([O-])[O-].[K+].[K+].CC#N>>C=C(C)[C@H]1CC(=O)CC2=C(C1)[C@H]1C(=O)O[C@H]3C[C@@](C)(O)[C@@H](C2=O)C13",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH:8]=[C:9]2[C@@H:10]([CH2:11]1)[C@H:12]1[C:13](=[O:14])[O:15][C@H:16]3[CH2:17][C@@:18]([CH3:19])([OH:20])[C@@H:21]([C:22]2=[O:23])[CH:24]13>O=C([O-])[O-].[K+].[K+].CC#N>[CH2:1]=[C:2]([CH3:3])[C@H:4]1[CH2:5][C:6](=[O:7])[CH2:8][C:9]2=[C:10]([CH2:11]1)[C@H:12]1[C:13](=[O:14])[O:15][C@H:16]3[CH2:17][C@@:18]([CH3:19])([OH:20])[C@@H:21]([C:22]2=[O:23])[CH:24]13",
+      "mapping_confidence": 0.8875639856364499,
+      "conditions": {
+        "raw_description": "K2CO3; MeCN; 40 \u00b0C; 98%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_20",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)C(=O)C1.C[Si](C)(C)C#N.C[N+]1([O-])CCOCC1.ClCCl>>C=C(C)[C@@H]1CC=C(C)[C@](C#N)(O[Si](C)(C)C)C1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[C:9](=[O:12])[CH2:17]1.[C:10](#[N:11])[Si:13]([CH3:14])([CH3:15])[CH3:16]>C[N+]1([O-])CCOCC1.ClCCl>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[C@:9]([C:10]#[N:11])([O:12][Si:13]([CH3:14])([CH3:15])[CH3:16])[CH2:17]1",
+      "mapping_confidence": 0.4303527172271837,
+      "conditions": {
+        "raw_description": "TMSCN; NMO; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "TMSCN",
+          "NMO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C#N",
+          "C[N+]1(CCOCC1)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_21",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)[C@](C#N)(O[Si](C)(C)C)C1.[AlH4-].[Li+].CCOCC>>C=C(C)[C@@H]1CC=C(C)[C@@](O)(CN)C1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:10][C@@:9]1([C:11]#[N:12])[C:7]([CH3:8])=[CH:6][CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:13]1>[AlH4-].[Li+].CCOCC>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[C@@:9]([OH:10])([CH2:11][NH2:12])[CH2:13]1",
+      "mapping_confidence": 0.9954830127841664,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_22",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)[C@@](O)(CN)C1.O=N[O-].[Na+].CC(=O)O.O>>C=C(C)[C@@H]1CC=C(C)CC(=O)C1",
+      "reaction_smiles_mapped": "N[CH2:9][C@:10]1([OH:11])[C:7]([CH3:8])=[CH:6][CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:12]1>O=N[O-].[Na+].CC(=O)O.O>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[CH2:9][C:10](=[O:11])[CH2:12]1",
+      "mapping_confidence": 0.9534284691061933,
+      "conditions": {
+        "raw_description": "NaNO2; AcOH; H2O; 0 \u00b0C; 71% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "71% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_23",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)CC(=O)C1.C[Si](C)(C)OCCO[Si](C)(C)C.C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>>C=C(C)[C@@H]1CC=C(C)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[CH2:9][C:10](=O)[CH2:11]1.C[Si](C)(C)[O:12][CH2:13][CH2:14][O:15][Si](C)(C)C>C[Si](C)(C)OS(=O)(=O)C(F)(F)F.ClCCl>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH3:8])[CH2:9][C:10]2([CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "TMSOTf; CH2Cl2; -78 to -20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TMSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_24",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(C)CC2(C1)OCCO2.O=C(OO)c1cccc(Cl)c1.O=C([O-])O.[Na+].ClCCl>>C=C(C)[C@@H]1C[C@H]2O[C@@]2(C)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:8]([CH3:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2.O=C(O[OH:7])c1cccc(Cl)c1>O=C([O-])O.[Na+].ClCCl>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][C@H:6]2[O:7][C@@:8]2([CH3:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.9235560204829675,
+      "conditions": {
+        "raw_description": "mCPBA; NaHCO3; CH2Cl2; -20 \u00b0C; 77% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "mCPBA",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "77% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_25",
+      "reaction_smiles": "C=C(C)[C@@H]1C[C@H]2O[C@@]2(C)CC2(C1)OCCO2.[Li]CCCC.CC[Al+]CC.[Cl-].CC1(C)CCCC(C)(C)N1.Cc1ccccc1>>C=C(C)[C@@H]1C[C@@H](O)C(=C)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][C@H:6]2[O:7][C@@:8]2([CH3:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2>[Li]CCCC.CC[Al+]CC.[Cl-].CC1(C)CCCC(C)(C)N1.Cc1ccccc1>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][C@@H:6]([OH:7])[C:8](=[CH2:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.9500650273800433,
+      "conditions": {
+        "raw_description": "nBuLi; TMP; Et2AlCl; PhMe; 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [
+          "Et2AlCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC[Al+]CC.[Cl-]"
+        ],
+        "LIGANDS": [
+          "TMP"
+        ],
+        "LIGANDS_SMILES": [
+          "CC1(CCCC(N1)(C)C)C"
+        ],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_26",
+      "reaction_smiles": "C=C(C)[C@@H]1C[C@@H](O)C(=C)CC2(C1)OCCO2.O=S(Cl)Cl.CCOCC.c1ccncc1>>C=C(C)[C@@H]1CC=C(CCl)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "O[C@@H:6]1[CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:12][C:11]2([CH2:10][C:7]1=[CH2:8])[O:13][CH2:14][CH2:15][O:16]2.O=S(Cl)[Cl:9]>CCOCC.c1ccncc1>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH2:8][Cl:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.48182051751162835,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine; Et2O; 0 \u00b0C; 89%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Scabrolide_A_2022_Furstner_27",
+      "reaction_smiles": "C=C(C)[C@@H]1CC=C(CCl)CC2(C1)OCCO2.[I-].[Na+].CC(C)=O>>C=C(C)[C@@H]1CC=C(CI)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "Cl[CH2:8][C:7]1=[CH:6][CH2:5][C@@H:4]([C:2](=[CH2:1])[CH3:3])[CH2:12][C:11]2([CH2:10]1)[O:13][CH2:14][CH2:15][O:16]2.[I-:9]>[Na+].CC(C)=O>[CH2:1]=[C:2]([CH3:3])[C@@H:4]1[CH2:5][CH:6]=[C:7]([CH2:8][I:9])[CH2:10][C:11]2([CH2:12]1)[O:13][CH2:14][CH2:15][O:16]2",
+      "mapping_confidence": 0.9306803337095021,
+      "conditions": {
+        "raw_description": "NaI; acetone; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

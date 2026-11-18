@@ -1,0 +1,201 @@
+{
+  "background": {
+    "name": "Omidenepag Isopropyl",
+    "author": null,
+    "year": 2022,
+    "drug_name": "Omlonti",
+    "manufacturer": "Santen",
+    "citation": "Pharmaceutics 2022, 14, 2538",
+    "doi": "10.3390/pharmaceutics14112538"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_1",
+      "reaction_smiles": "NCc1ccc(-n2cccn2)cc1.O=S(=O)(Cl)c1cccnc1.O=S(=O)(NCc1ccc(-n2cccn2)cc1)c1cccnc1.CCN(CC)CC.ClCCl>>O=S(=O)(NCc1ccc(-n2cccn2)cc1)c1cccnc1",
+      "reaction_smiles_mapped": "[O:1]=[S:2](=[O:3])([NH:4][CH2:5][c:6]1[cH:7][cH:8][c:9](-[n:10]2[cH:11][cH:12][cH:13][n:14]2)[cH:15][cH:16]1)[c:17]1[cH:18][cH:19][cH:20][n:21][cH:22]1>NCc1ccc(-n2cccn2)cc1.O=S(=O)(Cl)c1cccnc1.CCN(CC)CC.ClCCl>[O:1]=[S:2](=[O:3])([NH:4][CH2:5][c:6]1[cH:7][cH:8][c:9](-[n:10]2[cH:11][cH:12][cH:13][n:14]2)[cH:15][cH:16]1)[c:17]1[cH:18][cH:19][cH:20][n:21][cH:22]1",
+      "mapping_confidence": 0.303042462768432,
+      "conditions": {
+        "raw_description": "Et3N; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_2",
+      "reaction_smiles": "CCOC(=O)c1cccc(NC(=O)OC(C)(C)C)n1.CC(C)(C)OC(=O)CBr.[H-].[Na+].CN(C)C=O>>CCOC(=O)c1cccc(N(CC(=O)OC(C)(C)C)C(=O)OC(C)(C)C)n1",
+      "reaction_smiles_mapped": "Br[CH2:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19].[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][cH:9][c:10]([NH:11][C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[n:27]1>[H-].[Na+].CN(C)C=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][cH:9][c:10]([N:11]([CH2:12][C:13](=[O:14])[O:15][C:16]([CH3:17])([CH3:18])[CH3:19])[C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[n:27]1",
+      "mapping_confidence": 0.15713957277745239,
+      "conditions": {
+        "raw_description": "NaH; DMF",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_3",
+      "reaction_smiles": "CCOC(=O)c1cccc(N(CC(=O)OC(C)(C)C)C(=O)OC(C)(C)C)n1.[H-].[H-].[Ca+2].CCO.[Na+].[BH4-].COCCOCCOCCOCCOC>>CC(C)(C)OC(=O)CN(C(=O)OC(C)(C)C)c1cccc(CO)n1",
+      "reaction_smiles_mapped": "CCO[C:22]([c:21]1[cH:20][cH:19][cH:18][c:17]([N:9]([CH2:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[n:24]1)=[O:23]>[H-].[H-].[Ca+2].CCO.[Na+].[BH4-].COCCOCCOCCOCCOC>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][N:9]([C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[c:17]1[cH:18][cH:19][cH:20][c:21]([CH2:22][OH:23])[n:24]1",
+      "mapping_confidence": 0.15144318312716676,
+      "conditions": {
+        "raw_description": "CaH2; EtOH; NaBH4; tetraglyme; rt",
+        "GENERAL_REAGENTS": [
+          "CaH2",
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H-].[H-].[Ca+2]",
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tetraglyme",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOCCOCCOCCOC",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_4",
+      "reaction_smiles": "CC(C)(C)OC(=O)CN(C(=O)OC(C)(C)C)c1cccc(CO)n1.O=S(=O)(NCc1ccc(-n2cccn2)cc1)c1cccnc1.C1CCOC1.CN(C)C(=O)/N=N/C(=O)N(C)C.CCCCP(CCCC)CCCC>>CC(C)(C)OC(=O)CN(C(=O)OC(C)(C)C)c1cccc(CN(Cc2ccc(-n3cccn3)cc2)S(=O)(=O)c2cccnc2)n1",
+      "reaction_smiles_mapped": "O[CH2:22][c:21]1[cH:20][cH:19][cH:18][c:17]([N:9]([CH2:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[n:45]1.[NH:23]([CH2:24][c:25]1[cH:26][cH:27][c:28](-[n:29]2[cH:30][cH:31][cH:32][n:33]2)[cH:34][cH:35]1)[S:36](=[O:37])(=[O:38])[c:39]1[cH:40][cH:41][cH:42][n:43][cH:44]1>C1CCOC1.CN(C)C(=O)/N=N/C(=O)N(C)C.CCCCP(CCCC)CCCC>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[CH2:8][N:9]([C:10](=[O:11])[O:12][C:13]([CH3:14])([CH3:15])[CH3:16])[c:17]1[cH:18][cH:19][cH:20][c:21]([CH2:22][N:23]([CH2:24][c:25]2[cH:26][cH:27][c:28](-[n:29]3[cH:30][cH:31][cH:32][n:33]3)[cH:34][cH:35]2)[S:36](=[O:37])(=[O:38])[c:39]2[cH:40][cH:41][cH:42][n:43][cH:44]2)[n:45]1",
+      "mapping_confidence": 0.12410473676260625,
+      "conditions": {
+        "raw_description": "PBu3; TMAD; THF; rt",
+        "GENERAL_REAGENTS": [
+          "TMAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN(C)C(=O)/N=N/C(=O)N(C)C"
+        ],
+        "CATALYSTS": [
+          "PBu3"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCCCP(CCCC)CCCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_5",
+      "reaction_smiles": "CC(C)(C)OC(=O)CN(C(=O)OC(C)(C)C)c1cccc(CN(Cc2ccc(-n3cccn3)cc2)S(=O)(=O)c2cccnc2)n1.Cl.C1COCCO1>>O=C(O)CNc1cccc(CN(Cc2ccc(-n3cccn3)cc2)S(=O)(=O)c2cccnc2)n1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:5]([CH2:4][C:2](=[O:1])[O:3]C(C)(C)C)[c:6]1[cH:7][cH:8][cH:9][c:10]([CH2:11][N:12]([CH2:13][c:14]2[cH:15][cH:16][c:17](-[n:18]3[cH:19][cH:20][cH:21][n:22]3)[cH:23][cH:24]2)[S:25](=[O:26])(=[O:27])[c:28]2[cH:29][cH:30][cH:31][n:32][cH:33]2)[n:34]1>Cl.C1COCCO1>[O:1]=[C:2]([OH:3])[CH2:4][NH:5][c:6]1[cH:7][cH:8][cH:9][c:10]([CH2:11][N:12]([CH2:13][c:14]2[cH:15][cH:16][c:17](-[n:18]3[cH:19][cH:20][cH:21][n:22]3)[cH:23][cH:24]2)[S:25](=[O:26])(=[O:27])[c:28]2[cH:29][cH:30][cH:31][n:32][cH:33]2)[n:34]1",
+      "mapping_confidence": 0.5159352263336542,
+      "conditions": {
+        "raw_description": "HCl; dioxane; rt",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Omidenepag_Isopropyl_2022_Santen_6",
+      "reaction_smiles": "O=C(O)CNc1cccc(CN(Cc2ccc(-n3cccn3)cc2)S(=O)(=O)c2cccnc2)n1.CC(C)O.Cl.C1COCCO1>>CC(C)OC(=O)CNc1cccc(CN(Cc2ccc(-n3cccn3)cc2)S(=O)(=O)c2cccnc2)n1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[OH:4].O[C:5](=[O:6])[CH2:7][NH:8][c:9]1[cH:10][cH:11][cH:12][c:13]([CH2:14][N:15]([CH2:16][c:17]2[cH:18][cH:19][c:20](-[n:21]3[cH:22][cH:23][cH:24][n:25]3)[cH:26][cH:27]2)[S:28](=[O:29])(=[O:30])[c:31]2[cH:32][cH:33][cH:34][n:35][cH:36]2)[n:37]1>Cl.C1COCCO1>[CH3:1][CH:2]([CH3:3])[O:4][C:5](=[O:6])[CH2:7][NH:8][c:9]1[cH:10][cH:11][cH:12][c:13]([CH2:14][N:15]([CH2:16][c:17]2[cH:18][cH:19][c:20](-[n:21]3[cH:22][cH:23][cH:24][n:25]3)[cH:26][cH:27]2)[S:28](=[O:29])(=[O:30])[c:31]2[cH:32][cH:33][cH:34][n:35][cH:36]2)[n:37]1",
+      "mapping_confidence": 0.3547009458522872,
+      "conditions": {
+        "raw_description": "i-PrOH; HCl; 1,4-dioxane; rt",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "1,4-dioxane",
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

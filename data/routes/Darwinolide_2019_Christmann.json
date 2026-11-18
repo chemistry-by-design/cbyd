@@ -1,0 +1,928 @@
+{
+  "background": {
+    "name": "(+)-Darwinolide",
+    "author": "Christmann",
+    "year": 2019,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2019, 58, 1120",
+    "doi": "10.1002/anie.201813142"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_1",
+      "reaction_smiles": "O=C1OC(=O)[C@@H]2CC=CC[C@H]12.[AlH4-].[Li+].C1CCOC1>>OC[C@@H]1CC=CC[C@@H]1CO",
+      "reaction_smiles_mapped": "[O:10]=[C:9]1[C@H:8]2[C@@H:3]([C:2](=[O:1])O1)[CH2:4][CH:5]=[CH:6][CH2:7]2>C1CCOC1.[AlH4-].[Li+]>[OH:1][CH2:2][C@H:3]1[CH2:4][CH:5]=[CH:6][CH2:7][C@H:8]1[CH2:9][OH:10]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_2",
+      "reaction_smiles": "OC[C@@H]1CC=CC[C@@H]1CO.O=C(Cl)C(=O)Cl.CCN(C(C)C)C(C)C.CS(C)=O.ClCCl>>O=C[C@@H]1CC=CC[C@@H]1C=O",
+      "reaction_smiles_mapped": "[OH:1][CH2:2][C@@H:3]1[CH2:4][CH:5]=[CH:6][CH2:7][C@@H:8]1[CH2:9][OH:10]>CCN(C(C)C)C(C)C.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[O:1]=[CH:2][C@H:3]1[CH2:4][CH:5]=[CH:6][CH2:7][C@H:8]1[CH:9]=[O:10]",
+      "mapping_confidence": 0.8623839978334296,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; DIPEA; CH2Cl2; -78 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_3",
+      "reaction_smiles": "O=C[C@@H]1CC=CC[C@@H]1C=O.CO.CO.Cc1ccc(S(=O)(=O)O)cc1>>CO[C@H]1O[C@@H](OC)[C@@H]2CC=CC[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[OH:6][CH3:7].O=[CH:5][C@@H:8]1[CH2:9][CH:10]=[CH:11][CH2:12][C@@H:13]1[CH:3]=[O:4]>Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][CH:10]=[CH:11][CH2:12][C@H:13]12",
+      "mapping_confidence": 0.4779007787812585,
+      "conditions": {
+        "raw_description": "pTsOH; MeOH; -78 \u00b0C to rt; 61% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "pTsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "61% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_4",
+      "reaction_smiles": "CO[C@H]1O[C@@H](OC)[C@@H]2CC=CC[C@H]12.O=C([O-])[O-].[K+].[K+].[K+].[K+].[O-][Os]([O-])(O)(O)(O)O.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+3].[K+].[K+].[K+].C1CCC2=NCCCN2CC1.CC(C)(C)O.O>>CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](O)[C@@H](O)C[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][CH:10]=[CH:12][CH2:14][C@H:15]12.O[Os](O)(O)(O)([O-:11])[O-:13]>CC(C)(C)O.C1CCC2=NCCCN2CC1.O.O=C([O-])[O-].[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[Fe+3].[K+].[K+].[K+].[K+].[K+].[K+].[K+]>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([OH:11])[C@@H:12]([OH:13])[CH2:14][C@H:15]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "K2OsO2(OH)4; K3Fe(CN)6; K2CO3; DBU; tBuOH; H2O; 76%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "K2OsO2(OH)4",
+          "K3Fe(CN)6",
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "[K+].[K+].[O-][Os](O)(O)(O)(O)[O-]",
+          "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[K+].[K+].[K+].[Fe+3]",
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_5",
+      "reaction_smiles": "CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](O)[C@@H](O)C[C@H]12.CN1CCC[C@@H]1CN1Cc2ccccc2C1.O=C(Cl)c1ccccc1.CCN(CC)CC.O=[Al]O.O=[Si]=O.[Na+].ClCCl>>CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](OC(=O)c3ccccc3)[C@@H](O)C[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([OH:11])[C@@H:20]([OH:21])[CH2:22][C@H:23]12.Cl[C:12](=[O:13])[c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CCN(CC)CC.CN1CCC[C@@H]1CN1Cc2ccccc2C1.ClCCl.O=[Al]O.O=[Si]=O.[Na+]>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([O:11][C:12](=[O:13])[c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[C@@H:20]([OH:21])[CH2:22][C@H:23]12",
+      "mapping_confidence": 0.9038588343080164,
+      "conditions": {
+        "raw_description": "BzCl; Et3N; 4\u00c5 MS; CH2Cl2; -78 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "BzCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)C(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [
+          "4 \u00c5 MS",
+          "3 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_6",
+      "reaction_smiles": "CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](OC(=O)c3ccccc3)[C@@H](O)C[C@H]12.O=C1OI(=O)(O)c2ccccc21.CS(C)=O>>CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](OC(=O)c3ccccc3)C(=O)C[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([O:11][C:12](=[O:13])[c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[C@@H:20]([OH:21])[CH2:22][C@H:23]12>CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([O:11][C:12](=[O:13])[c:14]3[cH:15][cH:16][cH:17][cH:18][cH:19]3)[C:20](=[O:21])[CH2:22][C@H:23]12",
+      "mapping_confidence": 0.819692044995622,
+      "conditions": {
+        "raw_description": "IBX; DMSO; 95%",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_7",
+      "reaction_smiles": "CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](OC(=O)c3ccccc3)C(=O)C[C@H]12.O=C([O-])[O-].[K+].[K+].CO.O>>CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](O)C(=O)C[C@H]12",
+      "reaction_smiles_mapped": "O=C(c1ccccc1)[O:11][C@@H:10]1[CH2:9][C@H:8]2[C@H:5]([O:6][CH3:7])[O:4][C@H:3]([O:2][CH3:1])[C@H:15]2[CH2:14][C:12]1=[O:13]>CO.O.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][C@H:3]1[O:4][C@@H:5]([O:6][CH3:7])[C@@H:8]2[CH2:9][C@@H:10]([OH:11])[C:12](=[O:13])[CH2:14][C@H:15]12",
+      "mapping_confidence": 0.9469639225088533,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; H2O; 0 \u00b0C; 74%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_8",
+      "reaction_smiles": "CO[C@H]1O[C@@H](OC)[C@@H]2C[C@@H](O)C(=O)C[C@H]12.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].c1ccccc1.CO>>COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CC=O",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[C:3]1(=[O:4])[CH2:5][C@@H:6]2[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]2[CH2:15][C@H:16]1[OH:17]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].c1ccccc1>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]1[CH2:15][CH:16]=[O:17]",
+      "mapping_confidence": 0.7835757446125556,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; PhH; MeOH; 0 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_9",
+      "reaction_smiles": "COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CC=O.[BH4-].[Na+].CO>>COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]1[CH2:15][CH:16]=[O:17]>CO.[BH4-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]1[CH2:15][CH2:16][OH:17]",
+      "mapping_confidence": 0.953418244917938,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_10",
+      "reaction_smiles": "COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.ClCCl>>COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "Cl[Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24].[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]1[CH2:15][CH2:16][OH:17]>ClCCl.c1c[nH]cn1>[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:6]1[C@@H:7]([O:8][CH3:9])[O:10][C@@H:11]([O:12][CH3:13])[C@@H:14]1[CH2:15][CH2:16][O:17][Si:18]([CH3:19])([CH3:20])[C:21]([CH3:22])([CH3:23])[CH3:24]",
+      "mapping_confidence": 0.3300376119199076,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; CH2Cl2; 91%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_11",
+      "reaction_smiles": "COC(=O)C[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C.CC1(C)CC=C[C@](C)([C@@H](C=O)CCOCc2ccccc2)C1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C1CCOC1>>COC(=O)[C@H](C(O)[C@@H](CCOCc1ccccc1)[C@@]1(C)C=CCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C@@:19]1([CH3:20])[CH:21]=[CH:22][CH2:23][C:24]([CH3:25])([CH3:26])[CH2:27]1.[CH3:1][O:2][C:3](=[O:4])[CH2:5][C@@H:28]1[C@@H:29]([O:30][CH3:31])[O:32][C@@H:33]([O:34][CH3:35])[C@@H:36]1[CH2:37][CH2:38][O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46]>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH:6]([OH:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C@@:19]1([CH3:20])[CH:21]=[CH:22][CH2:23][C:24]([CH3:25])([CH3:26])[CH2:27]1)[C@@H:28]1[C@@H:29]([O:30][CH3:31])[O:32][C@@H:33]([O:34][CH3:35])[C@@H:36]1[CH2:37][CH2:38][O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46]",
+      "mapping_confidence": 0.2621318807337495,
+      "conditions": {
+        "raw_description": "NaHMDS; THF; -78 \u00b0C; 42%",
+        "GENERAL_REAGENTS": [
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "42%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_12",
+      "reaction_smiles": "COC(=O)[C@H](C(O)[C@@H](CCOCc1ccccc1)[C@@]1(C)C=CCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>COC(=O)[C@H](C(=O)[C@@H](CCOCc1ccccc1)[C@@]1(C)C=CCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@H:5]([CH:6]([OH:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C@@:19]1([CH3:20])[CH:21]=[CH:22][CH2:23][C:24]([CH3:25])([CH3:26])[CH2:27]1)[C@@H:28]1[C@@H:29]([O:30][CH3:31])[O:32][C@@H:33]([O:34][CH3:35])[C@@H:36]1[CH2:37][CH2:38][O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46]>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([C:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1)[C@@:19]1([CH3:20])[CH:21]=[CH:22][CH2:23][C:24]([CH3:25])([CH3:26])[CH2:27]1)[C@@H:28]1[C@@H:29]([O:30][CH3:31])[O:32][C@@H:33]([O:34][CH3:35])[C@@H:36]1[CH2:37][CH2:38][O:39][Si:40]([CH3:41])([CH3:42])[C:43]([CH3:44])([CH3:45])[CH3:46]",
+      "mapping_confidence": 0.20451919616076425,
+      "conditions": {
+        "raw_description": "DMP; CH2Cl2; 88",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_13",
+      "reaction_smiles": "COC(=O)[C@H](C(=O)[C@@H](CCOCc1ccccc1)[C@@]1(C)C=CCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO[Si](C)(C)C(C)(C)C.[HH].Cl.[C].[Pd].CC(C)O.O>>COC(=O)[C@H](C(=O)[C@@H](CCO)[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:32][CH2:31][CH2:30][C@@H:29]1[C@H:21]([C@H:5]([C:3]([O:2][CH3:1])=[O:4])[C:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][O:11]Cc2ccccc2)[C@@:12]2([CH3:13])[CH:14]=[CH:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]2)[C@@H:22]([O:23][CH3:24])[O:25][C@H:26]1[O:27][CH3:28]>CC(C)O.Cl.O.[C].[HH].[Pd]>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([C:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][OH:11])[C@@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]1)[C@@H:21]1[C@@H:22]([O:23][CH3:24])[O:25][C@@H:26]([O:27][CH3:28])[C@@H:29]1[CH2:30][CH2:31][OH:32]",
+      "mapping_confidence": 0.693981015418442,
+      "conditions": {
+        "raw_description": "1) H2; Pd/C; iPrOH; 2) HCl; H2O; 93%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_14",
+      "reaction_smiles": "COC(=O)[C@H](C(=O)[C@@H](CCO)[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCO.II.II.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>COC(=O)[C@H](C(=O)[C@@H](CCI)[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCI",
+      "reaction_smiles_mapped": "O[CH2:10][CH2:9][C@H:8]([C:6]([C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[C@@H:21]1[C@@H:22]([O:23][CH3:24])[O:25][C@@H:26]([O:27][CH3:28])[C@@H:29]1[CH2:30][CH2:31]O)=[O:7])[C@@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]1.[I:11]I.I[I:32]>C1CCOC1.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([C:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][I:11])[C@@:12]1([CH3:13])[CH2:14][CH2:15][CH2:16][C:17]([CH3:18])([CH3:19])[CH2:20]1)[C@@H:21]1[C@@H:22]([O:23][CH3:24])[O:25][C@@H:26]([O:27][CH3:28])[C@@H:29]1[CH2:30][CH2:31][I:32]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "I2; PPh3; imidazole; THF; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_15",
+      "reaction_smiles": "COC(=O)[C@H](C(=O)[C@@H](CCI)[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CCI.N#C[Se]c1ccccc1[N+](=O)[O-].N#C[Se]c1ccccc1[N+](=O)[O-].[BH4-].[Na+].CN(C)C=O>>COC(=O)[C@H](C(=O)[C@@H](CC[Se]c1ccccc1[N+](=O)[O-])[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CC[Se]c1ccccc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "I[CH2:10][CH2:9][C@H:8]([C:6]([C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[C@@H:30]1[C@@H:31]([O:32][CH3:33])[O:34][C@@H:35]([O:36][CH3:37])[C@@H:38]1[CH2:39][CH2:40]I)=[O:7])[C@@:21]1([CH3:22])[CH2:23][CH2:24][CH2:25][C:26]([CH3:27])([CH3:28])[CH2:29]1.N#C[Se:11][c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1[N+:18](=[O:19])[O-:20].N#C[Se:41][c:42]1[cH:43][cH:44][cH:45][cH:46][c:47]1[N+:48](=[O:49])[O-:50]>CN(C)C=O.[BH4-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@H:5]([C:6](=[O:7])[C@@H:8]([CH2:9][CH2:10][Se:11][c:12]1[cH:13][cH:14][cH:15][cH:16][c:17]1[N+:18](=[O:19])[O-:20])[C@@:21]1([CH3:22])[CH2:23][CH2:24][CH2:25][C:26]([CH3:27])([CH3:28])[CH2:29]1)[C@@H:30]1[C@@H:31]([O:32][CH3:33])[O:34][C@@H:35]([O:36][CH3:37])[C@@H:38]1[CH2:39][CH2:40][Se:41][c:42]1[cH:43][cH:44][cH:45][cH:46][c:47]1[N+:48](=[O:49])[O-:50]",
+      "mapping_confidence": 0.32961671277468296,
+      "conditions": {
+        "raw_description": "o-NO2PhSeCN; NaBH4; DMF",
+        "GENERAL_REAGENTS": [
+          "o-NO2PhSeCN",
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[N+](C1=CC=CC=C1[Se]C#N)[O-]",
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_16",
+      "reaction_smiles": "COC(=O)[C@H](C(=O)[C@@H](CC[Se]c1ccccc1[N+](=O)[O-])[C@@]1(C)CCCC(C)(C)C1)[C@@H]1[C@@H](OC)O[C@@H](OC)[C@@H]1CC[Se]c1ccccc1[N+](=O)[O-].OO.C1CCOC1.O>>C=C[C@H]1[C@H](OC)O[C@H](OC)[C@H]1[C@H](C(=O)OC)C(=O)[C@@H](C=C)[C@@]1(C)CCCC(C)(C)C1",
+      "reaction_smiles_mapped": "O=[N+]([O-])c1ccccc1[Se][CH2:1][CH2:2][C@H:3]1[C@H:4]([O:5][CH3:6])[O:7][C@H:8]([O:9][CH3:10])[C@H:11]1[C@H:12]([C:13](=[O:14])[O:15][CH3:16])[C:17](=[O:18])[C@@H:19]([CH2:20][CH2:21][Se]c1ccccc1[N+](=O)[O-])[C@@:22]1([CH3:23])[CH2:24][CH2:25][CH2:26][C:27]([CH3:28])([CH3:29])[CH2:30]1>C1CCOC1.O.OO>[CH2:1]=[CH:2][C@H:3]1[C@H:4]([O:5][CH3:6])[O:7][C@H:8]([O:9][CH3:10])[C@H:11]1[C@H:12]([C:13](=[O:14])[O:15][CH3:16])[C:17](=[O:18])[C@@H:19]([CH:20]=[CH2:21])[C@@:22]1([CH3:23])[CH2:24][CH2:25][CH2:26][C:27]([CH3:28])([CH3:29])[CH2:30]1",
+      "mapping_confidence": 0.3941841130473235,
+      "conditions": {
+        "raw_description": "H2O2; H2O; THF; 0 \u00b0C to rt; 83% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_17",
+      "reaction_smiles": "C=C[C@H]1[C@H](OC)O[C@H](OC)[C@H]1[C@H](C(=O)OC)C(=O)[C@@H](C=C)[C@@]1(C)CCCC(C)(C)C1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>>COC(=O)[C@@H]1C(=O)[C@H]([C@@]2(C)CCCC(C)(C)C2)C=C[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12",
+      "reaction_smiles_mapped": "C=[CH:18][C@H:8]([C:6]([C@@H:5]([C:3]([O:2][CH3:1])=[O:4])[C@H:28]1[C@@H:20]([CH:19]=C)[C@H:21]([O:22][CH3:23])[O:24][C@@H:25]1[O:26][CH3:27])=[O:7])[C@@:9]1([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]1>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@H:8]([C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]2)[CH:18]=[CH:19][C@H:20]2[C@H:21]([O:22][CH3:23])[O:24][C@H:25]([O:26][CH3:27])[C@@H:28]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "HG-II; PhMe; 120 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG-II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_18",
+      "reaction_smiles": "COC(=O)[C@@H]1C(=O)[C@H]([C@@]2(C)CCCC(C)(C)C2)C=C[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12.O=C([O-])[O-].[Cs+].[Cs+].C1CCOC1>>COC(=O)[C@@H]1C(=O)[C@@H]([C@@]2(C)CCCC(C)(C)C2)C=C[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@H:8]([C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]2)[CH:18]=[CH:19][C@H:20]2[C@H:21]([O:22][CH3:23])[O:24][C@H:25]([O:26][CH3:27])[C@@H:28]12>C1CCOC1.O=C([O-])[O-].[Cs+].[Cs+]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@@H:8]([C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]2)[CH:18]=[CH:19][C@H:20]2[C@H:21]([O:22][CH3:23])[O:24][C@H:25]([O:26][CH3:27])[C@@H:28]12",
+      "mapping_confidence": 0.6399410428319751,
+      "conditions": {
+        "raw_description": "Cs2CO3; THF; 60%",
+        "GENERAL_REAGENTS": [
+          "Cs2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Cs+].[Cs+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_19",
+      "reaction_smiles": "COC(=O)[C@@H]1C(=O)[C@@H]([C@@]2(C)CCCC(C)(C)C2)C=C[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12.[HH].[C].[Pd].CC(C)O>>COC(=O)[C@@H]1C(=O)[C@@H]([C@@]2(C)CCCC(C)(C)C2)CC[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@@H:8]([C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]2)[CH:18]=[CH:19][C@H:20]2[C@H:21]([O:22][CH3:23])[O:24][C@H:25]([O:26][CH3:27])[C@@H:28]12>CC(C)O.[C].[HH].[Pd]>[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@@H:8]([C@@:9]2([CH3:10])[CH2:11][CH2:12][CH2:13][C:14]([CH3:15])([CH3:16])[CH2:17]2)[CH2:18][CH2:19][C@H:20]2[C@H:21]([O:22][CH3:23])[O:24][C@H:25]([O:26][CH3:27])[C@@H:28]12",
+      "mapping_confidence": 0.6208834348361858,
+      "conditions": {
+        "raw_description": "H2; Pd/C; iPrOH; 90%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_20",
+      "reaction_smiles": "COC(=O)[C@@H]1C(=O)[C@@H]([C@@]2(C)CCCC(C)(C)C2)CC[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CCOCC>>COC(=O)C1=C(OS(=O)(=O)C(F)(F)F)[C@@H]([C@@]2(C)CCCC(C)(C)C2)CC[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@H:5]1[C:6](=[O:7])[C@@H:15]([C@@:16]2([CH3:17])[CH2:18][CH2:19][CH2:20][C:21]([CH3:22])([CH3:23])[CH2:24]2)[CH2:25][CH2:26][C@H:27]2[C@H:28]([O:29][CH3:30])[O:31][C@H:32]([O:33][CH3:34])[C@@H:35]12.O=S(=O)(O[S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])C(F)(F)F>CCOCC.C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH3:1][O:2][C:3](=[O:4])[C:5]1=[C:6]([O:7][S:8](=[O:9])(=[O:10])[C:11]([F:12])([F:13])[F:14])[C@@H:15]([C@@:16]2([CH3:17])[CH2:18][CH2:19][CH2:20][C:21]([CH3:22])([CH3:23])[CH2:24]2)[CH2:25][CH2:26][C@H:27]2[C@H:28]([O:29][CH3:30])[O:31][C@H:32]([O:33][CH3:34])[C@@H:35]12",
+      "mapping_confidence": 0.06536381248380828,
+      "conditions": {
+        "raw_description": "Tf2O; NaHMDS; Et2O; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Tf2O",
+          "NaHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(F)(F)(F)S(=O)(=O)OS(=O)(=O)C(F)(F)F",
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_21",
+      "reaction_smiles": "COC(=O)C1=C(OS(=O)(=O)C(F)(F)F)[C@@H]([C@@]2(C)CCCC(C)(C)C2)CC[C@H]2[C@H](OC)O[C@H](OC)[C@@H]12.C1CN2CCN1CC2.C[Al](C)C.C[Al](C)C.C[Al](C)C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd].CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.C1CCOC1>>CO[C@@H]1O[C@@H]2OC(=O)C3=C(C)[C@H]([C@]4(C)CCCC(C)(C)C4)CC[C@H]1[C@@H]32",
+      "reaction_smiles_mapped": "CO[C:7](=[O:8])[C:9]1=[C:10](OS(=O)(=O)C(F)(F)F)[C@@H:12]([C@@:13]2([CH3:14])[CH2:15][CH2:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21]2)[CH2:22][CH2:23][C@H:24]2[C@H:3]([O:2][CH3:1])[O:4][C@H:5]([O:6]C)[C@@H:25]12.C[Al](C)[CH3:11]>C1CCOC1.C1CN2CCN1CC2.CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.C[Al](C)C.C[Al](C)C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]>[CH3:1][O:2][C@@H:3]1[O:4][C@@H:5]2[O:6][C:7](=[O:8])[C:9]3=[C:10]([CH3:11])[C@H:12]([C@:13]4([CH3:14])[CH2:15][CH2:16][CH2:17][C:18]([CH3:19])([CH3:20])[CH2:21]4)[CH2:22][CH2:23][C@H:24]1[C@H:25]23",
+      "mapping_confidence": 0.050498207721321006,
+      "conditions": {
+        "raw_description": "Pd2dba3; XPhos; DABCO\u2022(AlMe3)2; THF; 65 \u00b0C; 40% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "DABCO\u2022(AlMe3)2",
+          "AlMe3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CN2CCN1CC2.C[Al](C)C.C[Al](C)C",
+          "C[Al](C)C"
+        ],
+        "CATALYSTS": [
+          "Pd2dba3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [
+          "XPhos"
+        ],
+        "LIGANDS_SMILES": [
+          "CC(C)C1=CC(=C(C(=C1)C(C)C)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4)C(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "40% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_22",
+      "reaction_smiles": "CO[C@@H]1O[C@@H]2OC(=O)C3=C(C)[C@H]([C@]4(C)CCCC(C)(C)C4)CC[C@H]1[C@@H]32.O=S(=O)(O)O.CC(=O)O.ClCCl.CC(=O)OC(C)=O>>CC(=O)O[C@@H]1O[C@H]2OC(=O)C3=C(C)[C@@H]([C@@]4(C)CCCC(C)(C)C4)CC[C@@H]1[C@H]32",
+      "reaction_smiles_mapped": "[OH:4][C:2]([CH3:1])=[O:3].CO[C@@H:5]1[O:6][C@@H:7]2[O:8][C:9](=[O:10])[C:11]3=[C:12]([CH3:13])[C@H:14]([C@:15]4([CH3:16])[CH2:17][CH2:18][CH2:19][C:20]([CH3:21])([CH3:22])[CH2:23]4)[CH2:24][CH2:25][C@H:26]1[C@H:27]23>CC(=O)OC(C)=O.ClCCl.O=S(=O)(O)O>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[O:6][C@H:7]2[O:8][C:9](=[O:10])[C:11]3=[C:12]([CH3:13])[C@@H:14]([C@@:15]4([CH3:16])[CH2:17][CH2:18][CH2:19][C:20]([CH3:21])([CH3:22])[CH2:23]4)[CH2:24][CH2:25][C@@H:26]1[C@@H:27]23",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "AcOH; Ac2O; H2SO4; CH2Cl2; 0 \u00b0C; 44%",
+        "GENERAL_REAGENTS": [
+          "H2SO4",
+          "Ac2O",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O",
+          "CC(=O)OC(=O)C",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "44%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_23",
+      "reaction_smiles": "O=C1CCCO1.[K+].[OH-].BrCc1ccccc1.Cc1ccccc1>>O=C(O)CCCOCc1ccccc1",
+      "reaction_smiles_mapped": "Br[CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1.[O:1]=[C:2]1[CH2:4][CH2:5][CH2:6][O:7]1.[OH-:3]>Cc1ccccc1.[K+]>[O:1]=[C:2]([OH:3])[CH2:4][CH2:5][CH2:6][O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1",
+      "mapping_confidence": 0.916054766443109,
+      "conditions": {
+        "raw_description": "KOH; BnBr; PhMe; reflux; 98%",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "BnBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "C1=CC=C(C=C1)CBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_24",
+      "reaction_smiles": "CC1=C[C@@H](O)CC(C)(C)C1.O=C(O)CCCOCc1ccccc1.C(=NC1CCCCC1)=NC1CCCCC1.CN(C)c1ccncc1.ClCCl>>CC1=C[C@@H](OC(=O)CCCOCc2ccccc2)CC(C)(C)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][C@@H:4]([OH:5])[CH2:19][C:20]([CH3:21])([CH3:22])[CH2:23]1.O[C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>C(=NC1CCCCC1)=NC1CCCCC1.CN(C)c1ccncc1.ClCCl>[CH3:1][C:2]1=[CH:3][C@@H:4]([O:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][O:11][CH2:12][c:13]2[cH:14][cH:15][cH:16][cH:17][cH:18]2)[CH2:19][C:20]([CH3:21])([CH3:22])[CH2:23]1",
+      "mapping_confidence": 0.5515584060896838,
+      "conditions": {
+        "raw_description": "DCC; DMAP; CH2Cl2; 98%",
+        "GENERAL_REAGENTS": [
+          "DCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CCC(CC1)N=C=NC2CCCCC2"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "DMAP"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_25",
+      "reaction_smiles": "CC1=C[C@@H](OC(=O)CCCOCc2ccccc2)CC(C)(C)C1.[Li]N([Si](C)(C)C)[Si](C)(C)C.C[Si](C)(C)Cl.Cc1ccccc1>>CC1(C)CC=C[C@](C)([C@H](CCOCc2ccccc2)C(=O)O)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:23][C:7]([CH3:8])=[CH:6][C@@H:5]([O:22][C:20]([CH2:9][CH2:10][CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)=[O:21])[CH2:4]1>C[Si](C)(C)Cl.Cc1ccccc1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C@:7]([CH3:8])([C@H:9]([CH2:10][CH2:11][O:12][CH2:13][c:14]2[cH:15][cH:16][cH:17][cH:18][cH:19]2)[C:20](=[O:21])[OH:22])[CH2:23]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) LiHMDS; 2) TMSCl; PhMe; -78 to 110 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [
+          "LiHMDS",
+          "TMSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "110"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_26",
+      "reaction_smiles": "CC1(C)CC=C[C@](C)([C@H](CCOCc2ccccc2)C(=O)O)C1.[AlH4-].[Li+].C1CCOC1>>CC1(C)CC=C[C@](C)([C@@H](CO)CCOCc2ccccc2)C1",
+      "reaction_smiles_mapped": "[O:11]=[C:10]([C@H:9]([C@@:7]1([CH3:8])[CH:6]=[CH:5][CH2:4][C:2]([CH3:1])([CH3:3])[CH2:22]1)[CH2:12][CH2:13][O:14][CH2:15][c:16]1[cH:17][cH:18][cH:19][cH:20][cH:21]1)O>C1CCOC1.[AlH4-].[Li+]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C@:7]([CH3:8])([C@@H:9]([CH2:10][OH:11])[CH2:12][CH2:13][O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[CH2:22]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 82%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Darwinolide_2019_Christmann_27",
+      "reaction_smiles": "CC1(C)CC=C[C@](C)([C@@H](CO)CCOCc2ccccc2)C1.COc1ccnc(-c2cc(OC)ccn2)c1.O=O.CC#N->[Cu+](<-N#CC)(<-N#CC)<-N#CC.O=S(=O)([O-])C(F)(F)F.ON1C2CCCC1CCC2.CC#N.Cn1ccnc1>>CC1(C)CC=C[C@](C)([C@@H](C=O)CCOCc2ccccc2)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C@:7]([CH3:8])([C@@H:9]([CH2:10][OH:11])[CH2:12][CH2:13][O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[CH2:22]1>CC#N.CC#N->[Cu+](<-N#CC)(<-N#CC)<-N#CC.COc1ccnc(-c2cc(OC)ccn2)c1.Cn1ccnc1.O=O.O=S(=O)([O-])C(F)(F)F.ON1C2CCCC1CCC2>[CH3:1][C:2]1([CH3:3])[CH2:4][CH:5]=[CH:6][C@:7]([CH3:8])([C@@H:9]([CH:10]=[O:11])[CH2:12][CH2:13][O:14][CH2:15][c:16]2[cH:17][cH:18][cH:19][cH:20][cH:21]2)[CH2:22]1",
+      "mapping_confidence": 0.8716064581301995,
+      "conditions": {
+        "raw_description": "[Cu(MeCN)4]OTf; ABNO; NMI; 4,4'-(MeO)2bpy; O2; MeCN; 85%",
+        "GENERAL_REAGENTS": [
+          "4,4'-(MeO)2bpy",
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COc1ccnc(c1)c2cc(OC)ccn2",
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "[Cu(MeCN)4]OTf",
+          "ABNO"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu+](N#CC)(N#CC)(N#CC)(N#CC).FC(S(=O)(=O)[O-])(F)F",
+          "C1CC2CCCC(C1)N2O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN",
+          "NMI"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N",
+          "CN1C=CN=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    }
+  ]
+}

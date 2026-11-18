@@ -1,0 +1,769 @@
+{
+  "background": {
+    "name": "Pentacycloanammoxic Acid",
+    "author": "Corey",
+    "year": 2006,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2006, 128, 3118",
+    "doi": "10.1021/ja058370g"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_1",
+      "reaction_smiles": "OCC1CC1.CS(=O)(=O)Cl.CCN(CC)CC.ClCCl>>CS(=O)(=O)OCC1CC1",
+      "reaction_smiles_mapped": "Cl[S:2]([CH3:1])(=[O:3])=[O:4].[OH:5][CH2:6][CH:7]1[CH2:8][CH2:9]1>CCN(CC)CC.ClCCl>[CH3:1][S:2](=[O:3])(=[O:4])[O:5][CH2:6][CH:7]1[CH2:8][CH2:9]1",
+      "mapping_confidence": 0.5776995661518568,
+      "conditions": {
+        "raw_description": "MsCl; Et3N; CH2Cl2; -20 to 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "MsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20",
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_2",
+      "reaction_smiles": "CS(=O)(=O)OCC1CC1.CCOCC.FB(F)F.ClCCl>>CS(=O)(=O)OC1CCC1",
+      "reaction_smiles_mapped": "[CH3:1][S:2](=[O:3])(=[O:4])[O:5][CH2:6][CH:7]1[CH2:8][CH2:9]1>CCOCC.ClCCl.FB(F)F>[CH3:1][S:2](=[O:3])(=[O:4])[O:5][CH:6]1[CH2:7][CH2:8][CH2:9]1",
+      "mapping_confidence": 0.3239228210914138,
+      "conditions": {
+        "raw_description": "BF3\u25caOEt3; CH2Cl2; 10 to 23 \u00b0C; 74%",
+        "GENERAL_REAGENTS": [
+          "BF3\u25caOEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "FB(F)F.CCOCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "10",
+          "23"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_3",
+      "reaction_smiles": "CS(=O)(=O)OC1CCC1.CC(C)(C)[O-].[K+].CS(C)=O>>C1=CCC1",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH:1]1[CH2:2][CH2:3][CH2:4]1>CC(C)(C)[O-].CS(C)=O.[K+]>[CH:1]1=[CH:2][CH2:3][CH2:4]1",
+      "mapping_confidence": 0.5691232790073196,
+      "conditions": {
+        "raw_description": "t-BuOK; DMSO; 65 \u00b0C; 60%",
+        "GENERAL_REAGENTS": [
+          "t-BuOK"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_4",
+      "reaction_smiles": "C1=CCC1.O=C1C=CCC1.CC#N>>O=C1CC[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "[CH:6]1=[CH:9][CH2:8][CH2:7]1.[O:1]=[C:2]1[CH2:3][CH2:4][CH:5]=[CH:10]1>CC#N>[O:1]=[C:2]1[CH2:3][CH2:4][C@@H:5]2[C@H:6]3[CH2:7][CH2:8][C@H:9]3[C@H:10]12",
+      "mapping_confidence": 0.6228642255076322,
+      "conditions": {
+        "raw_description": "h\u03bd; MeCN; -30 to -5 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [
+          "-30",
+          "-5"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_5",
+      "reaction_smiles": "O=C1CC[C@@H]2[C@H]3CC[C@H]3[C@H]12.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].CCOC=O>>O=C1/C(=C\\O)C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "CCO[CH:4]=[O:5].[O:1]=[C:2]1[CH2:3][CH2:6][C@@H:7]2[C@H:8]3[CH2:9][CH2:10][C@H:11]3[C@H:12]12>C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[O:1]=[C:2]1/[C:3](=[CH:4]\\[OH:5])[CH2:6][C@@H:7]2[C@H:8]3[CH2:9][CH2:10][C@H:11]3[C@H:12]12",
+      "mapping_confidence": 0.6200307499657068,
+      "conditions": {
+        "raw_description": "NaHMDS; HCO2Et; -30 to 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "HCO2Et"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "CCOC=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30",
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_6",
+      "reaction_smiles": "O=C1/C(=C\\O)C[C@@H]2[C@H]3CC[C@H]3[C@H]12.Cc1ccc(S(=O)(=O)N=[N+]=[N-])cc1.CCN(CC)CC.ClCCl>>[N-]=[N+]=C1C[C@@H]2[C@H]3CC[C@H]3[C@@H]2C1=O",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[N:1]=[N+:2]=[N-])cc1.O/C=[C:3]1/[CH2:4][C@@H:5]2[C@H:6]3[CH2:7][CH2:8][C@H:9]3[C@@H:10]2[C:11]1=[O:12]>CCN(CC)CC.ClCCl>[N-:1]=[N+:2]=[C:3]1[CH2:4][C@@H:5]2[C@H:6]3[CH2:7][CH2:8][C@H:9]3[C@@H:10]2[C:11]1=[O:12]",
+      "mapping_confidence": 0.7631120214381201,
+      "conditions": {
+        "raw_description": "TsN3; Et3N; CH2Cl2; 62% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TsN3",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)N=[N+]=[N-]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "62% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_7",
+      "reaction_smiles": "[N-]=[N+]=C1C[C@@H]2[C@H]3CC[C@H]3[C@@H]2C1=O.CCN(CC)CC.CO>>COC(=O)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[N-]=[N+]=[C:5]1[C:3](=[O:4])[C@@H:12]2[C@H:7]([CH2:6]1)[C@H:8]1[CH2:9][CH2:10][C@H:11]12>CCN(CC)CC>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][C@@H:7]2[C@H:8]3[CH2:9][CH2:10][C@H:11]3[C@H:12]12",
+      "mapping_confidence": 0.931244902102337,
+      "conditions": {
+        "raw_description": "h\u03bd; MeOH; Et3N; 87% ",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "87% (endo:exo=3:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_8",
+      "reaction_smiles": "COC(=O)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12.[Li+].[OH-].O.C1CCOC1>>O=C(O)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "CO[C:2](=[O:1])[CH:4]1[CH2:5][C@@H:6]2[C@H:7]3[CH2:8][CH2:9][C@H:10]3[C@H:11]12.[OH-:3]>C1CCOC1.O.[Li+]>[O:1]=[C:2]([OH:3])[CH:4]1[CH2:5][C@@H:6]2[C@H:7]3[CH2:8][CH2:9][C@H:10]3[C@H:11]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "LiOH; H2O; THF; 99%",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_9",
+      "reaction_smiles": "O=C(O)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12.O=C(Cl)C(=O)Cl.CN(C)C=O.ClCCl>>O=C(Cl)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "O=C(Cl)C(=O)[Cl:3].O[C:2](=[O:1])[CH:4]1[CH2:5][C@@H:6]2[C@H:7]3[CH2:8][CH2:9][C@H:10]3[C@H:11]12>CN(C)C=O.ClCCl>[O:1]=[C:2]([Cl:3])[CH:4]1[CH2:5][C@@H:6]2[C@H:7]3[CH2:8][CH2:9][C@H:10]3[C@H:11]12",
+      "mapping_confidence": 0.5780293670338686,
+      "conditions": {
+        "raw_description": "cat. DMF; (COCl)2; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [
+          "cat. DMF"
+        ],
+        "CATALYSTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_10",
+      "reaction_smiles": "O=C(Cl)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12.[Na]On1ccccc1=S.CN(C)c1ccncc1>>O=C(On1ccccc1=S)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "Cl[C:2](=[O:1])[CH:11]1[CH2:12][C@@H:13]2[C@H:14]3[CH2:15][CH2:16][C@H:17]3[C@H:18]12.[Na][O:3][n:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1=[S:10]>CN(C)c1ccncc1>[O:1]=[C:2]([O:3][n:4]1[cH:5][cH:6][cH:7][cH:8][c:9]1=[S:10])[CH:11]1[CH2:12][C@@H:13]2[C@H:14]3[CH2:15][CH2:16][C@H:17]3[C@H:18]12",
+      "mapping_confidence": 0.9878776225798898,
+      "conditions": {
+        "raw_description": "cat. DMAP",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DMAP"
+        ],
+        "CATALYSTS_SMILES": [
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_11",
+      "reaction_smiles": "O=C(On1ccccc1=S)C1C[C@@H]2[C@H]3CC[C@H]3[C@H]12.ClC(Cl)(Cl)Br>>BrC1C[C@@H]2[C@H]3CC[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "ClC(Cl)(Cl)[Br:1].O=C(On1ccccc1=S)[CH:2]1[CH2:3][C@@H:4]2[C@H:5]3[CH2:6][CH2:7][C@H:8]3[C@H:9]12>>[Br:1][CH:2]1[CH2:3][C@@H:4]2[C@H:5]3[CH2:6][CH2:7][C@H:8]3[C@H:9]12",
+      "mapping_confidence": 0.8897234071882998,
+      "conditions": {
+        "raw_description": "BrCCl3; h\u03bd; 79%",
+        "GENERAL_REAGENTS": [
+          "BrCCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_12",
+      "reaction_smiles": "BrC1C[C@@H]2[C@H]3CC[C@H]3[C@H]12.CC(C)(C)[O-].[K+].CS(C)=O>>C1=C[C@H]2[C@@H]1[C@@H]1CC[C@H]21",
+      "reaction_smiles_mapped": "Br[CH:2]1[CH2:1][C@H:4]2[C@@H:3]1[C@H:8]1[C@@H:5]2[CH2:6][CH2:7]1>CC(C)(C)[O-].CS(C)=O.[K+]>[CH:1]1=[CH:2][C@H:3]2[C@@H:4]1[C@@H:5]1[CH2:6][CH2:7][C@H:8]21",
+      "mapping_confidence": 0.6020792489170603,
+      "conditions": {
+        "raw_description": "t-BuOK; DMSO; 50 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "t-BuOK"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_13",
+      "reaction_smiles": "C1=C[C@H]2[C@@H]1[C@@H]1CC[C@H]21.C[Si](C)(c1ccccc1)[C@H]1C=CC(=O)C1.CC#N>>C[Si](C)(c1ccccc1)[C@@H]1CC(=O)[C@H]2[C@@H]3[C@H]4[C@@H]5CC[C@@H]5[C@H]4[C@@H]3[C@H]21",
+      "reaction_smiles_mapped": "[CH:15]1=[CH:22][C@H:21]2[C@@H:16]1[C@@H:17]1[CH2:18][CH2:19][C@@H:20]12.[CH3:1][Si:2]([CH3:3])([c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)[C@@H:10]1[CH2:11][C:12](=[O:13])[CH:14]=[CH:23]1>CC#N>[CH3:1][Si:2]([CH3:3])([c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)[C@@H:10]1[CH2:11][C:12](=[O:13])[C@H:14]2[C@@H:15]3[C@H:16]4[C@@H:17]5[CH2:18][CH2:19][C@@H:20]5[C@H:21]4[C@@H:22]3[C@@H:23]12",
+      "mapping_confidence": 0.5030891265539256,
+      "conditions": {
+        "raw_description": "h\u03bd; pyrex filter; MeCN; 50%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [
+          "h\u03bd"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_14",
+      "reaction_smiles": "C[Si](C)(c1ccccc1)[C@@H]1CC(=O)[C@H]2[C@@H]3[C@H]4[C@@H]5CC[C@@H]5[C@H]4[C@@H]3[C@H]21.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].C[Si](C)(C)Cl>>C[Si](C)(C)OC1=C[C@@H]([Si](C)(C)c2ccccc2)[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@@H]12",
+      "reaction_smiles_mapped": "Cl[Si:2]([CH3:1])([CH3:3])[CH3:4].[O:5]=[C:6]1[CH2:7][C@@H:8]([Si:9]([CH3:10])([CH3:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]2[C@@H:19]1[C@@H:20]1[C@H:21]3[C@@H:22]4[CH2:23][CH2:24][C@@H:25]4[C@H:26]3[C@H:27]21>C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH3:1][Si:2]([CH3:3])([CH3:4])[O:5][C:6]1=[CH:7][C@@H:8]([Si:9]([CH3:10])([CH3:11])[c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C@H:18]2[C@@H:19]1[C@@H:20]1[C@H:21]3[C@@H:22]4[CH2:23][CH2:24][C@@H:25]4[C@H:26]3[C@H:27]21",
+      "mapping_confidence": 0.09447818588235636,
+      "conditions": {
+        "raw_description": "NaHMDS; TMSCl",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "TMSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_15",
+      "reaction_smiles": "C[Si](C)(C)OC1=C[C@@H]([Si](C)(C)c2ccccc2)[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@@H]12.O=C1CCC(=O)N1Br.C1CCOC1>>C[Si](C)(c1ccccc1)[C@H]1[C@H]2[C@@H](C(=O)[C@@H]1Br)[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@@H]12",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:14][C:13]1=[CH:15][C@@H:10]([Si:2]([CH3:1])([CH3:3])[c:4]2[cH:5][cH:6][cH:7][cH:8][cH:9]2)[C@H:11]2[C@@H:12]1[C@@H:17]1[C@H:18]3[C@@H:19]4[CH2:20][CH2:21][C@@H:22]4[C@H:23]3[C@H:24]21.O=C1CCC(=O)N1[Br:16]>C1CCOC1>[CH3:1][Si:2]([CH3:3])([c:4]1[cH:5][cH:6][cH:7][cH:8][cH:9]1)[C@H:10]1[C@H:11]2[C@@H:12]([C:13](=[O:14])[C@@H:15]1[Br:16])[C@@H:17]1[C@H:18]3[C@@H:19]4[CH2:20][CH2:21][C@@H:22]4[C@H:23]3[C@H:24]21",
+      "mapping_confidence": 0.4272257532437545,
+      "conditions": {
+        "raw_description": "NBS; THF",
+        "GENERAL_REAGENTS": [
+          "NBS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_16",
+      "reaction_smiles": "C[Si](C)(c1ccccc1)[C@H]1[C@H]2[C@@H](C(=O)[C@@H]1Br)[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@@H]12.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>>O=C1C=C[C@H]2[C@@H]1[C@H]1[C@@H]2[C@@H]2[C@H]3CC[C@H]3[C@@H]21",
+      "reaction_smiles_mapped": "C[Si](C)(c1ccccc1)[C@@H:4]1[C@@H:3](Br)[C:2](=[O:1])[C@@H:6]2[C@H:5]1[C@@H:8]1[C@H:7]2[C@@H:14]2[C@H:9]1[C@H:10]1[CH2:11][CH2:12][C@H:13]12>CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[O:1]=[C:2]1[CH:3]=[CH:4][C@H:5]2[C@@H:6]1[C@H:7]1[C@@H:8]2[C@@H:9]2[C@H:10]3[CH2:11][CH2:12][C@H:13]3[C@H:14]12",
+      "mapping_confidence": 0.5876971707439429,
+      "conditions": {
+        "raw_description": "TBAF; 53% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "53% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_17",
+      "reaction_smiles": "O=C1C=C[C@H]2[C@@H]1[C@H]1[C@@H]2[C@@H]2[C@H]3CC[C@H]3[C@@H]21.[Na+].[TeH-].CCO>>O=C1CC[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "[O:1]=[C:2]1[CH:3]=[CH:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21>CCO.[Na+].[TeH-]>[O:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21",
+      "mapping_confidence": 0.730704468608611,
+      "conditions": {
+        "raw_description": "NaHTe; EtOH; 79%",
+        "GENERAL_REAGENTS": [
+          "NaHTe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[TeH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_18",
+      "reaction_smiles": "O=C1CC[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.CCOC=O.C[O-].[Na+].c1ccccc1>>O=C1/C(=C\\O)C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "CCO[CH:4]=[O:5].[O:1]=[C:2]1[CH2:3][CH2:6][C@H:7]2[C@@H:8]1[C@@H:9]1[C@H:10]3[C@@H:11]4[CH2:12][CH2:13][C@@H:14]4[C@H:15]3[C@H:16]21>C[O-].[Na+].c1ccccc1>[O:1]=[C:2]1/[C:3](=[CH:4]\\[OH:5])[CH2:6][C@H:7]2[C@@H:8]1[C@@H:9]1[C@H:10]3[C@@H:11]4[CH2:12][CH2:13][C@@H:14]4[C@H:15]3[C@H:16]21",
+      "mapping_confidence": 0.46066558269790187,
+      "conditions": {
+        "raw_description": "HCO2Et; NaOMe; PhH; 23 \u00b0C; 12 h",
+        "GENERAL_REAGENTS": [
+          "HCO2Et",
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC=O",
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_19",
+      "reaction_smiles": "O=C1/C(=C\\O)C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.Cc1ccc(S(=O)(=O)N=[N+]=[N-])cc1.CCN(CC)CC.ClCCl>>[N-]=[N+]=C1C[C@H]2[C@@H](C1=O)[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)[N:1]=[N+:2]=[N-])cc1.O/C=[C:3]1/[CH2:4][C@H:5]2[C@@H:6]([C:7]1=[O:8])[C@@H:9]1[C@H:10]3[C@@H:11]4[CH2:12][CH2:13][C@@H:14]4[C@H:15]3[C@H:16]21>CCN(CC)CC.ClCCl>[N-:1]=[N+:2]=[C:3]1[CH2:4][C@H:5]2[C@@H:6]([C:7]1=[O:8])[C@@H:9]1[C@H:10]3[C@@H:11]4[CH2:12][CH2:13][C@@H:14]4[C@H:15]3[C@H:16]21",
+      "mapping_confidence": 0.7878037388606256,
+      "conditions": {
+        "raw_description": "TsN3; Et3N; CH2Cl2; 23 \u00b0C; 20 h; 80% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TsN3",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cc1ccc(cc1)S(=O)(=O)N=[N+]=[N-]",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "23"
+        ],
+        "YIELD": [
+          "80% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_20",
+      "reaction_smiles": "[N-]=[N+]=C1C[C@H]2[C@@H](C1=O)[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.CCN(CC)CC.CO>>COC(=O)C1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[N-]=[N+]=[C:5]1[C:3](=[O:4])[C@@H:8]2[C@H:7]([CH2:6]1)[C@@H:16]1[C@H:9]2[C@H:10]2[C@@H:11]3[CH2:12][CH2:13][C@@H:14]3[C@H:15]21>CCN(CC)CC>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][C@H:7]2[C@@H:8]1[C@@H:9]1[C@H:10]3[C@@H:11]4[CH2:12][CH2:13][C@@H:14]4[C@H:15]3[C@H:16]21",
+      "mapping_confidence": 0.9593029220667628,
+      "conditions": {
+        "raw_description": "h\u03bd; MeOH; Et3N; 72%; 3:1 endo:exo",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72% (endo:exo=3:1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_21",
+      "reaction_smiles": "COC(=O)C1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.CC(C)C[AlH]CC(C)C.Cc1ccccc1>>OCC1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "CO[C:2](=[O:1])[CH:3]1[CH2:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21>CC(C)C[AlH]CC(C)C.Cc1ccccc1>[OH:1][CH2:2][CH:3]1[CH2:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21",
+      "mapping_confidence": 0.7032906848240613,
+      "conditions": {
+        "raw_description": "DIBAL-H; PhMe; -78 \u00b0C; 30 min",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_22",
+      "reaction_smiles": "OCC1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>O=CC1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21",
+      "reaction_smiles_mapped": "[OH:1][CH2:2][CH:3]1[CH2:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[O:1]=[CH:2][CH:3]1[CH2:4][C@H:5]2[C@@H:6]1[C@@H:7]1[C@H:8]3[C@@H:9]4[CH2:10][CH2:11][C@@H:12]4[C@H:13]3[C@H:14]21",
+      "mapping_confidence": 0.9549680763834499,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; CH2Cl2; 91% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_23",
+      "reaction_smiles": "O=CC1C[C@H]2[C@@H]1[C@@H]1[C@H]3[C@@H]4CC[C@@H]4[C@H]3[C@H]21.CCN(CC)CC>>O=C[C@H]1C[C@@H]2[C@H]3[C@@H]4[C@H]5CC[C@H]5[C@@H]4[C@H]3[C@@H]21",
+      "reaction_smiles_mapped": "[O:1]=[CH:2][CH:3]1[CH2:4][C@@H:5]2[C@H:6]3[C@@H:7]4[C@H:8]5[CH2:9][CH2:10][C@H:11]5[C@@H:12]4[C@H:13]3[C@H:14]12>CCN(CC)CC>[O:1]=[CH:2][C@H:3]1[CH2:4][C@@H:5]2[C@H:6]3[C@@H:7]4[C@H:8]5[CH2:9][CH2:10][C@H:11]5[C@@H:12]4[C@H:13]3[C@H:14]12",
+      "mapping_confidence": 0.6611655804042789,
+      "conditions": {
+        "raw_description": "degassed Et3N; 6 d in dark; 7:1 endo:exo; 80%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80% (endo/exo = 7/1)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_24",
+      "reaction_smiles": "O=C[C@H]1C[C@@H]2[C@H]3[C@@H]4[C@H]5CC[C@H]5[C@@H]4[C@H]3[C@@H]21.O=C([O-])CCCCCC=P(c1ccccc1)(c1ccccc1)c1ccccc1>>O=C(O)CCCCC/C=C\\[C@H]1C[C@@H]2[C@H]3[C@@H]4[C@H]5CC[C@H]5[C@@H]4[C@H]3[C@@H]21",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[CH:9][CH2:8][CH2:7][CH2:6][CH2:5][CH2:4][C:2](=[O:1])[O-:3])cc1.O=[CH:10][C@H:11]1[CH2:12][C@@H:13]2[C@H:14]3[C@@H:15]4[C@H:16]5[CH2:17][CH2:18][C@H:19]5[C@@H:20]4[C@H:21]3[C@H:22]12>>[O:1]=[C:2]([OH:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]/[CH:9]=[CH:10]\\[C@H:11]1[CH2:12][C@@H:13]2[C@H:14]3[C@@H:15]4[C@H:16]5[CH2:17][CH2:18][C@H:19]5[C@@H:20]4[C@H:21]3[C@H:22]12",
+      "mapping_confidence": 0.8363854655521135,
+      "conditions": {
+        "raw_description": "85%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Pentacycloanammoxic_Acid_2006_Corey_25",
+      "reaction_smiles": "O=C(O)CCCCC/C=C\\[C@H]1C[C@@H]2[C@H]3[C@@H]4[C@H]5CC[C@H]5[C@@H]4[C@H]3[C@@H]21.NN.O=O.O=C([O-])[O-].[Cu+2].CCO.O>>O=C(O)CCCCCCC[C@H]1C[C@@H]2[C@H]3[C@@H]4[C@H]5CC[C@H]5[C@@H]4[C@H]3[C@H]12",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([OH:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8]/[CH:9]=[CH:10]\\[C@H:11]1[CH2:12][C@@H:13]2[C@H:14]3[C@@H:15]4[C@H:16]5[CH2:17][CH2:18][C@H:19]5[C@@H:20]4[C@H:21]3[C@H:22]12>CCO.NN.O.O=C([O-])[O-].O=O.[Cu+2]>[O:1]=[C:2]([OH:3])[CH2:4][CH2:5][CH2:6][CH2:7][CH2:8][CH2:9][CH2:10][C@H:11]1[CH2:12][C@@H:13]2[C@H:14]3[C@@H:15]4[C@H:16]5[CH2:17][CH2:18][C@H:19]5[C@@H:20]4[C@H:21]3[C@H:22]12",
+      "mapping_confidence": 0.895605106200941,
+      "conditions": {
+        "raw_description": "NH2NH2; CuCO4; O2 (1 atm); EtOH-H2O; 92%",
+        "GENERAL_REAGENTS": [
+          "NH2NH2",
+          "O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NN",
+          "O=O"
+        ],
+        "CATALYSTS": [
+          "CuCO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(=O)([O-])[O-].[Cu+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    }
+  ]
+}

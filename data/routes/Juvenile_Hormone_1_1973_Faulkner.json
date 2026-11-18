@@ -1,0 +1,243 @@
+{
+  "background": {
+    "name": "Juvenile Hormone 1",
+    "author": "Faulkner",
+    "year": 1973,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1973, 95, 553",
+    "doi": "10.1021/ja00783a040"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_1",
+      "reaction_smiles": "C=C(C)C(O)C(=O)OC.CCC(C)(O)C(C)(OC)OC.O=C(O)C(=O)O.Cc1ccccc1>>C=C(CC)C(=O)CC/C(C)=C/C(=O)OC",
+      "reaction_smiles_mapped": "[OH:6][CH:11]([C:9](=[CH2:8])[CH3:10])[C:12](=[O:13])[O:14][CH3:15].CO[C:5]([C:2](O)([CH3:1])[CH2:3][CH3:4])(OC)[CH3:7]>O=C(O)C(=O)O.Cc1ccccc1>[CH2:1]=[C:2]([CH2:3][CH3:4])[C:5](=[O:6])[CH2:7][CH2:8]/[C:9]([CH3:10])=[CH:11]/[C:12](=[O:13])[O:14][CH3:15]",
+      "mapping_confidence": 0.2610019251488165,
+      "conditions": {
+        "raw_description": "(CO2H)2; Toluene; reflux",
+        "GENERAL_REAGENTS": [
+          "(CO2H)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_2",
+      "reaction_smiles": "C=C(CC)C(=O)CC/C(C)=C/C(=O)OC.[BH4-].[Na+].CO>>C=C(CC)C(O)CC/C(C)=C/C(=O)OC",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3][CH3:4])[C:5](=[O:6])[CH2:7][CH2:8]/[C:9]([CH3:10])=[CH:11]/[C:12](=[O:13])[O:14][CH3:15]>[BH4-].[Na+].CO>[CH2:1]=[C:2]([CH2:3][CH3:4])[CH:5]([OH:6])[CH2:7][CH2:8]/[C:9]([CH3:10])=[CH:11]/[C:12](=[O:13])[O:14][CH3:15]",
+      "mapping_confidence": 0.9713179380600042,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C; 98% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "98% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_3",
+      "reaction_smiles": "C=C(CC)C(O)CC/C(C)=C/C(=O)OC.CCC(C)(O)C(C)(OC)OC.O=C(O)C(=O)O.Cc1ccccc1>>CC/C(=C\\CC/C(C)=C/C(=O)OC)CCC(=O)C(C)(O)CC",
+      "reaction_smiles_mapped": "[OH:17][CH:4]([C:3]([CH2:2][CH3:1])=[CH2:14])[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13].CO[C:16]([CH3:15])(OC)[C:18]([CH3:19])([OH:20])[CH2:21][CH3:22]>O=C(O)C(=O)O.Cc1ccccc1>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][C:16](=[O:17])[C:18]([CH3:19])([OH:20])[CH2:21][CH3:22]",
+      "mapping_confidence": 0.3624052183700612,
+      "conditions": {
+        "raw_description": "(CO2H)2; Toluene; reflux",
+        "GENERAL_REAGENTS": [
+          "(CO2H)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_4",
+      "reaction_smiles": "CC/C(=C\\CC/C(C)=C/C(=O)OC)CCC(=O)C(C)(O)CC.[BH4-].[Na+].CO>>CC/C(=C\\CC/C(C)=C/C(=O)OC)CCC(O)C(C)(O)CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][C:16](=[O:17])[C:18]([CH3:19])([OH:20])[CH2:21][CH3:22]>[BH4-].[Na+].CO>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][CH:16]([OH:17])[C:18]([CH3:19])([OH:20])[CH2:21][CH3:22]",
+      "mapping_confidence": 0.9680404144159279,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_5",
+      "reaction_smiles": "CC/C(=C\\CC/C(C)=C/C(=O)OC)CCC(O)C(C)(O)CC.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>CC/C(=C\\CC/C(C)=C/C(=O)OC)CCC1OC1(C)CC",
+      "reaction_smiles_mapped": "O[CH:16]([CH2:15][CH2:14]/[C:3]([CH2:2][CH3:1])=[CH:4]/[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[C:18]([OH:17])([CH3:19])[CH2:20][CH3:21]>Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>[CH3:1][CH2:2]/[C:3](=[CH:4]\\[CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[C:10](=[O:11])[O:12][CH3:13])[CH2:14][CH2:15][CH:16]1[O:17][C:18]1([CH3:19])[CH2:20][CH3:21]",
+      "mapping_confidence": 0.6799228092727958,
+      "conditions": {
+        "raw_description": "TsCl; Pyridine",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_6",
+      "reaction_smiles": "C#CC(C)(O)CC.CO.CO.[Hg+2]>>CCC(C)(O)C(C)(OC)OC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]([CH3:4])([OH:5])[C:6]#[CH:7].[OH:10][CH3:11].[OH:8][CH3:9]>[Hg+2]>[CH3:1][CH2:2][C:3]([CH3:4])([OH:5])[C:6]([CH3:7])([O:8][CH3:9])[O:10][CH3:11]",
+      "mapping_confidence": 0.7365759666989142,
+      "conditions": {
+        "raw_description": "Hg(II); MeOH",
+        "GENERAL_REAGENTS": [
+          "Hg(II)"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Hg+2]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_7",
+      "reaction_smiles": "C=C(C)C=O.[C-]#N.[Na+].CC(=O)O>>C=C(C)C(O)C#N",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH:4]=[O:5].[C-:6]#[N:7]>[Na+].CC(=O)O>[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C:6]#[N:7]",
+      "mapping_confidence": 0.9882960090937778,
+      "conditions": {
+        "raw_description": "AcOH; NaCN",
+        "GENERAL_REAGENTS": [
+          "NaCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Juvenile_Hormone_1_1973_Faulkner_8",
+      "reaction_smiles": "C=C(C)C(O)C#N.[H+].CO>>C=C(C)C(O)C(=O)OC",
+      "reaction_smiles_mapped": "N#[C:6][CH:4]([C:2](=[CH2:1])[CH3:3])[OH:5].[OH:7][CH3:9]>[H+]>[CH2:1]=[C:2]([CH3:3])[CH:4]([OH:5])[C:6](=[O:7])[O:8][CH3:9]",
+      "mapping_confidence": 0.9909544333923523,
+      "conditions": {
+        "raw_description": "H+; MeOH",
+        "GENERAL_REAGENTS": [
+          "H+"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

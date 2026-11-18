@@ -1,0 +1,850 @@
+{
+  "background": {
+    "name": "Haemanthidine",
+    "author": "Hendrickson",
+    "year": 1974,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1974, 96, 7781",
+    "doi": "10.1021/ja00832a027"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_1",
+      "reaction_smiles": "O=Cc1ccc2c(c1)OCO2.[Na+].[OH-].OO>>O=C(O)c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "[O:1]=[CH:2][c:4]1[cH:5][cH:6][c:7]2[c:8]([cH:9]1)[O:10][CH2:11][O:12]2.O[OH:3]>[Na+].[OH-]>[O:1]=[C:2]([OH:3])[c:4]1[cH:5][cH:6][c:7]2[c:8]([cH:9]1)[O:10][CH2:11][O:12]2",
+      "mapping_confidence": 0.3836915917768688,
+      "conditions": {
+        "raw_description": "NaOH; H2O2",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "H2O2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_2",
+      "reaction_smiles": "O=C(O)c1ccc2c(c1)OCO2.O=S(Cl)Cl>>O=C(Cl)c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "O[C:2](=[O:1])[c:4]1[cH:5][cH:6][c:7]2[c:8]([cH:9]1)[O:10][CH2:11][O:12]2.O=S(Cl)[Cl:3]>>[O:1]=[C:2]([Cl:3])[c:4]1[cH:5][cH:6][c:7]2[c:8]([cH:9]1)[O:10][CH2:11][O:12]2",
+      "mapping_confidence": 0.600347126690914,
+      "conditions": {
+        "raw_description": "SOCl2; reflux",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_3",
+      "reaction_smiles": "O=C(Cl)c1ccc2c(c1)OCO2.[N-]=[N+]=[N-].[Na+].CC(C)=O.O>>[N-]=[N+]=NC(=O)c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "Cl[C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]2[c:10]([cH:11]1)[O:12][CH2:13][O:14]2.[N-:1]=[N+:2]=[N-:3]>CC(C)=O.O.[Na+]>[N-:1]=[N+:2]=[N:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]2[c:10]([cH:11]1)[O:12][CH2:13][O:14]2",
+      "mapping_confidence": 0.4857758303536792,
+      "conditions": {
+        "raw_description": "NaN3; acetone; H2O; 98% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_4",
+      "reaction_smiles": "[N-]=[N+]=NC(=O)c1ccc2c(c1)OCO2.CCC(C)(C)O>>CCC(C)(C)OC(=O)Nc1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]([CH3:4])([CH3:5])[OH:6].[N-]=[N+]=[N:9][C:7](=[O:8])[c:10]1[cH:11][cH:12][c:13]2[c:14]([cH:15]1)[O:16][CH2:17][O:18]2>>[CH3:1][CH2:2][C:3]([CH3:4])([CH3:5])[O:6][C:7](=[O:8])[NH:9][c:10]1[cH:11][cH:12][c:13]2[c:14]([cH:15]1)[O:16][CH2:17][O:18]2",
+      "mapping_confidence": 0.5961994352410143,
+      "conditions": {
+        "raw_description": "t-amyl alcohol; reflux",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-amyl alcohol"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_5",
+      "reaction_smiles": "CCC(C)(C)OC(=O)Nc1ccc2c(c1)OCO2.Cl.CO>>[NH3+]c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "CCC(C)(C)OC(=O)[NH:1][c:2]1[cH:3][cH:4][c:5]2[c:6]([cH:7]1)[O:8][CH2:9][O:10]2>CO.Cl>[NH3+:1][c:2]1[cH:3][cH:4][c:5]2[c:6]([cH:7]1)[O:8][CH2:9][O:10]2",
+      "mapping_confidence": 0.9901017901615218,
+      "conditions": {
+        "raw_description": "HCl; MeOH; 93% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_6",
+      "reaction_smiles": "[NH3+]c1ccc2c(c1)OCO2.O=C(O)/C=C\\C(=O)O.O=N[O-].[Na+].Cl.Cl[Cu]Cl.CC(C)=O>>N#[N+]c1ccc2c(c1)OCO2",
+      "reaction_smiles_mapped": "O=[N:1][O-].[NH3+:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[O:9][CH2:10][O:11]2>CC(C)=O.Cl.Cl[Cu]Cl.O=C(O)/C=C\\C(=O)O.[Na+]>[N:1]#[N+:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([cH:8]1)[O:9][CH2:10][O:11]2",
+      "mapping_confidence": 0.9831779362457252,
+      "conditions": {
+        "raw_description": "1) HCl; NaNO2; 2) CuCl2; acetone; rt",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "CuCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cu]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_7",
+      "reaction_smiles": "N#[N+]c1ccc2c(c1)OCO2.CC(=O)OC(C)=O>>O=C1C=C(c2ccc3c(c2)OCO3)C(=O)O1",
+      "reaction_smiles_mapped": "[O:1]=[C:2]([CH3:3])[O:16][C:14]([CH3:4])=[O:15].N#[N+][c:5]1[cH:6][cH:7][c:8]2[c:9]([cH:10]1)[O:11][CH2:12][O:13]2>>[O:1]=[C:2]1[CH:3]=[C:4]([c:5]2[cH:6][cH:7][c:8]3[c:9]([cH:10]2)[O:11][CH2:12][O:13]3)[C:14](=[O:15])[O:16]1",
+      "mapping_confidence": 0.6017571341122062,
+      "conditions": {
+        "raw_description": "Ac2OH; reflux; 38% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Ac2OH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "38% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_8",
+      "reaction_smiles": "O=C1C=C(c2ccc3c(c2)OCO3)C(=O)O1.C=CC=C.Oc1ccc(O)cc1.ClC(Cl)Cl>>O=C1OC(=O)[C@@]2(c3ccc4c(c3)OCO4)CC=CC[C@@H]12",
+      "reaction_smiles_mapped": "[CH2:16]=[CH:17][CH:18]=[CH2:19].[O:1]=[C:2]1[O:3][C:4](=[O:5])[C:6]([c:7]2[cH:8][cH:9][c:10]3[c:11]([cH:12]2)[O:13][CH2:14][O:15]3)=[CH:20]1>ClC(Cl)Cl.Oc1ccc(O)cc1>[O:1]=[C:2]1[O:3][C:4](=[O:5])[C@@:6]2([c:7]3[cH:8][cH:9][c:10]4[c:11]([cH:12]3)[O:13][CH2:14][O:15]4)[CH2:16][CH:17]=[CH:18][CH2:19][C@@H:20]12",
+      "mapping_confidence": 0.7764810153108127,
+      "conditions": {
+        "raw_description": "butadiene; hydroquinone; CHCl3; 120 \u00b0C; 1000 psi; 61%",
+        "GENERAL_REAGENTS": [
+          "butadiene",
+          "hydroquinone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=CC=C",
+          "C1=CC(=CC=C1O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_9",
+      "reaction_smiles": "O=C1OC(=O)[C@@]2(c3ccc4c(c3)OCO4)CC=CC[C@@H]12.C[O-].[Na+].CO>>COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[C:3]1(=[O:4])[C@@:5]2([c:6]3[cH:7][cH:8][c:9]4[c:10]([cH:11]3)[O:12][CH2:13][O:14]4)[CH2:15][CH:16]=[CH:17][CH2:18][C@H:19]2[C:20](=[O:21])[O:22]1>C[O-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18][CH:19]1[C:20](=[O:21])[OH:22]",
+      "mapping_confidence": 0.6492198477840644,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; rt; 83%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_10",
+      "reaction_smiles": "COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)O.O=C(Cl)C(=O)Cl>>COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)Cl",
+      "reaction_smiles_mapped": "O[C:20]([CH:19]1[C@:5]([C:3]([O:2][CH3:1])=[O:4])([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18]1)=[O:21].O=C(Cl)C(=O)[Cl:22]>>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18][CH:19]1[C:20](=[O:21])[Cl:22]",
+      "mapping_confidence": 0.7270970715168653,
+      "conditions": {
+        "raw_description": "(COCl)2; rt",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_11",
+      "reaction_smiles": "COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)Cl.[N-]=[N+]=[N-].[Na+].CC(C)=O.O>>COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)N=[N+]=[N-]",
+      "reaction_smiles_mapped": "Cl[C:20]([CH:19]1[C@:5]([C:3]([O:2][CH3:1])=[O:4])([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18]1)=[O:21].[N-:22]=[N+:23]=[N-:24]>CC(C)=O.O.[Na+]>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18][CH:19]1[C:20](=[O:21])[N:22]=[N+:23]=[N-:24]",
+      "mapping_confidence": 0.6150904260564789,
+      "conditions": {
+        "raw_description": "NaN3; Acetone; H2O; rt",
+        "GENERAL_REAGENTS": [
+          "NaN3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N-]=[N+]=[N-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_12",
+      "reaction_smiles": "COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1C(=O)N=[N+]=[N-].Cc1ccccc1>>COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1N=C=O",
+      "reaction_smiles_mapped": "[N-]=[N+]=[N:20][C:21]([CH:19]1[C@:5]([C:3]([O:2][CH3:1])=[O:4])([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18]1)=[O:22]>Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([c:6]2[cH:7][cH:8][c:9]3[c:10]([cH:11]2)[O:12][CH2:13][O:14]3)[CH2:15][CH:16]=[CH:17][CH2:18][CH:19]1[N:20]=[C:21]=[O:22]",
+      "mapping_confidence": 0.960600611003006,
+      "conditions": {
+        "raw_description": "toluene; reflux; 98% (3 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_13",
+      "reaction_smiles": "COC(=O)[C@@]1(c2ccc3c(c2)OCO3)CC=CCC1N=C=O.O=P(O)(O)O.O>>COC(=O)[C@@]12CC=CCC1NC(=O)c1cc3c(cc12)OCO3",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C@@:5]1([c:19]2[cH:14][cH:15][c:16]3[c:17]([cH:18]2)[O:20][CH2:21][O:22]3)[CH2:6][CH:7]=[CH:8][CH2:9][CH:10]1[N:11]=[C:12]=[O:13]>O.O=P(O)(O)O>[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH2:6][CH:7]=[CH:8][CH2:9][CH:10]1[NH:11][C:12](=[O:13])[c:14]1[cH:15][c:16]3[c:17]([cH:18][c:19]12)[O:20][CH2:21][O:22]3",
+      "mapping_confidence": 0.8611918665931834,
+      "conditions": {
+        "raw_description": "1) H3PO4; 2) H2O; 81%",
+        "GENERAL_REAGENTS": [
+          "H3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OP(=O)(O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "81%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_14",
+      "reaction_smiles": "COC(=O)[C@@]12CC=CCC1NC(=O)c1cc3c(cc12)OCO3.[K+].[OH-].O.CO>>O=C1NC2CC=CC[C@@]2(C(=O)O)c2cc3c(cc21)OCO3",
+      "reaction_smiles_mapped": "C[O:12][C:10]([C@@:9]12[CH:4]([NH:3][C:2](=[O:1])[c:18]3[c:13]1[cH:17][c:16]1[c:15]([cH:14]3)[O:21][CH2:20][O:19]1)[CH2:5][CH:6]=[CH:7][CH2:8]2)=[O:11]>CO.O.[K+].[OH-]>[O:1]=[C:2]1[NH:3][CH:4]2[CH2:5][CH:6]=[CH:7][CH2:8][C@@:9]2([C:10](=[O:11])[OH:12])[c:13]2[cH:14][c:15]3[c:16]([cH:17][c:18]21)[O:19][CH2:20][O:21]3",
+      "mapping_confidence": 0.6098602856842219,
+      "conditions": {
+        "raw_description": "KOH; H2O; MeOH; reflux; 96%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_15",
+      "reaction_smiles": "O=C1NC2CC=CC[C@@]2(C(=O)O)c2cc3c(cc21)OCO3.II.[I-].[K+].O=C([O-])O.[Na+].O>>O=C1NC2C[C@@H](I)C3C[C@@]2(C(=O)O3)c2cc3c(cc21)OCO3",
+      "reaction_smiles_mapped": "I[I:7].[O:1]=[C:2]1[NH:3][CH:4]2[CH2:5][CH:6]=[CH:8][CH2:9][C@@:10]2([C:11](=[O:12])[OH:13])[c:14]2[cH:15][c:16]3[c:17]([cH:18][c:19]21)[O:20][CH2:21][O:22]3>O.O=C([O-])O.[I-].[K+].[Na+]>[O:1]=[C:2]1[NH:3][CH:4]2[CH2:5][C@@H:6]([I:7])[CH:8]3[CH2:9][C@@:10]2([C:11](=[O:12])[O:13]3)[c:14]2[cH:15][c:16]3[c:17]([cH:18][c:19]21)[O:20][CH2:21][O:22]3",
+      "mapping_confidence": 0.37094289047399776,
+      "conditions": {
+        "raw_description": "I2; KI; NaHCO3; H2O; rt; 92%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "KI",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "[K+].[I-]",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_16",
+      "reaction_smiles": "O=C1NC2C[C@@H](I)C3C[C@@]2(C(=O)O3)c2cc3c(cc21)OCO3.[Na+].[OH-].O>>O=C1NC2CC3OC3C[C@@]2(C(=O)O[Na])c2cc3c(cc21)OCO3",
+      "reaction_smiles_mapped": "I[C@@H:6]1[CH2:5][CH:4]2[NH:3][C:2](=[O:1])[c:20]3[c:15]([cH:16][c:17]4[c:18]([cH:19]3)[O:21][CH2:22][O:23]4)[C@:10]23[CH2:9][CH:8]1[O:13][C:11]3=[O:12].[Na+:14].[OH-:7]>O>[O:1]=[C:2]1[NH:3][CH:4]2[CH2:5][CH:6]3[O:7][CH:8]3[CH2:9][C@@:10]2([C:11](=[O:12])[O:13][Na:14])[c:15]2[cH:16][c:17]3[c:18]([cH:19][c:20]21)[O:21][CH2:22][O:23]3",
+      "mapping_confidence": 0.7884894507151241,
+      "conditions": {
+        "raw_description": "NaOH; H2O; 80%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_17",
+      "reaction_smiles": "O=C1NC2CC3OC3C[C@@]2(C(=O)O[Na])c2cc3c(cc21)OCO3.FB(F)F.CO>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]23CC1OC3=O)OCO4",
+      "reaction_smiles_mapped": "[CH3:1][OH:2].[Na]O[C:19]([C@:15]12[CH:5]([CH2:4][CH:3]3[CH:17]([CH2:16]1)[O:18]3)[NH:6][C:7](=[O:8])[c:9]1[cH:13][c:12]3[c:11]([cH:10][c:14]12)[O:23][CH2:22][O:21]3)=[O:20]>FB(F)F>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]23[CH2:16][CH:17]1[O:18][C:19]3=[O:20])[O:21][CH2:22][O:23]4",
+      "mapping_confidence": 0.6348045335920547,
+      "conditions": {
+        "raw_description": "BF3; MeOH; 69%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_18",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]23CC1OC3=O)OCO4.[Na+].[OH-].O>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)O)CC1O)OCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@@:15]23[C:16](=[O:17])[O:21][CH:20]1[CH2:19]3)[O:22][CH2:23][O:24]4.[OH-:18]>O.[Na+]>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[OH:18])[CH2:19][CH:20]1[OH:21])[O:22][CH2:23][O:24]4",
+      "mapping_confidence": 0.6548586431260259,
+      "conditions": {
+        "raw_description": "NaOH; H2O; reflux; 95%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_19",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)O)CC1O)OCO4.O=C(CBr)c1ccc(Br)cc1.CN(C)C=O>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)OCC(=O)c2ccc(Br)cc2)CC1O)OCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[OH:18])[CH2:29][CH:30]1[OH:31])[O:32][CH2:33][O:34]4.Br[CH2:19][C:20](=[O:21])[c:22]1[cH:23][cH:24][c:25]([Br:26])[cH:27][cH:28]1>CN(C)C=O>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[O:18][CH2:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][c:25]([Br:26])[cH:27][cH:28]2)[CH2:29][CH:30]1[OH:31])[O:32][CH2:33][O:34]4",
+      "mapping_confidence": 0.9417238502543127,
+      "conditions": {
+        "raw_description": "DMF; rt; 93%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_20",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)OCC(=O)c2ccc(Br)cc2)CC1O)OCO4.CS(=O)(=O)Cl.c1ccncc1>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)OCC(=O)c2ccc(Br)cc2)CC1OS(C)(=O)=O)OCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[O:18][CH2:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][c:25]([Br:26])[cH:27][cH:28]2)[CH2:29][CH:30]1[OH:31])[O:36][CH2:37][O:38]4.Cl[S:32]([CH3:33])(=[O:34])=[O:35]>c1ccncc1>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[O:18][CH2:19][C:20](=[O:21])[c:22]2[cH:23][cH:24][c:25]([Br:26])[cH:27][cH:28]2)[CH2:29][CH:30]1[O:31][S:32]([CH3:33])(=[O:34])=[O:35])[O:36][CH2:37][O:38]4",
+      "mapping_confidence": 0.5121451824223345,
+      "conditions": {
+        "raw_description": "MsCl; pyridine; -20 \u00b0C; 55%",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_21",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)OCC(=O)c2ccc(Br)cc2)CC1OS(C)(=O)=O)OCO4.[K+].[OH-].C1CCOC1>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)O)CC1OS(C)(=O)=O)OCO4",
+      "reaction_smiles_mapped": "O=C(C[O:18][C:16]([C@:15]12[CH:5]([CH2:4][C@@H:3]([O:2][CH3:1])[CH:20]([O:21][S:22]([CH3:23])(=[O:24])=[O:25])[CH2:19]1)[NH:6][C:7](=[O:8])[c:9]1[cH:10][c:11]3[c:12]([cH:13][c:14]12)[O:26][CH2:27][O:28]3)=[O:17])c1ccc(Br)cc1>C1CCOC1.[K+].[OH-]>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[OH:18])[CH2:19][CH:20]1[O:21][S:22]([CH3:23])(=[O:24])=[O:25])[O:26][CH2:27][O:28]4",
+      "mapping_confidence": 0.5782254500413757,
+      "conditions": {
+        "raw_description": "KOH; THF; rt",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_22",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)O)CC1OS(C)(=O)=O)OCO4.O=S(Cl)Cl>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)Cl)CC1OS(C)(=O)=O)OCO4",
+      "reaction_smiles_mapped": "O[C:16]([C@:15]12[CH:5]([CH2:4][C@@H:3]([O:2][CH3:1])[CH:20]([O:21][S:22]([CH3:23])(=[O:24])=[O:25])[CH2:19]1)[NH:6][C:7](=[O:8])[c:9]1[cH:10][c:11]3[c:12]([cH:13][c:14]12)[O:26][CH2:27][O:28]3)=[O:17].O=S(Cl)[Cl:18]>>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[Cl:18])[CH2:19][CH:20]1[O:21][S:22]([CH3:23])(=[O:24])=[O:25])[O:26][CH2:27][O:28]4",
+      "mapping_confidence": 0.34165693290756166,
+      "conditions": {
+        "raw_description": "SOCl2; rt; 92% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_23",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)Cl)CC1OS(C)(=O)=O)OCO4.O=C([O-])[O-].[K+].[K+].C=[N+]=[N-].C1COCCO1>>CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)C=[N+]=[N-])CC1OS(C)(=O)=O)OCO4",
+      "reaction_smiles_mapped": "[CH2:18]=[N+:19]=[N-:20].Cl[C:16]([C@:15]12[CH:5]([CH2:4][C@@H:3]([O:2][CH3:1])[CH:22]([O:23][S:24]([CH3:25])(=[O:26])=[O:27])[CH2:21]1)[NH:6][C:7](=[O:8])[c:9]1[cH:10][c:11]3[c:12]([cH:13][c:14]12)[O:28][CH2:29][O:30]3)=[O:17]>C1COCCO1.O=C([O-])[O-].[K+].[K+]>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[NH:6][C:7](=[O:8])[c:9]3[cH:10][c:11]4[c:12]([cH:13][c:14]3[C@:15]2([C:16](=[O:17])[CH:18]=[N+:19]=[N-:20])[CH2:21][CH:22]1[O:23][S:24]([CH3:25])(=[O:26])=[O:27])[O:28][CH2:29][O:30]4",
+      "mapping_confidence": 0.6140884143647277,
+      "conditions": {
+        "raw_description": "1) K2CO3; dioxane; rt; 2) CH2N2; rt; 94%",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "rt"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_24",
+      "reaction_smiles": "CO[C@@H]1CC2NC(=O)c3cc4c(cc3[C@]2(C(=O)C=[N+]=[N-])CC1OS(C)(=O)=O)OCO4.ClCCl>>CO[C@@H]1CC2N3CC(=O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH:7][C:8](=[O:9])[C@:10]12[CH:5]([CH2:4][C@@H:3]([O:2][CH3:1])[CH:12]([O:13][S:14]([CH3:15])(=[O:16])=[O:17])[CH2:11]1)[NH:6][C:24](=[O:25])[c:23]1[c:18]2[cH:19][c:21]2[c:20]([cH:22]1)[O:28][CH2:27][O:26]2>ClCCl>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[N:6]3[CH2:7][C:8](=[O:9])[C@@:10]2([CH2:11][CH:12]1[O:13][S:14]([CH3:15])(=[O:16])=[O:17])[c:18]1[cH:19][c:20]2[c:21]([cH:22][c:23]1[CH:24]3[OH:25])[O:26][CH2:27][O:28]2",
+      "mapping_confidence": 0.6041678500474422,
+      "conditions": {
+        "raw_description": "dry HCl; CH2Cl2; rt; 55%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_25",
+      "reaction_smiles": "CO[C@@H]1CC2N3CC(=O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2.CC(C)C(C)BC(C)C(C)C.C1CCOC1>>CO[C@@H]1CC2N3CC(O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[N:6]3[CH2:7][C:8](=[O:9])[C@@:10]2([CH2:11][CH:12]1[O:13][S:14]([CH3:15])(=[O:16])=[O:17])[c:18]1[cH:19][c:20]2[c:21]([cH:22][c:23]1[CH:24]3[OH:25])[O:26][CH2:27][O:28]2>C1CCOC1.CC(C)C(C)BC(C)C(C)C>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[N:6]3[CH2:7][CH:8]([OH:9])[C@@:10]2([CH2:11][CH:12]1[O:13][S:14]([CH3:15])(=[O:16])=[O:17])[c:18]1[cH:19][c:20]2[c:21]([cH:22][c:23]1[CH:24]3[OH:25])[O:26][CH2:27][O:28]2",
+      "mapping_confidence": 0.6527612029138978,
+      "conditions": {
+        "raw_description": "disiamylborane; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "disiamylborane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(C(C)C(C)C)C(C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_26",
+      "reaction_smiles": "CO[C@@H]1CC2N3CC(O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2.FB(F)F.CCOCC.CC(=O)OC(C)=O>>CO[C@@H]1CC2N3CC(OC(C)=O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2",
+      "reaction_smiles_mapped": "CC(=O)O[C:10]([CH3:11])=[O:12].[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[N:6]3[CH2:7][CH:8]([OH:9])[C@@:13]2([CH2:14][CH:15]1[O:16][S:17]([CH3:18])(=[O:19])=[O:20])[c:21]1[cH:22][c:23]2[c:24]([cH:25][c:26]1[CH:27]3[OH:28])[O:29][CH2:30][O:31]2>CCOCC.FB(F)F>[CH3:1][O:2][C@@H:3]1[CH2:4][CH:5]2[N:6]3[CH2:7][CH:8]([O:9][C:10]([CH3:11])=[O:12])[C@@:13]2([CH2:14][CH:15]1[O:16][S:17]([CH3:18])(=[O:19])=[O:20])[c:21]1[cH:22][c:23]2[c:24]([cH:25][c:26]1[CH:27]3[OH:28])[O:29][CH2:30][O:31]2",
+      "mapping_confidence": 0.3366036645841057,
+      "conditions": {
+        "raw_description": "BF3\u2022Et2O; Ac2O; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "Et2O",
+          "Ac2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CCOCC",
+          "CC(=O)OC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_27",
+      "reaction_smiles": "CO[C@@H]1CC2N3CC(OC(C)=O)[C@@]2(CC1OS(C)(=O)=O)c1cc2c(cc1C3O)OCO2.C1CN=C2CCCN2C1>>CO[C@H]1C=C[C@@]23c4cc5c(cc4C(O)N(CC2OC(C)=O)C3C1)OCO5",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH:4]1[C@H:3]([O:2][CH3:1])[CH2:23][CH:22]2[C@:6]3([CH2:5]1)[c:7]1[cH:8][c:9]4[c:10]([cH:11][c:12]1[CH:13]([OH:14])[N:15]2[CH2:16][CH:17]3[O:18][C:19]([CH3:20])=[O:21])[O:24][CH2:25][O:26]4>C1CN=C2CCCN2C1>[CH3:1][O:2][C@H:3]1[CH:4]=[CH:5][C@@:6]23[c:7]4[cH:8][c:9]5[c:10]([cH:11][c:12]4[CH:13]([OH:14])[N:15]([CH2:16][CH:17]2[O:18][C:19]([CH3:20])=[O:21])[CH:22]3[CH2:23]1)[O:24][CH2:25][O:26]5",
+      "mapping_confidence": 0.9187837437164732,
+      "conditions": {
+        "raw_description": "DBN; 110 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DBN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC2=NCCCN2C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "110"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Haemanthidine_1974_Hendrickson_28",
+      "reaction_smiles": "CO[C@H]1C=C[C@@]23c4cc5c(cc4C(O)N(CC2OC(C)=O)C3C1)OCO5.[AlH4-].[Li+].C1CCOC1>>CO[C@H]1C=C[C@@]23c4cc5c(cc4C(O)N(CC2O)C3C1)OCO5",
+      "reaction_smiles_mapped": "CC(=O)[O:18][CH:17]1[C@:6]23[CH:5]=[CH:4][C@H:3]([O:2][CH3:1])[CH2:20][CH:19]2[N:15]([CH:13]([OH:14])[c:12]2[c:7]3[cH:8][c:9]3[c:10]([cH:11]2)[O:21][CH2:22][O:23]3)[CH2:16]1>C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][C@H:3]1[CH:4]=[CH:5][C@@:6]23[c:7]4[cH:8][c:9]5[c:10]([cH:11][c:12]4[CH:13]([OH:14])[N:15]([CH2:16][CH:17]2[OH:18])[CH:19]3[CH2:20]1)[O:21][CH2:22][O:23]5",
+      "mapping_confidence": 0.9876489107680216,
+      "conditions": {
+        "raw_description": "LAH; THF; 0 \u00b0C; 20% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "20% (3 steps)"
+        ]
+      }
+    }
+  ]
+}

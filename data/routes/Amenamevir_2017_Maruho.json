@@ -1,0 +1,131 @@
+{
+  "background": {
+    "name": "Amenamevir",
+    "author": null,
+    "year": 2017,
+    "drug_name": "Amenalief",
+    "manufacturer": "Maruho",
+    "citation": "J. Med. Chem. 2019, 62, 16, 7340\u20137382",
+    "doi": "10.1021/acs.jmedchem.9b00196"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Amenamevir_2017_Maruho_1",
+      "reaction_smiles": "Cc1cccc(C)c1N.CCOC(=O)CBr.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CCOC(=O)CNc1c(C)cccc1C",
+      "reaction_smiles_mapped": "Br[CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5].[NH2:7][c:8]1[c:9]([CH3:10])[cH:11][cH:12][cH:13][c:14]1[CH3:15]>CN(C)C=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][NH:7][c:8]1[c:9]([CH3:10])[cH:11][cH:12][cH:13][c:14]1[CH3:15]",
+      "mapping_confidence": 0.7472137480772161,
+      "conditions": {
+        "raw_description": "K2CO3; DMF",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Amenamevir_2017_Maruho_2",
+      "reaction_smiles": "CCOC(=O)CNc1c(C)cccc1C.O=C(Cl)C1CCS(=O)(=O)CC1.Cl.ClCCl.ClC(Cl)Cl.c1ccncc1>>CCOC(=O)CN(C(=O)C1CCS(=O)(=O)CC1)c1c(C)cccc1C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][NH:7][c:18]1[c:19]([CH3:20])[cH:21][cH:22][cH:23][c:24]1[CH3:25].Cl[C:8](=[O:9])[CH:10]1[CH2:11][CH2:12][S:13](=[O:14])(=[O:15])[CH2:16][CH2:17]1>Cl.ClC(Cl)Cl.ClCCl.c1ccncc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][N:7]([C:8](=[O:9])[CH:10]1[CH2:11][CH2:12][S:13](=[O:14])(=[O:15])[CH2:16][CH2:17]1)[c:18]1[c:19]([CH3:20])[cH:21][cH:22][cH:23][c:24]1[CH3:25]",
+      "mapping_confidence": 0.412373963847623,
+      "conditions": {
+        "raw_description": "1) Pyridine; DCM; rt; 2) HCl; CHCl3",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "CHCl3",
+          "Pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C(Cl)(Cl)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Amenamevir_2017_Maruho_3",
+      "reaction_smiles": "CCOC(=O)CN(C(=O)C1CCS(=O)(=O)CC1)c1c(C)cccc1C.[Na+].[OH-].Cl>>Cc1cccc(C)c1N(CC(=O)O)C(=O)C1CCS(=O)(=O)CC1",
+      "reaction_smiles_mapped": "CCO[C:11]([CH2:10][N:9]([c:8]1[c:2]([CH3:1])[cH:3][cH:4][cH:5][c:6]1[CH3:7])[C:14](=[O:15])[CH:16]1[CH2:17][CH2:18][S:19](=[O:20])(=[O:21])[CH2:22][CH2:23]1)=[O:12]>Cl.[Na+].[OH-]>[CH3:1][c:2]1[cH:3][cH:4][cH:5][c:6]([CH3:7])[c:8]1[N:9]([CH2:10][C:11](=[O:12])[OH:13])[C:14](=[O:15])[CH:16]1[CH2:17][CH2:18][S:19](=[O:20])(=[O:21])[CH2:22][CH2:23]1",
+      "mapping_confidence": 0.33872635218251745,
+      "conditions": {
+        "raw_description": "1) NaOH; 2) HCl",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Amenamevir_2017_Maruho_4",
+      "reaction_smiles": "Cc1cccc(C)c1N(CC(=O)O)C(=O)C1CCS(=O)(=O)CC1.Nc1ccc(-c2ncon2)cc1.CCN=C=NCCCN(C)C.Cl.ClC(Cl)Cl>>Cc1cccc(C)c1N(CC(=O)Nc1ccc(-c2ncon2)cc1)C(=O)C1CCS(=O)(=O)CC1",
+      "reaction_smiles_mapped": "O[C:11]([CH2:10][N:9]([c:8]1[c:2]([CH3:1])[cH:3][cH:4][cH:5][c:6]1[CH3:7])[C:25](=[O:26])[CH:27]1[CH2:28][CH2:29][S:30](=[O:31])(=[O:32])[CH2:33][CH2:34]1)=[O:12].[NH2:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][cH:20][o:21][n:22]2)[cH:23][cH:24]1>CCN=C=NCCCN(C)C.Cl.ClC(Cl)Cl>[CH3:1][c:2]1[cH:3][cH:4][cH:5][c:6]([CH3:7])[c:8]1[N:9]([CH2:10][C:11](=[O:12])[NH:13][c:14]1[cH:15][cH:16][c:17](-[c:18]2[n:19][cH:20][o:21][n:22]2)[cH:23][cH:24]1)[C:25](=[O:26])[CH:27]1[CH2:28][CH2:29][S:30](=[O:31])(=[O:32])[CH2:33][CH2:34]1",
+      "mapping_confidence": 0.3892668252280938,
+      "conditions": {
+        "raw_description": "EDCl; CHCl3; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "EDCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "CCN=C=NCCCN(C)C.Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "background": {
+    "name": "(+/-)-Goniomitine",
+    "author": "Waser",
+    "year": 2010,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2010, 49, 5767",
+    "doi": "10.1002/anie.201001853"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Goniomitine_2010_Waser_1",
+      "reaction_smiles": "CCC1CCCN(C(=O)OCc2ccccc2)C1O.O=S(=O)(O)O.C1CCOC1>>CCC1=CN(C(=O)OCc2ccccc2)CCC1",
+      "reaction_smiles_mapped": "O[CH:4]1[CH:3]([CH2:2][CH3:1])[CH2:18][CH2:17][CH2:16][N:5]1[C:6](=[O:7])[O:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>O=S(=O)(O)O.C1CCOC1>[CH3:1][CH2:2][C:3]1=[CH:4][N:5]([C:6](=[O:7])[O:8][CH2:9][c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[CH2:16][CH2:17][CH2:18]1",
+      "mapping_confidence": 0.7872690821122384,
+      "conditions": {
+        "raw_description": "H2SO4; THF; 93% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_2",
+      "reaction_smiles": "CCC1=CN(C(=O)OCc2ccccc2)CCC1.CCOC(=O)C=[N+]=[N-].ClCCl.Cc1ccccc1.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Cu+].[Cu+]>>CCOC(=O)C1C2N(C(=O)OCc3ccccc3)CCCC12CC",
+      "reaction_smiles_mapped": "[CH:7]1=[C:22]([CH2:23][CH3:24])[CH2:21][CH2:20][CH2:19][N:8]1[C:9](=[O:10])[O:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1.[N-]=[N+]=[CH:6][C:4]([O:3][CH2:2][CH3:1])=[O:5]>ClCCl.Cc1ccccc1.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[Cu+].[Cu+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]2[N:8]([C:9](=[O:10])[O:11][CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[CH2:19][CH2:20][CH2:21][C:22]12[CH2:23][CH3:24]",
+      "mapping_confidence": 0.7492964886280294,
+      "conditions": {
+        "raw_description": "(CuOTf)2\u2022C7H8; DCM; 76%",
+        "GENERAL_REAGENTS": [
+          "(CuOTf)2\u2022C7H8"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu+].[O-]S(=O)(=O)C(F)(F)F.[Cu+].[O-]S(=O)(=O)C(F)(F)F.Cc1ccccc1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_3",
+      "reaction_smiles": "CCOC(=O)C1C2N(C(=O)OCc3ccccc3)CCCC12CC.ClCCl.CCOCC.FB(F)F>>CCOC(=O)[C@H]1[C@@H]2N(C(=O)OCc3ccccc3)CCC[C@@]21CC",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]2[N:8]([C:9](=[O:10])[O:11][CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[CH2:19][CH2:20][CH2:21][C:22]12[CH2:23][CH3:24]>ClCCl.CCOCC.FB(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@H:6]1[C@@H:7]2[N:8]([C:9](=[O:10])[O:11][CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[CH2:19][CH2:20][CH2:21][C@:22]12[CH2:23][CH3:24]",
+      "mapping_confidence": 0.7566847688574365,
+      "conditions": {
+        "raw_description": "BF3\u2022Et2O; DCM",
+        "GENERAL_REAGENTS": [
+          "BF3\u2022Et2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "CATALYSTS": [
+          "BF3"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_4",
+      "reaction_smiles": "CCOC(=O)[C@H]1[C@@H]2N(C(=O)OCc3ccccc3)CCC[C@@]21CC.[NH4+].[Na+].[OH-].O.C1CCOC1.CCO>>CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)O",
+      "reaction_smiles_mapped": "CCO[C:20]([C@@H:19]1[C@@:3]2([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]21)=[O:21]>[NH4+].[Na+].[OH-].O.C1CCOC1.CCO>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]1[C@@H:19]2[C:20](=[O:21])[OH:22]",
+      "mapping_confidence": 0.7839035132017191,
+      "conditions": {
+        "raw_description": "NaOH; H2O; THF; EtOH; 91% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "91% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_5",
+      "reaction_smiles": "O=C1CCCCN1.[Li]CCCC.C1CCOC1.O=C(Cl)OCc1ccccc1.CCI>>CCC1CCCN(C(=O)OCc2ccccc2)C1=O",
+      "reaction_smiles_mapped": "I[CH2:2][CH3:1].Cl[C:8](=[O:9])[O:10][CH2:11][c:12]1[cH:13][cH:14][cH:15][cH:16][cH:17]1.[CH2:3]1[CH2:4][CH2:5][CH2:6][NH:7][C:18]1=[O:19]>[Li]CCCC.C1CCOC1>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C:18]1=[O:19]",
+      "mapping_confidence": 0.8341947850434585,
+      "conditions": {
+        "raw_description": "nBuLi; CbzCl; EtI; THF; -78 \u00b0C; 67%",
+        "GENERAL_REAGENTS": [
+          "CbzCl",
+          "EtI",
+          "nBuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C=C1)COC(=O)Cl",
+          "CCI",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_6",
+      "reaction_smiles": "CCC1CCCN(C(=O)OCc2ccccc2)C1=O.[Na+].[BH4-].CO>>CCC1CCCN(C(=O)OCc2ccccc2)C1O",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[C:18]1=[O:19]>[Na+].[BH4-].CO>[CH3:1][CH2:2][CH:3]1[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]2[cH:13][cH:14][cH:15][cH:16][cH:17]2)[CH:18]1[OH:19]",
+      "mapping_confidence": 0.8066813786648294,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_7",
+      "reaction_smiles": "CNOC.CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)O.COc1nc(OC)nc([N+]2(C)CCOCC2)n1.[Cl-].C1CCOC1.CN1CCOCC1>>CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)N(C)OC",
+      "reaction_smiles_mapped": "O[C:20]([C@@H:19]1[C@@:3]2([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]21)=[O:21].[NH:22]([CH3:23])[O:24][CH3:25]>COc1nc(OC)nc([N+]2(C)CCOCC2)n1.[Cl-].C1CCOC1.CN1CCOCC1>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]1[C@@H:19]2[C:20](=[O:21])[N:22]([CH3:23])[O:24][CH3:25]",
+      "mapping_confidence": 0.6083229877664423,
+      "conditions": {
+        "raw_description": "DMTMM; NMM; THF; MeNHOMe; 93%",
+        "GENERAL_REAGENTS": [
+          "DMTMM"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)C2=NC(=NC(=N2)OC)OC.[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "NMM"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CN1CCOCC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_8",
+      "reaction_smiles": "CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)N(C)OC.CC(C)[Si](OCCc1cn(C(=O)O)c2ccccc12)(C(C)C)C(C)C.C1CCOC1>>CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)c1[nH]c2ccccc2c1CCO[Si](C(C)C)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "O=C(O)[n:23]1[cH:22][c:30]([CH2:31][CH2:32][O:33][Si:34]([CH:35]([CH3:36])[CH3:37])([CH:38]([CH3:39])[CH3:40])[CH:41]([CH3:42])[CH3:43])[c:29]2[c:24]1[cH:25][cH:26][cH:27][cH:28]2.CON(C)[C:20]([C@@H:19]1[C@@:3]2([CH2:2][CH3:1])[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]21)=[O:21]>C1CCOC1>[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]1[C@@H:19]2[C:20](=[O:21])[c:22]1[nH:23][c:24]2[cH:25][cH:26][cH:27][cH:28][c:29]2[c:30]1[CH2:31][CH2:32][O:33][Si:34]([CH:35]([CH3:36])[CH3:37])([CH:38]([CH3:39])[CH3:40])[CH:41]([CH3:42])[CH3:43]",
+      "mapping_confidence": 0.183348311813804,
+      "conditions": {
+        "raw_description": "subs.1; THF; 48%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "48%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_9",
+      "reaction_smiles": "CC[C@]12CCCN(C(=O)OCc3ccccc3)[C@H]1[C@@H]2C(=O)c1[nH]c2ccccc2c1CCO[Si](C(C)C)(C(C)C)C(C)C.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>>CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(=O)C2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@H:18]1[C@@H:43]2[C:41]([c:20]1[nH:19][c:40]2[c:35]([c:21]1[CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[cH:36][cH:37][cH:38][cH:39]2)=[O:42]>Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@@H:18]1[n:19]1[c:20]([c:21]([CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[c:35]3[cH:36][cH:37][cH:38][cH:39][c:40]13)[C:41](=[O:42])[CH2:43]2",
+      "mapping_confidence": 0.06231553838054694,
+      "conditions": {
+        "raw_description": "TsOH; DCM; 93%",
+        "GENERAL_REAGENTS": [
+          "TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_10",
+      "reaction_smiles": "CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(=O)C2.[BH4-].[Na+].CO>>CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(O)C2",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@@H:18]1[n:19]1[c:20]([c:21]([CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[c:35]3[cH:36][cH:37][cH:38][cH:39][c:40]13)[C:41](=[O:42])[CH2:43]2>[BH4-].[Na+].CO>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@@H:18]1[n:19]1[c:20]([c:21]([CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[c:35]3[cH:36][cH:37][cH:38][cH:39][c:40]13)[CH:41]([OH:42])[CH2:43]2",
+      "mapping_confidence": 0.1146975309617925,
+      "conditions": {
+        "raw_description": "NaBH4; MeOH",
+        "GENERAL_REAGENTS": [
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_11",
+      "reaction_smiles": "CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(O)C2.CC(=O)OC(C)=O.c1ccncc1>>CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(OC(C)=O)C2",
+      "reaction_smiles_mapped": "CC(=O)O[C:43]([CH3:44])=[O:45].[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@@H:18]1[n:19]1[c:20]([c:21]([CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[c:35]3[cH:36][cH:37][cH:38][cH:39][c:40]13)[CH:41]([OH:42])[CH2:46]2>c1ccncc1>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][N:7]([C:8](=[O:9])[O:10][CH2:11][c:12]3[cH:13][cH:14][cH:15][cH:16][cH:17]3)[C@@H:18]1[n:19]1[c:20]([c:21]([CH2:22][CH2:23][O:24][Si:25]([CH:26]([CH3:27])[CH3:28])([CH:29]([CH3:30])[CH3:31])[CH:32]([CH3:33])[CH3:34])[c:35]3[cH:36][cH:37][cH:38][cH:39][c:40]13)[CH:41]([O:42][C:43]([CH3:44])=[O:45])[CH2:46]2",
+      "mapping_confidence": 0.0377880591860383,
+      "conditions": {
+        "raw_description": "Ac2O; py",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "py"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=N1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_12",
+      "reaction_smiles": "CC[C@@]12CCCN(C(=O)OCc3ccccc3)[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)C(OC(C)=O)C2.[HH].[C].[Pd].CCO>>CC[C@@]12CCCN[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)CC2",
+      "reaction_smiles_mapped": "CC(=O)O[CH:31]1[c:10]2[n:9]([c:30]3[c:25]([c:11]2[CH2:12][CH2:13][O:14][Si:15]([CH:16]([CH3:17])[CH3:18])([CH:19]([CH3:20])[CH3:21])[CH:22]([CH3:23])[CH3:24])[cH:26][cH:27][cH:28][cH:29]3)[C@@H:8]2[C@@:3]([CH2:2][CH3:1])([CH2:4][CH2:5][CH2:6][N:7]2C(=O)OCc2ccccc2)[CH2:32]1>[HH].[C].[Pd].CCO>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][NH:7][C@@H:8]1[n:9]1[c:10]([c:11]([CH2:12][CH2:13][O:14][Si:15]([CH:16]([CH3:17])[CH3:18])([CH:19]([CH3:20])[CH3:21])[CH:22]([CH3:23])[CH3:24])[c:25]3[cH:26][cH:27][cH:28][cH:29][c:30]13)[CH2:31][CH2:32]2",
+      "mapping_confidence": 0.13136685344828722,
+      "conditions": {
+        "raw_description": "Pd/C; H2; EtOH",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_13",
+      "reaction_smiles": "CC[C@@]12CCCN[C@@H]1n1c(c(CCO[Si](C(C)C)(C(C)C)C(C)C)c3ccccc31)CC2.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC[C@@]12CCCN[C@@H]1n1c(c(CCO)c3ccccc31)CC2",
+      "reaction_smiles_mapped": "CC(C)[Si](C(C)C)(C(C)C)[O:14][CH2:13][CH2:12][c:11]1[c:10]2[n:9]([c:20]3[c:15]1[cH:16][cH:17][cH:18][cH:19]3)[C@@H:8]1[C@@:3]([CH2:2][CH3:1])([CH2:4][CH2:5][CH2:6][NH:7]1)[CH2:22][CH2:21]2>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][CH2:2][C@@:3]12[CH2:4][CH2:5][CH2:6][NH:7][C@@H:8]1[n:9]1[c:10]([c:11]([CH2:12][CH2:13][OH:14])[c:15]3[cH:16][cH:17][cH:18][cH:19][c:20]13)[CH2:21][CH2:22]2",
+      "mapping_confidence": 0.9859672703023347,
+      "conditions": {
+        "raw_description": "TBAF; THF; 77% (4 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77% (4 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_14",
+      "reaction_smiles": "OCCc1c[nH]c2ccccc12.CC(C)[Si](Cl)(C(C)C)C(C)C.c1c[nH]cn1.CN(C)C=O>>CC(C)[Si](OCCc1c[nH]c2ccccc12)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "Cl[Si:4]([CH:2]([CH3:1])[CH3:3])([CH:17]([CH3:18])[CH3:19])[CH:20]([CH3:21])[CH3:22].[OH:5][CH2:6][CH2:7][c:8]1[cH:9][nH:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]12>c1c[nH]cn1.CN(C)C=O>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][c:8]1[cH:9][nH:10][c:11]2[cH:12][cH:13][cH:14][cH:15][c:16]12)([CH:17]([CH3:18])[CH3:19])[CH:20]([CH3:21])[CH3:22]",
+      "mapping_confidence": 0.2083822145139145,
+      "conditions": {
+        "raw_description": "TIPSCl; im; DMF; 100%",
+        "GENERAL_REAGENTS": [
+          "TIPSCl",
+          "im"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Si](C(C)C)(C(C)C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Goniomitine_2010_Waser_15",
+      "reaction_smiles": "CC(C)[Si](OCCc1c[nH]c2ccccc12)(C(C)C)C(C)C.O=C=O.[Li]C(C)CC>>CC(C)[Si](OCCc1cn(C(=O)O)c2ccccc12)(C(C)C)C(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][c:8]1[cH:9][nH:10][c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]12)([CH:20]([CH3:21])[CH3:22])[CH:23]([CH3:24])[CH3:25].[C:11](=[O:12])=[O:13]>[Li]C(C)CC>[CH3:1][CH:2]([CH3:3])[Si:4]([O:5][CH2:6][CH2:7][c:8]1[cH:9][n:10]([C:11](=[O:12])[OH:13])[c:14]2[cH:15][cH:16][cH:17][cH:18][c:19]12)([CH:20]([CH3:21])[CH3:22])[CH:23]([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.23965641323218173,
+      "conditions": {
+        "raw_description": "sBuLi; CO2; -78\u00b0C; 65%",
+        "GENERAL_REAGENTS": [
+          "CO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "sBuLi"
+        ],
+        "SOLVENTS_SMILES": [
+          "[Li]C(C)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    }
+  ]
+}

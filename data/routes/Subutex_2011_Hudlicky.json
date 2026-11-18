@@ -1,0 +1,235 @@
+{
+  "background": {
+    "name": "Subutex",
+    "author": "Hudlicky",
+    "year": 2011,
+    "drug_name": "Buprenorphine",
+    "manufacturer": "Purdue",
+    "citation": "J. Org. Chem. 2011, 76, 4628",
+    "doi": "10.1021/jo200567n"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_1",
+      "reaction_smiles": "COC1=CC=C2[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3C)[C@H]1O5.BrCC1CC1.CN(C)C=O>>COC1=CC=C2[C@H]3Cc4ccc(O)c5c4[C@@]2(CC[N+]3(C)CC2CC2)[C@H]1O5.[Br-]",
+      "reaction_smiles_mapped": "[CH2:21]([CH:22]1[CH2:23][CH2:24]1)[Br:27].[CH3:1][O:2][C:3]1=[CH:4][CH:5]=[C:6]2[C@H:7]3[CH2:8][c:9]4[cH:10][cH:11][c:12]([OH:13])[c:14]5[c:15]4[C@@:16]2([CH2:17][CH2:18][N:19]3[CH3:20])[C@H:25]1[O:26]5>CN(C)C=O>[CH3:1][O:2][C:3]1=[CH:4][CH:5]=[C:6]2[C@H:7]3[CH2:8][c:9]4[cH:10][cH:11][c:12]([OH:13])[c:14]5[c:15]4[C@@:16]2([CH2:17][CH2:18][N+:19]3([CH3:20])[CH2:21][CH:22]2[CH2:23][CH2:24]2)[C@H:25]1[O:26]5.[Br-:27]",
+      "mapping_confidence": 0.9455115597846684,
+      "conditions": {
+        "raw_description": "DMF; 80 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_2",
+      "reaction_smiles": "COC1=CC=C2[C@H]3Cc4ccc(O)c5c4[C@@]2(CC[N+]3(C)CC2CC2)[C@H]1O5.[Br-].CS(C)=O.CCCCCCCCC(C)(C)S.CC(C)(C)[O-].[Na+]>>COC1=CC=C2[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5",
+      "reaction_smiles_mapped": "C[N+:19]1([CH2:20][CH:21]2[CH2:22][CH2:23]2)[C@H:7]2[C:6]3=[CH:5][CH:4]=[C:3]([O:2][CH3:1])[C@H:24]4[C@@:16]3([c:15]3[c:9]([cH:10][cH:11][c:12]([OH:13])[c:14]3[O:25]4)[CH2:8]2)[CH2:17][CH2:18]1>CC(C)(C)[O-].CCCCCCCCC(C)(C)S.CS(C)=O.[Br-].[Na+]>[CH3:1][O:2][C:3]1=[CH:4][CH:5]=[C:6]2[C@H:7]3[CH2:8][c:9]4[cH:10][cH:11][c:12]([OH:13])[c:14]5[c:15]4[C@@:16]2([CH2:17][CH2:18][N:19]3[CH2:20][CH:21]2[CH2:22][CH2:23]2)[C@H:24]1[O:25]5",
+      "mapping_confidence": 0.9564468450031012,
+      "conditions": {
+        "raw_description": "CH3(CH2)8C(CH3)2SH; t-BuONa; DMSO; 80 \u00b0C; 65-67%",
+        "GENERAL_REAGENTS": [
+          "CH3(CH2)8C(CH3)2SH",
+          "t-BuONa"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCCCCCCC(C)(C)S",
+          "CC(C)(C)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "65-67%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_3",
+      "reaction_smiles": "COC1=CC=C2[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5.C=CC(C)=O.Cc1ccccc1>>CO[C@]12C=C[C@@]3(C[C@@H]1C(C)=O)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5",
+      "reaction_smiles_mapped": "[CH2:7]=[CH:8][C:9]([CH3:10])=[O:11].[CH3:1][O:2][C:3]1=[CH:4][CH:5]=[C:6]2[C@H:12]3[CH2:13][c:14]4[cH:15][cH:16][c:17]([OH:18])[c:19]5[c:20]4[C@@:21]2([CH2:22][CH2:23][N:24]3[CH2:25][CH:26]2[CH2:27][CH2:28]2)[C@H:29]1[O:30]5>Cc1ccccc1>[CH3:1][O:2][C@:3]12[CH:4]=[CH:5][C@@:6]3([CH2:7][C@@H:8]1[C:9]([CH3:10])=[O:11])[C@H:12]1[CH2:13][c:14]4[cH:15][cH:16][c:17]([OH:18])[c:19]5[c:20]4[C@@:21]3([CH2:22][CH2:23][N:24]1[CH2:25][CH:26]1[CH2:27][CH2:28]1)[C@H:29]2[O:30]5",
+      "mapping_confidence": 0.9643386815539411,
+      "conditions": {
+        "raw_description": "PhMe; 80 \u00b0C; 85%; Diels-Alder cycloaddition",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_4",
+      "reaction_smiles": "CO[C@]12C=C[C@@]3(C[C@@H]1C(C)=O)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5.[Pd].[H][H].O.O=C(O)C(O)C(O)C(=O)O.[C].[Pd]>>CO[C@]12CC[C@@]3(C[C@@H]1C(C)=O)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C@:3]12[CH:4]=[CH:5][C@@:6]3([CH2:7][C@@H:8]1[C:9]([CH3:10])=[O:11])[C@H:12]1[CH2:13][c:14]4[cH:15][cH:16][c:17]([OH:18])[c:19]5[c:20]4[C@@:21]3([CH2:22][CH2:23][N:24]1[CH2:25][CH:26]1[CH2:27][CH2:28]1)[C@H:29]2[O:30]5>O.O=C(O)C(O)C(O)C(=O)O.[C].[H][H].[Pd].[Pd]>[CH3:1][O:2][C@:3]12[CH2:4][CH2:5][C@@:6]3([CH2:7][C@@H:8]1[C:9]([CH3:10])=[O:11])[C@H:12]1[CH2:13][c:14]4[cH:15][cH:16][c:17]([OH:18])[c:19]5[c:20]4[C@@:21]3([CH2:22][CH2:23][N:24]1[CH2:25][CH:26]1[CH2:27][CH2:28]1)[C@H:29]2[O:30]5",
+      "mapping_confidence": 0.9349494109448405,
+      "conditions": {
+        "raw_description": "Pd/C; H2; tartaric acid; H2O; 83-91%",
+        "GENERAL_REAGENTS": [
+          "tartaric acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(C(=O)O)O)(C(=O)O)O"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "83-91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_5",
+      "reaction_smiles": "CO[C@]12CC[C@@]3(C[C@@H]1C(C)=O)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5.CCOC(=O)Cl.CCN(CC)CC.Cc1ccccc1>>CCOC(=O)Oc1ccc2c3c1O[C@H]1[C@@]4(OC)CC[C@@]5(C[C@@H]4C(C)=O)[C@@H](C2)N(CC2CC2)CC[C@]315",
+      "reaction_smiles_mapped": "Cl[C:4]([O:3][CH2:2][CH3:1])=[O:5].[OH:6][c:7]1[cH:8][cH:9][c:10]2[c:11]3[c:12]1[O:13][C@H:14]1[C@@:15]4([O:16][CH3:17])[CH2:18][CH2:19][C@@:20]5([CH2:21][C@@H:22]4[C:23]([CH3:24])=[O:25])[C@@H:26]([CH2:27]2)[N:28]([CH2:29][CH:30]2[CH2:31][CH2:32]2)[CH2:33][CH2:34][C@:35]315>CCN(CC)CC.Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[O:6][c:7]1[cH:8][cH:9][c:10]2[c:11]3[c:12]1[O:13][C@H:14]1[C@@:15]4([O:16][CH3:17])[CH2:18][CH2:19][C@@:20]5([CH2:21][C@@H:22]4[C:23]([CH3:24])=[O:25])[C@@H:26]([CH2:27]2)[N:28]([CH2:29][CH:30]2[CH2:31][CH2:32]2)[CH2:33][CH2:34][C@:35]315",
+      "mapping_confidence": 0.9241393459859765,
+      "conditions": {
+        "raw_description": "ClCO2Et; Et3N; PhMe; 40 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "ClCO2Et",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_6",
+      "reaction_smiles": "CCOC(=O)Oc1ccc2c3c1O[C@H]1[C@@]4(OC)CC[C@@]5(C[C@@H]4C(C)=O)[C@@H](C2)N(CC2CC2)CC[C@]315.C[C](C)(C)[Mg][Cl].C1CCCCC1.Cc1ccccc1>>CCOC(=O)Oc1ccc2c3c1O[C@H]1[C@@]4(OC)CC[C@@]5(C[C@@H]4[C@](C)(O)C(C)(C)C)[C@@H](C2)N(CC2CC2)CC[C@]315",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[O:6][c:7]1[cH:8][cH:9][c:10]2[c:11]3[c:12]1[O:13][C@H:14]1[C@@:15]4([O:16][CH3:17])[CH2:18][CH2:19][C@@:20]5([CH2:21][C@@H:22]4[C:23]([CH3:24])=[O:25])[C@@H:30]([CH2:31]2)[N:32]([CH2:33][CH:34]2[CH2:35][CH2:36]2)[CH2:37][CH2:38][C@:39]315.[Cl][Mg][C:26]([CH3:27])([CH3:28])[CH3:29]>C1CCCCC1.Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[O:6][c:7]1[cH:8][cH:9][c:10]2[c:11]3[c:12]1[O:13][C@H:14]1[C@@:15]4([O:16][CH3:17])[CH2:18][CH2:19][C@@:20]5([CH2:21][C@@H:22]4[C@:23]([CH3:24])([OH:25])[C:26]([CH3:27])([CH3:28])[CH3:29])[C@@H:30]([CH2:31]2)[N:32]([CH2:33][CH:34]2[CH2:35][CH2:36]2)[CH2:37][CH2:38][C@:39]315",
+      "mapping_confidence": 0.32980960727335384,
+      "conditions": {
+        "raw_description": "t-BuMgCl (6 equiv); cyclohexane; PhMe; rt; 84%",
+        "GENERAL_REAGENTS": [
+          "t-BuMgCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Mg]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "cyclohexane",
+          "PhMe"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCCCC1",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Subutex_2011_Hudlicky_7",
+      "reaction_smiles": "CCOC(=O)Oc1ccc2c3c1O[C@H]1[C@@]4(OC)CC[C@@]5(C[C@@H]4[C@](C)(O)C(C)(C)C)[C@@H](C2)N(CC2CC2)CC[C@]315.[OH-].[Na+].CO.ClCCl.[Na+].[OH-]>>CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5",
+      "reaction_smiles_mapped": "CCOC(=O)[O:22][c:21]1[cH:20][cH:19][c:18]2[c:24]3[c:23]1[O:34][C@H:33]1[C@@:3]4([O:2][CH3:1])[CH2:4][CH2:5][C@@:6]5([CH2:7][C@@H:8]4[C@:9]([CH3:10])([OH:11])[C:12]([CH3:13])([CH3:14])[CH3:15])[C@@H:16]([CH2:17]2)[N:28]([CH2:29][CH:30]2[CH2:31][CH2:32]2)[CH2:27][CH2:26][C@:25]531>CO.ClCCl.[Na+].[Na+].[OH-].[OH-]>[CH3:1][O:2][C@:3]12[CH2:4][CH2:5][C@@:6]3([CH2:7][C@@H:8]1[C@:9]([CH3:10])([OH:11])[C:12]([CH3:13])([CH3:14])[CH3:15])[C@H:16]1[CH2:17][c:18]4[cH:19][cH:20][c:21]([OH:22])[c:23]5[c:24]4[C@@:25]3([CH2:26][CH2:27][N:28]1[CH2:29][CH:30]1[CH2:31][CH2:32]1)[C@H:33]2[O:34]5",
+      "mapping_confidence": 0.4801912261961097,
+      "conditions": {
+        "raw_description": "5% NaOH; MeOH; CH2Cl2; 10 min; 76% (2 steps from 13)",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    }
+  ]
+}

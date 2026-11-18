@@ -1,0 +1,225 @@
+{
+  "background": {
+    "name": "Danicopan",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Vodeya",
+    "manufacturer": "PharmingGroup",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_1",
+      "reaction_smiles": "CC(=O)c1n[nH]c2ccc(Br)cc12.CC(C)(C)OC(=O)CBr.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>CC(=O)c1nn(CC(=O)OC(C)(C)C)c2ccc(Br)cc12",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[c:4]1[n:5][nH:6][c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][c:21]12.Br[CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14]>CN(C)C=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2](=[O:3])[c:4]1[n:5][n:6]([CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[c:15]2[cH:16][cH:17][c:18]([Br:19])[cH:20][c:21]12",
+      "mapping_confidence": 0.38877118814348105,
+      "conditions": {
+        "raw_description": "K2CO3; DMF; 99%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_2",
+      "reaction_smiles": "CC(=O)c1nn(CC(=O)OC(C)(C)C)c2ccc(Br)cc12.Cc1ncc(B2OC(C)(C)C(C)(C)O2)cn1.O=C([O-])[O-].[K+].[K+]>>CC(=O)c1nn(CC(=O)OC(C)(C)C)c2ccc(-c3cnc(C)nc3)cc12",
+      "reaction_smiles_mapped": "Br[c:18]1[cH:17][cH:16][c:15]2[n:6]([CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[n:5][c:4]([C:2]([CH3:1])=[O:3])[c:27]2[cH:26]1.CC1(C)OB([c:19]2[cH:20][n:21][c:22]([CH3:23])[n:24][cH:25]2)OC1(C)C>O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2](=[O:3])[c:4]1[n:5][n:6]([CH2:7][C:8](=[O:9])[O:10][C:11]([CH3:12])([CH3:13])[CH3:14])[c:15]2[cH:16][cH:17][c:18](-[c:19]3[cH:20][n:21][c:22]([CH3:23])[n:24][cH:25]3)[cH:26][c:27]12",
+      "mapping_confidence": 0.3199050007378441,
+      "conditions": {
+        "raw_description": "K2CO3; reflux; 68%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_3",
+      "reaction_smiles": "CC(=O)c1nn(CC(=O)OC(C)(C)C)c2ccc(-c3cnc(C)nc3)cc12.O=C(O)C(F)(F)F.ClCCl>>CC(=O)c1nn(CC(=O)O)c2ccc(-c3cnc(C)nc3)cc12",
+      "reaction_smiles_mapped": "CC(C)(C)[O:10][C:8]([CH2:7][n:6]1[n:5][c:4]([C:2]([CH3:1])=[O:3])[c:23]2[c:11]1[cH:12][cH:13][c:14](-[c:15]1[cH:16][n:17][c:18]([CH3:19])[n:20][cH:21]1)[cH:22]2)=[O:9]>ClCCl.O=C(O)C(F)(F)F>[CH3:1][C:2](=[O:3])[c:4]1[n:5][n:6]([CH2:7][C:8](=[O:9])[OH:10])[c:11]2[cH:12][cH:13][c:14](-[c:15]3[cH:16][n:17][c:18]([CH3:19])[n:20][cH:21]3)[cH:22][c:23]12",
+      "mapping_confidence": 0.9431144775143536,
+      "conditions": {
+        "raw_description": "TFA; DCM; 99%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_4",
+      "reaction_smiles": "CC(=O)c1nn(CC(=O)O)c2ccc(-c3cnc(C)nc3)cc12.O=C(Nc1cccc(Br)n1)[C@@H]1C[C@@H](F)CN1.CCN(C(C)C)C(C)C.CN(C)C=O>>CC(=O)c1nn(CC(=O)N2C[C@H](F)C[C@H]2C(=O)Nc2cccc(Br)n2)c2ccc(-c3cnc(C)nc3)cc12",
+      "reaction_smiles_mapped": "O[C:8]([CH2:7][n:6]1[n:5][c:4]([C:2]([CH3:1])=[O:3])[c:38]2[c:26]1[cH:27][cH:28][c:29](-[c:30]1[cH:31][n:32][c:33]([CH3:34])[n:35][cH:36]1)[cH:37]2)=[O:9].[NH:10]1[CH2:11][C@H:12]([F:13])[CH2:14][C@H:15]1[C:16](=[O:17])[NH:18][c:19]1[cH:20][cH:21][cH:22][c:23]([Br:24])[n:25]1>CCN(C(C)C)C(C)C.CN(C)C=O>[CH3:1][C:2](=[O:3])[c:4]1[n:5][n:6]([CH2:7][C:8](=[O:9])[N:10]2[CH2:11][C@H:12]([F:13])[CH2:14][C@H:15]2[C:16](=[O:17])[NH:18][c:19]2[cH:20][cH:21][cH:22][c:23]([Br:24])[n:25]2)[c:26]2[cH:27][cH:28][c:29](-[c:30]3[cH:31][n:32][c:33]([CH3:34])[n:35][cH:36]3)[cH:37][c:38]12",
+      "mapping_confidence": 0.9135279761279547,
+      "conditions": {
+        "raw_description": "DIPEA; DMF; rt",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_5",
+      "reaction_smiles": "Cc1ncc(Br)cn1.CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.CC(=O)[O-].[K+].C1COCCO1.Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>>Cc1ncc(B2OC(C)(C)C(C)(C)O2)cn1",
+      "reaction_smiles_mapped": "CC1(C)OB([B:6]2[O:7][C:8]([CH3:9])([CH3:10])[C:11]([CH3:12])([CH3:13])[O:14]2)OC1(C)C.Br[c:5]1[cH:4][n:3][c:2]([CH3:1])[n:16][cH:15]1>C1COCCO1.CC(=O)[O-].Cl[Pd]Cl.[Fe+2].[K+].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1>[CH3:1][c:2]1[n:3][cH:4][c:5]([B:6]2[O:7][C:8]([CH3:9])([CH3:10])[C:11]([CH3:12])([CH3:13])[O:14]2)[cH:15][n:16]1",
+      "mapping_confidence": 0.21029294952707245,
+      "conditions": {
+        "raw_description": "Pd(dppf)Cl2; KOAc; 1,4-Dioxane",
+        "GENERAL_REAGENTS": [
+          "KOAc",
+          "1,4-Dioxane"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[K+]",
+          "C1COCCO1"
+        ],
+        "CATALYSTS": [
+          "Pd(dppf)Cl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl.[Fe+2].c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1.c1ccc(P(c2ccccc2)c2cc[cH-]c2)cc1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_6",
+      "reaction_smiles": "Nc1cccc(Br)n1.CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)O.CS(=O)(=O)Cl.Cn1ccnc1.ClCCl>>CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)Nc1cccc(Br)n1",
+      "reaction_smiles_mapped": "O[C:14]([C@H:13]1[N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH2:9][C@H:10]([F:11])[CH2:12]1)=[O:15].[NH2:16][c:17]1[cH:18][cH:19][cH:20][c:21]([Br:22])[n:23]1>CS(=O)(=O)Cl.ClCCl.Cn1ccnc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][C@H:10]([F:11])[CH2:12][C@H:13]1[C:14](=[O:15])[NH:16][c:17]1[cH:18][cH:19][cH:20][c:21]([Br:22])[n:23]1",
+      "mapping_confidence": 0.4580789075324385,
+      "conditions": {
+        "raw_description": "MsCl; NMI; DCM; 89%",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMI",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1C=CN=C1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "89%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Danicopan_2025_PharmingGroup_7",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1C(=O)Nc1cccc(Br)n1.Cl.C1COCCO1.O=C([O-])O.[Na+].O>>O=C(Nc1cccc(Br)n1)[C@@H]1C[C@@H](F)CN1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:16]1[C@H:11]([C:2](=[O:1])[NH:3][c:4]2[cH:5][cH:6][cH:7][c:8]([Br:9])[n:10]2)[CH2:12][C@@H:13]([F:14])[CH2:15]1>C1COCCO1.Cl.O.O=C([O-])O.[Na+]>[O:1]=[C:2]([NH:3][c:4]1[cH:5][cH:6][cH:7][c:8]([Br:9])[n:10]1)[C@@H:11]1[CH2:12][C@@H:13]([F:14])[CH2:15][NH:16]1",
+      "mapping_confidence": 0.9902478759750245,
+      "conditions": {
+        "raw_description": "HCl; H2O; 1,4-Dioxane; NaHCO3",
+        "GENERAL_REAGENTS": [
+          "HCl",
+          "1,4-Dioxane",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl",
+          "C1COCCO1",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

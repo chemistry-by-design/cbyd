@@ -1,0 +1,133 @@
+{
+  "background": {
+    "name": "Lacosamide",
+    "author": null,
+    "year": 2009,
+    "drug_name": "Vimpat",
+    "manufacturer": "UCB",
+    "citation": "Mini-Rev. Med. Chem. 2009, 9, 1655",
+    "doi": "10.2174/138955709791012201"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lacosamide_2009_UCB_1",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H](CO)C(=O)O.COS(=O)(=O)OC.[Na+].[OH-].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].Cc1ccccc1>>COC[C@@H](NC(=O)OC(C)(C)C)C(=O)O",
+      "reaction_smiles_mapped": "[OH:2][CH2:3][C@@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[C:13](=[O:14])[OH:15].COS(=O)(=O)O[CH3:1]>[Na+].[OH-].CCCC[N+](CCCC)(CCCC)CCCC.[Br-].Cc1ccccc1>[CH3:1][O:2][CH2:3][C@@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[C:13](=[O:14])[OH:15]",
+      "mapping_confidence": 0.18837362659724094,
+      "conditions": {
+        "raw_description": "(CH3)2SO4; NaOH; nBu4NBr; toluene",
+        "GENERAL_REAGENTS": [
+          "(CH3)2SO4",
+          "NaOH",
+          "nBu4NBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COS(=O)(=O)OC",
+          "[OH-].[Na+]",
+          "CCCC[N+](CCCC)(CCCC)CCCC.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lacosamide_2009_UCB_2",
+      "reaction_smiles": "COC[C@@H](NC(=O)OC(C)(C)C)C(=O)O.CCC(C)OC(=O)Cl.NCc1ccccc1.CN1CCOCC1.ClCCl>>COC[C@@H](NC(=O)OC(C)(C)C)C(=O)NCc1ccccc1",
+      "reaction_smiles_mapped": "O[C:13]([C@@H:4]([CH2:3][O:2][CH3:1])[NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])=[O:14].[NH2:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1>CCC(C)OC(=O)Cl.CN1CCOCC1.ClCCl>[CH3:1][O:2][CH2:3][C@@H:4]([NH:5][C:6](=[O:7])[O:8][C:9]([CH3:10])([CH3:11])[CH3:12])[C:13](=[O:14])[NH:15][CH2:16][c:17]1[cH:18][cH:19][cH:20][cH:21][cH:22]1",
+      "mapping_confidence": 0.42627240316667014,
+      "conditions": {
+        "raw_description": "iBuOC(O)Cl; BnNH2; 4-Me-morpholine; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "iBuOC(O)Cl",
+          "BnNH2",
+          "4-Me-morpholine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC(C)OC(=O)Cl",
+          "C1=CC=C(C=C1)CN",
+          "C1COCCN1C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lacosamide_2009_UCB_3",
+      "reaction_smiles": "COC[C@@H](NC(=O)OC(C)(C)C)C(=O)NCc1ccccc1.ClCCl.Cl.ClC(Cl)(Cl)Cl.ClCl>>COC[C@@H](N)C(=O)NCc1ccccc1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:5][C@H:4]([CH2:3][O:2][CH3:1])[C:6](=[O:7])[NH:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1>ClCCl.Cl.ClC(Cl)(Cl)Cl.ClCl>[CH3:1][O:2][CH2:3][C@@H:4]([NH2:5])[C:6](=[O:7])[NH:8][CH2:9][c:10]1[cH:11][cH:12][cH:13][cH:14][cH:15]1",
+      "mapping_confidence": 0.8960797774366365,
+      "conditions": {
+        "raw_description": "ClCCl; Cl",
+        "GENERAL_REAGENTS": [
+          "ClCCl",
+          "Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl",
+          "ClCl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lacosamide_2009_UCB_4",
+      "reaction_smiles": "COC[C@@H](N)C(=O)NCc1ccccc1.CC(=O)OC(C)=O.[CH2]Cl>>COC[C@@H](NC(C)=O)C(=O)NCc1ccccc1",
+      "reaction_smiles_mapped": "CC(=O)O[C:6]([CH3:7])=[O:8].[CH3:1][O:2][CH2:3][C@@H:4]([NH2:5])[C:9](=[O:10])[NH:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>[CH2]Cl>[CH3:1][O:2][CH2:3][C@@H:4]([NH:5][C:6]([CH3:7])=[O:8])[C:9](=[O:10])[NH:11][CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1",
+      "mapping_confidence": 0.49228515713897686,
+      "conditions": {
+        "raw_description": "Ac2O; CH2Cl; 70%",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl"
+        ],
+        "SOLVENTS_SMILES": [
+          "[CH2]Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    }
+  ]
+}

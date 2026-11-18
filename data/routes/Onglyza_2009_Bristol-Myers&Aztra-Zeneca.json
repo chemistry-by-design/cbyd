@@ -1,0 +1,533 @@
+{
+  "background": {
+    "name": "Onglyza",
+    "author": null,
+    "year": 2009,
+    "drug_name": "Saxagliptin",
+    "manufacturer": "Bristol-Myers&Aztra-Zeneca",
+    "citation": "Org. Proc. Res. Dev. 2009, 13, 1169",
+    "doi": "10.1021/op900226j"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_1",
+      "reaction_smiles": "O=C1CC[C@@H](C(=O)O)N1.O=S(Cl)Cl.CCN(CC)CC>>O=C1CC[C@@H](C(=O)Cl)N1",
+      "reaction_smiles_mapped": "O[C:6]([C@@H:5]1[CH2:4][CH2:3][C:2](=[O:1])[NH:9]1)=[O:7].O=S(Cl)[Cl:8]>CCN(CC)CC>[O:1]=[C:2]1[CH2:3][CH2:4][C@@H:5]([C:6](=[O:7])[Cl:8])[NH:9]1",
+      "mapping_confidence": 0.5666290207892166,
+      "conditions": {
+        "raw_description": "SOCl2; Et3N",
+        "GENERAL_REAGENTS": [
+          "SOCl2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_2",
+      "reaction_smiles": "O=C1CC[C@@H](C(=O)Cl)N1.Cc1ccccc1.CCO>>CCOC(=O)[C@@H]1CCC(=O)N1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][OH:3].Cl[C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][C:9](=[O:10])[NH:11]1>Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][C:9](=[O:10])[NH:11]1",
+      "mapping_confidence": 0.9959530716273866,
+      "conditions": {
+        "raw_description": "EtOH; Toluene",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene",
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_3",
+      "reaction_smiles": "CCOC(=O)[C@@H]1CCC(=O)N1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CN(C)c1ccncc1.Cc1ccccc1>>CCOC(=O)[C@@H]1CCC(=O)N1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18].[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][C:9](=[O:10])[NH:11]1>CN(C)c1ccncc1.Cc1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][C:9](=[O:10])[N:11]1[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.24680261058237207,
+      "conditions": {
+        "raw_description": "(Boc)2O; DMAP; Toluene; rt",
+        "GENERAL_REAGENTS": [
+          "(Boc)2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_4",
+      "reaction_smiles": "CCOC(=O)[C@@H]1CCC(=O)N1C(=O)OC(C)(C)C.CC[BH-](CC)CC.[Li+].C1CCOC1>>CCOC(=O)[C@@H]1CCC(O)N1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][C:9](=[O:10])[N:11]1[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18]>C1CCOC1.CC[BH-](CC)CC.[Li+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH2:8][CH:9]([OH:10])[N:11]1[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.4142625483284647,
+      "conditions": {
+        "raw_description": "LiEt3BH; THF; -70 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiEt3BH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH-](CC)(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-70"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_5",
+      "reaction_smiles": "CCOC(=O)[C@@H]1CCC(O)N1C(=O)OC(C)(C)C.CCN(C(C)C)C(C)C.CN(C)c1ccncc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F>>CCOC(=O)[C@@H]1CC=CN1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "O[CH:9]1[CH2:8][CH2:7][C@@H:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[N:10]1[C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17]>CCN(C(C)C)C(C)C.CN(C)c1ccncc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][CH:8]=[CH:9][N:10]1[C:11](=[O:12])[O:13][C:14]([CH3:15])([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.40287756611517667,
+      "conditions": {
+        "raw_description": "DIPEA; TFAA; DMAP; 95% (2 Steps)",
+        "GENERAL_REAGENTS": [
+          "DIPEA",
+          "DMAP",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C",
+          "CN(C)C1=CC=NC=C1",
+          "O=C(OC(=O)C(F)(F)F)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_6",
+      "reaction_smiles": "CCOC(=O)[C@@H]1CC=CN1C(=O)OC(C)(C)C.NC=O.C[O-].[Na+].CO>>CC(C)(C)OC(=O)N1C=CC[C@H]1C(N)=O",
+      "reaction_smiles_mapped": "CCO[C:13]([C@H:12]1[N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH:9]=[CH:10][CH2:11]1)=[O:15].O=C[NH2:14]>CO.C[O-].[Na+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH:9]=[CH:10][CH2:11][C@H:12]1[C:13]([NH2:14])=[O:15]",
+      "mapping_confidence": 0.4623607097094907,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; rt",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_7",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1C=CC[C@H]1C(N)=O.ICI.C[CH2][Zn][CH2]C.COCCOC.Cc1ccccc1>>CC(C)(C)OC(=O)N1[C@H](C(N)=O)C[C@@H]2C[C@@H]21",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[C@H:9]([C:10]([NH2:11])=[O:12])[CH2:13][CH:14]=[CH:16]1.I[CH2:15]I>COCCOC.C[CH2][Zn][CH2]C.Cc1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[C@H:9]([C:10]([NH2:11])=[O:12])[CH2:13][C@@H:14]2[CH2:15][C@H:16]12",
+      "mapping_confidence": 0.2888625138062618,
+      "conditions": {
+        "raw_description": "72% (2 Steps); CH2I2; Et2Zn; DME; Toluene; -30 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "CH2I2",
+          "Et2Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(I)I",
+          "CC[Zn]CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME",
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-30"
+        ],
+        "YIELD": [
+          "72% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_8",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1[C@H](C(N)=O)C[C@@H]2C[C@@H]21.Cl.CCOC(C)=O.C1CCOC1>>NC(=O)[C@@H]1C[C@@H]2C[C@@H]2N1",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:9]1[C@H:4]([C:2]([NH2:1])=[O:3])[CH2:5][C@@H:6]2[CH2:7][C@@H:8]21>C1CCOC1.CCOC(C)=O.Cl>[NH2:1][C:2](=[O:3])[C@@H:4]1[CH2:5][C@@H:6]2[CH2:7][C@@H:8]2[NH:9]1",
+      "mapping_confidence": 0.9906089628703555,
+      "conditions": {
+        "raw_description": "HCl; EtOAc; THF; rt",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_9",
+      "reaction_smiles": "NC(=O)[C@@H]1C[C@@H]2C[C@@H]2N1.CC(C)(C)OC(=O)N[C@H](C(=O)O)C12CC3CC(CC(O)(C3)C1)C2.On1nnc2ccccc21.CCN(C(C)C)C(C)C.CCN=C=NCCCN(C)C.CC#N>>CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C(N)=O)C[C@@H]2C[C@@H]21)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "O[C:10]([C@@H:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C:21]12[CH2:22][CH:23]3[CH2:24][CH:25]([CH2:26][C:27]([OH:28])([CH2:29]3)[CH2:30]1)[CH2:31]2)=[O:11].[NH:12]1[C@H:13]([C:14]([NH2:15])=[O:16])[CH2:17][C@@H:18]2[CH2:19][C@H:20]12>CC#N.CCN(C(C)C)C(C)C.CCN=C=NCCCN(C)C.On1nnc2ccccc21>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]([C:10](=[O:11])[N:12]1[C@H:13]([C:14]([NH2:15])=[O:16])[CH2:17][C@@H:18]2[CH2:19][C@H:20]12)[C:21]12[CH2:22][CH:23]3[CH2:24][CH:25]([CH2:26][C:27]([OH:28])([CH2:29]3)[CH2:30]1)[CH2:31]2",
+      "mapping_confidence": 0.4604011132920975,
+      "conditions": {
+        "raw_description": "95%; DCE; HOBt; DIPEA; MeCN",
+        "GENERAL_REAGENTS": [
+          "HOBt",
+          "DIPEA",
+          "EDC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)N=NN2O",
+          "CCN(C(C)C)C(C)C",
+          "CCN=C=NCCCN(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_10",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C(N)=O)C[C@@H]2C[C@@H]21)C12CC3CC(CC(O)(C3)C1)C2.CCOC(=O)c1cccnc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F.CCOC(C)=O>>CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C#N)C[C@@H]2C[C@@H]21)C12CC3CC(CC(OC(=O)C(F)(F)F)(C3)C1)C2",
+      "reaction_smiles_mapped": "O=[C:14]([C@H:13]1[N:12]([C:10]([C@@H:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C:20]23[CH2:21][CH:22]4[CH2:23][CH:24]([CH2:25][C:26]([OH:27])([CH2:34]4)[CH2:35]2)[CH2:36]3)=[O:11])[C@@H:19]2[C@H:17]([CH2:16]1)[CH2:18]2)[NH2:15].O=C(O[C:28](=[O:29])[C:30]([F:31])([F:32])[F:33])C(F)(F)F>CCOC(=O)c1cccnc1.CCOC(C)=O>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]([C:10](=[O:11])[N:12]1[C@H:13]([C:14]#[N:15])[CH2:16][C@@H:17]2[CH2:18][C@H:19]12)[C:20]12[CH2:21][CH:22]3[CH2:23][CH:24]([CH2:25][C:26]([O:27][C:28](=[O:29])[C:30]([F:31])([F:32])[F:33])([CH2:34]3)[CH2:35]1)[CH2:36]2",
+      "mapping_confidence": 0.07511480591689125,
+      "conditions": {
+        "raw_description": "98%; TFAA; EtOAc",
+        "GENERAL_REAGENTS": [
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=C(OC(=O)C(F)(F)F)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_11",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C#N)C[C@@H]2C[C@@H]21)C12CC3CC(CC(OC(=O)C(F)(F)F)(C3)C1)C2.O=C([O-])[O-].[K+].[K+].CO.CCOC(C)=O>>CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C#N)C[C@@H]2C[C@@H]21)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "O=C(C(F)(F)F)[O:27][C:26]12[CH2:25][CH:24]3[CH2:23][CH:22]([CH2:21][C:20]([C@H:9]([NH:8][C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[C:10](=[O:11])[N:12]4[C@H:13]([C:14]#[N:15])[CH2:16][C@@H:17]5[CH2:18][C@H:19]45)([CH2:29]1)[CH2:30]3)[CH2:28]2>CCOC(C)=O.CO.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]([C:10](=[O:11])[N:12]1[C@H:13]([C:14]#[N:15])[CH2:16][C@@H:17]2[CH2:18][C@H:19]12)[C:20]12[CH2:21][CH:22]3[CH2:23][CH:24]([CH2:25][C:26]([OH:27])([CH2:28]3)[CH2:29]1)[CH2:30]2",
+      "mapping_confidence": 0.366952933859831,
+      "conditions": {
+        "raw_description": "K2CO3; MeOH; EtOAc",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_12",
+      "reaction_smiles": "CC(C)(C)OC(=O)N[C@H](C(=O)N1[C@H](C#N)C[C@@H]2C[C@@H]21)C12CC3CC(CC(O)(C3)C1)C2.Cl.CC(C)O>>N#C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H](N)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[NH:12][C@H:11]([C:9]([N:8]1[C@H:3]([C:2]#[N:1])[CH2:4][C@@H:5]2[CH2:6][C@@H:7]21)=[O:10])[C:13]12[CH2:14][CH:15]3[CH2:16][CH:17]([CH2:18][C:19]([OH:20])([CH2:21]3)[CH2:22]1)[CH2:23]2>CC(C)O.Cl>[N:1]#[C:2][C@@H:3]1[CH2:4][C@@H:5]2[CH2:6][C@@H:7]2[N:8]1[C:9](=[O:10])[C@@H:11]([NH2:12])[C:13]12[CH2:14][CH:15]3[CH2:16][CH:17]([CH2:18][C:19]([OH:20])([CH2:21]3)[CH2:22]1)[CH2:23]2",
+      "mapping_confidence": 0.9234290279679438,
+      "conditions": {
+        "raw_description": "88% (2 Steps); HCl; iPrOH; 65 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "iPrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "88% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_13",
+      "reaction_smiles": "O=C(O)C12CC3CC(CC(C3)C1)C2.O=S(Cl)Cl.CCN(CC)CC>>O=C(Cl)C12CC3CC(CC(C3)C1)C2",
+      "reaction_smiles_mapped": "O[C:2](=[O:1])[C:4]12[CH2:5][CH:6]3[CH2:7][CH:8]([CH2:9][CH:10]([CH2:11]3)[CH2:12]1)[CH2:13]2.O=S(Cl)[Cl:3]>CCN(CC)CC>[O:1]=[C:2]([Cl:3])[C:4]12[CH2:5][CH:6]3[CH2:7][CH:8]([CH2:9][CH:10]([CH2:11]3)[CH2:12]1)[CH2:13]2",
+      "mapping_confidence": 0.41457532513188716,
+      "conditions": {
+        "raw_description": "SOCl2; Et3N",
+        "GENERAL_REAGENTS": [
+          "SOCl2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_14",
+      "reaction_smiles": "O=C(Cl)C12CC3CC(CC(C3)C1)C2.CI.[Mg]>>CC(=O)C12CC3CC(CC(C3)C1)C2",
+      "reaction_smiles_mapped": "I[CH3:1].Cl[C:2](=[O:3])[C:4]12[CH2:5][CH:6]3[CH2:7][CH:8]([CH2:9][CH:10]([CH2:11]3)[CH2:12]1)[CH2:13]2>[Mg]>[CH3:1][C:2](=[O:3])[C:4]12[CH2:5][CH:6]3[CH2:7][CH:8]([CH2:9][CH:10]([CH2:11]3)[CH2:12]1)[CH2:13]2",
+      "mapping_confidence": 0.5979219419098972,
+      "conditions": {
+        "raw_description": "CH3I; Mg",
+        "GENERAL_REAGENTS": [
+          "CH3I"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [
+          "Mg"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Mg]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_15",
+      "reaction_smiles": "CC(=O)C12CC3CC(CC(C3)C1)C2.[Na+].[OH-].[K+].[O]=[Mn](=[O])(=[O])[O-].CC(C)(C)O>>O=C(O)C(=O)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "[CH3:2][C:4](=[O:5])[C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][CH:12]([CH2:14]3)[CH2:15]1)[CH2:16]2.CC(C)(C)[OH:13].[O]=[Mn](=[O])(=[O:1])[O-:3]>[K+].[Na+].[OH-]>[O:1]=[C:2]([OH:3])[C:4](=[O:5])[C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][C:12]([OH:13])([CH2:14]3)[CH2:15]1)[CH2:16]2",
+      "mapping_confidence": 0.05992792929284621,
+      "conditions": {
+        "raw_description": "NaOH; tBuOH; 50 \u00b0C; then KMnO4; NaOH; 55 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "KMnO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "[O-][Mn](=O)(=O)=O.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "tBuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50",
+          "55"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_16",
+      "reaction_smiles": "O=C(O)C(=O)C12CC3CC(CC(O)(C3)C1)C2.OC(CS)C(O)CS.NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.[NH4+].[OH-].O=C[O-].[NH4+].O[C@H](CS)[C@H](O)CS>>N[C@H](C(=O)O)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[NH2:1])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O.O=[C:2]([C:3](=[O:4])[OH:5])[C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][C:12]([OH:13])([CH2:14]3)[CH2:15]1)[CH2:16]2>O=C[O-].OC(CS)C(O)CS.O[C@H](CS)[C@H](O)CS.[NH4+].[NH4+].[OH-]>[NH2:1][C@H:2]([C:3](=[O:4])[OH:5])[C:6]12[CH2:7][CH:8]3[CH2:9][CH:10]([CH2:11][C:12]([OH:13])([CH2:14]3)[CH2:15]1)[CH2:16]2",
+      "mapping_confidence": 0.31535013180303845,
+      "conditions": {
+        "raw_description": "L-phenylalanine dehydrogenase; NH4OH; NH4HCO2; pH 8.0; 40 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NH4OH",
+          "NH4HCO2",
+          "DTT"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[OH-]",
+          "O=C[O-].[NH4+]",
+          "C([C@H]([C@@H](CS)O)O)S",
+          "NC(=O)c1ccc[n+](c1)[C@@H]1O[C@H](COP(=O)([O-])OP(=O)(O)OC[C@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "L-phenylalanine dehydrogenase"
+        ],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Onglyza_2009_Bristol-Myers&Aztra-Zeneca_17",
+      "reaction_smiles": "N[C@H](C(=O)O)C12CC3CC(CC(O)(C3)C1)C2.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CN(C)c1ccncc1.Cc1ccccc1>>CC(C)(C)OC(=O)N[C@H](C(=O)O)C12CC3CC(CC(O)(C3)C1)C2",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)O[C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7].[NH2:8][C@H:9]([C:10](=[O:11])[OH:12])[C:13]12[CH2:14][CH:15]3[CH2:16][CH:17]([CH2:18][C:19]([OH:20])([CH2:21]3)[CH2:22]1)[CH2:23]2>CN(C)c1ccncc1.Cc1ccccc1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[NH:8][C@H:9]([C:10](=[O:11])[OH:12])[C:13]12[CH2:14][CH:15]3[CH2:16][CH:17]([CH2:18][C:19]([OH:20])([CH2:21]3)[CH2:22]1)[CH2:23]2",
+      "mapping_confidence": 0.19725995579579622,
+      "conditions": {
+        "raw_description": "(Boc)2O; DMAP; Toluene; rt",
+        "GENERAL_REAGENTS": [
+          "(Boc)2O",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

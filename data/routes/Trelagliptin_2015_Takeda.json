@@ -1,0 +1,154 @@
+{
+  "background": {
+    "name": "Trelagliptin",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Zafatek",
+    "manufacturer": "Takeda",
+    "citation": "J. Med. Chem. 2017, 60, 15, 6480",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Trelagliptin_2015_Takeda_1",
+      "reaction_smiles": "Cc1cc(F)ccc1Br.[C-]#N.[Cu+].CN(C)C=O>>Cc1cc(F)ccc1C#N",
+      "reaction_smiles_mapped": "Br[c:8]1[c:2]([CH3:1])[cH:3][c:4]([F:5])[cH:6][cH:7]1.[C-:9]#[N:10]>CN(C)C=O.[Cu+]>[CH3:1][c:2]1[cH:3][c:4]([F:5])[cH:6][cH:7][c:8]1[C:9]#[N:10]",
+      "mapping_confidence": 0.983089066587313,
+      "conditions": {
+        "raw_description": "CuCN; DMF; reflux; 60%",
+        "GENERAL_REAGENTS": [
+          "CuCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Cu+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trelagliptin_2015_Takeda_2",
+      "reaction_smiles": "Cc1cc(F)ccc1C#N.CC1(C)C(=O)N(Br)C(=O)N1Br.CCO[PH](=O)OCC.CCN(C(C)C)C(C)C.CC(C)(C#N)N=NC(C)(C)C#N.ClCCCl>>N#Cc1ccc(F)cc1CBr",
+      "reaction_smiles_mapped": "CC1(C)C(=O)N(Br)C(=O)N1[Br:11].[N:1]#[C:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[CH3:10]>CC(C)(C#N)N=NC(C)(C)C#N.CCN(C(C)C)C(C)C.CCO[PH](=O)OCC.ClCCCl>[N:1]#[C:2][c:3]1[cH:4][cH:5][c:6]([F:7])[cH:8][c:9]1[CH2:10][Br:11]",
+      "mapping_confidence": 0.5604283461579307,
+      "conditions": {
+        "raw_description": "1) AIBN; DBDMH; DCE; 2) DIPEA; Diethyl phosphite",
+        "GENERAL_REAGENTS": [
+          "DBDMH",
+          "Diethyl phosphite",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1(C(=O)N(C(=O)N1Br)Br)C",
+          "CCOP(=O)(OCC)",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [
+          "AIBN"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(C)(C#N)N=NC(C)(C)C#N"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Trelagliptin_2015_Takeda_3",
+      "reaction_smiles": "N#Cc1ccc(F)cc1CBr.Cn1c(=O)cc(Cl)[nH]c1=O.CCN(C(C)C)C(C)C.CN1CCCC1=O.Cc1ccccc1>>Cn1c(=O)cc(Cl)n(Cc2cc(F)ccc2C#N)c1=O",
+      "reaction_smiles_mapped": "[CH3:1][n:2]1[c:3](=[O:4])[cH:5][c:6]([Cl:7])[nH:8][c:19]1=[O:20].Br[CH2:9][c:10]1[cH:11][c:12]([F:13])[cH:14][cH:15][c:16]1[C:17]#[N:18]>CCN(C(C)C)C(C)C.CN1CCCC1=O.Cc1ccccc1>[CH3:1][n:2]1[c:3](=[O:4])[cH:5][c:6]([Cl:7])[n:8]([CH2:9][c:10]2[cH:11][c:12]([F:13])[cH:14][cH:15][c:16]2[C:17]#[N:18])[c:19]1=[O:20]",
+      "mapping_confidence": 0.9863278933516716,
+      "conditions": {
+        "raw_description": "DIPEA; NMP; toluene; 85%",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP",
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Trelagliptin_2015_Takeda_4",
+      "reaction_smiles": "Cn1c(=O)cc(Cl)n(Cc2cc(F)ccc2C#N)c1=O.N[C@@H]1CCCNC1.O=C([O-])[O-].[K+].[K+].O=C(O)CCC(=O)O.ClCCl.C1CCOC1.CC#N.O.CC(C)O>>Cn1c(=O)cc(N2CCC[C@@H](N)C2)n(Cc2cc(F)ccc2C#N)c1=O",
+      "reaction_smiles_mapped": "Cl[c:6]1[cH:5][c:3](=[O:4])[n:2]([CH3:1])[c:25](=[O:26])[n:14]1[CH2:15][c:16]1[cH:17][c:18]([F:19])[cH:20][cH:21][c:22]1[C:23]#[N:24].[NH:7]1[CH2:8][CH2:9][CH2:10][C@@H:11]([NH2:12])[CH2:13]1>C1CCOC1.CC#N.CC(C)O.ClCCl.O.O=C(O)CCC(=O)O.O=C([O-])[O-].[K+].[K+]>[CH3:1][n:2]1[c:3](=[O:4])[cH:5][c:6]([N:7]2[CH2:8][CH2:9][CH2:10][C@@H:11]([NH2:12])[CH2:13]2)[n:14]([CH2:15][c:16]2[cH:17][c:18]([F:19])[cH:20][cH:21][c:22]2[C:23]#[N:24])[c:25]1=[O:26]",
+      "mapping_confidence": 0.9842373225367422,
+      "conditions": {
+        "raw_description": "1) IPA; K2CO3; 60 \u00b0C; 2) MeCN; 60 to 25 \u00b0C; 3) DCM; 2 M HCl; 4) DCM; H2O; 50% NaOH; 5) THF; IPA; Succinic acid; 76%",
+        "GENERAL_REAGENTS": [
+          "K2CO3",
+          "Succinic acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]",
+          "C(CC(=O)O)C(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "THF",
+          "MeCN",
+          "H2O",
+          "IPA"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "C1CCOC1",
+          "CC#N",
+          "O",
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60",
+          "25"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    }
+  ]
+}

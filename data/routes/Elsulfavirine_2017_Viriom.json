@@ -1,0 +1,367 @@
+{
+  "background": {
+    "name": "Elsulfavirine",
+    "author": null,
+    "year": 2017,
+    "drug_name": "Elpida",
+    "manufacturer": "Viriom",
+    "citation": "J. Med. Chem. 2019, 62, 16, 7340\u20137382",
+    "doi": "10.1021/acs.jmedchem.9b00196"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_1",
+      "reaction_smiles": "N#Cc1cc(Cl)cc(Cl)c1.C[O-].[Na+].CN(C)C=O>>COc1cc(Cl)cc(C#N)c1",
+      "reaction_smiles_mapped": "[CH3:1][O-:2].Cl[c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([C:9]#[N:10])[cH:11]1>[Na+].CN(C)C=O>[CH3:1][O:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([C:9]#[N:10])[cH:11]1",
+      "mapping_confidence": 0.3377294246933053,
+      "conditions": {
+        "raw_description": "NaOMe; DMF; rt; 86%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_2",
+      "reaction_smiles": "COc1cc(Cl)cc(C#N)c1.[Li]I.Cc1cc(C)nc(C)c1>>N#Cc1cc(O)cc(Cl)c1",
+      "reaction_smiles_mapped": "C[O:6][c:5]1[cH:4][c:3]([C:2]#[N:1])[cH:10][c:8]([Cl:9])[cH:7]1>[Li]I.Cc1cc(C)nc(C)c1>[N:1]#[C:2][c:3]1[cH:4][c:5]([OH:6])[cH:7][c:8]([Cl:9])[cH:10]1",
+      "mapping_confidence": 0.994414966754008,
+      "conditions": {
+        "raw_description": "LiI; collidine; 170  \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "LiI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "I[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "collidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC(=NC(=C1)C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "170"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_3",
+      "reaction_smiles": "N#Cc1cc(O)cc(Cl)c1.O=[N+]([O-])c1ccc(F)c(F)c1F.C1CCOC1.CC(C)(C)[O-].[Na+]>>N#Cc1cc(Cl)cc(Oc2c([N+](=O)[O-])ccc(F)c2F)c1",
+      "reaction_smiles_mapped": "[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([OH:9])[cH:21]1.F[c:10]1[c:11]([N+:12](=[O:13])[O-:14])[cH:15][cH:16][c:17]([F:18])[c:19]1[F:20]>C1CCOC1.CC(C)(C)[O-].[Na+]>[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([O:9][c:10]2[c:11]([N+:12](=[O:13])[O-:14])[cH:15][cH:16][c:17]([F:18])[c:19]2[F:20])[cH:21]1",
+      "mapping_confidence": 0.9118659574477312,
+      "conditions": {
+        "raw_description": "NaOt-Bu; THF; 0  \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "NaOt-Bu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_4",
+      "reaction_smiles": "N#Cc1cc(Cl)cc(Oc2c([N+](=O)[O-])ccc(F)c2F)c1.CCOC(=O)CC(=O)OC(C)(C)C.[H-].[Na+].CN1CCCC1.CN1CCCC1=O>>CCOC(=O)C(C(=O)OC(C)(C)C)c1ccc([N+](=O)[O-])c(Oc2cc(Cl)cc(C#N)c2)c1F",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[O:9][C:10]([CH3:11])([CH3:12])[CH3:13].F[c:14]1[cH:15][cH:16][c:17]([N+:18](=[O:19])[O-:20])[c:21]([O:22][c:23]2[cH:24][c:25]([Cl:26])[cH:27][c:28]([C:29]#[N:30])[cH:31]2)[c:32]1[F:33]>[H-].[Na+].CN1CCCC1.CN1CCCC1=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]([C:7](=[O:8])[O:9][C:10]([CH3:11])([CH3:12])[CH3:13])[c:14]1[cH:15][cH:16][c:17]([N+:18](=[O:19])[O-:20])[c:21]([O:22][c:23]2[cH:24][c:25]([Cl:26])[cH:27][c:28]([C:29]#[N:30])[cH:31]2)[c:32]1[F:33]",
+      "mapping_confidence": 0.35307057498915007,
+      "conditions": {
+        "raw_description": "NaH; NMP; rt",
+        "GENERAL_REAGENTS": [
+          "NaH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_5",
+      "reaction_smiles": "CCOC(=O)C(C(=O)OC(C)(C)C)c1ccc([N+](=O)[O-])c(Oc2cc(Cl)cc(C#N)c2)c1F.ClCCCl.O=C(O)C(F)(F)F>>CCOC(=O)Cc1ccc([N+](=O)[O-])c(Oc2cc(Cl)cc(C#N)c2)c1F",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:7]1[cH:8][cH:9][c:10]([N+:11](=[O:12])[O-:13])[c:14]([O:15][c:16]2[cH:17][c:18]([Cl:19])[cH:20][c:21]([C:22]#[N:23])[cH:24]2)[c:25]1[F:26]>ClCCCl.O=C(O)C(F)(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]([N+:11](=[O:12])[O-:13])[c:14]([O:15][c:16]2[cH:17][c:18]([Cl:19])[cH:20][c:21]([C:22]#[N:23])[cH:24]2)[c:25]1[F:26]",
+      "mapping_confidence": 0.924275866357778,
+      "conditions": {
+        "raw_description": "TFA; DCE; 75  \u00b0C; 83% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "75"
+        ],
+        "YIELD": [
+          "83% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_6",
+      "reaction_smiles": "CCOC(=O)Cc1ccc([N+](=O)[O-])c(Oc2cc(Cl)cc(C#N)c2)c1F.[Fe].[Cl-].[NH4+].CCO.O>>CCOC(=O)Cc1ccc(N)c(Oc2cc(Cl)cc(C#N)c2)c1F",
+      "reaction_smiles_mapped": "O=[N+:11]([O-])[c:10]1[cH:9][cH:8][c:7]([CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:23]([F:24])[c:12]1[O:13][c:14]1[cH:15][c:16]([Cl:17])[cH:18][c:19]([C:20]#[N:21])[cH:22]1>[Fe].[Cl-].[NH4+].CCO.O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]([NH2:11])[c:12]([O:13][c:14]2[cH:15][c:16]([Cl:17])[cH:18][c:19]([C:20]#[N:21])[cH:22]2)[c:23]1[F:24]",
+      "mapping_confidence": 0.9803816895454669,
+      "conditions": {
+        "raw_description": "Fe; NH4Cl; EtOH; H2O; 80 \u00b0C; 87%",
+        "GENERAL_REAGENTS": [
+          "NH4Cl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[NH4+].[Cl-]"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_7",
+      "reaction_smiles": "CCOC(=O)Cc1ccc(N)c(Oc2cc(Cl)cc(C#N)c2)c1F.CC(C)(C)O[N+](=O)[O-].[Cu]Br>>CCOC(=O)Cc1ccc(Br)c(Oc2cc(Cl)cc(C#N)c2)c1F",
+      "reaction_smiles_mapped": "N[c:10]1[cH:9][cH:8][c:7]([CH2:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:23]([F:24])[c:12]1[O:13][c:14]1[cH:15][c:16]([Cl:17])[cH:18][c:19]([C:20]#[N:21])[cH:22]1.[Cu][Br:11]>CC(C)(C)O[N+](=O)[O-]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]([Br:11])[c:12]([O:13][c:14]2[cH:15][c:16]([Cl:17])[cH:18][c:19]([C:20]#[N:21])[cH:22]2)[c:23]1[F:24]",
+      "mapping_confidence": 0.9937574771368214,
+      "conditions": {
+        "raw_description": "CuBr; t-BuONO2; 70 \u00b0C; 53%",
+        "GENERAL_REAGENTS": [
+          "t-BuONO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[N+](=O)[O-]"
+        ],
+        "CATALYSTS": [
+          "CuBr"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "53%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_8",
+      "reaction_smiles": "CCOC(=O)Cc1ccc(Br)c(Oc2cc(Cl)cc(C#N)c2)c1F.[Li+].[OH-].CCO.O>>N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)O)c2F)c1",
+      "reaction_smiles_mapped": "CCO[C:17]([CH2:16][c:15]1[cH:14][cH:13][c:11]([Br:12])[c:10]([O:9][c:8]2[cH:7][c:5]([Cl:6])[cH:4][c:3]([C:2]#[N:1])[cH:22]2)[c:20]1[F:21])=[O:18].[OH-:19]>[Li+].CCO.O>[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([O:9][c:10]2[c:11]([Br:12])[cH:13][cH:14][c:15]([CH2:16][C:17](=[O:18])[OH:19])[c:20]2[F:21])[cH:22]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "LiOH; EtOH; H2O; rt",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_9",
+      "reaction_smiles": "N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)O)c2F)c1.CN(C)C=O.ClCCl.O=C(Cl)C(=O)Cl>>N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)OCl)c2F)c1",
+      "reaction_smiles_mapped": "[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([O:9][c:10]2[c:11]([Br:12])[cH:13][cH:14][c:15]([CH2:16][C:17](=[O:18])[OH:19])[c:21]2[F:22])[cH:23]1.O=C(Cl)C(=O)[Cl:20]>CN(C)C=O.ClCCl>[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([O:9][c:10]2[c:11]([Br:12])[cH:13][cH:14][c:15]([CH2:16][C:17](=[O:18])[O:19][Cl:20])[c:21]2[F:22])[cH:23]1",
+      "mapping_confidence": 0.7086478661106154,
+      "conditions": {
+        "raw_description": "(COCl)2; DMF; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O",
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_10",
+      "reaction_smiles": "N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)OCl)c2F)c1.Nc1ccc(S(N)(=O)=O)cc1Cl.CC(C)=O.O.O=C([O-])O.[Na+]>>N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)Nc3ccc(S(N)(=O)=O)cc3Cl)c2F)c1",
+      "reaction_smiles_mapped": "ClO[C:17]([CH2:16][c:15]1[cH:14][cH:13][c:11]([Br:12])[c:10]([O:9][c:8]2[cH:7][c:5]([Cl:6])[cH:4][c:3]([C:2]#[N:1])[cH:33]2)[c:31]1[F:32])=[O:18].[NH2:19][c:20]1[cH:21][cH:22][c:23]([S:24]([NH2:25])(=[O:26])=[O:27])[cH:28][c:29]1[Cl:30]>CC(C)=O.O.O=C([O-])O.[Na+]>[N:1]#[C:2][c:3]1[cH:4][c:5]([Cl:6])[cH:7][c:8]([O:9][c:10]2[c:11]([Br:12])[cH:13][cH:14][c:15]([CH2:16][C:17](=[O:18])[NH:19][c:20]3[cH:21][cH:22][c:23]([S:24]([NH2:25])(=[O:26])=[O:27])[cH:28][c:29]3[Cl:30])[c:31]2[F:32])[cH:33]1",
+      "mapping_confidence": 0.5579469111458887,
+      "conditions": {
+        "raw_description": "acetone; H2O; NaHCO3; rt",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Elsulfavirine_2017_Viriom_11",
+      "reaction_smiles": "N#Cc1cc(Cl)cc(Oc2c(Br)ccc(CC(=O)Nc3ccc(S(N)(=O)=O)cc3Cl)c2F)c1.CCC(=O)OC(=O)CC.C1CCOC1.ClCCCl.CN(C)c1ccncc1>>CCC(=O)NS(=O)(=O)c1ccc(NC(=O)Cc2ccc(Br)c(Oc3cc(Cl)cc(C#N)c3)c2F)c(Cl)c1",
+      "reaction_smiles_mapped": "CCC(=O)O[C:3]([CH2:2][CH3:1])=[O:4].[NH2:5][S:6](=[O:7])(=[O:8])[c:9]1[cH:10][cH:11][c:12]([NH:13][C:14](=[O:15])[CH2:16][c:17]2[cH:18][cH:19][c:20]([Br:21])[c:22]([O:23][c:24]3[cH:25][c:26]([Cl:27])[cH:28][c:29]([C:30]#[N:31])[cH:32]3)[c:33]2[F:34])[c:35]([Cl:36])[cH:37]1>C1CCOC1.ClCCCl.CN(C)c1ccncc1>[CH3:1][CH2:2][C:3](=[O:4])[NH:5][S:6](=[O:7])(=[O:8])[c:9]1[cH:10][cH:11][c:12]([NH:13][C:14](=[O:15])[CH2:16][c:17]2[cH:18][cH:19][c:20]([Br:21])[c:22]([O:23][c:24]3[cH:25][c:26]([Cl:27])[cH:28][c:29]([C:30]#[N:31])[cH:32]3)[c:33]2[F:34])[c:35]([Cl:36])[cH:37]1",
+      "mapping_confidence": 0.43593183032009175,
+      "conditions": {
+        "raw_description": "THF; DCE; DMAP",
+        "GENERAL_REAGENTS": [
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "DCE"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

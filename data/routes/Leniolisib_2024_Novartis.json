@@ -1,0 +1,173 @@
+{
+  "background": {
+    "name": "Leniolisib",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Joenja",
+    "manufacturer": "Novartis",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Leniolisib_2024_Novartis_1",
+      "reaction_smiles": "Clc1ncnc2c1CN(Cc1ccccc1)CC2.CC(C)(C)OC(=O)N1CC[C@H](N)C1.O=C([O-])[O-].[K+].[K+].CN1CCCC1=O>>CC(C)(C)OC(=O)N1CCC(Nc2ncnc3c2CN(Cc2ccccc2)CC3)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][CH2:10][C@H:11]([NH2:12])[CH2:30]1.Cl[c:13]1[n:14][cH:15][n:16][c:17]2[c:18]1[CH2:19][N:20]([CH2:21][c:22]1[cH:23][cH:24][cH:25][cH:26][cH:27]1)[CH2:28][CH2:29]2>CN1CCCC1=O.O=C([O-])[O-].[K+].[K+]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][CH2:10][CH:11]([NH:12][c:13]2[n:14][cH:15][n:16][c:17]3[c:18]2[CH2:19][N:20]([CH2:21][c:22]2[cH:23][cH:24][cH:25][cH:26][cH:27]2)[CH2:28][CH2:29]3)[CH2:30]1",
+      "mapping_confidence": 0.431790053544939,
+      "conditions": {
+        "raw_description": "K2CO3; NMP; 120 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Leniolisib_2024_Novartis_2",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1CCC(Nc2ncnc3c2CN(Cc2ccccc2)CC3)C1.O=CO.O=C(O)C(F)(F)F.[C].[OH-].[OH-].[Pd+2].CO>>CC(C)(C)OC(=O)N1CCC(Nc2ncnc3c2CNCC3)C1",
+      "reaction_smiles_mapped": "c1ccc(C[N:20]2[CH2:19][c:18]3[c:13]([NH:12][CH:11]4[CH2:10][CH2:9][N:8]([C:6]([O:5][C:2]([CH3:1])([CH3:3])[CH3:4])=[O:7])[CH2:23]4)[n:14][cH:15][n:16][c:17]3[CH2:22][CH2:21]2)cc1>CO.O=C(O)C(F)(F)F.O=CO.[C].[OH-].[OH-].[Pd+2]>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[N:8]1[CH2:9][CH2:10][CH:11]([NH:12][c:13]2[n:14][cH:15][n:16][c:17]3[c:18]2[CH2:19][NH:20][CH2:21][CH2:22]3)[CH2:23]1",
+      "mapping_confidence": 0.3918905050505926,
+      "conditions": {
+        "raw_description": "Pd(OH)2/C; TFA; HCOOH; MeOH; 85%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "HCOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "C(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Leniolisib_2024_Novartis_3",
+      "reaction_smiles": "CC(C)(C)OC(=O)N1CCC(Nc2ncnc3c2CNCC3)C1.Cc1ccccc1-c1ccccc1P(C(C)(C)C)C(C)(C)C.COc1ncc(Br)cc1C(F)(F)F.CC(C)(C)[O-].[Na+].CC(C)(C)O.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]>>COc1ncc(N2CCc3ncnc(NC4CCN(C(=O)OC(C)(C)C)C4)c3C2)cc1C(F)(F)F",
+      "reaction_smiles_mapped": "[NH:7]1[CH2:8][CH2:9][c:10]2[n:11][cH:12][n:13][c:14]([NH:15][CH:16]3[CH2:17][CH2:18][N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[CH2:27]3)[c:28]2[CH2:29]1.Br[c:6]1[cH:5][n:4][c:3]([O:2][CH3:1])[c:31]([C:32]([F:33])([F:34])[F:35])[cH:30]1>CC(C)(C)O.CC(C)(C)[O-].Cc1ccccc1-c1ccccc1P(C(C)(C)C)C(C)(C)C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Na+].[Pd].[Pd]>[CH3:1][O:2][c:3]1[n:4][cH:5][c:6]([N:7]2[CH2:8][CH2:9][c:10]3[n:11][cH:12][n:13][c:14]([NH:15][CH:16]4[CH2:17][CH2:18][N:19]([C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[CH2:27]4)[c:28]3[CH2:29]2)[cH:30][c:31]1[C:32]([F:33])([F:34])[F:35]",
+      "mapping_confidence": 0.16309664892283712,
+      "conditions": {
+        "raw_description": "NaOt-Bu; Pd2(dba)3; t-buOH; 95%",
+        "GENERAL_REAGENTS": [
+          "NaOt-Bu",
+          "t-buOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[O-].[Na+]",
+          "CC(C)(C)O"
+        ],
+        "CATALYSTS": [
+          "Pd2(dba)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Leniolisib_2024_Novartis_4",
+      "reaction_smiles": "COc1ncc(N2CCc3ncnc(NC4CCN(C(=O)OC(C)(C)C)C4)c3C2)cc1C(F)(F)F.O=C(O)C(F)(F)F.ClCCl>>COc1ncc(N2CCc3ncnc(NC4CCNC4)c3C2)cc1C(F)(F)F",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:19]1[CH2:18][CH2:17][CH:16]([NH:15][c:14]2[n:13][cH:12][n:11][c:10]3[c:21]2[CH2:22][N:7]([c:6]2[cH:5][n:4][c:3]([O:2][CH3:1])[c:24]([C:25]([F:26])([F:27])[F:28])[cH:23]2)[CH2:8][CH2:9]3)[CH2:20]1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][O:2][c:3]1[n:4][cH:5][c:6]([N:7]2[CH2:8][CH2:9][c:10]3[n:11][cH:12][n:13][c:14]([NH:15][CH:16]4[CH2:17][CH2:18][NH:19][CH2:20]4)[c:21]3[CH2:22]2)[cH:23][c:24]1[C:25]([F:26])([F:27])[F:28]",
+      "mapping_confidence": 0.3702684849295222,
+      "conditions": {
+        "raw_description": "TFA; DCM",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Leniolisib_2024_Novartis_5",
+      "reaction_smiles": "COc1ncc(N2CCc3ncnc(NC4CCNC4)c3C2)cc1C(F)(F)F.CCC(=O)Cl.O=C([O-])O.[Na+].ClCCl>>CCC(=O)N1CCC(Nc2ncnc3c2CN(c2cnc(OC)c(C(F)(F)F)c2)CC3)C1",
+      "reaction_smiles_mapped": "Cl[C:3]([CH2:2][CH3:1])=[O:4].[NH:5]1[CH2:6][CH2:7][CH:8]([NH:9][c:10]2[n:11][cH:12][n:13][c:14]3[c:15]2[CH2:16][N:17]([c:18]2[cH:19][n:20][c:21]([O:22][CH3:23])[c:24]([C:25]([F:26])([F:27])[F:28])[cH:29]2)[CH2:30][CH2:31]3)[CH2:32]1>ClCCl.O=C([O-])O.[Na+]>[CH3:1][CH2:2][C:3](=[O:4])[N:5]1[CH2:6][CH2:7][CH:8]([NH:9][c:10]2[n:11][cH:12][n:13][c:14]3[c:15]2[CH2:16][N:17]([c:18]2[cH:19][n:20][c:21]([O:22][CH3:23])[c:24]([C:25]([F:26])([F:27])[F:28])[cH:29]2)[CH2:30][CH2:31]3)[CH2:32]1",
+      "mapping_confidence": 0.3089986702442157,
+      "conditions": {
+        "raw_description": "NaHCO3; DCM; rt; 76% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "76% (2 steps)"
+        ]
+      }
+    }
+  ]
+}

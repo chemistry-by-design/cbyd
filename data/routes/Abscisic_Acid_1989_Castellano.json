@@ -1,0 +1,249 @@
+{
+  "background": {
+    "name": "Abscisic Acid",
+    "author": "Castellano",
+    "year": 1989,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1989, 54, 681",
+    "doi": "10.1021/jo00264a032"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_1",
+      "reaction_smiles": "CC(=O)C=C(C)C.CCOC(=O)CC(C)=O.[Cl-].[Cl-].[Zn+2]>>CCOC(=O)C1C(=O)C=C(C)CC1(C)C",
+      "reaction_smiles_mapped": "O=[C:10]([CH3:11])[CH:12]=[C:13]([CH3:14])[CH3:15].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[CH3:9]>[Cl-].[Cl-].[Zn+2]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[CH:9]=[C:10]([CH3:11])[CH2:12][C:13]1([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.6294075410535898,
+      "conditions": {
+        "raw_description": "ZnCl2; 75%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "ZnCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cl-].[Cl-].[Zn++]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "ZnCl2, 75%, CCOC(=O)CC(C)=O"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_2",
+      "reaction_smiles": "CCOC(=O)C1C(=O)C=C(C)CC1(C)C.CCOC(OCC)OCC.O=S(=O)(O)O>>CCOC(=O)C1=C(C)C=C(OCC)CC1(C)C",
+      "reaction_smiles_mapped": "O=[C:7]1[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:15]([CH3:16])([CH3:17])[CH2:14][C:10]([CH3:8])=[CH:9]1.CCOC(OCC)[O:11][CH2:12][CH3:13]>O=S(=O)(O)O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1=[C:7]([CH3:8])[CH:9]=[C:10]([O:11][CH2:12][CH3:13])[CH2:14][C:15]1([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.41409418294686606,
+      "conditions": {
+        "raw_description": "HC(OEt)3; H2SO4; 96%",
+        "GENERAL_REAGENTS": [
+          "HC(OEt)3",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(OCC)OCC",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "HC(OEt)3, H2SO4, 96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_3",
+      "reaction_smiles": "CCOC(=O)C1=C(C)C=C(OCC)CC1(C)C.OCCO.c1ccccc1>>CCOC(=O)C1=C(C)CC2(CC1(C)C)OCCO2",
+      "reaction_smiles_mapped": "CCO[C:10]1=[CH:9][C:7]([CH3:8])=[C:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:12]([CH3:13])([CH3:14])[CH2:11]1.[OH:18][CH2:17][CH2:16][OH:15]>c1ccccc1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]1=[C:7]([CH3:8])[CH2:9][C:10]2([CH2:11][C:12]1([CH3:13])[CH3:14])[O:15][CH2:16][CH2:17][O:18]2",
+      "mapping_confidence": 0.35612360590774417,
+      "conditions": {
+        "raw_description": "benzene; OCCO",
+        "GENERAL_REAGENTS": [
+          "OCCO"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OCCO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_4",
+      "reaction_smiles": "CCOC(=O)C1=C(C)CC2(CC1(C)C)OCCO2.[AlH4-].[Li+]>>CC1=C(CO)C(C)(C)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "CCO[C:4]([C:3]1=[C:2]([CH3:1])[CH2:11][C:10]2([CH2:9][C:6]1([CH3:7])[CH3:8])[O:12][CH2:13][CH2:14][O:15]2)=[O:5]>[AlH4-].[Li+]>[CH3:1][C:2]1=[C:3]([CH2:4][OH:5])[C:6]([CH3:7])([CH3:8])[CH2:9][C:10]2([CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2",
+      "mapping_confidence": 0.7065175200552578,
+      "conditions": {
+        "raw_description": "LiAlH4",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_5",
+      "reaction_smiles": "CC1=C(CO)C(C)(C)CC2(C1)OCCO2.O=[Mn]=O>>CC1=C(C=O)C(C)(C)CC2(C1)OCCO2",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[C:3]([CH2:4][OH:5])[C:6]([CH3:7])([CH3:8])[CH2:9][C:10]2([CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2>O=[Mn]=O>[CH3:1][C:2]1=[C:3]([CH:4]=[O:5])[C:6]([CH3:7])([CH3:8])[CH2:9][C:10]2([CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2",
+      "mapping_confidence": 0.7057119507207004,
+      "conditions": {
+        "raw_description": "MnO2",
+        "GENERAL_REAGENTS": [
+          "MnO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Mn]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_6",
+      "reaction_smiles": "CC1=C(C=O)C(C)(C)CC2(C1)OCCO2.CCOC(=O)/C=C(/C)CBr.[Zn]>>CC1=CC(=O)OC(C2=C(C)CC3(CC2(C)C)OCCO3)C1",
+      "reaction_smiles_mapped": "[O:6]=[CH:7][C:8]1=[C:9]([CH3:10])[CH2:11][C:12]2([CH2:13][C:14]1([CH3:15])[CH3:16])[O:17][CH2:18][CH2:19][O:20]2.CCO[C:4](/[CH:3]=[C:2](/[CH3:1])[CH2:21]Br)=[O:5]>[Zn]>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH:7]([C:8]2=[C:9]([CH3:10])[CH2:11][C:12]3([CH2:13][C:14]2([CH3:15])[CH3:16])[O:17][CH2:18][CH2:19][O:20]3)[CH2:21]1",
+      "mapping_confidence": 0.4423923000183631,
+      "conditions": {
+        "raw_description": "Zn0; 75%",
+        "GENERAL_REAGENTS": [
+          "Zn0"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "Zn0, 75%, CCOC(=O)/C=C(/C)CBr"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_7",
+      "reaction_smiles": "CC1=CC(=O)OC(C2=C(C)CC3(CC2(C)C)OCCO3)C1.O=C(OO)c1cccc(Cl)c1>>CC1=CC(=O)OC(C23OC2(C)CC2(CC3(C)C)OCCO2)C1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH:7]([C:8]2=[C:10]([CH3:11])[CH2:12][C:13]3([CH2:14][C:15]2([CH3:16])[CH3:17])[O:18][CH2:19][CH2:20][O:21]3)[CH2:22]1.O=C(O[OH:9])c1cccc(Cl)c1>>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH:7]([C:8]23[O:9][C:10]2([CH3:11])[CH2:12][C:13]2([CH2:14][C:15]3([CH3:16])[CH3:17])[O:18][CH2:19][CH2:20][O:21]2)[CH2:22]1",
+      "mapping_confidence": 0.7073897418380043,
+      "conditions": {
+        "raw_description": "mCPBA; 96%",
+        "GENERAL_REAGENTS": [
+          "mCPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "mCPBA, 96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_8",
+      "reaction_smiles": "CC1=CC(=O)OC(C23OC2(C)CC2(CC3(C)C)OCCO2)C1.O=C(O)C(=O)O.O=[Si]=O>>CC1=CC(=O)OC(C23OC2(C)CC(=O)CC3(C)C)C1",
+      "reaction_smiles_mapped": "C1CO[C:13]2(O1)[CH2:12][C:10]1([CH3:11])[C:8]([CH:7]3[O:6][C:4](=[O:5])[CH:3]=[C:2]([CH3:1])[CH2:19]3)([O:9]1)[C:16]([CH3:17])([CH3:18])[CH2:15]2>O=C(O)C(=O)O.O=[Si]=O>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[O:6][CH:7]([C:8]23[O:9][C:10]2([CH3:11])[CH2:12][C:13](=[O:14])[CH2:15][C:16]3([CH3:17])[CH3:18])[CH2:19]1",
+      "mapping_confidence": 0.5098169377102626,
+      "conditions": {
+        "raw_description": "Oxalic Acid; Silica Gel; 99%",
+        "GENERAL_REAGENTS": [
+          "Oxalic Acid",
+          "Silica Gel"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)O)O",
+          "O=[Si]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "Oxalic Acid, Silica Gel, 99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Abscisic_Acid_1989_Castellano_9",
+      "reaction_smiles": "CC1=CC(=O)OC(C23OC2(C)CC(=O)CC3(C)C)C1.[Na+].[OH-]>>CC1=CC(=O)CC(C)(C)C1(O)/C=C/C(C)=C\\C(=O)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]12[CH2:3][C:4](=[O:5])[CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1([CH:12]1[CH2:13][C:14]([CH3:15])=[CH:16][C:17](=[O:18])[O:19]1)[O:11]2>[Na+].[OH-]>[CH3:1][C:2]1=[CH:3][C:4](=[O:5])[CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1([OH:11])/[CH:12]=[CH:13]/[C:14]([CH3:15])=[CH:16]\\[C:17](=[O:18])[OH:19]",
+      "mapping_confidence": 0.7351259277211477,
+      "conditions": {
+        "raw_description": "NaOH; 45%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "NaOH, 45%"
+        ]
+      }
+    }
+  ]
+}

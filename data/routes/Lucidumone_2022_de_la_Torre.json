@@ -1,0 +1,617 @@
+{
+  "background": {
+    "name": "(+)-Lucidumone",
+    "author": "de la Torre",
+    "year": 2022,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2022, 144, 17803",
+    "doi": "10.1021/jacs.2c08760"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_1",
+      "reaction_smiles": "C#CC(=O)OC.OCc1ccccc1.C1CN2CCN1CC2.C1CCOC1>>COC(=O)/C=C/OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C:5]#[CH:6].[OH:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1>C1CN2CCN1CC2.C1CCOC1>[CH3:1][O:2][C:3](=[O:4])/[CH:5]=[CH:6]/[O:7][CH2:8][c:9]1[cH:10][cH:11][cH:12][cH:13][cH:14]1",
+      "mapping_confidence": 0.9521124509660578,
+      "conditions": {
+        "raw_description": "DABCO; THF; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DABCO"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CN2CCN1CC2"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_2",
+      "reaction_smiles": "COC(=O)/C=C/OCc1ccccc1.CC(C)C[AlH]CC(C)C.ClCCl>>OC/C=C/OCc1ccccc1",
+      "reaction_smiles_mapped": "CO[C:2](=[O:1])/[CH:3]=[CH:4]/[O:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1>CC(C)C[AlH]CC(C)C.ClCCl>[OH:1][CH2:2]/[CH:3]=[CH:4]/[O:5][CH2:6][c:7]1[cH:8][cH:9][cH:10][cH:11][cH:12]1",
+      "mapping_confidence": 0.8400355362142056,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; -78 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_3",
+      "reaction_smiles": "OC/C=C/OCc1ccccc1.CC(C)(C)[Si](C)(C)Cl.c1c[nH]cn1.ClCCl>>CC(C)(C)[Si](C)(C)OC/C=C/OCc1ccccc1",
+      "reaction_smiles_mapped": "Cl[Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7].[OH:8][CH2:9]/[CH:10]=[CH:11]/[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>c1c[nH]cn1.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][CH2:9]/[CH:10]=[CH:11]/[O:12][CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.3308804982294926,
+      "conditions": {
+        "raw_description": "TBSCl; imidazole; DCM; rt; 94% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "94% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_4",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)OC/C=C/OCc1ccccc1.CC(C)(C)[C@H]1COC(C2(C3=N[C@@H](C(C)(C)C)CO3)CCC2)=N1.COC(=O)c1cccoc1=O.Cl[Cu]Cl.F[Sb-](F)(F)(F)(F)F.[Ag+].Cc1ccccc1.ClCCl>>COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH:12](\\[CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])=[CH:22]/[O:23][CH2:24][c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1.[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][o:9][c:10]1=[O:11]>CC(C)(C)[C@H]1COC(C2(C3=N[C@@H](C(C)(C)C)CO3)CCC2)=N1.Cl[Cu]Cl.F[Sb-](F)(F)(F)(F)F.[Ag+].Cc1ccccc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH:6]=[CH:7][C@@H:8]([O:9][C:10]1=[O:11])[C@@H:12]([CH2:13][O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[C@@H:22]2[O:23][CH2:24][c:25]1[cH:26][cH:27][cH:28][cH:29][cH:30]1",
+      "mapping_confidence": 0.2712652583524303,
+      "conditions": {
+        "raw_description": "CuCl2; AgSbF6; -40 \u00b0C; 4\u00c5 MS; toluene/DCM; 99%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "CuCl2",
+          "AgSbF6"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Cu]Cl",
+          "F[Sb-](F)(F)(F)(F)F.[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "ClCCl"
+        ],
+        "MODIFIERS": [
+          "4\u00c5 MS",
+          "4 \u00c5 MS"
+        ],
+        "TEMPERATURE": [
+          "-40"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_5",
+      "reaction_smiles": "COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](CO[Si](C)(C)C(C)(C)C)[C@@H]2OCc1ccccc1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](CO)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:14][CH2:13][C@@H:12]1[C@H:8]2[CH:7]=[CH:6][C@:5]([C:3]([O:2][CH3:1])=[O:4])([C:10](=[O:11])[O:9]2)[C@H:15]1[O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH:6]=[CH:7][C@@H:8]([O:9][C:10]1=[O:11])[C@@H:12]([CH2:13][OH:14])[C@@H:15]2[O:16][CH2:17][c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1",
+      "mapping_confidence": 0.8983186712520563,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 97%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_6",
+      "reaction_smiles": "COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](CO)[C@@H]2OCc1ccccc1.CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1C(=O)CC2=O.CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>>COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](COC1=CC(=O)c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c31)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "O=[C:15]1[CH2:16][C:17](=[O:18])[c:19]2[c:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[cH:29][cH:30][c:31]([O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39])[c:40]21.[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH:6]=[CH:7][C@@H:8]([O:9][C:10]1=[O:11])[C@@H:12]([CH2:13][OH:14])[C@@H:41]2[O:42][CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1>CC(C)OC(=O)/N=N/C(=O)OC(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1.C1CCOC1>[CH3:1][O:2][C:3](=[O:4])[C@@:5]12[CH:6]=[CH:7][C@@H:8]([O:9][C:10]1=[O:11])[C@@H:12]([CH2:13][O:14][C:15]1=[CH:16][C:17](=[O:18])[c:19]3[c:20]([O:21][Si:22]([CH3:23])([CH3:24])[C:25]([CH3:26])([CH3:27])[CH3:28])[cH:29][cH:30][c:31]([O:32][Si:33]([CH3:34])([CH3:35])[C:36]([CH3:37])([CH3:38])[CH3:39])[c:40]31)[C@@H:41]2[O:42][CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1",
+      "mapping_confidence": 0.09231693703216268,
+      "conditions": {
+        "raw_description": "PPh3; DIAD; THF; -20 \u00b0C to rt; 68%",
+        "GENERAL_REAGENTS": [
+          "DIAD"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)OC(=O)/N=N/C(=O)OC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20",
+          "rt"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_7",
+      "reaction_smiles": "COC(=O)[C@@]12C=C[C@@H](OC1=O)[C@@H](COC1=CC(=O)c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c31)[C@@H]2OCc1ccccc1.Clc1ccccc1>>COC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "O=C1O[C@@H:8]2[CH:7]=[CH:6][C@@:5]1([C:3]([O:2][CH3:1])=[O:4])[C@@H:38]([O:39][CH2:40][c:41]1[cH:42][cH:43][cH:44][cH:45][cH:46]1)[C@@H:9]2[CH2:10][O:11][C:12]1=[CH:37][C:35](=[O:36])[c:34]2[c:13]1[c:14]([O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[cH:23][cH:24][c:25]2[O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33]>Clc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[C:5]12[CH:6]=[CH:7][CH:8]3[C@@H:9]([CH2:10][O:11][C:12]34[c:13]3[c:14]([O:15][Si:16]([CH3:17])([CH3:18])[C:19]([CH3:20])([CH3:21])[CH3:22])[cH:23][cH:24][c:25]([O:26][Si:27]([CH3:28])([CH3:29])[C:30]([CH3:31])([CH3:32])[CH3:33])[c:34]3[C:35](=[O:36])[C@@H:37]14)[C@@H:38]2[O:39][CH2:40][c:41]1[cH:42][cH:43][cH:44][cH:45][cH:46]1",
+      "mapping_confidence": 0.07019120007301098,
+      "conditions": {
+        "raw_description": "PhCl; 140 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "PhCl"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=C(C=C1)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_8",
+      "reaction_smiles": "COC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1.[AlH4-].[Li+].CCOCC>>CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1[C@@H](O)[C@@H]1C23OC[C@@H]2C3C=CC1(CO)[C@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "CO[C:34]([C:33]12[C@@H:25]3[C:23](=[O:24])[c:22]4[c:9]([O:8][Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7])[cH:10][cH:11][c:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]4[C:26]34[O:27][CH2:28][C@H:29]([CH:30]4[CH:31]=[CH:32]1)[C@@H:36]2[O:37][CH2:38][c:39]1[cH:40][cH:41][cH:42][cH:43][cH:44]1)=[O:35]>[AlH4-].[Li+].CCOCC>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][c:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]2[c:22]1[C@@H:23]([OH:24])[C@@H:25]1[C:26]23[O:27][CH2:28][C@@H:29]2[CH:30]3[CH:31]=[CH:32][C:33]1([CH2:34][OH:35])[C@H:36]2[O:37][CH2:38][c:39]1[cH:40][cH:41][cH:42][cH:43][cH:44]1",
+      "mapping_confidence": 0.059343376612029555,
+      "conditions": {
+        "raw_description": "LiAlH4; Et2O; -20 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_9",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1[C@@H](O)[C@@H]1C23OC[C@@H]2C3C=CC1(CO)[C@H]2OCc1ccccc1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1C(=O)[C@@H]1C23OC[C@@H]2C3C=CC1(C=O)[C@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][c:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]2[c:22]1[C@@H:23]([OH:24])[C@@H:25]1[C:26]23[O:27][CH2:28][C@@H:29]2[CH:30]3[CH:31]=[CH:32][C:33]1([CH2:34][OH:35])[C@H:36]2[O:37][CH2:38][c:39]1[cH:40][cH:41][cH:42][cH:43][cH:44]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][c:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]2[c:22]1[C:23](=[O:24])[C@@H:25]1[C:26]23[O:27][CH2:28][C@@H:29]2[CH:30]3[CH:31]=[CH:32][C:33]1([CH:34]=[O:35])[C@H:36]2[O:37][CH2:38][c:39]1[cH:40][cH:41][cH:42][cH:43][cH:44]1",
+      "mapping_confidence": 0.09662285360589462,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; DCM; rt",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_10",
+      "reaction_smiles": "CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1C(=O)[C@@H]1C23OC[C@@H]2C3C=CC1(C=O)[C@H]2OCc1ccccc1.C[Mg]Br.CCOCC>>CC(O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH:2](=[O:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]3[C:34](=[O:35])[C@@H:36]14)[C@@H:37]2[O:38][CH2:39][c:40]1[cH:41][cH:42][cH:43][cH:44][cH:45]1.Br[Mg][CH3:1]>CCOCC>[CH3:1][CH:2]([OH:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]3[C:34](=[O:35])[C@@H:36]14)[C@@H:37]2[O:38][CH2:39][c:40]1[cH:41][cH:42][cH:43][cH:44][cH:45]1",
+      "mapping_confidence": 0.08750776724645995,
+      "conditions": {
+        "raw_description": "CH3MgBr; Et2O; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "CH3MgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_11",
+      "reaction_smiles": "CC(O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>CC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([OH:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]3[C:34](=[O:35])[C@@H:36]14)[C@@H:37]2[O:38][CH2:39][c:40]1[cH:41][cH:42][cH:43][cH:44][cH:45]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>[CH3:1][C:2](=[O:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]3[C:34](=[O:35])[C@@H:36]14)[C@@H:37]2[O:38][CH2:39][c:40]1[cH:41][cH:42][cH:43][cH:44][cH:45]1",
+      "mapping_confidence": 0.08329987384530561,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; DCM; rt; 79% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "79% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_12",
+      "reaction_smiles": "CC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2OCc1ccccc1.[HH].[C].[Pd].C1CCOC1>>CC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2O",
+      "reaction_smiles_mapped": "c1ccc(C[O:38][C@@H:37]2[C:4]3([C:2]([CH3:1])=[O:3])[CH:5]=[CH:6][CH:7]4[C@H:8]2[CH2:9][O:10][C:11]42[c:12]4[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]4[C:34](=[O:35])[C@@H:36]32)cc1>[HH].[C].[Pd].C1CCOC1>[CH3:1][C:2](=[O:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([O:14][Si:15]([CH3:16])([CH3:17])[C:18]([CH3:19])([CH3:20])[CH3:21])[cH:22][cH:23][c:24]([O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])[c:33]3[C:34](=[O:35])[C@@H:36]14)[C@@H:37]2[OH:38]",
+      "mapping_confidence": 0.09342286941855314,
+      "conditions": {
+        "raw_description": "H2; Pd/C; THF; rt; 86%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_13",
+      "reaction_smiles": "CC(=O)C12C=CC3[C@@H](COC34c3c(O[Si](C)(C)C(C)(C)C)ccc(O[Si](C)(C)C(C)(C)C)c3C(=O)[C@H]41)[C@@H]2O.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>CC(=O)C12C=CC3[C@@H](COC34c3c(O)ccc(O)c3C(=O)[C@H]41)[C@@H]2O",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:14][c:13]1[c:12]2[c:19]([c:17]([O:18][Si](C)(C)C(C)(C)C)[cH:16][cH:15]1)[C:20](=[O:21])[C@H:22]1[C:4]3([C:2]([CH3:1])=[O:3])[CH:5]=[CH:6][CH:7]4[C@@H:8]([CH2:9][O:10][C:11]421)[C@@H:23]3[OH:24]>CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>[CH3:1][C:2](=[O:3])[C:4]12[CH:5]=[CH:6][CH:7]3[C@@H:8]([CH2:9][O:10][C:11]34[c:12]3[c:13]([OH:14])[cH:15][cH:16][c:17]([OH:18])[c:19]3[C:20](=[O:21])[C@@H:22]14)[C@@H:23]2[OH:24]",
+      "mapping_confidence": 0.9779017993506663,
+      "conditions": {
+        "raw_description": "TBAF; THF; rt; 97%",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_14",
+      "reaction_smiles": "COC(CC(OC)OC)OC.COC(=O)CC(=O)OC.Cl[Zn]Cl.CC(=O)OC(C)=O>>CO/C=C/C=C(C(=O)OC)C(=O)OC",
+      "reaction_smiles_mapped": "[CH2:6]([C:7](=[O:8])[O:9][CH3:10])[C:11](=[O:12])[O:13][CH3:14].CO[CH:3]([O:2][CH3:1])[CH2:4][CH:5](OC)OC>Cl[Zn]Cl.CC(=O)OC(C)=O>[CH3:1][O:2]/[CH:3]=[CH:4]/[CH:5]=[C:6]([C:7](=[O:8])[O:9][CH3:10])[C:11](=[O:12])[O:13][CH3:14]",
+      "mapping_confidence": 0.16004352660250482,
+      "conditions": {
+        "raw_description": "ZnCl; Ac2O; reflux",
+        "GENERAL_REAGENTS": [
+          "ZnCl",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl[Zn]Cl",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_15",
+      "reaction_smiles": "CO/C=C/C=C(C(=O)OC)C(=O)OC.O=CO>>COC(=O)c1cccoc1=O",
+      "reaction_smiles_mapped": "CO[C:10]([C:5]([C:3]([O:2][CH3:1])=[O:4])=[CH:6]/[CH:7]=[CH:8]/[O:9]C)=[O:11]>O=CO>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][cH:8][o:9][c:10]1=[O:11]",
+      "mapping_confidence": 0.4362999571468111,
+      "conditions": {
+        "raw_description": "HCOOH; 105 \u00b0C; 39% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "HCOOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(=O)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "105"
+        ],
+        "YIELD": [
+          "39% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_16",
+      "reaction_smiles": "N#Cc1c(O)ccc(O)c1C#N.O.O.[OH-].[OH-].[K+].[OH-].O=S(=O)(O)O>>O=C(O)c1c(O)ccc(O)c1C(=O)O",
+      "reaction_smiles_mapped": "N#[C:2][c:4]1[c:5]([OH:6])[cH:7][cH:8][c:9]([OH:10])[c:11]1[C:12]#N.[OH2:14].[OH2:13].[OH-:1].[OH-:3]>[K+].[OH-].O=S(=O)(O)O>[O:1]=[C:2]([OH:3])[c:4]1[c:5]([OH:6])[cH:7][cH:8][c:9]([OH:10])[c:11]1[C:12](=[O:13])[OH:14]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "1) KOH; H2O; reflux; 2) H2SO4",
+        "GENERAL_REAGENTS": [
+          "KOH",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_17",
+      "reaction_smiles": "O=C(O)c1c(O)ccc(O)c1C(=O)O.CC(=O)OC(C)=O>>O=C1OC(=O)c2c(O)ccc(O)c21",
+      "reaction_smiles_mapped": "O[C:4](=[O:5])[c:6]1[c:7]([OH:8])[cH:9][cH:10][c:11]([OH:12])[c:13]1[C:2](=[O:1])[OH:3]>CC(=O)OC(C)=O>[O:1]=[C:2]1[O:3][C:4](=[O:5])[c:6]2[c:7]([OH:8])[cH:9][cH:10][c:11]([OH:12])[c:13]21",
+      "mapping_confidence": 0.24800378834433875,
+      "conditions": {
+        "raw_description": "Ac2O; reflux; 82% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_18",
+      "reaction_smiles": "O=C1OC(=O)c2c(O)ccc(O)c21.CCOC(=O)CC(C)=O.CCN(CC)CC.Cl.CC(=O)OC(C)=O>>O=C1CC(=O)c2c(O)ccc(O)c21",
+      "reaction_smiles_mapped": "CCOC(=O)[CH2:3]C(C)=O.O1[C:2](=[O:1])[c:13]2[c:6]([c:7]([OH:8])[cH:9][cH:10][c:11]2[OH:12])[C:4]1=[O:5]>CCN(CC)CC.Cl.CC(=O)OC(C)=O>[O:1]=[C:2]1[CH2:3][C:4](=[O:5])[c:6]2[c:7]([OH:8])[cH:9][cH:10][c:11]([OH:12])[c:13]21",
+      "mapping_confidence": 0.3318600294062926,
+      "conditions": {
+        "raw_description": "1) Et3N; Ac2O; rt; 2) HCl; 75 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "HCl",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "Cl",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "75"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lucidumone_2022_de_la_Torre_19",
+      "reaction_smiles": "O=C1CC(=O)c2c(O)ccc(O)c21.CC(C)(C)[Si](C)(C)Cl.CC(C)(C)[Si](C)(C)Cl.CCN(CC)CC.ClCCl>>CC(C)(C)[Si](C)(C)Oc1ccc(O[Si](C)(C)C(C)(C)C)c2c1C(=O)CC2=O",
+      "reaction_smiles_mapped": "Cl[Si:5]([C:2]([CH3:1])([CH3:3])[CH3:4])([CH3:6])[CH3:7].Cl[Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20].[OH:8][c:9]1[cH:10][cH:11][c:12]([OH:13])[c:21]2[c:22]1[C:23](=[O:24])[CH2:25][C:26]2=[O:27]>CCN(CC)CC.ClCCl>[CH3:1][C:2]([CH3:3])([CH3:4])[Si:5]([CH3:6])([CH3:7])[O:8][c:9]1[cH:10][cH:11][c:12]([O:13][Si:14]([CH3:15])([CH3:16])[C:17]([CH3:18])([CH3:19])[CH3:20])[c:21]2[c:22]1[C:23](=[O:24])[CH2:25][C:26]2=[O:27]",
+      "mapping_confidence": 0.07539211881574968,
+      "conditions": {
+        "raw_description": "TBSCl; Et3N; DCM; rt; 74%",
+        "GENERAL_REAGENTS": [
+          "TBSCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    }
+  ]
+}

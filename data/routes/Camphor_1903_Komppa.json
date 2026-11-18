@@ -1,0 +1,273 @@
+{
+  "background": {
+    "name": "Camphor",
+    "author": "Komppa",
+    "year": 1903,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ber. Dtsch. Chem. Ges. 1903, 36, 4332",
+    "doi": "10.1002/cber.190303604115"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Camphor_1903_Komppa_1",
+      "reaction_smiles": "CCOC(=O)CC(C)(C)CC(=O)OCC.CCOC(=O)C(=O)OCC.CCO[Na]>>CCOC(=O)C1C(=O)C(=O)C(C(=O)OCC)C1(C)C",
+      "reaction_smiles_mapped": "CCO[C:7](=[O:8])[C:9](OCC)=[O:10].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:17]([CH2:11][C:12](=[O:13])[O:14][CH2:15][CH3:16])([CH3:18])[CH3:19]>CCO[Na]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[C:9](=[O:10])[CH:11]([C:12](=[O:13])[O:14][CH2:15][CH3:16])[C:17]1([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.47580930227192003,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_2",
+      "reaction_smiles": "CCOC(=O)C1C(=O)C(=O)C(C(=O)OCC)C1(C)C.CI.[Na]>>CCOC(=O)C1C(=O)C(=O)C(C)(C(=O)OCC)C1(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[C:9](=[O:10])[CH:11]([C:13](=[O:14])[O:15][CH2:16][CH3:17])[C:18]1([CH3:19])[CH3:20].I[CH3:12]>[Na]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[C:9](=[O:10])[C:11]([CH3:12])([C:13](=[O:14])[O:15][CH2:16][CH3:17])[C:18]1([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.6825240363508756,
+      "conditions": {
+        "raw_description": "MeI; Na",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "Na"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[Na]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_3",
+      "reaction_smiles": "CCOC(=O)C1C(=O)C(=O)C(C)(C(=O)OCC)C1(C)C.Cl.[Zn]>>CCOC(=O)C1C(O)C(O)C(C)(C(=O)OCC)C1(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[C:7](=[O:8])[C:9](=[O:10])[C:11]([CH3:12])([C:13](=[O:14])[O:15][CH2:16][CH3:17])[C:18]1([CH3:19])[CH3:20]>Cl.[Zn]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]([OH:8])[CH:9]([OH:10])[C:11]([CH3:12])([C:13](=[O:14])[O:15][CH2:16][CH3:17])[C:18]1([CH3:19])[CH3:20]",
+      "mapping_confidence": 0.7495689217836112,
+      "conditions": {
+        "raw_description": "Zn; HCl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_4",
+      "reaction_smiles": "CCOC(=O)C1C(O)C(O)C(C)(C(=O)OCC)C1(C)C.I.[P]>>CCOC(=O)C1C=CC(C)(C(=O)OCC)C1(C)C",
+      "reaction_smiles_mapped": "O[CH:7]1[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[C:16]([CH3:17])([CH3:18])[C:9]([CH3:10])([C:11](=[O:12])[O:13][CH2:14][CH3:15])[CH:8]1O>I.[P]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]=[CH:8][C:9]([CH3:10])([C:11](=[O:12])[O:13][CH2:14][CH3:15])[C:16]1([CH3:17])[CH3:18]",
+      "mapping_confidence": 0.7504682103797621,
+      "conditions": {
+        "raw_description": "HI; Red P",
+        "GENERAL_REAGENTS": [
+          "HI",
+          "Red P"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "I",
+          "[P]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_5",
+      "reaction_smiles": "CCOC(=O)C1C=CC(C)(C(=O)OCC)C1(C)C.Br>>CCOC(=O)C1C(Br)CC(C)(C(=O)OCC)C1(C)C",
+      "reaction_smiles_mapped": "[BrH:8].[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]=[CH:9][C:10]([CH3:11])([C:12](=[O:13])[O:14][CH2:15][CH3:16])[C:17]1([CH3:18])[CH3:19]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]1[CH:7]([Br:8])[CH2:9][C:10]([CH3:11])([C:12](=[O:13])[O:14][CH2:15][CH3:16])[C:17]1([CH3:18])[CH3:19]",
+      "mapping_confidence": 0.7437433161550299,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_6",
+      "reaction_smiles": "CCOC(=O)C1C(Br)CC(C)(C(=O)OCC)C1(C)C.Cl.[Zn]>>CC1(C(=O)O)CC(Br)C(C(=O)O)C1(C)C",
+      "reaction_smiles_mapped": "CC[O:5][C:3]([C:2]1([CH3:1])[CH2:6][CH:7]([Br:8])[CH:9]([C:10](=[O:11])[O:12]CC)[C:13]1([CH3:14])[CH3:15])=[O:4]>Cl.[Zn]>[CH3:1][C:2]1([C:3](=[O:4])[OH:5])[CH2:6][CH:7]([Br:8])[CH:9]([C:10](=[O:11])[OH:12])[C:13]1([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.7439823615832859,
+      "conditions": {
+        "raw_description": "Zn; HCl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Zn"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_7",
+      "reaction_smiles": "CC1(C(=O)O)CC(Br)C(C(=O)O)C1(C)C.CC(=O)OC(C)=O>>CC12CCC(C(=O)OC1=O)C2(C)C",
+      "reaction_smiles_mapped": "O[C:9]([C:2]1([CH3:1])[CH2:3][CH:4](Br)[CH:5]([C:6](=[O:7])[OH:8])[C:11]1([CH3:12])[CH3:13])=[O:10]>CC(=O)OC(C)=O>[CH3:1][C:2]12[CH2:3][CH2:4][CH:5]([C:6](=[O:7])[O:8][C:9]1=[O:10])[C:11]2([CH3:12])[CH3:13]",
+      "mapping_confidence": 0.2241925900018572,
+      "conditions": {
+        "raw_description": "Ac2O",
+        "GENERAL_REAGENTS": [
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_8",
+      "reaction_smiles": "CC12CCC(C(=O)OC1=O)C2(C)C.[Hg].[Na]>>CC12CCC(COC1=O)C2(C)C",
+      "reaction_smiles_mapped": "O=[C:6]1[CH:5]2[CH2:4][CH2:3][C:2]([CH3:1])([C:8](=[O:9])[O:7]1)[C:10]2([CH3:11])[CH3:12]>[Hg].[Na]>[CH3:1][C:2]12[CH2:3][CH2:4][CH:5]([CH2:6][O:7][C:8]1=[O:9])[C:10]2([CH3:11])[CH3:12]",
+      "mapping_confidence": 0.8304831267934477,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_9",
+      "reaction_smiles": "CC12CCC(COC1=O)C2(C)C.N#C[K]>>CC1(C(=O)O)CCC(CC#N)C1(C)C",
+      "reaction_smiles_mapped": "[CH3:1][C:2]12[C:3](=[O:4])[O:5][CH2:9][CH:8]([CH2:7][CH2:6]1)[C:12]2([CH3:13])[CH3:14].[K][C:10]#[N:11]>>[CH3:1][C:2]1([C:3](=[O:4])[OH:5])[CH2:6][CH2:7][CH:8]([CH2:9][C:10]#[N:11])[C:12]1([CH3:13])[CH3:14]",
+      "mapping_confidence": 0.8155474872136069,
+      "conditions": {
+        "raw_description": "",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_10",
+      "reaction_smiles": "CC1(C(=O)O)CCC(CC#N)C1(C)C.[K+].[OH-]>>CC1(C(=O)O)CCC(CC(=O)O)C1(C)C",
+      "reaction_smiles_mapped": "N#[C:10][CH2:9][CH:8]1[CH2:7][CH2:6][C:2]([CH3:1])([C:3](=[O:4])[OH:5])[C:13]1([CH3:14])[CH3:15].[OH-:11]>[K+]>[CH3:1][C:2]1([C:3](=[O:4])[OH:5])[CH2:6][CH2:7][CH:8]([CH2:9][C:10](=[O:11])[OH:12])[C:13]1([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.7011197509642579,
+      "conditions": {
+        "raw_description": "KOH (aq)",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Camphor_1903_Komppa_11",
+      "reaction_smiles": "CC1(C(=O)O)CCC(CC(=O)O)C1(C)C.[Ca]>>CC12CCC(CC1=O)C2(C)C",
+      "reaction_smiles_mapped": "O=C(O)[CH2:6][CH:5]1[CH2:4][CH2:3][C:2]([CH3:1])([C:7](=O)[OH:8])[C:9]1([CH3:10])[CH3:11]>[Ca]>[CH3:1][C:2]12[CH2:3][CH2:4][CH:5]([CH2:6][C:7]1=[O:8])[C:9]2([CH3:10])[CH3:11]",
+      "mapping_confidence": 0.22917468798685475,
+      "conditions": {
+        "raw_description": "Ca salt",
+        "GENERAL_REAGENTS": [
+          "Ca salt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Ca]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

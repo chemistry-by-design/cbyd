@@ -1,0 +1,413 @@
+{
+  "background": {
+    "name": "Tovorafenib",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Ojemda",
+    "manufacturer": "Mirati",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_1",
+      "reaction_smiles": "CC(=O)c1ncc(C(=O)O)s1.O=C(Cl)C(=O)Cl.COCCOC.CN(C)C=O>>CC(=O)c1ncc(C(=O)Cl)s1",
+      "reaction_smiles_mapped": "O[C:8]([c:7]1[cH:6][n:5][c:4]([C:2]([CH3:1])=[O:3])[s:11]1)=[O:9].O=C(Cl)C(=O)[Cl:10]>CN(C)C=O.COCCOC>[CH3:1][C:2](=[O:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[Cl:10])[s:11]1",
+      "mapping_confidence": 0.6638101700582885,
+      "conditions": {
+        "raw_description": "(COCl)2; DME; DMF",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_2",
+      "reaction_smiles": "CC(=O)c1ncc(C(=O)Cl)s1.Nc1cc(C(F)(F)F)c(Cl)cn1.c1ccncc1.CC#N>>CC(=O)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "Cl[C:8]([c:7]1[cH:6][n:5][c:4]([C:2]([CH3:1])=[O:3])[s:22]1)=[O:9].[NH2:10][c:11]1[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]1>CC#N.c1ccncc1>[CH3:1][C:2](=[O:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1",
+      "mapping_confidence": 0.3370601164868163,
+      "conditions": {
+        "raw_description": "Pyridine; MeCN; 10 \u00b0C to rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Pyridine",
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "10",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_3",
+      "reaction_smiles": "CC(=O)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1.NO>>C/C(=N\\O)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:1])[c:5]1[n:6][cH:7][c:8]([C:9](=[O:10])[NH:11][c:12]2[cH:13][c:14]([C:15]([F:16])([F:17])[F:18])[c:19]([Cl:20])[cH:21][n:22]2)[s:23]1.[NH2:3][OH:4]>>[CH3:1]/[C:2](=[N:3]\\[OH:4])[c:5]1[n:6][cH:7][c:8]([C:9](=[O:10])[NH:11][c:12]2[cH:13][c:14]([C:15]([F:16])([F:17])[F:18])[c:19]([Cl:20])[cH:21][n:22]2)[s:23]1",
+      "mapping_confidence": 0.2796916359616032,
+      "conditions": {
+        "raw_description": "NH2OH; 45 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NH2OH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_4",
+      "reaction_smiles": "C/C(=N\\O)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1.CC(=O)O.[Zn].CCCCO.O>>CC(N)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "O/[N:3]=[C:2](\\[CH3:1])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1>CC(=O)O.CCCCO.O.[Zn]>[CH3:1][CH:2]([NH2:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1",
+      "mapping_confidence": 0.2798271556562443,
+      "conditions": {
+        "raw_description": "Zn; HOAc; BuOH; H2O; 0 to 30 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [
+          "HOAc",
+          "Zn"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)O",
+          "[Zn]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "BuOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCCCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "30"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_5",
+      "reaction_smiles": "CC(N)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1.Cc1ccc(C(=O)O[C@H](C(=O)O)[C@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.CC(C)O.O>>Cc1ccc(C(=O)O[C@H](C(=O)[O-])[C@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.CC([NH3+])c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([NH2:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1.[CH3:23][c:24]1[cH:25][cH:26][c:27]([C:28](=[O:29])[O:30][C@H:31]([C:32](=[O:33])[OH:34])[C@H:35]([O:36][C:37](=[O:38])[c:39]2[cH:40][cH:41][c:42]([CH3:43])[cH:44][cH:45]2)[C:46](=[O:47])[OH:48])[cH:49][cH:50]1>CC(C)O.O>[CH3:1][CH:2]([NH3+:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1.[CH3:23][c:24]1[cH:25][cH:26][c:27]([C:28](=[O:29])[O:30][C@H:31]([C:32](=[O:33])[O-:34])[C@H:35]([O:36][C:37](=[O:38])[c:39]2[cH:40][cH:41][c:42]([CH3:43])[cH:44][cH:45]2)[C:46](=[O:47])[OH:48])[cH:49][cH:50]1",
+      "mapping_confidence": 0.25422104265899026,
+      "conditions": {
+        "raw_description": "IPA; H2O; 53 \u00b0C to rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "IPA",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "53",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_6",
+      "reaction_smiles": "Cc1ccc(C(=O)O[C@H](C(=O)[O-])[C@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.CC([NH3+])c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1.O=C([O-])[O-].[Na+].[Na+].O.CO.COC(C)(C)C>>C[C@@H](N)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([NH3+:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1>CO.COC(C)(C)C.Cc1ccc(C(=O)O[C@H](C(=O)[O-])[C@H](OC(=O)c2ccc(C)cc2)C(=O)O)cc1.O.O=C([O-])[O-].[Na+].[Na+]>[CH3:1][C@@H:2]([NH2:3])[c:4]1[n:5][cH:6][c:7]([C:8](=[O:9])[NH:10][c:11]2[cH:12][c:13]([C:14]([F:15])([F:16])[F:17])[c:18]([Cl:19])[cH:20][n:21]2)[s:22]1",
+      "mapping_confidence": 0.24319468512049705,
+      "conditions": {
+        "raw_description": "Na2CO3; H2O; MeOH; MTBE; 30 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "MeOH",
+          "MTBE"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CO",
+          "CC(C)(C)OC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_7",
+      "reaction_smiles": "C[C@@H](N)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1.Nc1ncnc(C(=O)O)c1Cl.CCN=C=NCCCN(C)C.On1nnc2ccccc21.CCN(C(C)C)C(C)C.CN(C)C=O>>C[C@@H](NC(=O)c1ncnc(N)c1Cl)c1ncc(C(=O)Nc2cc(C(F)(F)F)c(Cl)cn2)s1",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([NH2:3])[c:14]1[n:15][cH:16][c:17]([C:18](=[O:19])[NH:20][c:21]2[cH:22][c:23]([C:24]([F:25])([F:26])[F:27])[c:28]([Cl:29])[cH:30][n:31]2)[s:32]1.O[C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([NH2:11])[c:12]1[Cl:13]>CCN(C(C)C)C(C)C.CCN=C=NCCCN(C)C.CN(C)C=O.On1nnc2ccccc21>[CH3:1][C@@H:2]([NH:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([NH2:11])[c:12]1[Cl:13])[c:14]1[n:15][cH:16][c:17]([C:18](=[O:19])[NH:20][c:21]2[cH:22][c:23]([C:24]([F:25])([F:26])[F:27])[c:28]([Cl:29])[cH:30][n:31]2)[s:32]1",
+      "mapping_confidence": 0.271460346419749,
+      "conditions": {
+        "raw_description": "EDCI; HOBt; DIPEA; DMF",
+        "GENERAL_REAGENTS": [
+          "EDCI",
+          "HOBt",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN=C=NCCCN(C)C",
+          "C1=CC=C2C(=C1)N=NN2O",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_8",
+      "reaction_smiles": "CCOC(=O)C#CC(=O)OCC.N=CN.CCN(CC)CC.CC#N>>CCOC(=O)c1cc(O)ncn1",
+      "reaction_smiles_mapped": "CCO[C:8]([C:7]#[C:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])=[O:9].[NH:10]=[CH:11][NH2:12]>CC#N.CCN(CC)CC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][c:8]([OH:9])[n:10][cH:11][n:12]1",
+      "mapping_confidence": 0.3068012520247823,
+      "conditions": {
+        "raw_description": "CH3CN; Et3N; 70 \u00b0C; 56%",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_9",
+      "reaction_smiles": "CCOC(=O)c1cc(O)ncn1.CC1(C)C(=O)N(Cl)C(=O)N1Cl.CN(C)C=O>>CCOC(=O)c1ncnc(O)c1Cl",
+      "reaction_smiles_mapped": "CC1(C)C(=O)N([Cl:13])C(=O)N1Cl.[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([OH:11])[cH:12]1>CN(C)C=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([OH:11])[c:12]1[Cl:13]",
+      "mapping_confidence": 0.5111578549866184,
+      "conditions": {
+        "raw_description": "DMF; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_10",
+      "reaction_smiles": "CCOC(=O)c1ncnc(O)c1Cl.O=S(Cl)Cl.CN(C)C=O>>CCOC(=O)c1ncnc(Cl)c1Cl",
+      "reaction_smiles_mapped": "O[c:10]1[n:9][cH:8][n:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:12]1[Cl:13].O=S(Cl)[Cl:11]>CN(C)C=O>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([Cl:11])[c:12]1[Cl:13]",
+      "mapping_confidence": 0.5974896850503323,
+      "conditions": {
+        "raw_description": "SOCl2; DMF; 0 \u00b0C to rt; 41% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "41% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_11",
+      "reaction_smiles": "CCOC(=O)c1ncnc(Cl)c1Cl.COc1cc(OC)c(CN)c(OC)c1.CCN(C(C)C)C(C)C.ClCCl>>CCOC(=O)c1ncnc(NCc2c(OC)cc(OC)cc2OC)c1Cl",
+      "reaction_smiles_mapped": "Cl[c:10]1[n:9][cH:8][n:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:25]1[Cl:26].[NH2:11][CH2:12][c:13]1[c:14]([O:15][CH3:16])[cH:17][c:18]([O:19][CH3:20])[cH:21][c:22]1[O:23][CH3:24]>CCN(C(C)C)C(C)C.ClCCl>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([NH:11][CH2:12][c:13]2[c:14]([O:15][CH3:16])[cH:17][c:18]([O:19][CH3:20])[cH:21][c:22]2[O:23][CH3:24])[c:25]1[Cl:26]",
+      "mapping_confidence": 0.6304171588288549,
+      "conditions": {
+        "raw_description": "(i-Pr)2EtN; DCM; rt; 99%",
+        "GENERAL_REAGENTS": [
+          "(i-Pr)2EtN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_12",
+      "reaction_smiles": "CCOC(=O)c1ncnc(NCc2c(OC)cc(OC)cc2OC)c1Cl.O=C(O)C(F)(F)F.ClCCl>>CCOC(=O)c1ncnc(N)c1Cl",
+      "reaction_smiles_mapped": "COc1cc(OC)c(C[NH:11][c:10]2[n:9][cH:8][n:7][c:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[c:12]2[Cl:13])c(OC)c1>ClCCl.O=C(O)C(F)(F)F>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[n:7][cH:8][n:9][c:10]([NH2:11])[c:12]1[Cl:13]",
+      "mapping_confidence": 0.993527968861506,
+      "conditions": {
+        "raw_description": "TFA; DCM; 70%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Tovorafenib_2025_Mirati_13",
+      "reaction_smiles": "CCOC(=O)c1ncnc(N)c1Cl.[Li+].[OH-].O>>Nc1ncnc(C(=O)O)c1Cl",
+      "reaction_smiles_mapped": "CC[O:9][C:7]([c:6]1[n:5][cH:4][n:3][c:2]([NH2:1])[c:10]1[Cl:11])=[O:8]>O.[Li+].[OH-]>[NH2:1][c:2]1[n:3][cH:4][n:5][c:6]([C:7](=[O:8])[OH:9])[c:10]1[Cl:11]",
+      "mapping_confidence": 0.9753196082440183,
+      "conditions": {
+        "raw_description": "LiOH; H2O",
+        "GENERAL_REAGENTS": [
+          "LiOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[OH-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "background": {
+    "name": "Bosutinib monohydrate",
+    "author": null,
+    "year": 2012,
+    "drug_name": "Bosulif",
+    "manufacturer": "Pfizer",
+    "citation": "Bioorg. Med. Chem. 2014, 22, 2005",
+    "doi": "10.1016/j.bmc.2014.02.017"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_1",
+      "reaction_smiles": "COc1cc(N)c(Cl)cc1Cl.N#CCC(=O)O.CC(C)N=C=NC(C)C.C1CCOC1>>COc1cc(NC(=O)CC#N)c(Cl)cc1Cl",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([NH2:6])[c:12]([Cl:13])[cH:14][c:15]1[Cl:16].O[C:7](=[O:8])[CH2:9][C:10]#[N:11]>C1CCOC1.CC(C)N=C=NC(C)C>[CH3:1][O:2][c:3]1[cH:4][c:5]([NH:6][C:7](=[O:8])[CH2:9][C:10]#[N:11])[c:12]([Cl:13])[cH:14][c:15]1[Cl:16]",
+      "mapping_confidence": 0.828592913907045,
+      "conditions": {
+        "raw_description": "DIC; THF; reflux; 88%",
+        "GENERAL_REAGENTS": [
+          "DIC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)N=C=NC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_2",
+      "reaction_smiles": "COc1ccc([N+](=O)[O-])cc1O.ClCCCBr.CC(C)O.[Na+].[OH-]>>COc1ccc([N+](=O)[O-])cc1OCCCCl",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][c:11]1[OH:12].Br[CH2:13][CH2:14][CH2:15][Cl:16]>CC(C)O.[Na+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][c:11]1[O:12][CH2:13][CH2:14][CH2:15][Cl:16]",
+      "mapping_confidence": 0.8970319429482297,
+      "conditions": {
+        "raw_description": "i-PrOH; aq. NaOH 70 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH",
+          "aq. NaOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O",
+          "[OH-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_3",
+      "reaction_smiles": "COc1ccc([N+](=O)[O-])cc1OCCCN1CCN(C)CC1.[H][H].[Pd].CC(C)O.[HH].[C].[Pd]>>COc1ccc(N)cc1OCCCN1CCN(C)CC1",
+      "reaction_smiles_mapped": "O=[N+:7]([O-])[c:6]1[cH:5][cH:4][c:3]([O:2][CH3:1])[c:9]([O:10][CH2:11][CH2:12][CH2:13][N:14]2[CH2:15][CH2:16][N:17]([CH3:18])[CH2:19][CH2:20]2)[cH:8]1>CC(C)O.[C].[HH].[H][H].[Pd].[Pd]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([NH2:7])[cH:8][c:9]1[O:10][CH2:11][CH2:12][CH2:13][N:14]1[CH2:15][CH2:16][N:17]([CH3:18])[CH2:19][CH2:20]1",
+      "mapping_confidence": 0.9378915096252636,
+      "conditions": {
+        "raw_description": "H2; Pd/C; i-PrOH; rt",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_4",
+      "reaction_smiles": "COc1ccc(N)cc1OCCCN1CCN(C)CC1.COc1cc(NC(=O)CC#N)c(Cl)cc1Cl.CC(C)O.CCOC(OCC)OCC>>COc1cc(NC(=O)/C(C#N)=C/Nc2ccc(OC)c(OCCCN3CCN(C)CC3)c2)c(Cl)cc1Cl",
+      "reaction_smiles_mapped": "CCO[CH:12](OCC)OCC.[CH3:1][O:2][c:3]1[cH:4][c:5]([NH:6][C:7](=[O:8])[CH2:9][C:10]#[N:11])[c:33]([Cl:34])[cH:35][c:36]1[Cl:37].[NH2:13][c:14]1[cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]([O:21][CH2:22][CH2:23][CH2:24][N:25]2[CH2:26][CH2:27][N:28]([CH3:29])[CH2:30][CH2:31]2)[cH:32]1>CC(C)O>[CH3:1][O:2][c:3]1[cH:4][c:5]([NH:6][C:7](=[O:8])/[C:9]([C:10]#[N:11])=[CH:12]/[NH:13][c:14]2[cH:15][cH:16][c:17]([O:18][CH3:19])[c:20]([O:21][CH2:22][CH2:23][CH2:24][N:25]3[CH2:26][CH2:27][N:28]([CH3:29])[CH2:30][CH2:31]3)[cH:32]2)[c:33]([Cl:34])[cH:35][c:36]1[Cl:37]",
+      "mapping_confidence": 0.929928733162606,
+      "conditions": {
+        "raw_description": "HC(OEt)3; i-PrOH; reflux; 93% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HC(OEt)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(OCC)OCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "i-PrOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_5",
+      "reaction_smiles": "COc1cc(NC(=O)/C(C#N)=C/Nc2ccc(OC)c(OCCCN3CCN(C)CC3)c2)c(Cl)cc1Cl.O=P(Cl)(Cl)Cl.O=S1(=O)CCCC1>>COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl",
+      "reaction_smiles_mapped": "O=[C:7]([NH:6][c:5]1[cH:4][c:3]([O:2][CH3:1])[c:35]([Cl:36])[cH:34][c:32]1[Cl:33])/[C:8]([C:9]#[N:10])=[CH:11]/[NH:12][c:13]1[cH:14][c:15]([O:16][CH2:17][CH2:18][CH2:19][N:20]2[CH2:21][CH2:22][N:23]([CH3:24])[CH2:25][CH2:26]2)[c:27]([O:28][CH3:29])[cH:30][cH:31]1>O=P(Cl)(Cl)Cl.O=S1(=O)CCCC1>[CH3:1][O:2][c:3]1[cH:4][c:5]([NH:6][c:7]2[c:8]([C:9]#[N:10])[cH:11][n:12][c:13]3[cH:14][c:15]([O:16][CH2:17][CH2:18][CH2:19][N:20]4[CH2:21][CH2:22][N:23]([CH3:24])[CH2:25][CH2:26]4)[c:27]([O:28][CH3:29])[cH:30][c:31]23)[c:32]([Cl:33])[cH:34][c:35]1[Cl:36]",
+      "mapping_confidence": 0.8996248087564968,
+      "conditions": {
+        "raw_description": "POCl3; sulfolane; 70 to 105 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "sulfolane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCS(=O)(=O)C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "70",
+          "105"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Bosutinib_monohydrate_2012_Pfizer_6",
+      "reaction_smiles": "COc1ccc([N+](=O)[O-])cc1OCCCCl.CN1CCNCC1.[Na+].[I-].COC(C)OC.COCCOC>>COc1ccc([N+](=O)[O-])cc1OCCCN1CCN(C)CC1",
+      "reaction_smiles_mapped": "[NH:16]1[CH2:17][CH2:18][N:19]([CH3:20])[CH2:21][CH2:22]1.Cl[CH2:15][CH2:14][CH2:13][O:12][c:11]1[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10]1>COC(C)OC.COCCOC.[I-].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]([N+:7](=[O:8])[O-:9])[cH:10][c:11]1[O:12][CH2:13][CH2:14][CH2:15][N:16]1[CH2:17][CH2:18][N:19]([CH3:20])[CH2:21][CH2:22]1",
+      "mapping_confidence": 0.8406377237905636,
+      "conditions": {
+        "raw_description": "NaI; DME; reflux; 77%",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    }
+  ]
+}

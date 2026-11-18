@@ -1,0 +1,439 @@
+{
+  "background": {
+    "name": "Lundurine B",
+    "author": "Echavarren",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2016, 138, 3671",
+    "doi": "10.1021/jacs.6b01428"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_1",
+      "reaction_smiles": "C=C[C@H](O)C1CCCC1.COC(=O)CCC(=O)C=[N+]=[N-].O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[In+3]>>C=C[C@H](OCC(=O)CCC(=O)OC)C1CCCC1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@H:3]([OH:4])[CH:14]1[CH2:15][CH2:16][CH2:17][CH2:18]1.[N-]=[N+]=[CH:5][C:6](=[O:7])[CH2:8][CH2:9][C:10](=[O:11])[O:12][CH3:13]>O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.O=S(=O)([O-])C(F)(F)F.[In+3]>[CH2:1]=[CH:2][C@H:3]([O:4][CH2:5][C:6](=[O:7])[CH2:8][CH2:9][C:10](=[O:11])[O:12][CH3:13])[CH:14]1[CH2:15][CH2:16][CH2:17][CH2:18]1",
+      "mapping_confidence": 0.9500760272198787,
+      "conditions": {
+        "raw_description": "In(OTf)3 (3 mol %); neat; 0 to 25 \u00b0C; 44%; carbene O-H insertion",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "In(OTf)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[In+3].[O-]S(=O)(=O)C(F)(F)F.[O-]S(=O)(=O)C(F)(F)F.[O-]S(=O)(=O)C(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "44%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_2",
+      "reaction_smiles": "C=C[C@H](OCC(=O)CCC(=O)OC)C1CCCC1.COc1ccc2[nH]cc(CCN)c2c1.CCN(CC)CC.Cc1ccccc1>>COc1ccc2[nH]cc(CCN3C(=O)CC[C@@]3(C=O)C/C=C/C3CCCC3)c2c1",
+      "reaction_smiles_mapped": "CO[C:13](=[O:14])[CH2:15][CH2:16][C:17](=O)[CH2:18][O:19][C@@H:22]([CH:21]=[CH2:20])[CH:23]1[CH2:24][CH2:25][CH2:26][CH2:27]1.[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][cH:8][c:9]([CH2:10][CH2:11][NH2:12])[c:28]2[cH:29]1>CCN(CC)CC.Cc1ccccc1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][cH:8][c:9]([CH2:10][CH2:11][N:12]3[C:13](=[O:14])[CH2:15][CH2:16][C@@:17]3([CH:18]=[O:19])[CH2:20]/[CH:21]=[CH:22]/[CH:23]3[CH2:24][CH2:25][CH2:26][CH2:27]3)[c:28]2[cH:29]1",
+      "mapping_confidence": 0.8546749169193425,
+      "conditions": {
+        "raw_description": "Toluene / Et3N 1:2; reflux; 16 h; 84%; tandem condensation / Claisen rearrangement",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_3",
+      "reaction_smiles": "COc1ccc2[nH]cc(CCN3C(=O)CC[C@@]3(C=O)C/C=C/C3CCCC3)c2c1.COP(=O)(OC)C(=[N+]=[N-])C(C)=O.O=C([O-])[O-].[K+].[K+].CO>>C#C[C@@]1(C/C=C/C2CCCC2)CCC(=O)N1CCc1c[nH]c2ccc(OC)cc12",
+      "reaction_smiles_mapped": "COP(=O)(OC)[C:1](=[N+]=[N-])C(C)=O.O=[CH:2][C@@:3]1([CH2:4]/[CH:5]=[CH:6]/[CH:7]2[CH2:8][CH2:9][CH2:10][CH2:11]2)[CH2:12][CH2:13][C:14](=[O:15])[N:16]1[CH2:17][CH2:18][c:19]1[cH:20][nH:21][c:22]2[cH:23][cH:24][c:25]([O:26][CH3:27])[cH:28][c:29]12>CO.O=C([O-])[O-].[K+].[K+]>[CH:1]#[C:2][C@@:3]1([CH2:4]/[CH:5]=[CH:6]/[CH:7]2[CH2:8][CH2:9][CH2:10][CH2:11]2)[CH2:12][CH2:13][C:14](=[O:15])[N:16]1[CH2:17][CH2:18][c:19]1[cH:20][nH:21][c:22]2[cH:23][cH:24][c:25]([O:26][CH3:27])[cH:28][c:29]12",
+      "mapping_confidence": 0.7293851177652078,
+      "conditions": {
+        "raw_description": "Ohira-Bestmann reagent; K2CO3; MeOH; 25 \u00b0C; 3-5 h; 84%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_4",
+      "reaction_smiles": "C#C[C@@]1(C/C=C/C2CCCC2)CCC(=O)N1CCc1c[nH]c2ccc(OC)cc12.[Cl][Au].ClCCl>>COc1ccc2[nH]c3c(c2c1)CCN1C(=O)CC[C@]1(C/C=C/C1CCCC1)C=C3",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][cH:8][c:9]([CH2:12][CH2:13][N:14]3[C:15](=[O:16])[CH2:17][CH2:18][C@:19]3([CH2:20]/[CH:21]=[CH:22]/[CH:23]3[CH2:24][CH2:25][CH2:26][CH2:27]3)[C:28]#[CH:29])[c:10]2[cH:11]1>ClCCl.[Cl][Au]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[nH:7][c:8]3[c:9]([c:10]2[cH:11]1)[CH2:12][CH2:13][N:14]1[C:15](=[O:16])[CH2:17][CH2:18][C@:19]1([CH2:20]/[CH:21]=[CH:22]/[CH:23]1[CH2:24][CH2:25][CH2:26][CH2:27]1)[CH:28]=[CH:29]3",
+      "mapping_confidence": 0.942044122091662,
+      "conditions": {
+        "raw_description": "AuCl (5 mol %); CH2Cl2; 25 \u00b0C; 5 h; 79%; 89:11 er; 8-endo-dig hydroarylation",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AuCl"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Au]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_5",
+      "reaction_smiles": "COc1ccc2[nH]c3c(c2c1)CCN1C(=O)CC[C@]1(C/C=C/C1CCCC1)C=C3.C[Si](C)(C)[N-][Si](C)(C)C.[Na+].COC(=O)Cl.C1CCOC1>>COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(C/C=C/C1CCCC1)C=C2",
+      "reaction_smiles_mapped": "Cl[C:3]([O:2][CH3:1])=[O:4].[nH:5]1[c:6]2[c:7]([c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]13)[CH2:16][CH2:17][N:18]1[C:19](=[O:20])[CH2:21][CH2:22][C@:23]1([CH2:24]/[CH:25]=[CH:26]/[CH:27]1[CH2:28][CH2:29][CH2:30][CH2:31]1)[CH:32]=[CH:33]2>C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[Na+]>[CH3:1][O:2][C:3](=[O:4])[n:5]1[c:6]2[c:7]([c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]13)[CH2:16][CH2:17][N:18]1[C:19](=[O:20])[CH2:21][CH2:22][C@:23]1([CH2:24]/[CH:25]=[CH:26]/[CH:27]1[CH2:28][CH2:29][CH2:30][CH2:31]1)[CH:32]=[CH:33]2",
+      "mapping_confidence": 0.9357419820917482,
+      "conditions": {
+        "raw_description": "NaHMDS; ClCO2Me; THF; 0 to 25 \u00b0C; 2 h; 88%",
+        "GENERAL_REAGENTS": [
+          "NaHMDS",
+          "ClCO2Me"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)[N-][Si](C)(C)C.[Na+]",
+          "COC(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_6",
+      "reaction_smiles": "COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(C/C=C/C1CCCC1)C=C2.C[N+]1([O-])CCOCC1.[Na+].[O-][I+3]([O-])([O-])[O-].[O]=[Os](=[O])(=[O])=[O].CC(C)=O.O>>COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(CC=O)C=C2",
+      "reaction_smiles_mapped": "CC(C)=[O:26].C(/C1CCCC1)=[CH:25]\\[CH2:24][C@:23]12[N:18]([CH2:17][CH2:16][c:7]3[c:6]([n:5]([C:3]([O:2][CH3:1])=[O:4])[c:15]4[c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14]4)[CH:28]=[CH:27]1)[C:19](=[O:20])[CH2:21][CH2:22]2>C[N+]1([O-])CCOCC1.O.[Na+].[O-][I+3]([O-])([O-])[O-].[O]=[Os](=[O])(=[O])=[O]>[CH3:1][O:2][C:3](=[O:4])[n:5]1[c:6]2[c:7]([c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]13)[CH2:16][CH2:17][N:18]1[C:19](=[O:20])[CH2:21][CH2:22][C@:23]1([CH2:24][CH:25]=[O:26])[CH:27]=[CH:28]2",
+      "mapping_confidence": 0.31077220441456627,
+      "conditions": {
+        "raw_description": "i. OsO4; NMO; acetone/H2O; 25 \u00b0C; ii. NaIO4; acetone/H2O; 25 \u00b0C; 0.5 h",
+        "GENERAL_REAGENTS": [
+          "NMO",
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[N+]1(CCOCC1)[O-]",
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [
+          "OsO4"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Os](=O)(=O)=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_7",
+      "reaction_smiles": "COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(CC=O)C=C2.Cc1ccc(S(=O)(=O)NN)cc1.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>>COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(CC=NNS(=O)(=O)c1ccc(C)cc1)C=C2",
+      "reaction_smiles_mapped": "O=[CH:25][CH2:24][C@:23]12[N:18]([CH2:17][CH2:16][c:7]3[c:6]([n:5]([C:3]([O:2][CH3:1])=[O:4])[c:15]4[c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14]4)[CH:39]=[CH:38]1)[C:19](=[O:20])[CH2:21][CH2:22]2.[NH2:26][NH:27][S:28](=[O:29])(=[O:30])[c:31]1[cH:32][cH:33][c:34]([CH3:35])[cH:36][cH:37]1>Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[n:5]1[c:6]2[c:7]([c:8]3[cH:9][c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]13)[CH2:16][CH2:17][N:18]1[C:19](=[O:20])[CH2:21][CH2:22][C@:23]1([CH2:24][CH:25]=[N:26][NH:27][S:28](=[O:29])(=[O:30])[c:31]1[cH:32][cH:33][c:34]([CH3:35])[cH:36][cH:37]1)[CH:38]=[CH:39]2",
+      "mapping_confidence": 0.3813752493877663,
+      "conditions": {
+        "raw_description": "TsNHNH2; p-TsOH (cat.); CH2Cl2; 25 \u00b0C; 5-10 min; 79% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TsNHNH2",
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)NN",
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25"
+        ],
+        "YIELD": [
+          "79% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_8",
+      "reaction_smiles": "COC(=O)n1c2c(c3cc(OC)ccc31)CCN1C(=O)CC[C@]1(CC=NNS(=O)(=O)c1ccc(C)cc1)C=C2.CCOCC.FB(F)F.ClCCl>>COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=O)CC[C@]45C=C[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)NN=[CH:26][CH2:27][C@:22]23[N:17]([CH2:16][CH2:15][c:14]4[c:13]5[c:6]([n:5]([C:3]([O:2][CH3:1])=[O:4])[c:25]4[CH:24]=[CH:23]2)[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12]5)[C:18](=[O:19])[CH2:20][CH2:21]3)cc1>CCOCC.ClCCl.FB(F)F>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[O:19])[CH2:20][CH2:21][C@:22]45[CH:23]=[CH:24][C@:25]12[C@H:26]3[CH2:27]5",
+      "mapping_confidence": 0.9298636091307372,
+      "conditions": {
+        "raw_description": "BF3 OEt2; CH2Cl2; 80 \u00b0C; 2-3 h; 80%; indole cyclopropanation",
+        "GENERAL_REAGENTS": [
+          "BF3 OEt2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_9",
+      "reaction_smiles": "COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=O)CC[C@]45C=C[C@]12[C@H]3C5.Cc1ccccc1>>COC(=O)N1c2ccc(OC)cc2[C@]23C=CN4C(=O)CC[C@]45CC[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[O:19])[CH2:20][CH2:21][C@:22]45[CH:23]=[CH:24][C@:25]12[C@H:26]3[CH2:27]5>Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH:15]=[CH:16][N:17]4[C:18](=[O:19])[CH2:20][CH2:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5",
+      "mapping_confidence": 0.9464619896343516,
+      "conditions": {
+        "raw_description": "toluene; 155 \u00b0C; 2 h; 95%; homodienyl retro-ene / ene olefin migration",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "155"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_10",
+      "reaction_smiles": "COC(=O)N1c2ccc(OC)cc2[C@]23C=CN4C(=O)CC[C@]45CC[C@]12[C@H]3C5.O=CO.[BH3-]C#N.[Na+].C1CCOC1>>COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=O)CC[C@]45CC[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH:15]=[CH:16][N:17]4[C:18](=[O:19])[CH2:20][CH2:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5>C1CCOC1.O=CO.[BH3-]C#N.[Na+]>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[O:19])[CH2:20][CH2:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5",
+      "mapping_confidence": 0.9431202044924305,
+      "conditions": {
+        "raw_description": "NaBH3CN; THF / HCO2H; 25 to 40 \u00b0C; 6 h; 90%",
+        "GENERAL_REAGENTS": [
+          "HCO2H",
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)O",
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "25",
+          "40"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_11",
+      "reaction_smiles": "COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=O)CC[C@]45CC[C@]12[C@H]3C5.COc1ccc(P2(=S)SP(=S)(c3ccc(OC)cc3)S2)cc1.Cc1ccccc1>>COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=S)CC[C@]45CC[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "O=[C:18]1[N:17]2[CH2:16][CH2:15][C@@:14]34[c:13]5[c:6]([cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12]5)[N:5]([C:3]([O:2][CH3:1])=[O:4])[C@@:25]35[CH2:24][CH2:23][C@:22]2([CH2:21][CH2:20]1)[CH2:27][C@@H:26]45.COc1ccc(P2(=S)SP(c3ccc(OC)cc3)(=[S:19])S2)cc1>Cc1ccccc1>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[S:19])[CH2:20][CH2:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5",
+      "mapping_confidence": 0.2767358147449731,
+      "conditions": {
+        "raw_description": "Lawesson's reagent; toluene; 90 \u00b0C; 1 h; 96%",
+        "GENERAL_REAGENTS": [
+          "Lawesson's reagent"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COC1=CC=C(C=C1)P2(=S)SP(=S)(S2)C3=CC=C(C=C3)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "90"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_12",
+      "reaction_smiles": "COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=S)CC[C@]45CC[C@]12[C@H]3C5.Cc1ccc(S(=O)Cl)cc1.CCN(C(C)C)C(C)C.ClCCl>>COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=S)C=C[C@]45CC[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[S:19])[CH2:20][CH2:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5>CCN(C(C)C)C(C)C.Cc1ccc(S(=O)Cl)cc1.ClCCl>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[C:18](=[S:19])[CH:20]=[CH:21][C@:22]45[CH2:23][CH2:24][C@:25]12[C@H:26]3[CH2:27]5",
+      "mapping_confidence": 0.9687679196340756,
+      "conditions": {
+        "raw_description": "p-toluenesulfinyl chloride; i-Pr2NEt; CH2Cl2; -20 to 80 \u00b0C; 4 h; 68%; sulfinylation then Cope elimination",
+        "GENERAL_REAGENTS": [
+          "i-Pr2NEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20",
+          "80"
+        ],
+        "YIELD": [
+          "68%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lundurine_B_2016_Echavarren_13",
+      "reaction_smiles": "COC(=O)N1c2ccc(OC)cc2[C@]23CCN4C(=S)C=C[C@]45CC[C@]12[C@H]3C5.CI.[BH4-].[Na+].CO>>COC(=O)N1c2ccc(OC)cc2[C@]23CCN4CC=C[C@]45CC[C@]12[C@H]3C5",
+      "reaction_smiles_mapped": "S=[C:18]1[N:17]2[CH2:16][CH2:15][C@@:14]34[c:13]5[c:6]([cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12]5)[N:5]([C:3]([O:2][CH3:1])=[O:4])[C@@:24]35[CH2:23][CH2:22][C@:21]2([CH:20]=[CH:19]1)[CH2:26][C@@H:25]45>CI.CO.[BH4-].[Na+]>[CH3:1][O:2][C:3](=[O:4])[N:5]1[c:6]2[cH:7][cH:8][c:9]([O:10][CH3:11])[cH:12][c:13]2[C@:14]23[CH2:15][CH2:16][N:17]4[CH2:18][CH:19]=[CH:20][C@:21]45[CH2:22][CH2:23][C@:24]12[C@H:25]3[CH2:26]5",
+      "mapping_confidence": 0.9538044528461666,
+      "conditions": {
+        "raw_description": "i. MeI; 50 \u00b0C; 2 h; ii. NaBH4; MeOH; 0 to 25 \u00b0C; 2.5 h; 72%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "NaBH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[BH4-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50",
+          "0",
+          "25"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    }
+  ]
+}

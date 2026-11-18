@@ -1,0 +1,436 @@
+{
+  "background": {
+    "name": "beta-Eudesmol",
+    "author": "Pike",
+    "year": 1965,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron Lett. 1965, 6, 3107",
+    "doi": "10.1016/S0040-4039(01)89230-3"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_1",
+      "reaction_smiles": "CC1CCCCC1=O.C=CC(C)=O.CC[O-].[Na+].CCO>>O=C1CCC2CCCC[C@@]2(O)C1",
+      "reaction_smiles_mapped": "C=[CH:3][C:2](=[O:1])[CH3:12].[CH3:4][CH:5]1[CH2:6][CH2:7][CH2:8][CH2:9][C:10]1=[O:11]>CC[O-].[Na+].CCO>[O:1]=[C:2]1[CH2:3][CH2:4][CH:5]2[CH2:6][CH2:7][CH2:8][CH2:9][C@@:10]2([OH:11])[CH2:12]1",
+      "mapping_confidence": 0.6041282072353196,
+      "conditions": {
+        "raw_description": "NaOEt; EtOH; -10 \u00b0C; 55%",
+        "GENERAL_REAGENTS": [
+          "NaOEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_2",
+      "reaction_smiles": "O=C1CCC2CCCC[C@@]2(O)C1.[K+].[OH-]>>C[C@]12CCCCC1=CC(=O)CC2",
+      "reaction_smiles_mapped": "O[C@@:2]12[CH2:1][CH2:3][CH2:5][CH2:6][CH:7]1[CH2:12][CH2:11][C:9](=[O:10])[CH2:8]2>[K+].[OH-]>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][CH2:6][C:7]1=[CH:8][C:9](=[O:10])[CH2:11][CH2:12]2",
+      "mapping_confidence": 0.8828392395912027,
+      "conditions": {
+        "raw_description": "KOH; 83 \u00b0C; 86%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "83"
+        ],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_3",
+      "reaction_smiles": "C[C@]12CCCCC1=CC(=O)CC2.Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1.OCCO>>C[C@]12CCCC=C1CC1(CC2)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][CH2:6][C:7]1=[CH:8][C:9](=[O:12])[CH2:10][CH2:11]2.O[CH2:13][CH2:14][OH:15]>Cc1ccc(S(=O)(=O)O)cc1.Cc1ccccc1>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][CH:6]=[C:7]1[CH2:8][C:9]1([CH2:10][CH2:11]2)[O:12][CH2:13][CH2:14][O:15]1",
+      "mapping_confidence": 0.45141154018823954,
+      "conditions": {
+        "raw_description": "(CH2OH)2; p-TSA; toluene; reflux",
+        "GENERAL_REAGENTS": [
+          "p-TSA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "(CH2OH)2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "OCCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_4",
+      "reaction_smiles": "C[C@]12CCCC=C1CC1(CC2)OCCO1.[BH4-].[Li+].OO.[Na+].[OH-].CCOCC.FB(F)F>>C[C@]12CCC[C@H](O)[C@H]1CC1(CC2)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][CH:6]=[C:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1.O[OH:7]>[BH4-].[Li+].[Na+].[OH-].CCOCC.FB(F)F>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C@H:6]([OH:7])[C@H:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1",
+      "mapping_confidence": 0.44281026827937364,
+      "conditions": {
+        "raw_description": "LiBH4; BF3.Et2O; Et2O; 0 \u00b0C; H2O2; NaOH; rt",
+        "GENERAL_REAGENTS": [
+          "LiBH4",
+          "H2O2",
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[BH4-]",
+          "OO",
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "BF3.Et2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "B(F)(F)F.CCOCC"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_5",
+      "reaction_smiles": "C[C@]12CCC[C@H](O)[C@H]1CC1(CC2)OCCO1.O=[Cr](=O)(O)O.CC(C)=O>>C[C@]12CCCC(=O)[C@H]1CC1(CC2)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C@H:6]([OH:7])[C@H:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1>O=[Cr](=O)(O)O.CC(C)=O>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[C@H:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1",
+      "mapping_confidence": 0.9117806471036803,
+      "conditions": {
+        "raw_description": "H2CrO4; acetone; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2CrO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O[Cr](O)(=O)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_6",
+      "reaction_smiles": "C[C@]12CCCC(=O)[C@H]1CC1(CC2)OCCO1.Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>>C[C@]12CCCC(=O)[C@@H]1CC1(CC2)OCCO1",
+      "reaction_smiles_mapped": "[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[C@H:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1>Cc1ccc(S(=O)(=O)O)cc1.c1ccccc1>[CH3:1][C@:2]12[CH2:3][CH2:4][CH2:5][C:6](=[O:7])[C@@H:8]1[CH2:9][C:10]1([CH2:11][CH2:12]2)[O:13][CH2:14][CH2:15][O:16]1",
+      "mapping_confidence": 0.9115572818122758,
+      "conditions": {
+        "raw_description": "p-TSA; benzene; reflux",
+        "GENERAL_REAGENTS": [
+          "p-TSA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_7",
+      "reaction_smiles": "C[C@]12CCCC(=O)[C@@H]1CC1(CC2)OCCO1.C=P(c1ccccc1)(c1ccccc1)c1ccccc1.CS(C)=O>>C=C1CCC[C@]2(C)CCC3(C[C@@H]12)OCCO3",
+      "reaction_smiles_mapped": "c1ccc(P(c2ccccc2)(c2ccccc2)=[CH2:1])cc1.O=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C:10]3([CH2:11][C@@H:12]12)[O:13][CH2:14][CH2:15][O:16]3>CS(C)=O>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C:10]3([CH2:11][C@@H:12]12)[O:13][CH2:14][CH2:15][O:16]3",
+      "mapping_confidence": 0.8722172843935087,
+      "conditions": {
+        "raw_description": "DMSO; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_8",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CCC3(C[C@@H]12)OCCO3.Cl.CC(C)=O>>C=C1CCC[C@]2(C)CCC(=O)C[C@@H]12",
+      "reaction_smiles_mapped": "C1C[O:11][C:10]2(O1)[CH2:9][CH2:8][C@@:6]1([CH3:7])[CH2:5][CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:13]1[CH2:12]2>Cl.CC(C)=O>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]12",
+      "mapping_confidence": 0.8947910463929256,
+      "conditions": {
+        "raw_description": "HCl; acetone; rt; 25% (7 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "25% (7 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_9",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CCC(=O)C[C@@H]12.[AlH4-].[Li+].C1CCOC1>>C=C1CCC[C@]2(C)CC[C@@H](O)C[C@@H]12",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C:10](=[O:11])[CH2:12][C@@H:13]12>[AlH4-].[Li+].C1CCOC1>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([OH:11])[CH2:12][C@@H:13]12",
+      "mapping_confidence": 0.9870312786359943,
+      "conditions": {
+        "raw_description": "LAH; THF; rt",
+        "GENERAL_REAGENTS": [
+          "LAH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_10",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CC[C@@H](O)C[C@@H]12.Cc1ccc(S(=O)(=O)Cl)cc1.c1ccncc1>>C=C1CCC[C@]2(C)CC[C@@H](OS(=O)(=O)c3ccc(C)cc3)C[C@@H]12",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([OH:11])[CH2:22][C@@H:23]12.Cl[S:12](=[O:13])(=[O:14])[c:15]1[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]1>c1ccncc1>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([O:11][S:12](=[O:13])(=[O:14])[c:15]3[cH:16][cH:17][c:18]([CH3:19])[cH:20][cH:21]3)[CH2:22][C@@H:23]12",
+      "mapping_confidence": 0.44011121543307347,
+      "conditions": {
+        "raw_description": "TsCl; pyridine; rt",
+        "GENERAL_REAGENTS": [
+          "TsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_11",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CC[C@@H](OS(=O)(=O)c3ccc(C)cc3)C[C@@H]12.[C-]#N.[K+].CN1CCCC1=O>>C=C1CCC[C@]2(C)CC[C@H](C#N)C[C@@H]12",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[C@@H:10]2[CH2:9][CH2:8][C@@:6]3([CH3:7])[CH2:5][CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:14]3[CH2:13]2)cc1.[C-:11]#[N:12]>[K+].CN1CCCC1=O>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@H:10]([C:11]#[N:12])[CH2:13][C@@H:14]12",
+      "mapping_confidence": 0.9808206826349449,
+      "conditions": {
+        "raw_description": "KCN; NMP; rt",
+        "GENERAL_REAGENTS": [
+          "KCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_12",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CC[C@H](C#N)C[C@@H]12.O.[K+].[OH-].OCCO>>C=C1CCC[C@]2(C)CC[C@@H](C(=O)O)C[C@@H]12",
+      "reaction_smiles_mapped": "N#[C:11][C@H:10]1[CH2:9][CH2:8][C@@:6]2([CH3:7])[CH2:5][CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:15]2[CH2:14]1.[OH2:12].[OH-:13]>OCCO.[K+]>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([C:11](=[O:12])[OH:13])[CH2:14][C@@H:15]12",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "(CH2OH)2; KOH; 150 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "(CH2OH)2"
+        ],
+        "SOLVENTS_SMILES": [
+          "OCCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_13",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CC[C@@H](C(=O)O)C[C@@H]12.C=[N+]=[N-].Cc1ccccc1>>C=C1CCC[C@]2(C)CC[C@@H](C(=O)OC)C[C@@H]12",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([C:11](=[O:12])[OH:13])[CH2:15][C@@H:16]12.[N-]=[N+]=[CH2:14]>Cc1ccccc1>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([C:11](=[O:12])[O:13][CH3:14])[CH2:15][C@@H:16]12",
+      "mapping_confidence": 0.6455132503616959,
+      "conditions": {
+        "raw_description": "CH2N2; toluene; rt",
+        "GENERAL_REAGENTS": [
+          "CH2N2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C=[N+]=[N-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "beta-Eudesmol_1965_Pike_14",
+      "reaction_smiles": "C=C1CCC[C@]2(C)CC[C@@H](C(=O)OC)C[C@@H]12.[Li]C.[Li]C.CCOCC>>C=C1CCC[C@]2(C)CC[C@@H](C(C)(C)O)C[C@@H]12",
+      "reaction_smiles_mapped": "CO[C:11]([C@@H:10]1[CH2:9][CH2:8][C@@:6]2([CH3:7])[CH2:5][CH2:4][CH2:3][C:2](=[CH2:1])[C@@H:16]2[CH2:15]1)=[O:14].[Li][CH3:13].[Li][CH3:12]>CCOCC>[CH2:1]=[C:2]1[CH2:3][CH2:4][CH2:5][C@:6]2([CH3:7])[CH2:8][CH2:9][C@@H:10]([C:11]([CH3:12])([CH3:13])[OH:14])[CH2:15][C@@H:16]12",
+      "mapping_confidence": 0.1897230788908546,
+      "conditions": {
+        "raw_description": "MeLi; Et2O; reflux",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

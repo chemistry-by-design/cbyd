@@ -1,0 +1,319 @@
+{
+  "background": {
+    "name": "(+/-)-Longifolene",
+    "author": "Johnson",
+    "year": 1975,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1975, 97, 4777",
+    "doi": "10.1021/ja00849a062"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Longifolene_1975_Johnson_1",
+      "reaction_smiles": "CC(C)=C1CCCC1=O.[Li][Cu](CCCC#CC)CCCC#CC.CC(=O)Cl>>CC#CCCCC(C)(C)C1=C(OC(C)=O)CCC1",
+      "reaction_smiles_mapped": "Cl[C:13]([CH3:14])=[O:15].[C:7]([CH3:8])([CH3:9])=[C:10]1[C:11](=[O:12])[CH2:16][CH2:17][CH2:18]1.[Li][Cu](CCCC#CC)[CH2:6][CH2:5][CH2:4][C:3]#[C:2][CH3:1]>>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[C:11]([O:12][C:13]([CH3:14])=[O:15])[CH2:16][CH2:17][CH2:18]1",
+      "mapping_confidence": 0.42187825466679596,
+      "conditions": {
+        "raw_description": "1) CuLi[(CH2)3CCMe]2; 2) AcCl; 84%",
+        "GENERAL_REAGENTS": [
+          "AcCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_2",
+      "reaction_smiles": "CC#CCCCC(C)(C)C1=C(OC(C)=O)CCC1.[Li]C.BrBr>>CC#CCCCC(C)(C)C1(Br)CCCC1=O",
+      "reaction_smiles_mapped": "Br[Br:11].CC(=O)[O:16][C:15]1=[C:10]([C:7]([CH2:6][CH2:5][CH2:4][C:3]#[C:2][CH3:1])([CH3:8])[CH3:9])[CH2:12][CH2:13][CH2:14]1>[Li]C>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1([Br:11])[CH2:12][CH2:13][CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.3837481978042789,
+      "conditions": {
+        "raw_description": "1) MeLi; 2) Br2",
+        "GENERAL_REAGENTS": [
+          "MeLi",
+          "Br2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C",
+          "BrBr"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_3",
+      "reaction_smiles": "CC#CCCCC(C)(C)C1(Br)CCCC1=O.C[N+](C)(C)C.Cc1cc(C)c(C(=O)[O-])c(C)c1>>CC#CCCCC(C)(C)C1=CCCC1=O",
+      "reaction_smiles_mapped": "Br[C:10]1([C:7]([CH2:6][CH2:5][CH2:4][C:3]#[C:2][CH3:1])([CH3:8])[CH3:9])[CH2:11][CH2:12][CH2:13][C:14]1=[O:15]>C[N+](C)(C)C.Cc1cc(C)c(C(=O)[O-])c(C)c1>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[CH:11][CH2:12][CH2:13][C:14]1=[O:15]",
+      "mapping_confidence": 0.7505388534196675,
+      "conditions": {
+        "raw_description": "NMe4+MesCO2-; 76%",
+        "GENERAL_REAGENTS": [
+          "NMe4+",
+          "MesCO2-"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N+](C)(C)(C)C",
+          "Cc1cc(C)c(C([O-])=O)c(C)c1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_4",
+      "reaction_smiles": "CC#CCCCC(C)(C)C1=CCCC1=O.[AlH4-].[Li+]>>CC#CCCCC(C)(C)C1=CCCC1O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[CH:11][CH2:12][CH2:13][C:14]1=[O:15]>[AlH4-].[Li+]>[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[CH:11][CH2:12][CH2:13][CH:14]1[OH:15]",
+      "mapping_confidence": 0.7354052899590161,
+      "conditions": {
+        "raw_description": "LiAlH4; 92%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_5",
+      "reaction_smiles": "CC#CCCCC(C)(C)C1=CCCC1O.O=C(O)C(F)(F)F.CCOCC>>CC1=C2CCCC(C)(C)C3(O)C1CC[C@H]23",
+      "reaction_smiles_mapped": "[CH3:1][C:2]#[C:3][CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]1=[CH:12][CH2:13][CH2:14][CH:15]1[OH:11]>O=C(O)C(F)(F)F.CCOCC>[CH3:1][C:2]1=[C:3]2[CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[C:10]3([OH:11])[CH:12]1[CH2:13][CH2:14][C@H:15]23",
+      "mapping_confidence": 0.47533024686133907,
+      "conditions": {
+        "raw_description": "TFA; ether; 75%",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(F)(F)F)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "ether"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_6",
+      "reaction_smiles": "CC1=C2CCCC(C)(C)C3(O)C1CC[C@H]23.[BH3-]C#N.[Na+].Br[Zn]Br>>CC1=C2CCCC(C)(C)C3C1CC[C@H]23",
+      "reaction_smiles_mapped": "O[C:10]12[C:7]([CH3:8])([CH3:9])[CH2:6][CH2:5][CH2:4][C:3]3=[C:2]([CH3:1])[CH:11]1[CH2:12][CH2:13][C@H:14]32>[BH3-]C#N.[Na+].Br[Zn]Br>[CH3:1][C:2]1=[C:3]2[CH2:4][CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[CH:10]3[CH:11]1[CH2:12][CH2:13][C@H:14]23",
+      "mapping_confidence": 0.8097164158575653,
+      "conditions": {
+        "raw_description": "ZnBr2; NaBH3CN",
+        "GENERAL_REAGENTS": [
+          "NaBH3CN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[BH3-]C#N.[Na+]"
+        ],
+        "CATALYSTS": [
+          "ZnBr2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn](Br)Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_7",
+      "reaction_smiles": "CC1=C2CCCC(C)(C)C3C1CC[C@H]23.Cc1ccc(S(=O)(=O)O)cc1>>C=C1C2CC[C@H]3C2C(C)(C)CCC[C@H]13",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1=[C:14]2[C@H:6]3[CH2:5][CH2:4][CH:3]1[CH:7]3[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13]2>Cc1ccc(S(=O)(=O)O)cc1>[CH2:1]=[C:2]1[CH:3]2[CH2:4][CH2:5][C@H:6]3[CH:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13][C@H:14]13",
+      "mapping_confidence": 0.7594715332774247,
+      "conditions": {
+        "raw_description": "PTSA",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PTSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_8",
+      "reaction_smiles": "C=C1C2CC[C@H]3C2C(C)(C)CCC[C@H]13.[O-][I+](O)(O)(O)(O)O.[Na+].[O-][I+3]([O-])([O-])[O-].O=[Ru]=O.O.CC(C)(C)O>>CC1(C)CCC[C@@H]2C(=O)C3CC[C@H]2C31",
+      "reaction_smiles_mapped": "C=[C:8]1[C@H:7]2[CH2:6][CH2:5][CH2:4][C:2]([CH3:1])([CH3:3])[CH:14]3[CH:10]1[CH2:11][CH2:12][C@H:13]23.O[I+](O)(O)(O)(O)[O-:9]>[Na+].O.CC(C)(C)O.O=[Ru]=O.[O-][I+3]([O-])([O-])[O-]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@H:7]2[C:8](=[O:9])[CH:10]3[CH2:11][CH2:12][C@H:13]2[CH:14]13",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "cat. RuO2; H2O-t-BuOH; H5IO6-NaIO4; 72%",
+        "GENERAL_REAGENTS": [
+          "H5IO6",
+          "NaIO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OI(=O)(O)(O)(O)O",
+          "[O-]I(=O)(=O)=O.[Na+]"
+        ],
+        "CATALYSTS": [
+          "RuO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Ru]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_9",
+      "reaction_smiles": "CC1(C)CCC[C@@H]2C(=O)C3CC[C@H]2C31.CI.[Li]N(C(C)C)C(C)C>>CC1(C)CCC[C@]2(C)C(=O)C3CC[C@H]2C31",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@H:7]2[C:9](=[O:10])[CH:11]3[CH2:12][CH2:13][C@H:14]2[CH:15]13.I[CH3:8]>[Li]N(C(C)C)C(C)C>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@:7]2([CH3:8])[C:9](=[O:10])[CH:11]3[CH2:12][CH2:13][C@H:14]2[CH:15]13",
+      "mapping_confidence": 0.8446679174518639,
+      "conditions": {
+        "raw_description": "1) LDA; 2) MeI; 84%",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_10",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)C(=O)C3CC[C@H]2C31.[Li]C>>CC1(C)CCC[C@@]2(C)[C@H]3CCC(C31)C2(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]2([CH3:8])[C@H:9]3[CH2:10][CH2:11][CH:12]([CH:13]13)[C:14]2=[O:16].[Li][CH3:15]>>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][CH2:6][C@@:7]2([CH3:8])[C@H:9]3[CH2:10][CH2:11][CH:12]([CH:13]13)[C:14]2([CH3:15])[OH:16]",
+      "mapping_confidence": 0.8200405897676141,
+      "conditions": {
+        "raw_description": "MeLi",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Longifolene_1975_Johnson_11",
+      "reaction_smiles": "CC1(C)CCC[C@@]2(C)[C@H]3CCC(C31)C2(C)O.O=S(Cl)Cl.c1ccncc1>>C=C1C2CC[C@H]3C2C(C)(C)CCC[C@]13C",
+      "reaction_smiles_mapped": "O[C:2]1([CH3:1])[CH:3]2[CH2:4][CH2:5][C@H:6]3[CH:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13][C@:14]13[CH3:15]>O=S(Cl)Cl.c1ccncc1>[CH2:1]=[C:2]1[CH:3]2[CH2:4][CH2:5][C@H:6]3[CH:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13][C@:14]13[CH3:15]",
+      "mapping_confidence": 0.7193093418446043,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

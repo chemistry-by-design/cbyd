@@ -1,0 +1,507 @@
+{
+  "background": {
+    "name": "Lycoramine",
+    "author": "Xu",
+    "year": 2020,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2020, 22, 1244",
+    "doi": "10.1021/acs.orglett.9b04337"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lycoramine_2020_Xu_1",
+      "reaction_smiles": "COc1ccc(Br)cc1O.COCBr.CCN(C(C)C)C(C)C.ClCCl>>COCOc1cc(Br)ccc1OC",
+      "reaction_smiles_mapped": "Br[CH2:3][O:2][CH3:1].[OH:4][c:5]1[cH:6][c:7]([Br:8])[cH:9][cH:10][c:11]1[O:12][CH3:13]>CCN(C(C)C)C(C)C.ClCCl>[CH3:1][O:2][CH2:3][O:4][c:5]1[cH:6][c:7]([Br:8])[cH:9][cH:10][c:11]1[O:12][CH3:13]",
+      "mapping_confidence": 0.9924790188788778,
+      "conditions": {
+        "raw_description": "MOMBr; DIPEA; DCM; 0 \u00b0C to rt; 99%",
+        "GENERAL_REAGENTS": [
+          "MOMBr",
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COCBr",
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_2",
+      "reaction_smiles": "COCOc1cc(Br)ccc1OC.[Li]OC=C.CC1(C)CCCC(C)(C)[N-]1.[Li+].C1CCOC1>>COCOc1c(OC)ccc2c1C(O)C2",
+      "reaction_smiles_mapped": "Br[c:11]1[cH:10][cH:9][c:6]([O:7][CH3:8])[c:5]([O:4][CH2:3][O:2][CH3:1])[cH:12]1.[Li][O:14][CH:13]=[CH2:15]>C1CCOC1.CC1(C)CCCC(C)(C)[N-]1.[Li+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[c:6]([O:7][CH3:8])[cH:9][cH:10][c:11]2[c:12]1[CH:13]([OH:14])[CH2:15]2",
+      "mapping_confidence": 0.7052345957358419,
+      "conditions": {
+        "raw_description": "LiTMP; THF; -78 \u00b0C; 64%",
+        "GENERAL_REAGENTS": [
+          "LiTMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].CC1(CCCC([N-]1)(C)C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_3",
+      "reaction_smiles": "COCOc1c(OC)ccc2c1C(O)C2.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C([O-])O.[Na+].ClCCl>>COCOc1c(OC)ccc2c1C(=O)C2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH2:3][O:4][c:5]1[c:6]([O:7][CH3:8])[cH:9][cH:10][c:11]2[c:12]1[CH:13]([OH:14])[CH2:15]2>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl.O=C([O-])O.[Na+]>[CH3:1][O:2][CH2:3][O:4][c:5]1[c:6]([O:7][CH3:8])[cH:9][cH:10][c:11]2[c:12]1[C:13](=[O:14])[CH2:15]2",
+      "mapping_confidence": 0.967824313163389,
+      "conditions": {
+        "raw_description": "DMP; NaHCO3; CH2Cl2; rt; 79%",
+        "GENERAL_REAGENTS": [
+          "DMP",
+          "NaHCO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O",
+          "C(=O)(O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "79%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_4",
+      "reaction_smiles": "COCOc1c(OC)ccc2c1C(=O)C2.Cl.CC(C)=O.CO>>COc1ccc2c(c1O)C(=O)C2",
+      "reaction_smiles_mapped": "COC[O:9][c:8]1[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]2[c:7]1[C:10](=[O:11])[CH2:12]2>CC(C)=O.CO.Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[OH:9])[C:10](=[O:11])[CH2:12]2",
+      "mapping_confidence": 0.9669492597337496,
+      "conditions": {
+        "raw_description": "HCl; acetone; MeOH; 45 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_5",
+      "reaction_smiles": "COc1ccc2c(c1O)C(=O)C2.O=C1CCC2(CC1Br)OCCO2.O=C([O-])[O-].[K+].[K+].CN(C)C=O>>C=C1CCC2(CC1Oc1c(OC)ccc3c1C(=O)C3)OCCO2",
+      "reaction_smiles_mapped": "CN(C)[CH:1]=O.[OH:8][c:9]1[c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]2[c:16]1[C:17](=[O:18])[CH2:19]2.O=[C:2]1[CH2:3][CH2:4][C:5]2([CH2:6][CH:7]1Br)[O:20][CH2:21][CH2:22][O:23]2>O=C([O-])[O-].[K+].[K+]>[CH2:1]=[C:2]1[CH2:3][CH2:4][C:5]2([CH2:6][CH:7]1[O:8][c:9]1[c:10]([O:11][CH3:12])[cH:13][cH:14][c:15]3[c:16]1[C:17](=[O:18])[CH2:19]3)[O:20][CH2:21][CH2:22][O:23]2",
+      "mapping_confidence": 0.5641100822905356,
+      "conditions": {
+        "raw_description": "K2CO3; DMF; 80 \u00b0C; 93% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "93% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_6",
+      "reaction_smiles": "C=C1CCC2(CC1Oc1c(OC)ccc3c1C(=O)C3)OCCO2.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Cl+]1[Rh-][Cl+][Rh-]1.Fc1c(F)c(F)c(P(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F.C1CCOC1>>COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)C2)OCCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]([c:8]1[O:9][CH:10]1[CH2:11][C:12]3([CH2:13][CH2:14][C:15]1=[CH2:16])[O:20][CH2:21][CH2:22][O:23]3)[C:17](=[O:18])[CH2:19]2>C1CCOC1.Fc1c(F)c(F)c(P(c2c(F)c(F)c(F)c(F)c2F)c2c(F)c(F)c(F)c(F)c2F)c(F)c1F.[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Cl+]1[Rh-][Cl+][Rh-]1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16][C:17](=[O:18])[CH2:19]2)[O:20][CH2:21][CH2:22][O:23]4",
+      "mapping_confidence": 0.9492681751704098,
+      "conditions": {
+        "raw_description": "[Rh(CO)2Cl]2; P(C6F5)3; THF; 130 \u00b0C; 77%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "[Rh(CO)2Cl]2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[C-]#[O+].[C-]#[O+].[C-]#[O+].[C-]#[O+].[Cl+]1[Rh-][Cl+][Rh-]1"
+        ],
+        "LIGANDS": [
+          "P(C6F5)3"
+        ],
+        "LIGANDS_SMILES": [
+          "P(c1c(F)c(F)c(F)c(F)c1F)(c2c(F)c(F)c(F)c(F)c2F)c3c(F)c(F)c(F)c(F)c3F"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "130"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_7",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)C2)OCCO4.NO.CC(=O)[O-].[Na+].CO>>COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31C/C(=N\\O)C2)OCCO4",
+      "reaction_smiles_mapped": "O=[C:17]1[CH2:16][C@:15]23[c:7]4[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]4[O:9][C@H:10]2[CH2:11][C:12]2([CH2:13][CH2:14]3)[O:21][CH2:22][CH2:23][O:24]2)[CH2:20]1.[NH2:18][OH:19]>CC(=O)[O-].CO.[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16]/[C:17](=[N:18]\\[OH:19])[CH2:20]2)[O:21][CH2:22][CH2:23][O:24]4",
+      "mapping_confidence": 0.9787008232421206,
+      "conditions": {
+        "raw_description": "NH2OH; NaOAc; MeOH; rt; 46%",
+        "GENERAL_REAGENTS": [
+          "NH2OH",
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO",
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "46%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_8",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31C/C(=N\\O)C2)OCCO4.Cc1ccc(S(=O)(=O)Cl)cc1.CN(C)c1ccncc1.CCN(CC)CC.ClCCl>>COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31C/C(=N\\OS(=O)(=O)c1ccc(C)cc1)C2)OCCO4",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16]/[C:17](=[N:18]\\[OH:19])[CH2:30]2)[O:31][CH2:32][CH2:33][O:34]4.Cl[S:20](=[O:21])(=[O:22])[c:23]1[cH:24][cH:25][c:26]([CH3:27])[cH:28][cH:29]1>CCN(CC)CC.CN(C)c1ccncc1.ClCCl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16]/[C:17](=[N:18]\\[O:19][S:20](=[O:21])(=[O:22])[c:23]1[cH:24][cH:25][c:26]([CH3:27])[cH:28][cH:29]1)[CH2:30]2)[O:31][CH2:32][CH2:33][O:34]4",
+      "mapping_confidence": 0.4752791226094294,
+      "conditions": {
+        "raw_description": "TsCl; NEt3; DMAP; DCM; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "TsCl",
+          "DMAP",
+          "NEt3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CN(C)C1=CC=NC=C1",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_9",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31C/C(=N\\OS(=O)(=O)c1ccc(C)cc1)C2)OCCO4.C1CCOC1.O>>COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)NC2)OCCO4",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O/[N:19]=[C:17]2\\[CH2:16][C@:15]34[c:7]5[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]5[O:9][C@H:10]3[CH2:11][C:12]3([CH2:13][CH2:14]4)[O:21][CH2:22][CH2:23][O:24]3)[CH2:20]2)cc1.[OH2:18]>C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16][C:17](=[O:18])[NH:19][CH2:20]2)[O:21][CH2:22][CH2:23][O:24]4",
+      "mapping_confidence": 0.5155077794425826,
+      "conditions": {
+        "raw_description": "THF/H2O; 30 \u00b0C; 63% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "30"
+        ],
+        "YIELD": [
+          "63% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_10",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)NC2)OCCO4.[H-].[Na+].CI.C1CCOC1>>COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)N(C)C2)OCCO4",
+      "reaction_smiles_mapped": "I[CH3:20].[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16][C:17](=[O:18])[NH:19][CH2:21]2)[O:22][CH2:23][CH2:24][O:25]4>C1CCOC1.[H-].[Na+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12]4([CH2:13][CH2:14][C@@:15]31[CH2:16][C:17](=[O:18])[N:19]([CH3:20])[CH2:21]2)[O:22][CH2:23][CH2:24][O:25]4",
+      "mapping_confidence": 0.9501138545734117,
+      "conditions": {
+        "raw_description": "NaH; MeI; THF; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_11",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC4(CC[C@@]31CC(=O)N(C)C2)OCCO4.Cl.CC(C)=O>>COc1ccc2c3c1O[C@H]1CC(=O)CC[C@@]31CC(=O)N(C)C2",
+      "reaction_smiles_mapped": "C1C[O:13][C:12]2(O1)[CH2:11][C@@H:10]1[O:9][c:8]3[c:3]([O:2][CH3:1])[cH:4][cH:5][c:6]4[c:7]3[C@@:16]1([CH2:15][CH2:14]2)[CH2:17][C:18](=[O:19])[N:20]([CH3:21])[CH2:22]4>CC(C)=O.Cl>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12](=[O:13])[CH2:14][CH2:15][C@@:16]31[CH2:17][C:18](=[O:19])[N:20]([CH3:21])[CH2:22]2",
+      "mapping_confidence": 0.9657874437202834,
+      "conditions": {
+        "raw_description": "HCl; acetone; rt; 78% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_12",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1CC(=O)CC[C@@]31CC(=O)N(C)C2.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+].C1CCOC1>>COc1ccc2c3c1O[C@H]1C[C@@H](O)CC[C@@]31CC(=O)N(C)C2",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C:12](=[O:13])[CH2:14][CH2:15][C@@:16]31[CH2:17][C:18](=[O:19])[N:20]([CH3:21])[CH2:22]2>C1CCOC1.CCC(C)[BH-](C(C)CC)C(C)CC.[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[CH2:14][CH2:15][C@@:16]31[CH2:17][C:18](=[O:19])[N:20]([CH3:21])[CH2:22]2",
+      "mapping_confidence": 0.9922617396294287,
+      "conditions": {
+        "raw_description": "L-selectride; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "L-selectride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].CCC(C)[BH-](C(C)CC)C(C)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_13",
+      "reaction_smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)CC[C@@]31CC(=O)N(C)C2.[AlH4-].[Li+].C1CCOC1>>COc1ccc2c3c1O[C@H]1C[C@@H](O)CC[C@@]31CCN(C)C2",
+      "reaction_smiles_mapped": "O=[C:18]1[CH2:17][C@:16]23[c:7]4[c:6]([cH:5][cH:4][c:3]([O:2][CH3:1])[c:8]4[O:9][C@H:10]2[CH2:11][C@@H:12]([OH:13])[CH2:14][CH2:15]3)[CH2:21][N:19]1[CH3:20]>C1CCOC1.[AlH4-].[Li+]>[CH3:1][O:2][c:3]1[cH:4][cH:5][c:6]2[c:7]3[c:8]1[O:9][C@H:10]1[CH2:11][C@@H:12]([OH:13])[CH2:14][CH2:15][C@@:16]31[CH2:17][CH2:18][N:19]([CH3:20])[CH2:21]2",
+      "mapping_confidence": 0.9878834688482726,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; -78 \u00b0C to reflux; 59% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "59% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_14",
+      "reaction_smiles": "O=C1CCC2(CC1)OCCO2.[Li]N([Si](C)(C)C)[Si](C)(C)C.C[Si](C)(C)Cl.C1CCOC1>>C[Si](C)(C)OC1=CCC2(CC1)OCCO2",
+      "reaction_smiles_mapped": "Cl[Si:2]([CH3:1])([CH3:3])[CH3:4].[O:5]=[C:6]1[CH2:7][CH2:8][C:9]2([CH2:10][CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2>C1CCOC1.[Li]N([Si](C)(C)C)[Si](C)(C)C>[CH3:1][Si:2]([CH3:3])([CH3:4])[O:5][C:6]1=[CH:7][CH2:8][C:9]2([CH2:10][CH2:11]1)[O:12][CH2:13][CH2:14][O:15]2",
+      "mapping_confidence": 0.16025379069180182,
+      "conditions": {
+        "raw_description": "LiHMDS; TMSCl; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiHMDS",
+          "TMSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)N([Li])[Si](C)(C)C",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycoramine_2020_Xu_15",
+      "reaction_smiles": "C[Si](C)(C)OC1=CCC2(CC1)OCCO2.O=C1CCC(=O)N1Br.CC(=O)[O-].[Na+].C1CCOC1.O>>O=C1CCC2(CC1Br)OCCO2",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:1][C:2]1=[CH:3][CH2:4][C:5]2([CH2:6][CH2:7]1)[O:9][CH2:10][CH2:11][O:12]2.O=C1CCC(=O)N1[Br:8]>C1CCOC1.CC(=O)[O-].O.[Na+]>[O:1]=[C:2]1[CH2:3][CH2:4][C:5]2([CH2:6][CH:7]1[Br:8])[O:9][CH2:10][CH2:11][O:12]2",
+      "mapping_confidence": 0.5524122700551888,
+      "conditions": {
+        "raw_description": "NBS; NaOAc; THF/H2O; rt",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "background": {
+    "name": "(+/-)-Merochlorin A",
+    "author": "George",
+    "year": 2013,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Angew. Chem. Int. Ed. 2013, 52, 12170",
+    "doi": "10.1002/anie.201307200"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Merochlorin_A_2013_George_1",
+      "reaction_smiles": "COC(=O)Cc1cc(OC)cc(OC)c1.O=C(Cl)CCl.Cl[Sn](Cl)(Cl)Cl.ClCCCl>>COC(=O)Cc1cc(OC)cc(OC)c1C(=O)CCl",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[CH2:5][c:6]1[cH:7][c:8]([O:9][CH3:10])[cH:11][c:12]([O:13][CH3:14])[cH:15]1.Cl[C:16](=[O:17])[CH2:18][Cl:19]>Cl[Sn](Cl)(Cl)Cl.ClCCCl>[CH3:1][O:2][C:3](=[O:4])[CH2:5][c:6]1[cH:7][c:8]([O:9][CH3:10])[cH:11][c:12]([O:13][CH3:14])[c:15]1[C:16](=[O:17])[CH2:18][Cl:19]",
+      "mapping_confidence": 0.8714875219317366,
+      "conditions": {
+        "raw_description": "ClCH2COCl; SnCl4; CH2ClCH2Cl; 55 \u00b0C; 56%",
+        "GENERAL_REAGENTS": [
+          "ClCH2COCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [
+          "SnCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Sn](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2ClCH2Cl"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(CCl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55"
+        ],
+        "YIELD": [
+          "56%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merochlorin_A_2013_George_2",
+      "reaction_smiles": "COC(=O)Cc1cc(OC)cc(OC)c1C(=O)CCl.CC(C)=CCC/C(C)=C/CC(CBr)=C(C)C.C[O-].[Na+].CO>>COc1cc(OC)c2c(O)c(Cl)c(O)c(CC(CC=C(C)CCC=C(C)C)=C(C)C)c2c1",
+      "reaction_smiles_mapped": "Br[CH2:16][C:17]([CH2:18]/[CH:19]=[C:20](\\[CH3:21])[CH2:22][CH2:23][CH:24]=[C:25]([CH3:26])[CH3:27])=[C:28]([CH3:29])[CH3:30].CO[C:13](=[O:14])[CH2:15][c:31]1[c:8]([C:9](=[O:10])[CH2:11][Cl:12])[c:5]([O:6][CH3:7])[cH:4][c:3]([O:2][CH3:1])[cH:32]1>C[O-].[Na+].CO>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]2[c:9]([OH:10])[c:11]([Cl:12])[c:13]([OH:14])[c:15]([CH2:16][C:17]([CH2:18][CH:19]=[C:20]([CH3:21])[CH2:22][CH2:23][CH:24]=[C:25]([CH3:26])[CH3:27])=[C:28]([CH3:29])[CH3:30])[c:31]2[cH:32]1",
+      "mapping_confidence": 0.5808859295904961,
+      "conditions": {
+        "raw_description": "NaOMe; MeOH; 0 \u00b0C; 54%",
+        "GENERAL_REAGENTS": [
+          "NaOMe"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merochlorin_A_2013_George_3",
+      "reaction_smiles": "COc1cc(OC)c2c(O)c(Cl)c(O)c(CC(CC=C(C)CCC=C(C)C)=C(C)C)c2c1.CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].ClC(Cl)Cl>>COc1cc(OC)c2c(c1)[C@]13CC(=C(C)C)CC1[C@](C)(CCC=C(C)C)C(Cl)(C2=O)C3=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]2[c:9]([cH:10]1)[c:11]([CH2:12][C:13](=[C:14]([CH3:15])[CH3:16])[CH2:17][CH:18]=[C:19]([CH3:20])[CH2:21][CH2:22][CH:23]=[C:24]([CH3:25])[CH3:26])[c:31]([OH:32])[c:27]([Cl:28])[c:29]2[OH:30]>CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+4].ClC(Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][c:5]([O:6][CH3:7])[c:8]2[c:9]([cH:10]1)[C@:11]13[CH2:12][C:13](=[C:14]([CH3:15])[CH3:16])[CH2:17][CH:18]1[C@:19]([CH3:20])([CH2:21][CH2:22][CH:23]=[C:24]([CH3:25])[CH3:26])[C:27]([Cl:28])([C:29]2=[O:30])[C:31]3=[O:32]",
+      "mapping_confidence": 0.47495012533349196,
+      "conditions": {
+        "raw_description": "Pb(OAc)4; CHCl3; -40\u00b0C to rt; 50%",
+        "GENERAL_REAGENTS": [
+          "Pb(OAc)4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Pb+4].[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C.[O-]C(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-40",
+          "rt"
+        ],
+        "YIELD": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merochlorin_A_2013_George_4",
+      "reaction_smiles": "COc1cc(OC)c2c(c1)[C@]13CC(=C(C)C)CC1[C@](C)(CCC=C(C)C)C(Cl)(C2=O)C3=O.[Cl-].[Li+].CN(C)C=O>>CC(C)=CCC[C@@]1(C)C2CC(=C(C)C)C[C@]23C(=O)C1(Cl)C(=O)c1c(O)cc(O)cc13",
+      "reaction_smiles_mapped": "C[O:25][c:24]1[c:23]2[c:30]([cH:29][c:27]([O:28]C)[cH:26]1)[C@:16]13[CH:9]([C@@:7]([CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])([CH3:8])[C:19]([Cl:20])([C:17]1=[O:18])[C:21]2=[O:22])[CH2:10][C:11](=[C:12]([CH3:13])[CH3:14])[CH2:15]3>[Cl-].[Li+].CN(C)C=O>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6][C@@:7]1([CH3:8])[CH:9]2[CH2:10][C:11](=[C:12]([CH3:13])[CH3:14])[CH2:15][C@:16]23[C:17](=[O:18])[C:19]1([Cl:20])[C:21](=[O:22])[c:23]1[c:24]([OH:25])[cH:26][c:27]([OH:28])[cH:29][c:30]13",
+      "mapping_confidence": 0.6151653189324575,
+      "conditions": {
+        "raw_description": "LiCl; DMF; 150 \u00b0C; 25%",
+        "GENERAL_REAGENTS": [
+          "LiCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[Cl-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "150"
+        ],
+        "YIELD": [
+          "25%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merochlorin_A_2013_George_5",
+      "reaction_smiles": "C=C(C/C=C(\\C)CCC=C(C)C)C(C)=O.[Li]C.CCOCC>>C=C(C/C=C(\\C)CCC=C(C)C)C(C)(C)O",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH2:3]/[CH:4]=[C:5](\\[CH3:6])[CH2:7][CH2:8][CH:9]=[C:10]([CH3:11])[CH3:12])[C:13]([CH3:14])=[O:16].[Li][CH3:15]>CCOCC>[CH2:1]=[C:2]([CH2:3]/[CH:4]=[C:5](\\[CH3:6])[CH2:7][CH2:8][CH:9]=[C:10]([CH3:11])[CH3:12])[C:13]([CH3:14])([CH3:15])[OH:16]",
+      "mapping_confidence": 0.7091286876113047,
+      "conditions": {
+        "raw_description": "MeLi; Et2O; -78 \u00b0C; 76%",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Merochlorin_A_2013_George_6",
+      "reaction_smiles": "C=C(C/C=C(\\C)CCC=C(C)C)C(C)(C)O.BrP(Br)Br.CCOCC.c1ccncc1>>CC(C)=CCC/C(C)=C/CC(CBr)=C(C)C",
+      "reaction_smiles_mapped": "BrP(Br)[Br:13].O[C:14]([C:11]([CH2:10]/[CH:9]=[C:7](/[CH2:6][CH2:5][CH:4]=[C:2]([CH3:1])[CH3:3])[CH3:8])=[CH2:12])([CH3:15])[CH3:16]>CCOCC.c1ccncc1>[CH3:1][C:2]([CH3:3])=[CH:4][CH2:5][CH2:6]/[C:7]([CH3:8])=[CH:9]/[CH2:10][C:11]([CH2:12][Br:13])=[C:14]([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.21438934050613498,
+      "conditions": {
+        "raw_description": "PBr3; Et2O; pyridine; 99%",
+        "GENERAL_REAGENTS": [
+          "PBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "P(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "background": {
+    "name": "Isavuconazonium",
+    "author": null,
+    "year": 2015,
+    "drug_name": "Cresemba",
+    "manufacturer": "Basilea",
+    "citation": "J. Med. Chem. 2017, 60, 15, 6480",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_1",
+      "reaction_smiles": "O=C(Cn1cncn1)c1cc(F)ccc1F.CCC#N.[Li]CCCC.C1CCOC1.CC(=O)O>>CC(C#N)C(O)(Cn1cncn1)c1cc(F)ccc1F",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][C:3]#[N:4].[C:5](=[O:6])([CH2:7][n:8]1[cH:9][n:10][cH:11][n:12]1)[c:13]1[cH:14][c:15]([F:16])[cH:17][cH:18][c:19]1[F:20]>[Li]CCCC.C1CCOC1.CC(=O)O>[CH3:1][CH:2]([C:3]#[N:4])[C:5]([OH:6])([CH2:7][n:8]1[cH:9][n:10][cH:11][n:12]1)[c:13]1[cH:14][c:15]([F:16])[cH:17][cH:18][c:19]1[F:20]",
+      "mapping_confidence": 0.9809997482368927,
+      "conditions": {
+        "raw_description": "nBuLi; THF; -78 \u00b0C; AcOH; -78 \u00b0C to rt; 65%",
+        "GENERAL_REAGENTS": [
+          "nBuLi",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_2",
+      "reaction_smiles": "CC(C#N)C(O)(Cn1cncn1)c1cc(F)ccc1F.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CC(C)=O.CO.[Na+].[OH-].ClCCl.CC(C)O.O>>C[C@@H](C#N)[C@](O)(Cn1cncn1)c1cc(F)ccc1F",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([C:3]#[N:4])[C:5]([OH:6])([CH2:7][n:8]1[cH:9][n:10][cH:11][n:12]1)[c:13]1[cH:14][c:15]([F:16])[cH:17][cH:18][c:19]1[F:20]>CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.CC(C)=O.CO.[Na+].[OH-].ClCCl.CC(C)O.O>[CH3:1][C@@H:2]([C:3]#[N:4])[C@:5]([OH:6])([CH2:7][n:8]1[cH:9][n:10][cH:11][n:12]1)[c:13]1[cH:14][c:15]([F:16])[cH:17][cH:18][c:19]1[F:20]",
+      "mapping_confidence": 0.9873472553221299,
+      "conditions": {
+        "raw_description": "1) Acetone; MeOH; reflux; 2) aq. NaOH; DCM; H2O; iPrOH; reflux to 0 \u00b0C; 38%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Acetone",
+          "MeOH",
+          "DCM",
+          "H2O",
+          "iPrOH",
+          "aq. NaOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "CO",
+          "ClCCl",
+          "O",
+          "CC(C)O",
+          "[OH-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "38%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_3",
+      "reaction_smiles": "C[C@@H](C#N)[C@](O)(Cn1cncn1)c1cc(F)ccc1F.O=S(=O)(O)O.S.CCO>>C[C@@H](C(N)=S)[C@](O)(Cn1cncn1)c1cc(F)ccc1F",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([C:3]#[N:4])[C@:6]([OH:7])([CH2:8][n:9]1[cH:10][n:11][cH:12][n:13]1)[c:14]1[cH:15][c:16]([F:17])[cH:18][cH:19][c:20]1[F:21].[SH2:5]>O=S(=O)(O)O.CCO>[CH3:1][C@@H:2]([C:3]([NH2:4])=[S:5])[C@:6]([OH:7])([CH2:8][n:9]1[cH:10][n:11][cH:12][n:13]1)[c:14]1[cH:15][c:16]([F:17])[cH:18][cH:19][c:20]1[F:21]",
+      "mapping_confidence": 0.9097922238512428,
+      "conditions": {
+        "raw_description": "conc. H2SO4; H2S; EtOH; heat; Sealed vessel",
+        "GENERAL_REAGENTS": [
+          "H2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "S"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [
+          "heat",
+          "Sealed vessel"
+        ],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_4",
+      "reaction_smiles": "C[C@@H](C(N)=S)[C@](O)(Cn1cncn1)c1cc(F)ccc1F.N#Cc1ccc(C(=O)CCl)cc1.CCO>>C[C@@H](c1nc(-c2ccc(C#N)cc2)cs1)[C@](O)(Cn1cncn1)c1cc(F)ccc1F",
+      "reaction_smiles_mapped": "[CH3:1][C@@H:2]([C:3]([NH2:4])=[S:15])[C@:16]([OH:17])([CH2:18][n:19]1[cH:20][n:21][cH:22][n:23]1)[c:24]1[cH:25][c:26]([F:27])[cH:28][cH:29][c:30]1[F:31].O=[C:5]([c:6]1[cH:7][cH:8][c:9]([C:10]#[N:11])[cH:12][cH:13]1)[CH2:14]Cl>CCO>[CH3:1][C@@H:2]([c:3]1[n:4][c:5](-[c:6]2[cH:7][cH:8][c:9]([C:10]#[N:11])[cH:12][cH:13]2)[cH:14][s:15]1)[C@:16]([OH:17])([CH2:18][n:19]1[cH:20][n:21][cH:22][n:23]1)[c:24]1[cH:25][c:26]([F:27])[cH:28][cH:29][c:30]1[F:31]",
+      "mapping_confidence": 0.9349344376329238,
+      "conditions": {
+        "raw_description": "EtOH; 60-70 \u00b0C; 81% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "65"
+        ],
+        "YIELD": [
+          "81% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_5",
+      "reaction_smiles": "O=C(O)c1cccnc1Cl.CN(C)C=O.ClCCl.O=C(Cl)C(=O)Cl>>O=C(Cl)c1cccnc1Cl",
+      "reaction_smiles_mapped": "O=C(Cl)C(=O)[Cl:3].O[C:2](=[O:1])[c:4]1[cH:5][cH:6][cH:7][n:8][c:9]1[Cl:10]>CN(C)C=O.ClCCl>[O:1]=[C:2]([Cl:3])[c:4]1[cH:5][cH:6][cH:7][n:8][c:9]1[Cl:10]",
+      "mapping_confidence": 0.5637127819977251,
+      "conditions": {
+        "raw_description": "(COCl)2; cat. DMF; DCM; 0 \u00b0C to reflux; 99%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_6",
+      "reaction_smiles": "O=C(Cl)c1cccnc1Cl.CC(C)(C)[O-].[K+].C1CCOC1>>CC(C)(C)OC(=O)c1cccnc1Cl",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])([CH3:4])[O-:5].Cl[C:6](=[O:7])[c:8]1[cH:9][cH:10][cH:11][n:12][c:13]1[Cl:14]>[K+].C1CCOC1>[CH3:1][C:2]([CH3:3])([CH3:4])[O:5][C:6](=[O:7])[c:8]1[cH:9][cH:10][cH:11][n:12][c:13]1[Cl:14]",
+      "mapping_confidence": 0.21562290330100076,
+      "conditions": {
+        "raw_description": "tBuOK; THF; -5 to 0 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-5",
+          "0"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_7",
+      "reaction_smiles": "CC(C)(C)OC(=O)c1cccnc1Cl.CN.CO>>CNc1ncccc1C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "Cl[c:3]1[n:4][cH:5][cH:6][cH:7][c:8]1[C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15].[CH3:1][NH2:2]>CO>[CH3:1][NH:2][c:3]1[n:4][cH:5][cH:6][cH:7][c:8]1[C:9](=[O:10])[O:11][C:12]([CH3:13])([CH3:14])[CH3:15]",
+      "mapping_confidence": 0.3484693587123278,
+      "conditions": {
+        "raw_description": "40% MeNH2; MeOH; rt; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "MeNH2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CN"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_8",
+      "reaction_smiles": "CNc1ncccc1C(=O)OC(C)(C)C.[AlH4-].[Li+].C1CCOC1>>CNc1ncccc1CO",
+      "reaction_smiles_mapped": "CC(C)(C)O[C:9]([c:8]1[c:3]([NH:2][CH3:1])[n:4][cH:5][cH:6][cH:7]1)=[O:10]>[AlH4-].[Li+].C1CCOC1>[CH3:1][NH:2][c:3]1[n:4][cH:5][cH:6][cH:7][c:8]1[CH2:9][OH:10]",
+      "mapping_confidence": 0.5586758856565591,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C to rt; 76%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "76%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_9",
+      "reaction_smiles": "CNc1ncccc1CO.CC(Cl)OC(=O)Cl.CCN(C(C)C)C(C)C.ClCCl>>CC(Cl)OC(=O)N(C)c1ncccc1CO",
+      "reaction_smiles_mapped": "Cl[C:5]([O:4][CH:2]([CH3:1])[Cl:3])=[O:6].[NH:7]([CH3:8])[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][OH:16]>CCN(C(C)C)C(C)C.ClCCl>[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N:7]([CH3:8])[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][OH:16]",
+      "mapping_confidence": 0.9930980638542583,
+      "conditions": {
+        "raw_description": "DIPEA; DCM; -13 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "DIPEA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-13"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_10",
+      "reaction_smiles": "CC(Cl)OC(=O)N(C)c1ncccc1CO.CCN=C=NCCCN(C)C.CN(C)c1ccncc1.ClCCl.CN(CC(=O)O)C(=O)OC(C)(C)C>>CC(Cl)OC(=O)N(C)c1ncccc1COC(=O)CN(C)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N:7]([CH3:8])[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][OH:16].O[C:17](=[O:18])[CH2:19][N:20]([CH3:21])[C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28]>CCN=C=NCCCN(C)C.CN(C)c1ccncc1.ClCCl>[CH3:1][CH:2]([Cl:3])[O:4][C:5](=[O:6])[N:7]([CH3:8])[c:9]1[n:10][cH:11][cH:12][cH:13][c:14]1[CH2:15][O:16][C:17](=[O:18])[CH2:19][N:20]([CH3:21])[C:22](=[O:23])[O:24][C:25]([CH3:26])([CH3:27])[CH3:28]",
+      "mapping_confidence": 0.4214854724716856,
+      "conditions": {
+        "raw_description": "Boc-sarcosine; EDC; DMAP; DCM; -7 \u00b0C; 73% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Boc-sarcosine",
+          "EDC",
+          "DMAP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)N(C)CC(=O)O",
+          "CCN=C=NCCCN(C)C",
+          "CN(C)C1=CC=NC=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-7"
+        ],
+        "YIELD": [
+          "73% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_11",
+      "reaction_smiles": "C[C@@H](c1nc(-c2ccc(C#N)cc2)cs1)[C@](O)(Cn1c[n+](C(=O)N(C)c2ncccc2COC(=O)CN(C)C(=O)OC(C)(C)C)cn1)c1cc(F)ccc1F.[I-].Cl.CCOC(C)=O>>CNCC(=O)OCc1cccnc1N(C)C(=O)[n+]1cnn(C[C@](O)(c2cc(F)ccc2F)[C@@H](C)c2nc(-c3ccc(C#N)cc3)cs2)c1.[I-]",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:2]([CH3:1])[CH2:3][C:4](=[O:5])[O:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][n:12][c:13]1[N:14]([CH3:15])[C:16](=[O:17])[n+:18]1[cH:19][n:20][n:21]([CH2:22][C@:23]([OH:24])([c:25]2[cH:26][c:27]([F:28])[cH:29][cH:30][c:31]2[F:32])[C@@H:33]([CH3:34])[c:35]2[n:36][c:37](-[c:38]3[cH:39][cH:40][c:41]([C:42]#[N:43])[cH:44][cH:45]3)[cH:46][s:47]2)[cH:48]1.[I-:49]>Cl.CCOC(C)=O>[CH3:1][NH:2][CH2:3][C:4](=[O:5])[O:6][CH2:7][c:8]1[cH:9][cH:10][cH:11][n:12][c:13]1[N:14]([CH3:15])[C:16](=[O:17])[n+:18]1[cH:19][n:20][n:21]([CH2:22][C@:23]([OH:24])([c:25]2[cH:26][c:27]([F:28])[cH:29][cH:30][c:31]2[F:32])[C@@H:33]([CH3:34])[c:35]2[n:36][c:37](-[c:38]3[cH:39][cH:40][c:41]([C:42]#[N:43])[cH:44][cH:45]3)[cH:46][s:47]2)[cH:48]1.[I-:49]",
+      "mapping_confidence": 0.8918782809674155,
+      "conditions": {
+        "raw_description": "4 N HCl; EtOAc; 0 \u00b0C to rt; 79% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "79% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Isavuconazonium_2015_Basilea_12",
+      "reaction_smiles": "CC(Cl)OC(=O)N(C)c1ncccc1COC(=O)CN(C)C(=O)OC(C)(C)C.C[C@@H](c1nc(-c2ccc(C#N)cc2)cs1)[C@](O)(Cn1cncn1)c1cc(F)ccc1F.[I-].[K+].CC#N>>C[C@@H](c1nc(-c2ccc(C#N)cc2)cs1)[C@](O)(Cn1c[n+](C(=O)N(C)c2ncccc2COC(=O)CN(C)C(=O)OC(C)(C)C)cn1)c1cc(F)ccc1F.[I-]",
+      "reaction_smiles_mapped": "CC(Cl)O[C:22](=[O:23])[N:24]([CH3:25])[c:26]1[n:27][cH:28][cH:29][cH:30][c:31]1[CH2:32][O:33][C:34](=[O:35])[CH2:36][N:37]([CH3:38])[C:39](=[O:40])[O:41][C:42]([CH3:43])([CH3:44])[CH3:45].[CH3:1][C@@H:2]([c:3]1[n:4][c:5](-[c:6]2[cH:7][cH:8][c:9]([C:10]#[N:11])[cH:12][cH:13]2)[cH:14][s:15]1)[C@:16]([OH:17])([CH2:18][n:19]1[cH:20][n:21][cH:46][n:47]1)[c:48]1[cH:49][c:50]([F:51])[cH:52][cH:53][c:54]1[F:55].[I-:56]>[K+].CC#N>[CH3:1][C@@H:2]([c:3]1[n:4][c:5](-[c:6]2[cH:7][cH:8][c:9]([C:10]#[N:11])[cH:12][cH:13]2)[cH:14][s:15]1)[C@:16]([OH:17])([CH2:18][n:19]1[cH:20][n+:21]([C:22](=[O:23])[N:24]([CH3:25])[c:26]2[n:27][cH:28][cH:29][cH:30][c:31]2[CH2:32][O:33][C:34](=[O:35])[CH2:36][N:37]([CH3:38])[C:39](=[O:40])[O:41][C:42]([CH3:43])([CH3:44])[CH3:45])[cH:46][n:47]1)[c:48]1[cH:49][c:50]([F:51])[cH:52][cH:53][c:54]1[F:55].[I-:56]",
+      "mapping_confidence": 0.40700314746091876,
+      "conditions": {
+        "raw_description": "KI; MeCN; 45-50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "KI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[K+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45",
+          "50"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

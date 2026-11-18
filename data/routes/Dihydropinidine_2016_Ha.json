@@ -1,0 +1,314 @@
+{
+  "background": {
+    "name": "(-)-Dihydropinidine",
+    "author": "Ha",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Biomol. Chem. 2016, 14, 6426",
+    "doi": "10.1039/c6ob00806b"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_1",
+      "reaction_smiles": "CCOC(=O)C(Br)CBr.C[C@@H](N)c1ccccc1.O=C([O-])[O-].[K+].[K+].CC#N>>CCOC(=O)[C@@H]1CN1[C@H](C)c1ccccc1",
+      "reaction_smiles_mapped": "Br[CH:6]([C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH2:7]Br.[NH2:8][C@H:9]([CH3:10])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1>CC#N.O=C([O-])[O-].[K+].[K+]>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C@@H:6]1[CH2:7][N:8]1[C@H:9]([CH3:10])[c:11]1[cH:12][cH:13][cH:14][cH:15][cH:16]1",
+      "mapping_confidence": 0.9565911375929412,
+      "conditions": {
+        "raw_description": "CH3CN; K2CO3; 0 \u00b0C to rt; 4h; 95%",
+        "GENERAL_REAGENTS": [
+          "K2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[K+].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH3CN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_2",
+      "reaction_smiles": "CCOC(=O)[C@@H]1CN1[C@H](C)c1ccccc1.[AlH4-].[Li+].C1CCOC1>>C[C@H](c1ccccc1)N1C[C@H]1CO",
+      "reaction_smiles_mapped": "CCO[C:12]([C@H:11]1[N:9]([C@H:2]([CH3:1])[c:3]2[cH:4][cH:5][cH:6][cH:7][cH:8]2)[CH2:10]1)=[O:13]>C1CCOC1.[AlH4-].[Li+]>[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH2:12][OH:13]",
+      "mapping_confidence": 0.8232338609580141,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C; 88%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_3",
+      "reaction_smiles": "C[C@H](c1ccccc1)N1C[C@H]1CO.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>C[C@H](c1ccccc1)N1C[C@H]1C=O",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH2:12][OH:13]>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH:12]=[O:13]",
+      "mapping_confidence": 0.9498209956181334,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; CH2Cl2; -78 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_4",
+      "reaction_smiles": "C[C@H](c1ccccc1)N1C[C@H]1C=O.OCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].[Li]CCCC.C1CCOC1>>C[C@H](c1ccccc1)N1C[C@H]1/C=C/CCO",
+      "reaction_smiles_mapped": "O=[CH:12][C@H:11]1[N:9]([C@H:2]([CH3:1])[c:3]2[cH:4][cH:5][cH:6][cH:7][cH:8]2)[CH2:10]1.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2:13][CH2:14][CH2:15][OH:16])cc1>C1CCOC1.[Br-].[Li]CCCC>[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1/[CH:12]=[CH:13]/[CH2:14][CH2:15][OH:16]",
+      "mapping_confidence": 0.8943782829705775,
+      "conditions": {
+        "raw_description": "Ph3P+(CH2)3OH Br-; n-BuLi; THF; 0 \u00b0C; 75% (E/Z : 80:20)",
+        "GENERAL_REAGENTS": [
+          "Ph3P+(CH2)3OH Br-",
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]",
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "75% (E/Z : 80:20)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_5",
+      "reaction_smiles": "C[C@H](c1ccccc1)N1C[C@H]1/C=C/CCO.NNS(=O)(=O)c1ccccc1[N+](=O)[O-].CCN(CC)CC.ClCCl>>C[C@H](c1ccccc1)N1C[C@H]1CCCCO",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1/[CH:12]=[CH:13]/[CH2:14][CH2:15][OH:16]>CCN(CC)CC.ClCCl.NNS(=O)(=O)c1ccccc1[N+](=O)[O-]>[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH2:12][CH2:13][CH2:14][CH2:15][OH:16]",
+      "mapping_confidence": 0.9474799289420146,
+      "conditions": {
+        "raw_description": "NBSH; Et3N; CH2Cl2; 73%",
+        "GENERAL_REAGENTS": [
+          "NBSH",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C(C(=C1)[N+](=O)[O-])S(=O)(=O)NN",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_6",
+      "reaction_smiles": "C[C@H](c1ccccc1)N1C[C@H]1CCCCO.O=C(Cl)C(=O)Cl.CCN(CC)CC.CS(C)=O.ClCCl>>C[C@H](c1ccccc1)N1C[C@H]1CCCC=O",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH2:12][CH2:13][CH2:14][CH2:15][OH:16]>CCN(CC)CC.CS(C)=O.ClCCl.O=C(Cl)C(=O)Cl>[CH3:1][C@H:2]([c:3]1[cH:4][cH:5][cH:6][cH:7][cH:8]1)[N:9]1[CH2:10][C@H:11]1[CH2:12][CH2:13][CH2:14][CH:15]=[O:16]",
+      "mapping_confidence": 0.9479883591405764,
+      "conditions": {
+        "raw_description": "(COCl)2; DMSO; Et3N; CH2Cl2; -78 \u00b0C; 94%",
+        "GENERAL_REAGENTS": [
+          "(COCl)2",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)(C(=O)Cl)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_7",
+      "reaction_smiles": "CCCC(O)CCC[C@@H]1CN1[C@H](C)c1ccccc1.ClCCl.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21>>CCCC(=O)CCC[C@@H]1CN1[C@H](C)c1ccccc1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][CH2:3][CH:4]([OH:5])[CH2:6][CH2:7][CH2:8][C@@H:9]1[CH2:10][N:11]1[C@H:12]([CH3:13])[c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH3:1][CH2:2][CH2:3][C:4](=[O:5])[CH2:6][CH2:7][CH2:8][C@@H:9]1[CH2:10][N:11]1[C@H:12]([CH3:13])[c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.9349163944431855,
+      "conditions": {
+        "raw_description": "Dess Martin oxidation; CH2Cl2; 0\u00b0C; 85%",
+        "GENERAL_REAGENTS": [
+          "Dess-Martin"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)OI1(C2=CC=CC=C2C(=O)O1)(OC(=O)C)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_8",
+      "reaction_smiles": "C[C@H](c1ccccc1)N1C[C@H]1CCCC=O.C1CCOC1.CCC[Mg]Br>>CCCC(O)CCC[C@@H]1CN1[C@H](C)c1ccccc1",
+      "reaction_smiles_mapped": "Br[Mg][CH2:3][CH2:2][CH3:1].[CH:4](=[O:5])[CH2:6][CH2:7][CH2:8][C@@H:9]1[CH2:10][N:11]1[C@H:12]([CH3:13])[c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1>C1CCOC1>[CH3:1][CH2:2][CH2:3][CH:4]([OH:5])[CH2:6][CH2:7][CH2:8][C@@H:9]1[CH2:10][N:11]1[C@H:12]([CH3:13])[c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1",
+      "mapping_confidence": 0.9508027764857155,
+      "conditions": {
+        "raw_description": "PrMgBr; THF; 90%",
+        "GENERAL_REAGENTS": [
+          "PrMgBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC[Mg]Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Dihydropinidine_2016_Ha_9",
+      "reaction_smiles": "CCCC(=O)CCC[C@@H]1CN1[C@H](C)c1ccccc1.[HH].Cl.[OH-].[OH-].[Pd+2].CO>>CCC[C@@H]1CCC[C@H](C)N1",
+      "reaction_smiles_mapped": "C[C@H](c1ccccc1)[N:10]1[C@H:8]([CH2:7][CH2:6][CH2:5][C:4](=O)[CH2:3][CH2:2][CH3:1])[CH2:9]1>[HH].Cl.[OH-].[OH-].[Pd+2].CO>[CH3:1][CH2:2][CH2:3][C@@H:4]1[CH2:5][CH2:6][CH2:7][C@H:8]([CH3:9])[NH:10]1",
+      "mapping_confidence": 0.8387018869289177,
+      "conditions": {
+        "raw_description": "20% Pd(OH)2; H2; MeOH; HCl; 88%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd+2].[OH-].[OH-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    }
+  ]
+}

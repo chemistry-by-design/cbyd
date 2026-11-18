@@ -1,0 +1,435 @@
+{
+  "background": {
+    "name": "(-)-Lycodine",
+    "author": "Takayama",
+    "year": 2014,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2014, 136, 11618",
+    "doi": "10.1021/ja507016g"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lycodine_2014_Takayama_1",
+      "reaction_smiles": "C/C=C/C(=O)N1C(=O)OC[C@@H]1c1ccccc1.C=CC[Si](C)(C)C.[Cl][Ti]([Cl])([Cl])[Cl].ClCCl>>C=CC[C@@H](C)CC(=O)N1C(=O)OC[C@@H]1c1ccccc1",
+      "reaction_smiles_mapped": "[CH:4](/[CH3:5])=[CH:6]\\[C:7](=[O:8])[N:9]1[C:10](=[O:11])[O:12][CH2:13][C@@H:14]1[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1.C[Si](C)(C)[CH2:3][CH:2]=[CH2:1]>ClCCl.[Cl][Ti]([Cl])([Cl])[Cl]>[CH2:1]=[CH:2][CH2:3][C@@H:4]([CH3:5])[CH2:6][C:7](=[O:8])[N:9]1[C:10](=[O:11])[O:12][CH2:13][C@@H:14]1[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.8923079360030076,
+      "conditions": {
+        "raw_description": "TiCl4; DCM; -78 \u00b0C; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "TiCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_2",
+      "reaction_smiles": "C=CC[C@@H](C)CC(=O)N1C(=O)OC[C@@H]1c1ccccc1.O=[O+][O-].c1ccc(P(c2ccccc2)c2ccccc2)cc1.ClCCl>>C[C@H](CC=O)CC(=O)N1C(=O)OC[C@@H]1c1ccccc1",
+      "reaction_smiles_mapped": "C=[CH:4][CH2:3][C@@H:2]([CH3:1])[CH2:6][C:7](=[O:8])[N:9]1[C:10](=[O:11])[O:12][CH2:13][C@@H:14]1[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1.[O-][O+]=[O:5]>ClCCl.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@H:2]([CH2:3][CH:4]=[O:5])[CH2:6][C:7](=[O:8])[N:9]1[C:10](=[O:11])[O:12][CH2:13][C@@H:14]1[c:15]1[cH:16][cH:17][cH:18][cH:19][cH:20]1",
+      "mapping_confidence": 0.42171903611797995,
+      "conditions": {
+        "raw_description": "O3; DCM; -78 \u00b0C; PPh3; 90%",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "PPh3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_3",
+      "reaction_smiles": "C[C@H](CC=O)CC(=O)N1C(=O)OC[C@@H]1c1ccccc1.[Li][N](C(C)C)C(C)C.CCOC(C)=O.C1CCOC1>>CCOC(=O)CC1C[C@@H](C)CC(=O)O1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH3:6].O=C1OC[C@H](c2ccccc2)N1[C:12]([CH2:11][C@@H:9]([CH2:8][CH:7]=[O:14])[CH3:10])=[O:13]>C1CCOC1.[Li][N](C(C)C)C(C)C>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][CH:7]1[CH2:8][C@@H:9]([CH3:10])[CH2:11][C:12](=[O:13])[O:14]1",
+      "mapping_confidence": 0.9298542811626447,
+      "conditions": {
+        "raw_description": "LDA; AcOEt; THF; -78 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOEt",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_4",
+      "reaction_smiles": "CCOC(=O)CC1C[C@@H](C)CC(=O)O1.CNOC.CNOC.C[Al](C)C.ClCCl>>CON(C)C(=O)CC(O)C[C@@H](C)CC(=O)N(C)OC",
+      "reaction_smiles_mapped": "CCO[C:5](=[O:6])[CH2:7][CH:8]1[O:9][C:14](=[O:15])[CH2:13][C@H:11]([CH3:12])[CH2:10]1.[NH:16]([CH3:17])[O:18][CH3:19].[CH3:1][O:2][NH:3][CH3:4]>C[Al](C)C.ClCCl>[CH3:1][O:2][N:3]([CH3:4])[C:5](=[O:6])[CH2:7][CH:8]([OH:9])[CH2:10][C@@H:11]([CH3:12])[CH2:13][C:14](=[O:15])[N:16]([CH3:17])[O:18][CH3:19]",
+      "mapping_confidence": 0.5375523213445125,
+      "conditions": {
+        "raw_description": "NH(OMe)Me; AlMe3; DCM; -10 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "NH(OMe)Me"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(C)OC"
+        ],
+        "CATALYSTS": [
+          "AlMe3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C[Al](C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-10"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_5",
+      "reaction_smiles": "CON(C)C(=O)CC(O)C[C@@H](C)CC(=O)N(C)OC.CC[Si](CC)(CC)OS(=O)(=O)C(F)(F)F.Cc1cccc(C)n1.ClCCl>>CC[Si](CC)(CC)OC(CC(=O)N(C)OC)C[C@@H](C)CC(=O)N(C)OC",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])C(F)(F)F.[OH:8][CH:9]([CH2:10][C:11](=[O:12])[N:13]([CH3:14])[O:15][CH3:16])[CH2:17][C@@H:18]([CH3:19])[CH2:20][C:21](=[O:22])[N:23]([CH3:24])[O:25][CH3:26]>Cc1cccc(C)n1.ClCCl>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][CH:9]([CH2:10][C:11](=[O:12])[N:13]([CH3:14])[O:15][CH3:16])[CH2:17][C@@H:18]([CH3:19])[CH2:20][C:21](=[O:22])[N:23]([CH3:24])[O:25][CH3:26]",
+      "mapping_confidence": 0.5089958417966794,
+      "conditions": {
+        "raw_description": "TESOTf; 2,6-lutidine; DCM; 0 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "TESOTf",
+          "2,6-lutidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Si](CC)(CC)OS(=O)(=O)C(F)(F)F",
+          "Cc1cccc(C)n1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_6",
+      "reaction_smiles": "CC[Si](CC)(CC)OC(CC(=O)N(C)OC)C[C@@H](C)CC(=O)N(C)OC.C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C.C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C.CC(C)[Mg]Cl.C1CCOC1>>CC[Si](CC)(CC)OC(CC(=O)C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C)C[C@@H](C)CC(=O)C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH:38]#[C:39][CH2:40][CH2:41][N:42]([CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1)[C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56].[CH:13]#[C:14][CH2:15][CH2:16][N:17]([CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31].CON(C)[C:11]([CH2:10][CH:9]([O:8][Si:3]([CH2:2][CH3:1])([CH2:4][CH3:5])[CH2:6][CH3:7])[CH2:32][C@@H:33]([CH3:34])[CH2:35][C:36](N(C)OC)=[O:37])=[O:12]>C1CCOC1.CC(C)[Mg]Cl>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][CH:9]([CH2:10][C:11](=[O:12])[C:13]#[C:14][CH2:15][CH2:16][N:17]([CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[CH2:32][C@@H:33]([CH3:34])[CH2:35][C:36](=[O:37])[C:38]#[C:39][CH2:40][CH2:41][N:42]([CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1)[C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56]",
+      "mapping_confidence": 0.04081199398571313,
+      "conditions": {
+        "raw_description": "i-PrMgCl; THF; rt; 78%",
+        "GENERAL_REAGENTS": [
+          "i-PrMgCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)[Mg]Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_7",
+      "reaction_smiles": "CC[Si](CC)(CC)OC(CC(=O)C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C)C[C@@H](C)CC(=O)C#CCCN(Cc1ccccc1)C(=O)OC(C)(C)C.[HH].[C].[Pd].CCOC(C)=O>>CC[Si](CC)(CC)OC(CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C)C[C@@H](C)CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][CH:9]([CH2:10][C:11](=[O:12])[C:13]#[C:14][CH2:15][CH2:16][N:17]([CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[CH2:32][C@@H:33]([CH3:34])[CH2:35][C:36](=[O:37])[C:38]#[C:39][CH2:40][CH2:41][N:42]([CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1)[C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56]>CCOC(C)=O.[C].[HH].[Pd]>[CH3:1][CH2:2][Si:3]([CH2:4][CH3:5])([CH2:6][CH3:7])[O:8][CH:9]([CH2:10][C:11](=[O:12])[CH2:13][CH2:14][CH2:15][CH2:16][N:17]([CH2:18][c:19]1[cH:20][cH:21][cH:22][cH:23][cH:24]1)[C:25](=[O:26])[O:27][C:28]([CH3:29])([CH3:30])[CH3:31])[CH2:32][C@@H:33]([CH3:34])[CH2:35][C:36](=[O:37])[CH2:38][CH2:39][CH2:40][CH2:41][N:42]([CH2:43][c:44]1[cH:45][cH:46][cH:47][cH:48][cH:49]1)[C:50](=[O:51])[O:52][C:53]([CH3:54])([CH3:55])[CH3:56]",
+      "mapping_confidence": 0.0686991523962161,
+      "conditions": {
+        "raw_description": "Pd/C; H2; AcOEt; 0 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOEt"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_8",
+      "reaction_smiles": "CC[Si](CC)(CC)OC(CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C)C[C@@H](C)CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C.F.c1ccncc1.CC#N>>C[C@H](C/C=C/C(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C)CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC[Si](CC)(CC)O[CH:4]([CH2:3][C@@H:2]([CH3:1])[CH2:27][C:28](=[O:29])[CH2:30][CH2:31][CH2:32][CH2:33][N:34]([CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1)[C:42](=[O:43])[O:44][C:45]([CH3:46])([CH3:47])[CH3:48])[CH2:5][C:6](=[O:7])[CH2:8][CH2:9][CH2:10][CH2:11][N:12]([CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26]>CC#N.F.c1ccncc1>[CH3:1][C@H:2]([CH2:3]/[CH:4]=[CH:5]/[C:6](=[O:7])[CH2:8][CH2:9][CH2:10][CH2:11][N:12]([CH2:13][c:14]1[cH:15][cH:16][cH:17][cH:18][cH:19]1)[C:20](=[O:21])[O:22][C:23]([CH3:24])([CH3:25])[CH3:26])[CH2:27][C:28](=[O:29])[CH2:30][CH2:31][CH2:32][CH2:33][N:34]([CH2:35][c:36]1[cH:37][cH:38][cH:39][cH:40][cH:41]1)[C:42](=[O:43])[O:44][C:45]([CH3:46])([CH3:47])[CH3:48]",
+      "mapping_confidence": 0.16304722484387404,
+      "conditions": {
+        "raw_description": "HF\u2022Pyridine; MeCN; 0 \u00b0C; 71%",
+        "GENERAL_REAGENTS": [
+          "HF\u2022Pyridine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=NC=C1.F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "71%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_9",
+      "reaction_smiles": "C[C@H](C/C=C/C(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C)CC(=O)CCCCN(Cc1ccccc1)C(=O)OC(C)(C)C.CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2.ClCCl>>C[C@@H]1C[C@H]2CC3=C(CCCN3Cc3ccccc3)[C@@]3(C1)[C@@H]2CCCN3Cc1ccccc1",
+      "reaction_smiles_mapped": "CC1(C)C2CCC1(CS(=O)(=O)O)[C:6](=O)[CH2:5]2.CC(C)(C)OC(=O)[N:11]([CH2:10][CH2:9][CH2:8][CH2:7][C:19](=O)[CH2:20][C@H:2]([CH3:1])[CH2:3]/[CH:4]=[CH:21]/C(=O)C[CH2:22][CH2:23][CH2:24][N:25](C(=O)OC(C)(C)C)[CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1)[CH2:12][c:13]1[cH:14][cH:15][cH:16][cH:17][cH:18]1>ClCCl>[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][C:6]3=[C:7]([CH2:8][CH2:9][CH2:10][N:11]3[CH2:12][c:13]3[cH:14][cH:15][cH:16][cH:17][cH:18]3)[C@@:19]3([CH2:20]1)[C@@H:21]2[CH2:22][CH2:23][CH2:24][N:25]3[CH2:26][c:27]1[cH:28][cH:29][cH:30][cH:31][cH:32]1",
+      "mapping_confidence": 0.09617866086970706,
+      "conditions": {
+        "raw_description": "(+)-CSA; DCM; 50 \u00b0C; 61%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "(+)-CSA"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1(C)C2CCC1(CS(=O)(=O)O)C(=O)C2"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": [
+          "61%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_10",
+      "reaction_smiles": "C[C@@H]1C[C@H]2CC3=C(CCCN3Cc3ccccc3)[C@@]3(C1)[C@@H]2CCCN3Cc1ccccc1.[HH].[C].[OH-].[OH-].[Pd+2]>>C[C@@H]1C[C@H]2CC3=C(CCCN3)[C@]3(C1)NCCC[C@H]23",
+      "reaction_smiles_mapped": "c1ccc(C[N:11]2[C:6]3=[C:7]([CH2:8][CH2:9][CH2:10]2)[C@@:12]24[CH2:13][C@H:2]([CH3:1])[CH2:3][C@@H:4]([CH2:5]3)[C@H:18]2[CH2:17][CH2:16][CH2:15][N:14]4Cc2ccccc2)cc1>[C].[HH].[OH-].[OH-].[Pd+2]>[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][C:6]3=[C:7]([CH2:8][CH2:9][CH2:10][NH:11]3)[C@:12]3([CH2:13]1)[NH:14][CH2:15][CH2:16][CH2:17][C@H:18]23",
+      "mapping_confidence": 0.9600716735697462,
+      "conditions": {
+        "raw_description": "Pd(OH)2/C; H2",
+        "GENERAL_REAGENTS": [
+          "H2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]"
+        ],
+        "CATALYSTS": [
+          "Pd(OH)2/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[OH-].[OH-].[Pd+2].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_11",
+      "reaction_smiles": "C[C@@H]1C[C@H]2CC3=C(CCCN3)[C@]3(C1)NCCC[C@H]23.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CCOC(C)=O.CO>>C[C@@H]1C[C@H]2CC3=C(CCCN3C(=O)OC(C)(C)C)[C@@]3(C1)[C@@H]2CCCN3C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "O([C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])[C:26](=[O:27])[O:28][C:29]([CH3:30])([CH3:31])[CH3:32].[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][C:6]3=[C:7]([CH2:8][CH2:9][CH2:10][NH:11]3)[C@@:19]3([CH2:20]1)[C@@H:21]2[CH2:22][CH2:23][CH2:24][NH:25]3>CCOC(C)=O.CO>[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][C:6]3=[C:7]([CH2:8][CH2:9][CH2:10][N:11]3[C:12](=[O:13])[O:14][C:15]([CH3:16])([CH3:17])[CH3:18])[C@@:19]3([CH2:20]1)[C@@H:21]2[CH2:22][CH2:23][CH2:24][N:25]3[C:26](=[O:27])[O:28][C:29]([CH3:30])([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.11093152668368844,
+      "conditions": {
+        "raw_description": "Boc2O; AcOEt; MeOH; 55%",
+        "GENERAL_REAGENTS": [
+          "Boc2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "AcOEt",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "55%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_12",
+      "reaction_smiles": "C[C@@H]1C[C@H]2CC3=C(CCCN3C(=O)OC(C)(C)C)[C@@]3(C1)[C@@H]2CCCN3C(=O)OC(C)(C)C.O=C(O)C(F)(F)F.ClCCl>>C[C@@H]1C[C@H]2CC3=C(CCCN3)[C@@]3(C1)[C@@H]2CCCN3C(=O)OC(C)(C)C",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:11]1[C:6]2=[C:7]([CH2:8][CH2:9][CH2:10]1)[C@@:12]13[CH2:13][C@H:2]([CH3:1])[CH2:3][C@@H:4]([CH2:5]2)[C@H:14]1[CH2:15][CH2:16][CH2:17][N:18]3[C:19](=[O:20])[O:21][C:22]([CH3:23])([CH3:24])[CH3:25]>ClCCl.O=C(O)C(F)(F)F>[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][C:6]3=[C:7]([CH2:8][CH2:9][CH2:10][NH:11]3)[C@@:12]3([CH2:13]1)[C@@H:14]2[CH2:15][CH2:16][CH2:17][N:18]3[C:19](=[O:20])[O:21][C:22]([CH3:23])([CH3:24])[CH3:25]",
+      "mapping_confidence": 0.3804616466301464,
+      "conditions": {
+        "raw_description": "TFA; DCM",
+        "GENERAL_REAGENTS": [
+          "TFA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lycodine_2014_Takayama_13",
+      "reaction_smiles": "C[C@@H]1C[C@H]2CC3=C(CCCN3)[C@@]3(C1)[C@@H]2CCCN3C(=O)OC(C)(C)C.O=C1OI(=O)(O)c2ccccc21.CS(C)=O>>C[C@@H]1C[C@H]2Cc3ncccc3[C@]3(C1)NCCC[C@H]23",
+      "reaction_smiles_mapped": "CC(C)(C)OC(=O)[N:14]1[C@:12]23[C:11]4=[C:6]([CH2:5][C@H:4]([CH2:3][C@@H:2]([CH3:1])[CH2:13]2)[C@H:18]3[CH2:17][CH2:16][CH2:15]1)[NH:7][CH2:8][CH2:9][CH2:10]4>CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][C@@H:2]1[CH2:3][C@H:4]2[CH2:5][c:6]3[n:7][cH:8][cH:9][cH:10][c:11]3[C@:12]3([CH2:13]1)[NH:14][CH2:15][CH2:16][CH2:17][C@H:18]23",
+      "mapping_confidence": 0.8907346711927202,
+      "conditions": {
+        "raw_description": "IBX; DMSO; 45 \u00b0C; 62% (2 step)",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "62% (2 step)"
+        ]
+      }
+    }
+  ]
+}

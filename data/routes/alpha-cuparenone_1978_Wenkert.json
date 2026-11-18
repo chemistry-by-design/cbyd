@@ -1,0 +1,233 @@
+{
+  "background": {
+    "name": "(+/-)-alpha-cuparenone",
+    "author": "Wenkert",
+    "year": 1978,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 1978, 100, 1267",
+    "doi": "10.1021/ja00472a039"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_1",
+      "reaction_smiles": "Cc1ccc(C(C)C=O)cc1.O=S(=O)(O)O.COC(OC)OC.CO>>COC(OC)C(C)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[OH:2][CH3:1].COC(OC)[O:4][CH3:5].O=[CH:3][CH:6]([CH3:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1>O=S(=O)(O)O>[CH3:1][O:2][CH:3]([O:4][CH3:5])[CH:6]([CH3:7])[c:8]1[cH:9][cH:10][c:11]([CH3:12])[cH:13][cH:14]1",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "H2SO4; HC(OMe)3; MeOH; 78%",
+        "GENERAL_REAGENTS": [
+          "H2SO4",
+          "HC(OMe)3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O",
+          "COC(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_2",
+      "reaction_smiles": "COC(OC)C(C)c1ccc(C)cc1.O=S(=O)(O)O>>COC=C(C)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "CO[CH:3]([O:2][CH3:1])[CH:4]([CH3:5])[c:6]1[cH:7][cH:8][c:9]([CH3:10])[cH:11][cH:12]1>O=S(=O)(O)O>[CH3:1][O:2][CH:3]=[C:4]([CH3:5])[c:6]1[cH:7][cH:8][c:9]([CH3:10])[cH:11][cH:12]1",
+      "mapping_confidence": 0.5939090958971475,
+      "conditions": {
+        "raw_description": "H2SO4; 0.3 Torr; 45 \u00b0C; 1 h; 54%",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "0.3 Torr"
+        ],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "54%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_3",
+      "reaction_smiles": "COC=C(C)c1ccc(C)cc1.CC(=O)C=[N+]=[N-].[Cu]>>COC1C(C(C)=O)[C@]1(C)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[N-]=[N+]=[CH:4][C:5]([CH3:6])=[O:7].[CH3:1][O:2][CH:3]=[C:8]([CH3:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1>[Cu]>[CH3:1][O:2][CH:3]1[CH:4]([C:5]([CH3:6])=[O:7])[C@:8]1([CH3:9])[c:10]1[cH:11][cH:12][c:13]([CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.9745135155546071,
+      "conditions": {
+        "raw_description": "Cu bronze; 95 \u00b0C; 2 h; 44%",
+        "GENERAL_REAGENTS": [
+          "Cu bronze"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Cu]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "95"
+        ],
+        "YIELD": [
+          "44%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_4",
+      "reaction_smiles": "COC1C(C(C)=O)[C@]1(C)c1ccc(C)cc1.Cl.CCOCC.O>>CC(=O)C[C@@](C)(C=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "C[O:8][CH:7]1[CH:4]([C:2]([CH3:1])=[O:3])[C@:5]1([CH3:6])[c:9]1[cH:10][cH:11][c:12]([CH3:13])[cH:14][cH:15]1>CCOCC.Cl.O>[CH3:1][C:2](=[O:3])[CH2:4][C@@:5]([CH3:6])([CH:7]=[O:8])[c:9]1[cH:10][cH:11][c:12]([CH3:13])[cH:14][cH:15]1",
+      "mapping_confidence": 0.9504555456989806,
+      "conditions": {
+        "raw_description": "HCl; H2O; Et2O; rt; 1 h; 92%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_5",
+      "reaction_smiles": "CC(=O)C[C@@](C)(C=O)c1ccc(C)cc1.[K+].[OH-].CO>>Cc1ccc([C@]2(C)C=CC(=O)C2)cc1",
+      "reaction_smiles_mapped": "O=[CH:8][C@:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:14][cH:13]1)([CH3:7])[CH2:12][C:10]([CH3:9])=[O:11]>CO.[K+].[OH-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([C@:6]2([CH3:7])[CH:8]=[CH:9][C:10](=[O:11])[CH2:12]2)[cH:13][cH:14]1",
+      "mapping_confidence": 0.8434398031026467,
+      "conditions": {
+        "raw_description": "KOH; MeOH; rt; 2 h; 99%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_6",
+      "reaction_smiles": "Cc1ccc([C@]2(C)C=CC(=O)C2)cc1.CI.CI.[H-].[Na+].CN(C)C=O>>Cc1ccc([C@]2(C)C=CC(=O)C2(C)C)cc1",
+      "reaction_smiles_mapped": "I[CH3:13].I[CH3:14].[CH3:1][c:2]1[cH:3][cH:4][c:5]([C@:6]2([CH3:7])[CH:8]=[CH:9][C:10](=[O:11])[CH2:12]2)[cH:15][cH:16]1>CN(C)C=O.[H-].[Na+]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([C@:6]2([CH3:7])[CH:8]=[CH:9][C:10](=[O:11])[C:12]2([CH3:13])[CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.4076192577254342,
+      "conditions": {
+        "raw_description": "NaH; DMF; MeI; 74%",
+        "GENERAL_REAGENTS": [
+          "NaH",
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[H-]",
+          "CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "74%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-cuparenone_1978_Wenkert_7",
+      "reaction_smiles": "Cc1ccc([C@]2(C)C=CC(=O)C2(C)C)cc1.[HH].C1CCNCC1.[C].[Pd]>>Cc1ccc([C@]2(C)CCC(=O)C2(C)C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([C@:6]2([CH3:7])[CH:8]=[CH:9][C:10](=[O:11])[C:12]2([CH3:13])[CH3:14])[cH:15][cH:16]1>[HH].C1CCNCC1.[C].[Pd]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([C@:6]2([CH3:7])[CH2:8][CH2:9][C:10](=[O:11])[C:12]2([CH3:13])[CH3:14])[cH:15][cH:16]1",
+      "mapping_confidence": 0.706966139406174,
+      "conditions": {
+        "raw_description": "Pd/C; H2; piperidine; 92%",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "piperidine"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "C1CCNCC1"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    }
+  ]
+}

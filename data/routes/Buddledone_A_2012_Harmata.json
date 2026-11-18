@@ -1,0 +1,437 @@
+{
+  "background": {
+    "name": "Buddledone A",
+    "author": "Harmata",
+    "year": 2012,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Org. Lett. 2012, 14, 1661",
+    "doi": "10.1021/ol300400x"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_1",
+      "reaction_smiles": "CC(C)C#N.C=CCBr.[Li]CCCC.C1CCOC1.CCNCC>>C=CCC(C)(C)C#N",
+      "reaction_smiles_mapped": "Br[CH2:3][CH:2]=[CH2:1].[CH:4]([CH3:5])([CH3:6])[C:7]#[N:8]>C1CCOC1.CCNCC.[Li]CCCC>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[C:7]#[N:8]",
+      "mapping_confidence": 0.7801233020596288,
+      "conditions": {
+        "raw_description": "Et2NH; n-BuLi; THF; 0 \u00b0C to rt; 99%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "Et2NH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "CCNCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_2",
+      "reaction_smiles": "C=CCC(C)(C)C#N.CC(C)C[AlH]CC(C)C.ClCCl>>C=CCC(C)(C)C=O",
+      "reaction_smiles_mapped": "N#[C:7][C:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH3:6]>CC(C)C[AlH]CC(C)C.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]=[O:8]",
+      "mapping_confidence": 0.65149531746582,
+      "conditions": {
+        "raw_description": "DIBAL; DCM; -78 \u00b0C; 91%",
+        "GENERAL_REAGENTS": [
+          "DIBAL"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "91%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_3",
+      "reaction_smiles": "C=CCC(C)(C)C=O.CCC(C)=O.[Li]N(C(C)C)C(C)C.C1CCOC1>>C=CCC(C)(C)C(O)CC(=O)CC",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]=[O:8].[CH3:9][C:10](=[O:11])[CH2:12][CH3:13]>C1CCOC1.[Li]N(C(C)C)C(C)C>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]([OH:8])[CH2:9][C:10](=[O:11])[CH2:12][CH3:13]",
+      "mapping_confidence": 0.7782581447605503,
+      "conditions": {
+        "raw_description": "LDA; THF; -78 \u00b0C; 82%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "82%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_4",
+      "reaction_smiles": "C=CCC(C)(C)C(O)CC(=O)CC.CS(=O)(=O)Cl.ClCCl.CCN(CC)CC>>C=CCC(C)(C)C(CC(=O)CC)OS(C)(=O)=O",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]([CH2:8][C:9](=[O:10])[CH2:11][CH3:12])[OH:13].Cl[S:14]([CH3:15])(=[O:16])=[O:17]>CCN(CC)CC.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])[CH:7]([CH2:8][C:9](=[O:10])[CH2:11][CH3:12])[O:13][S:14]([CH3:15])(=[O:16])=[O:17]",
+      "mapping_confidence": 0.4102498923123349,
+      "conditions": {
+        "raw_description": "MsCl; TEA; DCM; 0 \u00b0C to rt",
+        "GENERAL_REAGENTS": [
+          "MsCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CS(=O)(=O)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM",
+          "TEA"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl",
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_5",
+      "reaction_smiles": "C=CCC(C)(C)C(CC(=O)CC)OS(C)(=O)=O.C1CCC2=NCCCN2CC1.ClCCl>>C=CCC(C)(C)/C=C/C(=O)CC",
+      "reaction_smiles_mapped": "CS(=O)(=O)O[CH:7]([C:4]([CH2:3][CH:2]=[CH2:1])([CH3:5])[CH3:6])[CH2:8][C:9](=[O:10])[CH2:11][CH3:12]>C1CCC2=NCCCN2CC1.ClCCl>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])/[CH:7]=[CH:8]/[C:9](=[O:10])[CH2:11][CH3:12]",
+      "mapping_confidence": 0.7462376793127296,
+      "conditions": {
+        "raw_description": "DBU; DCM; reflux; 98% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "98% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_6",
+      "reaction_smiles": "C=CCC(C)(C)/C=C/C(=O)CC.C=C(C)CCCI.[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>C=CCC(C)(C)/C=C/C(=O)C(C)CCCC(=C)C",
+      "reaction_smiles_mapped": "I[CH2:13][CH2:14][CH2:15][C:16](=[CH2:17])[CH3:18].[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])/[CH:7]=[CH:8]/[C:9](=[O:10])[CH2:11][CH3:12]>C1CCOC1.CN(C)P(=O)(N(C)C)N(C)C.[Li]N(C(C)C)C(C)C>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])/[CH:7]=[CH:8]/[C:9](=[O:10])[CH:11]([CH3:12])[CH2:13][CH2:14][CH2:15][C:16](=[CH2:17])[CH3:18]",
+      "mapping_confidence": 0.7087391476246976,
+      "conditions": {
+        "raw_description": "LDA; HMPA; THF; -78 \u00b0C to rt; 72%",
+        "GENERAL_REAGENTS": [
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_7",
+      "reaction_smiles": "C=CCC(C)(C)/C=C/C(=O)C(C)CCCC(=C)C.C[Si](C)(C)C#N.[I-].[I-].[Zn+2].C1CCOC1>>C=CCC(C)(C)/C=C/C(C#N)(O[Si](C)(C)C)C(C)CCCC(=C)C",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])/[CH:7]=[CH:8]/[C:9](=[O:12])[CH:17]([CH3:18])[CH2:19][CH2:20][CH2:21][C:22](=[CH2:23])[CH3:24].[C:10](#[N:11])[Si:13]([CH3:14])([CH3:15])[CH3:16]>C1CCOC1.[I-].[I-].[Zn+2]>[CH2:1]=[CH:2][CH2:3][C:4]([CH3:5])([CH3:6])/[CH:7]=[CH:8]/[C:9]([C:10]#[N:11])([O:12][Si:13]([CH3:14])([CH3:15])[CH3:16])[CH:17]([CH3:18])[CH2:19][CH2:20][CH2:21][C:22](=[CH2:23])[CH3:24]",
+      "mapping_confidence": 0.29582017520831205,
+      "conditions": {
+        "raw_description": "TMSCN; ZnI2; THF; 94%",
+        "GENERAL_REAGENTS": [
+          "TMSCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)C#N"
+        ],
+        "CATALYSTS": [
+          "ZnI2"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn+2].[I-].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "94%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_8",
+      "reaction_smiles": "C=CCC(C)(C)/C=C/C(C#N)(O[Si](C)(C)C)C(C)CCCC(=C)C.O=C1C=CC(=O)C=C1.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>>C/C1=C\\CC(C)(C)/C=C/C(C#N)(O[Si](C)(C)C)C(C)CCC1",
+      "reaction_smiles_mapped": "C=[CH:3][CH2:4][C:5]([CH3:6])([CH3:7])/[CH:8]=[CH:9]/[C:10]([C:11]#[N:12])([O:13][Si:14]([CH3:15])([CH3:16])[CH3:17])[CH:18]([CH3:19])[CH2:20][CH2:21][CH2:22][C:2](C)=[CH2:1]>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1.O=C1C=CC(=O)C=C1>[CH3:1]/[C:2]1=[CH:3]\\[CH2:4][C:5]([CH3:6])([CH3:7])/[CH:8]=[CH:9]/[C:10]([C:11]#[N:12])([O:13][Si:14]([CH3:15])([CH3:16])[CH3:17])[CH:18]([CH3:19])[CH2:20][CH2:21][CH2:22]1",
+      "mapping_confidence": 0.12937089386109932,
+      "conditions": {
+        "raw_description": "HG II; benzoquinone; toluene; reflux",
+        "GENERAL_REAGENTS": [
+          "benzoquinone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=O)C=CC1=O"
+        ],
+        "CATALYSTS": [
+          "HG II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_9",
+      "reaction_smiles": "C/C1=C\\CC(C)(C)/C=C/C(C#N)(O[Si](C)(C)C)C(C)CCC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-].C1CCOC1>>C/C1=C\\CC(C)(C)/C=C/C(=O)C(C)CCC1",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:11][C:10]1(C#N)/[CH:9]=[CH:8]/[C:5]([CH3:6])([CH3:7])[CH2:4]/[CH:3]=[C:2](\\[CH3:1])[CH2:16][CH2:15][CH2:14][CH:12]1[CH3:13]>C1CCOC1.CCCC[N+](CCCC)(CCCC)CCCC.[F-]>[CH3:1]/[C:2]1=[CH:3]\\[CH2:4][C:5]([CH3:6])([CH3:7])/[CH:8]=[CH:9]/[C:10](=[O:11])[CH:12]([CH3:13])[CH2:14][CH2:15][CH2:16]1",
+      "mapping_confidence": 0.7310214275705661,
+      "conditions": {
+        "raw_description": "TBAF; THF; 0 \u00b0C; 59% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "TBAF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC[N+](CCCC)(CCCC)CCCC.[F-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "59% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_10",
+      "reaction_smiles": "C=C(C)CO.CCOC(C)(OCC)OCC.CCC(=O)O>>C=C(C)CCC(=O)OCC",
+      "reaction_smiles_mapped": "[OH:7][CH2:1][C:2](=[CH2:4])[CH3:3].CCO[C:6]([CH3:5])(OCC)[O:8][CH2:9][CH3:10]>CCC(=O)O>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][C:6](=[O:7])[O:8][CH2:9][CH3:10]",
+      "mapping_confidence": 0.15527281277115795,
+      "conditions": {
+        "raw_description": "Propionic acid; CH3C(OEt)3; 120 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "CH3C(OEt)3",
+          "Propionic acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(C)(OCC)OCC",
+          "CCC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "120"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_11",
+      "reaction_smiles": "C=C(C)CCC(=O)OCC.[AlH4-].[Li+].C1CCOC1>>C=C(C)CCCO",
+      "reaction_smiles_mapped": "CCO[C:6]([CH2:5][CH2:4][C:2](=[CH2:1])[CH3:3])=[O:7]>C1CCOC1.[AlH4-].[Li+]>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH2:6][OH:7]",
+      "mapping_confidence": 0.9101259926973719,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0 \u00b0C; 96%",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "96%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_12",
+      "reaction_smiles": "C=C(C)CCCO.Cc1ccc(S(=O)(=O)Cl)cc1.CCN(CC)CC.ClCCl>>C=C(C)CCCOS(=O)(=O)c1ccc(C)cc1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH2:6][OH:7].Cl[S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1>CCN(CC)CC.ClCCl>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH2:6][O:7][S:8](=[O:9])(=[O:10])[c:11]1[cH:12][cH:13][c:14]([CH3:15])[cH:16][cH:17]1",
+      "mapping_confidence": 0.4658532143990277,
+      "conditions": {
+        "raw_description": "p-TsCl; Et3N; DCM; 0 \u00b0C to rt; 88%",
+        "GENERAL_REAGENTS": [
+          "p-TsCl",
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "88%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Buddledone_A_2012_Harmata_13",
+      "reaction_smiles": "C=C(C)CCCOS(=O)(=O)c1ccc(C)cc1.[I-].[Na+].CC(C)=O>>C=C(C)CCCI",
+      "reaction_smiles_mapped": "Cc1ccc(S(=O)(=O)O[CH2:6][CH2:5][CH2:4][C:2](=[CH2:1])[CH3:3])cc1.[I-:7]>CC(C)=O.[Na+]>[CH2:1]=[C:2]([CH3:3])[CH2:4][CH2:5][CH2:6][I:7]",
+      "mapping_confidence": 0.9961868449462971,
+      "conditions": {
+        "raw_description": "NaI; acetone; reflux; 93%",
+        "GENERAL_REAGENTS": [
+          "NaI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[I-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    }
+  ]
+}

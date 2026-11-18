@@ -1,0 +1,216 @@
+{
+  "background": {
+    "name": "Humulene",
+    "author": "McMurry",
+    "year": 1982,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Tetrahedron Lett. 1982, 23, 2723",
+    "doi": "10.1016/S0040-4039(00)87441-9"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Humulene_1982_McMurry_1",
+      "reaction_smiles": "C#CC(C)C.[Li]CCCC.CN(C)CCN(C)C.CCOCC.C1CO1>>C#CC(C)(C)CCO",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][CH:3]([CH3:4])[CH3:5].[CH2:6]1[CH2:7][O:8]1>[Li]CCCC.CN(C)CCN(C)C.CCOCC>[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[CH2:6][CH2:7][OH:8]",
+      "mapping_confidence": 0.427879240752322,
+      "conditions": {
+        "raw_description": "1) n-BuLi; TMEDA; 50 \u00b0C; Et2O; 2) ethylene oxide; -78 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [
+          "n-BuLi",
+          "ethylene oxide"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]CCCC",
+          "C1CO1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "TMEDA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)CCN(C)C"
+        ],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50",
+          "-78"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Humulene_1982_McMurry_2",
+      "reaction_smiles": "C#CC(C)(C)CCO.c1cc[nH+]cc1.O=[Cr](=O)([O-])Cl.ClCCl>>C#CC(C)(C)CC=O",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[CH2:6][CH2:7][OH:8]>c1cc[nH+]cc1.O=[Cr](=O)([O-])Cl.ClCCl>[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[CH2:6][CH:7]=[O:8]",
+      "mapping_confidence": 0.6118091264986526,
+      "conditions": {
+        "raw_description": "PCC; CH2Cl2; 69%",
+        "GENERAL_REAGENTS": [
+          "PCC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][Cr](=O)(Cl)=O.C1=CC=[NH+]C=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "69%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Humulene_1982_McMurry_3",
+      "reaction_smiles": "C#CC(C)(C)CC=O.Cc1ccc(S(=O)(=O)O)cc1.COC(OC)OC.CO.ClCCl>>C#CC(C)(C)CC(OC)OC",
+      "reaction_smiles_mapped": "[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[CH2:6][CH:7]=[O:8].COC(O[CH3:9])[O:10][CH3:11]>CO.Cc1ccc(S(=O)(=O)O)cc1.ClCCl>[CH:1]#[C:2][C:3]([CH3:4])([CH3:5])[CH2:6][CH:7]([O:8][CH3:9])[O:10][CH3:11]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "(CH3O)3CH; MeOH; p-TsOH; CH2Cl2; 0 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [
+          "p-TsOH",
+          "(CH3O)3CH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O",
+          "COC(OC)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Humulene_1982_McMurry_4",
+      "reaction_smiles": "C#CC(C)(C)CC(OC)OC.[C-]1=CC=CC1.[C-]1=CC=CC1.[Cl-].[H-].[Zr+4].C(Cl)Cl>>COC(CC(C)(C)/C=C/[Zr](Cl)(C1=CCC=C1)C1C=CC=C1)OC",
+      "reaction_smiles_mapped": "[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([CH3:7])[C:8]#[CH:9])[O:22][CH3:23].[CH:12]1=[C-:13][CH2:14][CH:15]=[CH:16]1.[C-:17]1=[CH:18][CH:19]=[CH:20][CH2:21]1.[Cl-:11].[Zr+4:10]>[H-].C(Cl)Cl>[CH3:1][O:2][CH:3]([CH2:4][C:5]([CH3:6])([CH3:7])/[CH:8]=[CH:9]/[Zr:10]([Cl:11])([C:12]1=[CH:13][CH2:14][CH:15]=[CH:16]1)[CH:17]1[CH:18]=[CH:19][CH:20]=[CH:21]1)[O:22][CH3:23]",
+      "mapping_confidence": "manual mapping check",
+      "conditions": {
+        "raw_description": "Cp2ZrClH; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "Cp2ZrClH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[H-].C1C=CC=[C-]1.C1C=CC=[C-]1.[Cl-].[Zr+4]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Humulene_1982_McMurry_5",
+      "reaction_smiles": "CC(=O)CC/C=C(\\C)C/C=C/C(C)(C)CC=O.COC(C)OC.Cl[Ti](Cl)Cl.[Cu].[Zn].COCCOC>>C/C1=C\\CC/C(C)=C/CC(C)(C)/C=C/C1",
+      "reaction_smiles_mapped": "O=[C:6]([CH2:5][CH2:4]/[CH:3]=[C:2](\\[CH3:1])[CH2:15]/[CH:14]=[CH:13]/[C:10]([CH2:9][CH:8]=O)([CH3:11])[CH3:12])[CH3:7]>COC(C)OC.Cl[Ti](Cl)Cl.[Cu].[Zn].COCCOC>[CH3:1]/[C:2]1=[CH:3]\\[CH2:4][CH2:5]/[C:6]([CH3:7])=[CH:8]/[CH2:9][C:10]([CH3:11])([CH3:12])/[CH:13]=[CH:14]/[CH2:15]1",
+      "mapping_confidence": 0.589633146831521,
+      "conditions": {
+        "raw_description": "TiCl3; Zn-Cu; DME; reflux; 60%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "TiCl3",
+          "Zn-Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Ti](Cl)Cl",
+          "[Cu].[Zn]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DME"
+        ],
+        "SOLVENTS_SMILES": [
+          "COCCOC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Humulene_1982_McMurry_6",
+      "reaction_smiles": "COC(CC(C)(C)/C=C/[Zr](Cl)(C1=CCC=C1)C1C=CC=C1)OC.CC(=O)CCC=C(C)C.CC(C)=O.ClCCl.O=C1C=CC(=O)O1.Cl[Pd]Cl>>CC(=O)CC/C=C(\\C)C/C=C/C(C)(C)CC=O",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[CH2:4][CH2:5][CH:6]=[C:7]([CH3:8])[CH3:9].CO[CH:16]([CH2:15][C:12](/[CH:11]=[CH:10]/[Zr](Cl)(C1=CCC=C1)C1C=CC=C1)([CH3:13])[CH3:14])[O:17]C>CC(C)=O.ClCCl.O=C1C=CC(=O)O1.Cl[Pd]Cl>[CH3:1][C:2](=[O:3])[CH2:4][CH2:5]/[CH:6]=[C:7](\\[CH3:8])[CH2:9]/[CH:10]=[CH:11]/[C:12]([CH3:13])([CH3:14])[CH2:15][CH:16]=[O:17]",
+      "mapping_confidence": 0.47440826617746656,
+      "conditions": {
+        "raw_description": "PdCl2; acetone; maleic anhydride; CH2Cl2; -78 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "maleic anhydride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=O)OC1=O"
+        ],
+        "CATALYSTS": [
+          "PdCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Pd]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "acetone",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)C",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "background": {
+    "name": "(+)-Fukinone",
+    "author": "Piers",
+    "year": 1970,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Org. Chem. 1970, 35, 3997",
+    "doi": "10.1021/jo00836a106"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Fukinone_1970_Piers_1",
+      "reaction_smiles": "CCCCS/C=C1\\CCC(C)C(C)C1=O.C=C(Br)CC(=O)OCC.CC(C)(C)O[K].CC(C)(C)O>>C=C(CC(=O)OCC)[C@]1(C)C(=O)/C(=C/SCCCC)CCC1C",
+      "reaction_smiles_mapped": "Br[C:2](=[CH2:1])[CH2:3][C:4](=[O:5])[O:6][CH2:7][CH3:8].[CH:9]1([CH3:10])[C:11](=[O:12])/[C:13](=[CH:14]/[S:15][CH2:16][CH2:17][CH2:18][CH3:19])[CH2:20][CH2:21][CH:22]1[CH3:23]>CC(C)(C)O.CC(C)(C)O[K]>[CH2:1]=[C:2]([CH2:3][C:4](=[O:5])[O:6][CH2:7][CH3:8])[C@:9]1([CH3:10])[C:11](=[O:12])/[C:13](=[CH:14]/[S:15][CH2:16][CH2:17][CH2:18][CH3:19])[CH2:20][CH2:21][CH:22]1[CH3:23]",
+      "mapping_confidence": 0.982765189893775,
+      "conditions": {
+        "raw_description": "t-BuOH; KOtBu; 86%",
+        "GENERAL_REAGENTS": [
+          "KOtBu"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)O[K]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_2",
+      "reaction_smiles": "C=C(CC(=O)OCC)[C@]1(C)C(=O)/C(=C/SCCCC)CCC1C.OCCOCCO.[K+].[OH-]>>C=C(CC(=O)O)[C@]1(C)C(=O)CCCC1C",
+      "reaction_smiles_mapped": "CCCCS/C=[C:11]1/[C:9](=[O:10])[C@:7]([C:2](=[CH2:1])[CH2:3][C:4](=[O:5])[O:6]CC)([CH3:8])[CH:14]([CH3:15])[CH2:13][CH2:12]1>OCCOCCO.[K+].[OH-]>[CH2:1]=[C:2]([CH2:3][C:4](=[O:5])[OH:6])[C@:7]1([CH3:8])[C:9](=[O:10])[CH2:11][CH2:12][CH2:13][CH:14]1[CH3:15]",
+      "mapping_confidence": 0.9756146763889401,
+      "conditions": {
+        "raw_description": "KOH; reflux; 90%",
+        "GENERAL_REAGENTS": [
+          "KOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_3",
+      "reaction_smiles": "C=C(CC(=O)O)[C@]1(C)C(=O)CCCC1C.CC(=O)[O-].[Na+].CC(=O)OC(C)=O>>C=C1C[C@]2(C)C(=CCC[C@H]2C)OC1=O",
+      "reaction_smiles_mapped": "O[C:13]([CH2:3][C:2](=[CH2:1])[C@:4]1([CH3:5])[C:6](=[O:12])[CH2:7][CH2:8][CH2:9][CH:10]1[CH3:11])=[O:14]>CC(=O)OC(C)=O.CC(=O)[O-].[Na+]>[CH2:1]=[C:2]1[CH2:3][C@:4]2([CH3:5])[C:6](=[CH:7][CH2:8][CH2:9][C@H:10]2[CH3:11])[O:12][C:13]1=[O:14]",
+      "mapping_confidence": 0.4308066125484959,
+      "conditions": {
+        "raw_description": "Ac2O; NaOAc; reflux; 85%",
+        "GENERAL_REAGENTS": [
+          "NaOAc",
+          "Ac2O"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]",
+          "CC(=O)OC(=O)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "85%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_4",
+      "reaction_smiles": "C=C1C[C@]2(C)C(=CCC[C@H]2C)OC1=O.[Li]C.CCOCC>>C=C1C[C@@]2(C)C(=CC1=O)CCC[C@@H]2C",
+      "reaction_smiles_mapped": "O1[C:6]2=[CH:10][CH2:11][CH2:12][C@@H:13]([CH3:14])[C@:4]2([CH3:5])[CH2:3][C:2](=[CH2:1])[C:8]1=[O:9].[Li][CH3:7]>CCOCC>[CH2:1]=[C:2]1[CH2:3][C@@:4]2([CH3:5])[C:6](=[CH:7][C:8]1=[O:9])[CH2:10][CH2:11][CH2:12][C@@H:13]2[CH3:14]",
+      "mapping_confidence": 0.7078606586199586,
+      "conditions": {
+        "raw_description": "Et2O; MeLi; -25\u00b0C; 70%",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-25"
+        ],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_5",
+      "reaction_smiles": "C=C1C[C@@]2(C)C(=CC1=O)CCC[C@@H]2C.C[O-].[Na+].C[C@@]12CCCCC1=CC(=O)CC2.c1ccccc1>>C[C@H]1CCCC2=CC(=O)/C(=C\\O)C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C:6]2=[CH:7][C:8](=[O:9])[C:10](=[CH2:11])[CH2:13][C@:14]12[CH3:15].C[O-:12]>C[C@@]12CCCCC1=CC(=O)CC2.[Na+].c1ccccc1>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C:6]2=[CH:7][C:8](=[O:9])/[C:10](=[CH:11]\\[OH:12])[CH2:13][C@:14]12[CH3:15]",
+      "mapping_confidence": 0.5685295479006152,
+      "conditions": {
+        "raw_description": "NaOMe; Benzene; Octalone; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaOMe",
+          "Octalone"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[O-].[Na+]",
+          "O=C1CC[C@]2(C)CCCCC2=C1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Benzene"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_6",
+      "reaction_smiles": "C[C@H]1CCCC2=CC(=O)/C(=C\\O)C[C@@]21C.CC[O-].[Na+].[C].[Pd]>>C[C@H]1CCC[C@@H]2CC(=O)/C(=C\\O)C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C:6]2=[CH:7][C:8](=[O:9])/[C:10](=[CH:11]\\[OH:12])[CH2:13][C@:14]12[CH3:15]>CC[O-].[C].[Na+].[Pd]>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])/[C:10](=[CH:11]\\[OH:12])[CH2:13][C@:14]12[CH3:15]",
+      "mapping_confidence": 0.9864166746743755,
+      "conditions": {
+        "raw_description": "Pd/C; NaOEt; 84% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOEt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[O-].[Na+]"
+        ],
+        "CATALYSTS": [
+          "Pd/C"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Pd].[C]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "84% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_7",
+      "reaction_smiles": "C[C@H]1CCC[C@@H]2CC(=O)/C(=C\\O)C[C@@]21C.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.C1COCCO1>>C[C@H]1CCC[C@@H]2CC(=O)C(C=O)=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])/[C:10](=[CH:11]\\[OH:12])[CH2:13][C@:14]12[CH3:15]>C1COCCO1.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])[C:10]([CH:11]=[O:12])=[CH:13][C@:14]12[CH3:15]",
+      "mapping_confidence": 0.9540788311385396,
+      "conditions": {
+        "raw_description": "DDQ; dioxane; 60%",
+        "GENERAL_REAGENTS": [
+          "DDQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_8",
+      "reaction_smiles": "C[C@H]1CCC[C@@H]2CC(=O)C(C=O)=C[C@@]21C.[Ag+].[Ag+].[O-2].CCO.O>>C[C@H]1CCC[C@@H]2CC(=O)C(C(=O)O)=C[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])[C:10]([CH:11]=[O:12])=[CH:14][C@:15]12[CH3:16].[OH2:13]>CCO.[Ag+].[Ag+].[O-2]>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])[C:10]([C:11](=[O:12])[OH:13])=[CH:14][C@:15]12[CH3:16]",
+      "mapping_confidence": 0.7637487881212192,
+      "conditions": {
+        "raw_description": "Ag2O; EtOH; H2O; 92%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Ag2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-2].[Ag+].[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_9",
+      "reaction_smiles": "C[C@H]1CCC[C@@H]2CC(=O)C(C(=O)O)=C[C@@]21C.CI.[Ag+].[Ag+].[O-2]>>COC(=O)C1=C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O",
+      "reaction_smiles_mapped": "I[CH3:1].[OH:2][C:3](=[O:4])[C:5]1=[CH:6][C@:7]2([CH3:8])[C@@H:9]([CH3:10])[CH2:11][CH2:12][CH2:13][C@@H:14]2[CH2:15][C:16]1=[O:17]>[Ag+].[Ag+].[O-2]>[CH3:1][O:2][C:3](=[O:4])[C:5]1=[CH:6][C@:7]2([CH3:8])[C@@H:9]([CH3:10])[CH2:11][CH2:12][CH2:13][C@@H:14]2[CH2:15][C:16]1=[O:17]",
+      "mapping_confidence": 0.9492515350951877,
+      "conditions": {
+        "raw_description": "MeI; Ag2O; 92%",
+        "GENERAL_REAGENTS": [
+          "MeI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI"
+        ],
+        "CATALYSTS": [
+          "Ag2O"
+        ],
+        "CATALYSTS_SMILES": [
+          "[O-2].[Ag+].[Ag+]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "92%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_10",
+      "reaction_smiles": "COC(=O)C1=C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O.O=[Pt]=O.CCO>>COC(=O)C1C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[C:5]1=[CH:6][C@:7]2([CH3:8])[C@@H:9]([CH3:10])[CH2:11][CH2:12][CH2:13][C@@H:14]2[CH2:15][C:16]1=[O:17]>CCO.O=[Pt]=O>[CH3:1][O:2][C:3](=[O:4])[CH:5]1[CH2:6][C@:7]2([CH3:8])[C@@H:9]([CH3:10])[CH2:11][CH2:12][CH2:13][C@@H:14]2[CH2:15][C:16]1=[O:17]",
+      "mapping_confidence": 0.948369233320265,
+      "conditions": {
+        "raw_description": "EtOH; PtO2; 97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_11",
+      "reaction_smiles": "COC(=O)C1C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O.[Li]C.[Li]C.[Na+].[OH-].CCOCC>>C[C@H]1CCC[C@@H]2CC(=O)C(C(C)(C)O)C[C@@]21C",
+      "reaction_smiles_mapped": "CO[C:11]([CH:10]1[C:8](=[O:9])[CH2:7][C@H:6]2[CH2:5][CH2:4][CH2:3][C@H:2]([CH3:1])[C@@:16]2([CH3:17])[CH2:15]1)=[O:14].[Li][CH3:13].[Li][CH3:12]>CCOCC.[Na+].[OH-]>[CH3:1][C@H:2]1[CH2:3][CH2:4][CH2:5][C@@H:6]2[CH2:7][C:8](=[O:9])[CH:10]([C:11]([CH3:12])([CH3:13])[OH:14])[CH2:15][C@:16]12[CH3:17]",
+      "mapping_confidence": 0.45718122577685866,
+      "conditions": {
+        "raw_description": "1) NaOH/Ether; 2) Et2O/MeLi; 80%",
+        "GENERAL_REAGENTS": [
+          "NaOH",
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]",
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Ether",
+          "Et2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "CCOCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "80%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_12",
+      "reaction_smiles": "C[C@H]1CCC[C@@H]2CC(=O)C(C(C)(C)O)C[C@@]21C.O=S(Cl)Cl.c1ccncc1>>C=C(C)C1C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O",
+      "reaction_smiles_mapped": "O[C:2]([CH3:1])([CH3:3])[CH:4]1[CH2:5][C@:6]2([CH3:7])[C@@H:8]([CH3:9])[CH2:10][CH2:11][CH2:12][C@@H:13]2[CH2:14][C:15]1=[O:16]>O=S(Cl)Cl.c1ccncc1>[CH2:1]=[C:2]([CH3:3])[CH:4]1[CH2:5][C@:6]2([CH3:7])[C@@H:8]([CH3:9])[CH2:10][CH2:11][CH2:12][C@@H:13]2[CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.5386496811491591,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine; 90%",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Fukinone_1970_Piers_13",
+      "reaction_smiles": "C=C(C)C1C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O.Cc1ccc(S(=O)(=O)O)cc1>>CC(C)=C1C[C@@]2(C)[C@H](CCC[C@@H]2C)CC1=O",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]([CH3:3])[CH:4]1[CH2:5][C@:6]2([CH3:7])[C@@H:8]([CH3:9])[CH2:10][CH2:11][CH2:12][C@@H:13]2[CH2:14][C:15]1=[O:16]>Cc1ccc(S(=O)(=O)O)cc1>[CH3:1][C:2]([CH3:3])=[C:4]1[CH2:5][C@:6]2([CH3:7])[C@@H:8]([CH3:9])[CH2:10][CH2:11][CH2:12][C@@H:13]2[CH2:14][C:15]1=[O:16]",
+      "mapping_confidence": 0.6344640517126308,
+      "conditions": {
+        "raw_description": "p-TsOH; 70%",
+        "GENERAL_REAGENTS": [
+          "p-TsOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC1=CC=C(C=C1)S(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "70%"
+        ]
+      }
+    }
+  ]
+}

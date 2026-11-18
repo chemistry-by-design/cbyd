@@ -1,0 +1,203 @@
+{
+  "background": {
+    "name": "Givinostat",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Duvyzat",
+    "manufacturer": "ITF",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Givinostat_2025_ITF_1",
+      "reaction_smiles": "O=C(O)c1ccc2cc(C(=O)O)ccc2c1.CCN=C=NCCCN(C)C.On1nnc2ccccc21.CCNCC>>CCN(CC)C(=O)c1ccc2cc(C(=O)O)ccc2c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][NH:3][CH2:4][CH3:5].O[C:6](=[O:7])[c:8]1[cH:9][cH:10][c:11]2[cH:12][c:13]([C:14](=[O:15])[OH:16])[cH:17][cH:18][c:19]2[cH:20]1>CCN=C=NCCCN(C)C.On1nnc2ccccc21>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[C:6](=[O:7])[c:8]1[cH:9][cH:10][c:11]2[cH:12][c:13]([C:14](=[O:15])[OH:16])[cH:17][cH:18][c:19]2[cH:20]1",
+      "mapping_confidence": 0.6968720480354164,
+      "conditions": {
+        "raw_description": "EDCI; HOBt; Et2NH; rt; 60%",
+        "GENERAL_REAGENTS": [
+          "EDCI",
+          "HOBt"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN=C=NCCCN(C)C",
+          "C1=CC=C2C(=C1)N=NN2O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2NH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCNCC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Givinostat_2025_ITF_2",
+      "reaction_smiles": "CCN(CC)C(=O)c1ccc2cc(C(=O)O)ccc2c1.[AlH4-].[Li+].C1CCOC1>>CCN(CC)Cc1ccc2cc(CO)ccc2c1",
+      "reaction_smiles_mapped": "O=[C:6]([N:3]([CH2:2][CH3:1])[CH2:4][CH3:5])[c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([C:13](=O)[OH:14])[cH:15][cH:16][c:17]2[cH:18]1>C1CCOC1.[AlH4-].[Li+]>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][OH:14])[cH:15][cH:16][c:17]2[cH:18]1",
+      "mapping_confidence": 0.632622320403032,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; reflux",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Givinostat_2025_ITF_3",
+      "reaction_smiles": "CCN(CC)Cc1ccc2cc(CO)ccc2c1.O=C(ON1C(=O)CCC1=O)ON1C(=O)CCC1=O.CC#N>>CCN(CC)Cc1ccc2cc(COC(=O)ON3C(=O)CCC3=O)ccc2c1",
+      "reaction_smiles_mapped": "[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][OH:14])[cH:25][cH:26][c:27]2[cH:28]1.O=C1CCC(=O)N1O[C:15](=[O:16])[O:17][N:18]1[C:19](=[O:20])[CH2:21][CH2:22][C:23]1=[O:24]>CC#N>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][O:14][C:15](=[O:16])[O:17][N:18]3[C:19](=[O:20])[CH2:21][CH2:22][C:23]3=[O:24])[cH:25][cH:26][c:27]2[cH:28]1",
+      "mapping_confidence": 0.37702403507022875,
+      "conditions": {
+        "raw_description": "DSC; MeCN",
+        "GENERAL_REAGENTS": [
+          "DSC"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)OC(=O)ON2C(=O)CCC2=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeCN"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC#N"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Givinostat_2025_ITF_4",
+      "reaction_smiles": "CCN(CC)Cc1ccc2cc(COC(=O)ON3C(=O)CCC3=O)ccc2c1.Nc1ccc(C(=O)O)cc1.O=C([O-])[O-].[Na+].[Na+].C1CCOC1.O>>CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)O)cc3)ccc2c1",
+      "reaction_smiles_mapped": "O=C1CCC(=O)N1O[C:15]([O:14][CH2:13][c:12]1[cH:11][c:10]2[cH:9][cH:8][c:7]([CH2:6][N:3]([CH2:2][CH3:1])[CH2:4][CH3:5])[cH:30][c:29]2[cH:28][cH:27]1)=[O:16].[NH2:17][c:18]1[cH:19][cH:20][c:21]([C:22](=[O:23])[OH:24])[cH:25][cH:26]1>C1CCOC1.O.O=C([O-])[O-].[Na+].[Na+]>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][O:14][C:15](=[O:16])[NH:17][c:18]3[cH:19][cH:20][c:21]([C:22](=[O:23])[OH:24])[cH:25][cH:26]3)[cH:27][cH:28][c:29]2[cH:30]1",
+      "mapping_confidence": 0.724874086054174,
+      "conditions": {
+        "raw_description": "Na2CO3; THF; H2O",
+        "GENERAL_REAGENTS": [
+          "Na2CO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Givinostat_2025_ITF_5",
+      "reaction_smiles": "CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)O)cc3)ccc2c1.O=S(Cl)Cl.ClC(Cl)Cl>>CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)Cl)cc3)ccc2c1",
+      "reaction_smiles_mapped": "O[C:22]([c:21]1[cH:20][cH:19][c:18]([NH:17][C:15]([O:14][CH2:13][c:12]2[cH:11][c:10]3[cH:9][cH:8][c:7]([CH2:6][N:3]([CH2:2][CH3:1])[CH2:4][CH3:5])[cH:30][c:29]3[cH:28][cH:27]2)=[O:16])[cH:26][cH:25]1)=[O:23].O=S(Cl)[Cl:24]>ClC(Cl)Cl>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][O:14][C:15](=[O:16])[NH:17][c:18]3[cH:19][cH:20][c:21]([C:22](=[O:23])[Cl:24])[cH:25][cH:26]3)[cH:27][cH:28][c:29]2[cH:30]1",
+      "mapping_confidence": 0.3332185700420188,
+      "conditions": {
+        "raw_description": "SOCl2; CHCl3; reflux",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CHCl3"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Givinostat_2025_ITF_6",
+      "reaction_smiles": "CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)Cl)cc3)ccc2c1.NO.O=C([O-])O.[Na+].[Na+].[OH-].Cl.O.C1CCOC1>>CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1",
+      "reaction_smiles_mapped": "Cl[C:22]([c:21]1[cH:20][cH:19][c:18]([NH:17][C:15]([O:14][CH2:13][c:12]2[cH:11][c:10]3[cH:9][cH:8][c:7]([CH2:6][N:3]([CH2:2][CH3:1])[CH2:4][CH3:5])[cH:31][c:30]3[cH:29][cH:28]2)=[O:16])[cH:27][cH:26]1)=[O:23].[NH2:24][OH:25]>C1CCOC1.Cl.O.O=C([O-])O.[Na+].[Na+].[OH-]>[CH3:1][CH2:2][N:3]([CH2:4][CH3:5])[CH2:6][c:7]1[cH:8][cH:9][c:10]2[cH:11][c:12]([CH2:13][O:14][C:15](=[O:16])[NH:17][c:18]3[cH:19][cH:20][c:21]([C:22](=[O:23])[NH:24][OH:25])[cH:26][cH:27]3)[cH:28][cH:29][c:30]2[cH:31]1",
+      "mapping_confidence": 0.7732380573474911,
+      "conditions": {
+        "raw_description": "NH2OH; H2O; NaHCO3; NaOH; THF; rt; then HCl",
+        "GENERAL_REAGENTS": [
+          "NH2OH",
+          "NaHCO3",
+          "NaOH",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "NO",
+          "C(=O)(O)[O-].[Na+]",
+          "[OH-].[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "background": {
+    "name": "(S)-Flurbiprofen",
+    "author": null,
+    "year": 2015,
+    "drug_name": "TT-063",
+    "manufacturer": "Taisho",
+    "citation": "J. Med. Chem. 2017, 60, 15, 6480",
+    "doi": "10.1021/acs.jmedchem.7b00010"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "(S)-Flurbiprofen_2015_Taisho_1",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(N)c(F)c1.O=N[O-].[Na+].Br>>CC(C(=O)O)c1ccc([N+]#N)c(F)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[c:12]([F:13])[cH:14]1.O=[N:11][O-]>Br.[Na+]>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([N+:10]#[N:11])[c:12]([F:13])[cH:14]1",
+      "mapping_confidence": 0.9742939668720334,
+      "conditions": {
+        "raw_description": "NaNO2; aq. HBr; 5 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "5"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(S)-Flurbiprofen_2015_Taisho_2",
+      "reaction_smiles": "CC(C(=O)O)c1ccc([N+]#N)c(F)c1.C[C@H](N)c1ccccc1.Br.[Cu]Br>>CC(C(=O)O)c1ccc(Br)c(F)c1",
+      "reaction_smiles_mapped": "[BrH:10].N#[N+][c:9]1[cH:8][cH:7][c:6]([CH:2]([CH3:1])[C:3](=[O:4])[OH:5])[cH:13][c:11]1[F:12]>C[C@H](N)c1ccccc1.[Cu]Br>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9]([Br:10])[c:11]([F:12])[cH:13]1",
+      "mapping_confidence": 0.45651329104625316,
+      "conditions": {
+        "raw_description": "HBr; CuBr; 60 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "HBr"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Br"
+        ],
+        "CATALYSTS": [
+          "CuBr"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]Br"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "(S)-Flurbiprofen_2015_Taisho_3",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(Br)c(F)c1.O=C([O-])[O-].[Na+].[Na+].O=O.O.Cl.[Na+].c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1>>CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "reaction_smiles_mapped": "Br[c:9]1[cH:8][cH:7][c:6]([CH:2]([CH3:1])[C:3](=[O:4])[OH:5])[cH:18][c:16]1[F:17].c1ccc([B-](c2ccccc2)(c2ccccc2)[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)cc1>Cl.O.O=C([O-])[O-].O=O.[Na+].[Na+].[Na+]>[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.3379055203791578,
+      "conditions": {
+        "raw_description": "1) Na2CO3; O2; NaB(C6H5)4; H2O; 100 \u00b0C; 2) aq. HCl; rt; 83% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "Na2CO3",
+          "O2",
+          "NaB(C6H5)4",
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(=O)([O-])[O-].[Na+].[Na+]",
+          "O=O",
+          "[B-](C1=CC=CC=C1)(C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4.[Na+]",
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100",
+          "rt"
+        ],
+        "YIELD": [
+          "83% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Flurbiprofen_2015_Taisho_4",
+      "reaction_smiles": "CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1.C[C@H](N)c1ccccc1.CO.Cc1ccccc1>>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1>C[C@H](N)c1ccccc1.CO.Cc1ccccc1>[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.9023939950445187,
+      "conditions": {
+        "raw_description": "MeOH; toluene; 60-0 \u00b0C; 45-65%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60",
+          "0"
+        ],
+        "YIELD": [
+          "45-65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "(S)-Flurbiprofen_2015_Taisho_5",
+      "reaction_smiles": "C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1.Cl.O.Cc1ccccc1>>C[C@H](C(=O)O)c1ccc(-c2ccccc2)c(F)c1",
+      "reaction_smiles_mapped": "[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1>Cl.O.Cc1ccccc1>[CH3:1][C@H:2]([C:3](=[O:4])[OH:5])[c:6]1[cH:7][cH:8][c:9](-[c:10]2[cH:11][cH:12][cH:13][cH:14][cH:15]2)[c:16]([F:17])[cH:18]1",
+      "mapping_confidence": 0.9044396836459666,
+      "conditions": {
+        "raw_description": "HCl; H2O; toluene; 55 to -10 \u00b0C; 60-85%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "55",
+          "-10"
+        ],
+        "YIELD": [
+          "60-85%"
+        ]
+      }
+    }
+  ]
+}

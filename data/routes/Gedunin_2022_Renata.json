@@ -1,0 +1,711 @@
+{
+  "background": {
+    "name": "Gedunin",
+    "author": "Renata",
+    "year": 2022,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "J. Am. Chem. Soc. 2022, 144, 19238",
+    "doi": "10.1021/jacs.2c09048"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Gedunin_2022_Renata_1",
+      "reaction_smiles": "CC1(C)CCC[C@]2(C)[C@H]1CC[C@@]1(C)OC(=O)C[C@@H]21.[Li]C.CCOCC.C1CCOC1>>CC(=O)C[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O",
+      "reaction_smiles_mapped": "[C:2]1(=[O:3])[CH2:4][C@H:5]2[C@:6]3([CH3:7])[CH2:8][CH2:9][CH2:10][C:11]([CH3:12])([CH3:13])[C@@H:14]3[CH2:15][CH2:16][C@@:17]2([CH3:18])[O:19]1.[Li][CH3:1]>C1CCOC1.CCOCC>[CH3:1][C:2](=[O:3])[CH2:4][C@@H:5]1[C@@:6]2([CH3:7])[CH2:8][CH2:9][CH2:10][C:11]([CH3:12])([CH3:13])[C@@H:14]2[CH2:15][CH2:16][C@@:17]1([CH3:18])[OH:19]",
+      "mapping_confidence": 0.7720036390414957,
+      "conditions": {
+        "raw_description": "MeLi; Et2O; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "MeLi"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li]C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Et2O",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOCC",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_2",
+      "reaction_smiles": "CC(=O)C[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O.OO.O.ClCCl.O=C(OC(=O)C(F)(F)F)C(F)(F)F>>CC(=O)OC[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[CH2:5][C@@H:6]1[C@@:7]2([CH3:8])[CH2:9][CH2:10][CH2:11][C:12]([CH3:13])([CH3:14])[C@@H:15]2[CH2:16][CH2:17][C@@:18]1([CH3:19])[OH:20].O[OH:4]>ClCCl.O.O=C(OC(=O)C(F)(F)F)C(F)(F)F>[CH3:1][C:2](=[O:3])[O:4][CH2:5][C@@H:6]1[C@@:7]2([CH3:8])[CH2:9][CH2:10][CH2:11][C:12]([CH3:13])([CH3:14])[C@@H:15]2[CH2:16][CH2:17][C@@:18]1([CH3:19])[OH:20]",
+      "mapping_confidence": 0.5293776223908705,
+      "conditions": {
+        "raw_description": "TFAA; H2O2; H2O; CH2Cl2; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2O2",
+          "TFAA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OO",
+          "C(=O)(C(F)(F)F)OC(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O",
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "O",
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_3",
+      "reaction_smiles": "CC(=O)OC[C@@H]1[C@@]2(C)CCCC(C)(C)[C@@H]2CC[C@@]1(C)O.O=S(Cl)Cl.ClCCl.c1ccncc1>>C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1COC(C)=O",
+      "reaction_smiles_mapped": "O[C@:2]1([CH3:1])[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][O:16][C:17]([CH3:18])=[O:19]>ClCCl.O=S(Cl)Cl.c1ccncc1>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[CH2:9][CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]1[CH2:15][O:16][C:17]([CH3:18])=[O:19]",
+      "mapping_confidence": 0.7013962342927178,
+      "conditions": {
+        "raw_description": "SOCl2; pyridine; CH2Cl2; - 78 \u00b0C; 42% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "pyridine"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "C1=CC=NC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "42% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_4",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)CCC[C@]2(C)[C@H]1COC(C)=O.O=[O+][O-].CSC.ClCCl>>CC(=O)OC[C@H]1C(=O)CC[C@H]2C(C)(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "C=[C:7]1[C@H:6]([CH2:5][O:4][C:2]([CH3:1])=[O:3])[C@:18]2([CH3:19])[C@@H:11]([CH2:10][CH2:9]1)[C:12]([CH3:13])([CH3:14])[CH2:15][CH2:16][CH2:17]2.[O-][O+]=[O:8]>CSC.ClCCl>[CH3:1][C:2](=[O:3])[O:4][CH2:5][C@H:6]1[C:7](=[O:8])[CH2:9][CH2:10][C@H:11]2[C:12]([CH3:13])([CH3:14])[CH2:15][CH2:16][CH2:17][C@:18]12[CH3:19]",
+      "mapping_confidence": 0.36014624628479736,
+      "conditions": {
+        "raw_description": "O3; DMS; CH2Cl2; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "O3",
+          "DMS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-][O+]=O",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_5",
+      "reaction_smiles": "CC(=O)OC[C@H]1C(=O)CC[C@H]2C(C)(C)CCC[C@]12C.C1CCC2=NCCCN2CC1.ClCCl>>C=C1C(=O)CC[C@H]2C(C)(C)CCC[C@]12C",
+      "reaction_smiles_mapped": "CC(=O)O[CH2:1][C@H:2]1[C:3](=[O:4])[CH2:5][CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH3:15]>C1CCC2=NCCCN2CC1.ClCCl>[CH2:1]=[C:2]1[C:3](=[O:4])[CH2:5][CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:12][CH2:13][C@:14]12[CH3:15]",
+      "mapping_confidence": 0.6894196390716849,
+      "conditions": {
+        "raw_description": "DBU; CH2Cl2; 40 \u00b0C; 48% (2 steps)",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "DBU"
+        ],
+        "CATALYSTS_SMILES": [
+          "C1CCC2=NCCCN2CC1"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "40"
+        ],
+        "YIELD": [
+          "48% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_6",
+      "reaction_smiles": "C=C1C(=O)CC[C@H]2C(C)(C)CCC[C@]12C.NC(=O)c1ccc[n+]([C@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])O)[C@@H]3O)[C@@H](O)[C@H]2O)c1.[Na+].[Na+].O=[PH]([O-])[O-].[Na+].[Na+].CS(C)=O.O>>C=C1C(=O)CC[C@H]2C(C)(C)[C@@H](O)CC[C@]12C",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[C:3](=[O:4])[CH2:5][CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[CH2:11][CH2:13][CH2:14][C@:15]12[CH3:16].NC(=O)c1ccc[n+]([C@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])O)[C@@H]3O)[C@@H]([OH:12])[C@H]2O)c1>CS(C)=O.O.O=[PH]([O-])[O-].[Na+].[Na+].[Na+].[Na+]>[CH2:1]=[C:2]1[C:3](=[O:4])[CH2:5][CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[C@@H:11]([OH:12])[CH2:13][CH2:14][C@:15]12[CH3:16]",
+      "mapping_confidence": 0.15853843745631785,
+      "conditions": {
+        "raw_description": "MERO1 L437A; NaNADP; Na2HPO3; DMSO; H2O; 20 \u00b0C; 62%",
+        "GENERAL_REAGENTS": [
+          "NaNADP",
+          "Na2HPO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Na+].[Na+].NC(=O)c1ccc[n+](c1)[C@H]2O[C@H](COP([O-])(=O)OP([O-])(=O)OC[C@H]3O[C@H]([C@H](OP(O)([O-])=O)[C@@H]3O)n4cnc5c(N)ncnc45)[C@@H](O)[C@H]2O",
+          "[Na+].[Na+].[H]P(=O)([O-])[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_7",
+      "reaction_smiles": "C=C1C(=O)CC[C@H]2C(C)(C)[C@@H](O)CC[C@]12C.C[C@@]1(CI)C=CC(=O)O[C@H]1c1ccoc1.[Zn].[Cu+].[I-].c1ccncc1.O>>CC1(C)[C@@H](O)CC[C@]2(C)[C@@H](CC[C@]3(C)C=CC(=O)O[C@H]3c3ccoc3)C(=O)CC[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C@@H:4]([OH:5])[CH2:6][CH2:7][C@:8]2([CH3:9])[C:10](=[CH2:11])[C:26](=[O:27])[CH2:28][CH2:29][C@@H:30]12.I[CH2:12][C@:13]1([CH3:14])[CH:15]=[CH:16][C:17](=[O:18])[O:19][C@H:20]1[c:21]1[cH:22][cH:23][o:24][cH:25]1>O.[Cu+].[I-].[Zn].c1ccncc1>[CH3:1][C:2]1([CH3:3])[C@@H:4]([OH:5])[CH2:6][CH2:7][C@:8]2([CH3:9])[C@@H:10]([CH2:11][CH2:12][C@:13]3([CH3:14])[CH:15]=[CH:16][C:17](=[O:18])[O:19][C@H:20]3[c:21]3[cH:22][cH:23][o:24][cH:25]3)[C:26](=[O:27])[CH2:28][CH2:29][C@@H:30]12",
+      "mapping_confidence": 0.6448848750294561,
+      "conditions": {
+        "raw_description": "Zn; CuI; pyridine; H2O; sonication; 45 \u00b0C; 93%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Zn",
+          "CuI"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Zn]",
+          "[Cu+].[I-]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "pyridine",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1=CC=NC=C1",
+          "O"
+        ],
+        "MODIFIERS": [
+          "sonication"
+        ],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "93%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_8",
+      "reaction_smiles": "CC1(C)[C@@H](O)CC[C@]2(C)[C@@H](CC[C@]3(C)C=CC(=O)O[C@H]3c3ccoc3)C(=O)CC[C@@H]12.C[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-].Cc1ccccc1.CC(C)(C)[O-].[K+]>>C=C1CC[C@H]2C(C)(C)[C@@H](O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1",
+      "reaction_smiles_mapped": "O=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[C@@H:9]([OH:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C@H:15]1[CH2:16][CH2:17][C@:18]1([CH3:19])[CH:20]=[CH:21][C:22](=[O:23])[O:24][C@H:25]1[c:26]1[cH:27][cH:28][o:29][cH:30]1.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH3:1])cc1>CC(C)(C)[O-].Cc1ccccc1.[Br-].[K+]>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[C@@H:9]([OH:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C@H:15]1[CH2:16][CH2:17][C@:18]1([CH3:19])[CH:20]=[CH:21][C:22](=[O:23])[O:24][C@H:25]1[c:26]1[cH:27][cH:28][o:29][cH:30]1",
+      "mapping_confidence": 0.7916186714924485,
+      "conditions": {
+        "raw_description": "tBuOK; MePPh3Br; toluene; 80 \u00b0C; 99%",
+        "GENERAL_REAGENTS": [
+          "MePPh3Br"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[P+](C)(c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene",
+          "tBuOK"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1",
+          "CC(C)(C)[O-].[K+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "99%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_9",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)[C@@H](O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1.CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>>C=C1CC[C@H]2C(C)(C)C(=O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[C@@H:9]([OH:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C@H:15]1[CH2:16][CH2:17][C@:18]1([CH3:19])[CH:20]=[CH:21][C:22](=[O:23])[O:24][C@H:25]1[c:26]1[cH:27][cH:28][o:29][cH:30]1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.ClCCl>[CH2:1]=[C:2]1[CH2:3][CH2:4][C@H:5]2[C:6]([CH3:7])([CH3:8])[C:9](=[O:10])[CH2:11][CH2:12][C@:13]2([CH3:14])[C@H:15]1[CH2:16][CH2:17][C@:18]1([CH3:19])[CH:20]=[CH:21][C:22](=[O:23])[O:24][C@H:25]1[c:26]1[cH:27][cH:28][o:29][cH:30]1",
+      "mapping_confidence": 0.8336506953710645,
+      "conditions": {
+        "raw_description": "DMP; CH2Cl2; 90%",
+        "GENERAL_REAGENTS": [
+          "DMP"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(OI1(OC(C)=O)(OC(C)=O)c2c(C(O1)=O)cccc2)=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "90%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_10",
+      "reaction_smiles": "C=C1CC[C@H]2C(C)(C)C(=O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1.CC(C)(C)OO.O=[Se]=O.ClCCl>>C=C1[C@H](O)C[C@H]2C(C)(C)C(=O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1",
+      "reaction_smiles_mapped": "[CH2:1]=[C:2]1[CH2:3][CH2:5][C@H:6]2[C:7]([CH3:8])([CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C@:14]2([CH3:15])[C@H:16]1[CH2:17][CH2:18][C@:19]1([CH3:20])[CH:21]=[CH:22][C:23](=[O:24])[O:25][C@H:26]1[c:27]1[cH:28][cH:29][o:30][cH:31]1.CC(C)(C)O[OH:4]>ClCCl.O=[Se]=O>[CH2:1]=[C:2]1[C@H:3]([OH:4])[CH2:5][C@H:6]2[C:7]([CH3:8])([CH3:9])[C:10](=[O:11])[CH2:12][CH2:13][C@:14]2([CH3:15])[C@H:16]1[CH2:17][CH2:18][C@:19]1([CH3:20])[CH:21]=[CH:22][C:23](=[O:24])[O:25][C@H:26]1[c:27]1[cH:28][cH:29][o:30][cH:31]1",
+      "mapping_confidence": 0.6607539754041909,
+      "conditions": {
+        "raw_description": "SeO2; TBHP; CH2Cl2; 86%",
+        "GENERAL_REAGENTS": [
+          "TBHP",
+          "SeO2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)OO",
+          "O=[Se]=O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "86%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_11",
+      "reaction_smiles": "C=C1[C@H](O)C[C@H]2C(C)(C)C(=O)CC[C@]2(C)[C@H]1CC[C@]1(C)C=CC(=O)O[C@H]1c1ccoc1.CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].[Fe+3].[SiH3]c1ccccc1.CCO>>CC1(C)C(=O)CC[C@]2(C)[C@H]3CC[C@]4(C)[C@@H](CC(=O)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@:8]2([CH3:9])[C@@H:10]([CH2:11][CH2:12][C@:13]3([CH3:14])[CH:15]=[CH:16][C:17](=[O:18])[O:19][C@H:20]3[c:21]3[cH:22][cH:23][o:24][cH:25]3)[C:26](=[CH2:27])[C@H:28]([OH:29])[CH2:30][C@@H:31]12>CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CC(=O)/C=C(/C)[O-].CCO.[Fe+3].[SiH3]c1ccccc1>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:6][CH2:7][C@:8]2([CH3:9])[C@H:10]3[CH2:11][CH2:12][C@:13]4([CH3:14])[C@@H:15]([CH2:16][C:17](=[O:18])[O:19][C@H:20]4[c:21]4[cH:22][cH:23][o:24][cH:25]4)[C@:26]3([CH3:27])[C@H:28]([OH:29])[CH2:30][C@@H:31]12",
+      "mapping_confidence": 0.7254879718103281,
+      "conditions": {
+        "raw_description": "Fe(acac)3; PhSiH3; EtOH; 45 \u00b0C; 97%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Fe(acac)3"
+        ],
+        "CATALYSTS_SMILES": [
+          "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].[Fe+3]"
+        ],
+        "LIGANDS": [
+          "PhSiH3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)[SiH3]"
+        ],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_12",
+      "reaction_smiles": "CC1(C)C(=O)CC[C@]2(C)[C@H]3CC[C@]4(C)[C@@H](CC(=O)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12.C[Si](C)(C)Cl.[Li]N(C(C)C)C(C)C.C1CCOC1>>CC1(C)C(O[Si](C)(C)C)=CC[C@]2(C)[C@H]3CC[C@]4(C)[C@@H](C=C(O[Si](C)(C)C)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12",
+      "reaction_smiles_mapped": "[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH2:10][CH2:11][C@:12]2([CH3:13])[C@H:14]3[CH2:15][CH2:16][C@:17]4([CH3:18])[C@@H:19]([CH2:20][C:21](=[O:22])[O:27][C@H:28]4[c:29]4[cH:30][cH:31][o:32][cH:33]4)[C@:34]3([CH3:35])[C@H:36]([OH:37])[CH2:38][C@@H:39]12.Cl[Si:6]([CH3:7])([CH3:8])[CH3:9].[Li]N(C([CH3:24])[CH3:25])C(C)[CH3:26]>C1CCOC1>[CH3:1][C:2]1([CH3:3])[C:4]([O:5][Si:6]([CH3:7])([CH3:8])[CH3:9])=[CH:10][CH2:11][C@:12]2([CH3:13])[C@H:14]3[CH2:15][CH2:16][C@:17]4([CH3:18])[C@@H:19]([CH:20]=[C:21]([O:22][Si:23]([CH3:24])([CH3:25])[CH3:26])[O:27][C@H:28]4[c:29]4[cH:30][cH:31][o:32][cH:33]4)[C@:34]3([CH3:35])[C@H:36]([OH:37])[CH2:38][C@@H:39]12",
+      "mapping_confidence": 0.01354153830256774,
+      "conditions": {
+        "raw_description": "LDA; TMSCl; THF; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "TMSCl",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C[Si](C)(C)Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_13",
+      "reaction_smiles": "CC1(C)C(O[Si](C)(C)C)=CC[C@]2(C)[C@H]3CC[C@]4(C)[C@@H](C=C(O[Si](C)(C)C)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12.O=O.F.CC(=O)[O-].CC(=O)[O-].[Pd+2].CS(C)=O.CC#N.O>>CC1(C)C(=O)C=C[C@]2(C)[C@H]3CC[C@]4(C)C(=CC(=O)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:5][C:4]1=[CH:6][CH2:7][C@@:8]2([CH3:9])[C@H:10]([C:2]1([CH3:1])[CH3:3])[CH2:11][C@@H:12]([OH:13])[C@@:14]1([CH3:15])[C@@H:16]3[CH:17]=[C:18]([O:19][Si](C)(C)C)[O:20][C@@H:21]([c:22]4[cH:23][cH:24][o:25][cH:26]4)[C@:27]3([CH3:28])[CH2:29][CH2:30][C@H:31]21>CC#N.CC(=O)[O-].CC(=O)[O-].CS(C)=O.F.O.O=O.[Pd+2]>[CH3:1][C:2]1([CH3:3])[C:4](=[O:5])[CH:6]=[CH:7][C@@:8]2([CH3:9])[C@H:10]1[CH2:11][C@@H:12]([OH:13])[C@@:14]1([CH3:15])[C:16]3=[CH:17][C:18](=[O:19])[O:20][C@@H:21]([c:22]4[cH:23][cH:24][o:25][cH:26]4)[C@:27]3([CH3:28])[CH2:29][CH2:30][C@H:31]21",
+      "mapping_confidence": 0.7414968688431651,
+      "conditions": {
+        "raw_description": "1) Pd(OAc)2; O2; DMSO; MeCN; 2) HF; H2O",
+        "GENERAL_REAGENTS": [
+          "O2",
+          "HF"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=O",
+          "F"
+        ],
+        "CATALYSTS": [
+          "Pd(OAc)2"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC(=O)[O-].CC(=O)[O-].[Pd+2]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO",
+          "MeCN",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C",
+          "CC#N",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_14",
+      "reaction_smiles": "CC1(C)C(=O)C=C[C@]2(C)[C@H]3CC[C@]4(C)C(=CC(=O)O[C@H]4c4ccoc4)[C@]3(C)[C@H](O)C[C@@H]12.CCN(CC)CC.ClCCl.CC(=O)OC(C)=O>>CC(=O)O[C@@H]1C[C@H]2C(C)(C)C(=O)C=C[C@]2(C)[C@H]2CC[C@]3(C)C(=CC(=O)O[C@H]3c3ccoc3)[C@@]21C",
+      "reaction_smiles_mapped": "CC(=O)O[C:2]([CH3:1])=[O:3].[OH:4][C@@H:5]1[CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[C:11](=[O:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[C@H:17]2[CH2:18][CH2:19][C@:20]3([CH3:21])[C:22](=[CH:23][C:24](=[O:25])[O:26][C@H:27]3[c:28]3[cH:29][cH:30][o:31][cH:32]3)[C@:33]12[CH3:34]>CCN(CC)CC.ClCCl>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[C:11](=[O:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[C@H:17]2[CH2:18][CH2:19][C@:20]3([CH3:21])[C:22](=[CH:23][C:24](=[O:25])[O:26][C@H:27]3[c:28]3[cH:29][cH:30][o:31][cH:32]3)[C@:33]12[CH3:34]",
+      "mapping_confidence": 0.4379002654917619,
+      "conditions": {
+        "raw_description": "Ac2O; Et3N; CH2Cl2; 73% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "Ac2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "CC(=O)OC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "73% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_15",
+      "reaction_smiles": "CC(=O)O[C@@H]1C[C@H]2C(C)(C)C(=O)C=C[C@]2(C)[C@H]2CC[C@]3(C)C(=CC(=O)O[C@H]3c3ccoc3)[C@@]21C.O=C(OO)c1cccc(Cl)c1.ClCCl>>CC(=O)O[C@@H]1C[C@H]2C(C)(C)C(=O)C=C[C@]2(C)[C@H]2CC[C@@]3(C)[C@H](c4ccoc4)OC(=O)[C@H]4O[C@]43[C@@]21C",
+      "reaction_smiles_mapped": "[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[C:11](=[O:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[C@H:17]2[CH2:18][CH2:19][C@@:20]3([CH3:21])[C@H:22]([c:23]4[cH:24][cH:25][o:26][cH:27]4)[O:28][C:29](=[O:30])[CH:31]=[C:33]3[C@:34]12[CH3:35].O=C(O[OH:32])c1cccc(Cl)c1>ClCCl>[CH3:1][C:2](=[O:3])[O:4][C@@H:5]1[CH2:6][C@H:7]2[C:8]([CH3:9])([CH3:10])[C:11](=[O:12])[CH:13]=[CH:14][C@:15]2([CH3:16])[C@H:17]2[CH2:18][CH2:19][C@@:20]3([CH3:21])[C@H:22]([c:23]4[cH:24][cH:25][o:26][cH:27]4)[O:28][C:29](=[O:30])[C@H:31]4[O:32][C@@:33]34[C@:34]12[CH3:35]",
+      "mapping_confidence": 0.7540747527507442,
+      "conditions": {
+        "raw_description": "mCPBA; CH2Cl2; -20 \u00b0C; 62%",
+        "GENERAL_REAGENTS": [
+          "mCPBA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC(=CC(=C1)Cl)C(=O)OO"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": [
+          "62%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_16",
+      "reaction_smiles": "OCc1ccoc1.C=CC1(C)CO1.O=P([O-])([O-])[O-].[K+].[K+].[K+].C=CC.N#Cc1ccc(C(=O)O)cc1[N+](=O)[O-].[Ir].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1.C1CCOC1>>C=C[C@@](C)(CO)C(O)c1ccoc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C:3]1([CH3:4])[CH2:5][O:6]1.[CH2:7]([OH:8])[c:9]1[cH:10][cH:11][o:12][cH:13]1>C1CCOC1.C=CC.N#Cc1ccc(C(=O)O)cc1[N+](=O)[O-].O=P([O-])([O-])[O-].[Ir].[K+].[K+].[K+].c1ccc(P(c2ccccc2)c2ccc3c(c2-c2c(P(c4ccccc4)c4ccccc4)ccc4c2OCO4)OCO3)cc1>[CH2:1]=[CH:2][C@@:3]([CH3:4])([CH2:5][OH:6])[CH:7]([OH:8])[c:9]1[cH:10][cH:11][o:12][cH:13]1",
+      "mapping_confidence": 0.9028105457409152,
+      "conditions": {
+        "raw_description": "Krische's cat.; K3PO4; THF; 60 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "K3PO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]"
+        ],
+        "CATALYSTS": [
+          "Krische's cat."
+        ],
+        "CATALYSTS_SMILES": [
+          "CC=C.OC(C1=CC=C(C#N)C([N+]([O-])=O)=C1)=O.C2(OCO3)=C3C=CC(P(C4=CC=CC=C4)C5=CC=CC=C5)=C2C6=C(P(C7=CC=CC=C7)C8=CC=CC=C8)C=CC9=C6OCO9.[Ir]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_17",
+      "reaction_smiles": "C=C[C@@](C)(CO)C(O)c1ccoc1.CCN(CC)CC.C[Si](C)(C)Cl.ClCCl>>C=C[C@@](C)(CO[Si](C)(C)C)C(O)c1ccoc1",
+      "reaction_smiles_mapped": "[CH2:1]=[CH:2][C@@:3]([CH3:4])([CH2:5][OH:6])[CH:11]([OH:12])[c:13]1[cH:14][cH:15][o:16][cH:17]1.Cl[Si:7]([CH3:8])([CH3:9])[CH3:10]>CCN(CC)CC.ClCCl>[CH2:1]=[CH:2][C@@:3]([CH3:4])([CH2:5][O:6][Si:7]([CH3:8])([CH3:9])[CH3:10])[CH:11]([OH:12])[c:13]1[cH:14][cH:15][o:16][cH:17]1",
+      "mapping_confidence": 0.4320540754279928,
+      "conditions": {
+        "raw_description": "Et3N; TMSCl; CH2Cl2; -20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N",
+          "TMSCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC",
+          "C[Si](C)(C)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_18",
+      "reaction_smiles": "C=C[C@@](C)(CO[Si](C)(C)C)C(O)c1ccoc1.C=CC(=O)Cl.ClCCl>>C=CC(=O)OC(c1ccoc1)[C@@](C)(C=C)CO[Si](C)(C)C",
+      "reaction_smiles_mapped": "Cl[C:3]([CH:2]=[CH2:1])=[O:4].[OH:5][CH:6]([c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@:12]([CH3:13])([CH:14]=[CH2:15])[CH2:16][O:17][Si:18]([CH3:19])([CH3:20])[CH3:21]>ClCCl>[CH2:1]=[CH:2][C:3](=[O:4])[O:5][CH:6]([c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@:12]([CH3:13])([CH:14]=[CH2:15])[CH2:16][O:17][Si:18]([CH3:19])([CH3:20])[CH3:21]",
+      "mapping_confidence": 0.4402928848836428,
+      "conditions": {
+        "raw_description": "CH2Cl2; -20 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_19",
+      "reaction_smiles": "C=CC(=O)OC(c1ccoc1)[C@@](C)(C=C)CO[Si](C)(C)C.O=C(O)CC(O)(CC(=O)O)C(=O)O.CO>>C=CC(=O)OC(c1ccoc1)[C@@](C)(C=C)CO",
+      "reaction_smiles_mapped": "C[Si](C)(C)[O:17][CH2:16][C@:12]([CH:6]([O:5][C:3]([CH:2]=[CH2:1])=[O:4])[c:7]1[cH:8][cH:9][o:10][cH:11]1)([CH3:13])[CH:14]=[CH2:15]>CO.O=C(O)CC(O)(CC(=O)O)C(=O)O>[CH2:1]=[CH:2][C:3](=[O:4])[O:5][CH:6]([c:7]1[cH:8][cH:9][o:10][cH:11]1)[C@@:12]([CH3:13])([CH:14]=[CH2:15])[CH2:16][OH:17]",
+      "mapping_confidence": 0.9835898005084655,
+      "conditions": {
+        "raw_description": "citric acid; MeOH; 82% (2 steps)",
+        "GENERAL_REAGENTS": [
+          "citric acid"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(C(=O)O)C(CC(=O)O)(C(=O)O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": [
+          "82% (2 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_20",
+      "reaction_smiles": "C=CC(=O)OC(c1ccoc1)[C@@](C)(C=C)CO.Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>>C[C@@]1(CO)C=CC(=O)O[C@H]1c1ccoc1",
+      "reaction_smiles_mapped": "C=C[C@@:2]([CH3:1])([CH2:3][OH:4])[CH:10]([O:9][C:7]([CH:6]=[CH2:5])=[O:8])[c:11]1[cH:12][cH:13][o:14][cH:15]1>Cc1cc(C)c(N2CCN(c3c(C)cc(C)cc3C)C2=[Ru](Cl)(Cl)=Cc2ccccc2OC(C)C)c(C)c1.Cc1ccccc1>[CH3:1][C@@:2]1([CH2:3][OH:4])[CH:5]=[CH:6][C:7](=[O:8])[O:9][C@H:10]1[c:11]1[cH:12][cH:13][o:14][cH:15]1",
+      "mapping_confidence": 0.8892832680791939,
+      "conditions": {
+        "raw_description": "HG-II; toluene; 80 \u00b0C; 78%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HG-II"
+        ],
+        "CATALYSTS_SMILES": [
+          "CC1=CC(=C(C(=C1)C)N2CCN(C2=[Ru](=CC3=CC=CC=C3OC(C)C)(Cl)Cl)C4=C(C=C(C=C4C)C)C)C"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": [
+          "78%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Gedunin_2022_Renata_21",
+      "reaction_smiles": "C[C@@]1(CO)C=CC(=O)O[C@H]1c1ccoc1.II.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1>>C[C@@]1(CI)C=CC(=O)O[C@H]1c1ccoc1",
+      "reaction_smiles_mapped": "O[CH2:3][C@:2]1([CH3:1])[CH:5]=[CH:6][C:7](=[O:8])[O:9][C@H:10]1[c:11]1[cH:12][cH:13][o:14][cH:15]1.I[I:4]>Cc1ccccc1.c1c[nH]cn1.c1ccc(P(c2ccccc2)c2ccccc2)cc1>[CH3:1][C@@:2]1([CH2:3][I:4])[CH:5]=[CH:6][C:7](=[O:8])[O:9][C@H:10]1[c:11]1[cH:12][cH:13][o:14][cH:15]1",
+      "mapping_confidence": 0.5224801883421285,
+      "conditions": {
+        "raw_description": "I2; PPh3; imidazole; toluene; 60 \u00b0C; 66%",
+        "GENERAL_REAGENTS": [
+          "I2",
+          "imidazole"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "II",
+          "C1=CN=CN1"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "PPh3"
+        ],
+        "LIGANDS_SMILES": [
+          "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+        ],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "60"
+        ],
+        "YIELD": [
+          "66%"
+        ]
+      }
+    }
+  ]
+}

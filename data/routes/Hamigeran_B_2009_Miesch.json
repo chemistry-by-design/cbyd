@@ -1,0 +1,510 @@
+{
+  "background": {
+    "name": "(+/-)-Hamigeran B",
+    "author": "Miesch",
+    "year": 2009,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Chem. Eur. J.  2009, 15, 4394",
+    "doi": "10.1002/chem.200802309"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_1",
+      "reaction_smiles": "Cc1cccc(O)c1.O=C1CCC(=O)O1.Cl[Al](Cl)Cl.ClC(Cl)C(Cl)Cl>>Cc1ccc(C(=O)CCC(=O)O)c(O)c1",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][cH:5][c:13]([OH:14])[cH:15]1.[C:6]1(=[O:7])[CH2:8][CH2:9][C:10](=[O:11])[O:12]1>Cl[Al](Cl)Cl.ClC(Cl)C(Cl)Cl>[CH3:1][c:2]1[cH:3][cH:4][c:5]([C:6](=[O:7])[CH2:8][CH2:9][C:10](=[O:11])[OH:12])[c:13]([OH:14])[cH:15]1",
+      "mapping_confidence": 0.6147137229134872,
+      "conditions": {
+        "raw_description": "succinic anhydride; Cl2CHCHCl2; AlCl3; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "succinic anhydride"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)OC1=O"
+        ],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Cl2CHCHCl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClC(Cl)C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_2",
+      "reaction_smiles": "Cc1ccc(C(=O)CCC(=O)O)c(O)c1.[Zn].Cl.CC(=O)O.Cl[Hg]Cl.O>>Cc1ccc(CCCC(=O)O)c(O)c1",
+      "reaction_smiles_mapped": "O=[C:6]([c:5]1[cH:4][cH:3][c:2]([CH3:1])[cH:14][c:12]1[OH:13])[CH2:7][CH2:8][C:9](=[O:10])[OH:11]>[Zn].Cl.CC(=O)O.Cl[Hg]Cl.O>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH2:6][CH2:7][CH2:8][C:9](=[O:10])[OH:11])[c:12]([OH:13])[cH:14]1",
+      "mapping_confidence": 0.9495450763386831,
+      "conditions": {
+        "raw_description": "mossy Zn; HgCl2; HCl; H2O; AcOH",
+        "GENERAL_REAGENTS": [
+          "mossy Zn",
+          "HCl",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Zn]",
+          "Cl",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "HgCl2"
+        ],
+        "CATALYSTS_SMILES": [
+          "Cl[Hg]Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_3",
+      "reaction_smiles": "Cc1ccc(CCCC(=O)O)c(O)c1.COS(=O)(=O)OC.[Na+].[OH-]>>COc1cc(C)ccc1CCCC(=O)O",
+      "reaction_smiles_mapped": "COS(=O)(=O)O[CH3:1].[OH:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][cH:8][c:9]1[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[OH:15]>[Na+].[OH-]>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][cH:8][c:9]1[CH2:10][CH2:11][CH2:12][C:13](=[O:14])[OH:15]",
+      "mapping_confidence": 0.4879772044502151,
+      "conditions": {
+        "raw_description": "Me2SO4; aq. NaOH; reflux",
+        "GENERAL_REAGENTS": [
+          "Me2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "COS(=O)(=O)OC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "aq. NaOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_4",
+      "reaction_smiles": "COc1cc(C)ccc1CCCC(=O)O.CI.[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>>COc1cc(C)ccc1CCC(C)C(=O)O",
+      "reaction_smiles_mapped": "I[CH3:13].[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][cH:8][c:9]1[CH2:10][CH2:11][CH2:12][C:14](=[O:15])[OH:16]>[Li]N(C(C)C)C(C)C.CN(C)P(=O)(N(C)C)N(C)C.C1CCOC1>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][cH:8][c:9]1[CH2:10][CH2:11][CH:12]([CH3:13])[C:14](=[O:15])[OH:16]",
+      "mapping_confidence": 0.9045334730922017,
+      "conditions": {
+        "raw_description": "LDA; THF; HMPA; -78  \u00b0C; MeI",
+        "GENERAL_REAGENTS": [
+          "MeI",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [
+          "HMPA"
+        ],
+        "LIGANDS_SMILES": [
+          "CN(C)P(=O)(N(C)C)N(C)C"
+        ],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_5",
+      "reaction_smiles": "COc1cc(C)ccc1CCC(C)C(=O)O.O=P(Cl)(Cl)Cl.ClC(Cl)C(Cl)Cl>>COc1cc(C)cc2c1CCC(C)C2=O",
+      "reaction_smiles_mapped": "O[C:14]([CH:12]([CH2:11][CH2:10][c:9]1[c:3]([O:2][CH3:1])[cH:4][c:5]([CH3:6])[cH:7][cH:8]1)[CH3:13])=[O:15]>O=P(Cl)(Cl)Cl.ClC(Cl)C(Cl)Cl>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[CH2:10][CH2:11][CH:12]([CH3:13])[C:14]2=[O:15]",
+      "mapping_confidence": 0.627490282983041,
+      "conditions": {
+        "raw_description": "POCl3; Cl2CHCHCl2; reflux",
+        "GENERAL_REAGENTS": [
+          "POCl3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=P(Cl)(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "Cl2CHCHCl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClC(Cl)C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_6",
+      "reaction_smiles": "COc1cc(C)cc2c1CCC(C)C2=O.CCCC#CI.CC(C)(C)[O-].[K+].CN(C)C=O>>C#CCCCC1(C)CCc2c(OC)cc(C)cc2C1=O",
+      "reaction_smiles_mapped": "I[C:1]#[C:2][CH2:3][CH2:4][CH3:5].[CH:6]1([CH3:7])[CH2:8][CH2:9][c:10]2[c:11]([O:12][CH3:13])[cH:14][c:15]([CH3:16])[cH:17][c:18]2[C:19]1=[O:20]>CC(C)(C)[O-].[K+].CN(C)C=O>[CH:1]#[C:2][CH2:3][CH2:4][CH2:5][C:6]1([CH3:7])[CH2:8][CH2:9][c:10]2[c:11]([O:12][CH3:13])[cH:14][c:15]([CH3:16])[cH:17][c:18]2[C:19]1=[O:20]",
+      "mapping_confidence": 0.8597854337067381,
+      "conditions": {
+        "raw_description": "t-BuOK; 5-iodopentyne; uW; DMF",
+        "GENERAL_REAGENTS": [
+          "5-iodopentyne"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCCC#CI"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "t-BuOK",
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(C)(C)[O-].[K+]",
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_7",
+      "reaction_smiles": "C#CCCCC1(C)CCc2c(OC)cc(C)cc2C1=O.CCOC(=O)Cl.[Li]N(C(C)C)C(C)C.C1CCOC1>>CCOC(=O)C#CCCCC1(C)CCc2c(OC)cc(C)cc2C1=O",
+      "reaction_smiles_mapped": "[CH:6]#[C:7][CH2:8][CH2:9][CH2:10][C:11]1([CH3:12])[CH2:13][CH2:14][c:15]2[c:16]([O:17][CH3:18])[cH:19][c:20]([CH3:21])[cH:22][c:23]2[C:24]1=[O:25].Cl[C:4]([O:3][CH2:2][CH3:1])=[O:5]>[Li]N(C(C)C)C(C)C.C1CCOC1>[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][CH2:8][CH2:9][CH2:10][C:11]1([CH3:12])[CH2:13][CH2:14][c:15]2[c:16]([O:17][CH3:18])[cH:19][c:20]([CH3:21])[cH:22][c:23]2[C:24]1=[O:25]",
+      "mapping_confidence": 0.9819070808974448,
+      "conditions": {
+        "raw_description": "1) LDA; THF; -78 \u00b0C; 2) ClCO2Et; 0 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "ClCO2Et",
+          "LDA"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCOC(=O)Cl",
+          "[Li]N(C(C)C)C(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "0"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_8",
+      "reaction_smiles": "CCOC(=O)C#CCCCC1(C)CCc2c(OC)cc(C)cc2C1=O.CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F.CCN(CC)CC>>CCOC(=O)C=C=C1CC[C@@]2(C)CCc3c(OC)cc(C)cc3[C@@]12O[Si](C)(C)C(C)(C)C",
+      "reaction_smiles_mapped": "O=S(=O)(O[Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32])C(F)(F)F.[CH3:1][CH2:2][O:3][C:4](=[O:5])[C:6]#[C:7][CH2:8][CH2:9][CH2:10][C:11]1([CH3:12])[CH2:13][CH2:14][c:15]2[c:16]([O:17][CH3:18])[cH:19][c:20]([CH3:21])[cH:22][c:23]2[C:24]1=[O:25]>CCN(CC)CC>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH:6]=[C:7]=[C:8]1[CH2:9][CH2:10][C@@:11]2([CH3:12])[CH2:13][CH2:14][c:15]3[c:16]([O:17][CH3:18])[cH:19][c:20]([CH3:21])[cH:22][c:23]3[C@@:24]12[O:25][Si:26]([CH3:27])([CH3:28])[C:29]([CH3:30])([CH3:31])[CH3:32]",
+      "mapping_confidence": 0.3525139553568422,
+      "conditions": {
+        "raw_description": "TBSOTf; NEt3",
+        "GENERAL_REAGENTS": [
+          "TBSOTf"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)(C)[Si](C)(C)OS(=O)(=O)C(F)(F)F"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NEt3"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_9",
+      "reaction_smiles": "CCOC(=O)C=C=C1CC[C@@]2(C)CCc3c(OC)cc(C)cc3[C@@]12O[Si](C)(C)C(C)(C)C.F[B-](F)(F)F.[H+].CCO>>CCOC(=O)CC(=O)C1=C2c3cc(C)cc(OC)c3CC[C@]2(C)CC1",
+      "reaction_smiles_mapped": "CC(C)(C)[Si](C)(C)[O:8][C@:10]12[C:9](=[C:7]=[CH:6][C:4]([O:3][CH2:2][CH3:1])=[O:5])[CH2:25][CH2:24][C@@:22]1([CH3:23])[CH2:21][CH2:20][c:19]1[c:11]2[cH:12][c:13]([CH3:14])[cH:15][c:16]1[O:17][CH3:18]>F[B-](F)(F)F.[H+].CCO>[CH3:1][CH2:2][O:3][C:4](=[O:5])[CH2:6][C:7](=[O:8])[C:9]1=[C:10]2[c:11]3[cH:12][c:13]([CH3:14])[cH:15][c:16]([O:17][CH3:18])[c:19]3[CH2:20][CH2:21][C@:22]2([CH3:23])[CH2:24][CH2:25]1",
+      "mapping_confidence": 0.8897532813272797,
+      "conditions": {
+        "raw_description": "HBF4 (50% H2O); EtOH; rt",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "HBF4"
+        ],
+        "CATALYSTS_SMILES": [
+          "[H+].[B-](F)(F)(F)F"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_10",
+      "reaction_smiles": "CCOC(=O)CC(=O)C1=C2c3cc(C)cc(OC)c3CC[C@]2(C)CC1.[Li]I.CN(C)C=O>>COc1cc(C)cc2c1CC[C@]1(C)CCC(C(C)=O)=C21",
+      "reaction_smiles_mapped": "CCOC(=O)[CH2:18][C:17]([C:16]1=[C:20]2[c:8]3[cH:7][c:5]([CH3:6])[cH:4][c:3]([O:2][CH3:1])[c:9]3[CH2:10][CH2:11][C@:12]2([CH3:13])[CH2:14][CH2:15]1)=[O:19]>[Li]I.CN(C)C=O>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[CH2:14][CH2:15][C:16]([C:17]([CH3:18])=[O:19])=[C:20]21",
+      "mapping_confidence": 0.962789704532597,
+      "conditions": {
+        "raw_description": "LiI; DMF; 140 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiI"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "I[Li]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN(C)C=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "140"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_11",
+      "reaction_smiles": "COc1cc(C)cc2c1CC[C@]1(C)CCC(C(C)=O)=C21.[CH2-][P+](c1ccccc1)(c1ccccc1)c1ccccc1.CC1CCCO1>>C=C(C)C1=C2c3cc(C)cc(OC)c3CC[C@]2(C)CC1",
+      "reaction_smiles_mapped": "O=[C:2]([CH3:3])[C:4]1=[C:5]2[c:6]3[cH:7][c:8]([CH3:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[CH2:15][CH2:16][C@:17]2([CH3:18])[CH2:19][CH2:20]1.c1ccc([P+](c2ccccc2)(c2ccccc2)[CH2-:1])cc1>CC1CCCO1>[CH2:1]=[C:2]([CH3:3])[C:4]1=[C:5]2[c:6]3[cH:7][c:8]([CH3:9])[cH:10][c:11]([O:12][CH3:13])[c:14]3[CH2:15][CH2:16][C@:17]2([CH3:18])[CH2:19][CH2:20]1",
+      "mapping_confidence": 0.8170814538435477,
+      "conditions": {
+        "raw_description": "Ph3PCH2; MeTHF; 80 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Ph3PCH2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[CH2-][P+](c1ccccc1)(c2ccccc2)c3ccccc3"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeTHF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1CCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "80"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_12",
+      "reaction_smiles": "C=C(C)C1=C2c3cc(C)cc(OC)c3CC[C@]2(C)CC1.[HH].CC(=O)O.O=[Pt]=O>>COc1cc(C)cc2c1CC[C@@]1(C)CC[C@@H](C(C)C)[C@@H]21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[CH2:10][CH2:11][C@:12]1([CH3:13])[CH2:14][CH2:15][C:16]([C:17]([CH3:18])=[CH2:19])=[C:20]21>[HH].CC(=O)O.O=[Pt]=O>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[CH2:10][CH2:11][C@@:12]1([CH3:13])[CH2:14][CH2:15][C@@H:16]([CH:17]([CH3:18])[CH3:19])[C@@H:20]21",
+      "mapping_confidence": 0.5865956862062084,
+      "conditions": {
+        "raw_description": "H2; PtO2; AcOH; 45  \u00b0C",
+        "GENERAL_REAGENTS": [
+          "H2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[HH]",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [
+          "PtO2"
+        ],
+        "CATALYSTS_SMILES": [
+          "O=[Pt]=O"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "45"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_13",
+      "reaction_smiles": "COc1cc(C)cc2c1CC[C@@]1(C)CC[C@@H](C(C)C)[C@@H]21.N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.ClCCl.O>>COc1cc(C)cc2c1C(=O)C[C@]1(C)CC[C@H](C(C)C)[C@H]21",
+      "reaction_smiles_mapped": "[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[CH2:10][CH2:12][C@@:13]1([CH3:14])[CH2:15][CH2:16][C@@H:17]([CH:18]([CH3:19])[CH3:20])[C@@H:21]21.[OH2:11]>N#CC1=C(C#N)C(=O)C(Cl)=C(Cl)C1=O.ClCCl>[CH3:1][O:2][c:3]1[cH:4][c:5]([CH3:6])[cH:7][c:8]2[c:9]1[C:10](=[O:11])[CH2:12][C@:13]1([CH3:14])[CH2:15][CH2:16][C@H:17]([CH:18]([CH3:19])[CH3:20])[C@H:21]21",
+      "mapping_confidence": 0.3317437438521131,
+      "conditions": {
+        "raw_description": "DDQ/H2O; CH2Cl2; rt",
+        "GENERAL_REAGENTS": [
+          "DDQ"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C(#N)C1=C(C(=O)C(=C(C1=O)Cl)Cl)C#N"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2",
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl",
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_14",
+      "reaction_smiles": "COc1cc(C)cc2c1C(=O)C[C@]1(C)CC[C@H](C(C)C)[C@H]21.BrB(Br)Br.ClCCl>>Cc1cc(O)c2c(c1)[C@H]1[C@@H](C(C)C)CC[C@@]1(C)CC2=O",
+      "reaction_smiles_mapped": "C[O:5][c:4]1[cH:3][c:2]([CH3:1])[cH:8][c:7]2[c:6]1[C:19](=[O:20])[CH2:18][C@@:16]1([CH3:17])[C@@H:9]2[C@@H:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15]1>BrB(Br)Br.ClCCl>[CH3:1][c:2]1[cH:3][c:4]([OH:5])[c:6]2[c:7]([cH:8]1)[C@H:9]1[C@@H:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15][C@@:16]1([CH3:17])[CH2:18][C:19]2=[O:20]",
+      "mapping_confidence": 0.7874220640493897,
+      "conditions": {
+        "raw_description": "BBr3; CH2Cl2; -78 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "BBr3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "B(Br)(Br)Br"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_15",
+      "reaction_smiles": "Cc1cc(O)c2c(c1)[C@H]1[C@@H](C(C)C)CC[C@@]1(C)CC2=O.O=[Se]=O.CC(=O)O.C1COCCO1>>Cc1cc(O)c2c(c1)[C@H]1[C@@H](C(C)C)CC[C@@]1(C)C(=O)C2=O",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][c:4]([OH:5])[c:6]2[c:7]([cH:8]1)[C@H:9]1[C@@H:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15][C@@:16]1([CH3:17])[CH2:18][C:20]2=[O:21].O=[Se]=[O:19]>CC(=O)O.C1COCCO1>[CH3:1][c:2]1[cH:3][c:4]([OH:5])[c:6]2[c:7]([cH:8]1)[C@H:9]1[C@@H:10]([CH:11]([CH3:12])[CH3:13])[CH2:14][CH2:15][C@@:16]1([CH3:17])[C:18](=[O:19])[C:20]2=[O:21]",
+      "mapping_confidence": 0.36480682224796934,
+      "conditions": {
+        "raw_description": "SeO2; cat. AcOH; dioxane",
+        "GENERAL_REAGENTS": [
+          "SeO2",
+          "AcOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=[Se]=O",
+          "CC(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "dioxane"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1COCCO1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Hamigeran_B_2009_Miesch_16",
+      "reaction_smiles": "Cc1cc(O)c2c(c1)[C@H]1[C@@H](C(C)C)CC[C@@]1(C)C(=O)C2=O.O=C1CCC(=O)N1Br.CC(C)NC(C)C.ClCCl>>Cc1cc2c(c(O)c1Br)C(=O)C(=O)[C@]1(C)CC[C@H](C(C)C)[C@H]21",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][c:4]2[c:5]([c:6]([OH:7])[cH:8]1)[C:10](=[O:11])[C:12](=[O:13])[C@:14]1([CH3:15])[CH2:16][CH2:17][C@H:18]([CH:19]([CH3:20])[CH3:21])[C@H:22]21.O=C1CCC(=O)N1[Br:9]>CC(C)NC(C)C.ClCCl>[CH3:1][c:2]1[cH:3][c:4]2[c:5]([c:6]([OH:7])[c:8]1[Br:9])[C:10](=[O:11])[C:12](=[O:13])[C@:14]1([CH3:15])[CH2:16][CH2:17][C@H:18]([CH:19]([CH3:20])[CH3:21])[C@H:22]21",
+      "mapping_confidence": 0.64215969255149,
+      "conditions": {
+        "raw_description": "NBS; cat. (i-C3H7)2NH; CH2Cl2",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "(i-C3H7)2NH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "CC(C)NC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "CH2Cl2"
+        ],
+        "SOLVENTS_SMILES": [
+          "C(Cl)Cl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    }
+  ]
+}

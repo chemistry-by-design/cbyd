@@ -1,0 +1,172 @@
+{
+  "background": {
+    "name": "Thymol",
+    "author": "Phillips",
+    "year": 1920,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Ind. Eng. Chem. 1920, 12, 733",
+    "doi": "10.1021/ie50128a007"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Thymol_1920_Phillips_1",
+      "reaction_smiles": "Cc1ccc(C(C)C)cc1.O=[N+]([O-])O>>Cc1ccc(C(C)C)cc1[N+](=O)[O-]",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[cH:9][cH:10]1.O[N+:11](=[O:12])[O-:13]>>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[cH:9][c:10]1[N+:11](=[O:12])[O-:13]",
+      "mapping_confidence": 0.419395722591765,
+      "conditions": {
+        "raw_description": "HNO3",
+        "GENERAL_REAGENTS": [
+          "HNO3"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[N+](=O)(O)[O-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Thymol_1920_Phillips_2",
+      "reaction_smiles": "Cc1ccc(C(C)C)cc1[N+](=O)[O-].[Fe].Cl>>Cc1ccc(C(C)C)cc1N",
+      "reaction_smiles_mapped": "O=[N+:11]([O-])[c:10]1[c:2]([CH3:1])[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[cH:9]1>[Fe].Cl>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[cH:9][c:10]1[NH2:11]",
+      "mapping_confidence": 0.680969468412015,
+      "conditions": {
+        "raw_description": "Fe; HCl",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [
+          "Fe"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Fe]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Thymol_1920_Phillips_3",
+      "reaction_smiles": "Cc1ccc(C(C)C)cc1N.O=S(=O)(O)O>>Cc1ccc(C(C)C)c(S(=O)(=O)O)c1N",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[cH:9][c:14]1[NH2:15].O[S:10](=[O:11])(=[O:12])[OH:13]>>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]([S:10](=[O:11])(=[O:12])[OH:13])[c:14]1[NH2:15]",
+      "mapping_confidence": 0.22612729145231394,
+      "conditions": {
+        "raw_description": "H2SO4",
+        "GENERAL_REAGENTS": [
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Thymol_1920_Phillips_4",
+      "reaction_smiles": "Cc1ccc(C(C)C)c(S(=O)(=O)O)c1N.O=N[O-].[Na+].O=S(=O)(O)O>>Cc1ccc(C(C)C)c(S(=O)(=O)O)c1[N+]#N",
+      "reaction_smiles_mapped": "[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]([S:10](=[O:11])(=[O:12])[OH:13])[c:14]1[NH2:15].O=[N:16][O-]>[Na+].O=S(=O)(O)O>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]([S:10](=[O:11])(=[O:12])[OH:13])[c:14]1[N+:15]#[N:16]",
+      "mapping_confidence": 0.2869522974244534,
+      "conditions": {
+        "raw_description": "NaNO2; H2SO4",
+        "GENERAL_REAGENTS": [
+          "NaNO2",
+          "H2SO4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "N(=O)[O-].[Na+]",
+          "OS(=O)(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Thymol_1920_Phillips_5",
+      "reaction_smiles": "Cc1ccc(C(C)C)c(S(=O)(=O)O)c1[N+]#N.[Cu].CCO>>Cc1ccc(C(C)C)c(S(=O)(=O)O)c1",
+      "reaction_smiles_mapped": "N#[N+][c:14]1[c:2]([CH3:1])[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]1[S:10](=[O:11])(=[O:12])[OH:13]>[Cu].CCO>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]([S:10](=[O:11])(=[O:12])[OH:13])[cH:14]1",
+      "mapping_confidence": 0.48902236593351145,
+      "conditions": {
+        "raw_description": "Cu; EtOH",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "Cu"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Cu]"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Thymol_1920_Phillips_6",
+      "reaction_smiles": "Cc1ccc(C(C)C)c(S(=O)(=O)O)c1.[Na+].[OH-]>>Cc1ccc(C(C)C)c(O)c1",
+      "reaction_smiles_mapped": "O=S(=O)([c:9]1[c:5]([CH:6]([CH3:7])[CH3:8])[cH:4][cH:3][c:2]([CH3:1])[cH:11]1)[OH:10]>[Na+].[OH-]>[CH3:1][c:2]1[cH:3][cH:4][c:5]([CH:6]([CH3:7])[CH3:8])[c:9]([OH:10])[cH:11]1",
+      "mapping_confidence": 0.5118126127608749,
+      "conditions": {
+        "raw_description": "NaOH; 280 - 310 \u00b0C; 40% (5 steps)",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "280",
+          "310"
+        ],
+        "YIELD": [
+          "40% (5 steps)"
+        ]
+      }
+    }
+  ]
+}

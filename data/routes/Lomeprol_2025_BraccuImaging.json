@@ -1,0 +1,129 @@
+{
+  "background": {
+    "name": "Lomeprol",
+    "author": null,
+    "year": 2025,
+    "drug_name": "Lomervu",
+    "manufacturer": "BraccuImaging",
+    "citation": "Eur. J. Med. Chem. 2025, 285, 117241",
+    "doi": "10.1016/j.ejmech.2025.117241"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Lomeprol_2025_BraccuImaging_1",
+      "reaction_smiles": "CNc1c(I)c(C(=O)O)c(I)c(C(=O)O)c1I.O=S(Cl)Cl.CCOC(C)=O>>CNc1c(I)c(C(=O)Cl)c(I)c(C(=O)Cl)c1I",
+      "reaction_smiles_mapped": "O[C:7]([c:6]1[c:4]([I:5])[c:3]([NH:2][CH3:1])[c:16]([I:17])[c:12]([C:13](O)=[O:14])[c:10]1[I:11])=[O:8].O=S([Cl:9])[Cl:15]>CCOC(C)=O>[CH3:1][NH:2][c:3]1[c:4]([I:5])[c:6]([C:7](=[O:8])[Cl:9])[c:10]([I:11])[c:12]([C:13](=[O:14])[Cl:15])[c:16]1[I:17]",
+      "mapping_confidence": 0.31058368440892314,
+      "conditions": {
+        "raw_description": "SOCl2; EtOAc; 50 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "SOCl2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "O=S(Cl)Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOAc"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCOC(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lomeprol_2025_BraccuImaging_2",
+      "reaction_smiles": "CNc1c(I)c(C(=O)Cl)c(I)c(C(=O)Cl)c1I.O=C(Cl)CCl.CC(=O)N(C)C>>CN(C(=O)CCl)c1c(I)c(C(=O)Cl)c(I)c(C(=O)Cl)c1I",
+      "reaction_smiles_mapped": "[CH3:1][NH:2][c:7]1[c:8]([I:9])[c:10]([C:11](=[O:12])[Cl:13])[c:14]([I:15])[c:16]([C:17](=[O:18])[Cl:19])[c:20]1[I:21].Cl[C:3](=[O:4])[CH2:5][Cl:6]>CC(=O)N(C)C>[CH3:1][N:2]([C:3](=[O:4])[CH2:5][Cl:6])[c:7]1[c:8]([I:9])[c:10]([C:11](=[O:12])[Cl:13])[c:14]([I:15])[c:16]([C:17](=[O:18])[Cl:19])[c:20]1[I:21]",
+      "mapping_confidence": 0.6557619362402626,
+      "conditions": {
+        "raw_description": "DMA; 50 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)N(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "50"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lomeprol_2025_BraccuImaging_3",
+      "reaction_smiles": "CN(C(=O)CCl)c1c(I)c(C(=O)Cl)c(I)c(C(=O)Cl)c1I.NCC(O)CO.NCC(O)CO.CCN(CC)CC.CC(=O)N(C)C>>CN(C(=O)CCl)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I",
+      "reaction_smiles_mapped": "Cl[C:11]([c:10]1[c:8]([I:9])[c:7]([N:2]([CH3:1])[C:3](=[O:4])[CH2:5][Cl:6])[c:30]([I:31])[c:21]([C:22](Cl)=[O:23])[c:19]1[I:20])=[O:12].[NH2:13][CH2:14][CH:15]([OH:16])[CH2:17][OH:18].[NH2:24][CH2:25][CH:26]([OH:27])[CH2:28][OH:29]>CC(=O)N(C)C.CCN(CC)CC>[CH3:1][N:2]([C:3](=[O:4])[CH2:5][Cl:6])[c:7]1[c:8]([I:9])[c:10]([C:11](=[O:12])[NH:13][CH2:14][CH:15]([OH:16])[CH2:17][OH:18])[c:19]([I:20])[c:21]([C:22](=[O:23])[NH:24][CH2:25][CH:26]([OH:27])[CH2:28][OH:29])[c:30]1[I:31]",
+      "mapping_confidence": 0.47020003141357414,
+      "conditions": {
+        "raw_description": "Et3N; DMA; 20 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "Et3N"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCN(CC)CC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMA"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC(=O)N(C)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "20"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "Lomeprol_2025_BraccuImaging_4",
+      "reaction_smiles": "CN(C(=O)CCl)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I.CC(=O)[O-].[Na+].O>>CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I",
+      "reaction_smiles_mapped": "Cl[CH2:5][C:3]([N:2]([CH3:1])[c:7]1[c:8]([I:9])[c:10]([C:11](=[O:12])[NH:13][CH2:14][CH:15]([OH:16])[CH2:17][OH:18])[c:19]([I:20])[c:21]([C:22](=[O:23])[NH:24][CH2:25][CH:26]([OH:27])[CH2:28][OH:29])[c:30]1[I:31])=[O:4].[OH2:6]>CC(=O)[O-].[Na+]>[CH3:1][N:2]([C:3](=[O:4])[CH2:5][OH:6])[c:7]1[c:8]([I:9])[c:10]([C:11](=[O:12])[NH:13][CH2:14][CH:15]([OH:16])[CH2:17][OH:18])[c:19]([I:20])[c:21]([C:22](=[O:23])[NH:24][CH2:25][CH:26]([OH:27])[CH2:28][OH:29])[c:30]1[I:31]",
+      "mapping_confidence": 0.7014796614098932,
+      "conditions": {
+        "raw_description": "NaOAc; H2O; reflux",
+        "GENERAL_REAGENTS": [
+          "NaOAc"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(=O)[O-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "H2O"
+        ],
+        "SOLVENTS_SMILES": [
+          "O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": []
+      }
+    }
+  ]
+}

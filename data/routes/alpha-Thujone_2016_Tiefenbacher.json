@@ -1,0 +1,217 @@
+{
+  "background": {
+    "name": "alpha-Thujone",
+    "author": "Tiefenbacher",
+    "year": 2016,
+    "drug_name": null,
+    "manufacturer": null,
+    "citation": "Chem. Commun. 2016, 52, 11701",
+    "doi": "10.1039/c6cc05376a"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_1",
+      "reaction_smiles": "C1=CCC=C1.CC(C)=O.CO.C1CCNC1>>CC(C)=C1C=CC=C1",
+      "reaction_smiles_mapped": "[CH:4]1=[CH:5][CH2:6][CH:7]=[CH:8]1.O=[C:2]([CH3:1])[CH3:3]>C1CCNC1.CO>[CH3:1][C:2]([CH3:3])=[C:4]1[CH:5]=[CH:6][CH:7]=[CH:8]1",
+      "mapping_confidence": 0.24694969756645319,
+      "conditions": {
+        "raw_description": "acetone; pyrrolidine; MeOH; 0-23 \u00b0C",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "MeOH",
+          "acetone",
+          "pyrrolidine"
+        ],
+        "SOLVENTS_SMILES": [
+          "CO",
+          "CC(=O)C",
+          "C1CCNC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_2",
+      "reaction_smiles": "CC(C)=C1C=CC=C1.[H-].[H-].[H-].[Li].[Al+3].C1CCOC1.[AlH4-].[Li+]>>CC(C)C1=CC=CC1",
+      "reaction_smiles_mapped": "[CH3:1][C:2]([CH3:3])=[C:4]1[CH:5]=[CH:6][CH:7]=[CH:8]1>C1CCOC1.[Al+3].[AlH4-].[H-].[H-].[H-].[Li+].[Li]>[CH3:1][CH:2]([CH3:3])[C:4]1=[CH:5][CH:6]=[CH:7][CH2:8]1",
+      "mapping_confidence": 0.5175092882226258,
+      "conditions": {
+        "raw_description": "LiAlH4; THF; 0-23 \u00b0C",
+        "GENERAL_REAGENTS": [
+          "LiAlH4"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[Li+].[AlH4-]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": []
+      }
+    },
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_3",
+      "reaction_smiles": "CC(C)C1=CC=CC1.OO.[Na+].[OH-].ClCCl.B.CSC.[Na+].[OH-].CSC>>CC(C)C1=CCC(O)C1",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C:4]1=[CH:5][CH:6]=[CH:7][CH2:9]1.O[OH:8]>B.CSC.CSC.ClCCl.[Na+].[Na+].[OH-].[OH-]>[CH3:1][CH:2]([CH3:3])[C:4]1=[CH:5][CH2:6][CH:7]([OH:8])[CH2:9]1",
+      "mapping_confidence": 0.43678098405495347,
+      "conditions": {
+        "raw_description": "BH3\u2022Me2S; H2O2; NaOH; DCM; 0-23 \u00b0C; 34% (3 steps)",
+        "GENERAL_REAGENTS": [
+          "BH3\u2022Me2S",
+          "H2O2",
+          "NaOH",
+          "Me2S"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CSC.B",
+          "OO",
+          "[OH-].[Na+]",
+          "CSC"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "34% (3 steps)"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_4",
+      "reaction_smiles": "CC(C)C1=CCC(O)C1.ClCCl.CC[Zn]CC.ICI>>CC(C)[C@]12C[C@@H](O)C[C@H]1C2",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C:4]1=[CH:9][CH2:8][CH:6]([OH:7])[CH2:5]1.I[CH2:10]I>CC[Zn]CC.ClCCl>[CH3:1][CH:2]([CH3:3])[C@:4]12[CH2:5][C@@H:6]([OH:7])[CH2:8][C@H:9]1[CH2:10]2",
+      "mapping_confidence": 0.675298567544417,
+      "conditions": {
+        "raw_description": "Et2Zn; CH2I2; DCM; 0-23 \u00b0C; 84%",
+        "GENERAL_REAGENTS": [
+          "Et2Zn",
+          "CH2I2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC[Zn]CC",
+          "C(I)I"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "23"
+        ],
+        "YIELD": [
+          "84%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_5",
+      "reaction_smiles": "CC(C)[C@]12C[C@@H](O)C[C@H]1C2.O=C1OI(=O)(O)c2ccccc21.CS(C)=O>>CC(C)[C@]12CC(=O)C[C@H]1C2",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@:4]12[CH2:5][C@@H:6]([OH:7])[CH2:8][C@H:9]1[CH2:10]2>CS(C)=O.O=C1OI(=O)(O)c2ccccc21>[CH3:1][CH:2]([CH3:3])[C@:4]12[CH2:5][C:6](=[O:7])[CH2:8][C@H:9]1[CH2:10]2",
+      "mapping_confidence": 0.8609833408293037,
+      "conditions": {
+        "raw_description": "IBX; DMSO; rt; 77%",
+        "GENERAL_REAGENTS": [
+          "IBX"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1=CC=C2C(=C1)C(=O)OI2(=O)O"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMSO"
+        ],
+        "SOLVENTS_SMILES": [
+          "CS(=O)C"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt"
+        ],
+        "YIELD": [
+          "77%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "alpha-Thujone_2016_Tiefenbacher_6",
+      "reaction_smiles": "CC(C)[C@]12CC(=O)C[C@H]1C2.CI.C[Si](C)(C)[N-][Si](C)(C)C.[K+].CN1CCCN(C)C1=O.C1CCOC1.C[Si](C)(C)[N-][Si](C)(C)C.[K+]>>CC(C)[C@]12CC(=O)[C@H](C)[C@H]1C2",
+      "reaction_smiles_mapped": "[CH3:1][CH:2]([CH3:3])[C@:4]12[CH2:5][C:6](=[O:7])[CH2:8][C@H:10]1[CH2:11]2.I[CH3:9]>C1CCOC1.CN1CCCN(C)C1=O.C[Si](C)(C)[N-][Si](C)(C)C.C[Si](C)(C)[N-][Si](C)(C)C.[K+].[K+]>[CH3:1][CH:2]([CH3:3])[C@:4]12[CH2:5][C:6](=[O:7])[C@H:8]([CH3:9])[C@H:10]1[CH2:11]2",
+      "mapping_confidence": 0.8645009684728174,
+      "conditions": {
+        "raw_description": "CH3I; KHMDS; DMPU; THF; -78 \u00b0C; 75%",
+        "GENERAL_REAGENTS": [
+          "CH3I",
+          "KHMDS"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CI",
+          "C[Si](C)(C)[N-][Si](C)(C)C.[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DMPU",
+          "THF"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCN(C1=O)C",
+          "C1CCOC1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78"
+        ],
+        "YIELD": [
+          "75%"
+        ]
+      }
+    }
+  ]
+}

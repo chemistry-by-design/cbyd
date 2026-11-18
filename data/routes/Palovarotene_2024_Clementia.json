@@ -1,0 +1,272 @@
+{
+  "background": {
+    "name": "Palovarotene",
+    "author": null,
+    "year": 2024,
+    "drug_name": "Sohonos",
+    "manufacturer": "Clementia",
+    "citation": "Eur. J. Med. Chem. 2024, 265, 116124.",
+    "doi": "10.1016/j.ejmech.2024.116124"
+  },
+  "synthesis": [
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_1",
+      "reaction_smiles": "CC(C)(O)CCC(C)(C)O.Cl.CCO>>CC(C)(Cl)CCC(C)(C)Cl",
+      "reaction_smiles_mapped": "O[C:2]([CH3:1])([CH3:3])[CH2:5][CH2:6][C:7](O)([CH3:8])[CH3:9].[ClH:4]>CCO>[CH3:1][C:2]([CH3:3])([Cl:4])[CH2:5][CH2:6][C:7]([CH3:8])([CH3:9])[Cl:10]",
+      "mapping_confidence": 0.49367952328787523,
+      "conditions": {
+        "raw_description": "HCl; EtOH; rt to 60 \u00b0C; 65%",
+        "GENERAL_REAGENTS": [
+          "HCl"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "Cl"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "rt",
+          "60"
+        ],
+        "YIELD": [
+          "65%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_2",
+      "reaction_smiles": "CC(C)(Cl)CCC(C)(C)Cl.Cc1ccccc1Br.[Cl][Al]([Cl])[Cl].ClCCl>>Cc1cc2c(cc1Br)C(C)(C)CCC2(C)C",
+      "reaction_smiles_mapped": "Cl[C:9]([CH3:10])([CH3:11])[CH2:12][CH2:13][C:14](Cl)([CH3:15])[CH3:16].[CH3:1][c:2]1[cH:3][cH:4][cH:5][cH:6][c:7]1[Br:8]>ClCCl.[Cl][Al]([Cl])[Cl]>[CH3:1][c:2]1[cH:3][c:4]2[c:5]([cH:6][c:7]1[Br:8])[C:9]([CH3:10])([CH3:11])[CH2:12][CH2:13][C:14]2([CH3:15])[CH3:16]",
+      "mapping_confidence": 0.31697135917406605,
+      "conditions": {
+        "raw_description": "AlCl3; DCM; reflux; 87%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [
+          "AlCl3"
+        ],
+        "CATALYSTS_SMILES": [
+          "[Al](Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "87%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_3",
+      "reaction_smiles": "Cc1cc2c(cc1Br)C(C)(C)CCC2(C)C.[C-]#N.[Cu+].CN1CCCC1=O>>Cc1cc2c(cc1C#N)C(C)(C)CCC2(C)C",
+      "reaction_smiles_mapped": "Br[c:7]1[c:2]([CH3:1])[cH:3][c:4]2[c:5]([cH:6]1)[C:10]([CH3:11])([CH3:12])[CH2:13][CH2:14][C:15]2([CH3:16])[CH3:17].[C-:8]#[N:9]>CN1CCCC1=O.[Cu+]>[CH3:1][c:2]1[cH:3][c:4]2[c:5]([cH:6][c:7]1[C:8]#[N:9])[C:10]([CH3:11])([CH3:12])[CH2:13][CH2:14][C:15]2([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.5271377720813029,
+      "conditions": {
+        "raw_description": "CUCN; NMP; 175 \u00b0C; 95%",
+        "GENERAL_REAGENTS": [
+          "CUCN"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[C-]#N.[Cu+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "175"
+        ],
+        "YIELD": [
+          "95%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_4",
+      "reaction_smiles": "Cc1cc2c(cc1C#N)C(C)(C)CCC2(C)C.CC(C)[CH2][AlH][CH2]C(C)C.ClCCl>>Cc1cc2c(cc1C=O)C(C)(C)CCC2(C)C",
+      "reaction_smiles_mapped": "N#[C:8][c:7]1[c:2]([CH3:1])[cH:3][c:4]2[c:5]([cH:6]1)[C:10]([CH3:11])([CH3:12])[CH2:13][CH2:14][C:15]2([CH3:16])[CH3:17]>CC(C)[CH2][AlH][CH2]C(C)C.ClCCl>[CH3:1][c:2]1[cH:3][c:4]2[c:5]([cH:6][c:7]1[CH:8]=[O:9])[C:10]([CH3:11])([CH3:12])[CH2:13][CH2:14][C:15]2([CH3:16])[CH3:17]",
+      "mapping_confidence": 0.5705361156327277,
+      "conditions": {
+        "raw_description": "DIBAL-H; DCM; -78 \u00b0C to rt; 63%",
+        "GENERAL_REAGENTS": [
+          "DIBAL-H"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CC(C)C[AlH]CC(C)C"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "DCM"
+        ],
+        "SOLVENTS_SMILES": [
+          "ClCCl"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "-78",
+          "rt"
+        ],
+        "YIELD": [
+          "63%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_5",
+      "reaction_smiles": "Cc1cc2c(cc1C=O)C(C)(C)CCC2(C)C.COC(=O)c1ccc(CP(=O)(OC)OC)cc1.CCC(C)(C)[O-].[K+].Cc1ccccc1>>COC(=O)c1ccc(/C=C/c2cc3c(cc2C)C(C)(C)CCC3(C)C)cc1",
+      "reaction_smiles_mapped": "COP(=O)(OC)[CH2:9][c:8]1[cH:7][cH:6][c:5]([C:3]([O:2][CH3:1])=[O:4])[cH:27][cH:26]1.O=[CH:10][c:11]1[cH:12][c:13]2[c:14]([cH:15][c:16]1[CH3:17])[C:18]([CH3:19])([CH3:20])[CH2:21][CH2:22][C:23]2([CH3:24])[CH3:25]>CCC(C)(C)[O-].Cc1ccccc1.[K+]>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8](/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]3[c:14]([cH:15][c:16]2[CH3:17])[C:18]([CH3:19])([CH3:20])[CH2:21][CH2:22][C:23]3([CH3:24])[CH3:25])[cH:26][cH:27]1",
+      "mapping_confidence": 0.3958766441023955,
+      "conditions": {
+        "raw_description": "t-AmOK; toluene; 0 \u00b0C to rt; 64%",
+        "GENERAL_REAGENTS": [
+          "t-AmOK"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "CCC(C)(C)[O-].[K+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "toluene"
+        ],
+        "SOLVENTS_SMILES": [
+          "CC1=CC=CC=C1"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "0",
+          "rt"
+        ],
+        "YIELD": [
+          "64%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_6",
+      "reaction_smiles": "COC(=O)c1ccc(/C=C/c2cc3c(cc2C)C(C)(C)CCC3(C)C)cc1.O=C1CCC(=O)N1Br.O=C(OOC(=O)c1ccccc1)c1ccccc1.ClC(Cl)(Cl)Cl>>COC(=O)c1ccc(/C=C/c2cc3c(cc2CBr)C(C)(C)CCC3(C)C)cc1",
+      "reaction_smiles_mapped": "[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8](/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]3[c:14]([cH:15][c:16]2[CH3:17])[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][C:24]3([CH3:25])[CH3:26])[cH:27][cH:28]1.O=C1CCC(=O)N1[Br:18]>ClC(Cl)(Cl)Cl.O=C(OOC(=O)c1ccccc1)c1ccccc1>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8](/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]3[c:14]([cH:15][c:16]2[CH2:17][Br:18])[C:19]([CH3:20])([CH3:21])[CH2:22][CH2:23][C:24]3([CH3:25])[CH3:26])[cH:27][cH:28]1",
+      "mapping_confidence": 0.5964084979579239,
+      "conditions": {
+        "raw_description": "NBS; (PhCO2)2; CCl4; reflux; light; 72%",
+        "GENERAL_REAGENTS": [
+          "NBS",
+          "(PhCO2)2"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "C1CC(=O)N(C1=O)Br",
+          "O=C(OOC(=O)c1ccccc1)c2ccccc2"
+        ],
+        "CATALYSTS": [
+          "CCl4"
+        ],
+        "CATALYSTS_SMILES": [
+          "C(Cl)(Cl)(Cl)Cl"
+        ],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [],
+        "SOLVENTS_SMILES": [],
+        "MODIFIERS": [
+          "light"
+        ],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "72%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_7",
+      "reaction_smiles": "COC(=O)c1ccc(/C=C/c2cc3c(cc2CBr)C(C)(C)CCC3(C)C)cc1.c1cn[nH]c1.CN1CCCC1=O>>COC(=O)c1ccc(/C=C/c2cc3c(cc2Cn2cccn2)C(C)(C)CCC3(C)C)cc1",
+      "reaction_smiles_mapped": "Br[CH2:17][c:16]1[c:11](/[CH:10]=[CH:9]/[c:8]2[cH:7][cH:6][c:5]([C:3]([O:2][CH3:1])=[O:4])[cH:32][cH:31]2)[cH:12][c:13]2[c:14]([cH:15]1)[C:23]([CH3:24])([CH3:25])[CH2:26][CH2:27][C:28]2([CH3:29])[CH3:30].[nH:18]1[cH:19][cH:20][cH:21][n:22]1>CN1CCCC1=O>[CH3:1][O:2][C:3](=[O:4])[c:5]1[cH:6][cH:7][c:8](/[CH:9]=[CH:10]/[c:11]2[cH:12][c:13]3[c:14]([cH:15][c:16]2[CH2:17][n:18]2[cH:19][cH:20][cH:21][n:22]2)[C:23]([CH3:24])([CH3:25])[CH2:26][CH2:27][C:28]3([CH3:29])[CH3:30])[cH:31][cH:32]1",
+      "mapping_confidence": 0.4553854533635511,
+      "conditions": {
+        "raw_description": "NMP; 100 \u00b0C; 83%",
+        "GENERAL_REAGENTS": [],
+        "GENERAL_REAGENTS_SMILES": [],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "NMP"
+        ],
+        "SOLVENTS_SMILES": [
+          "CN1CCCC1=O"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "100"
+        ],
+        "YIELD": [
+          "83%"
+        ]
+      }
+    },
+    {
+      "reaction_id": "Palovarotene_2024_Clementia_8",
+      "reaction_smiles": "COC(=O)c1ccc(/C=C/c2cc3c(cc2Cn2cccn2)C(C)(C)CCC3(C)C)cc1.[Na+].[OH-].CCO>>CC1(C)CCC(C)(C)c2cc(Cn3cccn3)c(/C=C/c3ccc(C(=O)O)cc3)cc21",
+      "reaction_smiles_mapped": "C[O:27][C:25]([c:24]1[cH:23][cH:22][c:21](/[CH:20]=[CH:19]/[c:18]2[c:11]([CH2:12][n:13]3[cH:14][cH:15][cH:16][n:17]3)[cH:10][c:9]3[c:31]([cH:30]2)[C:2]([CH3:1])([CH3:3])[CH2:4][CH2:5][C:6]3([CH3:7])[CH3:8])[cH:29][cH:28]1)=[O:26]>CCO.[Na+].[OH-]>[CH3:1][C:2]1([CH3:3])[CH2:4][CH2:5][C:6]([CH3:7])([CH3:8])[c:9]2[cH:10][c:11]([CH2:12][n:13]3[cH:14][cH:15][cH:16][n:17]3)[c:18](/[CH:19]=[CH:20]/[c:21]3[cH:22][cH:23][c:24]([C:25](=[O:26])[OH:27])[cH:28][cH:29]3)[cH:30][c:31]21",
+      "mapping_confidence": 0.4380327817637013,
+      "conditions": {
+        "raw_description": "NaOH; EtOH; reflux; 97%",
+        "GENERAL_REAGENTS": [
+          "NaOH"
+        ],
+        "GENERAL_REAGENTS_SMILES": [
+          "[OH-].[Na+]"
+        ],
+        "CATALYSTS": [],
+        "CATALYSTS_SMILES": [],
+        "LIGANDS": [],
+        "LIGANDS_SMILES": [],
+        "SOLVENTS": [
+          "EtOH"
+        ],
+        "SOLVENTS_SMILES": [
+          "CCO"
+        ],
+        "MODIFIERS": [],
+        "TEMPERATURE": [
+          "reflux"
+        ],
+        "YIELD": [
+          "97%"
+        ]
+      }
+    }
+  ]
+}

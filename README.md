@@ -59,14 +59,16 @@ Without the viewer, email [cbc-cbyd@arizona.edu](mailto:cbc-cbyd@arizona.edu) wi
 
 ## Citation
 
-TBD
+Williams, R. E.; Tran, S. B. A.; Leatherwood, H. M.; Roh, J.; Wolff, A.; Federice, J. G.; Lauta, N. R.; Yu, K.; Nick, S. J.; Jončev, Z.; Schwaller, P.; Coley, C. W.; Njardarson, J. T. Chemistry by Design (CbyD): A Machine-Readable Dataset of Expert-Curated Total Synthesis Routes. *arXiv* **2026**, [arXiv:2611.24996](https://arxiv.org/abs/2611.24996).
+
 
 ```bibtex
-@article{xxx,
-  title   = {xxx},
-  author  = {xxx},
-  journal = {xxx},
-  year    = {xxx},
-  doi     = {xxx}
+@article{williams2026cbyd,
+  title   = {Chemistry by Design ({CbyD}): A Machine-Readable Dataset of Expert-Curated Total Synthesis Routes},
+  author  = {Williams, Ryan E. and Tran, Suong B. A. and Leatherwood, Hayden M. and Roh, Jihye and Wolff, Aquila and Federice, John G. and Lauta, Nicholas R. and Yu, Kevin and Nick, Steven J. and Jon{\v{c}}ev, Zlatko and Schwaller, Philippe and Coley, Connor W. and Njardarson, Jon T.},
+  journal = {arXiv preprint arXiv:2611.24996},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2611.24996},
+  url     = {https://arxiv.org/abs/2611.24996}
 }
 ```
